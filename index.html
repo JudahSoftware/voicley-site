@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voicley — speak it. It's written, filed, and synced.</title>
+<meta name="description" content="Voicley turns your voice into organized notes, tasks, and meeting records — live, hands-free, on Windows and Android. Never lose a word.">
+<style>
+  :root{
+    --bg:#0b0b0f; --panel:#15151c; --panel2:#1c1c25; --line:#2a2a35;
+    --text:#f2f2f7; --dim:#9a9aa5; --faint:#6c6c78;
+    --accent:#5e8bff; --accent2:#7aa2ff; --green:#34c77b; --amber:#f0b23e; --red:#ff5b5b;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent2);text-decoration:none}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+  /* NAV */
+  nav{position:sticky;top:0;background:rgba(11,11,15,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:10}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;color:var(--text)}
+  .logo-dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#9b6bff);display:inline-flex;align-items:center;justify-content:center;font-size:14px}
+  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-weight:600;padding:10px 18px;border-radius:12px;border:0;cursor:pointer;font-size:15px}
+  .btn:hover{background:var(--accent2)}
+  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
+  .btn.ghost:hover{border-color:var(--accent)}
+  .btn.big{padding:14px 26px;font-size:17px;border-radius:14px}
+  /* HERO */
+  header{padding:84px 0 40px;text-align:center}
+  .eyebrow{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 14px;color:var(--dim);font-size:13px;margin-bottom:22px}
+  .eyebrow b{color:var(--green);font-weight:600}
+  h1{font-size:clamp(34px,6vw,58px);line-height:1.12;letter-spacing:-.02em;font-weight:800}
+  h1 .grad{background:linear-gradient(90deg,var(--accent2),#a98bff);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{max-width:640px;margin:20px auto 30px;color:var(--dim);font-size:19px}
+  .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .cta-note{margin-top:12px;color:var(--faint);font-size:13px}
+  /* APP MOCK */
+  .mock{max-width:640px;margin:56px auto 0;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:14px;text-align:left;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+  .mock-chips{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+  .chip{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:12.5px;color:var(--dim)}
+  .chip.on{border-color:var(--accent);color:var(--accent2);background:rgba(94,139,255,.1)}
+  .chip.plus{color:var(--accent2);font-weight:700}
+  .mitem{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+  .mitem.live{border-color:var(--red);box-shadow:0 0 0 1px rgba(255,91,91,.35),0 0 18px rgba(255,91,91,.18)}
+  .mtag{font-size:11px;letter-spacing:.4px;color:var(--faint);text-transform:uppercase;font-weight:700}
+  .mtag.note{color:var(--accent2)} .mtag.task{color:var(--green)} .mtag.meet{color:var(--amber)}
+  .mtitle{font-weight:600;font-size:14.5px;margin-top:3px}
+  .mbody{color:var(--dim);font-size:13.5px;margin-top:2px}
+  .cursor{display:inline-block;width:2px;height:14px;background:var(--accent2);vertical-align:-2px;animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .mock-bar{display:flex;gap:6px;margin-top:12px}
+  .seg{flex:1;text-align:center;border:1px solid var(--line);border-radius:10px;padding:8px 0;font-size:13px;color:var(--dim)}
+  .seg.on{background:rgba(94,139,255,.14);border-color:var(--accent);color:var(--accent2);font-weight:600}
+  /* SECTIONS */
+  section{padding:72px 0}
+  h2{font-size:clamp(26px,4vw,36px);letter-spacing:-.01em;text-align:center;margin-bottom:14px}
+  .lead{color:var(--dim);text-align:center;max-width:620px;margin:0 auto 42px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .card .ic{font-size:22px;margin-bottom:10px}
+  .card h3{font-size:16.5px;margin-bottom:6px}
+  .card p{color:var(--dim);font-size:14.5px}
+  .new{display:inline-block;background:rgba(52,199,123,.15);color:var(--green);font-size:11px;font-weight:700;border-radius:6px;padding:2px 7px;margin-left:6px;vertical-align:2px}
+  /* STEPS */
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;counter-reset:s}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}
+  .step:before{counter-increment:s;content:counter(s);display:inline-flex;width:30px;height:30px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#9b6bff);align-items:center;justify-content:center;font-weight:700;margin-bottom:12px}
+  .step h3{font-size:16.5px;margin-bottom:6px}
+  .step p{color:var(--dim);font-size:14.5px}
+  /* DOWNLOAD */
+  .dl{background:linear-gradient(180deg,rgba(94,139,255,.10),transparent);border:1px solid var(--line);border-radius:22px;padding:48px 28px;text-align:center}
+  .dl h2{margin-bottom:8px}
+  .dl .lead{margin-bottom:28px}
+  .dl-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+  .dl small{display:block;color:var(--faint);font-size:12.5px;margin-top:14px;max-width:560px;margin-left:auto;margin-right:auto}
+  /* SIGNUP */
+  .signup{max-width:520px;margin:26px auto 0;display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  .signup input{flex:1;min-width:240px;background:var(--panel2);border:1px solid var(--line);border-radius:12px;color:var(--text);padding:12px 16px;font-size:15px;outline:none}
+  .signup input:focus{border-color:var(--accent)}
+  .ok-note{color:var(--green);font-size:13.5px;margin-top:10px;display:none}
+  /* PROMISE */
+  .promise{border-left:3px solid var(--accent);background:var(--panel);border-radius:0 16px 16px 0;padding:22px 26px;max-width:720px;margin:0 auto}
+  .promise p{color:var(--dim);font-size:15px}
+  .promise b{color:var(--text)}
+  footer{border-top:1px solid var(--line);padding:34px 0;color:var(--faint);font-size:13.5px;text-align:center}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap nav-in">
+  <span class="logo"><span class="logo-dot">🎙</span>Voicley</span>
+  <a class="btn" href="#download">Download</a>
+</div></nav>
+
+<header class="wrap">
+  <span class="eyebrow"><b>●</b>&nbsp; Live dictation that never loses a word</span>
+  <h1>Speak it.<br><span class="grad">It's written, filed, and synced.</span></h1>
+  <p class="sub">Voicley turns your voice into organized notes, tasks, and meeting records — live, as you talk, hands-free. On Windows and Android, everywhere you think out loud.</p>
+  <div class="cta-row">
+    <a class="btn big" href="#download">⬇&nbsp; Download for Windows</a>
+    <a class="btn big ghost" href="#signup">Get early access</a>
+  </div>
+  <p class="cta-note">Free while in early access · no account needed</p>
+
+  <div class="mock" aria-hidden="true">
+    <div class="mock-chips">
+      <span class="chip on">All&nbsp; 5</span><span class="chip">Notes&nbsp; 3</span>
+      <span class="chip">Tasks&nbsp; 1</span><span class="chip">Meetings&nbsp; 1</span>
+      <span class="chip plus">＋</span>
+    </div>
+    <div class="mitem live">
+      <span class="mtag note">Note</span>
+      <div class="mbody">Pick up the anchor bolts before Saturday, and remind Jesse the dock wiring needs<span class="cursor"></span></div>
+    </div>
+    <div class="mitem">
+      <span class="mtag task">Task</span>
+      <div class="mtitle">Order the trailer hitch</div>
+      <div class="mbody">Sent to your tasks page ✓</div>
+    </div>
+    <div class="mitem">
+      <span class="mtag meet">Meeting</span>
+      <div class="mtitle">Pricing sync with Dana</div>
+      <div class="mbody">Speaker 1 · Speaker 2 — 14 min, transcribed &amp; recorded</div>
+    </div>
+    <div class="mock-bar">
+      <span class="seg">Off</span><span class="seg">Commands only</span><span class="seg on">Dictate</span>
+    </div>
+  </div>
+</header>
+
+<section id="features" class="wrap">
+  <h2>Everything a voice deserves</h2>
+  <p class="lead">Built around one law: <b>capture first.</b> Your words are written to disk from the first syllable — the internet, the engine, even the app can hiccup and you still lose nothing.</p>
+  <div class="grid">
+    <div class="card"><div class="ic">⚡</div><h3>Live captions as you talk</h3><p>Words appear in well under a second, punctuated and clean — powered by a streaming speech engine built for real time.</p></div>
+    <div class="card"><div class="ic">🗣</div><h3>Voice commands</h3><p>"New note." "New task… end task." "New paragraph." "Stop dictation." Your voice drives the whole app — the buttons are just backup.</p></div>
+    <div class="card"><div class="ic">👥</div><h3>Who said what<span class="new">NEW</span></h3><p>Conversations break out by speaker — and every speaker block plays back exactly that stretch of audio.</p></div>
+    <div class="card"><div class="ic">📋</div><h3>Notes, tasks &amp; meetings</h3><p>Say "new task" mid-thought and the words file themselves to your task list. Long recordings become meetings automatically.</p></div>
+    <div class="card"><div class="ic">📁</div><h3>Folders + sync</h3><p>Organize with drag &amp; drop; everything syncs across your phone and PC — including the audio.</p></div>
+    <div class="card"><div class="ic">📓</div><h3>OneNote, live</h3><p>Dictation can stream straight into your OneNote pages as you speak — titles, sections, and all.</p></div>
+    <div class="card"><div class="ic">🎧</div><h3>Listen back</h3><p>Queue items into a listening list and play them on a walk — transcripts read aloud, recordings replayed, hands free.</p></div>
+    <div class="card"><div class="ic">🔒</div><h3>Local-first</h3><p>Works fully offline. Your recordings and text live on your device first — the cloud is a convenience, not a requirement.</p></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>How it works</h2>
+  <p class="lead">No setup ceremony. Open it, tap Dictate, talk.</p>
+  <div class="steps">
+    <div class="step"><h3>Speak</h3><p>Tap Dictate — or just say what kind of thing this is: a note, a task, a meeting.</p></div>
+    <div class="step"><h3>It's written live</h3><p>Your words land on screen as you say them, and every recording is kept — audio and text.</p></div>
+    <div class="step"><h3>Filed &amp; everywhere</h3><p>Items title themselves, file into folders, sync to your other devices, and can stream into OneNote.</p></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="promise">
+    <p><b>The capture-first promise.</b> Dictation apps that drop words are worse than useless — you stop trusting your own notes. Voicley writes audio to disk from the first frame, survives dead networks, mid-session crashes, and phone calls, and re-transcribes anything that didn't finish. <b>If you said it, it's saved.</b></p>
+  </div>
+</section>
+
+<section id="download" class="wrap">
+  <div class="dl">
+    <h2>Get Voicley</h2>
+    <p class="lead">Windows today. Android via early access.</p>
+    <div class="dl-row">
+      <a class="btn big" href="VoicleySetup.exe" download>⬇&nbsp; Download for Windows</a>
+      <a class="btn big ghost" href="#signup">📱&nbsp; Android — join the list</a>
+    </div>
+    <small>Windows 10/11 · ~15 MB · installs per-user, no admin needed. Live dictation works out of the box; optional AI extras (smart titles, Whisper fallback) activate with your own OpenAI key in Settings.</small>
+
+    <div id="signup" style="margin-top:40px">
+      <h3 style="margin-bottom:6px">Early access list</h3>
+      <p style="color:var(--dim);font-size:14.5px">Android builds, new features first, and launch news. No spam — it's just us.</p>
+      <form class="signup" onsubmit="return joinList(event)">
+        <input id="em" type="email" required placeholder="you@example.com" aria-label="Email address">
+        <button class="btn" type="submit">Join</button>
+      </form>
+      <p class="ok-note" id="oknote">Almost there — your email app just opened with the signup message. Hit send!</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Voicley · © 2026 Judah Software · <a href="mailto:hifromroger@gmail.com">Contact</a></div>
+</footer>
+
+<script>
+function joinList(e){
+  e.preventDefault();
+  var em = document.getElementById('em').value.trim();
+  if(!em) return false;
+  var body = encodeURIComponent('Please add me to the Voicley early-access list.\n\nEmail: ' + em + '\nInterested in: Android / Windows\n');
+  window.location.href = 'mailto:hifromroger@gmail.com?subject=' + encodeURIComponent('Voicley early access') + '&body=' + body;
+  document.getElementById('oknote').style.display = 'block';
+  return false;
+}
+</script>
+</body>
+</html>
