@@ -87,7 +87,12 @@
   <h1>Your library</h1>
   <p>Sign in with the same email and password Voicley's sync uses on your phone or PC.</p>
   <label>Email</label><input id="email" type="email" autocomplete="username">
-  <label>Password</label><input id="pw" type="password" autocomplete="current-password">
+  <label>Password</label>
+  <div style="position:relative">
+    <input id="pw" type="password" autocomplete="current-password" style="padding-right:64px">
+    <button type="button" id="pwtoggle"
+      style="position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--accent2);font-size:13px;font-weight:600;padding:6px">Show</button>
+  </div>
   <button class="btn" id="loginbtn">Sign in</button>
   <p class="err" id="loginerr"></p>
 </div>
@@ -128,6 +133,11 @@ function toast(msg){ const t=$('toast'); t.textContent=msg; t.style.display='blo
 /* ---------- auth ---------- */
 $('loginbtn').onclick = signIn;
 $('pw').addEventListener('keydown', e => { if(e.key==='Enter') signIn(); });
+$('pwtoggle').onclick = () => {
+  const pw = $('pw'), show = pw.type === 'password';
+  pw.type = show ? 'text' : 'password';
+  $('pwtoggle').textContent = show ? 'Hide' : 'Show';
+};
 async function signIn(){
   $('loginerr').style.display='none';
   const { error } = await sb.auth.signInWithPassword({
