@@ -175,9 +175,9 @@
       <p style="color:var(--dim);font-size:14.5px">Android builds, new features first, and launch news. No spam — it's just us.</p>
       <form class="signup" onsubmit="return joinList(event)">
         <input id="em" type="email" required placeholder="you@example.com" aria-label="Email address">
-        <button class="btn" type="submit">Join</button>
+        <button class="btn" type="submit" id="joinbtn">Join</button>
       </form>
-      <p class="ok-note" id="oknote">Almost there — your email app just opened with the signup message. Hit send!</p>
+      <p class="ok-note" id="oknote">You're on the list — welcome aboard! 🎉</p>
     </div>
   </div>
 </section>
@@ -187,13 +187,41 @@
 </footer>
 
 <script>
+// Signups land in the Voicley Supabase project (site_signups, insert-only
+// for anonymous visitors — see supabase-signups.sql). The publishable key is
+// public by design. If the table/endpoint is unreachable, fall back to a
+// prefilled email so a signup is never lost.
+var SB_URL = 'https://bhjakjyoezusqzzzanvu.supabase.co';
+var SB_KEY = 'sb_publishable_d6o4aJWS72oO9iw9Lz-mvQ_EwE8HZlA';
+function mailFallback(em){
+  var body = encodeURIComponent('Please add me to the Voicley early-access list.\n\nEmail: ' + em + '\nInterested in: Android / Windows\n');
+  window.location.href = 'mailto:hifromroger@gmail.com?subject=' + encodeURIComponent('Voicley early access') + '&body=' + body;
+  var n = document.getElementById('oknote');
+  n.textContent = 'Almost there — your email app just opened with the signup message. Hit send!';
+  n.style.display = 'block';
+}
 function joinList(e){
   e.preventDefault();
   var em = document.getElementById('em').value.trim();
   if(!em) return false;
-  var body = encodeURIComponent('Please add me to the Voicley early-access list.\n\nEmail: ' + em + '\nInterested in: Android / Windows\n');
-  window.location.href = 'mailto:hifromroger@gmail.com?subject=' + encodeURIComponent('Voicley early access') + '&body=' + body;
-  document.getElementById('oknote').style.display = 'block';
+  var btn = document.getElementById('joinbtn');
+  btn.disabled = true; btn.textContent = 'Joining…';
+  fetch(SB_URL + '/rest/v1/site_signups', {
+    method: 'POST',
+    headers: {
+      'apikey': SB_KEY,
+      'Authorization': 'Bearer ' + SB_KEY,
+      'Content-Type': 'application/json',
+      'Prefer': 'return=minimal'
+    },
+    body: JSON.stringify({email: em, platform: 'site'})
+  }).then(function(r){
+    if(r.ok){
+      document.getElementById('oknote').style.display = 'block';
+      document.getElementById('em').value = '';
+    } else { mailFallback(em); }
+  }).catch(function(){ mailFallback(em); })
+    .finally(function(){ btn.disabled = false; btn.textContent = 'Join'; });
   return false;
 }
 </script>
