@@ -7,9 +7,9 @@
 <meta name="robots" content="noindex">
 <style>
   :root{
-    --bg:#0b0b0f; --panel:#15151c; --panel2:#1c1c25; --line:#2a2a35;
-    --text:#f2f2f7; --dim:#9a9aa5; --faint:#6c6c78;
-    --accent:#5e8bff; --accent2:#7aa2ff; --green:#34c77b; --amber:#f0b23e; --red:#ff5b5b;
+    --bg:#f5f6f8; --panel:#ffffff; --panel2:#f0f1f4; --line:#e2e3e9;
+    --text:#1c1c21; --dim:#5f5f68; --faint:#8e8e96;
+    --accent:#3f6ae0; --accent2:#5b82f2; --green:#1fa564; --amber:#c98a1a; --red:#e04545;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   body{background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
@@ -20,7 +20,7 @@
   .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
   .btn.sm{padding:5px 11px;font-size:13px;border-radius:9px}
   /* TOP BAR */
-  .top{position:sticky;top:0;display:flex;align-items:center;gap:14px;background:rgba(11,11,15,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:0 18px;height:56px;z-index:5}
+  .top{position:sticky;top:0;display:flex;align-items:center;gap:14px;background:rgba(245,246,248,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:0 18px;height:56px;z-index:5}
   .logo{display:flex;align-items:center;gap:9px;font-weight:700;font-size:17px}
   .logo span{width:24px;height:24px;border-radius:7px;background:linear-gradient(135deg,var(--accent),#9b6bff);display:inline-flex;align-items:center;justify-content:center;font-size:13px}
   .top input{flex:1;max-width:420px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;color:var(--text);padding:8px 13px;font-size:14px;outline:none}
@@ -66,7 +66,7 @@
   select{background:var(--panel2);border:1px solid var(--line);border-radius:9px;color:var(--text);padding:6px 10px;font-size:13px}
   .noaudio{color:var(--faint);font-size:12px}
   /* PLAYER */
-  .player{position:fixed;left:0;right:0;bottom:0;display:none;align-items:center;gap:14px;background:rgba(17,17,23,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:10px 18px}
+  .player{position:fixed;left:0;right:0;bottom:0;display:none;align-items:center;gap:14px;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:10px 18px;box-shadow:0 -4px 16px rgba(30,35,60,.08)}
   .player.on{display:flex}
   .player .pt{font-size:13.5px;font-weight:600;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .player audio{flex:1;height:36px}

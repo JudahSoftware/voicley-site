@@ -7,9 +7,9 @@
 <meta name="description" content="Voicley turns your voice into organized notes, tasks, and meeting records — live, hands-free, on Windows and Android. Never lose a word.">
 <style>
   :root{
-    --bg:#0b0b0f; --panel:#15151c; --panel2:#1c1c25; --line:#2a2a35;
-    --text:#f2f2f7; --dim:#9a9aa5; --faint:#6c6c78;
-    --accent:#5e8bff; --accent2:#7aa2ff; --green:#34c77b; --amber:#f0b23e; --red:#ff5b5b;
+    --bg:#f5f6f8; --panel:#ffffff; --panel2:#f0f1f4; --line:#e2e3e9;
+    --text:#1c1c21; --dim:#5f5f68; --faint:#8e8e96;
+    --accent:#3f6ae0; --accent2:#5b82f2; --green:#1fa564; --amber:#c98a1a; --red:#e04545;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -17,7 +17,7 @@
   a{color:var(--accent2);text-decoration:none}
   .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
   /* NAV */
-  nav{position:sticky;top:0;background:rgba(11,11,15,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:10}
+  nav{position:sticky;top:0;background:rgba(245,246,248,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:10}
   .nav-in{display:flex;align-items:center;justify-content:space-between;height:60px}
   .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;color:var(--text)}
   .logo-dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#9b6bff);display:inline-flex;align-items:center;justify-content:center;font-size:14px}
@@ -35,8 +35,11 @@
   .sub{max-width:640px;margin:20px auto 30px;color:var(--dim);font-size:19px}
   .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
   .cta-note{margin-top:12px;color:var(--faint);font-size:13px}
-  /* APP MOCK */
-  .mock{max-width:640px;margin:56px auto 0;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:14px;text-align:left;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+  /* APP MOCK — deliberately DARK inside a light site: it shows the actual
+     product (Voicley's dark iOS look), device-frame style. Scoped variables
+     re-darken just this card. */
+  .mock{--panel:#15151c;--panel2:#1c1c25;--line:#2a2a35;--text:#f2f2f7;--dim:#9a9aa5;--faint:#6c6c78;--accent:#5e8bff;--accent2:#7aa2ff;--green:#34c77b;--amber:#f0b23e;--red:#ff5b5b;
+    color:var(--text);max-width:640px;margin:56px auto 0;background:var(--panel);border:1px solid #2a2a35;border-radius:18px;padding:14px;text-align:left;box-shadow:0 24px 60px rgba(20,25,60,.25)}
   .mock-chips{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
   .chip{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:12.5px;color:var(--dim)}
   .chip.on{border-color:var(--accent);color:var(--accent2);background:rgba(94,139,255,.1)}
