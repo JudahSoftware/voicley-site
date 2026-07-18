@@ -1,317 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Voicley — your library</title>
-<meta name="robots" content="noindex">
-<style>
-  :root{
-    --bg:#f5f6f8; --panel:#ffffff; --panel2:#f0f1f4; --line:#e2e3e9;
-    --text:#1c1c21; --dim:#5f5f68; --faint:#8e8e96;
-    --accent:#3f6ae0; --accent2:#5b82f2; --green:#1fa564; --amber:#c98a1a; --red:#e04545;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  a{color:var(--accent2);text-decoration:none}
-  button{font:inherit;cursor:pointer}
-  .btn{display:inline-flex;align-items:center;gap:7px;background:var(--accent);color:#fff;font-weight:600;padding:9px 16px;border-radius:11px;border:0;font-size:14.5px}
-  .btn:hover{background:var(--accent2)}
-  .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
-  .btn.sm{padding:5px 11px;font-size:13px;border-radius:9px}
-  /* TOP BAR */
-  .top{position:sticky;top:0;display:flex;align-items:center;gap:14px;background:rgba(245,246,248,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:0 18px;height:56px;z-index:5}
-  .logo{display:flex;align-items:center;gap:9px;font-weight:700;font-size:17px}
-  .logo span{width:24px;height:24px;border-radius:7px;background:linear-gradient(135deg,var(--accent),#9b6bff);display:inline-flex;align-items:center;justify-content:center;font-size:13px}
-  .top input{flex:1;max-width:420px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;color:var(--text);padding:8px 13px;font-size:14px;outline:none}
-  .top input:focus{border-color:var(--accent)}
-  .who{margin-left:auto;color:var(--faint);font-size:13px;display:flex;align-items:center;gap:10px}
-  /* LOGIN */
-  .login{max-width:360px;margin:12vh auto;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:30px}
-  .login h1{font-size:21px;margin-bottom:4px}
-  .login p{color:var(--dim);font-size:13.5px;margin-bottom:18px}
-  .login label{display:block;color:var(--dim);font-size:12.5px;margin:12px 0 4px}
-  .login input{width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:10px;color:var(--text);padding:11px 13px;font-size:15px;outline:none}
-  .login input:focus{border-color:var(--accent)}
-  .login .btn{width:100%;justify-content:center;margin-top:18px}
-  .err{color:var(--red);font-size:13.5px;margin-top:12px;display:none}
-  /* LAYOUT */
-  .shell{display:none;grid-template-columns:230px 1fr;min-height:calc(100vh - 56px)}
-  .side{border-right:1px solid var(--line);padding:16px 10px;background:var(--panel)}
-  .side h4{font-size:11px;letter-spacing:.6px;color:var(--faint);padding:0 10px;margin:14px 0 6px;display:flex;justify-content:space-between;align-items:center}
-  .side h4 button{background:none;border:0;color:var(--accent2);font-size:15px}
-  .nav-row{display:flex;justify-content:space-between;align-items:center;width:100%;background:none;border:0;color:var(--dim);padding:7px 10px;border-radius:9px;font-size:14px;text-align:left}
-  .nav-row:hover{background:var(--panel2);color:var(--text)}
-  .nav-row.on{background:rgba(94,139,255,.14);color:var(--accent2);font-weight:600}
-  .nav-row .n{color:var(--faint);font-size:12px}
-  /* LIST */
-  .main{padding:18px 22px 120px}
-  .main h2{font-size:17px;margin-bottom:12px;display:flex;align-items:center;gap:12px}
-  .main h2 .btn{margin-left:auto}
-  .item{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:13px 15px;margin-bottom:9px}
-  .item .row1{display:flex;align-items:center;gap:9px;cursor:pointer}
-  .tag{font-size:10.5px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;border-radius:6px;padding:2px 7px}
-  .tag.note{color:var(--accent2);background:rgba(94,139,255,.12)}
-  .tag.task{color:var(--green);background:rgba(52,199,123,.12)}
-  .tag.meeting{color:var(--amber);background:rgba(240,178,62,.12)}
-  .t{font-weight:600;font-size:14.5px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .meta{color:var(--faint);font-size:12.5px;white-space:nowrap}
-  .pv{color:var(--dim);font-size:13.5px;margin-top:6px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
-  .full{display:none;margin-top:10px;color:var(--text);font-size:14px;white-space:pre-wrap;border-top:1px solid var(--line);padding-top:10px}
-  .acts{display:none;gap:8px;margin-top:10px;flex-wrap:wrap;align-items:center}
-  .item.open .full,.item.open .acts{display:flex}
-  .item.open .full{display:block}
-  .item.open .pv{display:none}
-  .item.playing{border-color:var(--accent)}
-  select{background:var(--panel2);border:1px solid var(--line);border-radius:9px;color:var(--text);padding:6px 10px;font-size:13px}
-  .noaudio{color:var(--faint);font-size:12px}
-  /* PLAYER */
-  .player{position:fixed;left:0;right:0;bottom:0;display:none;align-items:center;gap:14px;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:10px 18px;box-shadow:0 -4px 16px rgba(30,35,60,.08)}
-  .player.on{display:flex}
-  .player .pt{font-size:13.5px;font-weight:600;max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .player audio{flex:1;height:36px}
-  .toast{position:fixed;top:66px;left:50%;transform:translateX(-50%);background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:9px 16px;font-size:13.5px;display:none;z-index:20}
-  @media(max-width:760px){.shell{grid-template-columns:1fr}.side{display:flex;overflow-x:auto;border-right:0;border-bottom:1px solid var(--line);padding:8px}.side h4{display:none}.nav-row{white-space:nowrap;width:auto}}
-</style>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/app/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="dictate">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>dictate</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
 
-<div class="top">
-  <a class="logo" href="../"><span>🎙</span>Voicley</a>
-  <input id="q" placeholder="Search your items…" style="display:none">
-  <span class="who" id="who"></span>
-</div>
-
-<!-- LOGIN -->
-<div class="login" id="login">
-  <h1>Your library</h1>
-  <p>Sign in with the same email and password Voicley's sync uses on your phone or PC.</p>
-  <label>Email</label><input id="email" type="email" autocomplete="username">
-  <label>Password</label>
-  <div style="position:relative">
-    <input id="pw" type="password" autocomplete="current-password" style="padding-right:64px">
-    <button type="button" id="pwtoggle"
-      style="position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--accent2);font-size:13px;font-weight:600;padding:6px">Show</button>
-  </div>
-  <button class="btn" id="loginbtn">Sign in</button>
-  <p class="err" id="loginerr"></p>
-</div>
-
-<!-- APP -->
-<div class="shell" id="shell">
-  <div class="side" id="side"></div>
-  <div class="main">
-    <h2 id="viewtitle"></h2>
-    <div id="list"></div>
-  </div>
-</div>
-
-<div class="player" id="player">
-  <span class="pt" id="ptitle"></span>
-  <audio id="audio" controls></audio>
-  <button class="btn sm ghost" id="stopall">Stop</button>
-</div>
-<div class="toast" id="toast"></div>
-
-<script type="module">
-import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
-
-const sb = createClient(
-  'https://bhjakjyoezusqzzzanvu.supabase.co',
-  'sb_publishable_d6o4aJWS72oO9iw9Lz-mvQ_EwE8HZlA'
-);
-
-const $ = (id) => document.getElementById(id);
-let recs = [], folders = [], members = [];   // raw data
-let view = { kind: 'all', folderId: null };  // current filter
-let queue = [], qi = -1;                     // play-all queue
-let playingId = null;
-
-function toast(msg){ const t=$('toast'); t.textContent=msg; t.style.display='block';
-  clearTimeout(t._h); t._h=setTimeout(()=>t.style.display='none', 3500); }
-
-/* ---------- auth ---------- */
-$('loginbtn').onclick = signIn;
-$('pw').addEventListener('keydown', e => { if(e.key==='Enter') signIn(); });
-$('pwtoggle').onclick = () => {
-  const pw = $('pw'), show = pw.type === 'password';
-  pw.type = show ? 'text' : 'password';
-  $('pwtoggle').textContent = show ? 'Hide' : 'Show';
-};
-async function signIn(){
-  $('loginerr').style.display='none';
-  const { error } = await sb.auth.signInWithPassword({
-    email: $('email').value.trim(), password: $('pw').value });
-  if (error){ $('loginerr').textContent = error.message; $('loginerr').style.display='block'; return; }
-  boot();
-}
-async function boot(){
-  const { data: { session } } = await sb.auth.getSession();
-  if (!session) return; // stay on login
-  $('login').style.display='none';
-  $('shell').style.display='grid';
-  $('q').style.display='block';
-  $('who').innerHTML = `${session.user.email} · <a href="#" id="out">sign out</a>`;
-  $('out').onclick = async (e)=>{ e.preventDefault(); await sb.auth.signOut(); location.reload(); };
-  await loadAll();
-  render();
-}
-boot(); // resume an existing session on load
-
-/* ---------- data ---------- */
-async function loadAll(){
-  const [r, f, m] = await Promise.all([
-    sb.from('recordings')
-      .select('id,title,transcript,kind,duration_ms,created_at,audio_key,listen,listen_excluded')
-      .is('deleted_at', null).order('created_at', { ascending:false }).limit(1000),
-    sb.from('folders').select('id,name').is('deleted_at', null).order('name'),
-    sb.from('folder_memberships').select('folder_id,member_id,member_is_folder')
-      .is('deleted_at', null),
-  ]);
-  for (const x of [r,f,m]) if (x.error) { toast('Load failed: '+x.error.message); return; }
-  recs = r.data; folders = f.data; members = m.data;
-}
-
-/* ---------- derive ---------- */
-const inFolder = (fid) => new Set(members.filter(m => m.folder_id===fid && !m.member_is_folder).map(m => m.member_id));
-const kindOf = (r) => (r.kind==='task') ? 'task'
-  : (r.kind==='meeting') ? 'meeting'
-  : (r.kind==='dictation') ? 'note'
-  : ((r.duration_ms||0) >= 120000 ? 'meeting' : 'note');
-const titleOf = (r) => (r.title||'').trim()
-  || (r.transcript||'').trim().split('\n')[0].slice(0,80)
-  || '(no text yet)';
-const mmss = (ms) => { const s=Math.round((ms||0)/1000); return s? `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}` : ''; };
-function visible(){
-  let list = recs;
-  if (view.kind==='listening') list = list.filter(r => r.listen===true && r.listen_excluded!==true);
-  if (view.kind==='folder'){ const ids = inFolder(view.folderId); list = list.filter(r => ids.has(r.id)); }
-  const q = $('q').value.trim().toLowerCase();
-  if (q) list = list.filter(r => (r.title||'').toLowerCase().includes(q) || (r.transcript||'').toLowerCase().includes(q));
-  return list;
-}
-
-/* ---------- render ---------- */
-function render(){ renderSide(); renderList(); }
-function renderSide(){
-  const side = $('side'); side.innerHTML='';
-  const mk = (label, count, on, click) => {
-    const b = document.createElement('button');
-    b.className = 'nav-row'+(on?' on':'');
-    b.innerHTML = `<span>${label}</span><span class="n">${count??''}</span>`;
-    b.onclick = click; return b; };
-  side.append(mk('All', recs.length, view.kind==='all', ()=>{ view={kind:'all',folderId:null}; render(); }));
-  side.append(mk('🎧 Listening', recs.filter(r=>r.listen===true&&r.listen_excluded!==true).length,
-    view.kind==='listening', ()=>{ view={kind:'listening',folderId:null}; render(); }));
-  const h = document.createElement('h4');
-  h.innerHTML = '<span>FOLDERS</span>';
-  const plus = document.createElement('button'); plus.textContent='＋'; plus.title='New folder';
-  plus.onclick = newFolder; h.append(plus); side.append(h);
-  for (const f of folders){
-    side.append(mk(f.name, inFolder(f.id).size, view.kind==='folder'&&view.folderId===f.id,
-      ()=>{ view={kind:'folder',folderId:f.id}; render(); }));
-  }
-}
-function renderList(){
-  const list = $('list'); list.innerHTML='';
-  const items = visible();
-  const vt = view.kind==='all' ? 'All items'
-    : view.kind==='listening' ? 'Listening list'
-    : (folders.find(f=>f.id===view.folderId)?.name || 'Folder');
-  $('viewtitle').innerHTML = `${vt} <span class="meta">${items.length}</span>`;
-  if (view.kind==='listening' && items.some(r=>r.audio_key)){
-    const pa = document.createElement('button'); pa.className='btn sm'; pa.textContent='▶ Play all';
-    pa.onclick = ()=> playAll(items.filter(r=>r.audio_key));
-    $('viewtitle').append(pa);
-  }
-  if (!items.length){ list.innerHTML = '<p class="meta">Nothing here yet.</p>'; return; }
-  for (const r of items){
-    const d = document.createElement('div');
-    d.className = 'item'+(r.id===playingId?' playing':''); d.id = 'it-'+r.id;
-    const k = kindOf(r);
-    d.innerHTML = `
-      <div class="row1">
-        <span class="tag ${k}">${k}</span>
-        <span class="t">${esc(titleOf(r))}</span>
-        <span class="meta">${new Date(r.created_at).toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})}</span>
-        <span class="meta">${mmss(r.duration_ms)}</span>
-        ${r.audio_key ? `<button class="btn sm ghost play">▶</button>` : `<span class="noaudio">no audio</span>`}
-      </div>
-      <div class="pv">${esc((r.transcript||'').slice(0,220))}</div>
-      <div class="full">${esc(r.transcript||'(no transcript)')}</div>
-      <div class="acts"></div>`;
-    d.querySelector('.row1').onclick = (e)=>{ if(!e.target.closest('.play')) d.classList.toggle('open'); };
-    const p = d.querySelector('.play');
-    if (p) p.onclick = ()=> playOne(r);
-    // actions: add-to-folder (+ remove when inside a folder)
-    const acts = d.querySelector('.acts');
-    const sel = document.createElement('select');
-    sel.innerHTML = '<option value="">Add to folder…</option>' +
-      folders.map(f=>`<option value="${f.id}">${esc(f.name)}</option>`).join('');
-    sel.onchange = ()=> { if (sel.value) addToFolder(r.id, sel.value); };
-    acts.append(sel);
-    if (view.kind==='folder'){
-      const rm = document.createElement('button'); rm.className='btn sm ghost';
-      rm.textContent='Remove from this folder';
-      rm.onclick = ()=> removeFromFolder(r.id, view.folderId);
-      acts.append(rm);
-    }
-    list.append(d);
-  }
-}
-const esc = (s)=> (s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-$('q').addEventListener('input', renderList);
-
-/* ---------- folders ---------- */
-async function newFolder(){
-  const name = prompt('Folder name'); if (!name || !name.trim()) return;
-  const { error } = await sb.from('folders').insert(
-    { id: crypto.randomUUID(), name: name.trim(), created_at: new Date().toISOString() });
-  if (error) return toast('Could not create: '+error.message);
-  await loadAll(); render(); toast('Folder created');
-}
-async function addToFolder(recId, folderId){
-  const { error } = await sb.from('folder_memberships').insert({
-    id: crypto.randomUUID(), folder_id: folderId, member_id: recId,
-    member_is_folder: false, position: Date.now(),
-    created_at: new Date().toISOString() });
-  if (error) return toast('Could not file it: '+error.message);
-  await loadAll(); render(); toast('Filed ✓');
-}
-async function removeFromFolder(recId, folderId){
-  // Tombstone, matching the apps (never hard-delete a membership row).
-  const { error } = await sb.from('folder_memberships')
-    .update({ deleted_at: new Date().toISOString() })
-    .eq('folder_id', folderId).eq('member_id', recId).is('deleted_at', null);
-  if (error) return toast('Could not remove: '+error.message);
-  await loadAll(); render(); toast('Removed from folder');
-}
-
-/* ---------- playback ---------- */
-async function urlFor(r){
-  const { data: { session } } = await sb.auth.getSession();
-  const path = `${session.user.id}/${r.audio_key}`;
-  const { data, error } = await sb.storage.from('audio').createSignedUrl(path, 3600);
-  if (error || !data?.signedUrl) { toast('Audio not available for this item'); return null; }
-  return data.signedUrl;
-}
-async function playOne(r){ queue=[]; qi=-1; await startPlayback(r); }
-async function playAll(items){ queue = items; qi = 0; await startPlayback(queue[0]); }
-async function startPlayback(r){
-  const u = await urlFor(r); if (!u) return advanceQueue();
-  playingId = r.id;
-  $('player').classList.add('on');
-  $('ptitle').textContent = titleOf(r);
-  const a = $('audio'); a.src = u; a.play().catch(()=>{});
-  renderList();
-}
-function advanceQueue(){
-  if (qi >= 0 && qi < queue.length - 1){ qi++; startPlayback(queue[qi]); }
-  else { qi = -1; queue = []; }
-}
-$('audio').addEventListener('ended', advanceQueue);
-$('stopall').onclick = ()=>{ const a=$('audio'); a.pause(); a.src='';
-  $('player').classList.remove('on'); playingId=null; queue=[]; qi=-1; renderList(); };
-</script>
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
