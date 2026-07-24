@@ -3,13 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Voicley — speak it. It's written, filed, and synced.</title>
-<meta name="description" content="Voicley turns your voice into organized notes, tasks, and meeting records — live, hands-free, on Windows and Android. Never lose a word.">
+<title>Voicley — think out loud. Every idea, its own place.</title>
+<meta name="description" content="Voicley captures your thoughts by voice — one idea after another, each its own note — then organizes them and reads them back to you. Not dictation. Your thinking, captured.">
+<meta property="og:title" content="Voicley — think out loud. Every idea, its own place.">
+<meta property="og:description" content="Speak your mind, one thought at a time. Voicley keeps each idea separate, files them into your goals and strategies, and plays them back to you — hands-free.">
 <style>
   :root{
     --bg:#f5f6f8; --panel:#ffffff; --panel2:#f0f1f4; --line:#e2e3e9;
     --text:#1c1c21; --dim:#5f5f68; --faint:#8e8e96;
-    --accent:#3f6ae0; --accent2:#5b82f2; --green:#1fa564; --amber:#c98a1a; --red:#e04545;
+    --accent:#3f6ae0; --accent2:#5b82f2; --violet:#9b6bff; --green:#1fa564; --amber:#c98a1a; --red:#e04545;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -20,7 +22,7 @@
   nav{position:sticky;top:0;background:rgba(245,246,248,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:10}
   .nav-in{display:flex;align-items:center;justify-content:space-between;height:60px}
   .logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:19px;color:var(--text)}
-  .logo-dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#9b6bff);display:inline-flex;align-items:center;justify-content:center;font-size:14px}
+  .logo-dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--violet));display:inline-flex;align-items:center;justify-content:center;font-size:14px}
   .btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;font-weight:600;padding:10px 18px;border-radius:12px;border:0;cursor:pointer;font-size:15px}
   .btn:hover{background:var(--accent2)}
   .btn.ghost{background:transparent;border:1px solid var(--line);color:var(--text)}
@@ -29,63 +31,85 @@
   /* HERO */
   header{padding:84px 0 40px;text-align:center}
   .eyebrow{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:5px 14px;color:var(--dim);font-size:13px;margin-bottom:22px}
-  .eyebrow b{color:var(--green);font-weight:600}
-  h1{font-size:clamp(34px,6vw,58px);line-height:1.12;letter-spacing:-.02em;font-weight:800}
-  h1 .grad{background:linear-gradient(90deg,var(--accent2),#a98bff);-webkit-background-clip:text;background-clip:text;color:transparent}
-  .sub{max-width:640px;margin:20px auto 30px;color:var(--dim);font-size:19px}
+  .eyebrow b{color:var(--violet);font-weight:700}
+  h1{font-size:clamp(34px,6vw,60px);line-height:1.1;letter-spacing:-.022em;font-weight:800}
+  h1 .grad{background:linear-gradient(90deg,var(--accent2),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{max-width:660px;margin:22px auto 30px;color:var(--dim);font-size:19px}
   .cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
   .cta-note{margin-top:12px;color:var(--faint);font-size:13px}
   /* APP MOCK — deliberately DARK inside a light site: it shows the actual
-     product (Voicley's dark iOS look), device-frame style. Scoped variables
-     re-darken just this card. */
+     product (Voicley's dark iOS look). Scoped variables re-darken this card. */
   .mock{--panel:#15151c;--panel2:#1c1c25;--line:#2a2a35;--text:#f2f2f7;--dim:#9a9aa5;--faint:#6c6c78;--accent:#5e8bff;--accent2:#7aa2ff;--green:#34c77b;--amber:#f0b23e;--red:#ff5b5b;
     color:var(--text);max-width:640px;margin:56px auto 0;background:var(--panel);border:1px solid #2a2a35;border-radius:18px;padding:14px;text-align:left;box-shadow:0 24px 60px rgba(20,25,60,.25)}
-  .mock-chips{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
-  .chip{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:12.5px;color:var(--dim)}
-  .chip.on{border-color:var(--accent);color:var(--accent2);background:rgba(94,139,255,.1)}
-  .chip.plus{color:var(--accent2);font-weight:700}
-  .mitem{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
-  .mitem.live{border-color:var(--red);box-shadow:0 0 0 1px rgba(255,91,91,.35),0 0 18px rgba(255,91,91,.18)}
-  .mtag{font-size:11px;letter-spacing:.4px;color:var(--faint);text-transform:uppercase;font-weight:700}
-  .mtag.note{color:var(--accent2)} .mtag.task{color:var(--green)} .mtag.meet{color:var(--amber)}
-  .mtitle{font-weight:600;font-size:14.5px;margin-top:3px}
+  .mock-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;padding:0 2px}
+  .mock-head .t{font-weight:700;font-size:14px}
+  .mock-head .f{font-size:12px;color:var(--accent2)}
+  .mitem{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:11px 14px;margin-bottom:8px;display:flex;gap:11px;align-items:flex-start}
+  .mitem.live{border-color:var(--red);box-shadow:0 0 0 1px rgba(255,91,91,.35),0 0 18px rgba(255,91,91,.16)}
+  .dot{width:11px;height:11px;border-radius:999px;margin-top:4px;flex:0 0 auto;background:var(--accent2)}
+  .dot.task{background:var(--green)} .dot.meet{background:var(--amber)} .dot.idea{background:var(--violet)}
+  .mtag{font-size:10.5px;letter-spacing:.5px;color:var(--faint);text-transform:uppercase;font-weight:700}
+  .mtitle{font-weight:600;font-size:14.5px;margin-top:1px}
   .mbody{color:var(--dim);font-size:13.5px;margin-top:2px}
-  .cursor{display:inline-block;width:2px;height:14px;background:var(--accent2);vertical-align:-2px;animation:blink 1s steps(1) infinite}
+  .cursor{display:inline-block;width:2px;height:14px;background:var(--red);vertical-align:-2px;animation:blink 1s steps(1) infinite}
   @keyframes blink{50%{opacity:0}}
   .mock-bar{display:flex;gap:6px;margin-top:12px}
   .seg{flex:1;text-align:center;border:1px solid var(--line);border-radius:10px;padding:8px 0;font-size:13px;color:var(--dim)}
   .seg.on{background:rgba(94,139,255,.14);border-color:var(--accent);color:var(--accent2);font-weight:600}
   /* SECTIONS */
   section{padding:72px 0}
-  h2{font-size:clamp(26px,4vw,36px);letter-spacing:-.01em;text-align:center;margin-bottom:14px}
-  .lead{color:var(--dim);text-align:center;max-width:620px;margin:0 auto 42px}
+  h2{font-size:clamp(26px,4vw,38px);letter-spacing:-.015em;text-align:center;margin-bottom:14px}
+  .lead{color:var(--dim);text-align:center;max-width:640px;margin:0 auto 42px;font-size:17px}
+  /* CONTRAST */
+  .contrast{max-width:820px;margin:0 auto;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel)}
+  .crow{display:grid;grid-template-columns:1fr 1fr}
+  .crow+.crow{border-top:1px solid var(--line)}
+  .crow>div{padding:18px 22px}
+  .crow .them{color:var(--faint);border-right:1px solid var(--line)}
+  .crow .us{color:var(--text);font-weight:600;background:linear-gradient(90deg,rgba(94,139,255,.07),rgba(155,107,255,.06))}
+  .crow.hd>div{font-size:12px;letter-spacing:.6px;text-transform:uppercase;font-weight:700;padding:14px 22px}
+  .crow.hd .them{color:var(--faint)} .crow.hd .us{color:var(--accent2)}
+  .crow .us b{color:var(--violet)}
+  /* THREE VERBS */
+  .verbs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .verb{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:28px}
+  .verb .vn{display:inline-flex;width:40px;height:40px;border-radius:12px;align-items:center;justify-content:center;font-size:20px;margin-bottom:14px;background:rgba(94,139,255,.12)}
+  .verb h3{font-size:19px;margin-bottom:8px;letter-spacing:-.01em}
+  .verb p{color:var(--dim);font-size:14.5px}
+  /* LISTEN BAND — the hook nobody else has */
+  .band{background:linear-gradient(120deg,#191826,#241f3a);color:#f2f2f7;border-radius:24px;padding:56px 40px;text-align:center;max-width:900px;margin:0 auto;box-shadow:0 24px 60px rgba(30,20,70,.28)}
+  .band .k{color:#b79bff;font-weight:700;font-size:13px;letter-spacing:.6px;text-transform:uppercase}
+  .band h2{color:#fff;margin:14px 0 12px}
+  .band p{color:#c7c7d4;max-width:620px;margin:0 auto;font-size:17px}
+  .band .em{color:#fff;font-weight:600}
+  /* FEATURES */
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
   .card .ic{font-size:22px;margin-bottom:10px}
   .card h3{font-size:16.5px;margin-bottom:6px}
   .card p{color:var(--dim);font-size:14.5px}
   .new{display:inline-block;background:rgba(52,199,123,.15);color:var(--green);font-size:11px;font-weight:700;border-radius:6px;padding:2px 7px;margin-left:6px;vertical-align:2px}
-  /* STEPS */
-  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;counter-reset:s}
-  .step{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}
-  .step:before{counter-increment:s;content:counter(s);display:inline-flex;width:30px;height:30px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#9b6bff);align-items:center;justify-content:center;font-weight:700;margin-bottom:12px}
-  .step h3{font-size:16.5px;margin-bottom:6px}
-  .step p{color:var(--dim);font-size:14.5px}
-  /* DOWNLOAD */
+  /* STORY */
+  .story{max-width:760px;margin:0 auto;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:8px}
+  .sline{display:flex;gap:16px;padding:18px 20px;align-items:flex-start}
+  .sline+.sline{border-top:1px solid var(--line)}
+  .sline .when{flex:0 0 84px;color:var(--accent2);font-weight:700;font-size:13.5px;padding-top:2px}
+  .sline .what b{color:var(--text)}
+  .sline .what{color:var(--dim);font-size:15px}
+  /* PROMISE */
+  .promise{border-left:3px solid var(--accent);background:var(--panel);border-radius:0 16px 16px 0;padding:22px 26px;max-width:760px;margin:0 auto}
+  .promise p{color:var(--dim);font-size:15px}
+  .promise b{color:var(--text)}
+  /* DOWNLOAD + SIGNUP */
   .dl{background:linear-gradient(180deg,rgba(94,139,255,.10),transparent);border:1px solid var(--line);border-radius:22px;padding:48px 28px;text-align:center}
   .dl h2{margin-bottom:8px}
   .dl .lead{margin-bottom:28px}
   .dl-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
   .dl small{display:block;color:var(--faint);font-size:12.5px;margin-top:14px;max-width:560px;margin-left:auto;margin-right:auto}
-  /* SIGNUP */
   .signup{max-width:520px;margin:26px auto 0;display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
   .signup input{flex:1;min-width:240px;background:var(--panel2);border:1px solid var(--line);border-radius:12px;color:var(--text);padding:12px 16px;font-size:15px;outline:none}
   .signup input:focus{border-color:var(--accent)}
   .ok-note{color:var(--green);font-size:13.5px;margin-top:10px;display:none}
-  /* PROMISE */
-  .promise{border-left:3px solid var(--accent);background:var(--panel);border-radius:0 16px 16px 0;padding:22px 26px;max-width:720px;margin:0 auto}
-  .promise p{color:var(--dim);font-size:15px}
-  .promise b{color:var(--text)}
   footer{border-top:1px solid var(--line);padding:34px 0;color:var(--faint);font-size:13.5px;text-align:center}
 </style>
 </head>
@@ -94,41 +118,49 @@
 <nav><div class="wrap nav-in">
   <span class="logo"><span class="logo-dot">🎙</span>Voicley</span>
   <span style="display:flex;gap:10px;align-items:center">
-    <a class="btn" href="app/">Sign in</a>
-    <a class="btn" href="#download">Download</a>
+    <a class="btn ghost" href="app/">Sign in</a>
+    <a class="btn" href="#download">Get Voicley</a>
   </span>
 </div></nav>
 
 <header class="wrap">
-  <span class="eyebrow"><b>●</b>&nbsp; Live dictation that never loses a word</span>
-  <h1>Speak it.<br><span class="grad">It's written, filed, synced — and read back to you.</span></h1>
-  <p class="sub">Voicley turns your voice into organized notes, tasks, and meeting records — live, as you talk, hands-free. On Windows and Android, everywhere you think out loud.</p>
+  <span class="eyebrow"><b>Not a dictation app.</b>&nbsp; It's your thinking, captured.</span>
+  <h1>Think out loud.<br><span class="grad">Every idea, its own place.</span></h1>
+  <p class="sub">Speak your mind — one thought after another. Voicley keeps each idea separate, files them into your goals and strategies, and reads them back to you. The ideas you used to lose are now a library you can revisit.</p>
   <div class="cta-row">
-    <a class="btn big" href="app/">Sign in — open your library</a>
-    <a class="btn big" href="#download">⬇&nbsp; Download for Windows</a>
-    <a class="btn big ghost" href="#signup">Get early access</a>
+    <a class="btn big" href="#download">Start capturing — free</a>
+    <a class="btn big ghost" href="app/">Open your library</a>
   </div>
-  <p class="cta-note">Free while in early access · no account needed</p>
+  <p class="cta-note">Free while in early access · Windows now · Android by invite</p>
 
   <div class="mock" aria-hidden="true">
-    <div class="mock-chips">
-      <span class="chip on">All&nbsp; 5</span><span class="chip">Notes&nbsp; 3</span>
-      <span class="chip">Tasks&nbsp; 1</span><span class="chip">Meetings&nbsp; 1</span>
-      <span class="chip plus">＋</span>
+    <div class="mock-head">
+      <span class="t">📁 Q3 Strategy</span>
+      <span class="f">▶ Listen to this folder</span>
     </div>
     <div class="mitem live">
-      <span class="mtag note">Note</span>
-      <div class="mbody">Pick up the anchor bolts before Saturday, and remind Jesse the dock wiring needs<span class="cursor"></span></div>
+      <span class="dot"></span>
+      <div><span class="mtag">Capturing…</span>
+        <div class="mbody">Move the launch to mid-August so the pricing page ships first, and get Dana on the webinar<span class="cursor"></span></div>
+      </div>
     </div>
     <div class="mitem">
-      <span class="mtag task">Task</span>
-      <div class="mtitle">Order the trailer hitch</div>
-      <div class="mbody">Sent to your tasks page ✓</div>
+      <span class="dot idea"></span>
+      <div><span class="mtag">Idea</span>
+        <div class="mtitle">Bundle the reader as its own paid tier</div>
+      </div>
     </div>
     <div class="mitem">
-      <span class="mtag meet">Meeting</span>
-      <div class="mtitle">Pricing sync with Dana</div>
-      <div class="mbody">Speaker 1 · Speaker 2 — 14 min, transcribed &amp; recorded</div>
+      <span class="dot task"></span>
+      <div><span class="mtag">Task</span>
+        <div class="mtitle">Ask legal about the EU data question</div>
+      </div>
+    </div>
+    <div class="mitem">
+      <span class="dot meet"></span>
+      <div><span class="mtag">Meeting</span>
+        <div class="mtitle">Pricing sync with Dana — 14 min</div>
+      </div>
     </div>
     <div class="mock-bar">
       <span class="seg">Off</span><span class="seg">Commands only</span><span class="seg on">Dictate</span>
@@ -136,46 +168,89 @@
   </div>
 </header>
 
-<section id="features" class="wrap">
-  <h2>Everything a voice deserves</h2>
-  <p class="lead">Built around one law: <b>capture first.</b> Your words are written to disk from the first syllable — the internet, the engine, even the app can hiccup and you still lose nothing.</p>
-  <div class="grid">
-    <div class="card"><div class="ic">⚡</div><h3>Live captions as you talk</h3><p>Words appear in well under a second, punctuated and clean — powered by a streaming speech engine built for real time.</p></div>
-    <div class="card"><div class="ic">🎧</div><h3>Hear your own thinking</h3><p>Every dictation reads itself back — text spoken aloud, recordings replayed. Queue folders into a listening program, set the order, and relive your most important thoughts on a walk, hands free.</p></div>
-    <div class="card"><div class="ic">🗣</div><h3>Voice commands</h3><p>"New note." "New task… end task." "New paragraph." "Stop dictation." Your voice drives the whole app — the buttons are just backup.</p></div>
-    <div class="card"><div class="ic">👥</div><h3>Who said what<span class="new">NEW</span></h3><p>Conversations break out by speaker — and every speaker block plays back exactly that stretch of audio.</p></div>
-    <div class="card"><div class="ic">📋</div><h3>Notes, tasks &amp; meetings</h3><p>Say "new task" mid-thought and the words file themselves to your task list. Long recordings become meetings automatically.</p></div>
-    <div class="card"><div class="ic">📁</div><h3>Folders + sync</h3><p>Organize with drag &amp; drop; everything syncs across your phone and PC — including the audio.</p></div>
-    <div class="card"><div class="ic">📓</div><h3>OneNote, live</h3><p>Dictation can stream straight into your OneNote pages as you speak — titles, sections, and all.</p></div>
-    <div class="card"><div class="ic">🔒</div><h3>Local-first</h3><p>Works fully offline. Your recordings and text live on your device first — the cloud is a convenience, not a requirement.</p></div>
+<section id="why" class="wrap">
+  <h2>Other apps give you a wall of text.</h2>
+  <p class="lead">Voicley gives you your ideas — each one its own thought, sorted and ready to revisit. That difference is the whole product.</p>
+  <div class="contrast">
+    <div class="crow hd"><div class="them">Dictation &amp; note apps</div><div class="us">Voicley</div></div>
+    <div class="crow"><div class="them">Your voice becomes one long block of text</div><div class="us">Your voice becomes <b>separate, movable thoughts</b></div></div>
+    <div class="crow"><div class="them">You dictate a note, then stop</div><div class="us">You capture <b>idea after idea</b>, hands-free, without stopping</div></div>
+    <div class="crow"><div class="them">You read the transcript once, never again</div><div class="us">You <b>organize by goal</b> — and <b>listen back</b> on your terms</div></div>
+    <div class="crow"><div class="them">A document you file away</div><div class="us">A <b>living library</b> of how you think</div></div>
   </div>
 </section>
 
 <section class="wrap">
-  <h2>How it works</h2>
-  <p class="lead">No setup ceremony. Open it, tap Dictate, talk.</p>
-  <div class="steps">
-    <div class="step"><h3>Speak</h3><p>Tap Dictate — or just say what kind of thing this is: a note, a task, a meeting.</p></div>
-    <div class="step"><h3>It's written live</h3><p>Your words land on screen as you say them, and every recording is kept — audio and text.</p></div>
-    <div class="step"><h3>Filed &amp; everywhere</h3><p>Items title themselves, file into folders, sync to your other devices, and can stream into OneNote.</p></div>
+  <h2>Speak. Organize. Listen.</h2>
+  <p class="lead">Three moves no other app chains together — the way ideas actually move from your head to something you can use.</p>
+  <div class="verbs">
+    <div class="verb">
+      <span class="vn">🎙</span>
+      <h3>Capture</h3>
+      <p>Just talk. Say “new note” and keep going — each thought lands in its own place automatically, punctuated and clean. It never drops a word, so you can think as fast as you speak.</p>
+    </div>
+    <div class="verb">
+      <span class="vn">🗂</span>
+      <h3>Organize</h3>
+      <p>Later, your ideas are all there — separate, titled, waiting. Drag them into folders for a project, a goal, a strategy. Organize your thinking like a mind, not a filing cabinet.</p>
+    </div>
+    <div class="verb">
+      <span class="vn">🎧</span>
+      <h3>Listen</h3>
+      <p>Then hit play and hear your ideas back — a whole folder, in order, in your own words. Review your strategy on a drive. Relive last week’s thinking on a walk. Hands-free.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="band">
+    <span class="k">The part no one else does</span>
+    <h2>Listen to your own mind, strategically.</h2>
+    <p>Every app can record you. <span class="em">Voicley plays you back.</span> Queue a folder of goals and strategies into a listening program, set the order, and press play — your best thinking becomes a private podcast of your own ideas, ready whenever you need to get back into it.</p>
+  </div>
+</section>
+
+<section id="day" class="wrap">
+  <h2>A day with Voicley</h2>
+  <p class="lead">This is the loop — capture in the moment, organize when you land, listen when it matters.</p>
+  <div class="story">
+    <div class="sline"><div class="when">Tue · 8:10a</div><div class="what"><b>Driving in.</b> Ideas start coming — a product angle, a worry, a plan for the quarter. You just talk. “New note.” Talk. “New note.” Talk. Each becomes its own card. Nothing gets lost.</div></div>
+    <div class="sline"><div class="when">Tue · 9:00a</div><div class="what"><b>At your desk.</b> They’re all there, separate. You drag three of them into <b>Q3 Strategy</b> and turn one into a task — “ask legal about the EU data question.”</div></div>
+    <div class="sline"><div class="when">Wed · 8:05a</div><div class="what"><b>Same drive.</b> You hit play on <b>Q3 Strategy</b> and listen to your whole plan, in your own voice, back to you — and three new ideas land before you reach the office.</div></div>
+  </div>
+</section>
+
+<section id="features" class="wrap">
+  <h2>Everything a voice deserves</h2>
+  <p class="lead">Built around one law: <b>capture first.</b> Your words hit disk from the first syllable — the network, the engine, even the app can hiccup and you still lose nothing.</p>
+  <div class="grid">
+    <div class="card"><div class="ic">⚡</div><h3>Live as you talk</h3><p>Words appear in well under a second, punctuated and clean — a streaming engine built for real time, so your thoughts keep pace with your mouth.</p></div>
+    <div class="card"><div class="ic">🗣</div><h3>Your voice runs it</h3><p>“New note.” “New task… end task.” “New paragraph.” “Stop dictation.” The whole app answers to your voice — the buttons are just backup.</p></div>
+    <div class="card"><div class="ic">🎧</div><h3>Read back to you</h3><p>Every note reads itself aloud; every recording replays. Line up folders into a listening program and relive your thinking, hands-free.</p></div>
+    <div class="card"><div class="ic">📋</div><h3>Notes, tasks &amp; meetings</h3><p>Say “new task” mid-thought and it files itself to your task list. Long recordings become meetings, broken out by speaker.<span class="new">NEW</span></p></div>
+    <div class="card"><div class="ic">📁</div><h3>Organize &amp; sync</h3><p>Drag ideas into folders and sub-folders; everything — text and audio — syncs across your phone and PC, in the order you set.</p></div>
+    <div class="card"><div class="ic">📓</div><h3>OneNote, live</h3><p>Dictation can stream straight into your OneNote pages as you speak — titles, sections and all — so your archive fills itself.</p></div>
+    <div class="card"><div class="ic">🔒</div><h3>Local-first</h3><p>Works fully offline. Your recordings and text live on your device first — the cloud is a convenience, not a requirement.</p></div>
+    <div class="card"><div class="ic">🛟</div><h3>Never loses a word</h3><p>Audio is saved from the first frame. Dead network, a crash, a phone call mid-sentence — it recovers and re-transcribes. If you said it, it’s saved.</p></div>
   </div>
 </section>
 
 <section class="wrap">
   <div class="promise">
-    <p><b>The capture-first promise.</b> Dictation apps that drop words are worse than useless — you stop trusting your own notes. Voicley writes audio to disk from the first frame, survives dead networks, mid-session crashes, and phone calls, and re-transcribes anything that didn't finish. <b>If you said it, it's saved.</b></p>
+    <p><b>The capture-first promise.</b> An app that drops your words is worse than useless — you stop trusting your own notes, and then you stop using it. Voicley writes audio to disk from the first frame, survives dead networks, mid-session crashes and phone calls, and re-transcribes anything that didn’t finish. <b>If you said it, it’s saved.</b></p>
   </div>
 </section>
 
 <section id="download" class="wrap">
   <div class="dl">
     <h2>Get Voicley</h2>
-    <p class="lead">Windows today. Android via early access.</p>
+    <p class="lead">Windows today. Android by invite. Your ideas, starting now.</p>
     <div class="dl-row">
       <a class="btn big" href="VoicleySetup.exe" download>⬇&nbsp; Download for Windows</a>
+      <a class="btn big ghost" href="app/">💻&nbsp; Open in your browser</a>
       <a class="btn big ghost" href="#signup">📱&nbsp; Android — join the list</a>
     </div>
-    <small>Windows 10/11 · ~15 MB · installs per-user, no admin needed. Live dictation works out of the box; optional AI extras (smart titles, Whisper fallback) activate with your own OpenAI key in Settings.</small>
+    <small>Windows 10/11 · ~15 MB · installs per-user, no admin needed. Live capture works out of the box; optional AI extras (smart titles, cleanup) activate with your own key in Settings.</small>
 
     <div id="signup" style="margin-top:40px">
       <h3 style="margin-bottom:6px">Early access list</h3>
@@ -190,7 +265,7 @@
 </section>
 
 <footer>
-  <div class="wrap">Voicley · © 2026 Judah Software · <a href="mailto:hifromroger@gmail.com">Contact</a></div>
+  <div class="wrap">Voicley · © 2026 Judah Software · <a href="privacy.html">Privacy</a> · <a href="mailto:hifromroger@gmail.com">Contact</a></div>
 </footer>
 
 <script>
