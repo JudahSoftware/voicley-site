@@ -837,7 +837,7 @@ q=new A.Pc(A.b([],t.z8))
 s=1
 break}p=B.mV.atJ(B.x_,t.X)
 m.a=null
-o=p.he(new A.ans(new A.bz5(m),[],t.kU))
+o=p.hf(new A.ans(new A.bz5(m),[],t.kU))
 s=4
 return A.a(l.gRo().e7(0,new A.bz6(o)),$async$arR)
 case 4:o.G(0)
@@ -929,7 +929,7 @@ break A}if(B.j8===a||B.m1===a||B.Ds===a){s=new A.Qb(A.bIN("8a2@q\u03a9qk1&kq3@q\
 break A}s=null}return s},
 c3N(a){var s
 if(a.length===0)return 98784247808
-s=B.a51.i(0,a)
+s=B.a52.i(0,a)
 return s==null?B.b.gA(a)+98784247808:s},
 c3R(){var s=new A.aau(A.b([],t.k5),B.al),r=new A.aJ6(s)
 r.b=s
@@ -994,7 +994,7 @@ return s},
 bNY(a){var s=null
 return new A.nP(B.Df,s,a,s,s,s)},
 bNZ(a){var s=null
-return new A.nP(B.a5L,s,s,s,a,s)},
+return new A.nP(B.a5M,s,s,s,a,s)},
 cg_(a){var s
 A:{if(0===a){s=1
 break A}if(1===a){s=4
@@ -1064,9 +1064,9 @@ q.toString
 r.setAttribute("aria-live",q)
 return r},
 ccN(a){var s=a.a
-if(s.y)return B.apw
-else if(s.d!==B.ad)return B.apx
-else return B.apv},
+if(s.y)return B.apy
+else if(s.d!==B.ad)return B.apz
+else return B.apx},
 c7c(a){var s=new A.aXQ(A.dN(v.G.document,"input"),new A.zL(a.p3,B.fx),B.vP,a),r=A.CF(s.cf(0),a)
 s.a!==$&&A.bb()
 s.a=r
@@ -1190,7 +1190,7 @@ c.adoptText(b)
 c.first()
 for(s=a.length,r=0;!J.l(c.next(),-1);r=q){q=J.c0(c.current())
 for(p=r,o=0,n=0;p<q;++p){m=a.charCodeAt(p)
-if(B.aac.u(0,m)){++o;++n}else if(B.aaq.u(0,m))++n
+if(B.aad.u(0,m)){++o;++n}else if(B.aar.u(0,m))++n
 else if(n>0){k.push(new A.Bl(r,p,B.x5,o,n))
 r=p
 o=0
@@ -1511,7 +1511,7 @@ s=B.b.u(s,"OS 15_")}else s=!1
 if(s)return"BlinkMacSystemFont"
 if($.cR().ge6()===B.c2||$.cR().ge6()===B.dA)return"-apple-system, BlinkMacSystemFont"
 return"Arial"},
-bHT(a){if(B.aad.u(0,a))return a
+bHT(a){if(B.aae.u(0,a))return a
 if($.cR().ge6()===B.c2||$.cR().ge6()===B.dA)if(a===".SF Pro Text"||a===".SF Pro Display"||a===".SF UI Text"||a===".SF UI Display")return A.bSG()
 return'"'+A.p(a)+'", '+A.bSG()+", sans-serif"},
 lk(a,b){var s
@@ -3418,7 +3418,7 @@ s=A.cav(a,b)
 return s},
 cc(a,b){return new A.iE(a,b)},
 c6g(a,b){return new A.HA(a,b)},
-aHz(a,b){var s=a.BY(),r=(b.a+=B.a__[A.Rj(s)-1])+", "
+aHz(a,b){var s=a.BY(),r=(b.a+=B.a_0[A.Rj(s)-1])+", "
 b.a=r
 r+=A.nX(s)<=9?"0":""
 b.a=r
@@ -3495,7 +3495,7 @@ return s},
 caw(a,b,c){var s=!1
 if(c.iw(b.gds()))if(c.gkQ(c)===b.gkQ(b))s=c.gdP(c)===b.gdP(b)||B.b.d9(c.gdP(c),"."+b.gdP(b))
 if(s)return!0
-return!B.c.u(B.XD,a.toLowerCase())},
+return!B.c.u(B.XC,a.toLowerCase())},
 cav(a,b){var s,r,q,p,o,n=new A.bgD()
 b=$.bXo()
 s=b.a
@@ -3509,7 +3509,7 @@ p=n.$1(o==null?r.i(s,"HTTP_PROXY"):o)
 if(p!=null)return p}else if(a.iw("https")){o=r.i(s,"https_proxy")
 p=n.$1(o==null?r.i(s,"HTTPS_PROXY"):o)
 if(p!=null)return p}return"DIRECT"},
-c9I(a){var s=A.c3A(new A.aU(B.a1P,new A.b6A(a.toLowerCase()),t.iz))
+c9I(a){var s=A.c3A(new A.aU(B.a1Q,new A.b6A(a.toLowerCase()),t.iz))
 return s==null?B.L5:s},
 cax(a){var s=null,r=t.t
 r=new A.X4(a,A.b([],r),A.b([],r),A.b([],r),A.b([],r),A.fT(s,s,s,s,!0,t.Hs))
@@ -6274,7 +6274,7 @@ ceC(a,b,c,d){A.bBb(d)},
 cer(a){$.X.amZ(0,a)},
 bTc(a,b,c,d,e){var s,r,q
 $.bHK=A.cfe()
-if(d==null)d=B.arm
+if(d==null)d=B.aro
 if(e==null)s=c.gabo()
 else{r=t.X
 s=A.c2Z(e,r,r)}r=new A.Wh(c.gadi(),c.gadl(),c.gadj(),c.gacV(),c.gacW(),c.gacU(),c.ga8R(),c.gXM(),c.ga87(),c.ga83(),c.gacx(),c.ga9g(),c.gWr(),c,s)
@@ -7193,7 +7193,7 @@ if(b===c)break
 r=a.charCodeAt(b)}if((r|32)!==100)break;++b;--s
 if(b===c)break}if(b!==c)throw A.j(A.cw("Invalid padding character",a,b))
 return-s-1},
-bMr(a){return B.a5f.i(0,a.toLowerCase())},
+bMr(a){return B.a5g.i(0,a.toLowerCase())},
 bNl(a,b,c){return new A.Gw(a,b)},
 bUp(a,b){return B.v.c1(0,a,b)},
 c3H(a){var s,r
@@ -8890,7 +8890,7 @@ return new A.af6(r,0)},
 c9v(a,b,c,d,e,f,g){var s=null
 if(9<c)A.Z(A.dv(c,-1,9,s,s))
 if(1>d||9<d)A.Z(A.dv(d,1,9,s,s))
-if(B.c.dW(B.ZF,f)===-1)A.Z(A.bu("Unsupported 'strategy'",s))
+if(B.c.dW(B.ZG,f)===-1)A.Z(A.bu("Unsupported 'strategy'",s))
 A.bTx(g)
 return new A.adS(!0,c,d,f,g,a,!1)},
 c61(a,b){return A.bOQ(!1,6,b,8,0,null,!0)},
@@ -9328,7 +9328,7 @@ bOK(a,b,c,d,e,f,g,h,i,j,k,l){return new A.pp(f,j,g,c,h,i,k,l,d,e,a,b)},
 aRo(a,b,c,d,e){var s=d.a,r=d.b,q=e.a,p=e.b,o=b.a,n=b.b,m=c.a,l=c.b,k=s===q&&r===p&&s===o&&r===n&&s===m&&r===l
 return new A.xy(k,a.a,a.b,a.c,a.d,s,r,q,p,m,l,o,n)},
 c5Q(a,b,c,d,e,f,g,h,i,j,k,l,m){return new A.xy(m,f,j,g,c,h,i,k,l,d,e,a,b)},
-a9r(a,b){return a>0&&b>0?new A.ay(a,b):B.a8B},
+a9r(a,b){return a>0&&b>0?new A.ay(a,b):B.a8C},
 Ru(a,b,c,d){var s=a+b
 if(s>c)return Math.min(d,c/s)
 return d},
@@ -9387,13 +9387,13 @@ case 1:s=B.i0
 break
 case 2:s=B.u4
 break}break
-case 1:switch(b.a){case 0:s=B.apy
+case 1:switch(b.a){case 0:s=B.apA
 break
 case 1:s=B.i0
 break
-case 2:s=B.apA
+case 2:s=B.apC
 break}break
-case 2:switch(b.a){case 0:s=B.apz
+case 2:switch(b.a){case 0:s=B.apB
 break
 case 1:s=B.u3
 break
@@ -9949,19 +9949,19 @@ s.ayb()
 return s},
 bKW(a){var s,r,q,p,o,n,m,l,k="avAudioSessionCategory",j=null,i="avAudioSessionCategoryOptions",h="avAudioSessionMode",g="avAudioSessionRouteSharingPolicy",f="avAudioSessionSetActiveOptions",e="androidAudioAttributes",d=J.a3(a)
 if(d.i(a,k)==null)s=j
-else{s=B.a52.i(0,A.aF(d.i(a,k)))
+else{s=B.a53.i(0,A.aF(d.i(a,k)))
 s.toString}r=d.i(a,i)==null?j:new A.a1Y(A.aR(d.i(a,i)))
 q=d.i(a,h)==null?j:B.YZ[A.aR(d.i(a,h))]
-p=d.i(a,g)==null?j:B.Y2[A.aR(d.i(a,g))]
+p=d.i(a,g)==null?j:B.Y1[A.aR(d.i(a,g))]
 o=d.i(a,f)==null?j:new A.a1Z(A.aR(d.i(a,f)))
 if(d.i(a,e)==null)n=j
 else{n=J.qc(t.f.a(d.i(a,e)),t.N,t.z)
 m=A.fc(n.i(0,"contentType"))
-m=m!=null&&m<5?B.a0Z[m]:B.te
+m=m!=null&&m<5?B.a1_[m]:B.te
 l=A.aR(n.i(0,"flags"))
-n=B.a4Z.i(0,A.fc(n.i(0,"usage")))
+n=B.a5_.i(0,A.fc(n.i(0,"usage")))
 if(n==null)n=B.tf
-n=new A.a2c(m,new A.a2d(l),n)}m=B.a53.i(0,d.i(a,"androidAudioFocusGainType"))
+n=new A.a2c(m,new A.a2d(l),n)}m=B.a54.i(0,d.i(a,"androidAudioFocusGainType"))
 m.toString
 return new A.a2F(s,r,q,p,o,n,m,A.eN(d.i(a,"androidWillPauseWhenDucked")))},
 F6:function F6(a,b,c,d){var _=this
@@ -10177,8 +10177,8 @@ _.f=e
 _.r=0
 _.w=!1},
 cjC(a){if(a.gds()!=="voicley")return B.KM
-if(a.gdP(a)==="command"||a.gdP(a)==="listen"||B.c.u(a.gqM(),"command"))return B.ak4
-if(a.gdP(a)==="record"||B.c.u(a.gqM(),"record"))return B.ak3
+if(a.gdP(a)==="command"||a.gdP(a)==="listen"||B.c.u(a.gqM(),"command"))return B.ak5
+if(a.gdP(a)==="record"||B.c.u(a.gqM(),"record"))return B.ak4
 return B.KM},
 UU:function UU(a,b){this.a=a
 this.b=b},
@@ -10495,15 +10495,15 @@ try{s=B.v.c1(0,a,null)
 if(!t.a.b(s))return B.Hm
 l=s}catch(r){return B.Hm}q=A.aT(J.W(l,"type"))
 switch(q==null?"":q){case"conversation.item.input_audio_transcription.delta":p=A.aT(J.W(l,"delta"))
-return new A.Cf(B.a8t,p==null?"":p)
+return new A.Cf(B.a8u,p==null?"":p)
 case"conversation.item.input_audio_transcription.completed":p=A.aT(J.W(l,"transcript"))
 if(p==null)p=A.aT(J.W(l,"text"))
-return new A.Cf(B.a8u,p==null?"":p)
+return new A.Cf(B.a8v,p==null?"":p)
 case"error":o=J.W(l,"error")
 if(t.f.b(o)){p=J.a3(o)
 n=A.aT(p.i(o,"message"))
 m=n==null?p.j(o):n}else{p=o==null?null:J.ca(o)
-m=p==null?"realtime error":p}return new A.Cf(B.a8v,m)
+m=p==null?"realtime error":p}return new A.Cf(B.a8w,m)
 default:return new A.Cf(B.Hl,"")}},
 Hw:function Hw(a,b){this.a=a
 this.b=b},
@@ -10830,8 +10830,8 @@ c=A.b0(f,g,e)
 for(f=$.bSs,e=f.length,b=0;b<f.length;f.length===e||(0,A.z)(f),++b){a=f[b]
 c=A.b0(c,a.a,a.b)}return c},
 cjB(a){var s
-A:{if(B.n0===a){s=B.ajQ
-break A}if(B.mZ===a){s=B.ajR
+A:{if(B.n0===a){s=B.ajR
+break A}if(B.mZ===a){s=B.ajS
 break A}s=B.KJ
 break A}return s},
 bV9(a){var s
@@ -10929,10 +10929,10 @@ s=s.b.test(q)}else s=r}else s=r
 return s},
 cht(a){var s,r,q,p=null
 if(A.bUs(a))return p
-if(A.chv(a))return B.a8E
-if(A.chx(a))return B.a92
-if(A.chy(a))return B.a8M
-if(A.chw(a))return B.a8L
+if(A.chv(a))return B.a8F
+if(A.chx(a))return B.a93
+if(A.chy(a))return B.a8N
+if(A.chw(a))return B.a8M
 s=A.af("^[.,!?: \\t]*(?:read|play)[ \\t]+(?:the[ \\t]+)?([a-z0-9&' \\t-]{2,48}?)(?:[ \\t]+folder)?[.,!?:]*[ \\t]*$",!1,!1,!1).en(B.b.I(a))
 if(s==null)r=p
 else{q=s.b[1]
@@ -11624,7 +11624,7 @@ c9s(a){var s=0,r=A.i(t.y),q,p=2,o=[],n,m,l,k,j
 var $async$adP=A.d(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.a(A.c5L(a.c,B.aj,B.a8h,!0),$async$adP)
+return A.a(A.c5L(a.c,B.aj,B.a8i,!0),$async$adP)
 case 7:p=2
 s=6
 break
@@ -12315,13 +12315,13 @@ b="dictate_db.sqlite"
 n=null
 m=1,j=t.H,i=t.N,h=t.X,g=t.mU
 case 3:p=7
-f=new A.aQ9(b,B.abL)
+f=new A.aQ9(b,B.abM)
 f.gaaR()
 e=new A.cV(null,null,g)
 d=new A.acb(e,f)
 d.b=new A.bH(e,g.h("bH<1>"))
 d.d=d.Lu()
-d=new A.Ri(B.a9v,d,null,$,$,$,B.ek)
+d=new A.Ri(B.a9w,d,null,$,$,$,B.ek)
 d.d=$.bZc()
 d.c=d.tr()
 l=d
@@ -12353,7 +12353,7 @@ case 5:j=n
 s=12
 return A.a(A.arF(j),$async$zp)
 case 12:s=13
-return A.a(j.ID(B.a9w),$async$zp)
+return A.a(j.ID(B.a9x),$async$zp)
 case 13:s=14
 return A.a(A.LD(j),$async$zp)
 case 14:s=15
@@ -13401,7 +13401,7 @@ break
 case 15:s=k?19:21
 break
 case 19:s=22
-return A.a(l.hm(m,e),$async$rM)
+return A.a(l.hn(m,e),$async$rM)
 case 22:s=20
 break
 case 21:s=23
@@ -13661,7 +13661,7 @@ break
 case 3:s=$.rU()+$.a1I()
 break
 default:s=null}return s},
-c6b(a){var s=new A.r9(a,new A.P(A.eG(0,0,!1),0,!1),A.ao(t.S),A.b([],t.Vb),new A.d9(t.lS),B.a9j)
+c6b(a){var s=new A.r9(a,new A.P(A.eG(0,0,!1),0,!1),A.ao(t.S),A.b([],t.Vb),new A.d9(t.lS),B.a9k)
 s.ayx(a)
 return s},
 aTl(a){return"Meeting \xb7 "+B.b.cN(B.d.j(A.fE(a)),2,"0")+":"+B.b.cN(B.d.j(A.nY(a)),2,"0")},
@@ -13835,7 +13835,7 @@ _.b=b
 _.c=c
 _.d=d},
 bBw:function bBw(){},
-bPt(a){return new A.xW(a,A.t(t.N,t.S),new A.d9(t.Zr),B.a0a)},
+bPt(a){return new A.xW(a,A.t(t.N,t.S),new A.d9(t.Zr),B.a0b)},
 bUR(a){var s,r,q,p,o,n,m,l,k=A.b([],t.g)
 for(s=a.length,r=0;r<a.length;a.length===s||(0,A.z)(a),++r){q=a[r]
 p=q.cx
@@ -13929,7 +13929,7 @@ r=s[1]
 r.toString
 q=s[2]
 q.toString
-if(!B.aaj.u(0,(r+q).toLowerCase()))return null
+if(!B.aak.u(0,(r+q).toLowerCase()))return null
 return s[1].toLowerCase()+B.b.bi(a,1)},
 c8T(a,b){var s,r,q,p,o,n,m,l="[^a-z0-9]"
 if(a.length===0)return b
@@ -14041,7 +14041,7 @@ return A.a(A.a1g(a,!1,p,B.ah,B.eU),$async$q4)
 case 12:f=a0
 if(f==null||f===""){s=1
 break}s=13
-return A.a(h.hm(f,c),$async$q4)
+return A.a(h.hn(f,c),$async$q4)
 case 13:if(a.e!=null)A.bk(a,"Added to folder",null,null,null)
 s=5
 break
@@ -14458,7 +14458,7 @@ return r},
 cjv(a,b,c,d,e,f){if(b&&a)return B.JZ
 if(f)return B.K_
 if(c)return B.K0
-return B.ajk},
+return B.ajl},
 li(a,b){var s=null,r=a.aN(t.h5)
 if(r==null)return b
 return A.pb(B.bC,b,s,s,new A.bwJ(r),s,s,s,new A.bwK(r))},
@@ -15637,7 +15637,7 @@ j=n>0?"\u2026 ":""
 o=m<h?" \u2026":""
 return j+k+o},
 cir(a,b){var s,r,q,p,o,n,m,l,k=A.ciI(b)
-if(k.length===0)return B.a0k
+if(k.length===0)return B.a0l
 s=A.b([],t.ki)
 for(r=J.a_(a);r.n();){q=r.gt(r)
 p=q.d
@@ -16403,7 +16403,7 @@ bvp:function bvp(a,b){this.a=a
 this.b=b},
 aru:function aru(){},
 cjF(a,b){var s,r,q,p=A.b([],t.Zo)
-for(s=0;s<319;++s){r=B.XB[s]
+for(s=0;s<320;++s){r=B.ZF[s]
 q=r.a
 if(q>a&&q<=b)p.push(r)}return p},
 I:function I(a,b){this.a=a
@@ -16429,7 +16429,7 @@ bAl:function bAl(){},
 bAm:function bAm(){},
 bAq:function bAq(){},
 c0j(a){var s,r
-for(s=0;s<3;++s){r=B.Yx[s]
+for(s=0;s<3;++s){r=B.Yw[s]
 if(r.c===a)return r}return B.bY},
 qo:function qo(a,b,c){this.c=a
 this.a=b
@@ -16783,8 +16783,8 @@ _.$ti=e},
 Bc(a,b,c,d,e,f){var s=e.h("@<0>").b8(f)
 if(!s.h("l_<1,2>").b(b))A.Z(A.bu("Invalid table parameter. You must provide the table reference from generated database object.","table"))
 return new A.Gv(a,b,c,d,s.h("Gv<1,2>"))},
-bEz(a,b,c){return new A.b_(a,A.b9(a,b,c),B.apD)},
-bLH(a,b,c){return new A.b_(a,A.b9(a,b,c),B.apC)},
+bEz(a,b,c){return new A.b_(a,A.b9(a,b,c),B.apF)},
+bLH(a,b,c){return new A.b_(a,A.b9(a,b,c),B.apE)},
 c81(a,b){A:{break A}return new A.Xn(a,new A.bR(b,null,t.B),null)},
 bFg(a,b){var s=A.b([],t.F8),r=A.b([],t.L6)
 a.ga26(a)
@@ -17137,8 +17137,8 @@ return s},
 c8S(a,b,c){var s,r,q=new A.De(a,b,c,new A.c2(A.b([],t.x8),t.jc),new A.jy(A.t(t.M,t.S),t.PD))
 if(b!=null)if(a.gC(a)===b.gC(b)){q.a=b
 q.b=null
-s=b}else{if(a.gC(a)>b.gC(b))q.c=B.ar6
-else q.c=B.ar5
+s=b}else{if(a.gC(a)>b.gC(b))q.c=B.ar8
+else q.c=B.ar7
 s=a}else s=a
 s.oI(q.gzw())
 s=q.gYQ()
@@ -17722,7 +17722,7 @@ if(s)r=d instanceof A.jb&&d.gms()}if(r)return null
 r=A.ck(c,null,t.w).w
 s=A.cz(c,B.bx)
 s=s==null?null:s.gd4()
-return new A.fB(A.k5(B.aps,r.qh((s==null?B.aQ:s).qc(0,1.235,1))),b)},
+return new A.fB(A.k5(B.apu,r.qh((s==null?B.aQ:s).qc(0,1.235,1))),b)},
 caN(a,b,c,d,e,f){var s,r=null,q=!0
 if(f==null)if(e!=null){if(!e.gH9()){s=e.j2$
 s=s!=null&&s.length!==0}else s=!0
@@ -18276,7 +18276,7 @@ ayH:function ayH(a){this.a=a},
 a44:function a44(){},
 W3:function W3(){},
 a0E:function a0E(){},
-a46(a,b,c){return new A.FM(a,b,c===!0,B.a8p,3,B.eP,B.S8,A.bIA(),null,3,null)},
+a46(a,b,c){return new A.FM(a,b,c===!0,B.a8q,3,B.eP,B.S8,A.bIA(),null,3,null)},
 FM:function FM(a,b,c,d,e,f,g,h,i,j,k){var _=this
 _.c=a
 _.d=b
@@ -18587,7 +18587,7 @@ return new A.O1(c,m,i,a6,a7,a8,a9,b5,b6,s,b9,b8,b4,b7,b,a1,a,r,q,k,p,a0,o,a2,a3,
 c0I(a,b){var s,r=!1
 if(!b.a.x){s=b.c
 s.toString
-if(A.au()===B.a4){r=A.cz(s,B.aqg)==null&&null
+if(A.au()===B.a4){r=A.cz(s,B.aqi)==null&&null
 r=r===!0}}if(r)return A.c8e(b)
 r=b.gAl()
 return new A.Ao(b.gGc(),r,null)},
@@ -19177,8 +19177,8 @@ s=A.b(p.b[1].split("."),t.s)
 r=s.length>1?B.c.gU(s):q
 return new A.pB(a,-1,q,q,q,-1,-1,r,s.length>1?A.ip(s,1,null,t.N).aQ(0,"."):B.c.gaZ(s))},
 c7M(a){var s,r,q,p,o,n,m,l,k,j,i=null,h="<unknown>"
-if(a==="<asynchronous suspension>")return B.abM
-else if(a==="...")return B.abN
+if(a==="<asynchronous suspension>")return B.abN
+else if(a==="...")return B.abO
 if(!B.b.aX(a,"#"))return A.c7K(a)
 s=A.af("^#(\\d+) +(.+) \\((.+?):?(\\d+){0,1}:?(\\d+){0,1}\\)$",!0,!1,!1).en(a).b
 r=s[2]
@@ -21423,7 +21423,7 @@ p=A.d_(l.a,6)
 o=A.d_(l.a,8)
 l.d===$&&A.c()
 n=A.d_(25,84)
-s=new A.aaO(l,B.ajz,m,d,s,r,q,p,o,n)
+s=new A.aaO(l,B.ajA,m,d,s,r,q,p,o,n)
 break
 case 1:s=l.a
 s===$&&A.c()
@@ -21475,29 +21475,29 @@ p=A.d_(l.a,2)
 o=A.d_(l.a,2)
 l.d===$&&A.c()
 n=A.d_(25,84)
-s=new A.aaM(l,B.ajy,m,d,s,r,q,p,o,n)
+s=new A.aaM(l,B.ajz,m,d,s,r,q,p,o,n)
 break
 case 4:s=l.a
 s===$&&A.c()
 s=A.d_(s,200)
-r=A.d_(A.aB0(l,B.xl,B.XH),24)
-q=A.d_(A.aB0(l,B.xl,B.a_A),32)
+r=A.d_(A.aB0(l,B.xl,B.XG),24)
+q=A.d_(A.aB0(l,B.xl,B.a_B),32)
 p=A.d_(l.a,10)
 o=A.d_(l.a,12)
 l.d===$&&A.c()
 n=A.d_(25,84)
-s=new A.aaP(l,B.ajA,m,d,s,r,q,p,o,n)
+s=new A.aaP(l,B.ajB,m,d,s,r,q,p,o,n)
 break
 case 5:s=l.a
 s===$&&A.c()
 s=A.d_(A.Qm(s+240),40)
-r=A.d_(A.aB0(l,B.xn,B.a2d),24)
-q=A.d_(A.aB0(l,B.xn,B.a2g),32)
+r=A.d_(A.aB0(l,B.xn,B.a2e),24)
+q=A.d_(A.aB0(l,B.xn,B.a2h),32)
 p=A.d_(l.a+15,8)
 o=A.d_(l.a+15,12)
 l.d===$&&A.c()
 n=A.d_(25,84)
-s=new A.aaI(l,B.ajB,m,d,s,r,q,p,o,n)
+s=new A.aaI(l,B.ajC,m,d,s,r,q,p,o,n)
 break
 case 7:s=l.a
 s===$&&A.c()
@@ -21508,7 +21508,7 @@ p=A.d_(l.a,0)
 o=A.d_(l.a,0)
 l.d===$&&A.c()
 n=A.d_(25,84)
-s=new A.aaN(l,B.ajC,m,d,s,r,q,p,o,n)
+s=new A.aaN(l,B.ajD,m,d,s,r,q,p,o,n)
 break
 case 8:s=l.a
 s===$&&A.c()
@@ -21519,7 +21519,7 @@ p=A.d_(l.a,10)
 o=A.d_(l.a,16)
 l.d===$&&A.c()
 n=A.d_(25,84)
-s=new A.aaK(l,B.ajD,m,d,s,r,q,p,o,n)
+s=new A.aaK(l,B.ajE,m,d,s,r,q,p,o,n)
 break
 default:s=null}return s},
 aB_:function aB_(a,b){this.a=a
@@ -23378,7 +23378,7 @@ c8u(a){if(a===B.LB||a===B.t9)return 14.5
 return 9.5},
 c8w(a,b){if(a===0)return b===1?B.t9:B.LA
 if(a===b-1)return B.LB
-return B.ar4},
+return B.ar6},
 c8v(a){var s,r=null,q=a.a.a
 switch(q){case 1:s=A.IJ(r,r,r,r,r,r,r,r,r).ax.k3===a.k3
 break
@@ -23468,7 +23468,7 @@ _.c3$=b
 _.c=_.a=null},
 b6e:function b6e(){},
 IJ(c6,c7,c8,c9,d0,d1,d2,d3,d4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2=null,c3=A.b([],t.FO),c4=A.b([],t.lY),c5=A.au()
-switch(c5.a){case 0:case 1:case 2:s=B.a5u
+switch(c5.a){case 0:case 1:case 2:s=B.a5v
 break
 case 3:case 4:case 5:s=B.CP
 break
@@ -23521,7 +23521,7 @@ a9=new A.a3i(n?B.ux:B.Q6,c2,b,a,d1,d3,c8,s)
 b0=n?B.Qd:B.Q9
 if(d1==null)d1=n?B.uw:B.o8
 if(d3==null)d3=n?B.uw:B.PE
-if(d4){b1=A.bQu(c5,c2,c2,B.agD,B.agL,B.agN)
+if(d4){b1=A.bQu(c5,c2,c2,B.agE,B.agM,B.agO)
 p=c8.a===B.aF
 b2=p?c8.k3:c8.k2
 b3=p?c8.k2:c8.k3
@@ -23539,7 +23539,7 @@ if(g==null)g=n?B.eH:B.q
 if(h==null){h=c8.y
 if(h.k(0,i))h=B.q}p=A.c8A(c4)
 a2=A.c8C(c3)
-c1=A.bGo(c2,p,B.Mu,j===!0,B.MD,B.a5t,B.MY,B.MZ,B.N_,B.No,a9,c7,k,B.P1,B.P2,B.Pc,B.Pd,c8,c2,B.RF,B.RK,g,B.S0,b0,c9,B.S2,B.S3,B.S4,B.Tm,B.Tt,a2,B.TH,B.TK,b,d1,a8,a,B.U_,b9,h,B.UZ,B.Vy,s,B.a5w,B.a5x,B.a5y,B.a5Y,B.a5Z,B.a60,B.a7c,B.Om,c5,B.a8a,i,d,e,c0,b8,B.a8i,B.a8n,d2,B.a9C,B.a9D,B.a9F,a7,B.a9G,B.F,B.abE,B.abF,d3,q,B.abX,B.ac5,B.acg,B.acy,b7,B.ai_,B.ai0,B.ai5,b4,a6,d4,r)
+c1=A.bGo(c2,p,B.Mu,j===!0,B.MD,B.a5u,B.MY,B.MZ,B.N_,B.No,a9,c7,k,B.P1,B.P2,B.Pc,B.Pd,c8,c2,B.RF,B.RK,g,B.S0,b0,c9,B.S2,B.S3,B.S4,B.Tm,B.Tt,a2,B.TH,B.TK,b,d1,a8,a,B.U_,b9,h,B.UZ,B.Vy,s,B.a5x,B.a5y,B.a5z,B.a5Z,B.a6_,B.a61,B.a7d,B.Om,c5,B.a8b,i,d,e,c0,b8,B.a8j,B.a8o,d2,B.a9D,B.a9E,B.a9G,a7,B.a9H,B.F,B.abF,B.abG,d3,q,B.abY,B.ac6,B.ach,B.acz,b7,B.ai0,B.ai1,B.ai6,b4,a6,d4,r)
 return c1},
 bGo(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,g0,g1,g2,g3){return new A.oc(d,s,b1,b,c1,c3,d1,d2,e2,f1,!0,g3,l,m,r,a4,a5,b4,b5,b6,b7,d4,d5,d6,e1,e5,e7,f0,g1,b9,d7,d8,f6,g0,a,c,e,f,g,h,i,k,n,o,p,q,a0,a1,a3,a6,a7,a8,a9,b0,b2,b3,b8,c2,c4,c5,c6,c7,c8,c9,d0,d3,d9,e0,e3,e4,e6,e8,e9,f2,f3,f4,f5,f7,f8,f9,j,a2,c0)},
 c8z(){var s=null
@@ -23661,7 +23661,7 @@ f8=A.c7v(h0.ad,h1.ad,h2)
 f9=A.c7x(h0.ar,h1.ar,h2)
 g0=A.c86(h0.bw,h1.bw,h2)
 g1=A.c8h(h0.bu,h1.bu,h2)
-g2=A.c8l(h0.hl,h1.hl,h2)
+g2=A.c8l(h0.hm,h1.hm,h2)
 g3=A.c8r(h0.mm,h1.mm,h2)
 g4=A.c8G(h0.O,h1.O,h2)
 g5=A.c8H(h0.al,h1.al,h2)
@@ -23677,7 +23677,7 @@ if(s==null)s=a.mm.c
 return new A.a7M(a,b,B.n4,b.a,b.b,b.c,b.d,b.e,b.f,s,b.w)},
 c9f(a){var s
 A:{if(B.an===a||B.a4===a||B.di===a){s=B.jS
-break A}if(B.bu===a||B.aX===a||B.bl===a){s=B.ajP
+break A}if(B.bu===a||B.aX===a||B.bl===a){s=B.ajQ
 break A}s=null}return s},
 c9g(a,b,c){var s,r
 if(a===b)return a
@@ -23764,7 +23764,7 @@ _.ad=f2
 _.ar=f3
 _.bw=f4
 _.bu=f5
-_.hl=f6
+_.hm=f6
 _.mm=f7
 _.O=f8
 _.al=f9
@@ -23954,13 +23954,13 @@ _.w=h
 _.x=i
 _.y=j},
 aoU:function aoU(){},
-c8Z(a){return A.bQu(a,null,null,B.agO,B.agH,B.agJ)},
+c8Z(a){return A.bQu(a,null,null,B.agP,B.agI,B.agK)},
 bQu(a,b,c,d,e,f){var s,r,q,p,o
-A:{if(B.a4===a){s=new A.ay(B.agE,B.agM)
-break A}if(B.an===a||B.di===a){s=new A.ay(B.agR,B.agK)
-break A}if(B.bl===a){s=new A.ay(B.agP,B.agI)
-break A}if(B.aX===a){s=new A.ay(B.agS,B.agG)
-break A}if(B.bu===a){s=new A.ay(B.agF,B.agQ)
+A:{if(B.a4===a){s=new A.ay(B.agF,B.agN)
+break A}if(B.an===a||B.di===a){s=new A.ay(B.agS,B.agL)
+break A}if(B.bl===a){s=new A.ay(B.agQ,B.agJ)
+break A}if(B.aX===a){s=new A.ay(B.agT,B.agH)
+break A}if(B.bu===a){s=new A.ay(B.agG,B.agR)
 break A}s=null}r=s.a
 q=null
 p=s.b
@@ -25650,7 +25650,7 @@ _.ad=m
 _.ar=n
 _.bw=o
 _.bu=p
-_.hl=q
+_.hm=q
 _.mm=r
 _.O=s
 _.al=a0
@@ -26127,7 +26127,7 @@ if(a4==null)a4=a5.c
 s=a5.a
 r=a5.b
 q=a4.gC6()
-p=a4.ghp(a4)
+p=a4.ghq(a4)
 o=a4.gba()
 n=a4.gcj(a4)
 m=a4.gnz(a4)
@@ -26151,7 +26151,7 @@ q=A.r(r).h("bM<1>")
 p=q.h("aU<C.E>")
 a2=A.a2(new A.aU(new A.bM(r,q),new A.aMU(s),p),p.h("C.E"))
 q=a4.gC6()
-p=a4.ghp(a4)
+p=a4.ghq(a4)
 o=a4.gba()
 n=a4.gcj(a4)
 m=a4.gnz(a4)
@@ -26418,7 +26418,7 @@ aqK:function aqK(){},
 c6q(a,b,c,d){var s,r,q,p,o=a.b
 o.toString
 s=t.tq.a(o).b
-if(s==null)o=B.a83
+if(s==null)o=B.a84
 else{o=c.$2(a,b)
 r=s.b
 q=s.c
@@ -27217,7 +27217,7 @@ else s=!0
 if(s)return c===B.aa?new A.u(a.a,r):new A.u(a.c,r)
 else{s=a.d
 return c===B.aa?new A.u(a.c,s):new A.u(a.a,s)}},
-SI(a,b){return new A.SG(a,b==null?B.rc:b,B.a9I)},
+SI(a,b){return new A.SG(a,b==null?B.rc:b,B.a9J)},
 SH(a,b){return new A.SG(a,b==null?B.rc:b,B.es)},
 xT:function xT(a,b){this.a=a
 this.b=b},
@@ -27509,7 +27509,7 @@ anL:function anL(){},
 aac:function aac(a,b,c,d,e,f,g,h){var _=this
 _.cQ=a
 _.fk=b
-_.hl=null
+_.hm=null
 _.y1=c
 _.y2=d
 _.cE$=e
@@ -28227,7 +28227,7 @@ _.ad=f0
 _.ar=f1
 _.bw=f2
 _.bu=f3
-_.hl=f4
+_.hm=f4
 _.mm=f5
 _.O=f6},
 ez:function ez(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4){var _=this
@@ -28422,10 +28422,10 @@ return A.h($async$axG,r)},
 tj:function tj(a){this.a=a},
 bNn(a,b,c,d,e){return new A.Bg(c,b,null,e,d)},
 bNm(a,b,c,d,e){return new A.Bf(d,c,a,e,!1)},
-c3L(a){var s,r,q=a.d,p=B.a5s.i(0,q)
+c3L(a){var s,r,q=a.d,p=B.a5t.i(0,q)
 if(p==null)p=new A.O(q)
 q=a.e
-s=B.a4Y.i(0,q)
+s=B.a4Z.i(0,q)
 if(s==null)s=new A.y(q)
 r=a.a
 switch(a.b.a){case 0:return new A.p6(p,s,a.f,r,a.r)
@@ -28552,14 +28552,14 @@ r.toString
 A.hL(r)
 q=a.i(0,"swipeEdge")
 q.toString
-return new A.a9a(s,r,B.ZG[A.aR(q)])},
+return new A.a9a(s,r,B.ZH[A.aR(q)])},
 TL:function TL(a,b){this.a=a
 this.b=b},
 a9a:function a9a(a,b,c){this.a=a
 this.b=b
 this.c=c},
 bM7(){var s=new A.azW()
-s.a=B.a78
+s.a=B.a79
 return s},
 Hl:function Hl(a,b){this.a=a
 this.b=b},
@@ -28799,17 +28799,17 @@ bQ4(a){var s=A.b([],t.u1),r=$.bQ5
 $.bQ5=r+1
 return new A.b2f(s,r,a)},
 ceV(a){var s
-A:{if("TextInputAction.none"===a){s=B.acl
-break A}if("TextInputAction.unspecified"===a){s=B.acm
-break A}if("TextInputAction.go"===a){s=B.acp
+A:{if("TextInputAction.none"===a){s=B.acm
+break A}if("TextInputAction.unspecified"===a){s=B.acn
+break A}if("TextInputAction.go"===a){s=B.acq
 break A}if("TextInputAction.search"===a){s=B.Jd
-break A}if("TextInputAction.send"===a){s=B.acq
+break A}if("TextInputAction.send"===a){s=B.acr
 break A}if("TextInputAction.next"===a){s=B.Je
-break A}if("TextInputAction.previous"===a){s=B.acr
-break A}if("TextInputAction.continueAction"===a){s=B.acs
-break A}if("TextInputAction.join"===a){s=B.act
-break A}if("TextInputAction.route"===a){s=B.acn
-break A}if("TextInputAction.emergencyCall"===a){s=B.aco
+break A}if("TextInputAction.previous"===a){s=B.acs
+break A}if("TextInputAction.continueAction"===a){s=B.act
+break A}if("TextInputAction.join"===a){s=B.acu
+break A}if("TextInputAction.route"===a){s=B.aco
+break A}if("TextInputAction.emergencyCall"===a){s=B.acp
 break A}if("TextInputAction.done"===a){s=B.dE
 break A}if("TextInputAction.newline"===a){s=B.re
 break A}s=A.Z(A.AP(A.b([A.tE("Unknown text input action: "+a)],t._)))}return s},
@@ -29271,7 +29271,7 @@ if(s){s=B.e0.i(0,h)
 b=m.i(0,s==null?h:s)
 if(b!=null)g=b}}a=f==null?g:f
 return a==null?B.c.gU(a2):a},
-c9o(){return B.a50},
+c9o(){return B.a51},
 yu:function yu(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1){var _=this
 _.c=a
 _.d=b
@@ -30039,7 +30039,7 @@ a4w:function a4w(a,b){this.c=a
 this.a=b},
 a4E:function a4E(a){this.b=a},
 c1l(a){var s
-switch(a.aN(t.u).w.a){case 0:s=B.a6M
+switch(a.aN(t.u).w.a){case 0:s=B.a6N
 break
 case 1:s=B.m
 break
@@ -30223,8 +30223,8 @@ if(e7==null)r=c2?B.Iz:B.IA
 else r=e7
 A.c1O()
 if(t.qY.b(e1))q=B.rn
-else if(c2)q=d1?B.rn:B.ai2
-else q=d1?B.ai3:B.ai4
+else if(c2)q=d1?B.rn:B.ai3
+else q=d1?B.ai4:B.ai5
 p=b8==null?A.c1Q(d,c0):b8
 if(c0===1){o=A.b([$.bVB()],t.VS)
 B.c.L(o,b5==null?B.NI:b5)}else o=b5
@@ -30369,7 +30369,7 @@ _.ad=e5
 _.ar=e6
 _.bw=e7
 _.bu=e8
-_.hl=e9
+_.hm=e9
 _.O=f0
 _.a=f1},
 wx:function wx(a,b,c,d,e,f,g,h,i,j,k,l,m){var _=this
@@ -30617,7 +30617,7 @@ case 1:break}return r?B.lx:B.dW},
 kJ(a,b,c,d,e,f,g){return new A.eI(g,a,c,!0,e,f,A.b([],t.bp),$.aK())},
 c2A(a){return a.gio()},
 aDB(a,b,c){var s=t.bp
-return new A.tP(B.ai8,B.Jz,A.b([],s),c,a,!0,!0,null,null,A.b([],s),$.aK())},
+return new A.tP(B.ai9,B.Jz,A.b([],s),c,a,!0,!0,null,null,A.b([],s),$.aK())},
 X1(){switch(A.au().a){case 0:case 1:case 2:if($.a7.k3$.c.a!==0)return B.pn
 return B.wg
 case 3:case 4:case 5:return B.pn}},
@@ -31010,9 +31010,9 @@ if(a.as!==q)return q?-1:1
 return 0},
 c1V(a,b){var s=A.ab(b).h("ah<1,hC>")
 s=A.a2(new A.ah(b,new A.aBU(),s),s.h("aC.E"))
-return A.c1e(!0,s,a,B.a0o,!0,B.S_,null)},
+return A.c1e(!0,s,a,B.a0p,!0,B.S_,null)},
 bEV(a){var s
-try{a.fi()}catch(s){a.a8N()}a.w=B.apM
+try{a.fi()}catch(s){a.a8N()}a.w=B.apO
 try{a.c4(A.cgK())}catch(s){}},
 c1T(a){a.cB()
 a.c4(A.bU6())},
@@ -31610,7 +31610,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 aHY(a,b){var s
-if(a.k(0,b))return new A.a3l(B.a0B)
+if(a.k(0,b))return new A.a3l(B.a0C)
 s=A.b([],t.fJ)
 A.dm()
 a.xq(new A.aHZ(b,A.ao(t.Q),s))
@@ -32298,7 +32298,7 @@ c53(a,b,c){return new A.H6(b,new A.aOi(c),a,B.Dy,null)},
 cbC(a,b){var s,r=A.bRM(a,!0,b)
 if(r!=null)return r
 s=A.b([A.tE("No Overlay widget found."),A.bO(A.K(a.gcn()).j(0)+" widgets require an Overlay widget ancestor.\nAn overlay lets widgets float on top of other widget children."),A.aCs("To introduce an Overlay widget, you can either directly include one, or use a widget that contains an Overlay itself, such as a Navigator, WidgetApp, MaterialApp, or CupertinoApp.")],t._)
-B.c.L(s,a.b26(B.aiG))
+B.c.L(s,a.b26(B.aiH))
 throw A.j(A.AP(s))},
 bRM(a,b,c){var s,r,q
 if(c){s=t.pR
@@ -32719,7 +32719,7 @@ akd:function akd(a,b,c){this.e=a
 this.c=b
 this.a=c},
 bwl:function bwl(a){this.a=a},
-bOB(a){return new A.Hk(null,null,B.aal,a,null)},
+bOB(a){return new A.Hk(null,null,B.aam,a,null)},
 bOC(a,b){var s,r=a.tV(t.bb)
 if(r==null)return!1
 s=A.px(a).Ct(a)
@@ -33106,7 +33106,7 @@ Lz:function Lz(){},
 GN(a,b,c){var s=A.ck(a,b,t.Fe)
 s=s==null?null:s.Q
 return c.h("hm<0>?").a(s)},
-bNV(a){var s=A.GN(a,B.aql,t.X)
+bNV(a){var s=A.GN(a,B.aqn,t.X)
 return s==null?null:s.gqB()},
 H7:function H7(){},
 hv:function hv(){},
@@ -34620,7 +34620,7 @@ qx:function qx(a,b){this.a=a
 this.b=b},
 qy:function qy(){},
 bPn(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,a0,a1,a2,a3,a4,a5,a6,a7){var s=$.aK()
-return new A.ab6(b,new A.d2(B.a4T,s),new A.ub(),j,a3,i,a4,p,q,o,f,h,g,l,m,k,a7,a1,c,a5,a2,e,r,a0,d,n,a,a6,new A.a3U(),new A.a3U())},
+return new A.ab6(b,new A.d2(B.a4U,s),new A.ub(),j,a3,i,a4,p,q,o,f,h,g,l,m,k,a7,a1,c,a5,a2,e,r,a0,d,n,a,a6,new A.a3U(),new A.a3U())},
 bRR(a,b,c,d,e,f,g,h,i,j){return new A.Zx(b,f,d,e,c,h,j,g,i,a,null)},
 Lk(a){var s
 switch(A.au().a){case 0:case 1:case 3:if(a<=3)s=a
@@ -34772,7 +34772,7 @@ afm:function afm(){},
 a0P:function a0P(){},
 a0Q:function a0Q(){},
 bQa(a,b,c,d){var s,r,q,p,o=A.bQc(b,d,a,c)
-if(o.k(0,B.al))return B.acz
+if(o.k(0,B.al))return B.acA
 s=A.bQb(b)
 r=o.a
 r+=(o.c-r)/2
@@ -36362,7 +36362,7 @@ _.a=d
 _.b=e},
 aGx:function aGx(){},
 c2e(a){var s=new A.aCE(a),r=J.a3(a)
-return new A.tL(A.aF(r.i(a,"id")),A.aT(r.i(a,"friendly_name")),B.c.lE(B.a2S,new A.aCA(a),new A.aCB()),B.c.lE(B.ZM,new A.aCC(a),new A.aCD()),s.$1("created_at"),s.$1("updated_at"))},
+return new A.tL(A.aF(r.i(a,"id")),A.aT(r.i(a,"friendly_name")),B.c.lE(B.a2T,new A.aCA(a),new A.aCB()),B.c.lE(B.ZN,new A.aCC(a),new A.aCD()),s.$1("created_at"),s.$1("updated_at"))},
 qE:function qE(a,b){this.a=a
 this.b=b},
 oX:function oX(a,b){this.a=a
@@ -36847,7 +36847,7 @@ a1=A.Fb(!1,a1)
 l=A.jY(e,!1,l)
 h=A.aRc(!0,t.U2)
 g=B.dp.mV()
-f=new A.auB(B.a0c,B.a0d)
+f=new A.auB(B.a0d,B.a0e)
 h=new A.auC(g,new A.al_(A.t(d,t.FM)),A.t(d,t.IN),f,c,b,a,a0,a2,a4,a5,a3,s,r,q,p,o,n,m,k,j,i,a1,l,h,!1)
 h.ay9(!0,!1,e,e,!1,!0,!0,e)
 return h},
@@ -37920,9 +37920,9 @@ p=t.XF
 o=p.a(l.i(n,"data"))
 p=p.a(l.i(n,"old"))
 return new A.FH(m,q,k,s,r,A.aT(l.i(n,"metadata")),o,p)},
-c94(a){switch(a){case"PUT":return B.ajp
+c94(a){switch(a){case"PUT":return B.ajq
 case"PATCH":return B.K1
-case"DELETE":return B.ajo
+case"DELETE":return B.ajp
 default:return null}},
 a3X:function a3X(a,b){this.a=a
 this.c=b},
@@ -38046,10 +38046,10 @@ this.b=b},
 NG:function NG(a,b,c){this.c=a
 this.a=b
 this.b=c},
-c4X(a){switch(a){case"CLEAR":return B.a70
-case"MOVE":return B.a71
-case"PUT":return B.a72
-case"REMOVE":return B.a73
+c4X(a){switch(a){case"CLEAR":return B.a71
+case"MOVE":return B.a72
+case"PUT":return B.a73
+case"REMOVE":return B.a74
 default:return null}},
 awg:function awg(a){this.a=a},
 awj:function awj(a,b){this.a=a
@@ -38576,13 +38576,13 @@ c66(a,b,c,d,e,f,g,h){var s,r,q,p=null,o=A.b([],t.Io),n=A.jD("supabase.realtime")
 m=A.B(["open",A.b([],m),"close",A.b([],m),"error",A.b([],m),"message",A.b([],m)],l,t.Ch)
 s=A.bs(a+"/websocket",0,p)
 s=s.qU(0,p).gky()
-l=A.dD(B.a59,l,l)
+l=A.dD(B.a5a,l,l)
 l.L(0,c)
 r=$.bJh().gb2V()
 q=$.bJh()
 q=q.gb1L(q)
 m=new A.a9A(o,s,l,f,g,A.cjE(),n,r,q,[],m,new A.cV(p,p,t._9),b)
-m.ayw(a,b,p,p,c,25e3,d,e,p,2e4,f,p,g,h,B.a8A)
+m.ayw(a,b,p,p,c,25e3,d,e,p,2e4,f,p,g,h,B.a8B)
 return m},
 aSn:function aSn(a,b){this.a=a
 this.b=b},
@@ -39397,7 +39397,7 @@ b6N:function b6N(a,b){this.a=a
 this.b=b},
 lr:function lr(){},
 avH:function avH(a){this.a=a},
-c57(a){return new A.QZ(B.apd,new A.aOE(a),new A.aOF(a),1,new A.aOG(a),!1,a.h("QZ<0>"))},
+c57(a){return new A.QZ(B.apf,new A.aOE(a),new A.aOF(a),1,new A.aOG(a),!1,a.h("QZ<0>"))},
 QZ:function QZ(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
@@ -39883,7 +39883,7 @@ _.a=a
 _.b=b
 _.c=c
 _.d=0},
-bPc(a,b,c){var s=new A.jc(c,a,b,B.a5h)
+bPc(a,b,c){var s=new A.jc(c,a,b,B.a5i)
 s.aB3()
 return s},
 ayV:function ayV(){},
@@ -40599,7 +40599,7 @@ c4m(a){return new A.oV(A.aR(A.bt(a.d)),B.lU)},
 c4l(a){return new A.oV(A.aR(A.bt(a.d)),B.lX)},
 c4q(a){return $.bWj().i(0,A.aF(a.t)).c.$1(a)},
 c2l(a){var s,r
-for(s=0;s<5;++s){r=B.a0E[s]
+for(s=0;s<5;++s){r=B.a0F[s]
 if(r.c===a)return r}throw A.j(A.bu("Unknown FS implementation: "+a,null))},
 c4Z(a){var s=A.c2l(A.aF(a.s)),r=A.aF(a.d),q=A.bs(A.aF(a.u),0,null),p=A.aR(A.bt(a.i)),o=A.eN(a.o)
 if(o==null)o=null
@@ -40752,13 +40752,13 @@ bLI(a,b){var s=A.aR(A.bt(b.i)),r=A.aT(b.d)
 return new A.oQ(a,r==null?null:r,s,null)},
 bEA(a){var s,r,q,p,o,n,m=A.b([],t.uo),l=t.ef.a(a.a),k=t.E.b(l)?l:new A.dz(l,A.ab(l).h("dz<1,k>"))
 for(s=J.a3(k),r=0;r<s.gv(k)/2;++r){q=r*2
-m.push(new A.ay(A.a54(B.a1u,s.i(k,q)),s.i(k,q+1)))}s=A.eX(a.b)
+m.push(new A.ay(A.a54(B.a1v,s.i(k,q)),s.i(k,q+1)))}s=A.eX(a.b)
 q=A.eX(a.c)
 p=A.eX(a.d)
 o=A.eX(a.e)
 n=A.eX(a.f)
 return new A.Ah(m,s,q,A.eX(a.g),p,o,n)},
-c91(a){return new A.vb(new A.mU(B.a_e[A.aR(A.bt(a.k))],A.aF(a.u),A.aR(A.bt(a.r))),A.aR(A.bt(a.d)))},
+c91(a){return new A.vb(new A.mU(B.a_f[A.aR(A.bt(a.k))],A.aF(a.u),A.aR(A.bt(a.r))),A.aR(A.bt(a.d)))},
 c_j(a){return new A.rY(A.aR(A.bt(a.i)))},
 cX:function cX(a,b,c,d){var _=this
 _.c=a
@@ -41222,7 +41222,7 @@ case 5:case 1:return A.f(q,r)
 case 2:return A.e(o.at(-1),r)}})
 return A.h($async$aWJ,r)},
 c6T(a){var s
-A:{if(0===a){s=B.a9b
+A:{if(0===a){s=B.a9c
 break A}s=""+a
 s=new A.hx("SAVEPOINT s"+s,"RELEASE s"+s,"ROLLBACK TO s"+s)
 break A}return s},
@@ -41844,7 +41844,7 @@ b=t.FB
 a=A.jY(null,!1,b)
 b=A.jY(null,!0,b)
 a0=A.jD("supabase.auth")
-a1=A.dD(B.a5b,o,o)
+a1=A.dD(B.a5c,o,o)
 a1.L(0,c)
 c=new A.aGj(new A.bqg(),i,a1,null,A.t(o,t.QK),a,b,n.b,d,a0)
 c.y=!0
@@ -41876,7 +41876,7 @@ if(d==null)d=new A.A2(A.b([],t.W))
 d=e.z=new A.a2K(d,a5,e.gaFY())
 c=A.dD(A.nu(f,o,o),o,o)
 b=A.jD("supabase.postgrest")
-a=A.dD(B.a5a,o,o)
+a=A.dD(B.a5b,o,o)
 a.L(0,c)
 b.b4(B.eZ,"Initialize PostgrestClient with url: "+k+", schema: public",null,null)
 b.b4(B.c7,"Initialize with headers: "+c.j(0),null,null)
@@ -41884,14 +41884,14 @@ e.ay!==$&&A.bb()
 e.ay=new A.aPT(k,a,"public",m,!0,b)
 k=A.dD(A.nu(f,o,o),o,o)
 c=A.jD("supabase.functions")
-A.dD(B.a5c,o,o).L(0,k)
+A.dD(B.a5d,o,o).L(0,k)
 c.b4(B.eZ,"Initialize FunctionsClient v2.6.4 with url '"+g+"' and region 'null'",null,null)
 c.b4(B.c7,"Initialize with headers: "+k.j(0),null,null)
 e.as!==$&&A.bb()
 e.as=new A.aFc(m,!0,c)
 m=A.dD(A.nu(f,o,o),o,o)
 k=A.jD("supabase.storage")
-g=A.dD(B.a5d,o,o)
+g=A.dD(B.a5e,o,o)
 g.L(0,m)
 g=new A.b1b(0,k,h,g)
 g.c=new A.aCH(d,A.jD("supabase.storage"))
@@ -42153,7 +42153,7 @@ case 2:return A.f(null,r)}})
 return A.h($async$bAj,r)},
 bAo:function bAo(){},
 bAn:function bAn(){},
-bIO(){var s=$.X.i(0,B.abY)
+bIO(){var s=$.X.i(0,B.abZ)
 return s==null?null:t.Kb.a(s).$0()},
 c3U(a){return $.c3T.i(0,a).gbel()},
 bBb(a){if(typeof dartPrint=="function"){dartPrint(a)
@@ -42216,7 +42216,7 @@ try{s=B.fD.bj(a)
 r=J.as(s)
 q=J.u4(r,t.S)
 for(p=0;p<r;++p){o=p
-J.eE(q,p,J.W(s,o)^B.a31[B.e.bo(o,32)])}n=q
+J.eE(q,p,J.W(s,o)^B.a32[B.e.bo(o,32)])}n=q
 m=B.a2.aP(0,n)
 return m}catch(l){return""}},
 bIv(){var s=0,r=A.i(t.C3),q
@@ -42867,7 +42867,7 @@ case 2:case 3:case 4:case 5:q=A.c1(null,t.H)
 s=1
 break A}case 1:return A.f(q,r)}})
 return A.h($async$a5d,r)},
-bF0(a){a.ga2().xH(B.a4R)
+bF0(a){a.ga2().xH(B.a4S)
 switch(A.au().a){case 0:case 1:return A.Gj()
 case 2:return A.ie(A.b([A.TR(B.J2),A.aGF()],t.mo),!1,t.H)
 case 3:case 4:case 5:return A.c1(null,t.H)}},
@@ -42888,7 +42888,7 @@ return q}catch(p){q=A.G(p)
 if(q instanceof A.Ig){s=q
 throw A.j(A.c7D("Invalid "+a+": "+s.a,s.b,J.bKp(s)))}else if(t.bE.b(q)){r=q
 throw A.j(A.cw("Invalid "+a+' "'+b+'": '+J.at1(r),J.bKp(r),J.bZS(r)))}else throw p}},
-byR(){var s=A.aT($.X.i(0,B.abZ))
+byR(){var s=A.aT($.X.i(0,B.ac_))
 return s==null?$.bHu:s},
 cgl(a,b,c){var s,r
 if(a===1)return b
@@ -42942,7 +42942,7 @@ aGN(a){var s=a/100
 return(s<=0.0031308?s*12.92:1.055*Math.pow(s,0.4166666666666667)-0.055)*255},
 bFk(a){var s=Math.pow(Math.abs(a),0.42)
 return A.Bu(a)*400*s/(s+27.13)},
-bFl(a){var s=A.x7(a,B.a29),r=A.bFk(s[0]),q=A.bFk(s[1]),p=A.bFk(s[2])
+bFl(a){var s=A.x7(a,B.a2a),r=A.bFk(s[0]),q=A.bFk(s[1]),p=A.bFk(s[2])
 return Math.atan2((r+q-2*p)/9,(11*r+-12*q+p)/11)},
 c32(a,b){var s,r,q,p,o,n=B.d.bo(b,4)<=1?0:100,m=(b&1)===0?0:100
 if(b<4){s=(a-n*0.7152-m*0.0722)/0.2126
@@ -42977,7 +42977,7 @@ if(q!==p){if(q<p){o=B.e.iv(A.aGN(q)-0.5)
 n=B.e.A9(A.aGN(a[r])-0.5)}else{o=B.e.A9(A.aGN(q)-0.5)
 n=B.e.iv(A.aGN(a[r])-0.5)}for(m=0;m<8;++m)if(Math.abs(n-o)<=1)break
 else{l=B.e.iv((o+n)/2)
-k=B.a3j[l]
+k=B.a3k[l]
 q=c[r]
 j=(k-q)/(a[r]-q)
 q=c[0]
@@ -43114,7 +43114,7 @@ cgO(a){if(B.b.aX(a,"ps_data_local__"))return B.b.bi(a,15)
 else if(B.b.aX(a,"ps_data__"))return B.b.bi(a,9)
 else return null},
 cgg(a,b){return A.c3b(a,B.Nv)},
-bUc(a){var s,r,q,p,o=B.a5r.i(0,a)
+bUc(a){var s,r,q,p,o=B.a5s.i(0,a)
 if(o==null)return null
 for(s=o.length,r=v.G,q=0;q<s;++q){p=o[q]
 if(r.MediaRecorder.isTypeSupported(p))return p}return null},
@@ -43240,7 +43240,7 @@ c4_(){return new A.avS()},
 cg1(a){switch(a.a){case 0:return B.qn
 case 2:return B.Hb
 case 1:return B.Ha
-case 3:return B.a8g
+case 3:return B.a8h
 case 4:return B.Hc}},
 arV(a,b,c){var s=0,r=A.i(t.y),q,p
 var $async$arV=A.d(function(d,e){if(d===1)return A.e(e,r)
@@ -43425,14 +43425,14 @@ m=k.c-k.a
 h=k.d-k.b
 q.bbW(n,m,h)
 if(q.a==null){r.Vy(B.IM,s)
-r.Vy(B.abU,s)
+r.Vy(B.abV,s)
 r.Vy(B.IN,s)
-r.aEg(B.abT,this,s,q,p,o)}s=q.a
+r.aEg(B.abU,this,s,q,p,o)}s=q.a
 if(s==null){$.asR()
 g=$.qa().getImageData(0,0,B.e.A9(m),B.e.A9(h))
 s=$.cQ.bU().AlphaType.Unpremul
 f={width:m,height:h,colorType:$.cQ.bU().ColorType.RGBA_8888,alphaType:s,colorSpace:v.G.window.flutterCanvasKit.ColorSpace.SRGB}
-m=$.cQ.bU().MakeImage(f,J.eP(B.a5P.gbm(g.data),0,null),4*m)
+m=$.cQ.bU().MakeImage(f,J.eP(B.a5Q.gbm(g.data),0,null),4*m)
 if(m==null)A.Z(A.ee("Failed to convert text image bitmap to an SkImage."))
 s=q.a=A.c09(m)}$.aW()
 p=A.cv()
@@ -43694,7 +43694,7 @@ t.hA.a(o)
 n=n.MakeFreeTypeFaceFromData(o)
 if(n==null){$.i9().$1("Failed to parse fallback font "+a+" as a font.")
 s=1
-break}p.a.e.push(A.bOZ(B.a5N.Zn(o),a,n))
+break}p.a.e.push(A.bOZ(B.a5O.Zn(o),a,n))
 case 1:return A.f(q,r)}})
 return A.h($async$Qx,r)}}
 A.Fm.prototype={
@@ -44206,7 +44206,7 @@ IM(){var s=this.Q
 s===$&&A.c()
 return s},
 IN(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.a0z
+if(a<0||b<0)return B.a0A
 s=this.a
 s===$&&A.c()
 s=s.a
@@ -44225,7 +44225,7 @@ l.push(new A.ir(n[0],n[1],n[2],n[3],B.pF[m]))}return l},
 eb(a){var s,r,q=this.a
 q===$&&A.c()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.ZL[J.c0(s.affinity.value)]
+r=B.ZM[J.c0(s.affinity.value)]
 return new A.b5(J.c0(s.pos),r)},
 a3G(a){var s=this.a
 s===$&&A.c()
@@ -44506,10 +44506,10 @@ j(a){return A.u3(this.a,"[","]")}}
 A.wm.prototype={}
 A.hh.prototype={
 wo(a){return a instanceof A.hh},
-j(a){return B.aij.j(0)+"("+this.b.length+" pictures)"}}
+j(a){return B.aik.j(0)+"("+this.b.length+" pictures)"}}
 A.tn.prototype={
 wo(a){return a instanceof A.tn&&a.a===this.a},
-j(a){return B.aik.j(0)+"("+this.a+")"}}
+j(a){return B.ail.j(0)+"("+this.a+")"}}
 A.a4M.prototype={
 gaZy(){var s,r=this,q=r.b
 if(q===$){s=r.a.$0()
@@ -44718,7 +44718,7 @@ A.A7.prototype={
 N(){return"CanvasKitVariant."+this.b}}
 A.aD1.prototype={
 gts(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.a54(B.a_7,r==null?"auto":r)},
+return A.a54(B.a_8,r==null?"auto":r)},
 gZz(){var s,r=this.b
 if(r==null)s=null
 else{r=r.canvasKitMaximumSurfaces
@@ -44866,7 +44866,7 @@ $2(a,b){this.a.$2(B.c.iW(a,t.m),b)},
 $S:444}
 A.bxI.prototype={
 $1(a){var s=A.bs(a,0,null)
-if(B.aaf.u(0,B.c.gaa(s.gqM())))return s.j(0)
+if(B.aag.u(0,B.c.gaa(s.gqM())))return s.j(0)
 v.G.window.console.error("URL rejected by TrustedTypes policy flutter-engine: "+a+"(download prevented)")
 return null},
 $S:448}
@@ -45363,7 +45363,7 @@ A.aJ_.prototype={
 $0(){this.a.f.D(0,this.b)},
 $S:0}
 A.aIT.prototype={
-$0(){var s,r,q,p,o,n,m=this,l=m.b,k=B.a56.i(0,l)
+$0(){var s,r,q,p,o,n,m=this,l=m.b,k=B.a57.i(0,l)
 if(k!=null)return k
 s=m.c
 r=s.a
@@ -45415,47 +45415,47 @@ for(s=this.c,r=s.length,q=0;q<s.length;s.length===r||(0,A.z)(s),++q){p=s[q]
 if(p instanceof A.r0){p.c.m()
 p.auh()}}}}
 A.aau.prototype={
-hg(a,b){return b.C7(this)},
-lt(a,b){return this.hg(0,b,t.z)}}
+hh(a,b){return b.C7(this)},
+lt(a,b){return this.hh(0,b,t.z)}}
 A.a2T.prototype={
-hg(a,b){return b.a3i(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.a3i(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 $ibL0:1}
 A.a3w.prototype={
-hg(a,b){return b.a3j(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.a3j(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 $ibLw:1}
 A.a3B.prototype={
-hg(a,b){return b.a3m(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.a3m(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 $ibLz:1}
 A.a3x.prototype={
-hg(a,b){return b.a3k(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.a3k(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 $ibLx:1}
 A.a3z.prototype={
-hg(a,b){return b.a3l(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.a3l(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 $ibLy:1}
 A.a8z.prototype={
-hg(a,b){return b.a3o(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.a3o(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 $ibOf:1}
 A.Ux.prototype={
-hg(a,b){return b.C8(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.C8(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 $ibGt:1}
 A.QN.prototype={
-hg(a,b){return b.a3n(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.a3n(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 $ibO9:1}
 A.r0.prototype={
-hg(a,b){return b.a3q(this)},
-lt(a,b){return this.hg(0,b,t.z)},
+hh(a,b){return b.a3q(this)},
+lt(a,b){return this.hh(0,b,t.z)},
 gQM(){return A.iG.prototype.gQM.call(this)&&!this.w}}
 A.a91.prototype={
-hg(a,b){return b.a3r(this)},
-lt(a,b){return this.hg(0,b,t.z)}}
+hh(a,b){return b.a3r(this)},
+lt(a,b){return this.hh(0,b,t.z)}}
 A.aJ5.prototype={}
 A.aJ6.prototype={
 bb(){var s=this.b
@@ -45564,7 +45564,7 @@ s=A.x8()
 s.xM(o,p,0)
 r=this.a.a
 r.push(A.bNZ(s))
-r.push(new A.nP(B.a5M,q,q,q,q,a.f))
+r.push(new A.nP(B.a5N,q,q,q,q,a.f))
 a.b=this.um(a)
 r.pop()
 r.pop()
@@ -46079,7 +46079,7 @@ a2_(a,b){var s,r=this,q="flutter/navigation"
 if(A.bPA(b)){s=r.d
 s.toString
 r.aed(s)
-$.bI().lI(q,B.bW.mk(B.a5z),new A.aZG())}else if(A.bGa(b))$.bI().lI(q,B.bW.mk(new A.mz("pushRoute",r.e)),new A.aZH())
+$.bI().lI(q,B.bW.mk(B.a5A),new A.aZG())}else if(A.bGa(b))$.bI().lI(q,B.bW.mk(new A.mz("pushRoute",r.e)),new A.aZH())
 else{r.e=r.gtA()
 r.d.iG(0,-1)}},
 aee(a,b){var s=b?a.gbbO(a):a.gbaK(a)
@@ -46301,7 +46301,7 @@ switch(s.a){case"activateSystemCursor":q=a.gea().b
 q=A.Bb(new A.be(q,A.r(q).h("be<2>")))
 if(q!=null){if(q.w===$){q.ghz()
 q.w!==$&&A.bn()
-q.w=new A.aMR()}h=B.a57.i(0,A.aT(J.W(m,"kind")))
+q.w=new A.aMR()}h=B.a58.i(0,A.aT(J.W(m,"kind")))
 if(h==null)h="default"
 q=v.G
 if(h==="default")q.document.body.style.removeProperty("cursor")
@@ -46700,7 +46700,7 @@ q=s}return q},
 aa7(a){var s,r=this,q=r.agg(a),p=r.c
 if(q==p)return
 if(q==null){p.toString
-s=new A.Dm(p,B.ajO,B.ajM)}else s=new A.Dm(q,B.rL,r.d)
+s=new A.Dm(p,B.ajP,B.ajN)}else s=new A.Dm(q,B.rL,r.d)
 r.YN(p,!0)
 r.YN(q,!1)
 r.c=q
@@ -46730,7 +46730,7 @@ $S:3}
 A.b4g.prototype={
 $1(a){var s=!1
 if(A.hG(a,"KeyboardEvent")){s=a.shiftKey
-if(s==null)s=!1}if(s)this.a.d=B.ajN},
+if(s==null)s=!1}if(s)this.a.d=B.ajO},
 $S:3}
 A.b4h.prototype={
 $1(a){this.a.d=B.KI},
@@ -47279,7 +47279,7 @@ c=d?g.gdk():e
 g=d?g.gdk():e
 e=a0.buttons
 e.toString
-o.b_S(j,J.c0(e),B.fd,r,s,h*c,i.b*g,1,1,Math.exp(-p/200),B.a88,k,m)}else{k=a0.timeStamp
+o.b_S(j,J.c0(e),B.fd,r,s,h*c,i.b*g,1,1,Math.exp(-p/200),B.a89,k,m)}else{k=a0.timeStamp
 k.toString
 k=A.Jl(k)
 g=$.fx()
@@ -47289,7 +47289,7 @@ c=d?g.gdk():e
 g=d?g.gdk():e
 e=a0.buttons
 e.toString
-o.b_U(j,J.c0(e),B.fd,r,s,new A.bv7(b),h*c,i.b*g,1,1,q,p,B.a87,k,m)}b.c=a0
+o.b_U(j,J.c0(e),B.fd,r,s,new A.bv7(b),h*c,i.b*g,1,1,q,p,B.a88,k,m)}b.c=a0
 b.d=s===B.bV
 return j},
 aKE(a){var s=this,r=$.dB
@@ -47310,7 +47310,7 @@ aqF(a,b){var s
 if(this.a!==0)return this.a45(b)
 s=(b===0&&a>-1?A.cg_(a):b)&1073741823
 this.a=s
-return new A.rH(B.a86,s)},
+return new A.rH(B.a87,s)},
 a45(a){var s=a&1073741823,r=this.a
 if(r===0&&s!==0)return new A.rH(B.fd,r)
 this.a=s
@@ -47520,7 +47520,7 @@ p.toString
 if(c===B.H8){g=p.b
 h=p.c}if(n.WH(d,g,h))a.push(n.ta(s.b,B.m6,d,0,0,e,!1,0,g,h,0,i,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
 a.push(n.yE(b,c,d,0,0,e,!1,0,g,h,0,i,j,0,0,0,0,0,k,l,m,a0,0,a1,a2,a3))
-if(e===B.aV){a.push(n.ta(0,B.a85,d,0,0,e,!1,0,g,h,0,0,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
+if(e===B.aV){a.push(n.ta(0,B.a86,d,0,0,e,!1,0,g,h,0,0,j,0,0,0,0,0,k,l,m,0,a1,a2,a3))
 q.D(0,d)}break
 case 2:s=$.rS().a
 o=s.i(0,d)
@@ -47776,7 +47776,7 @@ if((q.x1&1)!==0){s=q.a.b
 if(s!==B.ad&&!q.ga17()){q=q.p4
 q===$&&A.c()
 r=s===B.bn
-q=B.aat.u(0,q)
+q=B.aau.u(0,q)
 s=this.b.a
 if(q){s===$&&A.c()
 q=A.aI(r)
@@ -49288,14 +49288,14 @@ aGc(){var s=this,r=s.r
 if(r==null){r=s.r=new A.a29(s.c)
 r.d=new A.aCp(s)}return r},
 a2t(a){var s,r=this
-if(B.c.u(B.a2X,a.type)){s=r.aGc()
+if(B.c.u(B.a2Y,a.type)){s=r.aGc()
 s.toString
 s.sb1I(r.c.$0().h0(5e5))
 if(r.f!==B.wl){r.f=B.wl
 r.abG()}}return r.d.a.asp(a)},
 abG(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-aso(a){if(B.c.u(B.a_P,a))return this.f===B.lk
+aso(a){if(B.c.u(B.a_Q,a))return this.f===B.lk
 return!1}}
 A.aCq.prototype={
 $0(){return new A.P(Date.now(),0,!1)},
@@ -49477,7 +49477,7 @@ Sk(a){var s
 if(this.b==null)return!0
 s=$.dB
 if((s==null?$.dB=A.hQ():s).b)return!0
-if(!B.aai.u(0,a.type))return!0
+if(!B.aaj.u(0,a.type))return!0
 if(!J.l(a.target,this.b))return!0
 s=$.dB;(s==null?$.dB=A.hQ():s).sTd(!0)
 this.m()
@@ -49517,7 +49517,7 @@ if(i.e){if($.cR().ghV()!==B.cZ||J.l(a.type,"touchend")||J.l(a.type,"pointerup")|
 return!0}s=$.dB
 if((s==null?$.dB=A.hQ():s).b)return!0
 if(++i.d>=20)return i.e=!0
-if(!B.aas.u(0,a.type))return!0
+if(!B.aat.u(0,a.type))return!0
 if(i.b!=null)return!1
 r=A.m_("activationPoint")
 switch(a.type){case"click":r.seM(new A.Ou(a.offsetX,a.offsetY))
@@ -51457,13 +51457,13 @@ s.y=s.x=0
 s.Q=s.w=-1/0
 o=p.gyV().b
 r=B.c.gaa(o)
-r=r.ghh(r)
+r=r.ghi(r)
 s.f=r.d-r.b
 r=B.c.gU(o)
-r=r.ghh(r)
+r=r.ghi(r)
 s.d=r.d-r.b
 o=B.c.gU(o)
-o=o.ghh(o)
+o=o.ghi(o)
 s.r=o.d-o.b
 return}q=new A.b2I(p)
 q.aZQ(a)
@@ -51508,7 +51508,7 @@ if(c&&f===-1)f=e
 if(!c&&f>-1){i=e
 break}++e}b=A.c9h(r,f,i===-1?h:i)
 r=m!=null
-if(r&&d1.a.a.b===B.bv){g=m.ghh(0)
+if(r&&d1.a.a.b===B.bv){g=m.ghi(0)
 a=g.c-g.a}else a=0
 for(g=b.$ti,d=new A.bv(b,b.gv(0),g.h("bv<aC.E>")),a0=d1.a,a1=a0.b,a2=t.AS,a3=d1.f,a4=t.NJ,a5=d3.b,a6=d4.a,g=g.h("aC.E"),a7=0;d.n();){a8=d.d
 if(a8==null)a8=g.a(a8)
@@ -51531,7 +51531,7 @@ c3=new A.cH(c1,c2)
 c4=d2.S9(c1,c2)
 if(c0 instanceof A.BT){q.push(new A.xt(a,c0,a8,c4,c3,a))
 c5=c0.f}else{c6=b6?a3[c4.a]:a3[c4.b-1]
-c7=c6.ghh(c6)
+c7=c6.ghi(c6)
 a2.a(c0)
 c8=new A.yd(a-c7.a,c4,c0,a8,c4,c3,a)
 q.push(c8)
@@ -51545,11 +51545,11 @@ a7=c2.c-c2.a
 a4.a(B.c.gaa(q)).w=d2.S9(c1,d0)
 a4.a(B.c.gaa(q)).x=a7}j.x=Math.max(j.x,c8.gc5(0).gk5(0)*c8.gEn())
 j.y=Math.max(j.y,c8.gc5(0).gGY(0)*c8.gEn())
-c1=c8.ghh(0)
+c1=c8.ghi(0)
 c5=c1.c-c1.a}a+=c5}}if(r)if(a0.a.b===B.aa){m.r=m.e=a
 q.push(m)
 j.Q=0
-d2=m.ghh(0)
+d2=m.ghi(0)
 a+=d2.c-d2.a}else B.c.f3(q,0,m)
 for(d2=q.length,b9=0;b9<q.length;q.length===d2||(0,A.z)(q),++b9){c8=q[b9]
 if(!(c8 instanceof A.xt))continue
@@ -51585,7 +51585,7 @@ c=d.d
 b=Math.max(c.a,a6)
 c=Math.min(c.b,a7)
 if(c-b<=0)continue
-a=d.ghh(d)
+a=d.ghi(d)
 if(!(d instanceof A.xt)){c=p.a(d.gc5(d)).a3V(d,new A.cH(b,c))
 b=d.e
 a0=d.gc5(d)
@@ -51649,7 +51649,7 @@ IM(){var s,r,q,p,o,n,m,l,k,j,i,h,g=A.b([],t.Lx)
 for(s=this.e,r=s.length,q=this.a.a.b,p=0;p<s.length;s.length===r||(0,A.z)(s),++p){o=s[p]
 for(n=o.as,m=n.length,l=0;l<n.length;n.length===m||(0,A.z)(n),++l){k=n[l]
 if(k instanceof A.yd)continue
-j=k.ghh(k)
+j=k.ghi(k)
 i=o.w
 h=i.a+o.z
 i=i.b
@@ -51664,8 +51664,8 @@ if(l.b>p)return new A.b5(m.a.a,B.t)
 else if(l.d<p)continue
 k=l.a+m.z
 for(r=m.as,q=r.length,p=a0.a,l=this.f,n=0;n<r.length;r.length===q||(0,A.z)(r),++n){j=r[n]
-i=j.ghh(j)
-if(j.ghh(j).c+k+0.001<p)continue
+i=j.ghi(j)
+if(j.ghi(j).c+k+0.001<p)continue
 else if(i.a+k-0.001>p)return new A.b5(m.a.b-1,B.t)
 i=(j.b&1)===0
 h=j.c
@@ -51673,8 +51673,8 @@ g=i?h.a:h.b-1
 f=i?h.b:h.a-1
 e=i?1:-1
 for(d=g;d!==f;d+=e){c=l[d]
-b=c.ghh(c).a+k+j.gxO()-0.001
-a=c.ghh(c).c+k+j.gxO()+0.001
+b=c.ghi(c).a+k+j.gxO()-0.001
+a=c.ghi(c).c+k+j.gxO()+0.001
 if(b<=p&&a>p)if(p-b<=a-p)return new A.b5(c.gc5(c).a+c.gjN(),B.t)
 else if(c.gc5(c).a+c.goW()===s)return new A.b5(c.gc5(c).a+c.goW()-1,B.t)
 else return new A.b5(c.gc5(c).a+c.goW(),B.aY)}}return new A.b5(m.a.b-1,B.t)}return new A.b5(s,B.aY)},
@@ -51695,7 +51695,7 @@ else{l=l.a
 if(l>f)continue}g=Math.max(l,f)
 Math.min(k,r)
 j=i.f[g]
-g=j.ghh(j)
+g=j.ghi(j)
 k=p.w.a+p.z+m.gxO()
 o=p.w.b+p.x
 return new A.wJ(new A.Q(g.a+k,g.b+o,g.c+k,g.d+o),new A.cH(j.gc5(j).a+j.gjN(),j.gc5(j).a+j.goW()),i.aDn(s))}return h},
@@ -51733,7 +51733,7 @@ j(a){var s=this
 return"WebCluster ["+(s.gc5(s).a+s.gjN())+":"+(s.gc5(s).a+s.goW())+")"}}
 A.U4.prototype={
 gxZ(a){return this.a.c},
-ghh(a){var s,r=this,q=r.e
+ghi(a){var s,r=this,q=r.e
 if(q===$){s=A.aAI(r.a.gvv(),r.b,r.c)
 r.e!==$&&A.bn()
 r.e=s
@@ -51747,7 +51747,7 @@ gjN(){return this.b},
 goW(){return this.c}}
 A.a5_.prototype={
 gxZ(a){return this.b.c},
-ghh(a){var s=this.f
+ghi(a){var s=this.f
 return s===$?this.f=new A.Q(0,0,0,0+this.a):s},
 j(a){var s=""+this.b.a
 return"EmptyCluster ["+s+":"+s+")"},
@@ -51757,7 +51757,7 @@ gjN(){return 0},
 goW(){return 0}}
 A.R8.prototype={
 gxZ(a){return this.a.c},
-ghh(a){var s,r=this.d
+ghi(a){var s,r=this.d
 if(r===$){s=this.a
 r=this.d=new A.Q(0,0,0+s.f,0+s.r)}return r},
 O2(a,b,c){throw A.j(A.an('We should not call "addToContext" on an PlaceholderCluster'))},
@@ -51767,7 +51767,7 @@ goW(){return this.c}}
 A.Bk.prototype={}
 A.yd.prototype={
 gc5(a){return t.AS.a(this.a)},
-ghh(a){var s,r,q,p,o=this,n=o.f
+ghi(a){var s,r,q,p,o=this,n=o.f
 if(n===$){s=t.AS.a(o.a)
 r=o.d
 q=s.a
@@ -51802,7 +51802,7 @@ case 1:return b.c=o.at(-1),3}}}},
 gxO(){return this.r}}
 A.xt.prototype={
 gc5(a){return t.lO.a(this.a)},
-ghh(a){var s=this.f
+ghi(a){var s=this.f
 s===$&&A.c()
 return s},
 b_6(a,b){var s,r,q,p,o=this,n=t.lO,m=n.a(o.a).x===B.aw?b/2:0,l=n.a(o.a).r,k=n.a(o.a).y
@@ -51851,7 +51851,7 @@ T0(){var s=this,r=s.x,q=s.y,p=s.w,o=p.b,n=p.a
 $.aW()
 return new A.G0(s.f,r,q,r,p.d-o,p.c-n,n,o+r,s.r)}}
 A.b2A.prototype={
-ahs(a,b,c,d,e){var s=b.ghh(0),r=s.c-s.a,q=s.d-s.b,p=new A.Q(0,0,0+r,0+q).o7(0,c.a,c.b).o7(0,d.a,d.b)
+ahs(a,b,c,d,e){var s=b.ghi(0),r=s.c-s.a,q=s.d-s.b,p=new A.Q(0,0,0+r,0+q).o7(0,c.a,c.b).o7(0,d.a,d.b)
 return new A.ay(new A.Q(0,0,0+r*e,0+q*e),p)},
 b_5(a,b,c){var s,r,q,p,o,n,m,l
 for(s=a.e,r=s.length,q=0,p=0;p<r;++p){o=s[p]
@@ -51884,7 +51884,7 @@ s.toString
 r=r.as
 if(r==null)r=1
 q=s/14*r
-for(s=[B.acj,B.J9,B.aci],r=b.a,p=b.b,o=r+(b.c-r),n=0;n<3;++n){m=s[n]
+for(s=[B.ack,B.J9,B.acj],r=b.a,p=b.b,o=r+(b.c-r),n=0;n<3;++n){m=s[n]
 l=a.gc5(0).c.y.a
 if((l|m.a)!==l)continue
 k=p+this.b_7(m,q,a.gc5(0).gk5(0)*a.gEn()+a.gc5(0).gGY(0)*a.gEn(),a.gc5(0).gk5(0)*a.gEn())
@@ -51907,7 +51907,7 @@ break
 case 3:case 2:h=new Float32Array(2)
 j=a.gc5(0).c.Q
 j.toString
-h[0]=q*(j===B.ach?1:4)
+h[0]=q*(j===B.aci?1:4)
 h[1]=q
 l.setLineDash(h)
 l.beginPath()
@@ -52250,7 +52250,7 @@ switch(a.b.a){case 0:s=a.a-1
 break
 case 1:s=a.a
 break
-default:s=null}if(s<0)return B.acx
+default:s=null}if(s<0)return B.acy
 r=this.c.length
 if(s>=r)return new A.cH(r,r)
 q=this.glg().iF(s)
@@ -52468,7 +52468,7 @@ gXW(){return null}}
 A.b2I.prototype={
 aZQ(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=h.a,f=new A.biI(g,a)
 for(s=g.f,r=!1,q=0;q<s.length-1;++q){p=s[q]
-o=p.ghh(p)
+o=p.ghi(p)
 n=o.c-o.a
 o=g.c
 o===$&&A.c()
@@ -52549,7 +52549,7 @@ q=r==null
 if(q||r.length===0)return!0
 for(p=d.b,o=s.f,n=r.length,m=t.m,l=$.cQ.a,k=0;;){if(a<=d.d)throw A.j(A.e3("Ellipsizing requires removing the whole line, not implemented yet"));--a
 j=o[a]
-i=j.ghh(j)
+i=j.ghi(j)
 h=i.c-i.a
 i=j.gxZ(j)
 if(q)g=s.x=0
@@ -53286,7 +53286,7 @@ return s.d.$0()}else return r},
 $S:625}
 A.aoQ.prototype={
 bj(a){return new Uint8Array(A.fY(a))},
-he(a){return new A.bt8(a)}}
+hf(a){return new A.bt8(a)}}
 A.bt8.prototype={
 q(a,b){this.a.q(0,new Uint8Array(A.fY(b)))},
 G(a){this.a.G(0)}}
@@ -53521,13 +53521,13 @@ q=p.f
 B.A.dB(r,q,q+s.gv(a),a)
 p.f=p.f+s.gv(a)}},
 a7s(a){var s,r,q,p,o
-if(a===0){if(this.x===2)return B.a1N
+if(a===0){if(this.x===2)return B.a1O
 return B.WJ}s=this.x
 for(r=a,q=s;r>0;){++q
 r=B.d.d0(r,4)}p=new Uint8Array(q+2)
 if(s===2){p[0]=13
 p[1]=10}for(o=q;o>s;){--o
-p[o]=B.a_h[a&15]
+p[o]=B.a_i[a&15]
 a=B.d.d0(a,4)}p[q]=13
 p[q+1]=10
 return p}}
@@ -54180,7 +54180,7 @@ if(n)throw A.j(A.cc(a9,a7))
 a6.e=3}}break
 case 2:m=a6.f
 m.toString
-if(m<7){l=B.a1k[m]
+if(m<7){l=B.a1l[m]
 if(i!==l)A.Z(A.cc(b0+i+b1+l,a7))
 a6.f=m+1}else{l=m===7
 if(l&&i===49){a6.ax=2
@@ -54944,7 +54944,7 @@ $iaH:1}
 J.w.prototype={$iV:1}
 J.p8.prototype={
 gA(a){return 0},
-gfE(a){return B.aiy},
+gfE(a){return B.aiz},
 j(a){return String(a)},
 gv(a){return a.length},
 lK(a){return a.length()}}
@@ -56592,7 +56592,7 @@ r.b=s
 q=s}return q}}
 A.GR.prototype={
 gHy(a){return a.byteLength},
-gfE(a){return B.aih},
+gfE(a){return B.aii},
 Of(a,b,c){A.rL(a,b,c)
 return c==null?new Uint8Array(a,b):new Uint8Array(a,b,c)},
 Zn(a){return this.Of(a,0,null)},
@@ -56612,7 +56612,7 @@ $iei:1,
 $itc:1}
 A.xb.prototype={$ixb:1}
 A.GS.prototype={
-gfE(a){return B.aiw},
+gfE(a){return B.aix},
 gbm(a){return B.cu.gbm(this.a)},
 gHy(a){return this.a.byteLength},
 gamq(a){return this.a.byteOffset},
@@ -56672,7 +56672,7 @@ return s},
 ah0(a){return this.Oe(0,0,null)},
 $itc:1}
 A.BD.prototype={
-gfE(a){return B.aii},
+gfE(a){return B.aij},
 gajn(a){return 1},
 a3L(a,b,c){throw A.j(A.an("Int64 accessor not supported by dart2js."))},
 a4u(a,b,c,d){throw A.j(A.an("Int64 accessor not supported by dart2js."))},
@@ -56718,19 +56718,19 @@ $iaE:1,
 $iC:1,
 $iq:1}
 A.Qy.prototype={
-gfE(a){return B.air},
+gfE(a){return B.ais},
 cJ(a,b,c){return new Float32Array(a.subarray(b,A.vM(b,c,a.length)))},
 fp(a,b){return this.cJ(a,b,null)},
 $iei:1,
 $iaCX:1}
 A.Qz.prototype={
-gfE(a){return B.ais},
+gfE(a){return B.ait},
 cJ(a,b,c){return new Float64Array(a.subarray(b,A.vM(b,c,a.length)))},
 fp(a,b){return this.cJ(a,b,null)},
 $iei:1,
 $iaCY:1}
 A.BE.prototype={
-gfE(a){return B.aiu},
+gfE(a){return B.aiv},
 i(a,b){A.pY(b,a,a.length)
 return a[b]},
 cJ(a,b,c){return new Int16Array(a.subarray(b,A.vM(b,c,a.length)))},
@@ -56739,7 +56739,7 @@ $iei:1,
 $iBE:1,
 $iaI9:1}
 A.BF.prototype={
-gfE(a){return B.aiv},
+gfE(a){return B.aiw},
 i(a,b){A.pY(b,a,a.length)
 return a[b]},
 cJ(a,b,c){return new Int32Array(a.subarray(b,A.vM(b,c,a.length)))},
@@ -56748,7 +56748,7 @@ $iei:1,
 $iBF:1,
 $iaIa:1}
 A.a8b.prototype={
-gfE(a){return B.aix},
+gfE(a){return B.aiy},
 i(a,b){A.pY(b,a,a.length)
 return a[b]},
 cJ(a,b,c){return new Int8Array(a.subarray(b,A.vM(b,c,a.length)))},
@@ -56756,7 +56756,7 @@ fp(a,b){return this.cJ(a,b,null)},
 $iei:1,
 $iaIb:1}
 A.QB.prototype={
-gfE(a){return B.aiT},
+gfE(a){return B.aiU},
 i(a,b){A.pY(b,a,a.length)
 return a[b]},
 cJ(a,b,c){return new Uint16Array(a.subarray(b,A.vM(b,c,a.length)))},
@@ -56764,7 +56764,7 @@ fp(a,b){return this.cJ(a,b,null)},
 $iei:1,
 $ib3t:1}
 A.QC.prototype={
-gfE(a){return B.aiU},
+gfE(a){return B.aiV},
 i(a,b){A.pY(b,a,a.length)
 return a[b]},
 cJ(a,b,c){return new Uint32Array(a.subarray(b,A.vM(b,c,a.length)))},
@@ -56772,7 +56772,7 @@ fp(a,b){return this.cJ(a,b,null)},
 $iei:1,
 $iIV:1}
 A.GU.prototype={
-gfE(a){return B.aiV},
+gfE(a){return B.aiW},
 gv(a){return a.length},
 i(a,b){A.pY(b,a,a.length)
 return a[b]},
@@ -56781,7 +56781,7 @@ fp(a,b){return this.cJ(a,b,null)},
 $iei:1,
 $ib3u:1}
 A.qV.prototype={
-gfE(a){return B.aiW},
+gfE(a){return B.aiX},
 gv(a){return a.length},
 i(a,b){A.pY(b,a,a.length)
 return a[b]},
@@ -58492,19 +58492,19 @@ A.bb3.prototype={
 $1(a){return this.a.qY(this.b,a,this.c)},
 $S(){return this.c.h("~(0)")}}
 A.Ze.prototype={
-gadi(){return B.arh},
-gadl(){return B.arj},
-gadj(){return B.ari},
-gacV(){return B.arg},
-gacW(){return B.arb},
-gacU(){return B.arl},
-ga8R(){return B.ard},
-gXM(){return B.ark},
-ga87(){return B.arc},
-ga83(){return B.ara},
-gacx(){return B.arf},
-ga9g(){return B.are},
-gWr(){return B.ar9},
+gadi(){return B.arj},
+gadl(){return B.arl},
+gadj(){return B.ark},
+gacV(){return B.ari},
+gacW(){return B.ard},
+gacU(){return B.arn},
+ga8R(){return B.arf},
+gXM(){return B.arm},
+ga87(){return B.are},
+ga83(){return B.arc},
+gacx(){return B.arh},
+ga9g(){return B.arg},
+gWr(){return B.arb},
 gbq(a){return null},
 gabo(){return $.bXE()},
 ga8d(){var s=$.boU
@@ -59882,7 +59882,7 @@ bj(a){var s,r,q,p=A.eV(0,null,a.length,null,null),o=new Uint8Array(p)
 for(s=~this.a,r=0;r<p;++r){q=a.charCodeAt(r)
 if((q&s)!==0)throw A.j(A.ek(a,"string","Contains invalid characters."))
 o[r]=q}return o},
-he(a){var s=a instanceof A.A4?a:new A.Dr(a)
+hf(a){var s=a instanceof A.A4?a:new A.Dr(a)
 return new A.apv(s,this.a)}}
 A.a2v.prototype={}
 A.apv.prototype={
@@ -59904,7 +59904,7 @@ for(s=~this.b,r=J.a3(a),q=b,p="";q<c;++q){o=r.i(a,q)
 p+=A.dW((o&s)>>>0!==0?65533:o)}return p.charCodeAt(0)==0?p:p},
 el(a){return this.a57(a)}}
 A.a2u.prototype={
-he(a){var s=t.NC.b(a)?a:new A.zc(a)
+hf(a){var s=t.NC.b(a)?a:new A.zc(a)
 if(this.a)return new A.bd2(s.Og(!1))
 else return new A.brl(s)}}
 A.bd2.prototype={
@@ -59971,7 +59971,7 @@ s=this.a?u.G:u.z
 r=new A.Vs(s).a_S(a,0,r.gv(a),!0)
 r.toString
 return A.fU(r,0,null)},
-he(a){var s,r=u.G,q=u.z
+hf(a){var s,r=u.G,q=u.z
 if(t.NC.b(a)){s=a.Og(!1)
 return new A.bue(s,new A.Vs(this.a?r:q))}return new A.b6j(a,new A.b7e(this.a?r:q))}}
 A.Vs.prototype={
@@ -60006,7 +60006,7 @@ r=s.a_k(0,a,0,q)
 r.toString
 s.Ae(0,a,q)
 return r},
-he(a){return new A.aeS(a,new A.aeR())}}
+hf(a){return new A.aeS(a,new A.aeR())}}
 A.aeR.prototype={
 a_k(a,b,c,d){var s,r=this,q=r.a
 if(q<0){r.a=A.bQU(b,c,d,q)
@@ -60069,14 +60069,14 @@ A.ns.prototype={
 eJ(a){return this.gfj().bj(a)}}
 A.cf.prototype={
 b45(a,b){return new A.WQ(this,a,A.r(this).h("@<cf.S,cf.T>").b8(b).h("WQ<1,2,3>"))},
-he(a){throw A.j(A.an("This converter does not support chunked conversions: "+this.j(0)))},
+hf(a){throw A.j(A.an("This converter does not support chunked conversions: "+this.j(0)))},
 el(a){return new A.jN(new A.ayw(this),a,t.cu.b8(A.r(this).h("cf.T")).h("jN<1,2>"))}}
 A.ayw.prototype={
-$1(a){return new A.Dv(a,this.a.he(a))},
+$1(a){return new A.Dv(a,this.a.hf(a))},
 $S:1210}
 A.WQ.prototype={
 bj(a){return this.b.bj(this.a.bj(a))},
-he(a){return this.a.he(this.b.he(a))}}
+hf(a){return this.a.hf(this.b.hf(a))}}
 A.qz.prototype={
 b1Q(a){return this.gtB().el(a).h4(0,new A.ch(""),new A.aC1(),t.v0).ah(0,new A.aC2(),t.N)}}
 A.aC1.prototype={
@@ -60108,7 +60108,7 @@ bj(a){var s,r=new A.ch("")
 A.bH2(a,r,this.b,this.a)
 s=r.a
 return s.charCodeAt(0)==0?s:s},
-he(a){var s,r=this
+hf(a){var s,r=this
 if(a instanceof A.a0_)return new A.aiA(a.d,A.c3H(r.a),r.b,256)
 s=t.NC.b(a)?a:new A.zc(a)
 return new A.bik(r.a,r.b,s)}}
@@ -60130,7 +60130,7 @@ s.a.G(0)},
 G(a){if(!this.e){this.e=!0
 this.a.G(0)}}}
 A.a77.prototype={
-he(a){return new A.Xg(this.a,a,new A.ch(""))},
+hf(a){return new A.Xg(this.a,a,new A.ch(""))},
 bj(a){return A.arD(a,this.a)}}
 A.bio.prototype={
 a3B(a){var s,r,q,p,o,n=this,m=a.length
@@ -60339,7 +60339,7 @@ gfj(){return B.x1},
 gtB(){return B.x0}}
 A.a7g.prototype={}
 A.a7f.prototype={
-he(a){var s=t.NC.b(a)?a:new A.zc(a)
+hf(a){var s=t.NC.b(a)?a:new A.zc(a)
 if(!this.a)return new A.aiG(s)
 return new A.biu(s)}}
 A.aiG.prototype={
@@ -60460,7 +60460,7 @@ q.a=""
 return}if(d)r.G(0)}}
 A.adm.prototype={
 geR(a){return"utf-8"},
-b1M(a,b,c){return new A.ot((c===!0?B.ajq:B.mV).a).oq(b,0,null,!0)},
+b1M(a,b,c){return new A.ot((c===!0?B.ajr:B.mV).a).oq(b,0,null,!0)},
 aP(a,b){return this.b1M(0,b,null)},
 eJ(a){return B.aq.bj(a)},
 gfj(){return B.aq},
@@ -60472,7 +60472,7 @@ s=new Uint8Array(q*3)
 r=new A.apK(s)
 if(r.a8V(a,0,q)!==q)r.NE()
 return B.A.cJ(s,0,r.b)},
-he(a){var s=a instanceof A.A4?a:new A.Dr(a)
+hf(a){var s=a instanceof A.A4?a:new A.Dr(a)
 return new A.a0_(s,new Uint8Array(1024))}}
 A.apK.prototype={
 NE(){var s=this,r=s.c,q=s.b,p=s.b=q+1
@@ -60546,7 +60546,7 @@ if(d)n.G(0)}}
 A.UN.prototype={
 b_V(a,b,c){return new A.ot(this.a).oq(a,b,c,!0)},
 bj(a){return this.b_V(a,0,null)},
-he(a){var s=t.NC.b(a)?a:new A.zc(a)
+hf(a){var s=t.NC.b(a)?a:new A.zc(a)
 return s.Og(this.a)},
 el(a){return this.a57(a)}}
 A.ot.prototype={
@@ -62924,19 +62924,19 @@ gfj(){return A.c9v(null,!0,6,8,!1,0,15)},
 gtB(){A.bTx(15)
 return new A.adR(!0,15,null,!1)}}
 A.adS.prototype={
-bj(a){var s=new A.Jp(A.b([],t.XE)),r=this.he(new A.af7(s))
+bj(a){var s=new A.Jp(A.b([],t.XE)),r=this.hf(new A.af7(s))
 r.dT(a,0,J.as(a),!1)
 r.G(0)
 return s.mS()},
-he(a){var s=this
+hf(a){var s=this
 if(!(a instanceof A.A4))a=new A.Dr(a)
 return new A.bvC(A.bOQ(!0,s.b,s.e,s.c,s.d,s.f,!1),a)}}
 A.adR.prototype={
-bj(a){var s=new A.Jp(A.b([],t.XE)),r=this.he(new A.af7(s))
+bj(a){var s=new A.Jp(A.b([],t.XE)),r=this.hf(new A.af7(s))
 r.dT(a,0,J.as(a),!1)
 r.G(0)
 return s.mS()},
-he(a){if(!(a instanceof A.A4))a=new A.Dr(a)
+hf(a){if(!(a instanceof A.A4))a=new A.Dr(a)
 return new A.bvB(A.bOR(!0,this.b,this.c,!1),a)}}
 A.af7.prototype={
 q(a,b){this.a.q(0,b)},
@@ -63332,9 +63332,9 @@ s.a.Tr(B.tX)
 if(s.db)s.Er()}},
 aNe(a){return this.Q.$1(a)},
 aEW(a){var s,r,q,p=this
-try{if(a===B.a8q){p.Xi()
+try{if(a===B.a8r){p.Xi()
 p.go=!0
-p.td()}else if(a===B.a8r){p.YY()
+p.td()}else if(a===B.a8s){p.YY()
 p.go=!0
 p.td()}else if(a===B.Hi)p.Dz()}catch(q){s=A.G(q)
 r=A.a4(q)
@@ -63512,7 +63512,7 @@ A.Ps.prototype={}
 A.Tm.prototype={}
 A.b_f.prototype={}
 A.mL.prototype={
-j(a){return B.Yg[this.a]}}
+j(a){return B.Yf[this.a]}}
 A.ju.prototype={}
 A.Tn.prototype={
 j(a){var s=this.a
@@ -64482,7 +64482,7 @@ return b instanceof A.lB&&b.a===this.a},
 gA(a){return this.a},
 j(a){var s=this.a
 if(B.d.bo(s,100)!==0)return"FontWeight("+s+")"
-s=B.a54.i(0,this.gu1(0))
+s=B.a55.i(0,this.gu1(0))
 s.toString
 return s}}
 A.Pa.prototype={
@@ -64797,7 +64797,7 @@ return A.h($async$r8,r)},
 IU(){var s=0,r=A.i(t.T),q,p
 var $async$IU=A.d(function(a,b){if(a===1)return A.e(b,r)
 for(;;)switch(s){case 0:s=3
-return A.a(B.a5B.bO("getInitialLink",null,!1,t.T),$async$IU)
+return A.a(B.a5C.bO("getInitialLink",null,!1,t.T),$async$IU)
 case 3:p=b
 q=p!=null&&p.length!==0?p:null
 s=1
@@ -65390,7 +65390,7 @@ A.a6a.prototype={
 gfj(){return B.NR}}
 A.a6b.prototype={
 bj(a){return A.bHr(a,0,J.as(a))},
-he(a){return new A.bfz(a)}}
+hf(a){return new A.bfz(a)}}
 A.bfz.prototype={
 q(a,b){this.a.q(0,A.bHr(b,0,J.as(b)))},
 dT(a,b,c,d){var s
@@ -65468,7 +65468,7 @@ for(r=s.length,o=p.$flags|0,n=0;n<r;++n){m=s[n]
 o&2&&A.at(p,11)
 p.setUint32(n*4,m,!1)}return q}}
 A.anh.prototype={
-he(a){var s=new Uint32Array(A.fY(A.b([1779033703,3144134277,1013904242,2773480762,1359893119,2600822924,528734635,1541459225],t.t))),r=new Uint32Array(64),q=new Uint8Array(64)
+hf(a){var s=new Uint32Array(A.fY(A.b([1779033703,3144134277,1013904242,2773480762,1359893119,2600822924,528734635,1541459225],t.t))),r=new Uint32Array(64),q=new Uint8Array(64)
 return new A.Dr(new A.ani(s,r,a,q,new Uint32Array(16)))}}
 A.bqW.prototype={
 bda(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a
@@ -65488,7 +65488,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Ye[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.Yd[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.at(r)
 r[0]=d+l>>>0
@@ -65839,7 +65839,7 @@ l=r.gfv()
 k=r.galL()
 j=r.gaF(0).W(d)
 i=r.gaF(0)
-return new A.FK(new A.At(B.n4,c,d,g,A.c0L(n,r.gaF(0),j,k,l,i,f,m,o),p,q,g,g),e,new A.bbT(c),"Voicley",B.a1X,!1,g)}}
+return new A.FK(new A.At(B.n4,c,d,g,A.c0L(n,r.gaF(0),j,k,l,i,f,m,o),p,q,g,g),e,new A.bbT(c),"Voicley",B.a1Y,!1,g)}}
 A.bbV.prototype={
 $3(a,b,c){var s=this.a.ga_().p(0,$.d1().gM(),t.A),r=b.length===0?null:b
 s.aoC(a,c.length===0?null:c,r)},
@@ -66071,10 +66071,10 @@ $2(a,b){var s=b.r.i(0,"fileId")
 return A.hM(new A.xC(s==null?"":s,null,null),null)},
 $S:28}
 A.bzK.prototype={
-$2(a,b){return A.hM(B.a9l,null)},
+$2(a,b){return A.hM(B.a9m,null)},
 $S:28}
 A.bzL.prototype={
-$2(a,b){return A.hM(B.a9m,null)},
+$2(a,b){return A.hM(B.a9n,null)},
 $S:28}
 A.bzM.prototype={
 $2(a,b){return A.hM(B.P_,null)},
@@ -66089,7 +66089,7 @@ return A.hM(new A.P5(s==null?"":s,null),new A.dg("folder-"+A.p(r),t.kK))},
 $S:28}
 A.bzP.prototype={
 $2(a,b){var s=b.w
-if(!(s instanceof A.uI)||s.a.length===0)return A.hM(B.apu,null)
+if(!(s instanceof A.uI)||s.a.length===0)return A.hM(B.apw,null)
 return A.hM(new A.RI(s.a,s.b,null),null)},
 $S:28}
 A.bzQ.prototype={
@@ -66100,25 +66100,25 @@ $2(a,b){var s=b.r.i(0,"id")
 return A.hM(new A.xC(s==null?"":s,null,null),null)},
 $S:28}
 A.bzy.prototype={
-$2(a,b){return A.hM(B.ai7,null)},
+$2(a,b){return A.hM(B.ai8,null)},
 $S:28}
 A.bzz.prototype={
-$2(a,b){return A.hM(B.a9E,null)},
+$2(a,b){return A.hM(B.a9F,null)},
 $S:28}
 A.bzA.prototype={
-$2(a,b){return A.hM(B.a3o,null)},
+$2(a,b){return A.hM(B.a3p,null)},
 $S:28}
 A.bzB.prototype={
 $2(a,b){return A.hM(B.Pf,null)},
 $S:28}
 A.bzC.prototype={
-$2(a,b){return A.hM(B.a8s,null)},
+$2(a,b){return A.hM(B.a8t,null)},
 $S:28}
 A.bzD.prototype={
 $2(a,b){return A.hM(new A.Og(null),null)},
 $S:28}
 A.bzE.prototype={
-$2(a,b){return A.hM(B.a61,null)},
+$2(a,b){return A.hM(B.a62,null)},
 $S:28}
 A.bzF.prototype={
 $2(a,b){return A.hM(B.Vg,null)},
@@ -66575,12 +66575,12 @@ if(m.gv(m)>0)n.Vq(m.mS())
 case 1:return A.f(q,r)
 case 2:return A.e(o.at(-1),r)}})
 return A.h($async$fn,r)},
-hj(){var s=0,r=A.i(t.H),q=this
-var $async$hj=A.d(function(a,b){if(a===1)return A.e(b,r)
+hk(){var s=0,r=A.i(t.H),q=this
+var $async$hk=A.d(function(a,b){if(a===1)return A.e(b,r)
 for(;;)switch(s){case 0:s=2
-return A.a(q.dx,$async$hj)
+return A.a(q.dx,$async$hk)
 case 2:return A.f(null,r)}})
-return A.h($async$hj,r)},
+return A.h($async$hk,r)},
 J(a){var s=0,r=A.i(t.H),q=1,p=[],o=this,n,m,l
 var $async$J=A.d(function(b,c){if(b===1){p.push(c)
 s=q}for(;;)switch(s){case 0:o.ok=o.dy=o.fr=!0
@@ -66803,12 +66803,12 @@ break
 case 11:case 1:return A.f(q,r)
 case 2:return A.e(o.at(-1),r)}})
 return A.h($async$fn,r)},
-hj(){var s=0,r=A.i(t.H),q=this
-var $async$hj=A.d(function(a,b){if(a===1)return A.e(b,r)
+hk(){var s=0,r=A.i(t.H),q=this
+var $async$hk=A.d(function(a,b){if(a===1)return A.e(b,r)
 for(;;)switch(s){case 0:s=2
-return A.a(q.ch,$async$hj)
+return A.a(q.ch,$async$hk)
 case 2:return A.f(null,r)}})
-return A.h($async$hj,r)},
+return A.h($async$hk,r)},
 J(a){var s=0,r=A.i(t.H),q=1,p=[],o=this,n,m,l,k
 var $async$J=A.d(function(b,c){if(b===1){p.push(c)
 s=q}for(;;)switch(s){case 0:o.at=o.ax=!0
@@ -67336,8 +67336,8 @@ m.dd(new A.azU())
 case 1:return A.f(q,r)
 case 2:return A.e(o.at(-1),r)}})
 return A.h($async$fn,r)},
-hj(){var s=0,r=A.i(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c
-var $async$hj=A.d(function(a,b){if(a===1){p.push(b)
+hk(){var s=0,r=A.i(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c
+var $async$hk=A.d(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:d=o.fr
 if(d.length!==0){o.fr=""
 $.al().a5("DEEPGRAM","flush_held_opener",A.B(["text",d],t.N,t.X))
@@ -67353,12 +67353,12 @@ o.fy=null
 $.al().a5("DEEPGRAM","gap_uncovered",A.B(["fromMs",i,"toMs",h,"atStop",!0],t.N,t.X))}d=o.at
 d=d==null?null:d.j4()
 s=2
-return A.a(t.r.b(d)?d:A.bB(d,t.H),$async$hj)
+return A.a(t.r.b(d)?d:A.bB(d,t.H),$async$hk)
 case 2:g=o.ax
 s=g!=null?3:4
 break
 case 3:s=5
-return A.a(o.z7(g),$async$hj)
+return A.a(o.z7(g),$async$hk)
 case 5:case 4:d=o.db.a
 f=B.b.I(d.charCodeAt(0)==0?d:d)
 d=f.length
@@ -67370,7 +67370,7 @@ break
 case 6:q=9
 k=o.dx
 s=12
-return A.a(A.fk(n+".speakers.json").IJ(A.bTZ(k,"deepgram")),$async$hj)
+return A.a(A.fk(n+".speakers.json").IJ(A.bTZ(k,"deepgram")),$async$hk)
 case 12:$.al().a5("SPEAKERS","sidecar_written",A.B(["turns",k.length,"speakers",A.byY(k)],t.N,t.X))
 q=1
 s=11
@@ -67388,7 +67388,7 @@ break
 case 11:case 7:$.al().a5("DEEPGRAM","recorder_drain",A.B(["chars",d],t.N,t.X))
 return A.f(null,r)
 case 1:return A.e(p.at(-1),r)}})
-return A.h($async$hj,r)},
+return A.h($async$hk,r)},
 J(a){var s=0,r=A.i(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$J=A.d(function(b,c){if(b===1){p.push(c)
 s=q}for(;;)switch(s){case 0:o.k3=!0
@@ -67472,7 +67472,7 @@ for(;;)switch(s){case 0:o=p.w
 n=t.N
 m=t.z
 s=3
-return A.a(A.bQK(A.bs("wss://api.deepgram.com/v1/listen",0,null).qU(0,A.B(["model",o,"encoding","linear16","sample_rate",""+p.x,"channels","1","language","en","interim_results","true","punctuate","true","smart_format","true","endpointing","300","utterance_end_ms","1000","vad_events","true","keyterm",B.XM],n,m)).gky(),A.B(["Authorization","Token "+p.a],n,m)).fF(0,B.dQ),$async$iY)
+return A.a(A.bQK(A.bs("wss://api.deepgram.com/v1/listen",0,null).qU(0,A.B(["model",o,"encoding","linear16","sample_rate",""+p.x,"channels","1","language","en","interim_results","true","punctuate","true","smart_format","true","endpointing","300","utterance_end_ms","1000","vad_events","true","keyterm",B.XL],n,m)).gky(),A.B(["Authorization","Token "+p.a],n,m)).fF(0,B.dQ),$async$iY)
 case 3:l=b
 s=p.ax?4:5
 break
@@ -67602,7 +67602,7 @@ r.c.a=""
 r.a=!1
 r.b=null},
 S8(){var s,r=this.d
-if(r.length===0)return B.a0b
+if(r.length===0)return B.a0c
 s=A.eU(r,!0,t.r_)
 B.c.R(r)
 return s},
@@ -68043,12 +68043,12 @@ case 4:s=2
 break
 case 3:return A.f(null,r)}})
 return A.h($async$D0,r)},
-hj(){var s=0,r=A.i(t.H),q=this,p,o,n
-var $async$hj=A.d(function(a,b){if(a===1)return A.e(b,r)
+hk(){var s=0,r=A.i(t.H),q=this,p,o,n
+var $async$hk=A.d(function(a,b){if(a===1)return A.e(b,r)
 for(;;)switch(s){case 0:n=q.at
 n=n==null?null:n.j4()
 s=2
-return A.a(t.r.b(n)?n:A.bB(n,t.H),$async$hj)
+return A.a(t.r.b(n)?n:A.bB(n,t.H),$async$hk)
 case 2:n=q.cy.a
 p=B.b.I(n.charCodeAt(0)==0?n:n)
 n=p.length
@@ -68056,7 +68056,7 @@ if(n!==0&&q.ch!=null){o=q.ch
 o.toString
 q.f.$2(o,p)}$.al().a5("REALTIME","recorder_drain",A.B(["chars",n],t.N,t.X))
 return A.f(null,r)}})
-return A.h($async$hj,r)},
+return A.h($async$hk,r)},
 J(a){var s=0,r=A.i(t.H),q=1,p=[],o=this,n,m,l,k,j
 var $async$J=A.d(function(b,c){if(b===1){p.push(c)
 s=q}for(;;)switch(s){case 0:o.dx=!0
@@ -68157,7 +68157,7 @@ case 2:return A.e(o.at(-1),r)}})
 return A.h($async$eO,r)},
 aUV(a){var s=a.a,r="STT error: "+s+" (permanent: "+a.b+")"
 A.hd().$1(r)
-if(B.aab.u(0,s))return
+if(B.aac.u(0,s))return
 this.c.q(0,r)},
 aOE(a){var s,r=this
 A.hd().$1("STT status: "+a)
@@ -68230,7 +68230,7 @@ if(j.c){s=1
 break}$.al().a5("STT","listen_begin",A.B(["accumulatedWords",A.bFM(n.d).length],t.N,t.X))
 p=4
 s=7
-return A.a(j.Qw(B.vl,A.c7F(!0,!0,B.a3n,n.z,!0,0),n.gaOi(),B.ek),$async$Dt)
+return A.a(j.Qw(B.vl,A.c7F(!0,!0,B.a3o,n.z,!0,0),n.gaOi(),B.ek),$async$Dt)
 case 7:A.hd().$1("STT listen() started (auto-restart) \u2014 isListening="+j.c)
 p=2
 s=6
@@ -68904,7 +68904,7 @@ break}k=t.a.a(B.v.c1(0,l,null))
 b=t.N
 a=t.gp
 j=A.t(b,a)
-for(a0=0;a0<12;++a0){i=B.XE[a0]
+for(a0=0;a0<12;++a0){i=B.XD[a0]
 J.eE(j,i.b,i)}h=j
 g=A.t(a,t.E)
 for(j=J.zG(k),j=j.gV(j),a=t.j,a1=t.s;j.n();){f=j.gt(j)
@@ -69008,7 +69008,7 @@ A.b4m.prototype={
 $2(a,b){return a+J.as(b)},
 $S:694}
 A.bDl.prototype={
-$1(a){return new A.vj(new A.d9(t.qL),B.a5k)},
+$1(a){return new A.vj(new A.d9(t.qL),B.a5l)},
 $S:696}
 A.Do.prototype={
 j(a){return"WhisperException: "+this.a},
@@ -69508,7 +69508,7 @@ A.x9.prototype={
 gkU(){return"microsoft"},
 gOB(a){return"b23aaef2-fcc3-4408-8795-643ea2c255be"},
 ga2z(){return"com.dictate.dictate://oauth/microsoft"},
-gCC(){return B.a15},
+gCC(){return B.a16},
 gZw(){return"com.dictate.dictate"},
 gahd(){return"https://login.microsoftonline.com/common/oauth2/v2.0/authorize"},
 ga3_(){return"https://login.microsoftonline.com/common/oauth2/v2.0/token"},
@@ -69550,10 +69550,10 @@ gkU(){return"google"},
 gOB(a){return u.n},
 ga2z(){return new A.cA(A.b(u.n.split("."),t.s),t.Rr).aQ(0,".")+":/oauth2redirect"},
 gZw(){return new A.cA(A.b(u.n.split("."),t.s),t.Rr).aQ(0,".")},
-gCC(){return B.a3d},
+gCC(){return B.a3e},
 gahd(){return"https://accounts.google.com/o/oauth2/v2/auth"},
 ga3_(){return"https://oauth2.googleapis.com/token"},
-gajy(){return B.a58},
+gajy(){return B.a59},
 tP(a){return this.b3m(a)},
 b3m(a){var s=0,r=A.i(t.N),q,p=2,o=[],n,m,l,k,j
 var $async$tP=A.d(function(b,c){if(b===1){o.push(c)
@@ -70989,7 +70989,7 @@ for(;;)switch(s){case 0:p=q.a
 p=p.eh(0,p.gw2(),t.zA,t.BI)
 p.aL(0,new A.b1r(a))
 s=2
-return A.a(p.ca(0,A.axI(new A.aA(!1,null,t.P_),B.i,B.u,new A.aA(!0,B.ac0.ga8(0),t.R),B.u)),$async$QG)
+return A.a(p.ca(0,A.axI(new A.aA(!1,null,t.P_),B.i,B.u,new A.aA(!0,B.ac1.ga8(0),t.R),B.u)),$async$QG)
 case 2:return A.f(null,r)}})
 return A.h($async$QG,r)},
 QF(a){return this.b7U(a)},
@@ -70999,7 +70999,7 @@ for(;;)switch(s){case 0:p=q.a
 p=p.eh(0,p.gw2(),t.zA,t.BI)
 p.aL(0,new A.b1q(a))
 s=2
-return A.a(p.ca(0,A.axI(B.aL,B.rA,B.u,new A.aA(!0,B.ac1.ga8(0),t.R),new A.aA(!0,new A.P(Date.now(),0,!1),t.V))),$async$QF)
+return A.a(p.ca(0,A.axI(B.aL,B.rA,B.u,new A.aA(!0,B.ac2.ga8(0),t.R),new A.aA(!0,new A.P(Date.now(),0,!1),t.V))),$async$QF)
 case 2:return A.f(null,r)}})
 return A.h($async$QF,r)},
 HG(a,b,c){return this.b7S(a,b,c)},
@@ -71032,7 +71032,7 @@ o=o.eh(0,o.gw2(),t.zA,t.BI)
 o.aL(0,new A.b1n(a))
 p=t.R
 s=2
-return A.a(o.ca(0,A.axI(B.aL,new A.aA(!0,b,p),B.u,new A.aA(!0,B.ac2.ga8(0),p),B.u)),$async$QE)
+return A.a(o.ca(0,A.axI(B.aL,new A.aA(!0,b,p),B.u,new A.aA(!0,B.ac3.ga8(0),p),B.u)),$async$QE)
 case 2:return A.f(null,r)}})
 return A.h($async$QE,r)}}
 A.b1s.prototype={
@@ -73243,7 +73243,7 @@ case 3:q.saj(0,q.f.b0u(o))
 return A.f(null,r)}})
 return A.h($async$CQ,r)}}
 A.bAi.prototype={
-$1(a){var s=new A.u9(new A.d9(t.hZ),B.a3p)
+$1(a){var s=new A.u9(new A.d9(t.hZ),B.a3q)
 s.LD()
 return s},
 $S:811}
@@ -73361,7 +73361,7 @@ return A.a(n.p(0,m.gM(),t.Y7).v5(o),$async$AF)
 case 9:q=new A.GZ(B.qg)
 s=1
 break
-case 8:q=B.a6Y
+case 8:q=B.a6Z
 s=1
 break
 case 1:return A.f(q,r)}})
@@ -73523,7 +73523,7 @@ A.aNY.prototype={
 $1(a){var s,r,q
 if(a==null)return""
 if(typeof a=="string")return B.b.I(a)
-if(t.f.b(a))for(s=J.a3(a),r=0;r<3;++r){q=s.i(a,B.a2v[r])
+if(t.f.b(a))for(s=J.a3(a),r=0;r<3;++r){q=s.i(a,B.a2w[r])
 if(typeof q=="string")return B.b.I(q)}return B.b.I(J.ca(a))},
 $S:60}
 A.aNZ.prototype={
@@ -73551,7 +73551,7 @@ A.bzg.prototype={
 $1(a){var s,r,q,p,o,n,m,l=this
 if(!l.a.q(0,a))return
 s=l.b.i(0,a)
-if(s==null)s=B.a0f
+if(s==null)s=B.a0g
 r=s.length
 q=l.c
 p=l.d
@@ -73705,7 +73705,7 @@ return A.a(g.ca(0,A.P7(B.a6,new A.aA(!0,i,l),B.u,B.i,B.b0,B.i,new A.aA(!0,i,l)))
 case 21:return A.f(null,r)}})
 return A.h($async$kF,r)},
 lD(a,b,c){return this.b3y(a,b,c)},
-hm(a,b){return this.lD(a,b,!1)},
+hn(a,b){return this.lD(a,b,!1)},
 b3y(a,b,c){var s=0,r=A.i(t.N),q,p=this,o,n,m,l,k,j,i,h,g
 var $async$lD=A.d(function(d,e){if(d===1)return A.e(e,r)
 for(;;)switch(s){case 0:g=c
@@ -73761,7 +73761,7 @@ if((o==null?null:o.e)!==!0){s=1
 break}n=n.eh(0,n.gdc(),t.L,t.b)
 n.aL(0,new A.aE0(b))
 s=4
-return A.a(n.ca(0,A.mN(B.i,B.u,B.S,B.u,B.S,B.u,B.S,B.u,B.aL,B.b0,B.ajx,B.a6,B.i,B.i,B.i,B.u,B.i,B.i,B.i,B.i,new A.aA(!0,new A.P(Date.now(),0,!1),t.V))),$async$EE)
+return A.a(n.ca(0,A.mN(B.i,B.u,B.S,B.u,B.S,B.u,B.S,B.u,B.aL,B.b0,B.ajy,B.a6,B.i,B.i,B.i,B.u,B.i,B.i,B.i,B.i,new A.aA(!0,new A.P(Date.now(),0,!1),t.V))),$async$EE)
 case 4:case 1:return A.f(q,r)}})
 return A.h($async$EE,r)},
 rf(a,b){return this.arw(a,b)},
@@ -73801,7 +73801,7 @@ g=B.c.cJ(c,j,h>i?i:h)
 o=new A.is(a0,a0.gdc(),p)
 o.aL(0,new A.aEt(g))
 s=10
-return A.a(o.ca(0,new A.ra(B.i,B.i,B.i,B.i,B.i,B.aL,B.cC,B.i,B.i,B.i,B.u,B.i,B.i,new A.aA(!0,a2,n),B.ajt,B.S,B.S,B.S,B.u,B.u,B.u,B.b0,new A.aA(!0,a,m),B.u)),$async$rf)
+return A.a(o.ca(0,new A.ra(B.i,B.i,B.i,B.i,B.i,B.aL,B.cC,B.i,B.i,B.i,B.u,B.i,B.i,new A.aA(!0,a2,n),B.aju,B.S,B.S,B.S,B.u,B.u,B.u,B.b0,new A.aA(!0,a,m),B.u)),$async$rf)
 case 10:case 8:j=h
 s=7
 break
@@ -74302,7 +74302,7 @@ break
 case 10:e=p.a
 o=t.R
 s=12
-return A.a(e.wQ(e.gHt(),t.js,t.Ng).fS(0,new A.Gr(new A.aA(!0,c,o),new A.aA(!0,a,o),B.ajs,B.u,B.u)),$async$x_)
+return A.a(e.wQ(e.gHt(),t.js,t.Ng).fS(0,new A.Gr(new A.aA(!0,c,o),new A.aA(!0,a,o),B.ajt,B.u,B.u)),$async$x_)
 case 12:case 11:$.al().a5("OUTLINE","nest",A.B(["parent",c,"child",a,"link",b],t.N,t.X))
 q=!0
 s=1
@@ -74366,7 +74366,7 @@ case 3:o=b
 if(o!=null){q=p.Xe(o)
 s=1
 break}s=4
-return A.a(n.wQ(m,l,k).fS(0,A.bOI(B.i,B.i,B.i,B.i,B.ajw,"Inbox")),$async$oX)
+return A.a(n.wQ(m,l,k).fS(0,A.bOI(B.i,B.i,B.i,B.i,B.ajx,"Inbox")),$async$oX)
 case 4:n=n.cA(0,m,l,k)
 n.aL(0,new A.aQu())
 n.e=new A.fm(1,null)
@@ -74709,7 +74709,7 @@ n=n.eh(0,n.gdc(),t.L,t.b)
 n.aL(0,new A.aUs(b))
 p=t.V
 s=2
-return A.a(n.ca(0,A.mN(B.i,B.u,new A.aA(!0,a,t.CY),B.u,B.S,new A.aA(!0,o,p),B.ajv,B.u,B.aL,B.b0,B.a6,B.a6,B.i,B.i,B.i,B.u,B.i,B.i,B.i,B.i,new A.aA(!0,o,p))),$async$xK)
+return A.a(n.ca(0,A.mN(B.i,B.u,new A.aA(!0,a,t.CY),B.u,B.S,new A.aA(!0,o,p),B.ajw,B.u,B.aL,B.b0,B.a6,B.a6,B.i,B.i,B.i,B.u,B.i,B.i,B.i,B.i,new A.aA(!0,o,p))),$async$xK)
 case 2:return A.f(null,r)}})
 return A.h($async$xK,r)},
 FT(a,b){return this.aZn(a,b)},
@@ -74848,7 +74848,7 @@ c=A.bEz(e,a1,d)
 b=n.cA(0,m,t.L,t.b)
 n=n.gfU()
 o=b.aQ(0,A.b([A.Bc(B.ew,n,new A.b_(n.ga8(0),m.gkT(),B.z),null,t.nG,t.z)],t.ca))
-o.aL(0,new A.b8(new A.b8(new A.b8(new A.ol(new A.b_(l,k,B.z)),"OR",new A.b8(new A.b8(new A.ol(new A.b_(j,i,B.z)),"AND",new A.b_(h,g,B.apB),B.T,f),"AND",c,B.T,f),B.jf,f),"AND",A.bEz(e,a0,d),B.T,f),"AND",new A.b8(m.gcC(),"IS",B.af,B.a5,f),B.T,f))
+o.aL(0,new A.b8(new A.b8(new A.b8(new A.ol(new A.b_(l,k,B.z)),"OR",new A.b8(new A.b8(new A.ol(new A.b_(j,i,B.z)),"AND",new A.b_(h,g,B.apD),B.T,f),"AND",c,B.T,f),B.jf,f),"AND",A.bEz(e,a0,d),B.T,f),"AND",new A.b8(m.gcC(),"IS",B.af,B.a5,f),B.T,f))
 o.d=new A.nS(A.b([new A.dL(e,B.cv,null)],t.eg))
 a=J
 s=3
@@ -74983,7 +74983,7 @@ n=q.a
 n=n.eh(0,n.gdc(),t.L,t.b)
 n.aL(0,new A.aUo(b))
 s=3
-return A.a(n.ca(0,A.mN(B.i,B.u,B.S,B.u,B.S,B.u,B.S,B.aju,B.aL,B.b0,B.a6,B.a6,B.i,B.i,B.i,B.u,B.i,B.i,B.i,B.i,new A.aA(!0,new A.P(Date.now(),0,!1),t.V))),$async$mQ)
+return A.a(n.ca(0,A.mN(B.i,B.u,B.S,B.u,B.S,B.u,B.S,B.ajv,B.aL,B.b0,B.a6,B.a6,B.i,B.i,B.i,B.u,B.i,B.i,B.i,B.i,new A.aA(!0,new A.P(Date.now(),0,!1),t.V))),$async$mQ)
 case 3:n=$.nf()
 p=o==null?null:o.b
 n.RQ(B.wU,b,B.wW,p==null?"":p)
@@ -75621,7 +75621,7 @@ case 6:l=e.gaZ(a1)
 p=14
 s=17
 return A.a(J.bKE(d,l.a[0]).a_W("id",l.a[1]),$async$yg)
-case 17:q=B.a8U
+case 17:q=B.a8V
 s=1
 break
 p=2
@@ -75632,7 +75632,7 @@ b=o.pop()
 j=A.G(b)
 if(j instanceof A.pl){k=j
 n.a8b(l,k)
-q=B.a8T
+q=B.a8U
 s=1
 break}else throw b
 s=16
@@ -75849,7 +75849,7 @@ return A.a(J.at_(n),$async$xN)
 case 7:k=$.fy().b
 k===$&&A.c()
 s=8
-return A.a(k.gfh().rO(B.aav,B.mA),$async$xN)
+return A.a(k.gfh().rO(B.aaw,B.mA),$async$xN)
 case 8:$.al().a5("SYNC","signed_out",A.t(t.N,t.X))
 q=1
 s=5
@@ -76510,7 +76510,7 @@ A.awL.prototype={
 $2(a,b){return new A.bf(a,A.b([b.a,b.b],t.n),t.Pq)},
 $S:967}
 A.byk.prototype={
-$1(a){var s=new A.td(new A.d9(t.yL),B.a5l)
+$1(a){var s=new A.td(new A.d9(t.yL),B.a5m)
 s.Kk()
 return s},
 $S:969}
@@ -76548,7 +76548,7 @@ c=c===n||i.u(0,c)}else c=!1
 if(c)g.q(0,d.c)}h=$.a7.ae$.x.i(0,p.w)
 h=h==null?null:h.ga2()
 t.aA.a(h)
-b=h==null?B.a6D:h.ei(b6.b)
+b=h==null?B.a6E:h.ei(b6.b)
 if(!A.bHU())b=A.arN(b)
 h=b6.a
 a=h.gdj()
@@ -76591,7 +76591,7 @@ return A.a(l.iC(b0.a,n),$async$rG)
 case 21:s=19
 break
 case 20:s=22
-return A.a(l.hm(n,a5),$async$rG)
+return A.a(l.hn(n,a5),$async$rG)
 case 22:case 19:a6=$.vY().gM()
 if(o.e==null)A.Z(A.U(u.w))
 a6=a6.e7(0,A.kb(o,!1))
@@ -76649,7 +76649,7 @@ case 9:j=a1
 g=$.db()
 f=t.O
 s=10
-return A.a(h.p(0,g,f).hm(l,j.a),$async$nh)
+return A.a(h.p(0,g,f).hn(l,j.a),$async$nh)
 case 10:s=a==="claude"?11:12
 break
 case 11:p=14
@@ -76659,7 +76659,7 @@ case 17:i=a1
 s=!J.l(i,l)?18:19
 break
 case 18:s=20
-return A.a(h.p(0,g,f).hm(i,j.a),$async$nh)
+return A.a(h.p(0,g,f).hn(i,j.a),$async$nh)
 case 20:case 19:p=4
 s=16
 break
@@ -76884,7 +76884,7 @@ case 26:++a3
 case 25:case 22:s=b3==null?27:28
 break
 case 27:s=29
-return A.a(m.hm(a2,a7),$async$m_)
+return A.a(m.hn(a2,a7),$async$m_)
 case 29:b3=c1;++a4
 case 28:s=k?30:31
 break
@@ -76963,7 +76963,7 @@ return new A.ic(a4,A.fr(!0,o,B.B,!0),p,!0,a1)}}
 A.b8q.prototype={
 $1(a){var s,r,q,p,o,n=null,m=t.p,l=A.b([],m)
 for(s=this.b,r=this.a,q=this.c,p=0;p<5;++p){o=s[p]
-l.push(new A.tp(new A.b8o(r,a,o,q),!1,!1,A.aw(A.b([A.ai(n,n,B.h,n,n,new A.aj(o.c,n,n,n,n,n,n,B.bk),n,9,n,n,n,n,n,9),B.X,A.D(o.b,n,n,n,n,n)],m),B.k,B.bM,B.D,0),n))}return A.nw(l,A.dA(B.bm,!0,!1,new A.b8p(a)),n,B.ahR)},
+l.push(new A.tp(new A.b8o(r,a,o,q),!1,!1,A.aw(A.b([A.ai(n,n,B.h,n,n,new A.aj(o.c,n,n,n,n,n,n,B.bk),n,9,n,n,n,n,n,9),B.X,A.D(o.b,n,n,n,n,n)],m),B.k,B.bM,B.D,0),n))}return A.nw(l,A.dA(B.bm,!0,!1,new A.b8p(a)),n,B.ahS)},
 $S:48}
 A.b8o.prototype={
 $0(){var s,r,q,p=this
@@ -77002,7 +77002,7 @@ return A.a(o.iC(m.a,n),$async$$2)
 case 8:s=6
 break
 case 7:s=9
-return A.a(o.hm(n,a),$async$$2)
+return A.a(o.hn(n,a),$async$$2)
 case 9:case 6:return A.f(null,r)}})
 return A.h($async$$2,r)},
 $2(a,b){return this.apD(a,b)},
@@ -77056,7 +77056,7 @@ $3(a,b,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=f.a,c=A.b([A.uy(0,A.b7(
 for(s=f.b,r=d.gaEo(),q=f.d,p=J.a3(q),o=t.kK,n=f.c,m=f.e,l=0;l<s.length;++l){k=s[l]
 j=k.a
 i=n.i(0,j)
-if(i==null)i=B.a0m
+if(i==null)i=B.a0n
 h=p.i(q,s[l].a)
 if(h==null){h=m.length+l
 h=new A.u(40+B.d.bo(h,3)*360,40+B.d.ag(h,3)*220)}c.push(new A.aff(k,i,h,370,r,new A.dg("canvas-group-"+j,o)))}for(s=d.gaGF(),r=f.f,g=0;g<m.length;++g){n=m[g]
@@ -77240,8 +77240,8 @@ $.a7.aq$.push(new A.b8F(this))},
 H(a){var s,r,q=this,p=null,o=A.aD(a),n=o.f,m=new A.bj(n),l=q.ga_(),k=l.T($.bDL(),t.mB),j=l.T($.bDI(),t.Mw),i=A.aND(a)
 l=i!=null&&i.hW()?p:B.ci
 s=j.a
-r=s.length===0?p:A.cj(B.y,p,B.ahU,p,B.Q,p,p,new A.b8G(q),B.B,0.4)
-r=A.Aq(o.a.bh(0.85),B.ez,l,B.ahe,r)
+r=s.length===0?p:A.cj(B.y,p,B.ahV,p,B.Q,p,p,new A.b8G(q),B.B,0.4)
+r=A.Aq(o.a.bh(0.85),B.ez,l,B.ahf,r)
 if(!k.a)n=new A.Xi(o,m,p)
 else{l=s.length
 k=t.p
@@ -77302,7 +77302,7 @@ s=A.D("Ask Claude uses YOUR Anthropic API key (your billing). It is stored secur
 r=A.fi(!1,!1,n.w,m,m,!0,B.au,2,B.dn,!0,!1,!0,m,m,m,1,m,!0,m,m,m,m,B.cM,"Paste your Anthropic API key",B.b_,m,m,m,m,m,j.gaF(0).W(r),m,B.aK,B.a8,B.b6,m)
 p=n.x
 o=p?m:n.gaBw()
-return A.uU(A.aS(A.b([l,B.a3,q,B.aE,s,B.bf,r,B.a3,new A.bm(1/0,m,A.nx(p?B.ir:B.ah1,o,m),m)],t.p),B.L,B.f,B.j),m,B.ch,m,B.V)}}
+return A.uU(A.aS(A.b([l,B.a3,q,B.aE,s,B.bf,r,B.a3,new A.bm(1/0,m,A.nx(p?B.ir:B.ah2,o,m),m)],t.p),B.L,B.f,B.j),m,B.ch,m,B.V)}}
 A.bir.prototype={
 $0(){return this.a.x=!0},
 $S:0}
@@ -77358,7 +77358,7 @@ A.byp.prototype={
 $1(a){return new A.th(a,new A.d9(t.Bf),B.nO)},
 $S:1092}
 A.R6.prototype={
-a1(){return new A.ak6(new A.eA(B.aZ,$.aK()),B.a0h,B.aj)}}
+a1(){return new A.ak6(new A.eA(B.aZ,$.aK()),B.a0i,B.aj)}}
 A.ak6.prototype={
 aA(){this.aM()
 this.ga_().p(0,$.bJU(),t.hB)
@@ -77369,7 +77369,7 @@ s.ad$=0
 this.av()},
 H(a){var s,r,q,p=null,o=A.aD(a),n=o.f
 this.ga_().T($.bJU(),t.hB)
-s=A.qr(o.a.bh(0.85),B.ahl,B.ci,p)
+s=A.qr(o.a.bh(0.85),B.ahm,B.ci,p)
 r=A.b2(12)
 q=t.p
 r=A.b([A.ai(p,A.D("Installing onto a phone from the app is only available on the Windows desktop build of Voicley. On your phone, paste the key in Settings \u2192 Speech-to-text instead.",p,p,p,new A.bj(n).gaC().W(n),p),B.h,p,p,new A.aj(o.c,p,p,r,p,p,p,B.p),p,p,p,p,B.ap,p,p,p)],q)
@@ -77432,13 +77432,13 @@ $2(a,b){return new A.JL(this.a[b],null)},
 $S:1107}
 A.bbw.prototype={
 $1(a){var s=null,r=A.D(""+this.a.split("\n").length+" log lines copied to clipboard (error log + transcript formatting log).",s,s,s,s,s)
-return A.k1(A.b([A.eZ(B.mQ,!1,!1,new A.bbv(a))],t.p),r,B.ahg)},
+return A.k1(A.b([A.eZ(B.mQ,!1,!1,new A.bbv(a))],t.p),r,B.ahh)},
 $S:38}
 A.bbv.prototype={
 $0(){return A.aV(this.a,!1).bb()},
 $S:0}
 A.bbt.prototype={
-$1(a){return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.bbr(a)),A.eZ(B.rl,!1,!0,new A.bbs(a))],t.p),B.ahL,B.ah5)},
+$1(a){return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.bbr(a)),A.eZ(B.rl,!1,!0,new A.bbs(a))],t.p),B.ahM,B.ah6)},
 $S:38}
 A.bbr.prototype={
 $0(){return A.aV(this.a,!1).bY(!1)},
@@ -77480,7 +77480,7 @@ return A.ai(h,A.aS(k,B.L,B.f,B.j),B.h,h,h,new A.aj(f.c,h,m,n,h,h,h,B.p),h,h,h,h,
 A.a5j.prototype={
 c6(a,b){var s=null,r=A.aD(a),q=new A.bj(r.f),p=b.T($.fK(),t.FY),o=A.bx(b.T($.a1L(),t.CK))
 if(o==null)o=B.ah
-return A.ny(0,B.P,s,B.r,s,s,s,s,!1,s,B.V,!1,A.b([A.qr(r.a.bh(0.85),B.ahI,B.ci,s),new A.l2(B.d2,A.w2(p,new A.aCR(this,r,q,o,a,b),new A.aCS(q),new A.aCT(),!1,!0,!1,t.K5,t.jK),s)],t.p))},
+return A.ny(0,B.P,s,B.r,s,s,s,s,!1,s,B.V,!1,A.b([A.qr(r.a.bh(0.85),B.ahJ,B.ci,s),new A.l2(B.d2,A.w2(p,new A.aCR(this,r,q,o,a,b),new A.aCS(q),new A.aCT(),!1,!0,!1,t.K5,t.jK),s)],t.p))},
 pY(a,b,c){return this.aIf(a,b,c)},
 aIf(a,b,c){var s=0,r=A.i(t.H),q,p,o,n,m,l
 var $async$pY=A.d(function(d,e){if(d===1)return A.e(e,r)
@@ -77554,7 +77554,7 @@ $1(a){return a.cx!=="task"},
 $S:141}
 A.aCP.prototype={
 $0(){var s=this.b,r=B.c.dW(s,this.c.a)
-return A.dC(this.a).ho("/browse",new A.uI(s,r),t.X)},
+return A.dC(this.a).hp("/browse",new A.uI(s,r),t.X)},
 $S:0}
 A.aCQ.prototype={
 $0(){var s=this
@@ -77572,7 +77572,7 @@ s=B.b.cN(B.d.j(B.d.ag(A.bZ(0,s,0).a,1e6)%60),2,"0")
 q=$.bXC().kJ(l.w)
 p=A.az(B.hb,m.y,null,22)
 o=A.b([],t.p)
-if(n.d)o.push(B.a7h)
+if(n.d)o.push(B.a7i)
 o.push(new A.v5(n.f,null))
 return A.a7x(p,60,n.e,l.c+" \xb7 "+(""+r+":"+s)+" \xb7 "+q,k,null,A.aw(o,B.k,B.f,B.D,0),10)}}
 A.bAS.prototype={
@@ -77775,7 +77775,7 @@ return A.a(A.a1g(j,!1,o,B.ah,B.eU),$async$yH)
 case 4:m=b
 if(m==null||m===""){s=1
 break}s=5
-return A.a(l.hm(m,p.a.d.a),$async$yH)
+return A.a(l.hn(m,p.a.d.a),$async$yH)
 case 5:j=p.c
 if(j!=null)A.bk(j,"Added to folder",null,null,null)
 case 1:return A.f(q,r)}})
@@ -78210,7 +78210,7 @@ k===$&&A.c()
 m=q.gaF(0)
 i=q.gaF(0).r
 if(i==null)i=17
-f=A.b([l,B.abD,A.fi(!0,!1,k,g,g,!0,B.au,2,B.fB,!0,!0,!0,g,g,g,g,3,!1,g,g,g,g,B.B,"No transcript was captured for this recording.",B.b_,g,g,B.qf,g,g,m.Ge(r,i*f.T($.rV(),t.Ci),1.45),g,B.aK,B.a8,B.b6,g)],j)
+f=A.b([l,B.abE,A.fi(!0,!1,k,g,g,!0,B.au,2,B.fB,!0,!0,!0,g,g,g,g,3,!1,g,g,g,g,B.B,"No transcript was captured for this recording.",B.b_,g,g,B.qf,g,g,m.Ge(r,i*f.T($.rV(),t.Ci),1.45),g,B.aK,B.a8,B.b6,g)],j)
 if(h.a.e){m=s.w
 B.c.L(f,A.b([B.eu,A.aw(A.b([A.az(B.ww,m,g,13),B.hA,A.bg(A.D("Saved in Voicley and synced to your devices \u2014 this won\u2019t change the OneNote page.",g,g,g,A.bi(g,g,r,g,g,g,g,g,A.bc(),g,g,12,g,g,B.n,g,1.33,!0,g,g,g,g,g,g,g,g).W(m),g),1)],j),B.L,B.f,B.j,0)],j))}return A.ai(g,A.aS(f,B.as,B.f,B.j),B.h,g,g,new A.aj(s.c,g,n,o,g,g,g,B.p),g,g,g,g,B.ap,g,g,1/0)}}
 A.bsH.prototype={
@@ -78320,7 +78320,7 @@ case B.Lq:s=5
 break
 case B.Lr:s=6
 break
-case B.aqG:s=7
+case B.aqI:s=7
 break
 case B.Ls:s=8
 break
@@ -78354,7 +78354,7 @@ $S:1}
 A.bk1.prototype={
 $1(a){var s=A.b([],t.p)
 if(this.a.r!=null)s.push(A.dA(B.rk,!1,!1,new A.bjX(a)))
-s.push(A.dA(B.ahr,!1,!1,new A.bjY(a)))
+s.push(A.dA(B.ahs,!1,!1,new A.bjY(a)))
 s.push(A.dA(B.Jp,!1,!1,new A.bjZ(a)))
 s.push(A.dA(B.jL,!1,!0,new A.bk_(a)))
 return A.nw(s,A.dA(B.bm,!1,!1,new A.bk0(a)),null,null)},
@@ -78523,7 +78523,7 @@ case 1:return A.f(q,r)}})
 return A.h($async$$0,r)},
 $S:1}
 A.aRZ.prototype={
-$1(a){return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.aRX(a)),A.eZ(B.ah4,!0,!1,new A.aRY(a))],t.p),B.ah7,B.ahO)},
+$1(a){return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.aRX(a)),A.eZ(B.ah5,!0,!1,new A.aRY(a))],t.p),B.ah8,B.ahP)},
 $S:38}
 A.aRX.prototype={
 $0(){return A.aV(this.a,!1).bY(!1)},
@@ -78554,18 +78554,18 @@ N(){return"RecordingAction."+this.b}}
 A.bCA.prototype={
 $1(a){var s=null,r=A.D(this.a,s,s,s,s,s),q=A.b([],t.p)
 if(this.b)q.push(A.dA(B.rk,!1,!1,new A.bCw(a)))
-q.push(A.dA(B.ahD,!1,!1,new A.bCx(a)))
+q.push(A.dA(B.ahE,!1,!1,new A.bCx(a)))
 q.push(A.dA(B.jL,!1,!0,new A.bCy(a)))
 return A.nw(q,A.dA(B.bm,!1,!1,new A.bCz(a)),s,r)},
 $S:48}
 A.bCw.prototype={
-$0(){return A.aV(this.a,!1).bY(B.a9e)},
-$S:0}
-A.bCx.prototype={
 $0(){return A.aV(this.a,!1).bY(B.a9f)},
 $S:0}
-A.bCy.prototype={
+A.bCx.prototype={
 $0(){return A.aV(this.a,!1).bY(B.a9g)},
+$S:0}
+A.bCy.prototype={
+$0(){return A.aV(this.a,!1).bY(B.a9h)},
 $S:0}
 A.bCz.prototype={
 $0(){return A.aV(this.a,!1).bb()},
@@ -78623,7 +78623,7 @@ j=$.db()
 i=t.O
 h=a.a
 s=8
-return A.a(k.p(0,j,i).hm(h,m.a),$async$rE)
+return A.a(k.p(0,j,i).hn(h,m.a),$async$rE)
 case 8:s=b==="claude"?9:10
 break
 case 9:q=12
@@ -78633,7 +78633,7 @@ case 15:l=d
 s=!J.l(l,h)?16:17
 break
 case 16:s=18
-return A.a(k.p(0,j,i).hm(l,m.a),$async$rE)
+return A.a(k.p(0,j,i).hn(l,m.a),$async$rE)
 case 18:case 17:q=3
 s=14
 break
@@ -78665,7 +78665,7 @@ $.a7.aq$.push(new A.bdQ(i))}s=A.bx(e)
 s=J.a_(s==null?B.bT:s)
 for(;;){if(!s.n()){r=h
 break}r=s.gt(s)
-if(r.a===i.a.d)break}if(e.gj5()&&r==null)return A.ny(0,B.P,h,B.r,h,h,h,h,!1,h,B.V,!1,A.b([A.qr(g.a.bh(0.85),B.ahj,h,h),new A.eK(new A.ac(B.ch,A.dk(A.D("This folder no longer exists.",h,h,h,new A.bj(g.f).gaF(0).W(g.r),h),h,h),h),h)],t.p))
+if(r.a===i.a.d)break}if(e.gj5()&&r==null)return A.ny(0,B.P,h,B.r,h,h,h,h,!1,h,B.V,!1,A.b([A.qr(g.a.bh(0.85),B.ahk,h,h),new A.eK(new A.ac(B.ch,A.dk(A.D("This folder no longer exists.",h,h,h,new A.bj(g.f).gaF(0).W(g.r),h),h,h),h),h)],t.p))
 q=!e.gj5()||!c.gj5()||!b.gj5()
 s=i.w
 p=r==null
@@ -78702,7 +78702,7 @@ $S:4}
 A.bdN.prototype={
 $1(a){var s,r,q,p,o=this,n=null,m=o.b,l=A.D("New in \u201c"+m.b+"\u201d",n,n,n,n,n),k=t.p,j=A.b([],k)
 for(s=o.c,r=o.a,q=0;q<4;++q){p=s[q]
-j.push(new A.tp(new A.bdK(r,a,m,p),!1,!1,A.aw(A.b([A.ai(n,n,B.h,n,n,new A.aj(p.c,n,n,n,n,n,n,B.bk),n,9,n,n,n,n,n,9),B.X,A.D(p.b,n,n,n,n,n)],k),B.k,B.bM,B.D,0),n))}j.push(A.dA(A.aw(A.b([A.az(B.eo,o.d.r,n,15),B.X,B.agU],k),B.k,B.bM,B.D,0),!1,!1,new A.bdL(r,a,m)))
+j.push(new A.tp(new A.bdK(r,a,m,p),!1,!1,A.aw(A.b([A.ai(n,n,B.h,n,n,new A.aj(p.c,n,n,n,n,n,n,B.bk),n,9,n,n,n,n,n,9),B.X,A.D(p.b,n,n,n,n,n)],k),B.k,B.bM,B.D,0),n))}j.push(A.dA(A.aw(A.b([A.az(B.eo,o.d.r,n,15),B.X,B.agV],k),B.k,B.bM,B.D,0),!1,!1,new A.bdL(r,a,m)))
 return A.nw(j,A.dA(B.bm,!0,!1,new A.bdM(a)),n,l)},
 $S:48}
 A.bdK.prototype={
@@ -78730,7 +78730,7 @@ $1(a){var s=$.a7.ae$.x.i(0,this.a.x)
 if(s!=null)A.aX3(s,0.06,B.qF,B.ds,B.iz)},
 $S:4}
 A.bdV.prototype={
-$0(){return A.AR(this.a).hq()},
+$0(){return A.AR(this.a).he()},
 $S:0}
 A.bdR.prototype={
 $0(){return this.a.MP(this.b,this.c)},
@@ -78946,7 +78946,7 @@ case 25:c=b.a;++i
 case 24:case 19:s=c==null?26:27
 break
 case 26:s=28
-return A.a(m.hm(b4,f),$async$pW)
+return A.a(m.hn(b4,f),$async$pW)
 case 28:c=b7;++h
 case 27:s=l?29:30
 break
@@ -79055,7 +79055,7 @@ var $async$$0=A.d(function(a,b){if(a===1)return A.e(b,r)
 for(;;)switch(s){case 0:m=A.b([],t.s)
 for(p=q.a.b,o=p.length,n=0;n<p.length;p.length===o||(0,A.z)(p),++n)m.push(p[n].b.a)
 s=2
-return A.a(A.dC(q.c).ho("/browse",new A.uI(m,q.d),t.X),$async$$0)
+return A.a(A.dC(q.c).hp("/browse",new A.uI(m,q.d),t.X),$async$$0)
 case 2:m=q.b.ga_()
 p=$.fK()
 if(m.e==null)A.Z(A.U(u.w))
@@ -79373,7 +79373,7 @@ $S:417}
 A.a5H.prototype={
 c6(a,b){var s=null,r=A.aD(a),q=new A.bj(r.f),p=b.T($.bDZ(),t.ZR),o=A.bx(b.T($.bDO(),t.Ys))
 if(o==null)o=B.CL
-return A.ny(0,B.P,s,B.r,s,s,s,s,!1,s,B.V,!1,A.b([A.qr(r.a.bh(0.85),B.agY,B.ci,A.cj(B.y,s,A.az(B.pt,r.y,s,24),s,B.Q,s,s,new A.aEG(a,b),B.B,0.4)),new A.l2(B.d2,A.w2(p,new A.aEH(r,q,o),new A.aEI(q),new A.aEJ(),!1,!0,!1,t.yh,t.jK),s)],t.p))}}
+return A.ny(0,B.P,s,B.r,s,s,s,s,!1,s,B.V,!1,A.b([A.qr(r.a.bh(0.85),B.agZ,B.ci,A.cj(B.y,s,A.az(B.pt,r.y,s,24),s,B.Q,s,s,new A.aEG(a,b),B.B,0.4)),new A.l2(B.d2,A.w2(p,new A.aEH(r,q,o),new A.aEI(q),new A.aEJ(),!1,!0,!1,t.yh,t.jK),s)],t.p))}}
 A.aEG.prototype={
 $0(){var s=0,r=A.i(t.H),q,p=this,o
 var $async$$0=A.d(function(a,b){if(a===1)return A.e(b,r)
@@ -79440,7 +79440,7 @@ A.boO.prototype={
 $1(a){return A.vU(this.a,this.b,this.c,null)},
 $S:52}
 A.boL.prototype={
-$0(){return A.dC(this.a).ho("/folders/"+this.b.a,null,t.X)},
+$0(){return A.dC(this.a).hp("/folders/"+this.b.a,null,t.X)},
 $S:0}
 A.boM.prototype={
 $0(){return A.vU(this.a,this.b,this.c,null)},
@@ -79508,16 +79508,16 @@ s.d.v4(r)},
 $S:26}
 A.bC8.prototype={
 $1(a){var s,r=this,q=null,p=r.a,o=r.b,n=t.p,m=A.aw(A.b([A.az(B.d6,A.aD(p).y,q,16),B.aN,new A.fO(1,B.bB,A.D(o.b,1,B.N,q,q,q),q)],n),B.k,B.bM,B.D,0),l=r.c,k=r.d
-n=A.b([A.dA(B.ahi,!1,!1,new A.bBY(a,p,l,o,k)),A.dA(B.Jn,!1,!1,new A.bBZ(a,p,o,l))],n)
+n=A.b([A.dA(B.ahj,!1,!1,new A.bBY(a,p,l,o,k)),A.dA(B.Jn,!1,!1,new A.bBZ(a,p,o,l))],n)
 s=r.e
-if(s>0)n.push(A.dA(B.agW,!1,!1,new A.bC_(a,r.f)))
-if(s>=0&&s<r.r.length-1)n.push(A.dA(B.ah8,!1,!1,new A.bC0(a,r.f)))
-n.push(A.dA(B.ahd,!1,!1,new A.bC1(a,p)))
-n.push(A.dA(B.ahH,!1,!1,new A.bC2(a,p,k,o,l)))
+if(s>0)n.push(A.dA(B.agX,!1,!1,new A.bC_(a,r.f)))
+if(s>=0&&s<r.r.length-1)n.push(A.dA(B.ah9,!1,!1,new A.bC0(a,r.f)))
+n.push(A.dA(B.ahe,!1,!1,new A.bC1(a,p)))
+n.push(A.dA(B.ahI,!1,!1,new A.bC2(a,p,k,o,l)))
 n.push(A.dA(B.Jp,!1,!1,new A.bC3(a,l,o,p,k)))
 n.push(A.dA(A.D(o.e===!0?"Remove from Play List":"Add to Play List",q,q,q,q,q),!1,!1,new A.bC4(a,o,l,p)))
-if(o.c==="manual")n.push(A.dA(B.ahm,!1,!1,new A.bC5(a,l,o,p)))
-n.push(A.dA(B.ahn,!1,!0,new A.bC6(a,k,o,p,l,r.w)))
+if(o.c==="manual")n.push(A.dA(B.ahn,!1,!1,new A.bC5(a,l,o,p)))
+n.push(A.dA(B.aho,!1,!0,new A.bC6(a,k,o,p,l,r.w)))
 return A.nw(n,A.dA(B.bm,!1,!1,new A.bC7(a)),q,m)},
 $S:48}
 A.bBY.prototype={
@@ -79743,7 +79743,7 @@ return A.a(A.a1g(a,!1,l,B.ah,B.eU),$async$Eb)
 case 3:n=e
 if(n==null||n===""){s=1
 break}s=4
-return A.a(m.hm(n,p.e),$async$Eb)
+return A.a(m.hn(n,p.e),$async$Eb)
 case 4:if(a.e!=null)A.bk(a,"Added to folder",null,null,null)
 case 1:return A.f(q,r)}})
 return A.h($async$Eb,r)}}
@@ -79779,7 +79779,7 @@ A.bAK.prototype={
 $1(a){var s,r,q,p,o=null,n=A.b([],t.p)
 for(s=J.a_(this.a),r=this.b;s.n();){q=s.gt(s)
 p=r.i(0,q.b)
-n.push(new A.tp(new A.bAI(a,q),!1,!1,A.D("From \u201c"+(p==null?"Unknown":p)+"\u201d",o,o,o,o,o),o))}return A.nw(n,A.dA(B.bm,!1,!1,new A.bAJ(a)),o,B.ah3)},
+n.push(new A.tp(new A.bAI(a,q),!1,!1,A.D("From \u201c"+(p==null?"Unknown":p)+"\u201d",o,o,o,o,o),o))}return A.nw(n,A.dA(B.bm,!1,!1,new A.bAJ(a)),o,B.ah4)},
 $S:48}
 A.bAI.prototype={
 $0(){return A.aV(this.a,!1).bY(this.b)},
@@ -80183,7 +80183,7 @@ l.eo($.bJZ(),new A.bfV(o,a))
 s=A.ck(a,B.dK,t.w).w.a.gfd()>=600
 r=s?32:20
 l=t.p
-q=A.pb(B.bK,A.aS(A.b([B.apa,B.ape,A.Aq(m.a.bh(0.85),n,B.wn,n,B.a9u),A.bg(A.fr(!0,new A.ac(new A.am(r,0,r,0),new A.ahU(s,j,n),n),B.B,!1),1)],l),B.k,B.f,B.j),n,n,new A.bfW(o),n,n,n,n)
+q=A.pb(B.bK,A.aS(A.b([B.apc,B.apg,A.Aq(m.a.bh(0.85),n,B.wn,n,B.a9v),A.bg(A.fr(!0,new A.ac(new A.am(r,0,r,0),new A.ahU(s,j,n),n),B.B,!1),1)],l),B.k,B.f,B.j),n,n,new A.bfW(o),n,n,n,n)
 p=o.x
 if(p==null)return q
 return new A.eT(B.bq,n,B.bt,B.P,A.b([q,new A.aeJ(p,o.gaB8(),new A.bfX(o),n)],l),n)}}
@@ -80272,7 +80272,7 @@ A.jV(!1,new A.bfM(s),this.b,t.H).c9(new A.bfN(s))},
 $S:107}
 A.bfM.prototype={
 $1(a){var s=this.a
-return A.k1(A.b([A.eZ(B.ah2,!0,!1,new A.bfK(s,a)),A.eZ(B.ahN,!1,!1,new A.bfL(s,a))],t.p),B.a7g,B.ahQ)},
+return A.k1(A.b([A.eZ(B.ah3,!0,!1,new A.bfK(s,a)),A.eZ(B.ahO,!1,!1,new A.bfL(s,a))],t.p),B.a7h,B.ahR)},
 $S:38}
 A.bfK.prototype={
 $0(){A.aV(this.b,!1).bb()
@@ -80308,7 +80308,7 @@ A.bhd.prototype={
 $1(a){return J.dE(a)},
 $S:429}
 A.bhe.prototype={
-$0(){return A.AR(this.a).hq()},
+$0(){return A.AR(this.a).he()},
 $S:0}
 A.aeP.prototype={
 c6(a,b){var s=A.aD(a),r=b.T($.bZ8(),t.cp).a
@@ -80316,7 +80316,7 @@ if(r.length===0)return B.U
 return new A.ac(B.vs,A.aw(A.b([B.uZ,B.aN,new A.fO(1,B.bB,A.D(r,1,B.N,r,new A.bj(s.f).gaC().W(s.r),B.ai),null)],t.p),B.k,B.bM,B.j,0),null)}}
 A.aeJ.prototype={
 H(a){var s=null,r=A.aD(a),q=r.f,p=new A.bj(q),o=this.d,n=A.b2(12),m=t.p
-return A.uy(0,A.b7(B.w,A.wk(A.dk(A.b7(s,A.ai(s,A.aS(A.b([A.az(B.iJ,r.Q,s,34),B.a3,A.D("Recording starts in "+this.c+"\u2026",s,s,s,A.bi(s,s,q,s,s,s,s,s,A.bc(),s,s,22,s,s,B.H,s,1.18,!0,s,-0.26,s,s,s,s,s,s),s),B.aE,A.D("Opened by voice/shortcut. Tap Cancel if you just wanted to look around.",s,s,s,p.gaC().W(r.r),B.ai),B.bf,A.aw(A.b([A.bg(A.cj(B.y,s,A.D("Cancel",s,s,s,p.gaF(0).W(q),s),r.d,B.Q,s,s,o,B.oD,0.4),1),B.X,A.bg(A.nx(B.aho,this.e,B.oD),1)],m),B.k,B.f,B.j,0)],m),B.k,B.f,B.D),B.h,s,s,new A.aj(r.c,s,s,n,s,s,s,B.p),s,s,s,B.vF,B.cr,s,s,s),B.r,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.b6B(),s,s,s,s,s,s,!1,B.x),s,s),B.Q_,!0),B.r,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,o,s,s,s,s,s,s,!1,B.x))}}
+return A.uy(0,A.b7(B.w,A.wk(A.dk(A.b7(s,A.ai(s,A.aS(A.b([A.az(B.iJ,r.Q,s,34),B.a3,A.D("Recording starts in "+this.c+"\u2026",s,s,s,A.bi(s,s,q,s,s,s,s,s,A.bc(),s,s,22,s,s,B.H,s,1.18,!0,s,-0.26,s,s,s,s,s,s),s),B.aE,A.D("Opened by voice/shortcut. Tap Cancel if you just wanted to look around.",s,s,s,p.gaC().W(r.r),B.ai),B.bf,A.aw(A.b([A.bg(A.cj(B.y,s,A.D("Cancel",s,s,s,p.gaF(0).W(q),s),r.d,B.Q,s,s,o,B.oD,0.4),1),B.X,A.bg(A.nx(B.ahp,this.e,B.oD),1)],m),B.k,B.f,B.j,0)],m),B.k,B.f,B.D),B.h,s,s,new A.aj(r.c,s,s,n,s,s,s,B.p),s,s,s,B.vF,B.cr,s,s,s),B.r,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.b6B(),s,s,s,s,s,s,!1,B.x),s,s),B.Q_,!0),B.r,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,o,s,s,s,s,s,s,!1,B.x))}}
 A.b6B.prototype={
 $0(){},
 $S:0}
@@ -80339,13 +80339,13 @@ m=h===!0?r.b:"This device"}else m=p
 h=this.f
 q=!q
 l=t.p
-q=A.b([B.R,B.ajl,B.R,A.bg(new A.aie(new A.UE(m,q,new A.zN(m,q,k,k),k),!h,k),1)],l)
+q=A.b([B.R,B.ajm,B.R,A.bg(new A.aie(new A.UE(m,q,new A.zN(m,q,k,k),k),!h,k),1)],l)
 if(f!=null)B.c.L(q,A.b([B.R,A.D(f,k,k,k,i.gaC().W(j.Q),B.ai)],l))
 if(e!=null)B.c.L(q,A.b([B.R,A.D(e.b,k,k,k,i.gaC().W(j.Q),B.ai)],l))
-q.push(B.ar7)
-q.push(B.apt)
+q.push(B.ar9)
+q.push(B.apv)
 q.push(B.R)
-q.push(A.dk(A.bFd(B.y,new A.fL(new A.aL(0,n,0,1/0),B.a9c,k),k,o),k,k))
+q.push(A.dk(A.bFd(B.y,new A.fL(new A.aL(0,n,0,1/0),B.a9d,k),k,o),k,k))
 if(h){h=$.ce()
 g=b.T(new A.bA(h,new A.bfE(),h.$ti.h("bA<cB.0,k?>")),g)==null
 h=g}else h=!1
@@ -80642,7 +80642,7 @@ A.Ci.prototype={
 N(){return"RecordingPhase."+this.b}}
 A.jF.prototype={
 gB2(){var s=this.a
-return s===B.jj||s===B.a9h||s===B.a9i},
+return s===B.jj||s===B.a9i||s===B.a9j},
 w6(a,b,c,d,e,f){var s,r,q=this,p=f==null?q.a:f,o=c==null?q.b:c,n=e==null?q.c:e
 if(b)s=null
 else s=d==null?q.d:d
@@ -81323,7 +81323,7 @@ s=a4?12:13
 break
 case 12:p=15
 s=18
-return A.a(c.p(0,$.db(),t.O).hm(k,l.a),$async$li)
+return A.a(c.p(0,$.db(),t.O).hn(k,l.a),$async$li)
 case 18:a0.a5("CTRL","unit_filed_to_dict_folder",A.B(["id",l.a,"folder",k],a1,a2))
 p=4
 s=17
@@ -81408,7 +81408,7 @@ s=6
 return A.a(n.wm("Claude messages"),$async$DZ)
 case 6:m=c
 s=7
-return A.a(n.hm(m,a),$async$DZ)
+return A.a(n.hn(m,a),$async$DZ)
 case 7:q=1
 s=5
 break
@@ -81491,7 +81491,7 @@ ags(a,b,c,d){var s,r,q,p,o
 try{if(b.length===0)return
 q=a.as
 p=q==null?null:q.$0()
-s=p==null?B.a09:p
+s=p==null?B.a0a:p
 if(J.dj(s))return
 r=A.ciW(s,c,d)
 if(J.as(r)===0)return
@@ -81569,7 +81569,7 @@ break}s=9
 return A.a(l.wm(g),$async$rI)
 case 9:f=a4
 s=10
-return A.a(l.hm(f,m),$async$rI)
+return A.a(l.hn(f,m),$async$rI)
 case 10:$.al().a5("COMMAND","folder_target_filed",A.B(["spoken",a2,"folder",g,"created",h==null],t.N,t.X))
 p=2
 s=6
@@ -81670,7 +81670,7 @@ s=i!=null?9:10
 break
 case 9:p=12
 s=15
-return A.a(c.p(0,$.db(),t.O).hm(i,k.a),$async$yl)
+return A.a(c.p(0,$.db(),t.O).hn(i,k.a),$async$yl)
 case 15:p=4
 s=14
 break
@@ -81783,7 +81783,7 @@ s=this.r
 r=$.q9()
 q=s.p(0,r,t.C)
 if(q.u(0,a)){p=$.a7.ae$.d.c
-if(p!=null)p.hq()
+if(p!=null)p.he()
 s=s.p(0,r.gM(),t.aT)
 r=t.N
 p=A.cJ(q,r)
@@ -81825,7 +81825,7 @@ return A.a(p.no(),$async$fQ)
 case 3:case 1:return A.f(q,r)}})
 return A.h($async$fQ,r)},
 Si(a){return this.bcZ(a)},
-bcZ(a){var s=0,r=A.i(t.H),q,p=this,o,n
+bcZ(a){var s=0,r=A.i(t.H),q,p=this,o,n,m,l,k
 var $async$Si=A.d(function(b,c){if(b===1)return A.e(c,r)
 for(;;)switch(s){case 0:s=p.f.a!==B.Z?3:4
 break
@@ -81837,8 +81837,15 @@ n=$.h_()
 if(o.p(0,n,t.y)){o.p(0,n.gM(),t.I).ao(0,!1)
 p.go=!1
 p.fy=new A.P(Date.now(),0,!1)
-p.t9()}$.al().a5("CTRL","action_chip",A.B(["action",a.b],t.N,t.X))
-n=p.dx
+p.t9()}n=$.al()
+m=t.N
+l=t.X
+n.a5("CTRL","action_chip",A.B(["action",a.b],m,l))
+k=p.p2
+if(k!=null){n.a5("ROUTE","sink_cleared_by_action_chip",A.B(["id",k],m,l))
+p.p2=p.p1=null
+n=$.a7.ae$.d.c
+if(n!=null)n.he()}n=p.dx
 if(n!=null){n=n.ax
 if(n!=null)n.$1(A.chs(a))}o=o.p(0,$.bE1().gM(),t.TW)
 o.ao(0,A.cl.prototype.gaj.call(o,0)+1)
@@ -82237,12 +82244,12 @@ l=e2&&d9
 s=l?6:7
 break
 case 6:q=9
-d1=d4==null?null:d4.hj()
+d1=d4==null?null:d4.hk()
 c3=t.H
 c4=t.r
 s=12
 return A.a(c4.b(d1)?d1:A.bB(d1,c3),$async$ot)
-case 12:d1=d5==null?null:d5.hj()
+case 12:d1=d5==null?null:d5.hk()
 s=13
 return A.a(c4.b(d1)?d1:A.bB(d1,c3),$async$ot)
 case 13:q=3
@@ -82268,10 +82275,10 @@ s=!c3?17:18
 break
 case 17:s=19
 return A.a(A.eo(B.kW,null,t.H),$async$ot)
-case 19:case 18:d1=d1?null:d8.hj()
+case 19:case 18:d1=d1?null:d8.hk()
 if(d1==null)d1=A.c1(null,t.H)
 d1.dd(new A.aTh())
-d1=c3?null:d6.hj()
+d1=c3?null:d6.hk()
 if(d1==null)d1=A.c1(null,t.H)
 d1.dd(new A.aTi())
 e0.e.L2()
@@ -83300,11 +83307,11 @@ $S:456}
 A.bCd.prototype={
 $1(a){var s=null,r=this.a,q=A.D(r.b,s,s,s,s,s),p=r.f,o=p!==B.bY
 if(o){r=r.x
-r=A.D(r.length!==0?r:p.gqm(0)+" (no specific page selected)",s,s,s,s,s)}else r=B.ahJ
+r=A.D(r.length!==0?r:p.gqm(0)+" (no specific page selected)",s,s,s,s,s)}else r=B.ahK
 return A.nw(A.b([A.dA(A.D(o?"Change cloud destination\u2026":"Link to cloud file\u2026",s,s,s,s,s),!1,!1,new A.bCb(a))],t.p),A.dA(B.bm,!1,!1,new A.bCc(a)),r,q)},
 $S:48}
 A.bCb.prototype={
-$0(){return A.aV(this.a,!1).bY(B.apW)},
+$0(){return A.aV(this.a,!1).bY(B.apY)},
 $S:0}
 A.bCc.prototype={
 $0(){return A.aV(this.a,!1).bb()},
@@ -83316,22 +83323,22 @@ N(){return"_ItemMenuAction."+this.b}}
 A.bCj.prototype={
 $1(a){var s=null,r=A.D(this.a,2,B.N,s,s,s),q=A.b([],t.p)
 if(this.b)q.push(A.dA(B.rk,!1,!1,new A.bCe(a)))
-q.push(A.dA(B.ahq,!1,!1,new A.bCf(a)))
-q.push(A.dA(B.ahx,!1,!1,new A.bCg(a)))
+q.push(A.dA(B.ahr,!1,!1,new A.bCf(a)))
+q.push(A.dA(B.ahy,!1,!1,new A.bCg(a)))
 q.push(A.dA(B.jL,!1,!0,new A.bCh(a)))
 return A.nw(q,A.dA(B.bm,!0,!1,new A.bCi(a)),s,r)},
 $S:48}
 A.bCe.prototype={
-$0(){return A.aV(this.a,!1).bY(B.apY)},
-$S:0}
-A.bCf.prototype={
-$0(){return A.aV(this.a,!1).bY(B.apZ)},
-$S:0}
-A.bCg.prototype={
 $0(){return A.aV(this.a,!1).bY(B.aq_)},
 $S:0}
-A.bCh.prototype={
+A.bCf.prototype={
 $0(){return A.aV(this.a,!1).bY(B.aq0)},
+$S:0}
+A.bCg.prototype={
+$0(){return A.aV(this.a,!1).bY(B.aq1)},
+$S:0}
+A.bCh.prototype={
+$0(){return A.aV(this.a,!1).bY(B.aq2)},
 $S:0}
 A.bCi.prototype={
 $0(){return A.aV(this.a,!1).bb()},
@@ -83341,7 +83348,7 @@ $0(){this.a.mQ(0,this.b)
 return null},
 $S:0}
 A.bCm.prototype={
-$1(a){return B.aqi},
+$1(a){return B.aqk},
 $S:457}
 A.DS.prototype={
 a1(){return new A.ajf()}}
@@ -83456,12 +83463,12 @@ return A.f(null,r)}})
 return A.h($async$M4,r)},
 aW9(){A.by()
 var s=this.x
-if(s.ga1c())s.hn()
+if(s.ga1c())s.ho()
 else s.JA(0)},
 aQl(a){this.ga_().p(0,$.ER().gM(),t.sD).iH(0,a)
-this.x.hn()},
+this.x.ho()},
 m(){var s=this.x
-if(s.ga1c())s.hn()
+if(s.ga1c())s.ho()
 this.av()},
 H(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=A.aD(a1),c=d.f,b=f.ga_(),a=b.T($.ni(),t.Uh),a0=b.T($.ER(),t.T)
 b=A.bEh(a,t.aS)
@@ -83501,7 +83508,7 @@ s=r.gaQk()
 return new A.DA(r.w,q,this.b,this.c,s,s,new A.blY(r),null)},
 $S:461}
 A.blY.prototype={
-$0(){return this.a.x.hn()},
+$0(){return this.a.x.ho()},
 $S:0}
 A.DA.prototype={
 a1(){return new A.Wm(null,null)},
@@ -83542,10 +83549,10 @@ p=A.b2(12)
 o=A.eQ(j.e,0.5)
 n=A.b([new A.e1(0,B.br,B.F.bh(0.18),B.Dr,24)],t.sq)
 m=l.a
-return new A.eT(B.bq,k,B.bt,B.P,A.b([h,A.bEB(A.f5(!1,new A.bm(q,k,A.ai(k,new A.agV(m.f,m.r,m.w,l.gaO7(),new A.bbl(l,a),new A.bbm(l,a),k),B.bX,k,B.N5,new A.aj(j.a,k,o,p,n,k,k,B.p),k,k,k,k,k,k,k,k),k),s),B.cF,i,B.a6v,!1,B.M2)],t.p),k)}}
+return new A.eT(B.bq,k,B.bt,B.P,A.b([h,A.bEB(A.f5(!1,new A.bm(q,k,A.ai(k,new A.agV(m.f,m.r,m.w,l.gaO7(),new A.bbl(l,a),new A.bbm(l,a),k),B.bX,k,B.N5,new A.aj(j.a,k,o,p,n,k,k,B.p),k,k,k,k,k,k,k,k),k),s),B.cF,i,B.a6w,!1,B.M2)],t.p),k)}}
 A.bbl.prototype={
 $0(){this.a.a.b8D()
-A.dC(this.b).ho("/projects",null,t.X)},
+A.dC(this.b).hp("/projects",null,t.X)},
 $S:0}
 A.bbm.prototype={
 $1(a){A.M0(this.b,this.a.ga_(),a)},
@@ -83591,7 +83598,7 @@ cB(){this.dt()
 this.di()
 this.iQ()}}
 A.bCv.prototype={
-$1(a){return B.aqP},
+$1(a){return B.aqR},
 $S:463}
 A.Kx.prototype={
 c6(a,b){var s=null,r=A.aD(a),q=new A.bj(r.f),p=b.T($.ni(),t.Uh),o=b.T($.ER(),t.T),n=t.p,m=r.e
@@ -83610,7 +83617,7 @@ $S:6}
 A.bm4.prototype={
 $0(){var s=this.a
 A.aV(s,!1).bb()
-A.dC(s).ho("/projects",null,t.X)},
+A.dC(s).hp("/projects",null,t.X)},
 $S:0}
 A.bm5.prototype={
 $1(a){var s=this.b
@@ -83803,7 +83810,7 @@ a7=g==null?a6:J.fd(g,r)
 r=$.lm()
 o=t.y
 a=b1.T(new A.bA(r,new A.aT4(a5),r.$ti.h("bA<cB.0,x>")),o)
-a0=a7===!0?new A.eT(B.bq,a6,B.bt,B.P,A.b([b,B.a8c],t.p),a6):b
+a0=a7===!0?new A.eT(B.bq,a6,B.bt,B.P,A.b([b,B.a8d],t.p),a6):b
 a7=$.q9()
 a1=b1.T(new A.bA(a7,new A.aT7(a5),a7.$ti.h("bA<cB.0,x>")),o)
 if(a1){a7=$.ce()
@@ -83920,7 +83927,7 @@ A.aT6.prototype={
 $1(a){return A.q4(this.b,this.c,this.a.r.a)},
 $S:52}
 A.bCD.prototype={
-$1(a){return B.ar3},
+$1(a){return B.ar5},
 $S:469}
 A.Li.prototype={
 c6(a,b){var s,r,q,p,o,n,m=null,l=A.aD(a),k=l.f,j=new A.bj(k),i=b.T($.eO(),t.jC),h=t.p
@@ -84095,7 +84102,7 @@ $0(){return this.a.w=!1},
 $S:0}
 A.btd.prototype={
 $1(a){var s=null,r=A.D("Delete this "+A.as0(this.a.b).toLowerCase()+"?",s,s,s,s,s)
-return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.btb(a)),A.eZ(B.jL,!1,!0,new A.btc(a))],t.p),B.ahw,r)},
+return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.btb(a)),A.eZ(B.jL,!1,!0,new A.btc(a))],t.p),B.ahx,r)},
 $S:38}
 A.btb.prototype={
 $0(){return A.aV(this.a,!1).bY(!1)},
@@ -84588,7 +84595,7 @@ A.bcQ.prototype={
 $2(a,b){var s=this.a,r=s.x
 if(r.gbR()){$.al().a5("ROUTE","unfocus_for_new_note",A.B(["id",s.a.d],t.N,t.X))
 s.z=!0
-r.hq()}},
+r.he()}},
 $S:107}
 A.bA4.prototype={
 $1(a){var s=this.b[a]
@@ -84951,7 +84958,7 @@ q=B.c.dW(s,r)
 p=q>=0
 s=p?s:A.b([r],t.s)
 r=p?q:0
-A.dC(o.d).ho("/browse",new A.uI(s,r),t.X)},
+A.dC(o.d).hp("/browse",new A.uI(s,r),t.X)},
 $S:0}
 A.btE.prototype={
 $1(a){var s=this.a.ga_(),r=this.c.r
@@ -85312,7 +85319,7 @@ for(;;)switch(s){case 0:A.cg()
 p=q.b
 o=q.a.e
 s=2
-return A.a(p.p(0,$.db(),t.O).hm(q.c,o),$async$$0)
+return A.a(p.p(0,$.db(),t.O).hn(q.c,o),$async$$0)
 case 2:p.p(0,$.asL().gM(),t.Y9).b_m(0,o)
 p=q.d
 if(p.e!=null)A.bk(p,"Filed into \u201c"+q.e+"\u201d",null,null,null)
@@ -85349,9 +85356,9 @@ q=[new A.hx("Sent","sent",e),new A.hx("Received","received",g.w),new A.hx("Done"
 e=g.e
 p=e.W(g.d)
 o=t.VO
-n=A.b([B.acC],o)
+n=A.b([B.acD],o)
 for(m=s.length!==0,l=0;l<3;++l){k=A.b([],o)
-if(l>0)k.push(B.acE)
+if(l>0)k.push(B.acF)
 j=q[l]
 i=j.b
 h=A.EC(r)>=A.EC(i)?e.bV(B.bQ,B.H):f
@@ -85443,7 +85450,7 @@ if(p<350){$.al().a5("SNAP","fold_tap_shielded",A.B(["ms_since_delete",p],t.N,t.X
 return}A.dd()
 s=this.a
 if(s.y||this.c){r=$.a7.ae$.d.c
-if(r!=null)r.hq()}q.p(0,$.M9().gM(),t.Of).uC(0,s.r.f)},
+if(r!=null)r.he()}q.p(0,$.M9().gM(),t.Of).uC(0,s.r.f)},
 $S:0}
 A.aSC.prototype={
 $1(a){return a.u(0,this.a.r.f)},
@@ -85504,7 +85511,7 @@ else k.push(B.uZ)
 k.push(B.X)
 j=n?"Waiting to transcribe \u2014 needs a connection":"Transcribing\u2026"
 k.push(new A.fO(1,B.bB,A.D(j,1,B.N,l,r.a_1(m.w,B.h8),l),l))
-return new A.bm(1/0,l,new A.fL(new A.aL(0,1/0,q,1/0),new A.eF(B.cF,l,l,A.aw(k,B.k,B.f,B.D,0),l),l),l)}if(o===B.ajj){j=s.as==null?l:new A.aSv(s)
+return new A.bm(1/0,l,new A.fL(new A.aL(0,1/0,q,1/0),new A.eF(B.cF,l,l,A.aw(k,B.k,B.f,B.D,0),l),l),l)}if(o===B.ajk){j=s.as==null?l:new A.aSv(s)
 return A.li(a,A.b7(B.w,A.aS(A.b([A.D(B.b.l1(A.vL(i)),10,B.N,l,r,l),B.b5,A.D("more\u2026",l,l,l,k.gaC().bV(m.a.a,B.H),l)],t.p),B.L,B.f,B.D),B.r,!1,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,j,l,l,l,l,l,l,!1,B.x))}if(o===B.K0){k=j.f
 return new A.OE(k,i,j.e,r,q,new A.dg("edit-"+k,t.kK))}return new A.bm(1/0,l,new A.fL(new A.aL(0,1/0,q,1/0),new A.eF(B.cF,l,l,new A.VT(A.D(i.length===0?"\u2026":B.b.l1(i),10,B.N,l,r,l),l),l),l),l)},
 $S:200}
@@ -85759,7 +85766,7 @@ i=B.b.I(j).length===0
 h=i&&l.e.length===0
 m=m.T($.q9(),t.C)
 if(m.ga9(m))g=A.c9m(B.ql,new A.MX((r?17:q)*1.2,c.y,d))
-else g=B.acD
+else g=B.acE
 r=t.VO
 if(h)f=A.IB(A.eB(A.b([g],r),d,d,d,d,d,d,d,d,d,d),d,d,d,d)
 else{r=A.b([],r)
@@ -85986,7 +85993,7 @@ s=2
 return A.a(q.a.ga_().p(0,$.ce().gM(),t.l).ahM(!1),$async$$0)
 case 2:p=b
 if(p!=null&&q.b.e!=null){o=A.b([p],t.s)
-A.dC(q.b).ho("/browse",new A.uI(o,0),t.X)}return A.f(null,r)}})
+A.dC(q.b).hp("/browse",new A.uI(o,0),t.X)}return A.f(null,r)}})
 return A.h($async$$0,r)},
 $S:1}
 A.b5w.prototype={
@@ -86021,7 +86028,7 @@ A.atr.prototype={
 $4(a,b,c,d){var s,r=this,q=null,p=r.a,o=A.FD(d,p.c),n=A.b2(10),m=r.b,l=m.d,k=r.c,j=p.r
 p=p.w
 s=t.p
-j=A.b([B.aji,A.bg(A.D(A.LR(l),1,B.N,q,k.gaC().W(j),B.dj),1),A.D("  \xb7  ",q,q,q,k.gaC().W(p),q),new A.El(l,k.gaC().W(j),q),B.aN],s)
+j=A.b([B.ajj,A.bg(A.D(A.LR(l),1,B.N,q,k.gaC().W(j),B.dj),1),A.D("  \xb7  ",q,q,q,k.gaC().W(p),q),new A.El(l,k.gaC().W(j),q),B.aN],s)
 l=r.d
 if(l)j.push(A.az(B.dV,B.cd,q,13))
 else j.push(B.fX)
@@ -86059,7 +86066,7 @@ A.b5F.prototype={
 $4(a,b,c,d){var s,r=this,q=null,p=r.b,o=A.FD(d,p.c),n=A.b2(10),m=r.c,l=m.d,k=r.d,j=p.r
 p=p.w
 s=t.p
-j=A.b([B.ajh,A.bg(A.D(A.LR(l),1,B.N,q,k.gaC().W(j),B.dj),1),A.D("  \xb7  ",q,q,q,k.gaC().W(p),q),new A.El(l,k.gaC().W(j),q),B.aN],s)
+j=A.b([B.aji,A.bg(A.D(A.LR(l),1,B.N,q,k.gaC().W(j),B.dj),1),A.D("  \xb7  ",q,q,q,k.gaC().W(p),q),new A.El(l,k.gaC().W(j),q),B.aN],s)
 l=r.e
 if(l)j.push(A.az(B.dV,B.dN,q,13))
 else j.push(B.fX)
@@ -86098,7 +86105,7 @@ $2(a,b){return B.aN},
 $S:312}
 A.b3B.prototype={
 $2(a,b){var s
-if(b===5)return B.apE
+if(b===5)return B.apG
 s=this.a[b]
 return new A.apM(s.b,s.a,this.b==s.c,new A.b3A(this.c,s),null)},
 $S:99}
@@ -86112,7 +86119,7 @@ aUw(a,b){var s=0,r=A.i(t.H)
 var $async$MS=A.d(function(c,d){if(c===1)return A.e(d,r)
 for(;;)switch(s){case 0:A.dd()
 s=2
-return A.a(A.i4(new A.b9L(A.b([new A.E5(B.ajd,"New note",A.aD(a).y),new A.E5(B.aje,"New task",B.cd),new A.E5(B.ajf,"New meeting",B.dN),new A.E5(B.ajg,"Message for Claude",B.bQ)],t.qg),b),a,t.H),$async$MS)
+return A.a(A.i4(new A.b9L(A.b([new A.E5(B.aje,"New note",A.aD(a).y),new A.E5(B.ajf,"New task",B.cd),new A.E5(B.ajg,"New meeting",B.dN),new A.E5(B.ajh,"Message for Claude",B.bQ)],t.qg),b),a,t.H),$async$MS)
 case 2:return A.f(null,r)}})
 return A.h($async$MS,r)},
 c6(a,b){var s=null,r=A.aD(a),q=A.b2(999),p=A.eQ(r.e,1)
@@ -86268,7 +86275,7 @@ for(l=l.gV(a),r=n.a,q=n.d,p=n.e;l.n();){o=l.gt(l)
 s.push(new A.alK(o,new A.aQi(r,q,o),new A.aQj(r,q,p,o),m))}return new A.eK(A.aGB(s),m)},
 $S:216}
 A.aQi.prototype={
-$0(){return A.dC(this.b).ho("/projects/"+this.a.e+"/files/"+this.c.a,null,t.X)},
+$0(){return A.dC(this.b).hp("/projects/"+this.a.e+"/files/"+this.c.a,null,t.X)},
 $S:0}
 A.aQj.prototype={
 $0(){var s=this
@@ -86299,7 +86306,7 @@ q=$.bXD().kJ(o.w)
 return A.a7x(A.az(B.hb,p.y,null,22),60,this.d,""+r+":"+s+" \xb7 "+q,n,null,new A.v5(this.e,null),10)}}
 A.a9n.prototype={
 c6(a,b){var s=null,r=A.aD(a),q=new A.bj(r.f),p=b.T($.ni(),t.Uh)
-return A.ny(0,B.P,s,B.r,s,s,s,s,!1,s,B.V,!1,A.b([A.qr(r.a.bh(0.85),B.ah6,B.ci,A.cj(B.y,s,A.az(B.eW,r.y,s,24),s,B.Q,s,B.abs,new A.aQJ(this,a,b),B.B,0.4)),new A.l2(B.d2,A.w2(p,new A.aQK(this,q,r,a,b),new A.aQL(q),new A.aQM(),!1,!0,!1,t.aS,t.jK),s)],t.p))},
+return A.ny(0,B.P,s,B.r,s,s,s,s,!1,s,B.V,!1,A.b([A.qr(r.a.bh(0.85),B.ah7,B.ci,A.cj(B.y,s,A.az(B.eW,r.y,s,24),s,B.Q,s,B.abt,new A.aQJ(this,a,b),B.B,0.4)),new A.l2(B.d2,A.w2(p,new A.aQK(this,q,r,a,b),new A.aQL(q),new A.aQM(),!1,!0,!1,t.aS,t.jK),s)],t.p))},
 q1(a,b){return this.aGM(a,b)},
 aGM(a,b){var s=0,r=A.i(t.H),q,p=this,o,n,m,l
 var $async$q1=A.d(function(c,d){if(c===1)return A.e(d,r)
@@ -86426,14 +86433,14 @@ for(l=l.gV(a),r=n.d,q=n.a,p=n.e;l.n();){o=l.gt(l)
 s.push(new A.akV(o,new A.aQH(r,o),new A.aQI(q,r,p,o),m))}return new A.eK(A.aGB(s),m)},
 $S:504}
 A.aQH.prototype={
-$0(){return A.dC(this.a).ho("/projects/"+this.b.a,null,t.X)},
+$0(){return A.dC(this.a).hp("/projects/"+this.b.a,null,t.X)},
 $S:0}
 A.aQI.prototype={
 $0(){var s=this
 return s.a.oy(s.b,s.c,s.d)},
 $S:0}
 A.aQC.prototype={
-$1(a){return A.nw(A.b([A.dA(B.ahT,!1,!1,new A.aQz(a)),A.dA(B.ahM,!1,!1,new A.aQA(a))],t.p),A.dA(B.bm,!1,!1,new A.aQB(a)),null,null)},
+$1(a){return A.nw(A.b([A.dA(B.ahU,!1,!1,new A.aQz(a)),A.dA(B.ahN,!1,!1,new A.aQA(a))],t.p),A.dA(B.bm,!1,!1,new A.aQB(a)),null,null)},
 $S:48}
 A.aQz.prototype={
 $0(){return A.aV(this.a,!1).bY(B.L3)},
@@ -86446,11 +86453,11 @@ $0(){return A.aV(this.a,!1).bb()},
 $S:0}
 A.aQG.prototype={
 $1(a){var s=null,r=t.p,q=A.b([],r),p=this.a
-if(p.length!==0)q.push(new A.ac(B.eQ,A.D(p,s,s,s,B.agr,B.ai),s))
+if(p.length!==0)q.push(new A.ac(B.eQ,A.D(p,s,s,s,B.ags,B.ai),s))
 p=this.b
 q.push(A.fi(!0,!0,p,s,s,!0,B.au,2,B.dn,!0,!0,!0,s,s,s,1,s,!1,s,new A.aQD(a),s,s,B.cM,s,B.b_,s,s,s,s,s,s,s,B.aK,B.a8,B.b6,B.dE))
 q=A.aS(q,B.k,B.f,B.j)
-return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.aQE(a)),A.eZ(B.Jo,!0,!1,new A.aQF(a,p))],r),new A.ac(B.em,q,s),B.ahy)},
+return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.aQE(a)),A.eZ(B.Jo,!0,!1,new A.aQF(a,p))],r),new A.ac(B.em,q,s),B.ahz)},
 $S:38}
 A.aQD.prototype={
 $1(a){return A.aV(this.a,!1).bY(B.b.I(a))},
@@ -86507,7 +86514,7 @@ aF6(){switch(this.z.a){case 1:return"OneNote / OneDrive share links \u2014 works
 case 2:return"Google Docs links look like docs.google.com/document/d/\u2026"
 case 0:return""}},
 H(a){var s=this,r=null,q=A.aD(a),p=new A.bj(q.f),o=A.ck(a,B.k0,t.w).w,n=t.p,m=A.aw(A.b([A.cj(B.y,r,A.D("Cancel",r,r,r,p.gaF(0).W(q.y),r),r,B.Q,r,r,new A.biR(a),B.B,0.4),A.bg(A.dk(A.D("Link Cloud File",r,r,r,p.gfv(),r),r,r),1),B.Iw],n),B.k,B.f,B.j,0),l=s.z,k=s.gYO()?"Project name":"Project name (optional)",j=p.gaF(0)
-n=A.b([new A.ahO(r),m,B.a3,new A.FN(B.a5p,l,new A.biS(s),B.B,r,t.O0),B.a3,A.fi(!1,!1,s.w,r,r,!0,B.au,2,new A.aj(q.d,r,r,A.b2(14),r,r,r,B.p),!0,!0,!0,s.y,r,r,1,r,!1,r,r,r,r,B.cL,k,B.b_,r,r,r,r,r,j,r,B.aK,B.a8,B.b6,B.Je),B.a3],n)
+n=A.b([new A.ahO(r),m,B.a3,new A.FN(B.a5q,l,new A.biS(s),B.B,r,t.O0),B.a3,A.fi(!1,!1,s.w,r,r,!0,B.au,2,new A.aj(q.d,r,r,A.b2(14),r,r,r,B.p),!0,!0,!0,s.y,r,r,1,r,!1,r,r,r,r,B.cL,k,B.b_,r,r,r,r,r,j,r,B.aK,B.a8,B.b6,B.Je),B.a3],n)
 m=s.gYO()
 l=s.z
 if(m){m=s.Q
@@ -86586,10 +86593,10 @@ if(r){r=!e
 q=e
 p=!0}else{q=i
 p=!1
-r=!1}if(r){r=B.Yu
+r=!1}if(r){r=B.Yt
 break A}if(s)r=!0===(p?q:e)
 else r=!1
-if(r){r=B.a1e
+if(r){r=B.a1f
 break A}if(B.fL===f){r=B.Wt
 break A}if(B.bY===f){r=B.aj
 break A}r=i}o=A.b2(12)
@@ -86599,7 +86606,7 @@ for(m=r.length,l=0;l<m;++l){k=r[l]
 j=A.bc()
 n.push(new A.ac(B.vu,A.D(k,i,i,i,new A.J(!0,g,i,j,i,i,13,B.n,i,-0.08,i,i,1.38,i,i,i,i,i,i,i,i,i,i,i,i,i).W(g),i),i))}return A.ai(i,A.aS(n,B.L,B.f,B.j),B.h,i,i,new A.aj(h.z,i,i,o,i,i,i,B.p),i,i,i,i,B.ap,i,i,1/0)}}
 A.bCo.prototype={
-$1(a){return B.aqI},
+$1(a){return B.aqK},
 $S:507}
 A.DX.prototype={
 a1(){return new A.XO(new A.eA(B.aZ,$.aK()),A.kJ(!0,null,!0,!0,null,null,!1))}}
@@ -86632,7 +86639,7 @@ $1(a){return this.a.abE()},
 $S:6}
 A.QP.prototype={}
 A.bCp.prototype={
-$1(a){return B.a7_},
+$1(a){return B.a70},
 $S:508}
 A.BN.prototype={
 a1(){return new A.XR()}}
@@ -86892,14 +86899,14 @@ A.aV(s,!1).bb()}},
 $S:0}
 A.bkz.prototype={
 $1(a){var s=null,r=A.D(this.a.a,s,s,s,s,s)
-return A.k1(A.b([A.eZ(B.mQ,!1,!1,new A.bky(a))],t.p),r,B.agV)},
+return A.k1(A.b([A.eZ(B.mQ,!1,!1,new A.bky(a))],t.p),r,B.agW)},
 $S:38}
 A.bky.prototype={
 $0(){return A.aV(this.a,!1).bb()},
 $S:0}
 A.bkL.prototype={
 $1(a){var s=null,r=this.a,q=A.fi(!0,!0,r,s,s,!0,B.au,2,B.dn,!0,!0,!0,s,s,s,1,s,!1,s,s,s,s,B.cM,s,B.b_,s,s,s,s,s,s,s,B.aK,B.a8,B.b6,s)
-return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.bkJ(a)),A.eZ(B.ahE,!0,!1,new A.bkK(a,r))],t.p),new A.ac(B.em,q,s),B.ah9)},
+return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.bkJ(a)),A.eZ(B.ahF,!0,!1,new A.bkK(a,r))],t.p),new A.ac(B.em,q,s),B.aha)},
 $S:38}
 A.bkJ.prototype={
 $0(){return A.aV(this.a,!1).bb()},
@@ -86980,7 +86987,7 @@ if(b.a!==B.fT)return A.aS(A.b([B.Ts,l],m),B.k,B.f,B.j)
 s=b.c
 if(s!=null)return A.aS(A.b([A.bg(A.dk(new A.ac(B.cr,A.D("Couldn't list pages: "+A.p(s),p,p,p,n.gaC().W(q.c.r),B.ai),p),p,p),1),l],m),B.k,B.f,B.j)
 r=b.b
-if(r==null)r=B.a0j
+if(r==null)r=B.a0k
 s=J.a3(r)
 if(s.ga9(r))return A.aS(A.b([A.bg(A.dk(new A.ac(B.cr,A.D('This section is empty. Tap "New page here" to create a destination Voicley will write to.',p,p,p,n.gaF(0).W(q.c.r),B.ai),p),p,p),1),l],m),B.k,B.f,B.j)
 return A.aS(A.b([A.bg(A.aJk(p,new A.bl8(o,r),s.gv(r),B.iC),1),l],m),B.k,B.f,B.j)},
@@ -86998,7 +87005,7 @@ if(n.a!==B.fT)return B.eG
 s=n.c
 if(s!=null)return A.dk(new A.ac(B.cr,A.D("Failed to load: "+A.p(s),q,q,q,o.gaC().W(p.r),B.ai),q),q,q)
 r=n.b
-if(r==null)r=B.a0i
+if(r==null)r=B.a0j
 n=J.a3(r)
 if(n.ga9(r))return A.dk(new A.ac(B.cr,A.D(this.d,q,q,q,o.gaF(0).W(p.r),B.ai),q),q,q)
 return A.aJk(q,new A.b6k(this,r),n.gv(r),B.iC)}}
@@ -87028,13 +87035,13 @@ if(!q.c)s.push(A.dA(B.jL,!1,!0,new A.bCs(a)))
 return A.nw(s,A.dA(B.bm,!1,!1,new A.bCt(a)),o,p)},
 $S:48}
 A.bCq.prototype={
-$0(){return A.aV(this.a,!1).bY(B.a8j)},
-$S:0}
-A.bCr.prototype={
 $0(){return A.aV(this.a,!1).bY(B.a8k)},
 $S:0}
-A.bCs.prototype={
+A.bCr.prototype={
 $0(){return A.aV(this.a,!1).bY(B.a8l)},
+$S:0}
+A.bCs.prototype={
+$0(){return A.aV(this.a,!1).bY(B.a8m)},
 $S:0}
 A.bCt.prototype={
 $0(){return A.aV(this.a,!1).bb()},
@@ -87107,7 +87114,7 @@ if(!(r!=null&&r.cy&&A.bIw(r))){p=A.mu(q,new A.bja(i))
 if(p!=null){k=l.c
 k.toString
 j=p.b
-A.dC(k).ho("/folders/"+j,null,t.X)}else{k=k.p(0,$.bJY().gM(),t.TW)
+A.dC(k).hp("/folders/"+j,null,t.X)}else{k=k.p(0,$.bJY().gM(),t.TW)
 k.ao(0,A.cl.prototype.gaj.call(k,0)+1)
 k=l.c
 k.toString
@@ -87170,7 +87177,7 @@ a5=o==null?a8:o.a}a7.a9c(a5,a5==null?B.ah:A.bTB(q,a5))
 q=A.dC(b4).c
 q===$&&A.c()
 q=q.hW()?a8:B.ci
-q=A.Aq(a9.a.bh(0.85),B.ez,q,B.ahu,a8)
+q=A.Aq(a9.a.bh(0.85),B.ez,q,B.ahv,a8)
 if(r.length===0&&j.length===0)b0=new A.ah4(a9,b1,a8)
 else{b2=!b2&&J.dE(a4.a)?new A.apm(a9,b1,a7.gaLE(),a8):new A.akg(a7.gacn(),a8)
 r=a3===1?"1 item will play":""+a3+" items will play"
@@ -87208,7 +87215,7 @@ return A.a(m.iC(j.a,b),$async$EH)
 case 13:s=11
 break
 case 12:s=14
-return A.a(m.hm(b,k),$async$EH)
+return A.a(m.hn(b,k),$async$EH)
 case 14:case 11:case 8:g.length===f||(0,A.z)(g),++e
 s=7
 break
@@ -87356,7 +87363,7 @@ A.bjb.prototype={
 $1(a){return a.b===this.a.c&&a.c===this.b&&!a.d},
 $S:146}
 A.bj4.prototype={
-$0(){return this.a.hm(this.c.a,this.b.a)},
+$0(){return this.a.hn(this.c.a,this.b.a)},
 $S:0}
 A.bj5.prototype={
 $0(){return this.a.ga_().p(0,$.cu(),t.U).mQ(0,this.b.a)},
@@ -87401,7 +87408,7 @@ this.a.r.$0()},
 $S:0}
 A.bdY.prototype={
 $0(){A.by()
-A.dC(this.b).ho("/folders/"+this.a.c.a,null,t.X)},
+A.dC(this.b).hp("/folders/"+this.a.c.a,null,t.X)},
 $S:0}
 A.akg.prototype={
 H(a){var s=null,r=A.aD(a),q=A.b2(12)
@@ -87964,7 +87971,7 @@ j=J.a3(k)
 if(j.ga9(k))return new A.ic(B.RA,A.dk(A.D("Nothing to read",n,n,n,l.gaF(0),n),n,n),n,!0,n)
 g=m.a
 s=t.p
-r=A.Aq(g.bh(0.9),B.ez,n,B.ahV,A.aw(A.b([A.cj(B.y,n,B.UR,n,B.Q,n,n,new A.bmF(a),B.B,0.4),A.cj(B.y,n,B.UO,n,B.Q,n,n,new A.bmG(h),B.B,0.4)],s),B.k,B.f,B.D,0))
+r=A.Aq(g.bh(0.9),B.ez,n,B.ahW,A.aw(A.b([A.cj(B.y,n,B.UR,n,B.Q,n,n,new A.bmF(a),B.B,0.4),A.cj(B.y,n,B.UO,n,B.Q,n,n,new A.bmG(h),B.B,0.4)],s),B.k,B.f,B.D,0))
 q=A.D("Playing "+(i.b+1)+" of "+j.gv(k),n,n,n,l.gaC().W(m.r),n)
 p=o.w
 p===$&&A.c()
@@ -87994,7 +88001,7 @@ $2(a,b){return this.a.aVv(b)},
 $S:107}
 A.bmF.prototype={
 $0(){A.by()
-A.dC(this.a).ho("/settings",null,t.X)},
+A.dC(this.a).hp("/settings",null,t.X)},
 $S:0}
 A.bmG.prototype={
 $0(){A.by()
@@ -88038,7 +88045,7 @@ $1(a){return a.a===J.j1(this.a).b},
 $S:228}
 A.bjr.prototype={
 $0(){A.by()
-A.dC(this.a).ho("/folders/"+this.b.a,null,t.X)},
+A.dC(this.a).hp("/folders/"+this.b.a,null,t.X)},
 $S:0}
 A.KO.prototype={
 H(a){var s=null,r=A.aD(a),q=this.e,p=q?64:48,o=q?r.y:r.c,n=q?30:22
@@ -88048,7 +88055,7 @@ A.byd.prototype={
 $1(a){var s,r,q,p,o,n,m,l=this
 if(!l.a.q(0,a))return
 s=l.b.i(0,a)
-if(s==null)s=B.a06
+if(s==null)s=B.a07
 r=s.length
 q=l.c
 p=l.d
@@ -88177,7 +88184,7 @@ q.push(new A.aj8(m,new A.bnz(o,s,m),new A.bnA(r,m),k))}return new A.eK(A.aGB(q),
 $S:216}
 A.bnz.prototype={
 $0(){var s=this.b,r=B.c.dW(s,this.c.a)
-return A.dC(this.a).ho("/browse",new A.uI(s,r),t.X)},
+return A.dC(this.a).hp("/browse",new A.uI(s,r),t.X)},
 $S:0}
 A.bnA.prototype={
 $0(){return this.a.KL(this.b)},
@@ -88280,7 +88287,7 @@ $0(){var s,r,q,p
 A.by()
 s=A.b([],t.s)
 for(r=this.b,q=r.length,p=0;p<r.length;r.length===q||(0,A.z)(r),++p)s.push(r[p].a.a)
-A.dC(this.a).ho("/browse",new A.uI(s,this.c),t.X)},
+A.dC(this.a).hp("/browse",new A.uI(s,this.c),t.X)},
 $S:0}
 A.afk.prototype={
 H(a){var s,r,q=null,p="dictation",o="claude",n=A.aD(a),m=new A.b8B(this,n,new A.bj(n.f)),l=m.$3("All",q,this.c),k=this.d,j=k.i(0,p)
@@ -88320,7 +88327,7 @@ case 3:s=a.y
 break
 default:s=null}return s},
 H(a){var s=null,r=A.aD(a),q=r.a
-return new A.ic(A.Aq(q.bh(0.85),s,B.ci,B.ahW,A.cj(B.y,s,B.rl,s,B.Q,s,s,new A.bif(),B.B,0.4)),A.fr(!0,A.me($.nf(),new A.big(this,new A.bj(r.f),r),s),B.B,!0),q,!0,s)}}
+return new A.ic(A.Aq(q.bh(0.85),s,B.ci,B.ahX,A.cj(B.y,s,B.rl,s,B.Q,s,s,new A.bif(),B.B,0.4)),A.fr(!0,A.me($.nf(),new A.big(this,new A.bj(r.f),r),s),B.B,!0),q,!0,s)}}
 A.bif.prototype={
 $0(){return $.nf().R(0)},
 $S:0}
@@ -88390,7 +88397,7 @@ aXU(a){var s=a.b,r=$.bXx().kJ(s)
 if(a.d===1||B.d.ag(a.c.bD(s).a,6e7)<1)return r
 return r+" \u2013 "+$.bXy().kJ(a.c)},
 H(a){var s=null,r=A.aD(a),q=r.a
-return new A.ic(A.Aq(q.bh(0.85),s,B.ci,B.aht,A.cj(B.y,s,B.rl,s,B.Q,s,s,new A.bki(),B.B,0.4)),A.fr(!0,A.me($.q8(),new A.bkj(this,new A.bj(r.f),r),s),B.B,!0),q,!0,s)}}
+return new A.ic(A.Aq(q.bh(0.85),s,B.ci,B.ahu,A.cj(B.y,s,B.rl,s,B.Q,s,s,new A.bki(),B.B,0.4)),A.fr(!0,A.me($.q8(),new A.bkj(this,new A.bj(r.f),r),s),B.B,!0),q,!0,s)}}
 A.bki.prototype={
 $0(){return $.q8().R(0)},
 $S:0}
@@ -88821,7 +88828,7 @@ break
 case 8:case 1:return A.f(q,r)
 case 2:return A.e(o.at(-1),r)}})
 return A.h($async$zz,r)},
-H(c1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a="monospace",a0=A.aD(c1),a1=a0.f,a2=new A.bj(a1),a3=c.ga_(),a4=a3.T($.eO(),t.jC),a5=a3.T($.bDX(),t.QS),a6=A.qr(a0.a.bh(0.85),B.ahB,B.ci,b),a7=a0.c,a8=A.b2(12),a9=a0.r,b0=a0.w,b1=t.p,b2=A.b7(B.w,new A.ac(B.vy,A.aw(A.b([new A.vv("Speech engine",a0,a2,b),B.cA,A.D(a4.a.ge8(0),b,b,b,a2.gaC().W(a9),b),B.cz,A.az(B.cs,b0,b,14)],b1),B.k,B.f,B.j,0),b),B.r,!1,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,new A.bqy(c,c1),b,b,b,b,b,b,!1,B.x),b3=a0.e,b4=A.ai(b,b,B.h,b3,b,b,b,0.5,b,b,b,b,b,b),b5=A.b7(B.w,new A.ac(B.vy,A.aw(A.b([new A.vv("Microphone",a0,a2,b),B.cA,A.D("Choose input",b,b,b,a2.gaC().W(a9),b),B.cz,A.az(B.cs,b0,b,14)],b1),B.k,B.f,B.j,0),b),B.r,!1,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,new A.bqz(c1),b,b,b,b,b,b,!1,B.x),b6=A.aw(A.b([A.bg(A.aS(A.b([A.D("Section timestamps",b,b,b,a2.gaC().bV(a1,B.H),b),B.bO,A.D("Write a start timestamp at the top of each section and an end timestamp at the bottom. Off = only the dictated text is added.",b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1),B.L,B.f,B.j),1),B.X,A.O0(new A.bqA(c),a4.f)],b1),B.k,B.f,B.j,0),b7=A.aw(A.b([A.bg(A.aS(A.b([A.D("Smart section labels",b,b,b,a2.gaC().bV(a1,B.H),b),B.bO,A.D("Title each section with a short AI-generated topic (uses your OpenAI key). Needs OneNote and an internet connection.",b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1),B.L,B.f,B.j),1),B.X,A.O0(new A.bqL(c),a4.r)],b1),B.k,B.f,B.j,0),b8=A.D("Tasks page",b,b,b,a2.gaC().bV(a1,B.H),b),b9=a4.y.length===0,c0=b9?'Where a spoken "create task \u2026 end task" lands as a checkbox item. Not set \u2014 tasks stay in the transcript only.':a4.z
+H(c1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a="monospace",a0=A.aD(c1),a1=a0.f,a2=new A.bj(a1),a3=c.ga_(),a4=a3.T($.eO(),t.jC),a5=a3.T($.bDX(),t.QS),a6=A.qr(a0.a.bh(0.85),B.ahC,B.ci,b),a7=a0.c,a8=A.b2(12),a9=a0.r,b0=a0.w,b1=t.p,b2=A.b7(B.w,new A.ac(B.vy,A.aw(A.b([new A.vv("Speech engine",a0,a2,b),B.cA,A.D(a4.a.ge8(0),b,b,b,a2.gaC().W(a9),b),B.cz,A.az(B.cs,b0,b,14)],b1),B.k,B.f,B.j,0),b),B.r,!1,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,new A.bqy(c,c1),b,b,b,b,b,b,!1,B.x),b3=a0.e,b4=A.ai(b,b,B.h,b3,b,b,b,0.5,b,b,b,b,b,b),b5=A.b7(B.w,new A.ac(B.vy,A.aw(A.b([new A.vv("Microphone",a0,a2,b),B.cA,A.D("Choose input",b,b,b,a2.gaC().W(a9),b),B.cz,A.az(B.cs,b0,b,14)],b1),B.k,B.f,B.j,0),b),B.r,!1,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,new A.bqz(c1),b,b,b,b,b,b,!1,B.x),b6=A.aw(A.b([A.bg(A.aS(A.b([A.D("Section timestamps",b,b,b,a2.gaC().bV(a1,B.H),b),B.bO,A.D("Write a start timestamp at the top of each section and an end timestamp at the bottom. Off = only the dictated text is added.",b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1),B.L,B.f,B.j),1),B.X,A.O0(new A.bqA(c),a4.f)],b1),B.k,B.f,B.j,0),b7=A.aw(A.b([A.bg(A.aS(A.b([A.D("Smart section labels",b,b,b,a2.gaC().bV(a1,B.H),b),B.bO,A.D("Title each section with a short AI-generated topic (uses your OpenAI key). Needs OneNote and an internet connection.",b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1),B.L,B.f,B.j),1),B.X,A.O0(new A.bqL(c),a4.r)],b1),B.k,B.f,B.j,0),b8=A.D("Tasks page",b,b,b,a2.gaC().bV(a1,B.H),b),b9=a4.y.length===0,c0=b9?'Where a spoken "create task \u2026 end task" lands as a checkbox item. Not set \u2014 tasks stay in the transcript only.':a4.z
 c0=A.bg(A.aS(A.b([b8,B.bO,A.D(c0,b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1),B.L,B.f,B.j),1)
 b8=b9?"Choose":"Change"
 s=a0.y
@@ -88844,17 +88851,17 @@ b6.push(A.b7(B.w,new A.ac(B.iC,A.aw(A.b([b8,B.X,new A.oW(1,B.dT,A.D(b9,b,b,b,new
 b6=A.D("New dictations title themselves. This fills in AI titles for older untitled items in your folders + recent library \u2014 and re-transcribes any that have audio but no text yet \u2014 never the whole archive or Trash (uses your OpenAI key).",b,b,b,a2.gaC().W(a9),b)
 b7=c.cx
 b8=b7?b:c.gaFi()
-b8=A.nx(b7?B.fW:B.ahz,b8,b)
+b8=A.nx(b7?B.fW:B.ahA,b8,b)
 b9=A.D("VOICE COMMANDS",b,b,b,a2.gaF(0).ly(a1,B.aS,0.6),b)
 a8=A.b([new A.jR("SPEECH-TO-TEXT",a0,a2,b),B.R,a8,B.bf,new A.jR("DISPLAY",a0,a2,b),B.R,b2,B.R,b4,B.bf,new A.jR("LISTENING",a0,a2,b),B.R,b5,B.bf,new A.jR("LIBRARY SYNC (POC)",a0,a2,b),B.R,new A.Xl(a0,a2,b),B.bf,new A.jR("AI TITLES",a0,a2,b),B.R,b6,B.R,new A.bm(1/0,b,b8,b),B.bf,A.b7(B.w,new A.ac(B.vJ,A.aw(A.b([b9,B.cA,A.az(c.CW?B.iI:B.dU,a1,b,20)],b1),B.k,B.f,B.j,0),b),B.r,!1,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,new A.bqS(c),b,b,b,b,b,b,!1,B.x)],b1)
 if(c.CW){b2=A.b2(12)
 b4=A.b([A.D("Say these while recording. Commands work in every engine; \u201cplay the listening folder\u201d only in Commands only.",b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1)
-for(r=0;r<12;++r)B.c.L(b4,A.b([B.a3,new A.apS(B.a1c[r],a0,a2,b)],b1))
+for(r=0;r<12;++r)B.c.L(b4,A.b([B.a3,new A.apS(B.a1d[r],a0,a2,b)],b1))
 B.c.L(a8,A.b([B.R,A.ai(b,A.aS(b4,B.L,B.f,B.j),B.h,b,b,new A.aj(a7,b,b,b2,b,b,b,B.p),b,b,b,b,B.ap,b,b,b)],b1))}a8.push(B.bf)
 b2=A.D("ADVANCED",b,b,b,a2.gaF(0).ly(a1,B.aS,0.6),b)
 a8.push(A.b7(B.w,new A.ac(B.vJ,A.aw(A.b([b2,B.cA,A.az(c.ch?B.iI:B.dU,a1,b,20)],b1),B.k,B.f,B.j,0),b),B.r,!1,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,new A.bqT(c),b,b,b,b,b,b,!1,B.x))
 if(c.ch){b2=A.b2(12)
-b2=A.ai(b,A.aS(A.b([B.a8m,B.aE,A.D("Where dictation lands \u2014 a local project or a linked OneNote page.",b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1),B.L,B.f,B.j),B.h,b,b,new A.aj(a7,b,b,b2,b,b,b,B.p),b,b,b,b,B.ap,b,b,b)
+b2=A.ai(b,A.aS(A.b([B.a8n,B.aE,A.D("Where dictation lands \u2014 a local project or a linked OneNote page.",b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1),B.L,B.f,B.j),B.h,b,b,new A.aj(a7,b,b,b2,b,b,b,B.p),b,b,b,b,B.ap,b,b,b)
 b4=A.b2(12)
 b5=a4.c
 b6=A.b([new A.ajU(b5,new A.bqU(c),b),B.aE,A.D(b5.gTG(),b,b,b,A.bi(b,b,a1,b,b,b,b,b,A.bc(),b,b,12,b,b,B.n,b,1.33,!0,b,b,b,b,b,b,b,b).W(a9),b)],b1)
@@ -88911,8 +88918,8 @@ d=g?b:c.gaVC()
 o=A.b([new A.vv("Server URL",a0,a2,b),B.aE,h,B.aE,f,B.a3,new A.vv("Model",a0,a2,b),B.aE,e,B.aE,o,B.a3,new A.bm(1/0,b,A.nx(g?B.ir:A.D("Save & Test Connection",b,b,b,a2.gaF(0).bV(B.q,B.H),b),d,B.h_),b)],b1)
 h=c.at
 if(h!=null){g=A.b2(14)
-B.c.L(o,A.b([B.R,A.ai(b,A.D(h,b,b,b,a2.gaC().W(a1),b),B.h,b,b,new A.aj(b0,b,b,g,b,b,b,B.p),b,b,b,b,B.vA,b,b,1/0)],b1))}B.c.L(a8,A.b([B.R,new A.jR("DICTATION DESTINATION",a0,a2,b),B.R,b2,B.bf,new A.jR("RECORDING SEGMENTATION",a0,a2,b),B.R,b4,B.bf,new A.jR("AUTO-MEETING",a0,a2,b),B.R,b5,B.bf,new A.jR("VOICE ACTIVATION",a0,a2,b),B.R,b6,B.bf,new A.jR("ONENOTE SNIPS",a0,a2,b),B.R,b3,B.a3,b7,B.bf,new A.jR("WHISPER (OPENAI)",a0,a2,b),B.a3,b8,B.aE,p,B.aE,c0,B.a3,b9,B.a3,new A.vv("Whisper model",a0,a2,b),B.aE,n,B.aE,m,B.bf,new A.jR("DIAGNOSTICS",a0,a2,b),B.R,l,B.R,k,B.R,j,B.bf,new A.jR("LOCAL LLM (OLLAMA)",a0,a2,b),B.R,s,B.a3,new A.jR("MANUAL OVERRIDE",a0,a2,b),B.R,A.ai(b,A.aS(o,B.L,B.f,B.j),B.h,b,b,new A.aj(a7,b,b,i,b,b,b,B.p),b,b,b,b,B.ap,b,b,b)],b1))}a8.push(B.ar8)
-a8.push(B.apo)
+B.c.L(o,A.b([B.R,A.ai(b,A.D(h,b,b,b,a2.gaC().W(a1),b),B.h,b,b,new A.aj(b0,b,b,g,b,b,b,B.p),b,b,b,b,B.vA,b,b,1/0)],b1))}B.c.L(a8,A.b([B.R,new A.jR("DICTATION DESTINATION",a0,a2,b),B.R,b2,B.bf,new A.jR("RECORDING SEGMENTATION",a0,a2,b),B.R,b4,B.bf,new A.jR("AUTO-MEETING",a0,a2,b),B.R,b5,B.bf,new A.jR("VOICE ACTIVATION",a0,a2,b),B.R,b6,B.bf,new A.jR("ONENOTE SNIPS",a0,a2,b),B.R,b3,B.a3,b7,B.bf,new A.jR("WHISPER (OPENAI)",a0,a2,b),B.a3,b8,B.aE,p,B.aE,c0,B.a3,b9,B.a3,new A.vv("Whisper model",a0,a2,b),B.aE,n,B.aE,m,B.bf,new A.jR("DIAGNOSTICS",a0,a2,b),B.R,l,B.R,k,B.R,j,B.bf,new A.jR("LOCAL LLM (OLLAMA)",a0,a2,b),B.R,s,B.a3,new A.jR("MANUAL OVERRIDE",a0,a2,b),B.R,A.ai(b,A.aS(o,B.L,B.f,B.j),B.h,b,b,new A.aj(a7,b,b,i,b,b,b,B.p),b,b,b,b,B.ap,b,b,b)],b1))}a8.push(B.ara)
+a8.push(B.apq)
 a1=A.bx(a3.T($.bZ9(),t.gu))
 if(a1==null)a1=""
 a8.push(new A.ac(B.SE,A.dk(A.D(a1,b,b,b,a2.gfv().W(a9),b),b,b),b))
@@ -88924,7 +88931,7 @@ A.bqp.prototype={
 $1(a){var s,r=this,q=null,p=r.a
 p.b=a
 s=A.D(r.b.length===0?"Filling in titles":"Titling & transcribing",q,q,q,q,q)
-return A.k1(A.b([A.eZ(B.ahC,!1,!0,new A.bqm(p))],t.p),new A.n2(r.c,new A.bqn(r.d),q,q,t.m9),s)},
+return A.k1(A.b([A.eZ(B.ahD,!1,!0,new A.bqm(p))],t.p),new A.n2(r.c,new A.bqn(r.d),q,q,t.m9),s)},
 $S:38}
 A.bqn.prototype={
 $3(a,b,c){var s=null
@@ -89018,12 +89025,12 @@ $S:549}
 A.bqV.prototype={
 $1(a){var s=this.a
 s.a6F(s.Q.a.a)
-A.AR(this.b).hq()},
+A.AR(this.b).he()},
 $S:47}
 A.bqB.prototype={
 $1(a){var s=this.a
 s.a6D(s.as.a.a)
-A.AR(this.b).hq()},
+A.AR(this.b).he()},
 $S:47}
 A.bqC.prototype={
 $1(a){return this.a.ga_().p(0,$.eO().gM(),t.d).CJ(a)},
@@ -89041,10 +89048,10 @@ A.bqG.prototype={
 $1(a){return this.a.MB()},
 $S:6}
 A.bqH.prototype={
-$0(){return A.dC(this.a).ho("/diagnostics",null,t.X)},
+$0(){return A.dC(this.a).hp("/diagnostics",null,t.X)},
 $S:0}
 A.bqJ.prototype={
-$0(){return A.dC(this.a).ho("/network-log",null,t.X)},
+$0(){return A.dC(this.a).hp("/network-log",null,t.X)},
 $S:0}
 A.bqI.prototype={
 $2(a,b){var s=null,r=$.q8().gbcP()
@@ -89052,7 +89059,7 @@ if(r===0)return B.U
 return new A.ac(B.l1,A.D(""+r,s,s,s,this.a.gaC().bV(this.b.r,B.aS),s),s)},
 $S:264}
 A.bqM.prototype={
-$0(){return A.dC(this.a).ho("/item-changes",null,t.X)},
+$0(){return A.dC(this.a).hp("/item-changes",null,t.X)},
 $S:0}
 A.bqK.prototype={
 $2(a,b){var s=null,r=$.nf().b.i(0,B.hd)
@@ -89185,7 +89192,7 @@ p=n.a
 o=p.a
 if(o!=null)B.c.L(q,A.b([B.aE,A.D(o,m,m,m,A.bi(m,m,l,m,m,m,m,m,A.bc(),m,m,12,m,m,B.n,m,1.33,!0,m,m,m,m,m,m,m,m).W(B.kV),m)],r))
 l=A.aS(q,B.k,B.f,B.j)
-return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.buq(a)),A.eZ(B.ahh,!0,!1,new A.bur(p,n.d,n.e,s,b,a))],r),l,k)},
+return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.buq(a)),A.eZ(B.ahi,!0,!1,new A.bur(p,n.d,n.e,s,b,a))],r),l,k)},
 $S:553}
 A.buq.prototype={
 $0(){return A.aV(this.a,!1).bb()},
@@ -89284,7 +89291,7 @@ s=p.Q
 k=b.gaF(0).W(k)
 r=A.b2(8)
 q=t.p
-m=A.b([l,B.R,j,B.R,A.fi(!1,!1,p.x,o,o,!0,B.au,2,new A.aj(i,o,o,r,o,o,o,B.p),!0,!1,!0,o,o,o,1,o,!s,o,o,o,o,B.cM,"Password",B.b_,o,o,o,o,o,k,A.cj(B.y,o,A.az(p.Q?B.wr:B.wA,m,o,19),o,B.Q,o,B.abr,new A.biG(p),B.vz,0.4),B.aK,B.a8,B.b6,o)],q)
+m=A.b([l,B.R,j,B.R,A.fi(!1,!1,p.x,o,o,!0,B.au,2,new A.aj(i,o,o,r,o,o,o,B.p),!0,!1,!0,o,o,o,1,o,!s,o,o,o,o,B.cM,"Password",B.b_,o,o,o,o,o,k,A.cj(B.y,o,A.az(p.Q?B.wr:B.wA,m,o,19),o,B.Q,o,B.abs,new A.biG(p),B.vz,0.4),B.aK,B.a8,B.b6,o)],q)
 l=p.z
 if(l!=null)B.c.L(m,A.b([B.R,A.D(l,o,o,o,A.bi(o,o,n,o,o,o,o,o,A.bc(),o,o,12,o,o,B.n,o,1.33,!0,o,o,o,o,o,o,o,o).W(a.Q),o)],q))
 m.push(B.R)
@@ -89449,7 +89456,7 @@ A.bnE.prototype={
 $0(){return this.a.y=J.as(this.b)},
 $S:0}
 A.bnH.prototype={
-$1(a){return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.bnF(a)),A.eZ(B.ahG,!0,!1,new A.bnG(a))],t.p),B.ahX,B.agX)},
+$1(a){return A.k1(A.b([A.eZ(B.bm,!1,!1,new A.bnF(a)),A.eZ(B.ahH,!0,!1,new A.bnG(a))],t.p),B.ahY,B.agY)},
 $S:38}
 A.bnF.prototype={
 $0(){return A.aV(this.a,!1).bY(!1)},
@@ -89546,7 +89553,7 @@ s=new A.ic(r,A.fr(!0,A.aw(A.b([new A.anr(o,r),new A.a3Q(new A.atu(p),r),A.bg(o==
 return new A.SJ(s,r)}}
 A.atu.prototype={
 $3(a,b,c){var s=null
-return A.k6(A.b7(B.w,new A.bm(7,s,A.dk(A.ai(s,s,B.h,this.a.e,s,s,s,s,s,s,s,s,s,0.5),s,s),s),B.r,!1,s,s,s,s,new A.ats(b),s,new A.att(b),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,B.x),B.ac3,s,s,s,s)},
+return A.k6(A.b7(B.w,new A.bm(7,s,A.dk(A.ai(s,s,B.h,this.a.e,s,s,s,s,s,s,s,s,s,0.5),s,s),s),B.r,!1,s,s,s,s,new A.ats(b),s,new A.att(b),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,B.x),B.ac4,s,s,s,s)},
 $C:"$3",
 $R:3,
 $S:561}
@@ -89678,14 +89685,14 @@ s.toString
 A.dC(s).iG(0,a)}},
 H(a){var s,r,q,p,o=this,n=null,m=A.aD(a),l=B.e.bL(A.ck(a,B.dK,t.w).w.a.a*0.78,260,320),k=m.a,j=m.e,i=t.p,h=A.b([A.b7(B.w,new A.agS(n),B.r,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.bjI(o),n,n,n,n,n,n,!1,B.x),B.bf],i)
 for(s=B.c.gV(B.hg),r=new A.kp(s,new A.bjJ());r.n();){q=s.gt(0)
-h.push(A.XJ(!1,q,new A.bjK(o,q),A.a11(q.b,o.a.d)))}i=A.b([B.a3,B.ar2],i)
+h.push(A.XJ(!1,q,new A.bjK(o,q),A.a11(q.b,o.a.d)))}i=A.b([B.a3,B.ar4],i)
 for(s=B.c.gV(B.hg),r=new A.kp(s,new A.bjL());r.n();){q=s.gt(0)
 i.push(A.XJ(!1,q,new A.bjM(o,q),A.a11(q.b,o.a.d)))}i.push(B.a3)
 i.push(A.bRe(!1,o.a.d,o.gaGE()))
 h.push(A.bg(new A.JH(i,n),1))
 h.push(A.ai(n,n,B.h,j,n,n,n,0.5,n,n,n,n,n,n))
 h.push(B.R)
-h.push(B.ar0)
+h.push(B.ar2)
 for(i=B.c.gV(B.hg),s=new A.kp(i,new A.bjN());s.n();){r=i.gt(0)
 h.push(A.XJ(!1,r,new A.bjO(o,r),A.a11(r.b,o.a.d)))}h.push(B.Lk)
 p=A.a7L(!1,B.ba,!0,n,A.fr(!0,A.ai(n,A.aS(h,B.as,B.f,B.j),B.h,n,n,new A.aj(k,n,new A.e0(B.G,new A.co(j,0.5,B.a1,-1),B.G,B.G),n,n,n,n,B.p),n,n,n,n,B.vE,n,n,n),B.B,!0),B.h,k,0,n,n,n,n,n,B.lR)
@@ -89891,7 +89898,7 @@ o=A.bx(b.T($.bDO(),t.Ys))
 if(o==null)o=B.CL
 j=l.r
 s=t.p
-s=A.b([A.aw(A.b([A.bg(A.b7(B.w,B.ar1,B.r,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.bex(n),m,m,m,m,m,m,!1,B.x),1),A.dr(!0,A.b7(B.w,new A.bm(44,40,A.az(B.Ul,j,m,15),m),B.r,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.bey(n),m,m,m,m,m,m,!1,B.x),!1,m,m,!1,!1,m,m,m,m,m,m,"Reorder folders",m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m),A.dr(!0,A.b7(B.w,new A.bm(48,40,A.az(B.eW,j,m,17),m),B.r,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.bez(n,a,b),m,m,m,m,m,m,!1,B.x),!1,m,m,!1,!1,m,m,m,m,m,m,"New folder",m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m)],s),B.k,B.f,B.j,0),B.b5],s)
+s=A.b([A.aw(A.b([A.bg(A.b7(B.w,B.ar3,B.r,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.bex(n),m,m,m,m,m,m,!1,B.x),1),A.dr(!0,A.b7(B.w,new A.bm(44,40,A.az(B.Ul,j,m,15),m),B.r,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.bey(n),m,m,m,m,m,m,!1,B.x),!1,m,m,!1,!1,m,m,m,m,m,m,"Reorder folders",m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m),A.dr(!0,A.b7(B.w,new A.bm(48,40,A.az(B.eW,j,m,17),m),B.r,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.bez(n,a,b),m,m,m,m,m,m,!1,B.x),!1,m,m,!1,!1,m,m,m,m,m,m,"New folder",m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m)],s),B.k,B.f,B.j,0),B.b5],s)
 B.c.L(s,n.aWp(a,b,l,p,q,new A.beI(o),k,r))
 k=t.FR
 s.push(A.k2(new A.beA(n,p),new A.beB(n,a,b),new A.beC(),new A.beD(),m,k))
@@ -89925,7 +89932,7 @@ a2=new A.bo(10,10)
 a3=new A.co(e,0.5,B.a1,-1)
 a4=q.b
 a5=A.bc()
-a6=A.ai(a9,A.D(a4,a9,a9,a9,new A.J(!0,p,a9,a5,a9,a9,13,B.n,a9,-0.08,a9,a9,1.38,a9,a9,a9,a9,a9,a9,a9,a9,a9,a9,a9,a9,a9).aii(B.o,B.H),a9),B.h,a9,a9,new A.aj(j,a9,new A.e0(a3,a3,a3,a3),new A.dt(a2,a2,a2,a2),B.a1Y,a9,a9,B.p),a9,a9,a9,a9,B.SN,a9,a9,a9)
+a6=A.ai(a9,A.D(a4,a9,a9,a9,new A.J(!0,p,a9,a5,a9,a9,13,B.n,a9,-0.08,a9,a9,1.38,a9,a9,a9,a9,a9,a9,a9,a9,a9,a9,a9,a9,a9).aii(B.o,B.H),a9),B.h,a9,a9,new A.aj(j,a9,new A.e0(a3,a3,a3,a3),new A.dt(a2,a2,a2,a2),B.a1Z,a9,a9,B.p),a9,a9,a9,a9,B.SN,a9,a9,a9)
 a7=new A.qw(new A.bec(new A.ac(new A.am(b*14,0,0,0),new A.qw(new A.bed(a8,q,k==="/folders/"+a,b5,b3,b7,a0,a1,b4),a9,new A.bee(a8,b2,b3,q),new A.bei(q),new A.bej(q,b3,a0,a1),a9,m),a9),b4,b,q,f,b3),new A.bek(q),new A.bel(a8,b2,b3,q),new A.bem(q),new A.ben(b3,q,a0,a1),a9,l)
 if(n)a7=A.bNF(a7,new A.xk(0.35,a7,a9),a,B.oz,A.bTX(),a6,new A.beo(b3,q,b2),new A.bep(q,b3),a9,!1,b0)
 h.push(g?new A.nD(a,B.V,a7,new A.xk(0.35,a7,a9),a6,B.m,A.bTX(),!0,!0,a9,a9,new A.bef(b3),a9,new A.beg(b3),a9,new A.beh(b3),!1,B.bC,a9,a9,d):a7)}if(h.length!==0)h.push(new A.beq(a8,f,b3,b2,b4).$0())
@@ -90028,7 +90035,7 @@ case 11:++g
 s=4
 break
 case 10:case 7:s=12
-return A.a(p.hm(k,d),$async$yB)
+return A.a(p.hn(k,d),$async$yB)
 case 12:++f
 case 4:o.length===n||(0,A.z)(o),++e
 s=3
@@ -90063,7 +90070,7 @@ for(;;){if(!h.n()){i=!1
 break}if(h.gt(h).b===o){i=!0
 break}}if(i){s=5
 break}s=8
-return A.a(p.hm(o,j),$async$yj)
+return A.a(p.hn(o,j),$async$yj)
 case 8:++l
 case 5:n.length===m||(0,A.z)(n),++k
 s=4
@@ -90194,7 +90201,7 @@ $S:42}
 A.bed.prototype={
 $3(a,b,c){var s,r=this,q=null,p=r.b,o=b.length,n=r.a,m=r.e,l=p.a,k=r.f.$1(l)
 if(J.dE(r.r)){s=r.w?B.dU:B.cs
-s=A.b7(B.w,new A.bm(24,30,A.az(s,r.x.w,q,13),q),B.r,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.be9(m,p),q,q,q,q,q,q,!1,B.x)}else s=B.abB
+s=A.b7(B.w,new A.bm(24,30,A.az(s,r.x.w,q,13),q),B.r,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.be9(m,p),q,q,q,q,q,q,!1,B.x)}else s=B.abC
 return new A.DW(B.eo,B.d6,p.b,r.c,new A.bea(n,p),n.r,new A.P6(l,q),new A.beb(a,m,p),r.d,o!==0,k,s,q)},
 $S:574}
 A.bea.prototype={
@@ -90702,9 +90709,9 @@ o=s?"Mic on \u2014 commands only":"Mic on \u2014 dictating"
 k=q.Q.bh(0.92)
 j=A.b2(999)
 n=t.p
-m=A.b([B.aqR,B.X,A.D(o,l,l,l,p.gaC().bV(B.q,B.H),l)],n)
+m=A.b([B.aqT,B.X,A.D(o,l,l,l,p.gaC().bV(B.q,B.H),l)],n)
 if(r>0)B.c.L(m,A.b([B.X,A.D("\xb7 "+r+" waiting to sync",l,l,l,p.gaC().W(B.Qk),l)],n))
-return A.fr(!0,A.b7(B.w,A.ai(l,A.aw(m,B.k,B.f,B.D,0),B.h,l,l,new A.aj(k,l,l,j,B.Y6,l,l,B.p),l,l,l,B.SJ,B.vD,l,l,l),B.r,!1,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,new A.aMA(a),l,l,l,l,l,l,!1,B.x),B.B,!1)}}
+return A.fr(!0,A.b7(B.w,A.ai(l,A.aw(m,B.k,B.f,B.D,0),B.h,l,l,new A.aj(k,l,l,j,B.Y5,l,l,B.p),l,l,l,B.SJ,B.vD,l,l,l),B.r,!1,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,new A.aMA(a),l,l,l,l,l,l,!1,B.x),B.B,!1)}}
 A.aMz.prototype={
 $1(a){return a.a===B.Z},
 $S:36}
@@ -90800,7 +90807,7 @@ H(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.e
 if(i===$){s=t.Ni
 r=A.fN(B.ds,k.gY2(),j)
 k.e!==$&&A.bn()
-i=k.e=new A.aN(r,new A.br(B.a6E,B.m,s),s.h("aN<ba.T>"))}s=k.gY2()
+i=k.e=new A.aN(r,new A.br(B.a6F,B.m,s),s.h("aN<ba.T>"))}s=k.gY2()
 r=B.nS.bh(0.94)
 q=A.b2(999)
 p=k.a
@@ -90905,11 +90912,11 @@ aSH(a){var s=this.c
 s.toString
 A.i4(new A.bt_(this,a),s,t.H)},
 H(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=A.aD(a0),d=new A.bj(e.f),c=g.ga_().T($.bKg(),t.O4),b=A.b([],t.oV),a=A.bx(c)
-a=J.a_(a==null?B.a0l:a)
+a=J.a_(a==null?B.a0m:a)
 s=g.w
 while(a.n()){r=a.gt(a)
 if(!s.u(0,r.a.a))b.push(r)}a=e.a.bh(0.85)
-a=A.qr(a,B.ahA,B.ci,b.length===0?f:A.cj(B.y,f,A.az(B.wE,e.y,f,24),f,B.Q,f,f,new A.bt0(g,b),B.B,0.4))
+a=A.qr(a,B.ahB,B.ci,b.length===0?f:A.cj(B.y,f,A.az(B.wE,e.y,f,24),f,B.Q,f,f,new A.bt0(g,b),B.B,0.4))
 s=e.r
 q=t.p
 p=A.b([new A.ac(B.Te,A.D("Items are deleted after 30 days.",f,f,f,d.gaC().W(s),f),f)],q)
@@ -90940,7 +90947,7 @@ A.bt_.prototype={
 $1(a){var s,r=null,q=this.b,p=q.a.d
 p=A.D(B.b.I(p).length!==0?p:"Untitled recording",r,r,r,r,r)
 s=this.a
-return A.nw(A.b([A.dA(B.ah_,!1,!1,new A.bsX(s,a,q)),A.dA(B.agT,!1,!0,new A.bsY(s,a,q))],t.p),A.dA(B.bm,!1,!1,new A.bsZ(a)),r,p)},
+return A.nw(A.b([A.dA(B.ah0,!1,!1,new A.bsX(s,a,q)),A.dA(B.agU,!1,!0,new A.bsY(s,a,q))],t.p),A.dA(B.bm,!1,!1,new A.bsZ(a)),r,p)},
 $S:48}
 A.bsX.prototype={
 $0(){A.aV(this.b,!1).bb()
@@ -91016,7 +91023,7 @@ return A.h($async$NC,r)},
 H(a){return B.U}}
 A.bvq.prototype={
 $1(a){var s=null,r=this.b,q=A.D("Voicley "+(r.b+" ("+r.a+")")+u.R,s,s,s,s,s)
-return A.k1(A.b([A.eZ(B.Jr,!1,!1,new A.bvo(this.a,r,a)),A.eZ(B.Jq,!0,!1,new A.bvp(a,r))],t.p),new A.ac(B.em,q,s),B.ahb)},
+return A.k1(A.b([A.eZ(B.Jr,!1,!1,new A.bvo(this.a,r,a)),A.eZ(B.Jq,!0,!1,new A.bvp(a,r))],t.p),new A.ac(B.em,q,s),B.ahc)},
 $S:38}
 A.bvo.prototype={
 $0(){this.a.x=this.b.a
@@ -91102,7 +91109,7 @@ m=A.b([new A.ac(B.SF,A.D("Version "+n.a,g,g,g,new A.J(!0,q,g,m,g,g,13,B.n,g,-0.0
 for(l=n.b,k=l.length,j=0;j<k;++j){i=l[j]
 h=A.bc()
 m.push(new A.ac(B.eQ,A.D("\u2022  "+i,g,g,g,new A.J(!0,q,g,h,g,g,17,B.n,g,-0.4,g,g,1.29,g,g,g,g,g,g,g,g,g,g,g,g,g).b0V(16,1.35),B.dD),g))}B.c.L(e,m)}e=A.aS(e,B.L,B.f,B.D)
-return A.k1(A.b([A.eZ(B.ahp,!0,!1,new A.bv3(a))],f),new A.ac(B.vs,e,g),B.ah0)},
+return A.k1(A.b([A.eZ(B.ahq,!0,!1,new A.bv3(a))],f),new A.ac(B.vs,e,g),B.ah1)},
 $S:38}
 A.bv3.prototype={
 $0(){return A.aV(this.a,!1).bb()},
@@ -91211,7 +91218,7 @@ if(s!=null&&s.gjv()===this.gjv())return s
 else return this},
 a1N(a){var s
 this.gjv()
-s=B.abQ.iU(a)
+s=B.abR.iU(a)
 this.gBN().a.b.wD(s)},
 Pt(a,b){return this.a.a.oY(this.gjv()).ah(0,new A.azf(this,a,b),b)},
 wQ(a,b,c){return new A.a6U(this,a,b.h("@<0>").b8(c).h("a6U<1,2>"))},
@@ -92103,7 +92110,7 @@ A.bxN(a,this.a)}}
 A.K5.prototype={
 N(){return"_JoinType."+this.b}}
 A.Gv.prototype={
-dr(a){var s=this,r=a.z,q=s.a,p=A.p(B.a5_.i(0,q))
+dr(a){var s=this,r=a.z,q=s.a,p=A.p(B.a50.i(0,q))
 r.a=(r.a+=p)+" JOIN "
 A.bGJ(a,s.$ti.h("l_<1,2>").a(s.b))
 if(q!==B.Lj){r.a+=" ON "
@@ -92151,7 +92158,7 @@ if(b.a===r.a)if(B.cP.dM(b.c,r.c))s=J.l(b.e,r.e)
 return s},
 gke(){return B.je}}
 A.ol.prototype={
-gke(){return B.a8e},
+gke(){return B.a8f},
 dr(a){a.z.a+="NOT "
 this.a.xt(a,this.gke())},
 gA(a){var s=this.a
@@ -92159,7 +92166,7 @@ return A.a5(s.a,s.b,s.gBp(0),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a
 k(a,b){if(b==null)return!1
 return b instanceof A.ol&&b.a.k(0,this.a)}}
 A.av.prototype={
-gke(){return B.a8f},
+gke(){return B.a8g},
 als(a){var s,r,q=A.r(this),p=A.b([],q.h("A<av<av.D>>"))
 for(s=a.length,q=q.h("av.D"),r=0;r<a.length;a.length===s||(0,A.z)(a),++r)p.push(A.b9(this,a[r],q))
 return this.b6I(p)},
@@ -92184,7 +92191,7 @@ N(){return"_ComparisonOperator."+this.b}}
 A.b_.prototype={
 gBp(a){return this.c.c},
 gke(){if(this.c===B.z)return B.a5
-else return B.a8d},
+else return B.a8e},
 dr(a){this.au5(a)},
 glJ(a){return this.a},
 gIr(a){return this.b}}
@@ -92340,7 +92347,7 @@ r=a.geH().w
 s.a=(s.a+=r+this.c+r)+"."}s=a.geH().w
 a.z.a+=s+this.b+s},
 b6u(a,b){var s
-if(!this.d&&a==null)return B.ajF
+if(!this.d&&a==null)return B.ajG
 else{s=this.y
 s=s==null?null:s.$2(a,b)
 return s==null?B.mY:s}},
@@ -92367,10 +92374,10 @@ s.a=(s.a+=" ")+this.a
 return s},
 $S:607}
 A.fV.prototype={
-go9(){return B.aam},
-gaoj(){return B.a08},
+go9(){return B.aan},
+gaoj(){return B.a09},
 giT(){return this.gkz()},
-l3(a,b){return B.ajE},
+l3(a,b){return B.ajF},
 xp(a){return this.l3(a,!1)},
 k(a,b){if(b==null)return!1
 if(t.y_.b(b))return A.K(b)===A.K(this)&&b.giT()===this.giT()
@@ -92461,7 +92468,7 @@ s=3
 return A.a(a.qW(n.charCodeAt(0)==0?n:n,o.x),$async$$1)
 case 3:m=c
 o=p.a
-o.a.a1N(A.cO([new A.fW(B.ajm,o.b.gkz())],t.SQ))
+o.a.a1N(A.cO([new A.fW(B.ajn,o.b.gkz())],t.SQ))
 q=m
 s=1
 break
@@ -92473,7 +92480,7 @@ N(){return"InsertMode."+this.b},
 dr(a){var s,r,q=this
 if(a.geH()===B.hD&&q!==B.lv&&q!==B.wP)throw A.j(A.bu(q.j(0)+" not supported on postgres",null))
 s=a.z
-r=A.p(B.a4X.i(0,a.geH()===B.hD?B.lv:q))
+r=A.p(B.a4Y.i(0,a.geH()===B.hD?B.lv:q))
 s.a+=r},
 $ied:1}
 A.Ho.prototype={
@@ -92663,7 +92670,7 @@ aYI(a){var s,r,q
 for(s=this.as,r=0;r<1;++r){q=a[r]
 s.bA(0,q,new A.aIC(this,q))}},
 Fz(){var s,r,q=this,p=q.Ai(),o=p.d
-o=A.bPW(A.bMF(o,B.a07,A.ab(o).c))
+o=A.bPW(A.bMF(o,B.a08,A.ab(o).c))
 s=p.z.a
 r=t.E0
 return A.bKR(q.a.aiF(new A.Rt(o,new A.CY(s.charCodeAt(0)==0?s:s,p.x),new A.aIA(q,p)),r),new A.aIB(q),r,t.G2)},
@@ -92789,7 +92796,7 @@ s=3
 return A.a(A.a6W(n,new A.b3N(p.Ai()),t.S),$async$M7)
 case 3:m=b
 if(m>0){o=p.$ti
-n.a1N(A.cO([new A.fW(B.ajn,A.bFS(p,o.c,o.y[1]).gkz())],t.SQ))}q=m
+n.a1N(A.cO([new A.fW(B.ajo,A.bFS(p,o.c,o.y[1]).gkz())],t.SQ))}q=m
 s=1
 break
 case 1:return A.f(q,r)}})
@@ -92882,7 +92889,7 @@ s=c
 break E}break A}if(B.vf===b){s=new A.ww(c)
 break A}s=r}return d.a(s)}}
 A.ww.prototype={
-gA(a){return A.a5(B.aip,this.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gA(a){return A.a5(B.aiq,this.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a,b){var s
 if(b==null)return!1
 if(this!==b)s=b instanceof A.ww&&J.l(b.a,this.a)
@@ -92901,7 +92908,7 @@ case 6:return s.f
 case 7:return"ANY"}}}
 A.aAZ.prototype={
 $0(){var s,r,q,p=A.t(t.Q,t.Zf)
-for(s=0;s<8;++s){r=B.a23[s]
+for(s=0;s<8;++s){r=B.a24[s]
 q=r.$ti
 p.l(0,A.cy(q.c),r)
 p.l(0,A.cy(q.h("1?")),r)}return p},
@@ -93664,7 +93671,7 @@ q=i.b.x
 q===$&&A.c()
 p=B.e.iv(8*q)
 for(q=i.e,o=8*q,n=i.f,q=q<1,m=i.c,l=0;l<o;++l){k=B.d.bo(l-p,8)
-s.r=m.fX(q?147:B.a1v[k]).gC(0)
+s.r=m.fX(q?147:B.a1w[k]).gC(0)
 j=s.hd()
 r.drawRRect(A.rQ(n),j)
 j.delete()
@@ -93796,7 +93803,7 @@ s=p.r
 if(s!=null&&s.a!=null)return
 r=this.w
 if(r){p.z=B.bo
-q=p.kr(1,B.ahY,B.S7)}else{p.z=B.bo
+q=p.kr(1,B.ahZ,B.S7)}else{p.z=B.bo
 q=p.kr(0,B.ds,B.dS)}q.ah(0,new A.b9Z(this,r),t.H)},
 aB0(a){this.P(new A.ba3(this,a))},
 H(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0=b.a,a1=a0.w==null,a2=!a1,a3=a0.z
@@ -93809,7 +93816,7 @@ if(q==null)a0=a0.db!==B.L7?r:a
 else a0=q instanceof A.cb?q.br(a4):q
 if(a0==null)p=a
 else{q=b.a
-if(q.db===B.apF)q=A.ayT(a4)===B.aF?0.12:0.26
+if(q.db===B.apH)q=A.ayT(a4)===B.aF?0.12:0.26
 else{q=q.e
 q=q==null?a:q.gfB(q)
 if(q==null)q=1}p=a0.cO(q)}a0=b.a.db
@@ -93915,7 +93922,7 @@ r=s==null?B.aF:s}else r=B.aF
 if(a1.gEu()){q=a3.aN(t.H5)
 s=q==null?a2:q.f
 p=s==null?B.eM:s}else p=B.eM
-if(a1.gEt()){s=A.cz(a3,B.aqd)
+if(a1.gEt()){s=A.cz(a3,B.aqf)
 s=s==null?a2:s.as
 o=s===!0}else o=!1
 A:{n=B.aF===r
@@ -94105,7 +94112,7 @@ A.aqe.prototype={}
 A.NN.prototype={
 H(a){var s=null,r=A.ck(a,B.cE,t.w).w.r.b+8,q=this.c.a6(0,new A.u(8,r)),p=A.aS(this.d,B.k,B.f,B.D),o=A.b([2.574,-1.43,-0.144,0,0,-0.426,1.57,-0.144,0,0,-0.426,-1.43,2.856,0,0,0,0,0,1,0],t.n)
 o=$.aW().ahY(new A.yC(20,20,s),new A.qA(o))
-return new A.ac(new A.am(8,r,8,8),new A.wu(new A.a4E(q),A.ai(s,A.avG(A.iC(new A.ac(B.l4,p,s),new A.lQ(B.Rl.br(a),s,s,s,A.Sm(B.tw,new A.co(B.Rw.br(a),1,B.a1,-1))),B.bA),!0,o,s),B.P,s,s,B.aau,s,s,s,s,s,s,s,222),s),s)}}
+return new A.ac(new A.am(8,r,8,8),new A.wu(new A.a4E(q),A.ai(s,A.avG(A.iC(new A.ac(B.l4,p,s),new A.lQ(B.Rl.br(a),s,s,s,A.Sm(B.tw,new A.co(B.Rw.br(a),1,B.a1,-1))),B.bA),!0,o,s),B.P,s,s,B.aav,s,s,s,s,s,s,s,222),s),s)}}
 A.wq.prototype={
 a1(){return new A.W1()}}
 A.W1.prototype={
@@ -94139,9 +94146,9 @@ p=l.e
 if(p==null){p=A.mR(k,k)
 l.e=p}s=20*(s/14)
 o=B.du.br(a)
-o=B.aee.W(o)
+o=B.aef.W(o)
 n=B.du.br(a)
-m=A.bR6(k,r,new A.am(20,1,20,s),B.ag9.W(n),p,q,new A.am(20,s,20,1),o)
+m=A.bR6(k,r,new A.am(20,1,20,s),B.aga.W(n),p,q,new A.am(20,s,20,1),o)
 s=B.om.br(a)
 return A.wk(m,s,!0)},
 M2(a,b){var s=this
@@ -94183,7 +94190,7 @@ A.b9W.prototype={
 $2(a,b){var s,r=null,q=t.w,p=A.ck(a,B.k0,q).w.f.ab(0,B.T2),o=this.a
 o.a.toString
 s=this.b?310:270
-o=A.dk(new A.ac(B.SD,new A.bm(s,r,new A.Vd(new A.a45(!1,A.dr(r,o.aAy(a),!1,r,r,!1,!0,r,r,r,r,r,r,"Alert",r,!0,r,r,r,r,r,r,r,r,r,r,B.aa7,!0,r,r,r,r,r,r,r),r),r),r),r),r,r)
+o=A.dk(new A.ac(B.SD,new A.bm(s,r,new A.Vd(new A.a45(!1,A.dr(r,o.aAy(a),!1,r,r,!1,!0,r,r,r,r,r,r,"Alert",r,!0,r,r,r,r,r,r,r,r,r,r,B.aa8,!0,r,r,r,r,r,r,r),r),r),r),r),r,r)
 return new A.zP(p,new A.uc(A.ck(a,r,q).w.bbC(!0,!0,!0,!0),o,r),B.eE,B.bS,r,r)},
 $S:638}
 A.a45.prototype={
@@ -94237,7 +94244,7 @@ for(s=this.r,r=s.length,q=0;q<s.length;s.length===r||(0,A.z)(s),++q)s[q].Gu()
 B.c.R(s)}}
 A.Vd.prototype={
 H(a){var s=A.t(t.Q,t.xR)
-s.l(0,B.aj7,new A.dK(new A.b5o(this,a),new A.b5p(),t.vu))
+s.l(0,B.aj8,new A.dK(new A.b5o(this,a),new A.b5p(),t.vu))
 return new A.mK(this.c,s,null,!0,null)}}
 A.b5o.prototype={
 $0(){var s=this.a,r=A.b([],t.Pn),q=t.S,p=t.Au,o=new A.ZY(B.r,B.fa,A.a18(),B.dJ,A.t(q,t.GY),A.t(q,t.F),B.m,A.b([],t.t),A.t(q,t.SP),A.eg(q),s,null,A.a19(),A.t(q,p))
@@ -94268,7 +94275,7 @@ this.av()},
 Uo(a){var s,r,q,p,o,n,m,l,k=this,j=null,i=k.a
 if(!(i.c!=null||i.d!=null))return j
 i=B.Rr.br(a)
-s=B.afe.W(i)
+s=B.aff.W(i)
 i=B.is.br(a)
 r=k.a
 q=r.c
@@ -94287,7 +94294,7 @@ aAz(){var s=this.a
 return new A.ac(new A.am(0,8,0,0),A.bLT(B.nA,new A.Je(!0,this.d===-1,new A.b9P(this),s.w,null)),null)},
 aWe(a){var s,r=t.w
 if(A.ck(a,B.jZ,r).w.gnT(0)===B.Dw)return 8
-s=A.ck(a,B.aqc,r).w.w.b
+s=A.ck(a,B.aqe,r).w.w.b
 return Math.max(B.e.uw(A.ca2(s,47,1,59,0.9152542372881356)*s),20)},
 H(a){var s,r,q,p,o,n=this,m=null
 $.aW()
@@ -94304,9 +94311,9 @@ s.push(n.aAz())
 r=t.w
 switch(A.ck(a,B.jZ,r).w.gnT(0).a){case 0:r=A.ck(a,B.Ll,r).w.a.a
 break
-case 1:r=A.ck(a,B.aqf,r).w.a.b
+case 1:r=A.ck(a,B.aqh,r).w.a.b
 break
-default:r=m}return A.fr(!0,A.bG3(A.px(a).OR(!1),A.dr(m,A.ayU(new A.ac(new A.am(8,n.aWe(a),8,0),new A.bm(r-16,m,new A.Vd(A.dr(m,A.aS(s,B.as,B.CA,B.D),!1,m,m,!1,!0,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m),m),m),m),B.eN),!1,m,m,!1,!0,m,m,m,m,m,m,"Alert",m,!0,m,m,m,m,m,m,m,m,m,m,B.aa6,!0,m,m,m,m,m,m,m)),B.eQ,!0)}}
+default:r=m}return A.fr(!0,A.bG3(A.px(a).OR(!1),A.dr(m,A.ayU(new A.ac(new A.am(8,n.aWe(a),8,0),new A.bm(r-16,m,new A.Vd(A.dr(m,A.aS(s,B.as,B.CA,B.D),!1,m,m,!1,!0,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m),m),m),m),B.eN),!1,m,m,!1,!0,m,m,m,m,m,m,"Alert",m,!0,m,m,m,m,m,m,m,m,m,m,B.aa7,!0,m,m,m,m,m,m,m)),B.eQ,!0)}}
 A.b9Q.prototype={
 $0(){this.a.d=null},
 $S:0}
@@ -94353,7 +94360,7 @@ s=(n==null?B.aQ:n).bx(0,17)
 r=A.c9A(s)
 if(this.c)n=B.kV.br(a)
 else n=A.f_(a).geD()
-q=B.agi.a_0(n,r/(s/17))
+q=B.agj.a_0(n,r/(s/17))
 if(this.d)q=q.mf(B.H)
 p=1.8+r*0.4
 return new A.ac(new A.am(10,p,10,p),A.hj(A.dk(this.e,o,o),o,o,B.bh,!0,q,B.ai,o,B.am),o)}}
@@ -94460,7 +94467,7 @@ return!0},
 Gu(){},
 Pj(){this.a.c.$0()},
 H(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.a.e?B.kV:A.f_(a).geD()
-h=B.ags.W(h instanceof A.cb?h.br(a):h)
+h=B.agt.W(h instanceof A.cb?h.br(a):h)
 j.a.toString
 s=h.bX(i)
 if(j.a.d)s=s.mf(B.H)
@@ -94716,11 +94723,11 @@ q=q.a
 p.aV(0,q.gC(q))
 s=new A.u(0,49.75).ab(0,this.x)
 r=p.aV(0,q.gC(q))
-r=A.xf(B.a6t,B.m,r==null?1:r)
+r=A.xf(B.a6u,B.m,r==null?1:r)
 r.toString
 q=p.aV(0,q.gC(q))
 if(q==null)q=1
-return A.bQq(A.bOO(null,B.h,new A.GK(q,B.Zr,new A.fG(B.MP,this.e)),s,1,B.abx),r)}}
+return A.bQq(A.bOO(null,B.h,new A.GK(q,B.Zr,new A.fG(B.MP,this.e)),s,1,B.aby),r)}}
 A.a0v.prototype={
 m(){var s=this,r=s.c3$
 if(r!=null)r.Y(0,s.giP())
@@ -94915,7 +94922,7 @@ q=q!=null?A.b4k(q,!1,!1,!1,!1,!m.as):l
 p=m.r
 p===$&&A.c()
 p=p.r
-p=p!=null&&p.a!=null?B.ahf:m.f
+p=p!=null&&p.a!=null?B.ahg:m.f
 o=r.y
 o=o!=null?A.b4k(o,!1,!1,!1,!1,!m.as):l
 r=r.c
@@ -95074,7 +95081,7 @@ H(a){var s,r=null
 A.GN(a,r,t.X)
 s=A.f_(a).gfV().ga1J()
 A.pc(a,B.fo,t.ho).toString
-return A.cj(B.y,r,A.dr(!0,A.hj(new A.fL(B.N6,A.aw(A.b([B.a7m,this.f,B.a7k,new A.fO(1,B.bB,this.r,r)],t.p),B.k,B.f,B.D,0),r),r,r,B.bh,!0,s,r,r,B.am),!0,r,r,!0,!1,r,r,r,r,r,r,"Back",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),r,B.Q,r,r,new A.ayK(this,a),B.B,0.4)}}
+return A.cj(B.y,r,A.dr(!0,A.hj(new A.fL(B.N6,A.aw(A.b([B.a7n,this.f,B.a7l,new A.fO(1,B.bB,this.r,r)],t.p),B.k,B.f,B.D,0),r),r,r,B.bh,!0,s,r,r,B.am),!0,r,r,!0,!1,r,r,r,r,r,r,"Back",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),r,B.Q,r,r,new A.ayK(this,a),B.B,0.4)}}
 A.ayK.prototype={
 $0(){A.bO3(this.b)},
 $S:0}
@@ -95421,7 +95428,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.aqn.prototype={}
@@ -96057,7 +96064,7 @@ k=A.pg(new A.ac(o,A.cj(B.y,i,A.Gn(B.UU,new A.h2(r,i,i,i,i,p,i,i,i),i),i,B.Q,0,i,
 r=j.gKX()
 o=j.Uj(a,B.Sy)
 n=j.a.d
-return A.fi(!0,!1,r,i,i,!0,B.au,2,q,!0,!0,!0,j.ga8J(),B.rf,i,1,i,!1,n,i,i,i,o,h,s,l,i,i,i,i,i,k,B.a7f,B.a8,B.b6,B.Jd)}}
+return A.fi(!0,!1,r,i,i,!0,B.au,2,q,!0,!0,!0,j.ga8J(),B.rf,i,1,i,!1,n,i,i,i,o,h,s,l,i,i,i,i,i,k,B.a7g,B.a8,B.b6,B.Jd)}}
 A.bak.prototype={
 $0(){var s=this.a,r=s.w
 r===$&&A.c()
@@ -96479,7 +96486,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.KV.prototype={
@@ -96531,7 +96538,7 @@ p=p?B.H:B.at
 r=r.w.bX(A.bi(n,n,q.f?n:B.oc,n,n,n,n,n,n,n,n,13,n,n,p,n,n,!0,n,n,n,n,n,n,n,n))
 p=o.e
 p===$&&A.c()
-return new A.qT(n,B.w,new A.a6R(B.y,A.b([A.atE(A.bKK(A.bG1(s,o.a.c,p),B.b3,B.ba,r),B.b3,B.vn,m),A.c1b(o.a.c,B.ado)],t.p),n),n)}}
+return new A.qT(n,B.w,new A.a6R(B.y,A.b([A.atE(A.bKK(A.bG1(s,o.a.c,p),B.b3,B.ba,r),B.b3,B.vn,m),A.c1b(o.a.c,B.adp)],t.p),n),n)}}
 A.Zs.prototype={
 a1(){return new A.amZ(null,null)}}
 A.amZ.prototype={
@@ -96554,7 +96561,7 @@ s.m()
 this.axU()},
 H(a){var s=this.d
 s===$&&A.c()
-return A.me(s,new A.bpJ(this),B.abA)}}
+return A.me(s,new A.bpJ(this),B.abB)}}
 A.bpJ.prototype={
 $2(a,b){var s=null,r=B.kB.a3(),q=this.a.d
 q===$&&A.c()
@@ -96772,7 +96779,7 @@ break}s=A.B([B.rt,new A.J8(new A.c2(A.b([],t.ot),t.wS))],t.Q,t.od)
 q=a5.a.e
 a8.aN(m).toString
 m=a5.a.r
-return A.w_(s,new A.xz(q,new A.bpP(a5),A.bQv(A.ai(a6,A.me(a5.ga2S(),new A.bpQ(a7,a5),a6),B.bX,a6,a6,new A.lQ(m,a6,a6,a6,B.a9t),a6,a6,a6,a6,B.vG,a6,a6,a6),B.ag),a6,r.h("xz<1>")))}}
+return A.w_(s,new A.xz(q,new A.bpP(a5),A.bQv(A.ai(a6,A.me(a5.ga2S(),new A.bpQ(a7,a5),a6),B.bX,a6,a6,new A.lQ(m,a6,a6,a6,B.a9u),a6,a6,a6,a6,B.vG,a6,a6,a6),B.ag),a6,r.h("xz<1>")))}}
 A.bpX.prototype={
 $0(){},
 $S:0}
@@ -97069,7 +97076,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.LA.prototype={
@@ -97077,7 +97084,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.LC.prototype={
@@ -97085,7 +97092,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.a0U.prototype={}
@@ -97171,7 +97178,7 @@ a2.a.toString
 s.gnr()
 r=B.Rm.br(a4)
 r=r
-q=A.cz(a4,B.aqe)
+q=A.cz(a4,B.aqg)
 q=q==null?a3:q.at
 if(q===!0){a2.a.toString
 q=B.Rs.br(a4)
@@ -97260,7 +97267,7 @@ f.say6(s.glR())
 e=a2.AR$
 e===$&&A.c()
 f.sbak(e)
-f=A.ts(a3,a3,a3,f,B.abv)
+f=A.ts(a3,a3,a3,f,B.abw)
 d=a2.a0c$
 if(d===$){c=A.B([B.mR,new A.fA(a2.gaar(),new A.c2(A.b([],t.ot),t.wS),t.wY)],t.Q,t.od)
 a2.a0c$!==$&&A.bn()
@@ -97414,7 +97421,7 @@ p=b5.xr
 p.toString
 o=b5.aw
 e=new A.Q(g,f,g+51,f+31)
-d=A.uC(e,B.a8o)
+d=A.uC(e,B.a8p)
 b8.hA(d,h)
 n=b5.as
 n.toString
@@ -97482,7 +97489,7 @@ s=r
 q.aPx(b,a,h)
 s.pi(b,a,q.ry.aib(h))}finally{q.af=!1}},
 aPx(a,b,c){var s,r,q,p,o=b.a,n=b.b,m=c.b,l=m/2,k=A.bOM(o,n,o+c.a,n+m,new A.bo(l,l))
-for(o=a.a,s=0;s<2;++s){r=B.a2G[s]
+for(o=a.a,s=0;s<2;++s){r=B.a2H[s]
 n=k.d_(r.b)
 $.aW()
 q=new A.oM(B.cY,B.cw,B.fj,B.fk,B.d5)
@@ -97510,7 +97517,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.a0s.prototype={
@@ -97633,7 +97640,7 @@ aVG(a,b){var s,r=this,q=r.aUo(b)
 if(q!==r.r)r.P(new A.baC(r,q))
 switch(A.au().a){case 2:case 4:case 3:case 5:case 1:case 0:if(b===B.cT){s=r.x.ga4()
 s.toString
-s.nt(a.ghk())}break}switch(A.au().a){case 2:case 1:case 0:break
+s.nt(a.ghl())}break}switch(A.au().a){case 2:case 1:case 0:break
 case 4:case 3:case 5:if(b===B.be)r.x.ga4().eN()
 break}},
 guN(){var s=this.e
@@ -97642,7 +97649,7 @@ return s===!0},
 gaaB(){var s=this.a
 return s.w!=null||s.y!=null||s.Q!=null},
 gaeW(){this.a.toString
-return this.gaaB()?B.ace:B.acf},
+return this.gaaB()?B.acf:B.acg},
 aNi(){var s=this,r=s.gtb().a.a
 s.gtb().fZ(0,B.hF)
 if(r.length!==0){r=s.a.rx
@@ -97683,7 +97690,7 @@ default:p=d0}o=A.ck(d1,B.k_,t.w).w
 n=A.b([],t.VS)
 m=c9.a
 m=m.R8
-if(m!=null)n.push(new A.a7s(m,B.a5v))
+if(m!=null)n.push(new A.a7s(m,B.a5w))
 l=A.f_(d1)
 m=c9.a.cy
 if(m==null)k=d0
@@ -97712,7 +97719,7 @@ m=c9.a.f
 b=m==null?d0:m.c
 t.Vx.a(b)
 if(b instanceof A.e0){m=new A.baH(d1)
-if(A.K(b)!==B.aif)a=b
+if(A.K(b)!==B.aig)a=b
 else{j=m.$1(b.a)
 i=m.$1(b.d)
 a0=m.$1(b.c)
@@ -97783,7 +97790,7 @@ q=a?1:a1.p2
 p=d.b
 s=A.b4k(new A.bm(1/0,c,new A.ac(r,A.D(a2,q,p.fy,c,p,a1.dx),c),c),!0,!1,!0,!0,b)}o=A.bGU(B.aK,a)?a1.y:c
 n=A.bGU(a1.as,a)
-m=A.bGU(B.a7e,a)
+m=A.bGU(B.a7f,a)
 A:{l=!n
 b=l
 k=c
@@ -97839,7 +97846,7 @@ s=s.b&&B.c.e5(s.gek(),A.j_())}else s=!1
 if(s)r.glq().eg()},
 $S:0}
 A.baE.prototype={
-$0(){this.a.glq().hq()},
+$0(){this.a.glq().he()},
 $S:0}
 A.baH.prototype={
 $1(a){var s
@@ -97984,8 +97991,8 @@ for(s=this.kI$,s=new A.cI(s,s.r,s.e);s.n();)s.d.aD(0)}}
 A.aga.prototype={
 b5(a,b){var s,r,q,p=$.aW(),o=A.cv(),n=this.b
 o.r=n.gC(n)
-s=A.xD(B.a6C,6)
-r=A.Cj(B.a6J,new A.u(7,b.b))
+s=A.xD(B.a6D,6)
+r=A.Cj(B.a6K,new A.u(7,b.b))
 q=A.eq(p.r)
 q.bs(new A.t_(s))
 q.bs(new A.mc(r))
@@ -98410,7 +98417,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.a0H.prototype={
@@ -98447,7 +98454,7 @@ p=q.f
 if(p==null){q=q.e
 q.toString
 q=A.bEF(a,q)}else q=p
-s=A.D(q,r,B.N,r,B.adR.W(this.a.d!=null?B.kU.br(a):B.it),r)
+s=A.D(q,r,B.N,r,B.adS.W(this.a.d!=null?B.kU.br(a):B.it),r)
 q=this.a.e
 switch(q==null?r:q.b){case B.kN:case B.ip:case B.kO:case B.iq:case B.uX:case B.of:case B.og:case B.kP:case B.kQ:case null:case void 0:return s
 case B.oh:q=B.kU.br(a)
@@ -98487,9 +98494,9 @@ o=new A.bD(r)
 o.fa()
 o.S6(1.5707963267948966)
 for(n=0;n<4;++n){a.oV(p,m)
-s.concat(A.bIJ(A.M3(r)))}a.wi(B.a6S,B.a6B,m)
-a.wi(B.a6Q,B.a6A,m)
-a.wi(B.a6R,B.a6y,m)
+s.concat(A.bIJ(A.M3(r)))}a.wi(B.a6T,B.a6C,m)
+a.wi(B.a6R,B.a6B,m)
+a.wi(B.a6S,B.a6z,m)
 s.restore()},
 jL(a){return!a.b.k(0,this.b)}}
 A.tr.prototype={
@@ -98797,7 +98804,7 @@ k(a,b){if(b==null)return!1
 if(J.ak(b)!==A.K(this))return!1
 return A.r(this).h("dg<dg.T>").b(b)&&J.l(b.a,this.a)},
 gA(a){return A.a5(A.K(this),this.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
-j(a){var s=A.r(this),r=s.h("dg.T"),q=this.a,p=A.cy(r)===B.aiQ?"<'"+A.p(q)+"'>":"<"+A.p(q)+">"
+j(a){var s=A.r(this),r=s.h("dg.T"),q=this.a,p=A.cy(r)===B.aiR?"<'"+A.p(q)+"'>":"<"+A.p(q)+">"
 if(A.K(this)===A.cy(s.h("dg<dg.T>")))return"["+p+"]"
 return"["+A.cy(r).j(0)+" "+p+"]"}}
 A.nJ.prototype={}
@@ -99170,7 +99177,7 @@ return A.b([A.nA("Event",this.a,!0,B.cq,s,s,s,B.bR,!1,!0,!0,B.dP,s),A.nA("Target
 $S:46}
 A.P_.prototype={}
 A.aPs.prototype={
-$1(a){return a.f!==B.a89},
+$1(a){return a.f!==B.a8a},
 $S:676}
 A.aPt.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j=a.a,i=this.a.$1(j)
@@ -99217,7 +99224,7 @@ A.cr.prototype={
 gep(){return this.r},
 gwX(){return this.w},
 gC6(){return this.a},
-ghp(a){return this.c},
+ghq(a){return this.c},
 gba(){return this.d},
 gcj(a){return this.e},
 gnz(a){return this.f},
@@ -99243,7 +99250,7 @@ gcI(a){return this.fy}}
 A.i_.prototype={$icr:1}
 A.ae1.prototype={$icr:1}
 A.ap9.prototype={
-ghp(a){return this.gcc().c},
+ghq(a){return this.gcc().c},
 gba(){return this.gcc().d},
 gcj(a){return this.gcc().e},
 gnz(a){return this.gcc().f},
@@ -99519,7 +99526,7 @@ if(r.at!=null)r.dw("onStart",new A.aER(r,s))}}r.Da(a)},
 hS(a){var s=this,r=s.dy
 if(r===B.n5)r=s.dy=B.Lf
 if(s.at!=null&&r===B.n6)s.dw("onStart",new A.aEP(s))},
-we(a){var s=this,r=s.dy,q=r===B.n6||r===B.apT
+we(a){var s=this,r=s.dy,q=r===B.n6||r===B.apV
 if(r===B.n5){s.aJ(B.b4)
 return}if(q&&s.ch!=null)if(s.ch!=null)s.dw("onEnd",new A.aEQ(s))
 s.dy=B.rX},
@@ -99622,9 +99629,9 @@ r.aBm()},
 aku(a){var s,r=this
 if(!a.gru()){if(t.pY.b(a)){s=new A.iU(a.gcj(a),A.bw(20,null,!1,t.av))
 r.aw=s
-s.tj(a.ghp(a),a.gep())}if(t.n2.b(a)){s=r.aw
+s.tj(a.ghq(a),a.gep())}if(t.n2.b(a)){s=r.aw
 s.toString
-s.tj(a.ghp(a),a.gep())}}if(t.oN.b(a)){if(r.k2)r.aBk(a)
+s.tj(a.ghq(a),a.gep())}}if(t.oN.b(a)){if(r.k2)r.aBk(a)
 else r.aJ(B.b4)
 r.WI()}else if(t.Ko.b(a)){r.a7i()
 r.WI()}else if(t.pY.b(a)){r.k3=new A.iH(a.gep(),a.gbl(a))
@@ -99756,7 +99763,7 @@ s=a.gbl(a)
 r.k1=r.go=new A.iH(a.gep(),s)
 r.id=B.Dq
 r.ok=0
-r.k2=a.ghp(a)
+r.k2=a.ghq(a)
 r.k4=a.gcI(a)
 r.aMG()
 break
@@ -99841,7 +99848,7 @@ break A}if(t.DB.b(a)){s=a.gI2(a)
 break A}s=a.gep()
 break A}r=h.p2.i(0,a.gba())
 r.toString
-r.tj(a.ghp(a),s)}s=t.n2.b(a)
+r.tj(a.ghq(a),s)}s=t.n2.b(a)
 if(s&&a.gfM(a)!==h.k3){h.W3(a.gba())
 return}if((s||t.DB.b(a))&&h.aUp(a.gba())){q=s?a.gqj():t.DB.a(a).gamO()
 p=s?a.gwX():t.DB.a(a).galZ()
@@ -99855,7 +99862,7 @@ B:{l=h.fy
 if(B.dJ===l||B.Lc===l){s=h.id
 s===$&&A.c()
 h.id=s.ab(0,new A.iH(p,q))
-h.k2=a.ghp(a)
+h.k2=a.ghq(a)
 h.k4=a.gcI(a)
 k=h.E4(p)
 if(a.gcI(a)==null)j=null
@@ -99870,7 +99877,7 @@ s=a.gcj(a)
 r=h.b
 if(h.a0P(s,r==null?null:r.a)){h.p1=!0
 if(B.c.u(h.RG,a.gba()))h.a7f(a.gba())
-else h.aJ(B.bZ)}break B}if(B.jU===l){s=a.ghp(a)
+else h.aJ(B.bZ)}break B}if(B.jU===l){s=a.ghq(a)
 r=h.E4(m)
 i=h.E7(m)
 h.a7n(r,o,n,a.gba(),i,s)}}h.aRq(a.gba(),p)}if(t.oN.b(a)||t.Ko.b(a)||t.WQ.b(a))h.W3(a.gba())},
@@ -100042,13 +100049,13 @@ aMP(a){var s,r,q=null,p=this.r
 p.toString
 p=p.i(0,a.gba())
 p.toString
-if(t.n2.b(a)){if(!a.gru())p.c.tj(a.ghp(a),a.gbl(a))
+if(t.n2.b(a)){if(!a.gru())p.c.tj(a.ghq(a),a.gbl(a))
 s=p.e
-if(s!=null){p=a.ghp(a)
+if(s!=null){p=a.ghq(a)
 s.cV(0,A.AG(a.gqj(),a.gbl(a),q,q,q,p))}else{s=p.f
 s.toString
 p.f=s.ab(0,a.gqj())
-p.r=a.ghp(a)
+p.r=a.ghq(a)
 p.Ot()}}else if(t.oN.b(a)){if(p.e!=null){s=p.c.J2()
 r=p.e
 r.toString
@@ -100430,7 +100437,7 @@ return o-n.rx},
 ik(a){var s=this
 s.y5(a)
 s.p2.l(0,a.gba(),new A.iU(a.gcj(a),A.bw(20,null,!1,t.av)))
-s.ry=a.ghp(a)
+s.ry=a.ghq(a)
 if(s.CW===B.k2){s.CW=B.k3
 s.k1=s.id=s.go=s.fy=s.fx=s.fr=0}},
 Qq(a){return!0},
@@ -100438,14 +100445,14 @@ NV(a){var s=this
 s.a5i(a)
 s.D6(a.gba(),a.gcI(a))
 s.p2.l(0,a.gba(),new A.iU(a.gcj(a),A.bw(20,null,!1,t.av)))
-s.ry=a.ghp(a)
+s.ry=a.ghq(a)
 if(s.CW===B.k2){s.CW=B.k3
 s.RG=1
 s.rx=0}},
 hD(a){var s,r,q,p,o,n=this,m=!0
 if(t.n2.b(a)){s=n.p2.i(0,a.gba())
 s.toString
-if(!a.gru())s.tj(a.ghp(a),a.gbl(a))
+if(!a.gru())s.tj(a.ghq(a),a.gbl(a))
 n.ok.l(0,a.gba(),a.gbl(a))
 n.cx=a.gcI(a)
 r=!1}else{r=!0
@@ -100459,7 +100466,7 @@ n.cx=a.gcI(a)}else{m=t.DB.b(a)
 if(m){s=a.gru()
 if(!s){s=n.p2.i(0,a.gba())
 s.toString
-s.tj(a.ghp(a),a.gI2(a))}n.R8.l(0,a.gba(),new A.E_(n,a.gbl(a),a.gI2(a),a.gn2(a),a.ganT()))
+s.tj(a.ghq(a),a.gI2(a))}n.R8.l(0,a.gba(),new A.E_(n,a.gbl(a),a.gI2(a),a.gn2(a),a.ganT()))
 n.cx=a.gcI(a)
 r=!1}else{r=t.WQ.b(a)
 if(r)n.R8.D(0,a.gba())}}}s=n.ok
@@ -100544,10 +100551,10 @@ q=o.dx
 q===$&&A.c()
 p=r.a6(0,q).gde()
 if(Math.abs(n-s)>A.cfY(b.gcj(b))||p>A.byE(b.gcj(b),o.b)||Math.max(o.gzi()/o.gET(),o.gET()/o.gzi())>1.05)o.aJ(B.bZ)}else if(n.a>=2)o.aJ(B.bZ)
-if(o.CW===B.Ly&&a){o.ry=b.ghp(b)
+if(o.CW===B.Ly&&a){o.ry=b.ghq(b)
 o.CW=B.nh
 o.a8u()}if(o.CW===B.nh){n=o.p3
-if(n!=null)n.tj(b.ghp(b),new A.u(o.gzi(),0))
+if(n!=null)n.tj(b.ghq(b),new A.u(o.gzi(),0))
 if(o.ay!=null)o.dw("onUpdate",new A.aWu(o,b))}},
 a8u(){var s=this
 if(s.ax!=null)s.dw("onStart",new A.aWv(s))
@@ -100623,7 +100630,7 @@ m=k.gRv()
 k=k.p4
 k===$&&A.c()
 l=this.b
-j.$1(A.c6Q(p,k,r,o,m,n,s,l.ghp(l),q))},
+j.$1(A.c6Q(p,k,r,o,m,n,s,l.ghq(l),q))},
 $S:0}
 A.aWv.prototype={
 $0(){var s,r,q,p,o,n=this.a,m=n.ax
@@ -100919,7 +100926,7 @@ if(o.cx!=null)o.dw("onTapUp",new A.avP(o,new A.TX(r,q,s,p)))
 o.Mw()
 if(!o.R8.D(0,a.gba()))o.S4(a.gba(),B.b4)},
 aBg(a){var s,r,q,p=this
-if(p.cy!=null){s=a.ghp(a)
+if(p.cy!=null){s=a.ghq(a)
 r=p.k4
 r===$&&A.c()
 q=p.e.i(0,a.gba())
@@ -100929,7 +100936,7 @@ a7h(a,b){var s,r,q,p,o,n,m=this,l=b==null,k=l?null:b.b
 if(k==null)k=a.gbl(a)
 s=l?null:b.a
 if(s==null)s=a.gep()
-l=a.ghp(a)
+l=a.ghq(a)
 r=a.gwX()
 q=m.e.i(0,a.gba())
 q.toString
@@ -101658,7 +101665,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.awp.prototype={
@@ -102092,7 +102099,7 @@ H(a){var s=null,r=A.ck(a,B.cE,t.w).w.r.b+8
 return new A.ac(new A.am(8,r,8,8),new A.wu(new A.a4E(this.c.a6(0,new A.u(8,r))),new A.bm(222,s,A.a7L(!1,B.ba,!0,B.MT,A.aS(this.d,B.k,B.f,B.D),B.bX,s,1,s,s,s,s,s,B.j0),s),s),s)}}
 A.FT.prototype={
 H(a){var s=null
-return new A.bm(1/0,s,A.bQ0(this.d,this.c,A.bQ1(B.cW,s,s,s,s,B.hE,s,s,B.hE,A.cP(a).ax.a===B.b1?B.q:B.ar,s,B.abu,B.SY,s,B.mn,s,s,s,s,s)),s)}}
+return new A.bm(1/0,s,A.bQ0(this.d,this.c,A.bQ1(B.cW,s,s,s,s,B.hE,s,s,B.hE,A.cP(a).ax.a===B.b1?B.q:B.ar,s,B.abv,B.SY,s,B.mn,s,s,s,s,s)),s)}}
 A.Oh.prototype={
 gA(a){var s=this
 return A.cx([s.a,s.b,s.c,s.d,s.e,s.f,s.y,s.r,s.w,s.x,s.z,s.Q,s.as,s.at])},
@@ -102184,7 +102191,7 @@ s=A.bN1(p,p,p,p,p,p,q.z,p,p,p,p,p,p,p)
 r=q.fr
 if(r!=null)s=r.bX(s)
 if(s.gnK()==null)s=s.b06(s.gh5())
-return new A.Zv(p,s,p,B.apX,!1,q.ax,q.db,q.w,p,p,p,p)}}
+return new A.Zv(p,s,p,B.apZ,!1,q.ax,q.db,q.w,p,p,p,p)}}
 A.Zv.prototype={
 a1(){return new A.an2()}}
 A.an2.prototype={
@@ -102238,7 +102245,7 @@ gbT(){var s,r=this,q=r.id
 if(q===$){s=A.cP(r.fy)
 r.id!==$&&A.bn()
 q=r.id=s.ax}return q},
-gh2(a){return B.apb},
+gh2(a){return B.apd},
 gh5(){return new A.eD(new A.bh8(this),t.VZ)},
 gmF(){return new A.eD(new A.bh9(this),t.VZ)},
 gk_(a){return B.hO},
@@ -103011,7 +103018,7 @@ break A}q=null}return q},
 H(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null
 a.Db(a1)
 s=A.cP(a1)
-r=a.gdS().a.bD(B.aar)
+r=a.gdS().a.bD(B.aas)
 q=t.EK
 p=A.cJ(r,q)
 p.q(0,B.aP)
@@ -103034,7 +103041,7 @@ k=a.w
 if(k===$){q=a.gaYu()
 p=t.ot
 o=t.wS
-j=A.B([B.mR,new A.fA(q,new A.c2(A.b([],p),o),t.wY),B.aig,new A.fA(q,new A.c2(A.b([],p),o),t.nz)],t.Q,t.od)
+j=A.B([B.mR,new A.fA(q,new A.c2(A.b([],p),o),t.wY),B.aih,new A.fA(q,new A.c2(A.b([],p),o),t.nz)],t.Q,t.od)
 a.w!==$&&A.bn()
 a.w=j
 k=j}q=a.a.ok
@@ -103197,7 +103204,7 @@ r.f=s.d},
 $S:0}
 A.a7J.prototype={
 H(a){var s=this.c.ab(0,new A.u(0,40.95))
-return A.bOO(A.wk(null,B.Qj,!0),B.P,new A.GK(1,B.a1b,new A.fG(B.MM,B.G)),s,1.25,B.aby)}}
+return A.bOO(A.wk(null,B.Qj,!0),B.P,new A.GK(1,B.a1c,new A.fG(B.MM,B.G)),s,1.25,B.abz)}}
 A.Bt.prototype={
 N(){return"MaterialType."+this.b}}
 A.Qj.prototype={
@@ -103324,7 +103331,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.aj4.prototype={
@@ -103459,14 +103466,14 @@ A.ajX.prototype={}
 A.adT.prototype={}
 A.a8M.prototype={
 azM(a){var s=t.Tr
-s=A.a2(new A.ah(B.a_l,new A.aOt(a),s),s.h("aC.E"))
+s=A.a2(new A.ah(B.a_m,new A.aOt(a),s),s.h("aC.E"))
 return s},
 k(a,b){if(b==null)return!1
 if(this===b)return!0
 if(J.ak(b)!==A.K(this))return!1
 if(b instanceof A.a8M)return!0
 return!1},
-gA(a){return A.cx(this.azM(B.a4W))}}
+gA(a){return A.cx(this.azM(B.a4X))}}
 A.aOt.prototype={
 $1(a){return this.a.i(0,a)},
 $S:723}
@@ -103650,7 +103657,7 @@ return new A.aos(a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.ba,!0,B.y,s,s,s)},
 a2R(a){var s
 a.aN(t.if)
 s=A.cP(a)
-return s.hl.a}}
+return s.hm.a}}
 A.aos.prototype={
 goC(){var s,r=this,q=r.go
 if(q===$){s=A.cP(r.fy)
@@ -103701,7 +103708,7 @@ return b instanceof A.U2&&J.l(b.a,this.a)}}
 A.aot.prototype={}
 A.a7O.prototype={}
 A.aLX.prototype={
-Cn(a){return B.abq},
+Cn(a){return B.abr},
 On(a,b,c,d){var s,r,q,p=null,o=A.cP(a)
 a.aN(t.bZ)
 s=A.cP(a)
@@ -103716,9 +103723,9 @@ case 2:s=A.bQp(0.7853981633974483,q)
 break
 default:s=p}return s},
 Cm(a,b){var s
-switch(a.a){case 2:s=B.a6x
+switch(a.a){case 2:s=B.a6y
 break
-case 0:s=B.a6z
+case 0:s=B.a6A
 break
 case 1:s=B.m
 break
@@ -103744,7 +103751,7 @@ if(J.ak(b)!==A.K(s))return!1
 return b instanceof A.Ue&&J.l(b.a,s.a)&&J.l(b.b,s.b)&&J.l(b.c,s.c)}}
 A.aoy.prototype={}
 A.acR.prototype={
-H(a){var s=this.c.a6(0,B.Dr),r=this.d.ab(0,B.a6s),q=A.ck(a,B.cE,t.w).w.r.b+8,p=44<=s.b-8-q,o=new A.u(8,q)
+H(a){var s=this.c.a6(0,B.Dr),r=this.d.ab(0,B.a6t),q=A.ck(a,B.cE,t.w).w.r.b+8,p=44<=s.b-8-q,o=new A.u(8,q)
 return new A.ac(new A.am(8,q,8,8),new A.wu(new A.acS(s.a6(0,o),r.a6(0,o),p),new A.a_y(this.e,p,A.cjg(),null),null),null)}}
 A.a_y.prototype={
 a1(){return new A.aoD(new A.yl(),null,null)},
@@ -103762,7 +103769,7 @@ q=k.d
 p=k.a
 o=p.d
 n=t.A9
-n=q?new A.dg(B.II,n):new A.dg(B.abO,n)
+n=q?new A.dg(B.II,n):new A.dg(B.abP,n)
 m=A.az(q?B.U2:B.U4,j,j,j)
 l=q?"Back":"More"
 n=A.b([new A.aoC(m,new A.bsy(k),l,n)],t.p)
@@ -104022,14 +104029,14 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.Ll.prototype={
 N(){return"_TextSelectionToolbarItemPosition."+this.b}}
 A.acT.prototype={
 H(a){var s=this,r=null
-return A.bQ0(s.c,s.d,A.bQ1(s.f,r,B.ae,r,r,r,r,r,r,A.c8v(A.cP(a).ax),r,B.r3,s.e,r,B.mn,r,r,r,B.afB,r))}}
+return A.bQ0(s.c,s.d,A.bQ1(s.f,r,B.ae,r,r,r,r,r,r,A.c8v(A.cP(a).ax),r,B.r3,s.e,r,B.mn,r,r,r,B.afC,r))}}
 A.hX.prototype={
 bX(b3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1=this,b2=null
 if(b3==null)return b1
@@ -104193,7 +104200,7 @@ m=b==null?h.an:b
 l=c==null?h.aO:c
 k=d==null?h.aG:d
 j=g==null?h.cl:g
-i=a1==null?h.hl:a1
+i=a1==null?h.hm:a1
 return A.bGo(h.p2,h.d,n,h.a,h.p4,h.R8,h.RG,h.rx,h.ry,h.cS,h.to,h.as,h.at,h.x1,h.x2,h.xr,h.y1,r,h.b,h.y2,h.aq,h.cH,h.bt,h.ay,h.ch,h.K,h.a0,h.af,m,h.aw,h.c,l,k,h.CW,h.cx,h.cy,h.db,h.aW,q,h.f1,s,h.cG,h.f,h.cg,h.be,h.cY,h.dv,h.dO,h.df,j,h.r,h.w,h.aT,h.dx,h.dy,h.fr,h.k3,p,h.dg,h.cR,h.fx,h.x,h.f0,h.dV,h.fy,h.aU,h.go,h.ad,h.ar,h.id,h.y,h.bw,h.bu,i,h.mm,o,h.O,h.al,h.B,h.p1,h.k1,!0,h.Q)},
 b13(a,b){var s=null
 return this.aif(s,s,s,s,s,s,s,a,s,b)},
@@ -104202,7 +104209,7 @@ return this.aif(s,s,s,s,a,s,s,s,s,s)},
 k(a,b){var s=this
 if(b==null)return!1
 if(J.ak(b)!==A.K(s))return!1
-return b instanceof A.oc&&A.LV(b.d,s.d)&&b.a===s.a&&A.LV(b.c,s.c)&&b.e.k(0,s.e)&&b.f===s.f&&b.r.k(0,s.r)&&b.w===s.w&&b.x.k(0,s.x)&&b.y===s.y&&b.Q.k(0,s.Q)&&b.as.k(0,s.as)&&b.at.k(0,s.at)&&b.ax.k(0,s.ax)&&b.ay.k(0,s.ay)&&b.ch.k(0,s.ch)&&b.CW.k(0,s.CW)&&b.cx.k(0,s.cx)&&b.cy.k(0,s.cy)&&b.db.k(0,s.db)&&b.dx.k(0,s.dx)&&b.dy.k(0,s.dy)&&b.fr.k(0,s.fr)&&b.fx.k(0,s.fx)&&b.fy.k(0,s.fy)&&b.go.k(0,s.go)&&b.id.k(0,s.id)&&b.k1.k(0,s.k1)&&b.k2.k(0,s.k2)&&b.k3.k(0,s.k3)&&b.k4.k(0,s.k4)&&b.ok.k(0,s.ok)&&b.p1.k(0,s.p1)&&J.l(b.p2,s.p2)&&b.p3.k(0,s.p3)&&b.p4.k(0,s.p4)&&b.R8.k(0,s.R8)&&b.RG.k(0,s.RG)&&b.rx.k(0,s.rx)&&b.ry.k(0,s.ry)&&b.to.k(0,s.to)&&b.x1.k(0,s.x1)&&b.x2.k(0,s.x2)&&b.xr.k(0,s.xr)&&b.y1.k(0,s.y1)&&b.y2.k(0,s.y2)&&b.aq.k(0,s.aq)&&b.bt.k(0,s.bt)&&b.K.k(0,s.K)&&b.a0.k(0,s.a0)&&b.af.k(0,s.af)&&b.an.k(0,s.an)&&b.aw.k(0,s.aw)&&b.aO.k(0,s.aO)&&b.aG.k(0,s.aG)&&b.aW.k(0,s.aW)&&b.cG.k(0,s.cG)&&b.cg.k(0,s.cg)&&b.be.k(0,s.be)&&b.cY.k(0,s.cY)&&b.dv.k(0,s.dv)&&b.dO.k(0,s.dO)&&b.df.k(0,s.df)&&b.cl.k(0,s.cl)&&b.aT.k(0,s.aT)&&b.dg.k(0,s.dg)&&b.cR.k(0,s.cR)&&b.f0.k(0,s.f0)&&b.dV.k(0,s.dV)&&b.aU.k(0,s.aU)&&b.ad.k(0,s.ad)&&b.ar.k(0,s.ar)&&b.bw.k(0,s.bw)&&b.bu.k(0,s.bu)&&b.hl.k(0,s.hl)&&b.mm.k(0,s.mm)&&b.O.k(0,s.O)&&b.al.k(0,s.al)&&b.B.k(0,s.B)&&b.cS.k(0,s.cS)&&b.cH.k(0,s.cH)&&b.f1.k(0,s.f1)},
+return b instanceof A.oc&&A.LV(b.d,s.d)&&b.a===s.a&&A.LV(b.c,s.c)&&b.e.k(0,s.e)&&b.f===s.f&&b.r.k(0,s.r)&&b.w===s.w&&b.x.k(0,s.x)&&b.y===s.y&&b.Q.k(0,s.Q)&&b.as.k(0,s.as)&&b.at.k(0,s.at)&&b.ax.k(0,s.ax)&&b.ay.k(0,s.ay)&&b.ch.k(0,s.ch)&&b.CW.k(0,s.CW)&&b.cx.k(0,s.cx)&&b.cy.k(0,s.cy)&&b.db.k(0,s.db)&&b.dx.k(0,s.dx)&&b.dy.k(0,s.dy)&&b.fr.k(0,s.fr)&&b.fx.k(0,s.fx)&&b.fy.k(0,s.fy)&&b.go.k(0,s.go)&&b.id.k(0,s.id)&&b.k1.k(0,s.k1)&&b.k2.k(0,s.k2)&&b.k3.k(0,s.k3)&&b.k4.k(0,s.k4)&&b.ok.k(0,s.ok)&&b.p1.k(0,s.p1)&&J.l(b.p2,s.p2)&&b.p3.k(0,s.p3)&&b.p4.k(0,s.p4)&&b.R8.k(0,s.R8)&&b.RG.k(0,s.RG)&&b.rx.k(0,s.rx)&&b.ry.k(0,s.ry)&&b.to.k(0,s.to)&&b.x1.k(0,s.x1)&&b.x2.k(0,s.x2)&&b.xr.k(0,s.xr)&&b.y1.k(0,s.y1)&&b.y2.k(0,s.y2)&&b.aq.k(0,s.aq)&&b.bt.k(0,s.bt)&&b.K.k(0,s.K)&&b.a0.k(0,s.a0)&&b.af.k(0,s.af)&&b.an.k(0,s.an)&&b.aw.k(0,s.aw)&&b.aO.k(0,s.aO)&&b.aG.k(0,s.aG)&&b.aW.k(0,s.aW)&&b.cG.k(0,s.cG)&&b.cg.k(0,s.cg)&&b.be.k(0,s.be)&&b.cY.k(0,s.cY)&&b.dv.k(0,s.dv)&&b.dO.k(0,s.dO)&&b.df.k(0,s.df)&&b.cl.k(0,s.cl)&&b.aT.k(0,s.aT)&&b.dg.k(0,s.dg)&&b.cR.k(0,s.cR)&&b.f0.k(0,s.f0)&&b.dV.k(0,s.dV)&&b.aU.k(0,s.aU)&&b.ad.k(0,s.ad)&&b.ar.k(0,s.ar)&&b.bw.k(0,s.bw)&&b.bu.k(0,s.bu)&&b.hm.k(0,s.hm)&&b.mm.k(0,s.mm)&&b.O.k(0,s.O)&&b.al.k(0,s.al)&&b.B.k(0,s.B)&&b.cS.k(0,s.cS)&&b.cH.k(0,s.cH)&&b.f1.k(0,s.f1)},
 gA(a){var s=this,r=s.d,q=A.r(r),p=A.a2(new A.bM(r,q.h("bM<1>")),t.X)
 B.c.L(p,new A.be(r,q.h("be<2>")))
 p.push(s.a)
@@ -104281,7 +104288,7 @@ p.push(s.ad)
 p.push(s.ar)
 p.push(s.bw)
 p.push(s.bu)
-p.push(s.hl)
+p.push(s.hm)
 p.push(s.mm)
 p.push(s.O)
 p.push(s.al)
@@ -104463,7 +104470,7 @@ a3=a2.ay
 if(a3==null)a3=a5
 if(a3==null)a3=B.I
 a2=a2.c
-a1=new A.RA(b,new A.b34(new A.aoS(k,d,B.a8,c,s,a,a0,a5)),a3,B.kW,B.bS,!0,B.ai6,!0,a5,a4.gaG4(),a2!=null,a1,a4.d)
+a1=new A.RA(b,new A.b34(new A.aoS(k,d,B.a8,c,s,a,a0,a5)),a3,B.kW,B.bS,!0,B.ai7,!0,a5,a4.gaG4(),a2!=null,a1,a4.d)
 return a1}}
 A.b34.prototype={
 $2(a,b){return A.f5(!1,this.a,b)},
@@ -105949,7 +105956,7 @@ glN(){var s,r,q=this.d
 if(q===0)return B.m
 s=this.a
 r=s.c
-if(!isFinite(r.gjJ(r)))return B.a6K
+if(!isFinite(r.gjJ(r)))return B.a6L
 r=this.c
 s=s.c
 return new A.u(q*(r-s.gjJ(s)),0)},
@@ -106053,7 +106060,7 @@ else{p=p.a
 r=p==null?null:p.J_(q.x)}if(r!=null)s.Bu(r)
 s.zR(" ")
 p=s.lv()
-p.j9(B.a7o)
+p.j9(B.a7p)
 q.ch=p}return p},
 a81(a){var s,r=this,q=r.aCJ()
 $.aW()
@@ -106122,7 +106129,7 @@ if(r){l=n?m:s.a
 r=new A.u(l.a-(b.c-b.a),l.b)
 break A}r=null}return new A.u(A.Y(r.a+j.glN().a,0,j.c),r.b+j.glN().b)},
 gaVk(){var s,r,q=this.as
-A:{if(q==null||B.abR.k(0,q)){s=!0
+A:{if(q==null||B.abS.k(0,q)){s=!0
 break A}r=q.d
 s=r===0
 break A}return s},
@@ -106134,7 +106141,7 @@ return q.d-q.b},
 KA(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=c.b,a0=a.a
 if(a0.c.ga1O()<1)return b
 A:{s=a1.a
-if(0===s){r=B.a8C
+if(0===s){r=B.a8D
 break A}q=b
 r=!1
 q=a1.b
@@ -106193,7 +106200,7 @@ return new A.wJ(r.a.d_(s.glN()),r.b,r.c)},
 eb(a){var s=this.b
 return s.a.c.eb(a.a6(0,s.glN()))},
 Af(){var s,r,q=this.b,p=q.glN()
-if(!isFinite(p.a)||!isFinite(p.b))return B.a0n
+if(!isFinite(p.a)||!isFinite(p.b))return B.a0o
 s=q.f
 if(s==null){s=q.a.c.Af()
 q.f=s}if(p.k(0,B.m))r=s
@@ -106343,7 +106350,7 @@ r=A.a2(new A.ah(r,new A.b2G(this),s),s.h("aC.E"))}return r},
 gvM(a){var s,r=this.f
 if(r!=null){s=this.d
 return s==null?null:B.b.bi(s,("packages/"+r+"/").length)}return this.d},
-hi(a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=this,a3=a2.ay
+hj(a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=this,a3=a2.ay
 if(a3==null&&b9==null)s=a6==null?a2.b:a6
 else s=null
 r=a2.ch
@@ -106371,45 +106378,45 @@ a0=b3==null?a2.e:b3
 a1=c5==null?a2.f:c5
 return A.bi(r,q,s,null,e,d,c,b,a,a0,g,p,n,f,o,a3,j,a2.a,i,m,a2.ax,a2.fy,a1,h,k,l)},
 W(a){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 bV(a,b){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s)},
 b17(a,b,c){var s=null
-return this.hi(s,a,b,s,s,c,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,a,b,s,s,c,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 ZZ(a){var s=null
-return this.hi(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s)},
+return this.hj(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s)},
 aii(a,b){var s=null
-return this.hi(s,s,s,s,a,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,s,s,a,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s)},
 ly(a,b,c){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,c,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,c,s,s,s,s,s,s)},
 Gd(a){var s=null
-return this.hi(s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 mf(a){var s=null
-return this.hi(s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s,s,s)},
 b04(a){var s=null
-return this.hi(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,s,s,s,s)},
 ais(a,b,c){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,s,b,s,s,s,c,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,s,b,s,s,s,c,s,s,s,s,s,s,s,s)},
 a_1(a,b){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s,s,s)},
 Ge(a,b,c){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,b,s,s,s,s,c,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,b,s,s,s,s,c,s,s,s,s,s,s,s,s)},
 OS(a,b){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s)},
 a__(a,b){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 b1c(a,b,c,d){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,b,s,s,c,s,d,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,b,s,s,c,s,d,s,s,s,s,s,s,s,s)},
 b0V(a,b){var s=null
-return this.hi(s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,b,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,s,s,s,s,s,s,s,s,s,a,s,s,s,s,b,s,s,s,s,s,s,s,s)},
 air(a,b,c){var s=null
-return this.hi(s,s,a,s,b,s,s,s,s,s,s,s,s,s,c,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,b,s,s,s,s,s,s,s,s,s,c,s,s,s,s,s,s,s,s,s,s)},
 b1b(a,b,c,d){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,b,c,s,s,s,d,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,b,c,s,s,s,d,s,s,s,s,s,s,s,s)},
 a_0(a,b){var s=null
-return this.hi(s,s,a,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,s,a,s,s,s,s,s,s,s,s,b,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 aig(a,b){var s=null
-return this.hi(s,a,b,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
+return this.hj(s,a,b,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 jW(a,b,c,d,e,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=h.ay
 if(f==null)s=a==null?h.b:a
 else s=g
@@ -106420,7 +106427,7 @@ p=e==null?h.gvM(0):e
 o=h.r
 o=o==null?g:o*a2+a1
 n=h.w
-n=n==null?g:B.a3a[B.d.bL(n.gu1(0),0,8)]
+n=n==null?g:B.a3b[B.d.bL(n.gu1(0),0,8)]
 m=h.y
 m=m==null?g:m*a6+a5
 l=h.z
@@ -106457,7 +106464,7 @@ a0=a4.db
 a1=a4.gvM(0)
 a2=a4.e
 a3=a4.f
-return this.hi(g,r,s,null,c,b,a,a0,a1,a2,e,q,o,d,p,h,k,j,n,i,a4.fy,a3,f,l,m)},
+return this.hj(g,r,s,null,c,b,a,a0,a1,a2,e,q,o,d,p,h,k,j,n,i,a4.fy,a3,f,l,m)},
 J_(a){var s,r,q,p,o,n=this,m=n.r
 A:{s=null
 if(m==null)break A
@@ -106500,7 +106507,7 @@ if(r===b)return B.e1
 s=!0
 if(r.a===b.a)if(r.d==b.d)if(r.r==b.r)if(J.l(r.w,b.w))if(r.x==b.x)if(r.y==b.y)if(r.z==b.z)if(r.Q==b.Q)if(r.as==b.as)if(r.at==b.at)if(r.ay==b.ay)if(r.ch==b.ch)if(A.ew(r.dy,b.dy))if(A.ew(r.fr,b.fr))if(A.ew(r.fx,b.fx)){s=A.ew(r.gk6(),b.gk6())
 s=!s}if(s)return B.cm
-if(!J.l(r.b,b.b)||!J.l(r.c,b.c)||!J.l(r.CW,b.CW)||!J.l(r.cx,b.cx)||r.cy!=b.cy||r.db!=b.db)return B.a9r
+if(!J.l(r.b,b.b)||!J.l(r.c,b.c)||!J.l(r.CW,b.CW)||!J.l(r.cx,b.cx)||r.cy!=b.cy||r.db!=b.db)return B.a9s
 return B.e1},
 k(a,b){var s,r=this
 if(b==null)return!1
@@ -106570,13 +106577,13 @@ A.b9N.prototype={
 hr(a,b){return(this.b+this.c*b)*Math.pow(2.718281828459045,this.a*b)},
 j0(a,b){var s=this.a,r=Math.pow(2.718281828459045,s*b),q=this.c
 return s*(this.b+q*b)*r+q*r},
-ge9(a){return B.abI}}
+ge9(a){return B.abJ}}
 A.bkZ.prototype={
 hr(a,b){var s=this
 return s.c*Math.pow(2.718281828459045,s.a*b)+s.d*Math.pow(2.718281828459045,s.b*b)},
 j0(a,b){var s=this,r=s.a,q=s.b
 return s.c*r*Math.pow(2.718281828459045,r*b)+s.d*q*Math.pow(2.718281828459045,q*b)},
-ge9(a){return B.abK}}
+ge9(a){return B.abL}}
 A.bta.prototype={
 hr(a,b){var s=this,r=s.a*b
 return Math.pow(2.718281828459045,s.b*b)*(s.c*Math.cos(r)+s.d*Math.sin(r))},
@@ -106584,7 +106591,7 @@ j0(a,b){var s,r=this,q=r.b,p=Math.pow(2.718281828459045,q*b),o=r.a,n=o*b,m=Math.
 n=r.d
 s=r.c
 return p*(n*o*m-s*o*l)+q*p*(n*l+s*m)},
-ge9(a){return B.abJ}}
+ge9(a){return B.abK}}
 A.Uo.prototype={
 j(a){return"Tolerance(distance: \xb1"+A.p(this.a)+", time: \xb10.001, velocity: \xb1"+A.p(this.c)+")"}}
 A.HD.prototype={
@@ -106659,7 +106666,7 @@ if(!J.l(s.b,p.B$.gF(0))){s.a=p.gF(0)
 s.b=p.B$.gF(0)
 p.em=0
 o.p7(0,0)
-p.iq=B.a9p}else{q=o.x
+p.iq=B.a9q}else{q=o.x
 q===$&&A.c()
 if(q===o.b)s.a=s.b=p.B$.gF(0)
 else{s=o.r
@@ -106668,7 +106675,7 @@ case 2:s=p.cD
 if(!J.l(s.b,p.B$.gF(0))){s.a=s.b=p.B$.gF(0)
 p.em=0
 o.p7(0,0)
-p.iq=B.a9q}else{p.iq=B.qx
+p.iq=B.a9r}else{p.iq=B.qx
 s=o.r
 if(!(s!=null&&s.a!=null))o.d1(0)}break
 case 3:s=p.cD
@@ -106763,7 +106770,7 @@ if(r!=null){r.ar$=$.aK()
 r.ad$=0}r=t.S
 s=$.aK()
 this.k3$=new A.a87(new A.aVI(this),new A.aMS(B.hE,A.t(r,t.ZA)),A.t(r,t.xg),s)},
-aKD(a){B.a5E.bO("first-frame",null,!1,t.H).bB(0,new A.aVF(),new A.aVG(),t.P)},
+aKD(a){B.a5F.bO("first-frame",null,!1,t.H).bB(0,new A.aVF(),new A.aVG(),t.P)},
 aIK(a){this.a_O()
 this.aSW()},
 aSW(){$.cK.aq$.push(new A.aVH(this))},
@@ -107427,8 +107434,8 @@ r.bu=a
 s=a===1?1:null
 r.aT.su9(s)
 r.ai()},
-sb86(a){if(this.hl==a)return
-this.hl=a
+sb86(a){if(this.hm==a)return
+this.hm=a
 this.ai()},
 sb3g(a){return},
 sd4(a){var s=this.aT
@@ -107609,11 +107616,11 @@ s.t8(A.dP(B.t,!a?r:s.O.c,r,!1),B.bd)},
 aIt(a){var s=this,r=s.aT.a3P(s.O.d)
 if(r==null)return
 s.t8(A.dP(B.t,!a?r:s.O.c,r,!1),B.bd)},
-aIz(a){var s,r=this,q=r.O.ghk(),p=r.a9A(r.aT.b.a.c.iF(q).b)
+aIz(a){var s,r=this,q=r.O.ghl(),p=r.a9A(r.aT.b.a.c.iF(q).b)
 if(p==null)return
 s=a?r.O.c:p.a
 r.t8(A.dP(B.t,s,p.a,!1),B.bd)},
-aIv(a){var s,r=this,q=r.O.ghk(),p=r.a9H(r.aT.b.a.c.iF(q).a-1)
+aIv(a){var s,r=this,q=r.O.ghl(),p=r.a9H(r.aT.b.a.c.iF(q).a-1)
 if(p==null)return
 s=a?r.O.c:p.a
 r.t8(A.dP(B.t,s,p.a,!1),B.bd)},
@@ -107698,7 +107705,7 @@ s=j.gii()
 if(a.a===a.b)r=A.b([],t.Lx)
 else{q=j.aO
 r=j.aT.uV(a,q.y,q.z)}if(r.length===0){q=j.aT
-p=a.ghk()
+p=a.ghl()
 o=j.nG
 o===$&&A.c()
 n=q.pE(p,o)
@@ -107767,7 +107774,7 @@ aCr(a){var s,r,q,p=this.iu
 if(p!=null)return p
 for(s=a.length,r=0,q=0;q<s;++q)switch(a.charCodeAt(q)){case 10:case 133:case 11:case 12:case 8232:case 8233:++r
 break}return this.iu=r},
-acs(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null,b="Pattern matching error",a=d.bu,a0=d.hl
+acs(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null,b="Pattern matching error",a=d.bu,a0=d.hm
 if(a0==null)a0=a
 s=d.aT
 r=s.dD()
@@ -107842,8 +107849,8 @@ q=l.a3Y(r)
 p=c==null?r:s.eb(l.ei(c).a6(0,l.gii()))
 o=p.k(0,r)?q:l.a3Y(p)
 n=q.a<o.b
-s=n?q.gtq().a:q.ghk().a
-m=n?o.ghk().a:o.gtq().a
+s=n?q.gtq().a:q.ghl().a
+m=n?o.ghl().a:o.gtq().a
 l.t8(A.dP(q.e,s,m,!1),a)},
 pH(a,b){return this.Jc(a,b,null)},
 a3Y(a){var s,r,q,p,o=this,n=a.a,m=o.aT
@@ -107922,7 +107929,7 @@ A:{if(l==null){d=m.b.a.c
 d=d.gbE(d)
 s=m.dD()
 s=s.gbE(s)
-k=g.hl
+k=g.hm
 d=Math.max(d,s*(k==null?0:k))
 break A}if(1===l){d=m.b.a.c
 d=d.gbE(d)
@@ -107930,7 +107937,7 @@ break A}d=m.b.a.c
 d=d.gbE(d)
 s=m.dD()
 s=s.gbE(s)
-k=g.hl
+k=g.hm
 if(k==null)k=l
 j=m.dD()
 j=A.Y(d,s*k,j.gbE(j)*l)
@@ -108145,7 +108152,7 @@ s=l.ax
 r=s==null
 if(r)q=l.z
 else q=l.w?l.at:null
-if(r)p=k.ghk()
+if(r)p=k.ghl()
 else{o=c.mn
 o===$&&A.c()
 p=o}if(q!=null)l.b9P(a,c,q,p)
@@ -108220,7 +108227,7 @@ bZ(a){return 1e5},
 bI(a){return 1e5},
 gna(){return!0},
 qA(a){return!0},
-dl(a){return a.bG(B.abo)},
+dl(a){return a.bG(B.abp)},
 b5(a,b){var s,r,q,p,o,n,m,l,k,j=this
 try{p=a.gdF(0)
 o=j.gF(0)
@@ -108255,7 +108262,7 @@ A:{if(B.f===p){s=c?new A.ay(a,d):new A.ay(0,d)
 break A}if(B.CA===p){s=B.f.E1(a,b,!c,d)
 break A}r=B.CB===p
 if(r&&b<2){s=B.f.E1(a,b,c,d)
-break A}q=B.a4U===p
+break A}q=B.a4V===p
 if(q&&b===0){s=B.f.E1(a,b,c,d)
 break A}if(B.bM===p){s=new A.ay(a/2,d)
 break A}if(r){s=new A.ay(0,a/(b-1)+d)
@@ -109785,7 +109792,7 @@ k(a,b){var s=this
 if(b==null)return!1
 return b instanceof A.ZC&&b.a===s.a&&b.b===s.b&&b.d===s.d&&J.l(b.f,s.f)&&A.vT(b.e,s.e)},
 gA(a){var s=this,r=s.e
-return A.a5(s.a,s.b,s.d,s.f,A.bFH(r==null?B.aao:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+return A.a5(s.a,s.b,s.d,s.f,A.bFH(r==null?B.aap:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.bq7.prototype={
 gft(){var s=this.d
 return s==null?this.gcc():s},
@@ -110262,7 +110269,7 @@ A.aqK.prototype={}
 A.up.prototype={
 k(a,b){if(b==null)return!1
 return b instanceof A.up&&b.b===this.b},
-gA(a){return A.a5(B.aj3,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
+gA(a){return A.a5(B.aj4,this.b,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
 A.oa.prototype={
 aD(a){this.a=this.b=null
 this.ax8(0)},
@@ -110734,12 +110741,12 @@ l=s>r!==(B.bv===m)
 k=A.dP(B.t,s,r,!1)
 j=A.b([],t.AO)
 for(a0=a0.uU(k),m=a0.length,i=0;i<a0.length;a0.length===m||(0,A.z)(a0),++i){h=a0[i]
-j.push(new A.Q(h.a,h.b,h.c,h.d))}A:{if(p){a0=B.a8F
+j.push(new A.Q(h.a,h.b,h.c,h.d))}A:{if(p){a0=B.a8G
 break A}a0=l
 g=a0
-if(a0){a0=B.a97
+if(a0){a0=B.a98
 break A}a0=!1===g
-if(a0){a0=B.a8V
+if(a0){a0=B.a8W
 break A}a0=a}f=a0.a
 e=a
 d=a0.b
@@ -111736,7 +111743,7 @@ a3E(a){return new A.Q(0,0,0+a.a,0+a.b)},
 j(a){return"CustomClipper"}}
 A.xZ.prototype={
 Ck(a){return this.b.jg(new A.Q(0,0,0+a.a,0+a.b),this.c)},
-Jy(a){if(A.K(a)!==B.aiP)return!0
+Jy(a){if(A.K(a)!==B.aiQ)return!0
 t.jH.a(a)
 return!a.b.k(0,this.b)||a.c!=this.c}}
 A.KL.prototype={
@@ -112363,7 +112370,7 @@ s.k4=!1
 s.p1=p
 s.ok=b}}o=o.a(A.H.prototype.gb7.call(r,0))
 o.toString
-a.x7(o,A.kd.prototype.gi7.call(r),B.m,B.a9n)},
+a.x7(o,A.kd.prototype.gi7.call(r),B.m,B.a9o)},
 dU(a,b){b.h8(0,this.a3H())}}
 A.aV6.prototype={
 $2(a,b){return this.a.Df(a,b)},
@@ -112476,7 +112483,7 @@ r=s.ad
 if(r!=null){a.aq=r
 a.r=!0}r=s.bw
 if(a.cl!==r){a.cl=r
-a.r=!0}r=s.hl
+a.r=!0}r=s.hm
 if(r!=null){a.dg=r
 a.r=!0}if(s.aq!=null)a.suh(q.gaQd())
 if(q.du$.bt!=null)a.sqJ(q.gaQ_())
@@ -112494,7 +112501,7 @@ s=s.aU
 if(s!=null){a.r=!0
 a.x|=131072
 a.x2=s
-a.w.l(0,B.a9N,a.gaNr())}}}
+a.w.l(0,B.a9O,a.gaNr())}}}
 A.xT.prototype={
 N(){return"SelectionResult."+this.b}}
 A.HV.prototype={}
@@ -113132,7 +113139,7 @@ a6.R8=!1
 s=a5.d
 r=s+a5.z
 q=r+a5.Q
-a3.hl=new A.abQ(s,a5.e,a5.y,a5.w)
+a3.hm=new A.abQ(s,a5.e,a5.y,a5.w)
 p=a3.aqj(r,-1)
 o=isFinite(q)?a3.a3N(q,-1):a4
 if(a3.a7$!=null){n=a3.b_3(p)
@@ -113695,7 +113702,7 @@ if(d.a7$==null)return
 s=t.q
 r=!0
 switch(A.m8(s.a(A.H.prototype.gZ.call(d)).a,s.a(A.H.prototype.gZ.call(d)).b).a){case 0:q=b.ab(0,new A.u(0,d.dy.c))
-p=B.a6w
+p=B.a6x
 o=B.j7
 break
 case 1:q=b
@@ -113709,7 +113716,7 @@ o=B.j7
 r=!1
 break
 case 3:q=b.ab(0,new A.u(d.dy.c,0))
-p=B.a6P
+p=B.a6Q
 o=B.fb
 break
 default:r=c
@@ -114373,7 +114380,7 @@ if(s.y!=null)r.Y(0,s.gu8())
 s.af=b
 if(s.y!=null)b.ak(0,s.gu8())
 s.ai()},
-sa4f(a){var s=a==null?B.aqO:a
+sa4f(a){var s=a==null?B.aqQ:a
 if(s.k(0,this.an))return
 this.an=s
 this.ai()},
@@ -114843,19 +114850,19 @@ A.yx.prototype={
 N(){return"WrapAlignment."+this.b},
 KR(a,b,c,d){var s,r,q=this
 A:{if(B.fr===q){s=new A.ay(d?a:0,b)
-break A}if(B.apf===q){s=B.fr.KR(a,b,c,!d)
-break A}r=B.aph===q
+break A}if(B.aph===q){s=B.fr.KR(a,b,c,!d)
+break A}r=B.apj===q
 if(r&&c<2){s=B.fr.KR(a,b,c,d)
-break A}if(B.apg===q){s=new A.ay(a/2,b)
+break A}if(B.api===q){s=new A.ay(a/2,b)
 break A}if(r){s=new A.ay(0,a/(c-1)+b)
-break A}if(B.api===q){s=a/c
+break A}if(B.apk===q){s=a/c
 s=new A.ay(s/2,s+b)
-break A}if(B.apj===q){s=a/(c+1)
+break A}if(B.apl===q){s=a/(c+1)
 s=new A.ay(s,s+b)
 break A}s=null}return s}}
 A.V9.prototype={
 N(){return"WrapCrossAlignment."+this.b},
-gaFy(){switch(this.a){case 0:var s=B.apk
+gaFy(){switch(this.a){case 0:var s=B.apm
 break
 case 1:s=B.L1
 break
@@ -115375,7 +115382,7 @@ bdO(a){var s,r,q=this,p=new A.b2X(a)
 if(q.b==null){s=q.b=new A.aJ(new A.S($.X,t.D),t.h)
 r=q.c
 if(r!=null)if(r)s.bM(0)
-else s.dK(B.ahZ)}q.b.a.bB(0,p,p,t.H)},
+else s.dK(B.ai_)}q.b.a.bB(0,p,p,t.H)},
 nw(a,b){return this.a.a.nw(a,b)},
 dd(a){return this.nw(a,null)},
 bB(a,b,c,d){return this.a.a.bB(0,b,c,d)},
@@ -115969,7 +115976,7 @@ if(s==null||!s.dx.S(0,b))return null
 return r.a.dx.i(0,b)},
 ba5(a,b,c){var s,r=this.aGy(a,b)
 if(r!=null){r.$1(c)
-return}if(b===B.a9T){s=this.c.i(0,a)
+return}if(b===B.a9U){s=this.c.i(0,a)
 s=(s==null?null:s.c)!=null}else s=!1
 if(s)this.c.i(0,a).c.$0()},
 j(a){return"<optimized out>#"+A.cM(this)}}
@@ -116003,27 +116010,27 @@ this.iK(B.qK,a)},
 sqJ(a){a.toString
 this.iK(B.HP,a)},
 sRc(a){this.iK(B.mv,a)},
-sQV(a){this.iK(B.a9U,a)},
+sQV(a){this.iK(B.a9V,a)},
 sRd(a){this.iK(B.mw,a)},
 sRe(a){this.iK(B.ms,a)},
 sRb(a){this.iK(B.mt,a)},
 sb90(a){this.rz(B.HR,new A.aYu(a))},
 sa1X(a){this.iK(B.HQ,a)},
 sa1S(a){this.iK(B.HO,a)},
-sQQ(a,b){this.iK(B.a9X,b)},
-sQR(a,b){this.iK(B.aa0,b)},
-sR7(a,b){this.iK(B.a9O,b)},
-sR5(a){this.rz(B.a9Y,new A.aYs(a))},
-sR3(a){this.rz(B.a9Q,new A.aYq(a))},
-sR6(a){this.rz(B.a9Z,new A.aYt(a))},
-sR4(a){this.rz(B.a9M,new A.aYr(a))},
-sRf(a){this.rz(B.a9R,new A.aYv(a))},
-sRg(a){this.rz(B.a9S,new A.aYw(a))},
-sQT(a){this.iK(B.a9V,a)},
-sQU(a){this.iK(B.aa_,a)},
+sQQ(a,b){this.iK(B.a9Y,b)},
+sQR(a,b){this.iK(B.aa1,b)},
+sR7(a,b){this.iK(B.a9P,b)},
+sR5(a){this.rz(B.a9Z,new A.aYs(a))},
+sR3(a){this.rz(B.a9R,new A.aYq(a))},
+sR6(a){this.rz(B.aa_,new A.aYt(a))},
+sR4(a){this.rz(B.a9N,new A.aYr(a))},
+sRf(a){this.rz(B.a9S,new A.aYv(a))},
+sRg(a){this.rz(B.a9T,new A.aYw(a))},
+sQT(a){this.iK(B.a9W,a)},
+sQU(a){this.iK(B.aa0,a)},
 sR_(a,b){this.iK(B.mu,b)},
-sa1W(a){this.iK(B.a9P,a)},
-sa1Q(a){this.iK(B.a9W,a)},
+sa1W(a){this.iK(B.a9Q,a)},
+sa1Q(a){this.iK(B.a9X,a)},
 saqQ(a){if(a==this.R8)return
 this.R8=a
 this.r=!0},
@@ -116372,7 +116379,7 @@ break
 case 1:return A.f(q,r)}})
 return A.h($async$Wk,r)},
 aFU(a,b){var s,r,q,p
-if(a===b)return B.a0u
+if(a===b)return B.a0v
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.c.dW(B.iL,a)
@@ -116527,7 +116534,7 @@ K2(){var s=0,r=A.i(t.H),q=this,p,o,n,m,l,k
 var $async$K2=A.d(function(a,b){if(a===1)return A.e(b,r)
 for(;;)switch(s){case 0:l=t.S
 s=2
-return A.a(B.a79.Qk("getKeyboardState",l,l),$async$K2)
+return A.a(B.a7a.Qk("getKeyboardState",l,l),$async$K2)
 case 2:k=b
 if(k!=null)for(l=J.dZ(k),p=J.a_(l.gcr(k)),o=q.a;p.n();){n=p.gt(p)
 m=l.i(k,n)
@@ -116899,7 +116906,7 @@ if(q==null)q=this.a
 if(J.l(r==null?null:t.ZC.a(r.a),q))return
 p=q.P2(a)
 s.l(0,a,p)
-B.a77.d3("activateSystemCursor",A.B(["device",p.b,"kind",t.ZC.a(p.a).a],t.N,t.z),t.H)}}
+B.a78.d3("activateSystemCursor",A.B(["device",p.b,"kind",t.ZC.a(p.a).a],t.N,t.z),t.H)}}
 A.Qr.prototype={}
 A.hn.prototype={
 j(a){var s=this.gPa()
@@ -117257,9 +117264,9 @@ A.al5.prototype={}
 A.a9t.prototype={
 gnV(){var s=this.a,r=B.CO.i(0,s)
 return r==null?new A.O(98784247808+B.b.gA(s)):r},
-ga1t(){var s,r=this.b,q=B.a5m.i(0,r),p=q==null?null:q[this.c]
+ga1t(){var s,r=this.b,q=B.a5n.i(0,r),p=q==null?null:q[this.c]
 if(p!=null)return p
-s=B.a55.i(0,r)
+s=B.a56.i(0,r)
 if(s!=null)return s
 if(r.length===1)return new A.y(r.toLowerCase().charCodeAt(0))
 return new A.y(B.b.gA(this.a)+98784247808)},
@@ -117556,7 +117563,7 @@ gtq(){var s,r=this
 if(!r.gci()||r.c===r.d)s=r.e
 else s=r.c<r.d?B.t:B.aY
 return new A.b5(r.c,s)},
-ghk(){var s,r=this
+ghl(){var s,r=this
 if(!r.gci()||r.c===r.d)s=r.e
 else s=r.c<r.d?B.aY:B.t
 return new A.b5(r.d,s)},
@@ -117593,7 +117600,7 @@ n=q?o:s
 return p.w5(n,q?r:o)}if(b)return p.An(a.b,n,o)
 n=q?s:o
 return p.w5(n,q?o:r)},
-ajx(a){if(this.ghk().k(0,a))return this
+ajx(a){if(this.ghl().k(0,a))return this
 return this.b0N(a.b,a.a)}}
 A.ye.prototype={}
 A.acH.prototype={}
@@ -117914,7 +117921,7 @@ break
 case"TextInputClient.onConnectionClosed":n=l.r
 if(n.gjn()){n.z.toString
 n.ok=n.z=$.e5().d=null
-n.a.d.hq()}break
+n.a.d.he()}break
 case"TextInputClient.showAutocorrectionPromptRect":l.r.asu(A.aR(m.i(o,1)),A.aR(m.i(o,2)))
 break
 case"TextInputClient.showToolbar":l.r.l8()
@@ -117940,7 +117947,7 @@ for(s=this.b,s=A.dY(s,s.r,A.r(s).c),r=s.$ti.c;s.n();){q=s.d;(q==null?r.a(q):q).C
 XZ(){var s,r,q
 for(s=this.b,s=A.dY(s,s.r,A.r(s).c),r=s.$ti.c;s.n();){q=s.d;(q==null?r.a(q):q).JA(0)}},
 aKK(){var s,r,q
-for(s=this.b,s=A.dY(s,s.r,A.r(s).c),r=s.$ti.c;s.n();){q=s.d;(q==null?r.a(q):q).hn()}},
+for(s=this.b,s=A.dY(s,s.r,A.r(s).c),r=s.$ti.c;s.n();){q=s.d;(q==null?r.a(q):q).ho()}},
 aU0(a,b){var s,r,q
 for(s=this.b,s=A.dY(s,s.r,A.r(s).c),r=s.$ti.c;s.n();){q=s.d;(q==null?r.a(q):q).aru(a,b)}},
 aTZ(a){var s,r,q
@@ -117990,7 +117997,7 @@ $S:0}
 A.U8.prototype={}
 A.akb.prototype={
 a7U(a){var s,r=a.by()
-if($.e5().a!==$.bDB()){s=B.acu.by()
+if($.e5().a!==$.bDB()){s=B.acv.by()
 s.l(0,"isMultiline",a.b.k(0,B.fm))
 r.l(0,"inputType",s)}return r},
 Zp(a,b){var s=$.e5(),r=s.c
@@ -118008,7 +118015,7 @@ s.d3("TextInput.setEditingState",a.ao5(),t.H).bB(0,new A.blx(),new A.bly(),t.P)}
 JA(a){var s=$.e5().c
 s===$&&A.c()
 s.kK("TextInput.show",t.H).bB(0,new A.blC(),new A.blD(),t.P)},
-hn(){var s=$.e5().c
+ho(){var s=$.e5().c
 s===$&&A.c()
 s.kK("TextInput.hide",t.H).bB(0,new A.bln(),new A.blo(),t.P)},
 aru(a,b){var s=$.e5().c
@@ -118136,8 +118143,8 @@ n=a.a
 s=a.b
 p=t.N
 return B.bG.d3("ContextMenu.showSystemContextMenu",A.B(["targetRect",A.B(["x",n,"y",s,"width",a.c-n,"height",a.d-s],p,t.i),"items",q],p,t.z),t.H)},
-hn(){var s=0,r=A.i(t.H),q,p=this
-var $async$hn=A.d(function(a,b){if(a===1)return A.e(b,r)
+ho(){var s=0,r=A.i(t.H),q,p=this
+var $async$ho=A.d(function(a,b){if(a===1)return A.e(b,r)
 for(;;)switch(s){case 0:if(p!==$.D3){s=1
 break}$.D3=null
 $.dO.k1$=null
@@ -118146,7 +118153,7 @@ q=B.bG.kK("ContextMenu.hideSystemContextMenu",t.H)
 s=1
 break
 case 1:return A.f(q,r)}})
-return A.h($async$hn,r)}}
+return A.h($async$ho,r)}}
 A.b1K.prototype={
 $1(a){var s,r=A.t(t.N,t.z)
 r.l(0,"callbackId",J.R(a.ge8(a)))
@@ -118210,8 +118217,8 @@ aU8(a,b){var s=this.a
 s===$&&A.c()
 s.d3("UndoManager.setUndoState",A.B(["canUndo",b,"canRedo",a],t.N,t.y),t.H).bB(0,new A.b3x(),new A.b3y(),t.P)},
 aW5(a){var s
-A:{if("undo"===a){s=B.aj9
-break A}if("redo"===a){s=B.aja
+A:{if("undo"===a){s=B.aja
+break A}if("redo"===a){s=B.ajb
 break A}s=A.Z(A.AP(A.b([A.tE("Unknown undo direction: "+a)],t._)))}return s}}
 A.b3x.prototype={
 $1(a){},
@@ -118221,7 +118228,7 @@ $2(a,b){A.dV(new A.c_(a,b,"services library",A.bO("while sending the UndoManager
 $S:9}
 A.b3w.prototype={}
 A.aHr.prototype={
-$2(a,b){return new A.He(b,B.aan,B.H6,null)},
+$2(a,b){return new A.He(b,B.aao,B.H6,null)},
 $S:818}
 A.aHs.prototype={
 $1(a){return A.c38(this.a,a)},
@@ -118256,7 +118263,7 @@ return A.a(B.D8.bO("dispose",q.a,!1,t.H),$async$m)
 case 4:case 3:return A.f(null,r)}})
 return A.h($async$m,r)}}
 A.a8Y.prototype={
-H(a){return new A.eT(B.bq,null,B.IG,B.P,A.b([B.a8b,this.c],t.p),null)}}
+H(a){return new A.eT(B.bq,null,B.IG,B.P,A.b([B.a8c,this.c],t.p),null)}}
 A.aP9.prototype={
 $2(a,b){var s,r,q,p,o=$.aP6
 if(o!=null){s=b.offsetX
@@ -118390,7 +118397,7 @@ f4(a){return this.c.$1(a)}}
 A.atg.prototype={
 ald(a,b,c){return a.Eq(b,c)},
 b6m(a,b,c){if(a.Es(b,c))return new A.ay(!0,a.Eq(b,c))
-return B.a9_}}
+return B.a90}}
 A.zM.prototype={
 a1(){return new A.Vf(A.ao(t.od),new A.v())}}
 A.atj.prototype={
@@ -118568,7 +118575,7 @@ A.uA.prototype={}
 A.a9g.prototype={
 qC(a,b,c){var s,r,q,p,o,n=$.a7.ae$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.vz,r=0;r<2;++r){q=B.a_S[r]
+for(s=t.vz,r=0;r<2;++r){q=B.a_T[r]
 p=n.e
 p.toString
 o=A.bEc(p,q,s)
@@ -118804,7 +118811,7 @@ r=n.gaL0()
 q=n.a
 q=q.ch
 q.toString
-l.a=A.c2B(!0,A.bO1(B.h,r,s,q,A.bUw(),n.gaNW(),m,n.gaP0(),B.a0p,!0,"nav",B.ai9),"Navigator Scope",!0,m,m,m,m)}else{s=n.a.z
+l.a=A.c2B(!0,A.bO1(B.h,r,s,q,A.bUw(),n.gaNW(),m,n.gaP0(),B.a0q,!0,"nav",B.aia),"Navigator Scope",!0,m,m,m,m)}else{s=n.a.z
 if(s!=null){r=s.d
 r===$&&A.c()
 q=s.e
@@ -119075,7 +119082,7 @@ if(s!=null){s.au()
 s.eV()
 r.i0$=null}}},
 H(a){if(this.guN()&&this.i0$==null)this.yz()
-return B.aqK}}
+return B.aqM}}
 A.ajL.prototype={
 H(a){throw A.j(A.oZ("Widgets that mix AutomaticKeepAliveClientMixin into their State must call super.build() but must ignore the return value of the superclass."))}}
 A.app.prototype={
@@ -120111,8 +120118,8 @@ s=$.bI()
 s.k2=l.gb4C()
 s.k3=$.X
 B.m2.jK(l.gaIC())
-B.a75.jK(l.gaGY())
-B.a76.jK(l.gaJW())
+B.a76.jK(l.gaGY())
+B.a77.jK(l.gaJW())
 s=new A.a4u(A.t(p,t.qa),B.Dt)
 B.Dt.jK(s.gaMw())
 l.p6$=s
@@ -120493,7 +120500,7 @@ s.aot(q)
 q=s.at.k(0,r)
 if(!q)s.f.$1(b)},
 AC(a,b){this.ajT(B.Lb,this.aSn(b.c))},
-J(a){this.b3L(B.apL)},
+J(a){this.b3L(B.apN)},
 aot(a){var s,r,q,p,o,n,m,l,k,j=this,i=j.c
 j.ax=a.a6(0,i)
 s=j.w.c
@@ -120700,7 +120707,7 @@ aNg(){this.P(new A.aB7())},
 OQ(a){var s=this,r=s.a,q=r.c.a,p=q.b,o=p.a,n=p.b
 if(o===n||r.f)return
 A.Ad(new A.tj(B.b.X(q.a,o,n))).dd(s.ad3("while copying selection to clipboard"))
-if(a===B.aW){s.nt(s.a.c.a.b.ghk())
+if(a===B.aW){s.nt(s.a.c.a.b.ghl())
 s.j6(!1)
 switch(A.au().a){case 2:case 4:case 3:case 5:break
 case 0:case 1:r=s.a.c.a
@@ -120767,7 +120774,7 @@ r=r.c.a
 s.kj(r.mg(A.dP(B.t,0,r.a.length,!1)),a)
 if(a===B.aW){switch(A.au().a){case 0:case 2:case 1:break
 case 4:case 3:case 5:s.eN()
-break}switch(A.au().a){case 0:case 1:case 3:case 5:s.nt(s.a.c.a.b.ghk())
+break}switch(A.au().a){case 0:case 1:case 3:case 5:s.nt(s.a.c.a.b.ghl())
 break
 case 4:case 2:break}}},
 QB(a){return this.b7F(a)},
@@ -120959,7 +120966,7 @@ m.a.c.ak(0,r)
 m.YH()}if(m.Q!=null){r=!0
 if(J.l(m.a.bw,a.bw)){q=m.a
 if(q.p2==a.p2)if(J.l(q.x1,a.x1)){r=m.a
-r=r.cY!==a.cY||r.hl!==a.hl}}}else r=!1
+r=r.cY!==a.cY||r.hm!==a.hm}}}else r=!1
 if(r){s=m.Q
 r=s.e
 r===$&&A.c()
@@ -121155,7 +121162,7 @@ q.toString
 n.a4t(B.lh,new A.u(p,s),q,m)}},
 Vz(a,b){var s,r,q,p,o,n=this,m=n.a.c
 m.fZ(0,m.a.ZV(B.ao))
-if(b)switch(a.a){case 0:case 1:case 2:case 3:case 4:case 5:case 8:case 9:case 10:case 11:case 12:n.a.d.hq()
+if(b)switch(a.a){case 0:case 1:case 2:case 3:case 4:case 5:case 8:case 9:case 10:case 11:case 12:n.a.d.he()
 break
 case 6:m=n.a.d
 p=m.e
@@ -121320,7 +121327,7 @@ o=p.p2
 n=p.cY
 m=p.x1
 $.zu()
-p=p.hl
+p=p.hm
 l=$.aK()
 k=new A.d2(!1,l)
 j=new A.d2(!1,l)
@@ -121331,7 +121338,7 @@ q.df.ak(0,r)
 q.cl.ak(0,r)
 i.YM()
 r=i.gaGU()
-l=A.bPn(h.x,s,g,n,h.cy,B.dk,j,0,0,p,r,i.gaJu(),i.gaJw(),m,r,i.gaJy(),i.gaJA(),o,h,B.a05,h.cx,B.dk,k,h.CW,q.GV,l)
+l=A.bPn(h.x,s,g,n,h.cy,B.dk,j,0,0,p,r,i.gaJu(),i.gaJw(),m,r,i.gaJy(),i.gaJA(),o,h,B.a06,h.cx,B.dk,k,h.CW,q.GV,l)
 i.e!==$&&A.bb()
 i.e=l
 return i},
@@ -121451,10 +121458,10 @@ n=A.bO("while calling onChanged")
 A.dV(new A.c_(p,o,"widgets",n,null,!1))}--f.R8
 f.YH()},
 aFQ(a,b){return this.a9h(a,b,!1)},
-aAu(a,b,c){switch(A.au().a){case 2:case 4:if(c===B.cT||c===B.be)this.nt(b.ghk())
+aAu(a,b,c){switch(A.au().a){case 2:case 4:if(c===B.cT||c===B.be)this.nt(b.ghl())
 break
 case 3:case 5:case 1:case 0:if(c===B.be)if(a.c!==b.c)this.nt(b.gtq())
-else if(a.d!==b.d)this.nt(b.ghk())
+else if(a.d!==b.d)this.nt(b.ghl())
 break}},
 aNq(){var s,r,q=this,p=q.a.go
 p=p.ghy(p)
@@ -121638,7 +121645,7 @@ this.Vl()
 if(a){s=this.Q
 if(s!=null){s=s.e
 s===$&&A.c()
-s.hn()}}else{s=this.Q
+s.ho()}}else{s=this.Q
 r=s==null
 if(r)q=null
 else{q=s.e
@@ -121681,7 +121688,7 @@ r.gN9()
 s=r.K
 if(s===-1)return
 r.P(new A.aBO(r))},
-ba8(a){var s,r,q=B.a5q.i(0,a)
+ba8(a){var s,r,q=B.a5r.i(0,a)
 if(q!=null){s=$.a7.ae$.d.c
 r=s==null?null:s.e
 if(r!=null)A.rZ(r,q,t.vz)}},
@@ -121803,7 +121810,7 @@ m=A.Y(r+o,q,n)
 if(m===r)return
 l.gjT().eA(m)},
 aXl(a){var s=a.b
-this.nt(s.ghk())
+this.nt(s.ghl())
 this.kj(a.a.mg(s),a.c)},
 gagf(){var s,r=this,q=r.aG
 if(q===$){s=A.b([],t.ot)
@@ -121841,9 +121848,9 @@ o=A.cz(c4,B.nd)
 l=o==null?c2:o.fr
 c3.a=null
 B:{k=c1.a.p3
-if(B.acv.k(0,k)){c3.a=B.aa2
-break B}if(B.rh.k(0,k)){c3.a=B.aa1
-break B}if(B.rg.k(0,k)){c3.a=B.aa3
+if(B.acw.k(0,k)){c3.a=B.aa3
+break B}if(B.rh.k(0,k)){c3.a=B.aa2
+break B}if(B.rg.k(0,k)){c3.a=B.aa4
 break B}c3.a=B.HS}o=c1.gjn()
 j=c1.aW
 if(j===$){i=t.ot
@@ -121923,7 +121930,7 @@ b9=new A.ah0(new A.c2(b8,g)).dE(b9)
 i=A.b([],i)
 b8=c1.c
 b8.toString
-c0=A.B([B.aie,new A.Or(!1,new A.c2(h,g)),B.aiM,j,B.aiY,e,B.JL,new A.Ok(!0,new A.c2(f,g)),B.JM,new A.fA(c1.gaKL(),new A.c2(d,g),t.OY),B.ail,a0,B.aj2,a2,B.aim,a4,B.JN,c,B.JT,a6,B.aj8,a8,B.JX,a5,B.JS,b1,B.aiS,a9,B.aiK,a7,B.JU,b3,B.JW,b0,B.aj4,a,B.rs,new A.fA(c1.gaEC(),new A.c2(b,g),t.fn),B.JI,a1,B.JJ,b4,B.JO,b2,B.JK,b5,B.aiH,b6,B.aiR,a3,B.aiq,b9,B.aid,new A.ah1(new A.c2(i,g)).dE(b8)],t.Q,t.od)
+c0=A.B([B.aif,new A.Or(!1,new A.c2(h,g)),B.aiN,j,B.aiZ,e,B.JL,new A.Ok(!0,new A.c2(f,g)),B.JM,new A.fA(c1.gaKL(),new A.c2(d,g),t.OY),B.aim,a0,B.aj3,a2,B.ain,a4,B.JN,c,B.JT,a6,B.aj9,a8,B.JX,a5,B.JS,b1,B.aiT,a9,B.aiL,a7,B.JU,b3,B.JW,b0,B.aj5,a,B.rs,new A.fA(c1.gaEC(),new A.c2(b,g),t.fn),B.JI,a1,B.JJ,b4,B.JO,b2,B.JK,b5,B.aiI,b6,B.aiS,a3,B.air,b9,B.aie,new A.ah1(new A.c2(i,g)).dE(b8)],t.Q,t.od)
 c1.aW!==$&&A.bn()
 c1.aW=c0
 j=c0}return new A.aft(c1.gaBS(),o,A.w_(j,new A.fz(new A.aBt(c3,c1,r,n,m,l,s),c2)),c2)},
@@ -121932,7 +121939,7 @@ if(g.f){s=g.c.a.a
 s=B.b.aB(g.e,s.length)
 $.a7.toString
 $.bI()
-r=B.aae.u(0,A.au())
+r=B.aaf.u(0,A.au())
 if(r){q=i.y1>0?i.y2:h
 if(q!=null&&q>=0&&q<s.length){g=q+1
 s=B.b.kX(s,q,g,B.b.X(i.a.c.a.a,q,g))}}g=i.fr
@@ -121941,8 +121948,8 @@ return A.eB(h,h,h,h,h,h,h,h,h,g,s)}p=i.K
 if(p>=0&&p<=g.c.a.a.length){o=A.b([],t.s6)
 g=i.a
 n=g.c.a.a.length-i.K
-if(g.k2!==1){o.push(B.ar_)
-o.push(new A.Ef(new A.a1(i.gaK().gF(0).a,0),B.U,B.hs,h,h))}else o.push(B.aqZ)
+if(g.k2!==1){o.push(B.ar1)
+o.push(new A.Ef(new A.a1(i.gaK().gF(0).a,0),B.U,B.hs,h,h))}else o.push(B.ar0)
 g=i.fr
 g===$&&A.c()
 p=A.b([A.eB(h,h,h,h,h,h,h,h,h,h,B.b.X(i.a.c.a.a,0,n))],t.VO)
@@ -121970,14 +121977,14 @@ $0(){},
 $S:0}
 A.aBG.prototype={
 $1(a){var s=this.a
-if(s.c!=null)s.nt(s.a.c.a.b.ghk())},
+if(s.c!=null)s.nt(s.a.c.a.b.ghl())},
 $S:4}
 A.aBc.prototype={
 $2(a,b){A.dV(new A.c_(a,b,"widgets library",A.bO(this.a),null,!1))},
 $S:12}
 A.aBb.prototype={
 $1(a){var s=this.a
-if(s.c!=null)s.nt(s.a.c.a.b.ghk())},
+if(s.c!=null)s.nt(s.a.c.a.b.ghl())},
 $S:4}
 A.aBi.prototype={
 $1(a){},
@@ -122093,7 +122100,7 @@ r=h.Q
 if((r==null?null:r.c)!=null){o=r.c.Cn(q).b
 n=Math.max(o,48)
 p=Math.max(o/2-h.Q.c.Cm(B.dk,q).b+n/2,p)}m=h.a.cg.ZU(p)
-l=h.a9C(s.oc(s.O.ghk()))
+l=h.a9C(s.oc(s.O.ghl()))
 k=h.a.c.a.b
 if(k.a===k.b)j=l.b
 else{i=s.uU(k)
@@ -122173,7 +122180,7 @@ s=s.k2!==1?B.c4:B.dm
 o=h.gjT()
 n=h.a
 m=n.dO
-if(m==null)m=n.k2===1&&A.au()===B.a4?B.aqH:i
+if(m==null)m=n.k2===1&&A.au()===B.a4?B.aqJ:i
 l=n.cY
 n=n.dV
 k=A.px(a).aip(!1,h.a.k2!==1)
@@ -122460,7 +122467,7 @@ i=g.a
 s=g.b
 r=i===s
 if(!r&&!k.f&&f){b.toString
-return A.rZ(b,new A.od(h,A.km(B.t,a.a?s:i),B.bd),t.gU)}q=g.ghk()
+return A.rZ(b,new A.od(h,A.km(B.t,a.a?s:i),B.bd),t.gU)}q=g.ghl()
 if(a.d){i=a.a
 h=!1
 if(i){s=j.gaK().Cq(q).b
@@ -122503,7 +122510,7 @@ r=j.f
 if((r==null?null:r.gci())===!1)j.r=j.f=null
 q=j.f
 if(q==null){r=h.gaK()
-p=r.O.ghk()
+p=r.O.ghl()
 o=r.aT.Af()
 n=r.aLO(p,o)
 q=new A.b4a(n.b,n.a,p,o,r,A.t(t.S,t.tO))}if(a instanceof A.tK){r=a.a
@@ -122551,12 +122558,12 @@ gC(a){return this.ay}}
 A.ah0.prototype={
 ed(a,b){var s
 switch(A.au().a){case 0:case 2:case 1:s=a.b
-switch(s.gcj(s).a){case 0:a.a.hq()
+switch(s.gcj(s).a){case 0:a.a.he()
 break
-case 1:case 2:case 3:case 5:a.a.hq()
+case 1:case 2:case 3:case 5:a.a.he()
 break
 case 4:throw A.j(A.e3("Unexpected pointer down event for trackpad"))}break
-case 3:case 4:case 5:a.a.hq()
+case 3:case 4:case 5:a.a.he()
 break}},
 f4(a){return this.ed(a,null)}}
 A.ah1.prototype={
@@ -122579,7 +122586,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.agZ.prototype={}
@@ -122692,7 +122699,7 @@ q=s==null?o:s.gkN()
 r.ay=q}if(q==null){s=p.w
 r=s==null?o:s.b}else r=q}r.os(!0)
 break}},
-hq(){return this.Sl(B.ajc)},
+he(){return this.Sl(B.ajd)},
 b_M(){if(!this.z)return!1
 this.z=!1
 return!0},
@@ -123136,20 +123143,20 @@ r=s==null
 if(r){q=b?l.a9_(a,!1):l.VB(a,!0,!1)
 return l.za(q,b?B.e2:B.e3,b)}if(r)s=k
 p=A.bF7(k,s)
-if(b&&s===B.c.gaa(p))switch(k.fr.a){case 1:s.hq()
+if(b&&s===B.c.gaa(p))switch(k.fr.a){case 1:s.he()
 return!1
 case 2:o=k.gjz()
-if(o!=null&&o!==$.a7.ae$.d.b){s.hq()
+if(o!=null&&o!==$.a7.ae$.d.b){s.he()
 k=o.e
 k.toString
 A.wG(k).z_(o,!0)
 k=s.gjz()
 return(k==null?null:A.p5(k.fy))!==s}return l.za(B.c.gU(p),B.e2,b)
 case 0:return l.za(B.c.gU(p),B.e2,b)
-case 3:return!1}if(!b&&s===B.c.gU(p))switch(k.fr.a){case 1:s.hq()
+case 3:return!1}if(!b&&s===B.c.gU(p))switch(k.fr.a){case 1:s.he()
 return!1
 case 2:o=k.gjz()
-if(o!=null&&o!==$.a7.ae$.d.b){s.hq()
+if(o!=null&&o!==$.a7.ae$.d.b){s.he()
 k=o.e
 k.toString
 A.wG(k).z_(o,!1)
@@ -123178,13 +123185,13 @@ A.JE.prototype={}
 A.agz.prototype={}
 A.aAi.prototype={
 ajR(a,b){var s,r,q={},p=a.gkN().gxl().f7(0),o=q.a=q.b=null
-switch(b){case B.e9:o=B.a95
+switch(b){case B.e9:o=B.a96
 break
-case B.eb:o=B.a96
+case B.eb:o=B.a97
 break
-case B.ec:o=B.a8Z
+case B.ec:o=B.a9_
 break
-case B.ea:o=B.a90
+case B.ea:o=B.a91
 break}s=o.a
 q.b=s
 r=o.b
@@ -123257,7 +123264,7 @@ abN(a,b,c,d){var s,r,q,p,o=this
 if(d==null){s=a.gkN()
 s.toString
 r=s}else r=d
-switch(r.fx.a){case 1:b.hq()
+switch(r.fx.a){case 1:b.he()
 return!1
 case 2:q=r.gjz()
 if(q!=null&&q!==$.a7.ae$.d.b){o.ro(r)
@@ -123496,7 +123503,7 @@ A.bY.prototype={
 j(a){var s,r=this,q=r.a
 if(q!=null)s=" "+q
 else s=""
-if(A.K(r)===B.aiz)return"[GlobalKey#"+A.cM(r)+s+"]"
+if(A.K(r)===B.aiA)return"[GlobalKey#"+A.cM(r)+s+"]"
 return"["+("<optimized out>#"+A.cM(r))+s+"]"}}
 A.jx.prototype={
 k(a,b){if(b==null)return!1
@@ -123972,7 +123979,7 @@ this.$1(s)}},
 $S:34}
 A.kO.prototype={
 YA(){var s=this,r=s.a,q=r==null?null:r.y
-if(q==null)q=B.a7q
+if(q==null)q=B.a7r
 r=s.e
 r.toString
 s.y=q.baN(0,A.K(r),s)},
@@ -124120,7 +124127,7 @@ H(a){var s=this,r=A.t(t.Q,t.xR),q=A.cz(a,B.jY),p=q==null?null:q.cx,o=A.px(a)
 q=!0
 if(s.d==null)if(s.e==null)if(s.f==null)if(s.w==null)if(s.x==null)if(s.y==null)if(s.z==null)q=s.Q!=null
 if(q)r.l(0,B.jQ,new A.dK(new A.aFP(s),new A.aFQ(s,p),t.UN))
-if(s.ch!=null)r.l(0,B.aio,new A.dK(new A.aFR(s),new A.aFV(s,p),t.uB))
+if(s.ch!=null)r.l(0,B.aip,new A.dK(new A.aFR(s),new A.aFV(s,p),t.uB))
 q=!0
 if(s.db==null)q=s.fr!=null
 if(q)r.l(0,B.mS,new A.dK(new A.aFW(s),new A.aFX(s,p),t.jn))
@@ -124131,7 +124138,7 @@ if(s.xr!=null||s.y1!=null||s.y2!=null||s.aq!=null||s.bt!=null)r.l(0,B.rv,new A.d
 q=!0
 if(s.a0==null)if(s.af==null)q=s.an!=null
 if(q)r.l(0,B.mT,new A.dK(new A.aG1(s),new A.aFS(s,o,a,p),t.YC))
-if(s.aO!=null||s.aG!=null||s.aW!=null)r.l(0,B.aiO,new A.dK(new A.aFT(s),new A.aFU(s,p),t.lG))
+if(s.aO!=null||s.aG!=null||s.aW!=null)r.l(0,B.aiP,new A.dK(new A.aFT(s),new A.aFU(s,p),t.lG))
 return new A.mK(s.c,r,s.dv,s.dO,null)}}
 A.aFP.prototype={
 $0(){return A.Iz(this.a,-1,null)},
@@ -124238,7 +124245,7 @@ a.db=s.dg
 a.c=null},
 $S:889}
 A.mK.prototype={
-a1(){return new A.Hs(B.a5i)}}
+a1(){return new A.Hs(B.a5j)}}
 A.Hs.prototype={
 aA(){var s,r=this
 r.aM()
@@ -124767,7 +124774,7 @@ if(r!=null)f.push(new A.qI("FILL",r))
 if(q!=null)f.push(new A.qI("wght",q))
 if(p!=null)f.push(new A.qI("GRAD",p))
 if(o!=null)f.push(new A.qI("opsz",o))
-k=A.bFY(i,i,i,B.acw,i,i,!0,i,A.eB(i,i,i,i,i,i,i,i,i,A.bi(i,i,l,i,i,i,i,i,n.b,i,i,s,i,f,i,i,1,!1,B.a_,i,i,i,n.c,g.w,i,i),A.dW(n.a)),B.a8,h,i,B.aQ,B.am)
+k=A.bFY(i,i,i,B.acx,i,i,!0,i,A.eB(i,i,i,i,i,i,i,i,i,A.bi(i,i,l,i,i,i,i,i,n.b,i,i,s,i,f,i,i,1,!1,B.a_,i,i,i,n.c,g.w,i,i),A.dW(n.a)),B.a8,h,i,B.aQ,B.am)
 if(n.d)switch(h.a){case 0:f=new A.bD(new Float64Array(16))
 f.fa()
 f.oe(-1,1,1,1)
@@ -124780,7 +124787,7 @@ if(b==null)return!1
 if(J.ak(b)!==A.K(s))return!1
 return b instanceof A.bh&&b.a===s.a&&b.b==s.b&&b.c==s.c&&b.d===s.d&&A.ew(null,null)},
 gA(a){var s=this
-return A.a5(s.a,s.b,s.c,s.d,A.cx(B.a0A),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.a5(s.a,s.b,s.c,s.d,A.cx(B.a0B),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){return"IconData(U+"+B.b.cN(B.d.iB(this.a,16).toUpperCase(),5,"0")+")"}}
 A.wO.prototype={
 cZ(a){return!this.w.k(0,a.w)},
@@ -125348,7 +125355,7 @@ s.eS(-q,-p,0,1)
 return s},
 L9(a){var s
 A:{s=!0
-if(B.apU===a){s=!1
+if(B.apW===a){s=!1
 break A}if(B.n7===a){this.a.toString
 break A}if(B.jW===a||a==null){this.a.toString
 break A}s=null}return s},
@@ -125576,7 +125583,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.nl.prototype={
@@ -125788,13 +125795,13 @@ afV(a){var s=this,r=s.ad9(a,s.d)
 if(!r.k(0,s.f)){s.f=r
 s.au()}},
 ad9(a,b){return A.cft(a,b)},
-j(a){return B.aiB.j(0)}}
+j(a){return B.aiC.j(0)}}
 A.aiU.prototype={}
 A.GH.prototype={
 cZ(a){return!1}}
 A.aJH.prototype={
 $1(a){if(a instanceof A.bG&&this.b.b(a.ga2())){this.a.a=a
-return!1}return A.K(a.gcn())!==B.aiC},
+return!1}return A.K(a.gcn())!==B.aiD},
 $S:76}
 A.nL.prototype={
 k(a,b){var s=this
@@ -125838,7 +125845,7 @@ return A.a(t.r.b(o)?o:A.bB(o,t.H),$async$JB)
 case 4:case 3:return A.f(null,r)}})
 return A.h($async$JB,r)},
 Hc(a){return this.b5H(a)},
-hn(){return this.Hc(!0)},
+ho(){return this.Hc(!0)},
 b5H(a){var s=0,r=A.i(t.H),q,p=this,o
 var $async$Hc=A.d(function(b,c){if(b===1)return A.e(c,r)
 for(;;)switch(s){case 0:if(p.b==null){s=1
@@ -125870,7 +125877,7 @@ H(a){var s=this,r=null,q=s.d,p=q.c,o=q.a,n=s.w
 return new A.eT(B.y,r,B.bt,B.h,A.b([A.c0c(A.pg(new A.aj_(s.f,s.r,A.T6(s.c,n),r),o),p),A.lC(A.pg(A.axx(A.iC(A.T6(r,n),new A.lQ(r,r,r,q.b,p),B.bA),s.e,new A.ajD(p,r)),o),!0,r)],t.p),r)}}
 A.ajD.prototype={
 Ck(a){var s=A.eq($.aW().r)
-s.sPR(B.a7p)
+s.sPR(B.a7q)
 s.bs(new A.mc(B.hv))
 s.bs(new A.a28(this.b.aqd(new A.Q(0,0,0+a.a,0+a.b)),B.m,null))
 return s},
@@ -126113,7 +126120,7 @@ b=r?a1:a3.fr
 if(b==null)b=a2.b.c.z
 a3=r?a1:a3.fx
 if(a3==null)a3=a2.b.c.Q
-a=new A.Qn(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.FU(a1),B.a0s,e===!0,d,c,b,a3,A.c4b(a2))
+a=new A.Qn(a4,s,q,p,m,o,n,a5,g===!0,a6,a7,i,h,l,k,j,f,new A.FU(a1),B.a0t,e===!0,d,c,b,a3,A.c4b(a2))
 if(!a.k(0,a0.e))a0.P(new A.bjy(a0,a))},
 aiT(){if(this.d==null)this.zI()},
 a_v(){this.zI()},
@@ -126170,7 +126177,7 @@ j=!r||!i.f
 return A.c_N(new A.tG(j,new A.ajl(k,q,h),h))}}
 A.aMN.prototype={
 $0(){if(this.a.d)A.bO3(this.b)
-else A.TR(B.ac4)},
+else A.TR(B.ac5)},
 $S:0}
 A.a2h.prototype={
 H(a){var s=this,r=t.Bs.a(s.c)
@@ -126187,7 +126194,7 @@ ZN(){var s=t.S
 return new A.Jg(B.bS,-1,-1,B.eV,A.t(s,t.SP),A.eg(s),null,null,A.zq(),A.t(s,t.Au))},
 al0(a){a.K=this.a}}
 A.ajl.prototype={
-H(a){return new A.mK(this.c,A.B([B.aj_,new A.aev(this.d)],t.Q,t.xR),B.w,!1,null)}}
+H(a){return new A.mK(this.c,A.B([B.aj0,new A.aev(this.d)],t.Q,t.xR),B.w,!1,null)}}
 A.a8f.prototype={
 H(a){var s=this,r=a.aN(t.u).w,q=A.b([],t.p),p=s.c
 if(p!=null)q.push(A.bFx(p,B.ni))
@@ -126368,7 +126375,7 @@ q=c.CW.x
 q===$&&A.c()
 s.sC(0,q)}n.avi(c)
 p.d=B.k1}if(a)n.wd(null)
-s=o===B.aqX||o===B.Lv
+s=o===B.aqZ||o===B.Lv
 q=b.w
 if(s){q.iL(0,new A.XL(n,d))
 if(d!=null&&d.c instanceof A.ij){t.sd.a(d.c)
@@ -126382,7 +126389,7 @@ r.aMr()
 s.f=new A.zh(new ($.a1A())(a))
 if(s.w!=null)a.f.a.ah(0,new A.bp2(s),t.P).dd(new A.bp3())},
 b4V(a,b){var s,r=this
-r.d=B.aqT
+r.d=B.aqV
 s=r.a
 if((s.e.a.a&30)!==0)return!0
 if(!s.oU(r.y)){r.d=B.k1
@@ -126398,11 +126405,11 @@ b_B(a,b,c,d){var s=this
 if(s.d.a>=10)return
 s.z=!0
 s.y=b
-s.d=B.aqY
+s.d=B.ar_
 s.x=!1},
 ahV(a,b,c,d){return this.b_B(0,b,c,d,t.z)},
 m(){var s,r,q,p,o,n,m,l=this,k={}
-l.d=B.aqV
+l.d=B.aqX
 s=l.a
 r=s.r
 q=new A.bp0()
@@ -126708,7 +126715,7 @@ a=!0
 switch(p.d.a){case 1:a0=b0.rJ(r-1,A.rN())
 a1=a0>=0?q[a0]:b1
 a1=a1==null?b1:a1.a
-p.d=B.aqW
+p.d=B.aqY
 g.iL(0,new A.Kl(p.a,a1))
 continue A
 case 2:if(d||e==null){a1=p.a
@@ -126769,14 +126776,14 @@ a1=a1.e.a
 if((a1.a&30)!==0)A.Z(A.U("Future already completed"))
 a1.ks(a2)
 p.y=null
-p.d=B.aqS
+p.d=B.aqU
 continue A
 case 10:if(!c&&p.a.b!=null){if(f!=null)p.Q_(f)
 f=b1}a0=b0.rJ(r,A.a1a())
 a1=a0>=0?q[a0]:b1
 a1=a1==null?b1:a1.a
 a2=p.a
-if(a2.b===b0)p.d=B.aqU
+if(a2.b===b0)p.d=B.aqW
 else p.d=B.nf
 if(p.z)m.iL(0,new A.XK(a2,a1))
 continue A
@@ -126940,7 +126947,7 @@ H(a){var s,r,q=this,p=null,o=q.gaIY(),n=A.wG(a),m=q.cX$,l=q.d
 l===$&&A.c()
 s=q.a.ay
 if(l.ga4()==null){r=q.ga6x()
-r=J.u5(r.slice(0),A.ab(r).c)}else r=B.a0r
+r=J.u5(r.slice(0),A.ab(r).c)}else r=B.a0s
 return new A.B5(p,new A.fQ(new A.aNA(q,a),A.pb(B.bC,A.bKG(!1,A.aDD(A.nF(!0,p,A.ada(m,new A.H5(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n)),p,o,q.gaMV(),p,p,p,o),p,t.w3),p)}}
 A.aNv.prototype={
 $1(a){var s=this.a.c
@@ -126980,7 +126987,7 @@ if(s!=null)s.sagx(!0)},
 $S:0}
 A.aNA.prototype={
 $1(a){if(a.a||!this.a.hW())return!1
-this.b.fP(B.a6_)
+this.b.fP(B.a60)
 return!0},
 $S:299}
 A.Zf.prototype={
@@ -127087,7 +127094,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.XN.prototype={
@@ -127527,8 +127534,8 @@ A.a8I.prototype={
 JA(a){var s=this.a,r=$.bFL+1
 if(s!=null){$.bFL=r
 s.asr(0,r)}else this.b=$.bFL=r},
-hn(){var s=this.a
-if(s!=null)s.hn()
+ho(){var s=this.a
+if(s!=null)s.ho()
 else this.b=null},
 ga1c(){var s=this.a
 return s!=null?s.d!=null:this.b!=null},
@@ -127572,7 +127579,7 @@ this.f=null
 this.av()},
 asr(a,b){this.P(new A.bl2(this,b))
 this.f=null},
-hn(){this.P(new A.bl1(this))
+ho(){this.P(new A.bl1(this))
 this.f=null},
 H(a){var s,r,q,p,o,n=this,m=null,l=n.d
 if(l==null)return new A.Kp(m,A.dr(m,n.a.e,!1,m,m,!1,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,n),m,m)
@@ -127587,7 +127594,7 @@ return new A.Kp(new A.ags(n,A.k5(new A.fz(q.d,m),o),m),A.dr(m,q.e,!1,m,m,!1,!1,m
 A.bl0.prototype={
 $0(){var s=this.a.c
 s.toString
-return A.cbC(s,this.b===B.a7d)},
+return A.cbC(s,this.b===B.a7e)},
 $S:925}
 A.bl2.prototype={
 $0(){this.a.d=this.b},
@@ -127805,7 +127812,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.aqB.prototype={}
@@ -127920,7 +127927,7 @@ r===$&&A.c()
 r.e=A.bZ(0,B.e.b3(0.15+l*0.02),0)
 r.p7(0,0)
 n.at=0.5
-n.a=B.apV}else{q=a.d
+n.a=B.apX}else{q=a.d
 if(q!=null){p=a.b.ga2()
 p.toString
 t.x.a(p)
@@ -128111,7 +128118,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.a_d.prototype={
@@ -128318,7 +128325,7 @@ this.a.toString
 return s}},
 H(a){var s,r,q=this,p=null,o=q.aG7(a),n=q.a.x
 if(n==null)n=p
-n=new A.QX(B.a7n.nu(n))
+n=new A.QX(B.a7o.nu(n))
 n=new A.WP(!1,p).nu(n)
 s=q.e
 s===$&&A.c()
@@ -128491,7 +128498,7 @@ break}if(m.a==null)m.a=s.gU(p)
 n.amu(l.mq(0,new A.bmp(m,n)).gIe())
 m.a.eg()},
 H(a){var s=this,r=null,q=s.gacC(),p=s.a,o=p.c,n=s.$ti
-return A.dr(r,A.bPy(A.aDD(new A.KC(s,o,p.e,r,n.h("KC<1>")),new A.ZQ(s.f,o,A.t(t.l5,t.UJ),A.bU2(),n.h("ZQ<1>"))),r,q),!0,r,r,!1,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.aa5,r,r,r,r,r,r,r,r)},
+return A.dr(r,A.bPy(A.aDD(new A.KC(s,o,p.e,r,n.h("KC<1>")),new A.ZQ(s.f,o,A.t(t.l5,t.UJ),A.bU2(),n.h("ZQ<1>"))),r,q),!0,r,r,!1,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.aa6,r,r,r,r,r,r,r,r)},
 amu(a){return this.gb8y().$1(a)}}
 A.bmq.prototype={
 $1(a){return a.gcT(a).gbR()},
@@ -128590,7 +128597,7 @@ o=p
 n=!0}else{o=k
 n=!1
 p=!1}if(p){B.c.D($.Ce,l)
-l.d.hn()
+l.d.ho()
 break A}p=s
 if(p){m=!1===(n?o:r)
 p=m}else p=!1
@@ -129267,7 +129274,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.xL.prototype={
@@ -129843,7 +129850,7 @@ break
 default:s=null}return s},
 $S:939}
 A.Kg.prototype={
-a1(){return new A.pS(A.aDB(!0,B.aj0.j(0)+" Focus Scope",!1),A.mR(null,null),this.$ti.h("pS<1>"))}}
+a1(){return new A.pS(A.aDB(!0,B.aj1.j(0)+" Focus Scope",!1),A.mR(null,null),this.$ti.h("pS<1>"))}}
 A.pS.prototype={
 aA(){var s,r,q=this
 q.aM()
@@ -129897,7 +129904,7 @@ $1(a){var s,r=null,q=A.B([B.JM,new A.agA(a,new A.c2(A.b([],t.ot),t.wS))],t.Q,t.o
 o===$&&A.c()
 s=p.d
 if(s==null)s=p.d=new A.o3(new A.fz(new A.bjS(p),r),p.a.c.ry)
-return A.w_(q,new A.Hk(p.r,B.V,B.aak,A.bRc(new A.o3(new A.nK(new A.bjT(p),s,o,r),r),p.f,!0),r))},
+return A.w_(q,new A.Hk(p.r,B.V,B.aal,A.bRc(new A.o3(new A.nK(new A.bjT(p),s,o,r),r),p.f,!0),r))},
 $S:941}
 A.bjT.prototype={
 $2(a,b){var s,r,q=this.a,p=q.a.c,o=p.p3
@@ -130026,9 +130033,9 @@ t.o.a(s)
 o=new A.a2h(n.gvV(),n.gFW(),n.gJe(),new A.aN(s,new A.jO(new A.h0(B.b3),new A.k0(r,q),p),p.h("aN<ba.T>")),m)}else{s=n.gvV()
 r=n.gFW()
 o=A.bNU(n.gJe(),m,m,s,m,r,m)}o=A.lC(o,!n.p3.gbW(0).gwS(),m)
-return n.gJe()&&n.gvV()?A.dr(m,o,!1,m,m,!1,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.a7b,m,m,m,m,m):o},
+return n.gJe()&&n.gvV()?A.dr(m,o,!1,m,m,!1,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.a7c,m,m,m,m,m):o},
 aAF(a){var s=this,r=null,q=s.x2
-return q==null?s.x2=A.dr(r,new A.Kg(s,s.rx,A.r(s).h("Kg<1>")),!1,r,r,!1,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.a7a,r,r,r,r,r):q},
+return q==null?s.x2=A.dr(r,new A.Kg(s,s.rx,A.r(s).h("Kg<1>")),!1,r,r,!1,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,B.a7b,r,r,r,r,r):q},
 j(a){return"ModalRoute("+this.c.j(0)+", animation: "+A.p(this.ch)+")"}}
 A.aMQ.prototype={
 $0(){this.a.p2=this.b},
@@ -130881,13 +130888,13 @@ return!1}return!0},
 FU(){this.fr.FU()
 this.YL()},
 YL(){var s,r,q,p,o,n,m=this,l=m.w
-switch(l.a.c.a){case 0:s=B.a94
+switch(l.a.c.a){case 0:s=B.a95
 break
-case 2:s=B.a91
+case 2:s=B.a92
 break
-case 3:s=B.a8Y
+case 3:s=B.a8Z
 break
-case 1:s=B.a8W
+case 1:s=B.a8X
 break
 default:s=null}r=s.a
 q=null
@@ -131184,7 +131191,7 @@ $S:948}
 A.aWX.prototype={
 $1(a){var s,r=A.AR(this.a)
 if(a.d!=null&&!r.gmu()&&r.gbR()){s=$.a7.ae$.d.c
-if(s!=null)s.hq()}return!1},
+if(s!=null)s.he()}return!1},
 $S:236}
 A.a4c.prototype={
 aho(a){return this.dx}}
@@ -131585,7 +131592,7 @@ t.x.a(o)
 s=o.ei(a)
 if(!this.go){r=s.b
 if(r<0||s.a<0)return A.c9(o.b0(0,null),B.m)
-if(r>o.gF(0).b||s.a>o.gF(0).a)return B.a6X}q=A.arB(p)
+if(r>o.gF(0).b||s.a>o.gF(0).a)return B.a6Y}q=A.arB(p)
 return A.c9(o.b0(0,null),new A.u(s.a+q.a,s.b+q.b))},
 Yx(a,b){var s,r,q,p=this,o=p.dx,n=A.arB(o)
 o=o.c.ga2()
@@ -131843,7 +131850,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.Zq.prototype={
@@ -132068,7 +132075,7 @@ s=this.CW
 return r?s.gdZ(0)+s.ge2(0):s.gj7()},
 gEz(){var s,r=this.gXF()
 A:{if(B.HE===r||B.HF===r){s=this.CW.b
-break A}if(B.a9B===r||B.HG===r){s=this.CW.a
+break A}if(B.a9C===r||B.HG===r){s=this.CW.a
 break A}s=null}return s},
 gXF(){var s=this.dy
 if(s===B.c4||s===B.cG)return this.e===B.aa?B.HF:B.HE
@@ -132615,10 +132622,10 @@ r=B.c.gaZ(q.gm0().f).z
 r.toString
 r=s-r>1e-10
 s=r}}if(!s)return p
-switch(A.bE(B.c.gaZ(q.gm0().f).gjX()).a){case 0:p.l(0,B.aj6,new A.dK(new A.aRz(q),q.gaaQ(),t.lh))
+switch(A.bE(B.c.gaZ(q.gm0().f).gjX()).a){case 0:p.l(0,B.aj7,new A.dK(new A.aRz(q),q.gaaQ(),t.lh))
 break
-case 1:p.l(0,B.aiZ,new A.dK(new A.aRA(q),q.gaaQ(),t.Pw))
-break}p.l(0,B.aj1,new A.dK(new A.aRB(q),new A.aRC(q),t.EJ))
+case 1:p.l(0,B.aj_,new A.dK(new A.aRA(q),q.gaaQ(),t.Pw))
+break}p.l(0,B.aj2,new A.dK(new A.aRB(q),new A.aRC(q),t.EJ))
 return p},
 b6U(a,b,c){var s,r=this.z
 if($.a7.ae$.x.i(0,r)==null)return!1
@@ -132744,11 +132751,11 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.HU.prototype={
-a1(){return new A.rh(A.t(t.Q,t.xR),new A.u6(),new A.u6(),new A.u6(),A.c7P(),A.bM7(),A.b([],t.RW),new A.an3(B.HH,$.aK()),B.ack)}}
+a1(){return new A.rh(A.t(t.Q,t.xR),new A.u6(),new A.u6(),new A.u6(),A.c7P(),A.bM7(),A.b([],t.RW),new A.an3(B.HH,$.aK()),B.acl)}}
 A.rh.prototype={
 gWv(){var s=this.y.at
 return s.a!=null||s.b!=null},
@@ -132798,12 +132805,12 @@ r.nk()}}$.zu()
 s=A.au()!==B.an&&A.au()!==B.a4
 if(s)$.aP6=r.y},
 aXt(){var s,r=this,q=r.y.at.c
-A:{if(B.jp===q||B.HN===q){s=B.acB
-break A}if(B.df===q){s=B.acA
+A:{if(B.jp===q||B.HN===q){s=B.acC
+break A}if(B.df===q){s=B.acB
 break A}s=null}r.k2=new A.cU("__",s,B.ao)
 if(r.gWv())r.aTL()
 else{s=r.f
-if(s!=null){s.hn()
+if(s!=null){s.ho()
 s=s.b
 s.ar$=$.aK()
 s.ad$=0}r.f=null}},
@@ -133244,7 +133251,7 @@ q.k1=null
 if(q.y.at.c===B.df)return
 s=q.z
 if(s!=null){r=q.a8j(b)
-s.a.e.hZ(new A.a63(b,r,a,B.a9L))}q.hR()
+s.a.e.hZ(new A.a63(b,r,a,B.a9M))}q.hR()
 s=q.ch
 s.a=B.aO
 s.au()
@@ -133294,7 +133301,7 @@ eN(){return this.j6(!0)},
 v1(a){var s,r=this
 r.Ac()
 s=r.z
-if(s!=null)s.a.e.hZ(B.a9H)
+if(s!=null)s.a.e.hZ(B.a9I)
 if(a===B.aW){r.vI()
 r.q5()}r.hR()
 s=r.ch
@@ -133324,7 +133331,7 @@ q.ad$=0
 q=r.f
 if(q!=null)q.wG()
 q=r.f
-if(q!=null){q.hn()
+if(q!=null){q.ho()
 q=q.b
 q.ar$=s
 q.ad$=0}r.f=null
@@ -133407,7 +133414,7 @@ a.at=B.eg},
 $S:344}
 A.aXk.prototype={
 $0(){var s=t.mg
-return A.bPX(this.a,A.cJ(new A.aU(B.a2m,new A.aXj(),s),s.h("C.E")))},
+return A.bPX(this.a,A.cJ(new A.aU(B.a2n,new A.aXj(),s),s.h("C.E")))},
 $S:345}
 A.aXj.prototype={
 $1(a){return a!==B.c3},
@@ -133425,7 +133432,7 @@ a.dy=s.gahI()
 a.at=B.eg},
 $S:346}
 A.aXm.prototype={
-$0(){return A.Qg(this.a,B.aah)},
+$0(){return A.Qg(this.a,B.aai)},
 $S:222}
 A.aXn.prototype={
 $1(a){var s=this.a
@@ -133499,7 +133506,7 @@ case 3:return A.f(null,r)}})
 return A.h($async$$0,r)},
 $S:1}
 A.aXs.prototype={
-$1(a){this.a.gvo().hq()},
+$1(a){this.a.gvo().he()},
 $S:47}
 A.XP.prototype={
 ed(a,b){var s=this.b
@@ -133844,7 +133851,7 @@ r.Nq()
 return s.b9()},
 m(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gWo(),p=0;p<s.length;s.length===r||(0,A.z)(s),++p)s[p].Y(0,q)
-o.b=B.a0t
+o.b=B.a0u
 o.y=!1
 o.eV()},
 eI(a,b){return a.hZ(b)},
@@ -134273,7 +134280,7 @@ $S:978}
 A.aZF.prototype={
 $1(a){var s,r=A.AR(this.a)
 if(a.d!=null&&!r.gmu()&&r.gbR()){s=$.a7.ae$.d.c
-if(s!=null)s.hq()}return!1},
+if(s!=null)s.he()}return!1},
 $S:236}
 A.L4.prototype={
 b1(a){var s=new A.Z1(this.e,this.f,this.r,A.aX(),null,new A.bC(),A.aX())
@@ -134849,7 +134856,7 @@ r.d!==$&&A.bb()
 r.d=s},
 m(){var s=this.d
 s===$&&A.c()
-s.hn()
+s.ho()
 s.f=!0
 this.av()},
 H(a){var s,r,q,p,o=this
@@ -135412,7 +135419,7 @@ h.sxF(s.IT(j.r.b))
 h.saob(s.GV)},
 m(){var s,r,q,p=this,o=p.e
 o===$&&A.c()
-o.hn()
+o.ho()
 s=o.b
 r=s.ar$=$.aK()
 s.ad$=0
@@ -135486,7 +135493,7 @@ break
 default:m=null}l.yJ(m)
 q=l.e
 q===$&&A.c()
-q.r0(l.oo(m.ghk(),s,k))},
+q.r0(l.oo(m.ghl(),s,k))},
 aJz(a){var s,r,q,p,o,n,m,l=this,k=l.b
 if(k.y==null)return
 s=a.a
@@ -135534,7 +135541,7 @@ if(m.c>=m.d)return
 break
 default:m=null}q=l.e
 q===$&&A.c()
-q.r0(l.oo(m.ghk().a<m.gtq().a?m.ghk():m.gtq(),s,k))
+q.r0(l.oo(m.ghl().a<m.gtq().a?m.ghl():m.gtq(),s,k))
 l.yJ(m)},
 aGV(a){var s,r,q,p=this,o=p.a
 if(o.e==null)return
@@ -135574,7 +135581,7 @@ else{s=o.ok
 s=s==null?null:s.b}n.JB(0,s,new A.aXD(p),q)},
 wG(){var s=this.c
 if(s.b==null)return
-s.hn()},
+s.ho()},
 sa4T(a){if(this.e===a)return
 this.e=a
 this.dh()},
@@ -135679,8 +135686,8 @@ q=$.to
 if(q===r.p2){q=$.Ak
 if(q!=null)q.dh()}else if(q===r.p3){q=$.Ak
 if(q!=null)q.dh()}}},
-hn(){var s,r=this
-r.c.hn()
+ho(){var s,r=this
+r.c.ho()
 r.akN()
 if(r.p1==null){s=$.to
 s=s===r.p2||s===r.p3}else s=!0
@@ -135816,7 +135823,7 @@ f=0+e.a
 g=0+e.b
 s=new A.Q(0,0,f,g)
 r=s.ga9(0)?s:s.j1(A.xD(s.gbP(),24))
-if(r.ga9(0))q=B.a9o
+if(r.ga9(0))q=B.a9p
 else{f=Math.max((r.c-r.a-f)/2,0)
 g=Math.max((r.d-r.b-g)/2,0)
 q=new A.kY(f,g,f,g)}g=i.a
@@ -136204,7 +136211,7 @@ switch(A.au().a){case 0:case 1:case 2:p.l(0,B.JY,new A.dK(new A.bsr(q),new A.bss
 break
 case 3:case 4:case 5:p.l(0,B.JQ,new A.dK(new A.bst(q),new A.bsu(q),t._T))
 break}s=q.a
-if(s.f!=null||s.r!=null)p.l(0,B.ait,new A.dK(new A.bsv(q),new A.bsw(q),t.C1))
+if(s.f!=null||s.r!=null)p.l(0,B.aiu,new A.dK(new A.bsv(q),new A.bsw(q),t.C1))
 s=q.a
 r=s.dy
 return new A.mK(s.fr,p,r,!0,null)}}
@@ -136390,8 +136397,8 @@ q.toString
 s=A.bQe(q)
 q=r.bJ$
 if(s===q)return
-if(q!=null)q.Y(0,r.ghf())
-s.ak(0,r.ghf())
+if(q!=null)q.Y(0,r.ghg())
+s.ak(0,r.ghg())
 r.bJ$=s}}
 A.aq1.prototype={
 m(){this.x.f_$.D(0,this)
@@ -136621,7 +136628,7 @@ s===$&&A.c()
 return s},
 gFu(){var s=this.a.w,r=this.x
 if(r==null){s=$.aK()
-s=new A.UD(new A.jt(s),new A.jt(s),B.ajb,s)
+s=new A.UD(new A.jt(s),new A.jt(s),B.ajc,s)
 this.x=s}else s=r
 return s},
 IA(){var s,r,q,p=this,o=p.d
@@ -136704,7 +136711,7 @@ r=s.f
 if(r!=null)r.J(0)
 s.av()},
 H(a){var s=t.ot,r=t.wS
-return A.w_(A.B([B.aiX,new A.fA(this.gaWx(),new A.c2(A.b([],s),r),t._n).dE(a),B.aiL,new A.fA(this.gaRA(),new A.c2(A.b([],s),r),t.D4).dE(a)],t.Q,t.od),this.a.x)},
+return A.w_(A.B([B.aiY,new A.fA(this.gaWx(),new A.c2(A.b([],s),r),t._n).dE(a),B.aiM,new A.fA(this.gaRA(),new A.c2(A.b([],s),r),t.D4).dE(a)],t.Q,t.od),this.a.x)},
 aVS(a){return this.gaVR().$1(a)}}
 A.b3v.prototype={
 $1(a){var s=this.a
@@ -137538,7 +137545,7 @@ for(;;)switch(s){case 0:p=window.localStorage
 p.toString
 q=c.i(0,"publicKey")
 q.toString
-B.abP.D(p,q+"."+b)
+B.abQ.D(p,q+"."+b)
 return A.f(null,r)}})
 return A.h($async$Pd,r)},
 RK(a,b,c){return this.baZ(0,b,c)},
@@ -137774,7 +137781,7 @@ q=p!==q*r.as.a}else q=!1
 if(q){r.as.sC(0,B.e.e0(J.oG(p)))
 r.a.sC(0,Math.abs(p))}},
 aNx(){var s=this.e?1:-1
-this.Q.sC(0,B.a2j[this.as.a*s+1])},
+this.Q.sC(0,B.a2k[this.as.a*s+1])},
 b2t(a,b){var s,r=this,q=r.c&&!r.d&&J.l(r.as.a,0)&&b===B.pq,p=!r.c&&r.d&&J.l(r.as.a,0)&&b===B.pp
 if(q||p)return
 if(a===0||a==null)r.y.sC(0,new A.ack(b))
@@ -138268,7 +138275,7 @@ cB(){this.dt()
 this.di()
 this.hx()},
 m(){var s=this,r=s.bJ$
-if(r!=null)r.Y(0,s.ghf())
+if(r!=null)r.Y(0,s.ghg())
 s.bJ$=null
 s.av()}}
 A.a0T.prototype={
@@ -138857,12 +138864,12 @@ q=r.c
 p=r.x
 o=n.r
 o.toString
-return new A.Po(n.f,A.bMX(A.bO1(B.P,m,q,r.d,A.bUw(),m,n.gaJ_(),m,o,!1,p,B.aia),s),m)}}
+return new A.Po(n.f,A.bMX(A.bO1(B.P,m,q,r.d,A.bUw(),m,n.gaJ_(),m,o,!1,p,B.aib),s),m)}}
 A.baV.prototype={
 $1(a){return this.a.$2(a,this.b)},
 $S:30}
 A.baW.prototype={
-$5(a,b,c,d,e){var s=a.gA(a),r=this.a.a,q=r.r,p=d==null?B.a0q:d,o=r.w
+$5(a,b,c,d,e){var s=a.gA(a),r=this.a.a,q=r.r,p=d==null?B.a0r:d,o=r.w
 return A.bR7(q,r.y,r.z,new A.jx(s,t.bT),c,b.d,a,e,p,o)},
 $C:"$5",
 $R:5,
@@ -138888,7 +138895,7 @@ s.Us("",s.a.a.a)
 s.b1K()},
 aZY(a){var s=a.c,r=s.gc8(s)
 a.gQt()
-return new A.hE(s,r,null,null,a.f,a.b,a.d,null,B.ajr)},
+return new A.hE(s,r,null,null,a.f,a.b,a.d,null,B.ajs)},
 a0g(a,b){var s=t.N,r=A.t(s,s),q=this.aGf(a,r)
 if(J.dj(q))return new A.eR(B.lE,B.e_,a,b,new A.Gg("no routes for location: "+a.j(0)),A.HJ(B.lE))
 return new A.eR(q,r,a,b,null,A.HJ(q))},
@@ -138924,7 +138931,7 @@ a9i(a){return new A.ah(a,new A.aW6(),A.ab(a).h("ah<1,k>")).aQ(0," => ")},
 j(a){return"RouterConfiguration: "+A.p(this.a.a.a)},
 b1K(){var s,r,q=new A.ch("")
 q.a="Full paths for routes:\n"
-this.a8c(this.a.a.a,"",B.a0e,q)
+this.a8c(this.a.a.a,"",B.a0f,q)
 s=this.d
 if(s.a!==0){q.a+="known full paths for route names:\n"
 for(s=new A.e2(s,A.r(s).h("e2<1,2>")).gV(0);s.n();){r=s.d
@@ -138949,9 +138956,9 @@ d.a+=p}else{if(n instanceof A.CJ)d.a+=j+" (ShellRoute)\n"
 i=b}this.a8c(n.b,i,k,d)}},
 aG2(a,b,c){var s=new A.ah(a,new A.aW7(),A.ab(a).h("ah<1,le>")),r=t.vb
 if(b===c-1){r=A.a2(s,r)
-r.push(B.apK)
+r.push(B.apM)
 return r}else{r=A.a2(s,r)
-r.push(B.apJ)
+r.push(B.apL)
 return r}},
 Us(a,b){var s,r,q,p,o
 for(s=b.length,r=0;r<b.length;b.length===s||(0,A.z)(b),++r){q=b[r]
@@ -139214,7 +139221,7 @@ Am(a){return this.aiu(a,null,null)},
 k(a,b){var s=this
 if(b==null)return!1
 if(J.ak(b)!==A.K(s))return!1
-return b instanceof A.eR&&s.c.k(0,b.c)&&J.l(s.d,b.d)&&s.e==b.e&&B.x8.dM(s.a,b.a)&&B.a4V.dM(s.b,b.b)},
+return b instanceof A.eR&&s.c.k(0,b.c)&&J.l(s.d,b.d)&&s.e==b.e&&B.x8.dM(s.a,b.a)&&B.a4W.dM(s.b,b.b)},
 gA(a){var s=this,r=A.cx(s.a),q=s.b
 q=q.gfu(q)
 return A.a5(r,s.c,s.d,s.e,A.bFH(q.eq(q,new A.aWj(),t.S)),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)}}
@@ -139283,7 +139290,7 @@ A.amG.prototype={}
 A.G2.prototype={
 H(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
-return A.fr(!0,A.dk(A.aS(A.b([B.ahk,B.a3,A.D(r==null?"page not found":r,s,s,s,s,s),B.a3,new A.VA(new A.aCw(a),B.aha,s)],t.p),B.k,B.bM,B.j),s,s),B.B,!0)}}
+return A.fr(!0,A.dk(A.aS(A.b([B.ahl,B.a3,A.D(r==null?"page not found":r,s,s,s,s,s),B.a3,new A.VA(new A.aCw(a),B.ahb,s)],t.p),B.k,B.bM,B.j),s,s),B.B,!0)}}
 A.aCw.prototype={
 $0(){return A.dC(this.a).xD(0,"/",null)},
 $S:0}
@@ -139310,7 +139317,7 @@ cZ(a){return!1}}
 A.FL.prototype={
 H(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
-return new A.ic(B.Rz,A.dk(A.aS(A.b([A.D(r==null?"page not found":r,s,s,s,s,s),A.cj(B.y,s,B.ahP,s,B.Q,s,s,new A.ayJ(a),s,0.4)],t.p),B.k,B.bM,B.j),s,s),s,!0,s)}}
+return new A.ic(B.Rz,A.dk(A.aS(A.b([A.D(r==null?"page not found":r,s,s,s,s,s),A.cj(B.y,s,B.ahQ,s,B.Q,s,s,new A.ayJ(a),s,0.4)],t.p),B.k,B.bM,B.j),s,s),s,!0,s)}}
 A.ayJ.prototype={
 $0(){return A.dC(this.a).xD(0,"/",null)},
 $S:0}
@@ -139428,22 +139435,22 @@ xD(a,b,c){var s=this.d
 s===$&&A.c()
 s.aaM(b,new A.xN(c,null,null,B.qd))},
 iG(a,b){return this.xD(0,b,null)},
-ho(a,b,c){return this.baF(a,b,c,c.h("0?"))},
-x6(a,b){return this.ho(a,null,b)},
+hp(a,b,c){return this.baF(a,b,c,c.h("0?"))},
+x6(a,b){return this.hp(a,null,b)},
 baF(a,b,c,d){var s=0,r=A.i(d),q,p=this,o,n,m
-var $async$ho=A.d(function(e,f){if(e===1)return A.e(f,r)
+var $async$hp=A.d(function(e,f){if(e===1)return A.e(f,r)
 for(;;)switch(s){case 0:m=p.d
 m===$&&A.c()
 o=p.c
 o===$&&A.c()
 o=o.d
 n=new A.S($.X,c.h("S<0?>"))
-m.aaM(a,new A.xN(b,new A.aJ(n,c.h("aJ<0?>")),o,B.a5X))
+m.aaM(a,new A.xN(b,new A.aJ(n,c.h("aJ<0?>")),o,B.a5Y))
 q=n
 s=1
 break
 case 1:return A.f(q,r)}})
-return A.h($async$ho,r)},
+return A.h($async$hp,r)},
 aEE(a){var s,r,q=null
 $.a7.toString
 s=A.bs($.bI().gPc(),0,q)
@@ -139795,7 +139802,7 @@ i.b4(B.d7,"Signing out user with scope: "+b.b,null,null)
 l=o.e
 k=l.a
 n=k==null?null:k.c
-s=b!==B.aaw?2:3
+s=b!==B.aax?2:3
 break
 case 2:i.b4(B.aJ,"Removing session",null,null)
 l.sCF(0,null)
@@ -141409,7 +141416,7 @@ if(q!=null)r.a.k1.q(0,q)
 q=a.d
 if(q!=null)r.a.k2.q(0,q)
 q=a.e
-if(q!=null)r.a.rx.q(0,B.a1Q[q.a])
+if(q!=null)r.a.rx.q(0,B.a1R[q.a])
 q=a.f
 if(q!=null)r.a.ry.q(0,q!==B.qN)},
 $S:1060}
@@ -141428,7 +141435,7 @@ k=J.W(s,j).d}else{s=s.e.b!==B.aC?s.gC(0):l
 s.toString
 J.W(s,j).d=k}}s=m.a
 r=s.a0
-r=(r&&a.a!==B.fe?s.a0=!1:r)?B.jg:B.Y4[a.a.a]
+r=(r&&a.a!==B.fe?s.a0=!1:r)?B.jg:B.Y3[a.a.a]
 q=a.f
 if(q==null)q=l
 else{p=q.a
@@ -141728,7 +141735,7 @@ return A.h($async$m3,r)},
 LF(a){return this.aM1(a)},
 aM1(a){var s=0,r=A.i(t.Xu),q,p,o,n,m
 var $async$LF=A.d(function(b,c){if(b===1)return A.e(c,r)
-for(;;)switch(s){case 0:o=B.a5n.i(0,A.um(a,$.ng().a).aer(1)[1].toLowerCase())
+for(;;)switch(s){case 0:o=B.a5o.i(0,A.um(a,$.ng().a).aer(1)[1].toLowerCase())
 if(o==null)o="audio/mpeg"
 n=J
 m=J
@@ -142136,7 +142143,7 @@ break
 case 1:return A.f(q,r)}})
 return A.h($async$ip,r)}}
 A.aMl.prototype={
-$1(a){var s,r,q,p,o,n=null,m="duration",l="icyMetadata",k=J.a3(a),j=B.a1K[A.aR(k.i(a,"processingState"))],i=A.eG(A.aR(k.i(a,"updateTime")),0,!1),h=A.bZ(A.aR(k.i(a,"updatePosition")),0,0),g=A.bZ(A.aR(k.i(a,"bufferedPosition")),0,0),f=k.i(a,m)==null||A.aR(k.i(a,m))<0?n:A.bZ(A.aR(k.i(a,m)),0,0)
+$1(a){var s,r,q,p,o,n=null,m="duration",l="icyMetadata",k=J.a3(a),j=B.a1L[A.aR(k.i(a,"processingState"))],i=A.eG(A.aR(k.i(a,"updateTime")),0,!1),h=A.bZ(A.aR(k.i(a,"updatePosition")),0,0),g=A.bZ(A.aR(k.i(a,"bufferedPosition")),0,0),f=k.i(a,m)==null||A.aR(k.i(a,m))<0?n:A.bZ(A.aR(k.i(a,m)),0,0)
 if(k.i(a,l)==null)s=n
 else{s=t.f
 r=s.a(k.i(a,l))
@@ -142701,7 +142708,7 @@ o=s.d
 n=s.e
 m=a8.e.$1(b1).Cx(b1)
 l=!0
-if(o!==B.e8)if(!(o===B.fn&&!b1.d)){b0=o===B.ai1&&b1.d
+if(o!==B.e8)if(!(o===B.fn&&!b1.d)){b0=o===B.ai2&&b1.d
 l=b0}k=l?r:q
 j=l?q:r
 i=b1.d?1:-1
@@ -143440,7 +143447,7 @@ A.aNF.prototype={}
 A.aNH.prototype={
 a3X(){throw A.j(A.an("getWifiIP() is not supported on Web."))}}
 A.aMq.prototype={
-a3X(){return B.a5F.bO("wifiIPAddress",null,!1,t.N)}}
+a3X(){return B.a5G.bO("wifiIPAddress",null,!1,t.N)}}
 A.aNG.prototype={}
 A.QU.prototype={
 k(a,b){var s,r=this
@@ -143538,7 +143545,7 @@ oa(a,b){return this.apX(0,b)},
 apX(a,b){var s=0,r=A.i(t.BB),q,p=this,o,n,m,l,k,j,i,h,g
 var $async$oa=A.d(function(c,d){if(c===1)return A.e(d,r)
 for(;;)switch(s){case 0:s=3
-return A.a(B.a5D.Qk("getAll",t.N,t.z),$async$oa)
+return A.a(B.a5E.Qk("getAll",t.N,t.z),$async$oa)
 case 3:j=d
 i=j==null
 h=p.acg(i?null:J.W(j,"installTime"))
@@ -143743,7 +143750,7 @@ if(p===0)o=!0}else ++p
 if(n===s)break
 q=n+1}if(p<0)return B.t1
 if(p===0)return B.t0
-if(o)return B.aqN
+if(o)return B.aqP
 return B.t_},
 aoa(a){var s,r=this.a
 if(r.hH(a)<=0)return r.anr(a)
@@ -144033,7 +144040,7 @@ p=7
 s=10
 return A.a(a.$0(),$async$DX)
 case 10:l=a0
-if(!B.aap.u(0,l.b)||J.l(m,3)){h=l
+if(!B.aaq.u(0,l.b)||J.l(m,3)){h=l
 q=h
 s=1
 break}p=2
@@ -144112,9 +144119,9 @@ if(g!=null&&g.length>1)f=B.c.gaa(g.split("/"))==="*"?null:A.ec(B.c.gaa(g.split("
 else f=null
 a0=A.r(n)
 j=a0.h("dq.R")
-if(A.cy(j)===B.aiA)m=A.eU(m,!0,t.a)
-else if(A.cy(j)===B.aiD)m=A.Q6(m,t.N,t.z)
-else if(A.cy(j)===B.aj5){if(m!=null)m=A.Q6(m,t.N,t.z)}else if(A.cy(j)===B.rw)if(f!=null)m=f
+if(A.cy(j)===B.aiB)m=A.eU(m,!0,t.a)
+else if(A.cy(j)===B.aiE)m=A.Q6(m,t.N,t.z)
+else if(A.cy(j)===B.aj6){if(m!=null)m=A.Q6(m,t.N,t.z)}else if(A.cy(j)===B.rw)if(f!=null)m=f
 j.a(m)
 e=a0.h("dq.S").a(m)
 q=a0.h("dq.T").a(e)
@@ -144471,7 +144478,7 @@ break
 case 2:s=1
 break
 case 5:k=A.c5D(j)
-if(A.bOz(k,B.a99)<0||A.bOz(k,B.a9a)>=0)A.Z(A.Ij(1,"Unsupported powersync extension version. This version of the PowerSync SDK needs >=0.4.11 <1.0.0, but detected version "+(""+k.a+"."+k.b+"."+k.c)+".\nTry downloading the updated assets: https://docs.powersync.com/client-sdk-references/flutter/flutter-web-support#assets",null,null,null,null,null))
+if(A.bOz(k,B.a9a)<0||A.bOz(k,B.a9b)>=0)A.Z(A.Ij(1,"Unsupported powersync extension version. This version of the PowerSync SDK needs >=0.4.11 <1.0.0, but detected version "+(""+k.a+"."+k.b+"."+k.c)+".\nTry downloading the updated assets: https://docs.powersync.com/client-sdk-references/flutter/flutter-web-support#assets",null,null,null,null,null))
 return A.f(null,r)
 case 1:return A.e(p.at(-1),r)}})
 return A.h($async$Km,r)},
@@ -144509,7 +144516,7 @@ return A.a(p,$async$Ga)
 case 2:p=q.nF$
 p===$&&A.c()
 s=3
-return A.a(p.OJ(a,new A.b1u(null,null,null,q.b3o$,B.ac_,null)),$async$Ga)
+return A.a(p.OJ(a,new A.b1u(null,null,null,q.b3o$,B.ac0,null)),$async$Ga)
 case 3:return A.f(null,r)}})
 return A.h($async$Ga,r)},
 hY(a){var s=0,r=A.i(t.H),q=this,p
@@ -144774,7 +144781,7 @@ if(a instanceof A.nW)return new A.nW(s.pA(a.a))
 else return new A.nW(s.pA(A.bHy(a.a)))},
 ZO(a){return this.aw4(A.bHy(a))}}
 A.aaG.prototype={
-by(){return A.B(["raw_tables",B.a0g,"tables",this.a],t.N,t.z)},
+by(){return A.B(["raw_tables",B.a0h,"tables",this.a],t.N,t.z)},
 a3g(){var s,r,q,p,o,n=A.ao(t.N)
 for(s=this.a,r=s.length,q=0;q<r;++q){p=s[q]
 p.a3g()
@@ -145838,10 +145845,10 @@ case 8:case 5:m=l.b&&l.a
 o=p.f
 if(m){o.b4(B.aJ,"validated checkpoint: "+a.j(0),null,null)
 p.y.l2(new A.b0v(a))
-q=B.a8S
+q=B.a8T
 s=1
 break}else{o.b4(B.aJ,"Could not apply checkpoint. Waiting for next sync complete line",null,null)
-q=B.a8R
+q=B.a8S
 s=1
 break}case 1:return A.f(q,r)}})
 return A.h($async$yf,r)},
@@ -146648,7 +146655,7 @@ $1(a){return this.apz(a)},
 apz(a0){var s=0,r=A.i(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$$1=A.d(function(a1,a2){if(a1===1){o.push(a2)
 s=p}for(;;)A:switch(s){case 0:e=A.dn(a0.data)
-d=A.a54(B.a_G,e.type)
+d=A.a54(B.a_H,e.type)
 c=n.a
 b=c.x
 b.b4(B.aJ,"[in] "+A.p(d),null,null)
@@ -146887,7 +146894,7 @@ o=J.W(h,"payload")
 n=A.aT(J.W(h,"ref"))
 m=n!=null
 if(m&&n===i.as){i.as=null
-l=J.l(t.f.b(o)?J.W(o,"status"):null,"ok")?B.a8x:B.a8y
+l=J.l(t.f.b(o)?J.W(o,"status"):null,"ok")?B.a8y:B.a8z
 i.fr.q(0,l)}if(t.f.b(o)){l=J.W(o,"status")
 k=l==null?"":l}else k=""
 l=A.p(k)
@@ -146973,7 +146980,7 @@ var $async$Jh=A.d(function(a,b){if(a===1)return A.e(b,r)
 for(;;)switch(s){case 0:if(p.fy!==B.hC){s=1
 break}if(p.as!=null){p.as=null
 p.u6("transport","heartbeat timeout. Attempting to re-establish conn")
-p.fr.q(0,B.a8z)
+p.fr.q(0,B.a8A)
 o=p.cy
 if(o!=null)o.ge1().Ae(0,1000,"heartbeat timeout")
 s=1
@@ -146983,7 +146990,7 @@ o=B.d.j(n)
 p.as=o
 m=t.z
 p.pm(new A.aMi("phoenix",B.ub,A.t(m,m),o))
-p.fr.q(0,B.a8w)
+p.fr.q(0,B.a8x)
 s=3
 return A.a(p.xJ(p.a),$async$Jh)
 case 3:case 1:return A.f(q,r)}})
@@ -147453,7 +147460,7 @@ return b instanceof A.ih&&b.a===this.a&&b.b===this.b},
 gA(a){return B.b.gA(this.a)^B.b.gA(this.b)},
 ga8(a){return this.a}}
 A.aIg.prototype={
-jI(){return A.B(["categoryOptions",new A.ah(B.XW,new A.aIh(),t.EZ).aQ(0,","),"manageAudioSession",!0,"allowHapticsAndSystemSoundsDuringRecording",!1],t.N,t.z)}}
+jI(){return A.B(["categoryOptions",new A.ah(B.XV,new A.aIh(),t.EZ).aQ(0,","),"manageAudioSession",!0,"allowHapticsAndSystemSoundsDuringRecording",!1],t.N,t.z)}}
 A.aIh.prototype={
 $1(a){return a.b},
 $S:1137}
@@ -149204,7 +149211,7 @@ return null},
 ghO(a){return new A.cL(this,this.$ti.h("cL<1>"))},
 gC(a){var s=this.e.b
 if(s!==B.aC)return this.$ti.c.a(s)
-throw A.j(new A.adr(B.aqk))}}
+throw A.j(new A.adr(B.aqm))}}
 A.avV.prototype={
 $0(){var s,r,q=this,p=q.a,o=p.c
 if(o!=null&&!p.a){p=q.b
@@ -149329,7 +149336,7 @@ if(s!=null)s.J(0)
 p.ay=null
 a.G(0)
 return}if(!b){s=p.c
-s=s===B.rT||s===B.apc}else s=!0
+s=s===B.rT||s===B.ape}else s=!0
 if(s){s=p.ay
 if(s!=null)s.J(0)
 p.ay=null}if(b)return
@@ -150823,7 +150830,7 @@ A.a30.prototype={
 ga3C(){return 0},
 SL(a,b){var s=this.a2r(a,b),r=a.length
 if(s<r){B.A.a0d(a,s,r,0)
-throw A.j(B.ajK)}},
+throw A.j(B.ajL)}},
 $iJ7:1}
 A.b4x.prototype={}
 A.b4r.prototype={
@@ -151109,7 +151116,7 @@ case 4:q=3
 k=p.pop()
 n=A.G(k)
 A.p(n)
-throw A.j(B.ajI)
+throw A.j(B.ajJ)
 s=6
 break
 case 3:s=1
@@ -151186,7 +151193,7 @@ aYe(a){var s=0,r=A.i(t.H),q=this,p
 var $async$NI=A.d(function(b,c){if(b===1)return A.e(c,r)
 for(;;)switch(s){case 0:p=q.f.D(0,a.a)
 q.r.D(0,p)
-if(p==null)throw A.j(B.ajH)
+if(p==null)throw A.j(B.ajI)
 q.UL(p)
 s=p.c?2:3
 break
@@ -151227,7 +151234,7 @@ var $async$NM=A.d(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:j=m.f.i(0,a.a)
 j.toString
 l=j
-if(l.b)A.Z(B.ajL)
+if(l.b)A.Z(B.ajM)
 p=3
 s=6
 return A.a(m.rW(l),$async$NM)
@@ -151276,7 +151283,7 @@ s=9
 break
 case 7:p=6
 j=o.pop()
-throw A.j(B.ajJ)
+throw A.j(B.ajK)
 s=9
 break
 case 6:s=2
@@ -151313,7 +151320,7 @@ l=null
 q=5
 a1=g.Atomics.load(h,0)
 g.Atomics.store(h,0,-1)
-m=B.a1F[a1]
+m=B.a1G[a1]
 l=m.c.$1(f)
 k=null
 case 8:switch(m.a){case 5:s=10
@@ -151465,7 +151472,7 @@ s=8
 break
 case 6:p=5
 d=o.pop()
-if(J.l(m,6))throw A.j(B.ajG)
+if(J.l(m,6))throw A.j(B.ajH)
 A.p(m);++m
 s=8
 break
@@ -152778,11 +152785,11 @@ n.a.a=!0}else n.b.z.q(0,B.Dc)
 k=l.c
 if(!k)n.b.z.q(0,B.Db)
 j=l.d
-if(!j)n.b.z.q(0,B.a5J)
+if(!j)n.b.z.q(0,B.a5K)
 i=l.f
-if(!i)n.b.z.q(0,B.a5K)
+if(!i)n.b.z.q(0,B.a5L)
 h=l.r
-if(!h)n.b.z.q(0,B.a5I)
+if(!h)n.b.z.q(0,B.a5J)
 if(k&&i&&h)n.e.push(B.v6)
 if(k&&j)n.e.push(B.v7)
 case 1:return A.f(q,r)
@@ -152816,7 +152823,7 @@ n.e.push(B.RJ)}else n.b.z.q(0,B.Dc)
 if(l.c)n.e.push(B.v8)
 else if(l.b)n.b.z.q(0,B.Db)
 n.e.push(B.RG)
-if(!l.b)n.b.z.q(0,B.a5H)
+if(!l.b)n.b.z.q(0,B.a5I)
 case 1:return A.f(q,r)
 case 2:return A.e(o.at(-1),r)}})
 return A.h($async$$1,r)},
@@ -154105,7 +154112,7 @@ $1(a){return this.a.iE(0,this.b,this.c)},
 $S:1206}
 A.dQ.prototype={
 k(a,b){if(b==null)return!1
-return b instanceof A.dQ&&B.aa9.dM(b.a,this.a)},
+return b instanceof A.dQ&&B.aaa.dM(b.a,this.a)},
 gA(a){return A.bFH(this.a)},
 j(a){return"UpdateNotification<"+this.a.j(0)+">"},
 pA(a){return new A.dQ(this.a.pA(a.a))},
@@ -156006,7 +156013,7 @@ A.b4T.prototype={}
 A.aw9.prototype={}
 A.aMv.prototype={
 Hv(a,b,c,d,e,f,g,h){var s=t.y
-return B.a5C.bO("launch",A.B(["url",a,"useSafariVC",f,"useWebView",g,"enableJavaScript",!0,"enableDomStorage",!0,"universalLinksOnly",e,"headers",d],t.N,t.K),!1,s).ah(0,new A.aMw(),s)}}
+return B.a5D.bO("launch",A.B(["url",a,"useSafariVC",f,"useWebView",g,"enableJavaScript",!0,"enableDomStorage",!0,"universalLinksOnly",e,"headers",d],t.N,t.K),!1,s).ah(0,new A.aMw(),s)}}
 A.aMw.prototype={
 $1(a){return a===!0},
 $S:1230}
@@ -156021,8 +156028,8 @@ if(q!==B.Ha)if(q!==B.Hb){s=r&&q===B.qn
 p=s}return this.Hv(a,!0,!0,b.b.c,q===B.Hc,p,p,b.d)}}
 A.b3W.prototype={
 b9G(a,b){var s,r=A.bGy(a),q=r==null?null:r.gds()
-if(B.aag.u(0,q))return!1
-if(b==null)s=this.b&&B.aaa.u(0,q)?"_top":""
+if(B.aah.u(0,q))return!1
+if(b==null)s=this.b&&B.aab.u(0,q)?"_top":""
 else s=b
 this.a.open(a,s,"noopener,noreferrer")
 return!0},
@@ -158575,7 +158582,7 @@ m(h,"gaI9","aIa",213)
 o(h,"gaI7","aI8",0)
 o(A.Nz.prototype,"gcM","m",0)
 o(A.iR.prototype,"giP","iQ",0)
-o(A.hu.prototype,"ghf","hx",0)
+o(A.hu.prototype,"ghg","hx",0)
 m(h=A.Un.prototype,"gaK2","aK3",49)
 k(h,"gaar",0,0,function(){return[null]},["$1","$0"],["aas","aK_"],164,0,0)
 k(h,"gaat",0,0,null,["$1","$0"],["aau","aK4"],986,0,0)
@@ -160378,18 +160385,18 @@ B.e=J.x_.prototype
 B.b=J.qM.prototype
 B.Vj=J.iF.prototype
 B.Vk=J.w.prototype
-B.a5N=A.xb.prototype
+B.a5O=A.xb.prototype
 B.aU=A.BD.prototype
 B.Dh=A.Qy.prototype
 B.Di=A.Qz.prototype
 B.qc=A.BE.prototype
 B.cu=A.BF.prototype
-B.a5O=A.QB.prototype
+B.a5P=A.QB.prototype
 B.lZ=A.QC.prototype
-B.a5P=A.GU.prototype
+B.a5Q=A.GU.prototype
 B.A=A.qV.prototype
 B.H5=J.a8W.prototype
-B.abP=A.TB.prototype
+B.abQ=A.TB.prototype
 B.rz=J.ry.prototype
 B.ta=new A.vZ("Operation was cancelled",null)
 B.k4=new A.Mj(0,"throughSharedWorker")
@@ -160400,7 +160407,7 @@ B.fx=new A.EX(0,"nothing")
 B.no=new A.EX(1,"requestedFocus")
 B.LW=new A.EX(2,"receivedDomFocus")
 B.LX=new A.EX(3,"receivedDomBlur")
-B.arn=new A.atf(0,"unknown")
+B.arp=new A.atf(0,"unknown")
 B.np=new A.EZ(0,"end")
 B.nq=new A.EZ(1,"none")
 B.k5=new A.EZ(2,"start")
@@ -160408,8 +160415,8 @@ B.LY=new A.Mm(null)
 B.LZ=new A.a26(null)
 B.M_=new A.mb("",0)
 B.td=new A.he(0,1)
-B.a5G=new A.a8_(null)
-B.M0=new A.eF(B.td,null,null,B.a5G,null)
+B.a5H=new A.a8_(null)
+B.M0=new A.eF(B.td,null,null,B.a5H,null)
 B.M1=new A.md(0,-1)
 B.hW=new A.md(-1,0)
 B.tc=new A.md(-1,1)
@@ -160423,15 +160430,15 @@ B.cF=new A.he(-1,-1)
 B.nt=new A.F3(0)
 B.M3=new A.F3(1)
 B.M4=new A.F3(2)
-B.aro=new A.F3(-1)
+B.arq=new A.F3(-1)
 B.k6=new A.a2a(null)
 B.te=new A.w1(0,"unknown")
 B.tf=new A.ib(0)
 B.Me=new A.a2e(1,"mic")
-B.arr=new A.auy(0,"modeNormal")
+B.art=new A.auy(0,"modeNormal")
 B.tg=new A.a2f(!1,B.Me)
 B.Md=new A.a2e(0,"defaultSource")
-B.arp=new A.a2f(!0,B.Md)
+B.arr=new A.a2f(!0,B.Md)
 B.th=new A.a2j(0,"normal")
 B.ti=new A.a2j(1,"preserve")
 B.aB=new A.qe(0,"dismissed")
@@ -160456,7 +160463,7 @@ B.tm=new A.nn(0,"aacLc")
 B.tn=new A.nn(5,"opus")
 B.to=new A.nn(7,"wav")
 B.ny=new A.nn(8,"pcm16bits")
-B.arq=new A.aux(1,"pause")
+B.ars=new A.aux(1,"pause")
 B.hX=new A.mf("PASSWORD_RECOVERY",1,"passwordRecovery")
 B.tp=new A.mf("MFA_CHALLENGE_VERIFIED",7,"mfaChallengeVerified")
 B.fy=new A.mf("INITIAL_SESSION",0,"initialSession")
@@ -160596,14 +160603,14 @@ B.Nr=new A.atg()
 B.ce=new A.kC(0.4,0,0.2,1)
 B.dR=new A.aG(15e4)
 B.kZ=new A.aG(75e3)
-B.art=new A.a2l()
+B.arv=new A.a2l()
 B.cH=new A.a2t()
 B.Nt=new A.avB()
 B.tG=new A.avC()
 B.Nu=new A.avD()
 B.fD=new A.a2W()
 B.Nv=new A.avX()
-B.aru=new A.aw9()
+B.arw=new A.aw9()
 B.tH=new A.awd()
 B.Nw=new A.N8()
 B.Nx=new A.a3C()
@@ -160619,7 +160626,7 @@ B.NF=new A.a4I()
 B.O=new A.Os()
 B.NG=new A.aAK()
 B.fh=new A.ac8("INTEGER","TEXT","INTEGER","REAL","BLOB",'"',0,"sqlite")
-B.arZ=new A.ac9(!1,B.fh)
+B.as0=new A.ac9(!1,B.fh)
 B.tL=new A.aAV()
 B.NH=new A.aC0()
 B.tN=new A.kG(A.ae("kG<eI>"))
@@ -160632,19 +160639,19 @@ B.bJ=new A.a51()
 B.NJ=new A.aCr()
 B.NL=new A.a5t()
 B.Vt=new A.a7c(3,"first_unlock")
-B.arN=new A.aHE(B.Vt)
-B.arO=new A.aII(0,"RSA_ECB_PKCS1Padding")
-B.as1=new A.b_S(0,"AES_CBC_PKCS7Padding")
-B.ars=new A.atC()
-B.arx=new A.aJi()
-B.arE=new A.b51()
+B.arP=new A.aHE(B.Vt)
+B.arQ=new A.aII(0,"RSA_ECB_PKCS1Padding")
+B.as3=new A.b_S(0,"AES_CBC_PKCS7Padding")
+B.aru=new A.atC()
+B.arz=new A.aJi()
+B.arG=new A.b51()
 B.OJ=new A.b4N()
 B.Vs=new A.a7c(1,"unlocked")
-B.arS=new A.aJJ(B.Vs)
+B.arU=new A.aJJ(B.Vs)
 B.cb=new A.aDa()
-B.arv=new A.aFd()
+B.arx=new A.aFd()
 B.NN=new A.a5W()
-B.arw=new A.a6_()
+B.ary=new A.a6_()
 B.NO=new A.aG4()
 B.NP=new A.a68()
 B.NQ=new A.a6a()
@@ -160667,7 +160674,7 @@ B.O5=new A.PH()
 B.Ve=new A.u1(3,"defaultToSpeaker")
 B.Vd=new A.u1(2,"allowBluetooth")
 B.Vf=new A.u1(5,"allowBluetoothA2DP")
-B.XW=s([B.Ve,B.Vd,B.Vf],A.ae("A<u1>"))
+B.XV=s([B.Ve,B.Vd,B.Vf],A.ae("A<u1>"))
 B.O6=new A.aIg()
 B.aM=new A.aIs()
 B.bW=new A.aIu()
@@ -160807,7 +160814,7 @@ B.Oh=new A.aNM()
 B.tS=new A.aNO()
 B.Oi=new A.aNQ()
 B.Oj=new A.aNR()
-B.ary=new A.aNS()
+B.arA=new A.aNS()
 B.Ok=new A.aNT()
 B.b2=new A.v()
 B.Ol=new A.a8E()
@@ -160819,15 +160826,15 @@ B.bu=new A.kl(3,"linux")
 B.Op=new A.a9b()
 B.tJ=new A.a44()
 B.u0=new A.adT()
-B.a4W=new A.ef([B.an,B.Op,B.a4,B.tJ,B.aX,B.tJ,B.bl,B.u0,B.bu,B.u0],A.ae("ef<kl,r_>"))
+B.a4X=new A.ef([B.an,B.Op,B.a4,B.tJ,B.aX,B.tJ,B.bl,B.u0,B.bu,B.u0],A.ae("ef<kl,r_>"))
 B.Om=new A.a8M()
 B.bd=new A.o5(4,"keyboard")
 B.nG=new A.un()
 B.On=new A.aOR()
-B.arz=new A.aPy()
+B.arB=new A.aPy()
 B.Oo=new A.aPU()
 B.Oq=new A.aQc()
-B.arA=new A.aSe()
+B.arC=new A.aSe()
 B.tU=new A.xE()
 B.Os=new A.aWK()
 B.Ot=new A.aaS()
@@ -160844,7 +160851,7 @@ B.Ox=new A.b_f()
 B.dM=new A.b_F()
 B.fF=new A.b_I()
 B.aG=new A.b_J()
-B.arB=new A.b_T()
+B.arD=new A.b_T()
 B.tY=new A.b_Y()
 B.eD=new A.b26()
 B.Oy=new A.b2c()
@@ -160864,11 +160871,11 @@ B.a2=new A.adm()
 B.aq=new A.adn()
 B.dp=new A.ado()
 B.hN=new A.adA(0,0,0,0)
-B.a0s=s([],A.ae("A<aAx>"))
-B.arC=new A.b4c()
+B.a0t=s([],A.ae("A<aAx>"))
+B.arE=new A.b4c()
 B.bc={}
 B.e_=new A.cm(B.bc,[],t.li)
-B.arD=new A.b4T()
+B.arF=new A.b4T()
 B.u1=new A.aee()
 B.ee=new A.aef()
 B.nK=new A.aew()
@@ -160903,7 +160910,7 @@ B.OW=new A.apB()
 B.OV=new A.apC()
 B.fH=new A.aq_()
 B.u5=new A.aq2()
-B.arF=new A.aws(0,"pixel")
+B.arH=new A.aws(0,"pixel")
 B.ef=new A.A7(3,"experimentalWebParagraph")
 B.P_=new A.Na(null)
 B.P0=new A.te(0,"sessionStart")
@@ -160917,9 +160924,9 @@ B.P1=new A.Nb(null,null,null,null,null,null,null)
 B.P2=new A.Nc(null,null,null,null,null,null)
 B.cr=new A.am(24,24,24,24)
 B.ai=new A.v3(2,"center")
-B.ahc=new A.bq("Open a recording from a list to browse through it.",null,null,B.ai,null,null,null,null)
-B.a7i=new A.ac(B.cr,B.ahc,null)
-B.P4=new A.jZ(B.y,null,null,B.a7i,null)
+B.ahd=new A.bq("Open a recording from a list to browse through it.",null,null,B.ai,null,null,null,null)
+B.a7j=new A.ac(B.cr,B.ahd,null)
+B.P4=new A.jZ(B.y,null,null,B.a7j,null)
 B.Rc=new A.lw(null,!0,14,1,null)
 B.eG=new A.jZ(B.y,null,null,B.Rc,null)
 B.Rb=new A.lw(null,!0,16,1,null)
@@ -160940,8 +160947,8 @@ B.ud=new A.hA(0,B.G)
 B.nN=new A.Np(null)
 B.Pe=new A.Np(B.qp)
 B.Pf=new A.Nq(null)
-B.a0v=s([],A.ae("A<Fu>"))
-B.nO=new A.qk(B.a0v,!1,null)
+B.a0w=s([],A.ae("A<Fu>"))
+B.nO=new A.qk(B.a0w,!1,null)
 B.ke=new A.Ft(0,"sent")
 B.Pg=new A.Ft(1,"notSignedIn")
 B.Pj=new A.Ab(B.Pg,"")
@@ -160950,8 +160957,8 @@ B.Pk=new A.Ab(B.Pi,"")
 B.Ph=new A.Ft(2,"empty")
 B.Pl=new A.Ab(B.Ph,"")
 B.Pm=new A.ql(!1)
-B.a9J=new A.rj(2,"clear")
-B.fK=new A.Nt(B.a9J)
+B.a9K=new A.rj(2,"clear")
+B.fK=new A.Nt(B.a9K)
 B.Pn=new A.axw(1,"intersect")
 B.h=new A.Fw(0,"none")
 B.P=new A.Fw(1,"hardEdge")
@@ -161084,12 +161091,12 @@ B.f=new A.x6(0,"start")
 B.D=new A.a7K(0,"min")
 B.k=new A.Am(2,"center")
 B.dI=new A.b4b(1,"down")
-B.aqh=new A.Xy(null)
-B.aqj=new A.ajg(null)
-B.P6=new A.jZ(B.y,null,null,B.aqj,null)
+B.aqj=new A.Xy(null)
+B.aql=new A.ajg(null)
+B.P6=new A.jZ(B.y,null,null,B.aql,null)
 B.a3=new A.bm(null,16,null,null)
-B.Ya=s([B.aqh,B.P6,B.a3],t.p)
-B.R2=new A.tm(B.V,B.f,B.D,B.k,null,B.dI,null,0,B.Ya,null)
+B.Y9=s([B.aqj,B.P6,B.a3],t.p)
+B.R2=new A.tm(B.V,B.f,B.D,B.k,null,B.dI,null,0,B.Y9,null)
 B.R5=new A.Ai(0,"established")
 B.R6=new A.Ai(1,"end")
 B.od=new A.FF(0,"none")
@@ -161131,7 +161138,7 @@ B.kS=new A.lw(null,!0,8,1,null)
 B.ir=new A.lw(B.q,!0,10,1,null)
 B.uZ=new A.lw(null,!0,7,1,null)
 B.Ra=new A.lw(null,!0,9,1,null)
-B.arG=new A.ayF(2,"large")
+B.arI=new A.ayF(2,"large")
 B.kw=new A.T(0.47843137254901963,0,0,0,B.l)
 B.v_=new A.cb(B.dq,null,null,B.dq,B.kw,B.dq,B.kw,B.dq,B.kw,B.dq,B.kw)
 B.oa=new A.T(0.11764705882352941,0.4627450980392157,0.4627450980392157,0.5019607843137255,B.l)
@@ -161224,21 +161231,21 @@ B.uA=new A.T(0.17647058823529413,0.4627450980392157,0.4627450980392157,0.5019607
 B.uu=new A.T(0.1568627450980392,0.4549019607843137,0.4549019607843137,0.5019607843137255,B.l)
 B.uI=new A.T(0.25882352941176473,0.4627450980392157,0.4627450980392157,0.5019607843137255,B.l)
 B.Q=new A.cb(B.nX,"quaternarySystemFill",null,B.nX,B.uA,B.uu,B.uI,B.nX,B.uA,B.uu,B.uI)
-B.ahs=new A.bq("Page Not Found",null,null,null,null,null,null,null)
+B.aht=new A.bq("Page Not Found",null,null,null,null,null,null,null)
 B.jX=new A.JW(null)
-B.Rz=new A.Ap(null,B.ahs,null,null,B.ez,null)
-B.ahF=new A.bq("Reader",null,null,null,null,null,null,null)
-B.RA=new A.Ap(null,B.ahF,null,null,B.ez,null)
-B.ahv=new A.bq("Nothing to show",null,null,null,null,null,null,null)
-B.P3=new A.jZ(B.y,null,null,B.ahv,null)
+B.Rz=new A.Ap(null,B.aht,null,null,B.ez,null)
+B.ahG=new A.bq("Reader",null,null,null,null,null,null,null)
+B.RA=new A.Ap(null,B.ahG,null,null,B.ez,null)
+B.ahw=new A.bq("Nothing to show",null,null,null,null,null,null,null)
+B.P3=new A.jZ(B.y,null,null,B.ahw,null)
 B.RB=new A.ic(null,B.P3,null,!0,null)
 B.ih=new A.T(0.9411764705882353,0.9764705882352941,0.9764705882352941,0.9764705882352941,B.l)
 B.kf=new A.T(0.9411764705882353,0.11372549019607843,0.11372549019607843,0.11372549019607843,B.l)
 B.Rd=new A.cb(B.ih,null,null,B.ih,B.kf,B.ih,B.kf,B.ih,B.kf,B.ih,B.kf)
 B.Ql=new A.T(1,0.1411764705882353,0.1411764705882353,0.14901960784313725,B.l)
 B.Rj=new A.cb(B.q,"systemBackground",null,B.q,B.F,B.q,B.F,B.q,B.nS,B.q,B.Ql)
-B.apI=new A.age(B.du,B.it)
-B.n4=new A.agg(null,B.kT,B.q,B.Rd,B.Rj,B.kT,!1,B.apI)
+B.apK=new A.age(B.du,B.it)
+B.n4=new A.agg(null,B.kT,B.q,B.Rd,B.Rj,B.kT,!1,B.apK)
 B.dO=new A.At(B.n4,null,null,null,null,null,null,null,null)
 B.eM=new A.a49(0,"base")
 B.eN=new A.a49(1,"elevated")
@@ -161266,7 +161273,7 @@ B.RL=new A.Au(1,"initializingServices")
 B.va=new A.Au(2,"initializedServices")
 B.RM=new A.Au(3,"initializingUi")
 B.RN=new A.Au(4,"initialized")
-B.arH=new A.azM(1,"traversalOrder")
+B.arJ=new A.azM(1,"traversalOrder")
 B.bA=new A.a4o(0,"background")
 B.op=new A.a4o(1,"foreground")
 B.fY=new A.a4p(!1)
@@ -161278,13 +161285,13 @@ B.dZ=s([],t.V9)
 B.vc=new A.Av(B.vb,"",!1,B.dZ)
 B.RQ=new A.Aw(2,"utteranceEnd")
 B.RS=new A.Av(B.RQ,"",!0,B.dZ)
-B.aqL=new A.ajM(null)
-B.eO=new A.wv(null,null,null,B.aqL,null)
+B.aqN=new A.ajM(null)
+B.eO=new A.wv(null,null,null,B.aqN,null)
 B.Ji=new A.J(!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.bh=new A.Ua(0,"clip")
 B.am=new A.b2H(0,"parent")
-B.aqM=new A.ajO(null)
-B.iu=new A.tx(B.Ji,null,!0,B.bh,null,B.am,null,B.aqM,null)
+B.aqO=new A.ajO(null)
+B.iu=new A.tx(B.Ji,null,!0,B.bh,null,B.am,null,B.aqO,null)
 B.oq=new A.Az(!1)
 B.iv=new A.Az(!0)
 B.or=new A.AA(!1)
@@ -161296,7 +161303,7 @@ B.RU=new A.FU(1)
 B.bR=new A.Od(3,"info")
 B.RV=new A.Od(5,"hint")
 B.RW=new A.Od(6,"summary")
-B.arI=new A.ty(1,"sparse")
+B.arK=new A.ty(1,"sparse")
 B.RX=new A.ty(10,"shallow")
 B.RY=new A.ty(11,"truncateChildren")
 B.RZ=new A.ty(5,"error")
@@ -161346,7 +161353,7 @@ B.Se=new A.aG(22e5)
 B.Sf=new A.aG(225e3)
 B.eP=new A.aG(25e4)
 B.ow=new A.aG(25e5)
-B.arJ=new A.aG(2592e9)
+B.arL=new A.aG(2592e9)
 B.vj=new A.aG(28e4)
 B.Sg=new A.aG(3e4)
 B.cK=new A.aG(3e5)
@@ -161464,7 +161471,7 @@ B.vI=new A.am(4,0,0,0)
 B.en=new A.am(4,0,4,0)
 B.T4=new A.am(4,2,4,6)
 B.T5=new A.am(4,4,4,4)
-B.arK=new A.am(4,4,4,5)
+B.arM=new A.am(4,4,4,5)
 B.vJ=new A.am(4,8,4,8)
 B.vK=new A.am(52,0,0,0)
 B.T6=new A.am(56,0,0,0)
@@ -161502,8 +161509,8 @@ B.To=new A.OM(1,"enabled")
 B.iF=new A.OM(2,"disabled")
 B.VV=s([1.39,-0.56,-0.11,0,0.3,-0.32,1.14,-0.11,0,0.3,-0.32,-0.56,1.59,0,0.3,0,0,0,1,0],t.n)
 B.Tp=new A.qA(B.VV)
-B.a1Z=s([1.74,-0.4,-0.17,0,0,-0.26,1.6,-0.17,0,0,-0.26,-0.4,1.83,0,0,0,0,0,1,0],t.n)
-B.Tq=new A.qA(B.a1Z)
+B.a2_=s([1.74,-0.4,-0.17,0,0,-0.26,1.6,-0.17,0,0,-0.26,-0.4,1.83,0,0,0,0,0,1,0],t.n)
+B.Tq=new A.qA(B.a2_)
 B.vP=new A.dJ(0,"incrementable")
 B.oJ=new A.dJ(1,"scrollable")
 B.oK=new A.dJ(10,"link")
@@ -161612,11 +161619,11 @@ B.wf=new A.OZ(0,"Start")
 B.lh=new A.OZ(1,"Update")
 B.li=new A.OZ(2,"End")
 B.TM=new A.a5u(null,!0,!0,null,B.tr)
-B.arL=new A.P1(!1,null,805306368,null,300,u.A,!1,!0,null,null,null)
+B.arN=new A.P1(!1,null,805306368,null,300,u.A,!1,!0,null,null,null)
 B.TN=new A.P1(!1,null,872415232,null,300,u.A,!1,!0,null,null,null)
 B.wg=new A.wF(0,"touch")
 B.pn=new A.wF(1,"traditional")
-B.arM=new A.aDy(0,"automatic")
+B.arO=new A.aDy(0,"automatic")
 B.wh=new A.aDC("focus")
 B.eU=new A.a5F(0,"link")
 B.wi=new A.a5F(1,"move")
@@ -161829,8 +161836,8 @@ B.x4=new A.nI("OFF",2000)
 B.bb=new A.nI("WARNING",900)
 B.fg=new A.bm(1/0,1/0,null,null)
 B.Vx=new A.GB(0,0,B.fg,null)
-B.abC=new A.bm(1/0,0,null,null)
-B.pC=new A.GB(0,1/0,B.abC,null)
+B.abD=new A.bm(1/0,0,null,null)
+B.pC=new A.GB(0,1/0,B.abD,null)
 B.x5=new A.Q3(0,"opportunity")
 B.pD=new A.Q3(2,"mandatory")
 B.x6=new A.Q3(3,"endOfText")
@@ -161841,10 +161848,10 @@ B.Vy=new A.Q8(null,null,null,null,null,null,null,null,null,null,null,null,null,n
 B.Hj=new A.pq(0,"recordingElseTts")
 B.qq=new A.pq(1,"alwaysTts")
 B.VB=s([B.Hj,B.qq],A.ae("A<pq>"))
-B.a_z=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.a_A=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
 B.Zp=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
-B.a3k=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.VG=s([B.a_z,B.Zp,B.a3k],t.zg)
+B.a3l=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
+B.VG=s([B.a_A,B.Zp,B.a3l],t.zg)
 B.Ng=new A.e1(0,B.br,B.eI,B.m,14)
 B.VH=s([B.Ng],t.sq)
 B.x9=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
@@ -161865,9 +161872,9 @@ B.Do=new A.lJ(4,"sync")
 B.lB=s([B.Dk,B.Dl,B.Dm,B.Dn,B.Do],A.ae("A<lJ>"))
 B.xa=s(["January","February","March","April","May","June","July","August","September","October","November","December"],t.s)
 B.Zs=s([0.41233895,0.35762064,0.18051042],t.n)
-B.XJ=s([0.2126,0.7152,0.0722],t.n)
-B.a2J=s([0.01932141,0.11916382,0.95034478],t.n)
-B.f0=s([B.Zs,B.XJ,B.a2J],t.zg)
+B.XI=s([0.2126,0.7152,0.0722],t.n)
+B.a2K=s([0.01932141,0.11916382,0.95034478],t.n)
+B.f0=s([B.Zs,B.XI,B.a2K],t.zg)
 B.ft=new A.vl(0,"placeholder")
 B.ev=new A.vl(1,"editableText")
 B.WL=s([B.ft,B.ev],A.ae("A<vl>"))
@@ -161882,23 +161889,23 @@ B.JH=new A.pG(7,"boolean")
 B.xb=s([B.hI,B.JB,B.JC,B.JD,B.JE,B.JF,B.JG,B.JH],A.ae("A<pG>"))
 B.xc=s([0,4,12,1,5,13,3,7,15],t.t)
 B.WU=s([65533],t.t)
-B.a62=new A.BJ(0,"granted")
-B.a63=new A.BJ(1,"denied")
-B.a64=new A.BJ(2,"permanently_denied")
-B.WW=s([B.a62,B.a63,B.a64],A.ae("A<BJ>"))
+B.a63=new A.BJ(0,"granted")
+B.a64=new A.BJ(1,"denied")
+B.a65=new A.BJ(2,"permanently_denied")
+B.WW=s([B.a63,B.a64,B.a65],A.ae("A<BJ>"))
 B.xd=s([72,84,84,80],t.t)
-B.aq1=new A.m2(0,1)
-B.aq6=new A.m2(0.5,1)
-B.aq9=new A.m2(0.5375,0.75)
-B.aqb=new A.m2(0.575,0.5)
-B.aq7=new A.m2(0.6125,0.25)
-B.aq5=new A.m2(0.65,0)
-B.aq4=new A.m2(0.85,0)
-B.aqa=new A.m2(0.8875,0.25)
-B.aq8=new A.m2(0.925,0.5)
-B.aq2=new A.m2(0.9625,0.75)
-B.aq3=new A.m2(1,1)
-B.Xe=s([B.aq1,B.aq6,B.aq9,B.aqb,B.aq7,B.aq5,B.aq4,B.aqa,B.aq8,B.aq2,B.aq3],A.ae("A<m2>"))
+B.aq3=new A.m2(0,1)
+B.aq8=new A.m2(0.5,1)
+B.aqb=new A.m2(0.5375,0.75)
+B.aqd=new A.m2(0.575,0.5)
+B.aq9=new A.m2(0.6125,0.25)
+B.aq7=new A.m2(0.65,0)
+B.aq6=new A.m2(0.85,0)
+B.aqc=new A.m2(0.8875,0.25)
+B.aqa=new A.m2(0.925,0.5)
+B.aq4=new A.m2(0.9625,0.75)
+B.aq5=new A.m2(1,1)
+B.Xe=s([B.aq3,B.aq8,B.aqb,B.aqd,B.aq9,B.aq7,B.aq6,B.aqc,B.aqa,B.aq4,B.aq5],A.ae("A<m2>"))
 B.dD=new A.v3(0,"left")
 B.dj=new A.v3(1,"right")
 B.jH=new A.v3(3,"justify")
@@ -161907,660 +161914,21 @@ B.mN=new A.v3(5,"end")
 B.Xg=s([B.dD,B.dj,B.ai,B.jH,B.a8,B.mN],A.ae("A<v3>"))
 B.YE=s([2,1.13276676],t.n)
 B.W2=s([2.18349805,1.20311921],t.n)
-B.a0Y=s([2.33888662,1.28698796],t.n)
-B.a18=s([2.48660575,1.36351941],t.n)
+B.a0Z=s([2.33888662,1.28698796],t.n)
+B.a19=s([2.48660575,1.36351941],t.n)
 B.Xv=s([2.62226596,1.44717976],t.n)
-B.XY=s([2.7514899,1.53385819],t.n)
-B.a_4=s([3.36298265,1.98288283],t.n)
+B.XX=s([2.7514899,1.53385819],t.n)
+B.a_5=s([3.36298265,1.98288283],t.n)
 B.Z2=s([4.08649929,2.23811846],t.n)
-B.ZK=s([4.85481134,2.47563463],t.n)
-B.XI=s([5.62945551,2.72948597],t.n)
+B.ZL=s([4.85481134,2.47563463],t.n)
+B.XH=s([5.62945551,2.72948597],t.n)
 B.YG=s([6.43023796,2.98020421],t.n)
-B.xe=s([B.YE,B.W2,B.a0Y,B.a18,B.Xv,B.XY,B.a_4,B.Z2,B.ZK,B.XI,B.YG],t.zg)
+B.xe=s([B.YE,B.W2,B.a0Z,B.a19,B.Xv,B.XX,B.a_5,B.Z2,B.ZL,B.XH,B.YG],t.zg)
 B.Xp=s(["AM","PM"],t.s)
 B.xf=s(["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],t.s)
 B.Xs=s([B.nw,B.nx],A.ae("A<MG>"))
 B.Xx=s(["BC","AD"],t.s)
-B.a_9=s(["ONE HANDLE EVERYWHERE \u2014 THE CIRCLES ARE GONE: Windows and web now work like mobile. Every item\u2019s colored bar shows the grip dots and is the handle: drag it to file or reorder, double-click to open. Boxes get the full width the circle column used to take.","CLICK A BAR TO SELECT: clicking an item\u2019s bar selects it (the whole box outlines in blue). Ctrl+click adds or removes one item; SHIFT+CLICK selects everything between your last click and this one, just like Windows Explorer; Ctrl+Shift+click adds that range. On the phone, taps on bars now toggle items in and out of the selection \u2014 multi-select is back on the main screen. Headphones, the fold arrow, and the other bar buttons keep doing their own jobs.","COLLAPSED ITEMS \u2014 CLICK TO SELECT, CLICK AGAIN TO RENAME: the first click on a collapsed item selects it; click the title of an already-selected item to edit it in place \u2014 the same rhythm as renaming a file in Explorer. Double-click still expands."],t.s)
-B.akj=new A.I(632,B.a_9)
-B.a2i=s(["AUTO-MEETING MOVED TO ADVANCED: the \u201cAuto-meeting after N minutes\u201d setting now lives in Settings \u2192 ADVANCED with its own card, next to segmentation \u2014 it\u2019s a set-once option, so the main settings stay lean. Behavior unchanged."],t.s)
-B.al5=new A.I(631,B.a2i)
-B.Yh=s(["PLAYING A FOLDER STARTS AT THE TOP: playback used an internal stored order instead of the order on your screen, so a folder you\u2019d never hand-reordered could start reading a couple of items down. Folder play now follows the screen exactly \u2014 newest-first by default, your dragged order once you\u2019ve reordered \u2014 subfolders first, then items, every folder by its own setting.","THE LISTENING PANEL\u2019S JUMP LANDS ON THE ITEM: tapping the panel to go to what\u2019s playing could drop you at the TOP of the main screen when the item sat far down the inbox. The list now travels to the item wherever it is and settles right on the glowing box."],t.s)
-B.amF=new A.I(630,B.Yh)
-B.VO=s(["PLAYING THE INBOX FOLLOWS ALONG: the main screen now tracks the reader the same way folders do \u2014 the item being read glows blue and the list scrolls to keep it in view as playback moves down your inbox. Works for any playback that lands on an inbox item, not just the \u25b6 button.","THE LISTENING AREA\u2019S TOP PANEL ALWAYS TAKES YOU TO WHAT\u2019S PLAYING: tapping the panel already jumped to the item when it was part of your listening list \u2014 now, when the reader is playing something that isn\u2019t in that list (the inbox, or a folder played directly), the tap takes you to where the item actually lives: its folder, or the main screen for an inbox item, landing right on the glowing box."],t.s)
-B.akN=new A.I(629,B.VO)
-B.X1=s(["DELETING WHAT\u2019S PLAYING NOW STOPS IT: listening to a folder and deleting that folder used to keep right on playing from a snapshot. The reader now watches the library \u2014 delete the folder you\u2019re listening to and playback stops; delete a single item mid-listen and it skips to the next one. Unrelated changes (titles, listen flags) never interrupt playback.","PLAY THE INBOX: a \u25b6 button at the top-right of the main screen reads your inbox top-down \u2014 the list exactly as you see it, newest first. Same rules as playing a folder: it ends a live dictation first, loops at the end, and plays each item\u2019s recording (or reads it aloud when there\u2019s no audio)."],t.s)
-B.akd=new A.I(628,B.X1)
-B.YA=s(["YOUR OLD UNFILED NOTES ARE IN ONE PLACE NOW: the flood of items that appeared after the visibility fix turned out to be weeks of real notes an old filter had been silently hiding. They\u2019ve all been filed into a new \u201cBacklog\u201d folder at the bottom of your folder list \u2014 nothing deleted, everything searchable, review them whenever you like. Your inbox is back to just current items.","EVERY NOTE HAS A PROPER TYPE AGAIN: nearly all of your items had been saved with a blank internal type (the hidden cause of this whole episode). All 3,800+ have been repaired to proper notes \u2014 so the Notes/Tasks/Meetings chips count them correctly \u2014 and new items are always typed from now on."],t.s)
-B.anO=new A.I(627,B.YA)
-B.a20=s(["THE EMPTY \u201cTRANSCRIBING\u2026\u201d BOXES ARE GONE: yesterday\u2019s fix stopped real notes from being hidden, but it also surfaced some old empty shells \u2014 zero-length captures with nothing in them \u2014 showing a permanent \u201cTranscribing\u2026\u201d spinner. The inbox now decides what to show by CONTENT: anything with words shows, a recent capture still being transcribed shows, and a zero-length shell (nothing was ever spoken) doesn\u2019t appear. Nothing is deleted \u2014 real notes can never be hidden by this rule, because text always shows.","THE SPINNER STOPS LYING: a capture still waiting on its transcription after 10 minutes no longer shows a spinner as if work is happening \u2014 it says \u201cWaiting to transcribe \u2014 needs a connection\u201d with a clock. Honest, and your audio is safe the whole time; it transcribes when it gets a connection."],t.s)
-B.alz=new A.I(626,B.a20)
-B.a0M=s(["FIXED: NEW ITEMS DISAPPEARING FROM THE INBOX. A note would show up when you hit Done and then quietly vanish a moment later, and the item count never went up. The inbox was only willing to display items whose internal type was one of four exact values \u2014 and items were being saved with a blank type, so the next background refresh rebuilt the list without them. Your words were never lost (they were on the server the whole time), but they were invisible. The inbox no longer filters by type at all: anything you capture shows up, and an unfamiliar type is simply drawn as a plain note."],t.s)
-B.akU=new A.I(625,B.a0M)
-B.XC=s(["VOICLEY NOW SUGGESTS WHERE A NOTE BELONGS: when a new note clearly fits one of your folders, its box shows a small chip in the bottom-left \u2014 \u201cStrategy \u203a Q3 ?\u201d. Tap it and the note files itself there. Tap the \u2715 and the suggestion is gone for good on that item. Ignore it and nothing happens. NOTHING EVER MOVES ON ITS OWN \u2014 the suggestion just sits there until you say so. It only ever suggests folders you already have, stays quiet when it isn\u2019t sure, and costs nothing extra: it rides along with the AI title call that already runs. Turn it off any time in Settings \u2192 \u201cSuggest folders for new items\u201d."],t.s)
-B.am5=new A.I(624,B.XC)
-B.WG=s(["DRAG AN ITEM LEFT TO REACH YOUR FOLDERS: hold an item by its colored bar and push it toward the LEFT EDGE of the screen \u2014 pause for a moment and the folder menu slides open, still carrying the item, ready to drop on any folder. The whole edge is the target, so there\u2019s nothing to aim at and no need to travel up to the \u2630 (which still works too). Carry the item back toward the list and the menu closes again."],t.s)
-B.ap2=new A.I(623,B.WG)
-B.WQ=s(["SEARCH IS HERE: there\u2019s a Search row in the menu now. Type a word or two and every item carrying them appears \u2014 notes, tasks, meetings, anywhere in your library, including items you\u2019ve filed away in folders. Results show the matching sentence so you can see why each one turned up, and the type chips (All / Notes / Tasks / Meetings) narrow them down with counts. It searches on the device, so it\u2019s instant and works with no signal. Best match first, then newest \u2014 because with dictation, the recent one is usually the one you meant."],t.s)
-B.aoZ=new A.I(622,B.WQ)
-B.a2A=s(["LONG ITEMS EDIT IN PLACE \u2014 NO MORE JUMP TO FULL SCREEN: tapping an item too long to fit used to fling you into the full-size view. Now it edits where it sits, like every other item: the box shows its ten lines and the text SCROLLS inside, so you can read and change anything past the cap without leaving the list. Adding text scrolls rather than growing the box. Full-size is still one double-tap of the item\u2019s colored bar away.","PAUSE ON A FOLDER WHILE DRAGGING AND IT OPENS: hold a dragged item \u2014 or another folder \u2014 over a folder in the left pane for half a second and its subfolders unfold, so you can drill in and drop into a child without ever putting the item down. Sweeping past a folder on the way somewhere else leaves it closed."],t.s)
-B.amY=new A.I(621,B.a2A)
-B.a39=s(["CARRY AN ITEM BACK TO THE LIST AND THE MENU CLOSES ITSELF: the drag now runs the menu in both directions. Pause an item on the \u2630 and the folder menu opens; carry it back over the list and the menu slides shut so you can keep dragging where you were. Reach your folders, change your mind, come back \u2014 one motion, no taps. (Both directions need a brief pause, so the menu never flickers open and shut while you move.)"],t.s)
-B.aka=new A.I(620,B.a39)
-B.Ww=s(["THE APP NO LONGER FREEZES ON A DRAG: v613\u2019s one-time ordering repair tried to renumber every item in your library in a single go \u2014 with 800+ items that locked the app up for as long as it took, with nothing on screen to say why. The repair now works in small batches: it fixes a slice per drag and finishes over a few drags, so nothing ever stalls. If you were stuck, force-closing and reopening was safe \u2014 nothing was lost."],t.s)
-B.amx=new A.I(619,B.Ww)
-B.Y3=s(["DRAG AN ITEM TO THE \u2630 MENU TO FILE IT IN A FOLDER (phones): hold an item by its colored bar, drag it up onto the \u2630 at the top-left, and pause \u2014 the menu slides open while you\u2019re still holding the item, and you can drop it straight onto any folder to move it there. This is the piece that was missing on phones: your folders live inside that menu, and the menu was shut for the whole drag, so there was nothing to drop onto. Hold for about half a second (a quick brush past won\u2019t open it), and dragging away closes it again with nothing moved."],t.s)
-B.amu=new A.I(618,B.Y3)
-B.a32=s(["HOLDING AN ITEM NEAR THE BOTTOM NO LONGER RUNS THE LIST AWAY: picking up an item close to the top or bottom edge started scrolling the list on its own, before you\u2019d moved a finger. Those edges are scroll zones for when you\u2019re dragging something toward off-screen items \u2014 but they switched on the moment you lifted, and if your finger was already sitting in one, it just took off. They now wait until you actually drag toward the edge."],t.s)
-B.al6=new A.I(617,B.a32)
-B.a1S=s(["THE \u201cIT GOES HERE\u201d LINE IS BACK \u2014 AND NOTHING FLASHES: v615 removed the drop bars along with the gaps that were shoving the list around, which left you dragging blind. A bright line now appears on the edge of the item you\u2019re hovering \u2014 along its top if the item will land above it, along its bottom if below \u2014 drawn inside the item, so still nothing shifts. The flash when dropping on Windows is gone too: hovering used to rebuild the row from scratch, and now it only changes colour."],t.s)
-B.amv=new A.I(616,B.a1S)
-B.WX=s(["THE LIST NO LONGER JUMPS WHEN YOU PICK AN ITEM UP: holding an item used to shove the whole screen down a couple of lines, because a drop-gap opened between EVERY pair of items at once the moment the drag armed. Those gaps are gone. Instead, while you drag, the item you hover over lights up \u2014 drop on its top half to go above it, its bottom half to go below. Nothing shifts, the spacing stays tight, and the target is a whole item instead of a thin line."],t.s)
-B.aou=new A.I(615,B.WX)
-B.a1j=s(["HOLDING AN ITEM NO LONGER JERKS THE LIST AROUND: press-and-hold on the phone was starting TWO drags at once \u2014 the list trying to lift the row for a reorder, and the item\u2019s colored bar trying to lift it to move \u2014 and the two fought over your finger the whole time. Now the bar is the only thing that lifts: hold it, drag, and drop on the line between two items to place it there, or sideways onto a folder to file it. Smooth, one motion."],t.s)
-B.alY=new A.I(614,B.a1j)
-B.Xa=s(["ORDERING, PROPERLY FIXED THIS TIME: v612 made a drag write only the item you moved, but most items had never been given a place in the ordering at all \u2014 and a few older ones shared the exact same place. Items with no place always sort above the ones that have one, so a dropped item still jumped. Your first drag now quietly gives every item its own place, in the order they\u2019re already sitting on screen (so nothing visibly moves), and separates the duplicates. After that, drops stay put."],t.s)
-B.aoa=new A.I(613,B.Xa)
-B.W0=s(["ITEMS NOW STAY WHERE YOU DROP THEM: reordering could land an item somewhere other than the spot you dropped it on \u2014 sometimes right away, sometimes only after the list refreshed. Saving a new order used to renumber every item on screen, which quietly clashed with the items NOT on screen (anything hidden by a Notes/Tasks/Meetings filter, filed into a folder, or brand new). Now a drag writes only the item you moved, slotted between its two neighbours \u2014 so nothing else shifts and the order holds, on every device."],t.s)
-B.als=new A.I(612,B.W0)
-B.a_Y=s(["\u201cNEW NOTE\u201d ACTUALLY WORKS NOW WHEN THE ENGINE MIS-HEARS YOU: saying \u201cnew note\u201d while driving often came back from the speech engine as \u201cnew notes\u201d, \u201cno note\u201d, or \u201cno notes\u201d \u2014 and every one of those was typed into your note as words instead of starting a fresh one. All of those now start a new note, as do \u201cnext notes\u201d and \u201cnew dictations\u201d. Talking ABOUT a note (\u201cI put a new note in the drawer\u201d) still doesn\u2019t trigger it."],t.s)
-B.akC=new A.I(611,B.a_Y)
-B.a1O=s(["WINDOWS: YOU CAN DRAG AN ITEM BY ITS COLORED BAR TOO: v609 gave every item a tinted bar with a grip on it, but on the PC only the little circle actually dragged \u2014 so the bar looked grabbable and did nothing. Now grab either one: drag the bar sideways (or the circle, unchanged) to file an item into a folder. Dragging straight up or down still reorders, and click-dragging inside the text still selects text."],t.s)
-B.aoS=new A.I(610,B.a1O)
-B.a37=s(["WINDOWS: NEW ITEMS SHOW UP AGAIN (and the cursor stops slipping): on the PC the app was re-connecting to sync every few seconds, and each reconnect rebuilt the screen \u2014 so items you just typed didn\u2019t appear (they WERE saved and synced the whole time) and you had to click twice to get the cursor into a box. Reconnects are now limited to at most one a minute, so the list stays put and the first click lands.","REORDERING BY BAR-DRAG IS EASIER TO HIT ON PHONES: while you hold-drag an item by its colored bar, the drop lines that open between the other items are now twice as tall on the phone \u2014 drop on one to place the item exactly there. (Sideways onto a folder still files it; same one drag, you choose by where you drop.)"],t.s)
-B.ao9=new A.I(609,B.a37)
-B.a28=s(["NEW BOX DESIGN ON PHONES \u2014 THE COLORED TOP BAR IS THE HANDLE: every item box now has a lightly tinted top bar in its type\u2019s color (blue note, green task, amber meeting, clay Claude) holding the type, the date/time on the right, the headphones, and the collapse arrow. HOLD the bar and drag to move the item \u2014 into a folder, the Trash, or a new spot in the list. DOUBLE-TAP the bar to open the item full-size (the little \u2922 corner button is gone). A single tap on the bar does nothing, so no more accidental opens. The small circle handle is gone on phones; on Windows and the web it stays exactly as before."],t.s)
-B.amH=new A.I(608,B.a28)
-B.a_X=s(["OPENING THE APP NO LONGER STARTS RECORDING ON ITS OWN: the app used to begin capturing the moment you opened it. It now stays quiet on open \u2014 start dictation yourself with the mic when you\u2019re ready. (If you liked open-and-record, Settings still has a toggle to turn it back on.)","MOVING AN ITEM TO A FOLDER ALWAYS TAKES IT OFF THE INBOX NOW: the full-size item\u2019s \u201c\u2026\u201d menu had two look-alike options \u2014 \u201cMove to Folder\u2026\u201d and a leftover \u201cMove to Project\u2026.\u201d Only the first actually removed the item from the inbox; the second quietly left it on the main screen. That confusing legacy option is gone, so \u201cMove to Folder\u2026\u201d is the one move \u2014 and it always clears the item off the inbox into its folder."],t.s)
-B.alv=new A.I(607,B.a_X)
-B.YD=s(["AUDIO PLAYS ON iPHONE AGAIN: opening an item\u2019s full view and pressing play on iPhone was failing with \u201ccould not load audio (-1002).\u201d The full-window player was handing iOS a file path the wrong way (iOS is stricter than Android about it); it now loads the file correctly. This also makes your Windows-recorded audio playable on the iPhone."],t.s)
-B.anX=new A.I(606,B.YD)
-B.Y5=s(["TAP ONCE TO EDIT AN ITEM: tapping into an item\u2019s text used to need two taps \u2014 the first one got swallowed. The trace showed a background rebuild dropping the cursor a split-second after the first tap; now the cursor re-grabs itself and holds, so one tap lands you in the field ready to type.","DRAG A SUBFOLDER OUT TO A MAIN FOLDER: grab a subfolder in the left pane and drop it on the thin strip at the very bottom of the folder list to promote it back to a top-level folder. (Dropping onto another folder still nests it inside; this is the way back out.)"],t.s)
-B.amQ=new A.I(605,B.Y5)
-B.XV=s(["NO MORE FLICKER WHEN REORDERING ITEMS IN A FOLDER: dragging an item (collapsed ones especially) to reorder it inside a folder used to flash and jump \u2014 because a background sync update was rebuilding the list under your finger mid-drag. The list now holds still for the whole drag and only settles once you drop. Smooth on iPhone and everywhere."],t.s)
-B.akM=new A.I(604,B.XV)
-B.VI=s(["WINDOWS RECORDINGS NOW PLAY ON YOUR OTHER DEVICES: audio recorded on the Windows app is finally uploaded to your account, so it plays on your iPhone and Android too. (Before, only the Windows machine that made the recording could play it \u2014 everywhere else said \u201cno cloud audio.\u201d The upload had a step that only worked on Android, so Windows recordings were silently skipped.) Existing Windows recordings upload themselves over the next little while of the app being open and signed in; recordings over 25 MB are the one exception for now."],t.s)
-B.aoP=new A.I(603,B.VI)
-B.Xc=s(["DRAGGING A FOLDER ONTO ITS OWN PARENT IS NOW HONEST: it used to say \u201cmoved into folder\u201d even though nothing changed (it was already there). Now it just says \u201cAlready in that folder\u201d and does nothing \u2014 no false move.","ONE VERSION NUMBER EVERYWHERE: the iPhone (TestFlight) build now shows the SAME build number as Windows, Android and the web \u2014 e.g. \u201c0.1.0 (602)\u201d \u2014 instead of its own separate count. (Takes effect on the next iPhone build.)"],t.s)
-B.akG=new A.I(602,B.Xc)
-B.YS=s(["MOVE SUBFOLDERS BY DRAG: you can now grab ANY folder in the left pane \u2014 including subfolders \u2014 and drop it onto another folder to move it inside, Explorer-style. (Before, only top-level folders could be dragged, so a subfolder was stuck.) On Windows, drag any folder with the mouse; on the phone, hold it. Dropping onto a folder\u2019s body moves it IN; dropping a top-level folder on the thin strip at another\u2019s top still just reorders them. It won\u2019t let you drop a folder into itself or its own subfolder."],t.s)
-B.ap4=new A.I(601,B.YS)
-B.Yo=s(["BACK TO THE HOME PAGE (web): using Voicley in your browser, the left pane now has a \u201cVoicley home\u201d link at the bottom that takes you back to the landing page. (On the installed Windows and phone apps there\u2019s no website to return to, so it doesn\u2019t appear there.)"],t.s)
-B.alo=new A.I(600,B.Yo)
-B.a2n=s(["A LIVE \u201cWHAT\u2019S HAPPENING\u201d LINE: when Voicley is working in the background \u2014 finishing transcriptions, uploading to your account, or downloading an app update \u2014 a small line at the top of the inbox now says exactly what it\u2019s doing and how many items, e.g. \u201cTranscribing 2 recordings\u2026\u201d, \u201cUploading 5 items\u2026\u201d, or \u201cDownloading update \u2014 part 4 of 9\u201d. It appears only when there\u2019s something in flight and disappears the moment everything\u2019s caught up. Nothing blocks \u2014 you can keep working while it shows."],t.s)
-B.alJ=new A.I(599,B.a2n)
-B.Zf=s(["YOUR LAST WORDS STAY IN THE RIGHT NOTE: if you dictate a sentence and immediately tap \u2713 Done or New, the tail that\u2019s still coming back from transcription now lands in the note you SPOKE it in \u2014 not at the top of the fresh one. The box waits a beat (up to ~3 seconds, and only if something\u2019s actually still arriving) for that last bit to land before it closes, so nothing jumps to the next note. On a slow connection this is the difference-maker."],t.s)
-B.aoG=new A.I(598,B.Zf)
-B.Yn=s(["PHONE UPDATES NOW ACTUALLY DELIVER: v596\u2019s new \u201cCheck for updates\u201d button couldn\u2019t receive the app itself \u2014 the release shelf caps files at 50 MB and Voicley is 68 MB, so the very first publish bounced. Releases now ship in parts that the phone stitches back together and integrity-checks (size + fingerprint) before Android\u2019s installer opens. Same one-tap experience, now with something on the shelf."],t.s)
-B.aoN=new A.I(597,B.Yn)
-B.ZA=s(["UPDATE FROM THE PHONE ITSELF: Settings now has \u201cCheck for updates\u201d on Android, right by the version number \u2014 exactly like Windows. Tap it and Voicley checks your account\u2019s release shelf; if a newer build is there, it downloads and Android\u2019s installer opens (one tap \u2014 everything stays in place, no cable needed). First use, Android asks you to allow Voicley to install updates \u2014 a one-time toggle. Plugging into the PC still works too."],t.s)
-B.akx=new A.I(596,B.ZA)
-B.Zo=s(["NEW FOLDERS ARE BORN WHERE YOU ARE: with a folder open, the pane\u2019s + now creates the new folder INSIDE that folder, Explorer-style \u2014 the naming prompt says where it will land, the parent unfolds in the tree so the new row is visible immediately, and a confirmation names where it went. The folder view\u2019s \uff0b menu gains a \u201cNew folder\u201d option too. (Before, the + always created at the TOP level \u2014 a folder made while inside Tasks landed at root, out of sight, looking like it was never created. The stray \u201cTomorrow\u201d from that: one copy is now inside Tasks, the duplicate is in the Trash.)"],t.s)
-B.ala=new A.I(595,B.Zo)
-B.a0N=s(["FOLDER ARROWS MOVED TO THE LEFT: the expand/collapse chevron now sits before each folder\u2019s icon, Explorer-style \u2014 the arrows trace the tree down the left edge, and folders without subfolders keep the space so the icons stay aligned. The right edge keeps just the count and headphones.","NO MORE BLANK NOTES: an empty note box simply evaporates when it closes \u2014 leave the folder, end dictation, click out \u2014 nothing blank is ever saved. (Notes WITH content always post, exactly as before.)"],t.s)
-B.ap0=new A.I(594,B.a0N)
-B.VS=s(["FOLDER VIEWS SHOW ITEMS ONLY: subfolders no longer take up rows inside a folder \u2014 the left pane\u2019s expandable tree is the one place for navigating the hierarchy. A folder holding only subfolders shows the entry box, ready for its first item."],t.s)
-B.ao_=new A.I(593,B.VS)
-B.Xo=s(["THE \u2715 ON THE NOTE BOX ALWAYS CLEARS IT: whether dictation is on or off, tapping \u2715 wipes whatever text is in the box (it used to do nothing when the mic was off). A deliberate discard \u2014 the session audio still keeps everything when recording."],t.s)
-B.amP=new A.I(592,B.Xo)
-B.Zj=s(["THE FOLDER INPUT IS NOW EXACTLY THE INBOX BOX: every folder\u2019s entry area is the same live note box the inbox uses \u2014 same look, same anatomy, same rules (Done/\u201cnew note\u201d posts and re-arms, empty box reused, talk or type, click-out posts) \u2014 always there, idle or recording. The only differences: a green MIC inside the box (tap to dictate into the folder, tap the red stop to turn it off), everything you close files INTO that folder, and leaving the folder turns dictation off."],t.s)
-B.al0=new A.I(591,B.Zj)
-B.YF=s(["DICTATE STRAIGHT INTO A FOLDER: every folder\u2019s entry box now has a green MIC \u2014 tap it and the folder becomes your inbox: the same live note box takes over (same rules \u2014 Done/\u201cnew note\u201d posts and re-arms, empty box is reused, talk or type), and every note you close files into THAT folder automatically (the box\u2019s footer shows the folder name). LEAVING THE FOLDER TURNS DICTATION OFF \u2014 the last note still finishes transcribing in the background. No bottom control bar in folders: on/off lives in the box, so the list keeps the space."],t.s)
-B.anU=new A.I(590,B.YF)
-B.Xi=s(["\u201cNEW NOTE\u201d ON AN EMPTY NOTE JUST KEEPS IT: if the current note box is still empty and you say \u201cnew note\u201d (or hit the pill), the same empty box is reused \u2014 no more stack of blank notes. The cursor re-arms in it, ready to dictate. (Clicking OUT of a blank note still posts it as a regular item \u2014 that rule is unchanged.)"],t.s)
-B.ao0=new A.I(589,B.Xi)
-B.VJ=s(["HOLD A FOLDER ANYWHERE TO MOVE IT (phone): press and hold any folder in the left pane \u2014 it lifts with a buzz. Drag up or down and drop to reorder (the list scrolls at the edges, and the order syncs everywhere). Want the folder MENU instead? Hold and just let go without dragging \u2014 the options sheet opens like before. This is the standard Android pattern: hold = lift, drag = move, release = menu."],t.s)
-B.am3=new A.I(588,B.VJ)
-B.Y_=s(["FIX: MOVING A FOLDER NOW SCROLLS THE LIST TOO \u2014 while you\u2019re dragging a folder in the left pane, hold it near the top or bottom and the folder list scrolls under it, so you can drop it at a spot that was off-screen. (The scroll bands only reacted to ITEM drags before \u2014 folder drags were invisible to them on every platform. Verified working on the phone.)"],t.s)
-B.anS=new A.I(587,B.Y_)
-B.VT=s(["DRAG AN ITEM PAST THE EDGE AND THE LIST SCROLLS: while you\u2019re dragging an item in the inbox or a folder, hold it near the top or bottom of the list and the list scrolls under it \u2014 so you can drop it at a spot you couldn\u2019t see when you picked it up. Works on Android AND Windows/web (the item lists never had this anywhere \u2014 only the folder pane did)."],t.s)
-B.anc=new A.I(586,B.VT)
-B.ZB=s(["DRAG FOLDERS ON ANDROID: hold a folder\u2019s ICON in the left pane for a beat and it lifts \u2014 drag up or down and drop to reorder, right on the phone. Drop on a folder to slot in above it, or on the strip at the very bottom to send it last. Tap still opens the folder and holding the NAME still opens its options, unchanged. And since the order syncs now, the arrangement you make on the phone shows up on Windows and the web too."],t.s)
-B.akF=new A.I(585,B.ZB)
-B.a03=s(["YOUR ORDER NOW FOLLOWS YOU EVERYWHERE: the inbox order AND the left-pane folder order are now saved to your account instead of per-device \u2014 arrange them once, on any device, and the Fold, Windows, and the web all show the same arrangement. Reorder anywhere and the others follow. (One-time effect: until your first drag, folders show name-sorted and the inbox newest-first; your first re-drag sets the shared order for every device.) New items still always appear at the top of the inbox."],t.s)
-B.am_=new A.I(584,B.a03)
-B.a1C=s(["FIX: NEW ITEMS LANDED IN THE MIDDLE OF THE INBOX \u2014 found it. The inbox\u2019s saved manual order was keyed by temporary numbers that reshuffle every time the app starts, so after a restart the whole list could scramble, and a brand-new item\u2019s number could collide with an old saved slot and get seated mid-list (looking \u201ceaten\u201d \u2014 it was there all along, just buried). The order is now keyed by each item\u2019s permanent id: new items always appear at the TOP, and your arrangement survives restarts. One-time effect: the old scrambled order is cleared, so the inbox shows newest-first once \u2014 re-drag anything you want placed and it now sticks."],t.s)
-B.anV=new A.I(583,B.a1C)
-B.a2C=s(['FIX: ITEMS NO LONGER "DISAPPEAR" WHILE RECORDING. The list was blocked from refreshing the entire time the mic was on, so anything you saved during a session stayed hidden until you turned recording off \u2014 which looked like items being eaten. Now new and synced items appear on the dashboard live, even mid-recording, without ever disturbing the note you\u2019re dictating. (Nothing was ever lost \u2014 the words were saved; the screen just wasn\u2019t showing them.)'],t.s)
-B.aoB=new A.I(582,B.a2C)
-B.a2b=s(["EASIER TO CLICK THE CIRCLE: the dot beside each item is unchanged and stays put, but the clickable area around it is now much bigger (the whole strip, not just the 12-pixel dot) \u2014 so selecting an item, in the inbox, folders, and the canvas, takes far less aim."],t.s)
-B.alq=new A.I(581,B.a2b)
-B.a10=s(["SELECT TEXT WITH THE MOUSE (desktop): on Windows/Mac/Linux the left-swipe \u201cdelete\u201d gesture no longer fights you when you drag across text inside an item \u2014 swipe-to-delete is a touch gesture, so it\u2019s off on a mouse. Delete on desktop with the Delete key, right-click, the trash target, or the box\u2019s delete corner.","CLICK EMPTY SPACE TO SCROLL: clicking the white space around the boxes in the inbox or a folder now drops the cursor out of whatever box you were editing, so the wheel and Page keys scroll the list instead of the text field."],t.s)
-B.akZ=new A.I(580,B.a10)
-B.Y1=s(["MOVING FOLDERS STAYS CALM (desktop): dragging a folder in the left pane no longer shoves every other row apart \u2014 the list holds still and a thin line shows exactly where the folder will land. Drop on a row to place it just above that row; drop on the strip at the very bottom to send it to the end.","EMPTY FOLDERS GET THE ENTRY BOX: open a brand-new or emptied folder and the same \u201ctype a thought\u201d box is right there at the top \u2014 start capturing immediately instead of staring at an empty screen."],t.s)
-B.ano=new A.I(579,B.Y1)
-B.a1H=s(["FIX: THE FOLDER PANE NOW AUTO-SCROLLS WHILE YOU DRAG (desktop) \u2014 when you drag an item out of a folder toward a target that\u2019s scrolled out of view, hold near the top or bottom edge of the folder list and it scrolls, just like everywhere else. Drags started from inside a folder weren\u2019t turning that on before, so a long pane couldn\u2019t be reached; now they do (and the folder rows light up as drop targets too)."],t.s)
-B.ao3=new A.I(578,B.a1H)
-B.YV=s(["CIRCLES STAY PUT: the circle handle is now pinned to the TOP of each item, so folding/unfolding never moves it \u2014 repeated double-clicks land in the same spot.","TAB MAKES A SUB-ITEM: select item(s) and press Tab \u2014 they nest under the item directly above. Shift+Tab un-nests. Never fires while you\u2019re typing.","TIGHTER LISTS: spacing between items reduced 65% across the Inbox, folders, and canvas groups.","FIX: rapidly deleting items could fold the survivors that slid under your cursor (phantom double-clicks) \u2014 the fold now stands down for a beat after any delete, same shield the chevron has had."],t.s)
-B.ans=new A.I(577,B.YV)
-B.YU=s(["CHANGE YOUR MIND MID-DRAG: while you\u2019re dragging an item, gaps now open between the rows of the Inbox and folder lists \u2014 drop on a gap and the item lands exactly there. So one drag does everything: sideways onto a folder files it; back into the list reorders it. No modes, no starting over. (Dropping between rows of a DIFFERENT folder files it into that folder at that exact spot.)"],t.s)
-B.aoX=new A.I(576,B.YU)
-B.a1m=s(["DOUBLE-CLICK THE CIRCLE TO FOLD/UNFOLD: double-clicking an item\u2019s circle handle now collapses an open item and expands a collapsed one \u2014 everywhere the circles live (Inbox, folders, canvas). Single click still selects; right-click still opens the menu."],t.s)
-B.ap9=new A.I(575,B.a1m)
-B.a0X=s(["DELETE KEY DELETES THE SELECTION: select items with their circles (Ctrl+click for several) and press Delete \u2014 they all move to Trash in one stroke, restorable as always. The key never fires while you\u2019re typing in a text field."],t.s)
-B.anH=new A.I(574,B.a0X)
-B.a0R=s(["DOUBLE-CLICK A COLLAPSED ITEM TO OPEN IT: double-click anywhere on a collapsed row and it expands in place \u2014 no hunting for the \u2304. (Just the in-place expand, not the full-screen view; the chevron and title editing work exactly as before.)"],t.s)
-B.amb=new A.I(573,B.a0R)
-B.ZO=s(["DRAG FOLDERS TO REORDER, RIGHT IN THE PANE (desktop): grab any top-level folder row in the left pane and pull it up or down \u2014 gaps open between rows while you drag; drop and the order saves instantly. No buttons, no separate screen. (Same saved order the Folders screen uses, so they always match. Phones keep the Folders-screen reorder \u2014 press-and-hold there means folder options.)"],t.s)
-B.aoL=new A.I(572,B.ZO)
-B.a0D=s(["FIX: A DICTATION COULD POST TWICE \u2014 once as itself (with audio) and again as a text-only copy about 15 seconds later, if you clicked out of the box shortly after finishing. The finished text is intentionally kept in the box briefly for cloud processing; one exit path didn\u2019t know it was already saved and posted it again. It knows now \u2014 clicking out just blanks the box. If you EDIT the leftover text before clicking out, it still posts (your edit is new content)."],t.s)
-B.aov=new A.I(571,B.a0D)
-B.a2F=s(["FIX: EMPTY CANVAS ON A SECOND PC \u2014 a fresh device could race sync and create its own empty \u201cCanvas\u201d folder, leaving its canvas blank while your items sat in the original (this hit the office PC today; nothing was lost). Every device now agrees on the ORIGINAL Canvas folder, any accidental duplicates are automatically merged into it and removed, and the app no longer creates the folder just by drawing the sidebar \u2014 only when you actually use the canvas."],t.s)
-B.alc=new A.I(570,B.a2F)
-B.a3_=s(["CLICK EMPTY CANVAS = NEW NOTE, instantly \u2014 no menu, cursor ready, exactly like OneNote\u2019s click-and-type. The \uff0b button keeps the full menu for tasks, meetings, Claude messages, and groups.","EVERY ITEM IS A CONTAINER NOW (OneNote-confirmed): single items wear the same anatomy as groups \u2014 a top bar that moves them, a bordered body. And dropping an item ON or NEAR another item or group joins them: near a single item \u2192 the two become a group; near a group \u2192 it joins that group. Dropping directly on an item\u2019s words still nests it as a sub-item \u2014 near = peer, on-the-text = child."],t.s)
-B.akJ=new A.I(569,B.a3_)
-B.a14=s(["GROUPS NOW WORK LIKE ONENOTE \u2014 NO NAMING: \u201cNew group\u201d creates instantly, no prompt. The region shows just a move bar (no title) until you deliberately rename it via right-click. And the fastest way to group: drop an item\u2019s circle onto another card\u2019s MOVE BAR \u2014 the two instantly become a group right there (drop on the box body still nests it as a sub-item).","REORDER INSIDE GROUPS: while you drag, slim gaps between a group\u2019s rows open up \u2014 drop on a gap and the item lands exactly there. Works for moving items within a group, between groups, or in from the loose canvas. Group order matches the folder\u2019s order everywhere."],t.s)
-B.alU=new A.I(568,B.a14)
-B.a1U=s(["GROUPS ON THE CANVAS \u2014 OneNote-style: pick \u201cNew group\u201d from the canvas menu (tap anywhere or \uff0b), name it, and a titled region appears. Drop items onto the region and they move into the group; drag an item\u2019s circle back out to empty canvas and it leaves the group. The header bar moves the whole group at once; right-click it to rename or delete.","GROUPS SYNC: a group is a real folder under Canvas, so its contents follow you to every device (the region\u2019s position stays per-device for now, like the cards)."],t.s)
-B.aox=new A.I(567,B.a1U)
-B.a2W=s(["THE CANVAS USES THE WHOLE SPACE: the reading-width cap is gone on the canvas \u2014 it now stretches across everything right of the folder pane.","CIRCLES ON THE LEFT: canvas cards now carry their circle to the LEFT of the box, matching every other item in the app. The slim move bar sits across the top of the box \u2014 drag it to place the card.","TAP ANYWHERE TO CREATE: click any empty spot on the canvas and pick a type \u2014 note, task, meeting, or Claude message \u2014 and it\u2019s born right where you clicked (filed to the Canvas folder, cursor ready). The \uff0b button offers the same menu."],t.s)
-B.anp=new A.I(566,B.a2W)
-B.XR=s(["THE CANVAS NOW WORKS LIKE A ONENOTE PAGE: drop one card\u2019s circle onto another card and it\u2019s ABSORBED \u2014 its floating card disappears and it renders inside the parent (\u201c\u25b8 N sub-items\u201d, expandable, any depth). Drag a nested item\u2019s circle onto empty canvas and it SPLITS back out as its own card right where you dropped it.","CREATE ON THE CANVAS: the \uff0b button (top right) births a typed note directly on the canvas \u2014 filed to the Canvas folder, cursor ready in its box. Canvas cards are also editable in place now, like folder boxes.","SNAP GRID: cards settle onto an invisible 20px grid when you release them, so layouts stay tidy \u2014 hold Alt while releasing for free placement (OneNote\u2019s exact modifier). Dropping a card\u2019s circle on empty canvas also repositions it there."],t.s)
-B.ama=new A.I(565,B.XR)
-B.Y0=s(["THE \u2261 PANCAKE HANDLE IS GONE \u2014 EVERYWHERE: the last holdout (folder rows on the Folders screen, and the row handles inside folder views) now uses the same OneNote circle as every item. One glyph, one meaning, the whole app: see a circle, you can click to select and drag to move."],t.s)
-B.ak9=new A.I(564,B.Y0)
-B.a2O=s(["SELECTION NOW HIGHLIGHTS THE WHOLE ITEM: a selected item wears a blue outline around its entire box (plus the blue circle), everywhere \u2014 Inbox, folders, lists, canvas cards.","FILING FROM THE INBOX NOW LEAVES THE INBOX \u2014 including Claude items: dragging items from the Inbox into a folder previously left Claude-type boxes still sitting in the Inbox (a deliberate carve-out so in-flight Claude messages stay visible), which read as \u201clinked, not moved\u201d and \u201cthe item is in there twice\u201d. A deliberate drag now always takes the item off the Inbox; it lives in its folder. New Claude replies still appear in the Inbox as before.","ONE COPY PER FOLDER \u2014 confirmed and test-pinned: adding an item to a folder it\u2019s already in is a no-op, and moving one in collapses into the existing copy. An item can exist in many folders, but only once in each."],t.s)
-B.amN=new A.I(563,B.a2O)
-B.a1l=s(["MULTI-SELECT WITH THE CIRCLES: click an item\u2019s circle handle to SELECT it (it turns blue), Ctrl+click to add more \u2014 then drag any selected circle and the WHOLE selection moves together: into a pane folder, a subfolder, onto another item to nest, onto the Canvas, or to Trash. The drag card reads \u201cN items\u201d and one drop files them all. On phones, plain taps on the circles multi-select (no Ctrl needed). A drop clears the selection.","Works everywhere the circles live \u2014 Inbox, folder views, lists, and canvas cards. (Canvas note: the card\u2019s circle now selects/files it; drag the little bar beside it to move the card around the canvas.) Clicking a circle no longer opens the item \u2014 the \u2922 button is the full-window door."],t.s)
-B.alZ=new A.I(562,B.a1l)
-B.a_j=s(["RIGHT-CLICK FOLDER OPTIONS ON WINDOWS: right-clicking any folder \u2014 in the left pane, on the Folders screen, or a subfolder inside a folder \u2014 now opens the same options sheet as press-and-hold (rename, new subfolder, play list, delete\u2026). Items already had right-click; folders now match."],t.s)
-B.akf=new A.I(561,B.a_j)
-B.WY=s(["THE TEST CANVAS IS HERE: a new Canvas button in the left pane opens a free-form surface where your items are movable cards \u2014 drag a card by its circle to place it anywhere, pinch/scroll to zoom, and tap a card for all the normal item behaviors. It\u2019s the first cut of the OneNote-style move-things-around view.","LINKING ITEMS TO THE CANVAS: the canvas is backed by a real \u201cCanvas\u201d folder, so every filing flow works \u2014 drag an item onto the Canvas row in the pane (it LINKS; the item also stays where it was), or use Add to folder \u2192 Canvas. Test-phase note: card positions save per device for now."],t.s)
-B.al9=new A.I(560,B.WY)
-B.a2R=s(["YOU CAN ALWAYS SEE WHEN THE MIC IS ON: a slim red pill now floats at the bottom of EVERY screen while capture is live \u2014 a pulsing dot, the mode (\u201cdictating\u201d or \u201ccommands only\u201d), and \u201cN waiting to sync\u201d when a live recording is holding the upload queue. Tap it to jump to the live box. Born from tonight: the mic ran unnoticed for half an hour and quietly held 30 items back from syncing \u2014 that can\u2019t sneak by anymore."],t.s)
-B.aoj=new A.I(559,B.a2R)
-B.a_y=s(["DELETING NO LONGER SHIFTS THE LIST: while you\u2019re actively deleting, background arrivals (synced items, recovered recordings) now wait \u2014 the list stays frozen under your fingers and everything lands the moment you pause for a couple of seconds. Nothing is lost; it just doesn\u2019t barge in mid-cleanup.","PULL DOWN TO SYNC: pull the Inbox down and release \u2014 it force-syncs right there (ending an idle recording first if one is holding the connection, same as Settings \u2192 Re-sync now). Handy after dictating a batch on one device: pull down on the other and it all arrives."],t.s)
-B.aoq=new A.I(558,B.a_y)
-B.a1E=s(["THE HANDLE CIRCLES ARE NOW VISIBLE AND EVERYWHERE: v556 drew them at 8px \u2014 too small to see next to an open box, which read as \u201cno icons at all\u201d. They\u2019re 12px now, and the circle COLUMN is permanent: every item, open or collapsed, phone or desktop, Inbox or folders, carries the same circle in the same spot.","COLLAPSING NO LONGER SHIFTS THE GRID: with the handle column constant across states, folding a box changes only its height (animated) \u2014 nothing jumps sideways and the list stays put."],t.s)
-B.akg=new A.I(557,B.a1E)
-B.a_v=s(["THE ONENOTE CIRCLE IS THE HANDLE EVERYWHERE \u2014 open items too: every item, open or collapsed, in the Inbox, folders, and listening views, now wears the small circle as its move handle. The six-dot \u2261 is fully retired (the live New-note box and just-created items match too). Same drags: up/down reorders, sideways files into a folder, click opens."],t.s)
-B.akO=new A.I(556,B.a_v)
-B.Ze=s(["COLLAPSED ROWS, AS YOU ACTUALLY ASKED (my earlier misread \u2014 sorry): a collapsed item is just the circle handle, the title, and the \u2304. The delete / full-window / remove icons are GONE from collapsed rows \u2014 they live on the open box and in the right-click menu.","CIRCLE HANDLES EVERYWHERE: folder and listening views now swap the \u2261 for the small circle on collapsed items too (before, only the Inbox did)."],t.s)
-B.amq=new A.I(555,B.Ze)
-B.Yd=s(["THE ONENOTE ICON IS ON EVERY LINKED ITEM: open boxes now carry a small notebook icon next to the \u2922 \u2014 tap it to jump straight to the item\u2019s OneNote page (only shows when the project is linked). Collapsed rows keep your four-icon set; right-click still offers Open in OneNote there."],t.s)
-B.an0=new A.I(554,B.Yd)
-B.a2l=s(["COLLAPSED ROW ICON SET COMPLETE: exactly four controls and nothing else \u2014 \u2304 open, \u2296 remove-from-folder (nested items only), \u2922 full window, and Delete. The \u2296 was the missing one."],t.s)
-B.amh=new A.I(553,B.a2l)
-B.a_q=s(["COLLAPSED ROWS CARRY THE SAME BUTTONS AS OPEN BOXES: \u2922 full window and Delete now sit on the collapsed row too (left of the \u2304) \u2014 open or delete an item without unfolding it first. Same icons, same actions, both states."],t.s)
-B.ap3=new A.I(552,B.a_q)
-B.a1_=s(["OPEN-BOX BUTTONS IN THEIR CORNERS (your layout): fold \u2303 at the top right (matching the collapsed row\u2019s \u2304 in the same corner), full-window \u2922 at the bottom left, Delete at the bottom right, and the \u201c\u2192 destination\u201d label is gone. The title row is unchanged.","THE FOLD-INSTEAD-OF-DELETE BUG IS DEAD FOR GOOD: folding now happens ONLY on the \u2303 chevron \u2014 the old click-anywhere-on-the-top-strip fold is retired, so a click that misses a button can never fold a box again. And folding now animates (the box visibly shrinks into its row), so a real fold no longer looks like \u201cdeleted then recreated collapsed\u201d."],t.s)
-B.aoR=new A.I(551,B.a1_)
-B.ZP=s(["PASTE FROM ONENOTE \u2192 ITEMS: copy paragraphs in OneNote (or anywhere), paste into the New-note box, and a pill appears: \u201cSplit into N items\u201d. One tap makes each paragraph its own item \u2014 same top-to-bottom order as the source, each with its AI title, with a one-tap Undo for the whole batch. Ignore the pill and it stays one normal note \u2014 splitting only ever happens on your tap."],t.s)
-B.akA=new A.I(550,B.ZP)
-B.a_M=s(["RAPID-FIRE DELETING NO LONGER FOLDS BOXES: the trash button on an open box was a tiny target sitting inside the click-to-fold strip \u2014 deleting items in quick order, the list shifts after each delete and the next fast click hit the strip, folding a box instead of deleting it. The trash button now has a proper finger-sized target, and for a third of a second after any delete the fold-tap ignores clicks entirely (trash clicks still land instantly). Machine-gun cleanup is safe."],t.s)
-B.alN=new A.I(549,B.a_M)
-B.a_C=s(["COLLAPSED ITEMS GOT THE ONENOTE LOOK (your design): a collapsed item is now a clean borderless row \u2014 a small circle on the left (that circle IS the drag handle on desktop: drag it up/down to reorder, sideways to file into a folder), the title in the middle (still editable in place), and the expand chevron moved to the far right. Open items keep their full box exactly as before."],t.s)
-B.an6=new A.I(548,B.a_C)
-B.Xn=s(["DELETE BOUNCE-BACK \u2014 EVERY DELETE PATH NOW COVERED: v546\u2019s guard only protected swipe-deletes; deletes from the right-click menu, item boxes in folder/listening/files views, and drag-to-Trash skipped it, so those could still resurrect for a beat mid-cleanup. All delete surfaces now stamp the same short-lived marker the background refresh respects. Deleted means deleted, from anywhere."],t.s)
-B.an4=new A.I(547,B.Xn)
-B.a3e=s(["DELETED ITEMS NO LONGER BOUNCE BACK MID-CLEANUP: when you deleted several items in a row, a background refresh could land carrying a snapshot from just BEFORE a delete \u2014 and that item popped back into the list (in its shrunken default look, which read as \u201cit collapsed instead of deleting\u201d). Deletes now leave a short-lived marker the refresh respects, so a deleted box stays gone. If a delete ever genuinely fails, the item resurfaces within two minutes rather than being hidden forever \u2014 nothing can be lost silently."],t.s)
-B.amR=new A.I(546,B.a3e)
-B.Yb=s(["THE INBOX COUNT NOW SYNCS \u2014 RELIABLY THE SAME ON EVERY DEVICE: the one remaining per-device piece of the count was the \u201cdismissed from Inbox\u201d list, which lived in local settings \u2014 every cleanup on one device made the numbers drift (your 59 vs 46). Dismissals are now synced like everything else: dismiss anywhere, hidden everywhere, and each device\u2019s old local list merges in automatically on first run. Every count change also writes a diagnosis line (visible / total / filed / dismissed) so any future mismatch names its cause in one glance. NOTE: needs the one-time backend migration (011) + sync-rules re-deploy before installing."],t.s)
-B.anq=new A.I(545,B.Yb)
-B.Xk=s(["DUPLICATE BOXES CLEANED UP: notes and Claude items from the bug era could show TWICE \u2014 the un-linked box from a broken close plus its saved copy arriving via sync (v540 kept both on purpose: never lose words). Now, when a box\u2019s own save arrives, it simply replaces the un-linked box \u2014 one item, once. Nothing in your data was ever duplicated; it was two views of the same saved item. (Genuinely repeating the same words still gives each its own item.)"],t.s)
-B.alV=new A.I(544,B.Xk)
-B.a1t=s(["BAD NETWORK NO LONGER BURNS RECOVERY RETRIES: when your phone can\u2019t reach OpenAI at all (the cellular dead zones), each failed recovery attempt was still spending one of a recording\u2019s 3 auto-retries \u2014 permanently benching it even though nothing was ever billed or judged. Caught live in your 12:51 log. Network-unreachable failures are now free; only real OpenAI rejections count. This is what let the un-transcribed backlog build up over the outage days \u2014 combined with the new Recover button (below), it can\u2019t happen again."],t.s)
-B.aob=new A.I(543,B.a1t)
-B.Zt=s(["RECOVER UN-TRANSCRIBED AUDIO \u2014 new button in Settings (next to Re-sync): 582 recordings on the server kept their audio but never got words \u2014 mostly the bad-network days, when the automatic retries burned out their 3-attempt safety cap and gave up for good. The button resets those caps on this device and re-runs the recovery scan immediately: silence is skipped (never billed, never fake words), oversized sessions stay manual, and it steps aside instantly if you start dictating. Recovered text fills into the items as it lands. Costs nothing until you tap it."],t.s)
-B.aow=new A.I(542,B.Zt)
-B.Z4=s(['THE \u2713 DONE EATING BUG \u2014 ROOT CAUSE FIXED: your 12:20 test caught it in the act. Every \u2713 Done (and Enter) close had an internal race: the close answered its own "where did the note save?" question twice, the second answer blew up mid-save, and the explosion skipped the steps that link the box to its saved words, give it its title, and cut its audio. The box was left an unlinked shell \u2014 title-less, headphone-less \u2014 and the next background refresh threw the shell away. That is why notes \u201cwent away\u201d right after Done. The race is gone: closes now finish every step, every time. (Spoken \u201cnew note\u201d closes were never affected \u2014 and none of your words were ever lost: every one of those notes is still in the library and OneNote.)'],t.s)
-B.alW=new A.I(541,B.Z4)
-B.Zn=s(["NOTES NO LONGER VANISH WHEN YOU HIT DONE (or say \u201cnew note\u201d): while sync was churning against its limit, the note\u2019s save could land a beat late \u2014 and a background list refresh in that gap rebuilt the Inbox WITHOUT the not-yet-saved note, so it blinked out and only a blank box remained. The refresh now carries every in-flight note over until its save lands. (The words were never lost \u2014 the audio and recovery path had them \u2014 but now the box itself stays put.)"],t.s)
-B.amG=new A.I(540,B.Zn)
-B.a3g=s(["RIGHT-CLICK MENU ON WINDOWS: right-click any item box \u2014 in the Inbox, folders, the listening area, Trash \u2014 and the \u22ef actions open right there: Open in OneNote (when linked), Add to folder\u2026, Move to folder\u2026, Delete (to Trash, with Undo). Same flows as the full view\u2019s three-dots button."],t.s)
-B.anE=new A.I(539,B.a3g)
-B.XQ=s(["THE STRAY-TYPING BUG IS FIXED (Windows): your log caught it \u2014 my v527 focus-guard was over-fighting: when you clicked into an item, it misread the click as the focus thief it was built to fight and yanked typing back to the New box, while the item still showed its cursor. The guard now only acts at the moment dictation starts and ALWAYS yields to your click. Typing goes where the cursor is.","ITEMS OPENED FROM THE LISTENING AREA ARE NOW FULLY EDITABLE: the opened view already had the editable title (v533) \u2014 now the TEXT edits in place too (saves as you type, closes save too), and a trash button deletes (to Trash, with Undo). Same behaviors as everywhere else."],t.s)
-B.al2=new A.I(538,B.XQ)
-B.XN=s(["LISTENING TOP BAR: tapping it now takes you to the playing item IN THE LIST (scrolls there, opens its subfolder) \u2014 it no longer pops the item open in full view on top. Your correction of yesterday\u2019s change."],t.s)
-B.amL=new A.I(537,B.XN)
-B.Wl=s(["NO MORE EMPTY WINDOW AFTER AN UPDATE: the Windows updater relaunches Voicley while the old copy is still shutting down and holding the database \u2014 the new copy opened data-less until you restarted it by hand. The app now waits out the old process (retrying the database open for a few seconds), so the first launch after an update comes up with all your data."],t.s)
-B.alB=new A.I(536,B.Wl)
-B.a2V=s(["\u201cOLD FORMAT\u201d ITEMS FIXED \u2014 no more title-less, headphone-less boxes: posting a note while dictation was ON could flip the session ownership mid-save, and the new box never got connected to its saved row \u2014 so it showed without a title, without the headphones toggle, and CLICKING IT OPENED THE BIG VIEW instead of editing in place (your two reports were the same bug). The connection now always completes; every posted box is a full regular item immediately. (No data was ever lost \u2014 the rows were saved correctly all along.)","CTRL WHILE DRAGGING NOW FLIPS THE LABEL EVERYWHERE: hold Ctrl mid-drag and the card switches live \u2014 \u201cMove\u201d becomes \u201cLink\u201d (from a folder) or \u201cAdd\u201d (from the Inbox), and the route line reads \u201cLink into \u2026\u201d / \u201cAdd to \u2026\u201d. Release Ctrl and it flips back."],t.s)
-B.akw=new A.I(535,B.a2V)
-B.a2s=s(["THE STRAY SCROLLBAR ON THE LEFT IS GONE: the live box\u2019s text area scrolls bottom-pinned (newest words stay in view), and that kind of scroller draws its bar on the LEFT \u2014 on Windows it showed as a odd little bar left of the boxes. It now stays on the right where scrollbars belong, and the duplicate one Windows auto-adds is silenced.","THE \u201cPHANTOM ENTER\u201d WHILE EDITING FULL-SIZE IS FIXED: after every auto-save (about a second after you pause typing), the little \u201cSaved\u201d tick was INSERTING a line above your text for two seconds and then removing it \u2014 the whole transcript hopped down and back up, which read exactly like an enter being added and removed. The tick now sits beside the title and only fades in and out \u2014 your text never moves. (Nothing in \u201cMoving racks and organizing space\u201d was ever altered \u2014 saves store exactly what you typed; the hop was purely visual.)"],t.s)
-B.amA=new A.I(534,B.a2s)
-B.Y9=s(["RENAME ITEMS FROM THE OPENED VIEW: opening a meeting (or note) from the listening area \u2014 or any list \u2014 showed no title at all, so there was nowhere to rename it. The opened view now carries an editable title right at the top: tap, type, done. Hand-set titles stick, same as everywhere else.","TAP THE TOP BAR TO GO TO WHAT\u2019S PLAYING: in the Listening area, tapping the bar that names the current item now takes you TO it \u2014 the list scrolls to its spot and the item opens full-view, exactly as if you\u2019d tapped its box.","PHONE CALLS PAUSE PLAYBACK: when a call comes in while recordings are playing, playback pauses \u2014 and picks back up on its own when the call ends. (Unplugging headphones also pauses, so audio never blasts from the speaker.)"],t.s)
-B.ap1=new A.I(533,B.Y9)
-B.ZI=s(["OPENAI COSTS TRIMMED \u2014 the re-title throttle: while you edited an item, every ~1-second typing pause was quietly firing an AI call to refresh its title (and dictating into an item fired one per phrase). Now the title refreshes ONCE, when you leave the item. Same behavior you see \u2014 the title is up to date by the time you\u2019re looking at the list \u2014 at a fraction of the API calls. (Saving your words is untouched: edits still save as you type.)"],t.s)
-B.ani=new A.I(532,B.ZI)
-B.Zd=s(["SYNC USES FAR LESS DATA (PowerSync limit fix, round 1): the AI titler was re-uploading an item\u2019s ENTIRE text every time it attached a title \u2014 on every closed note, every meeting (the longest texts), and up to 6 old meetings per app launch. Titles now sync as just the title. The cloud-audio backfill also wrote each recording twice where once works. Same features, a fraction of the sync traffic \u2014 this stretches the free tier and keeps the paid tier cheap as the library grows."],t.s)
-B.alf=new A.I(531,B.Zd)
-B.a_r=s(["THE DRAG CARD NO LONGER HIDES BEHIND THE FOLDER PANE: on Windows, the \u201cMove to \u2026\u201d card that follows your cursor was disappearing in the gap between the item boxes and the left folder pane \u2014 it was rendering in a layer clipped to the main window, so it slid *underneath* the pane. It now rides in the top-most layer over the whole window, so you can see it the entire way to the folder you\u2019re dropping on."],t.s)
-B.anf=new A.I(530,B.a_r)
-B.a_p=s(["THE INBOX NO LONGER JUMPS AROUND WHILE YOU DELETE: your phone\u2019s log showed the cause \u2014 while you were deleting a bunch of items, a burst of items syncing in from another device kept yanking the list back to the top, one jump per arrival. Now a background sync download never scrolls your inbox; only YOUR own new dictations and notes bring the list to the top. Deleting stays put where you are. (Nothing was ever lost \u2014 deletes go to Trash with Undo.)"],t.s)
-B.alR=new A.I(529,B.a_p)
-B.Xj=s(["THE DRAG CARD NOW SAYS \u201cMOVE\u201d OR \u201cLINK\u201d THE WHOLE TIME: while you drag an item, the card under the cursor shows a clear pill \u2014 \u201cMove\u201d, \u201cLink\u201d, or \u201cNest\u201d \u2014 so you always know what a drop will do. It used to show that only when dragging an item that was already inside a folder; dragging from the Inbox just said the vague \u201cAdd to\u2026\u201d. Now every drag states the action, and it flips live to \u201cLink\u201d when you hold Ctrl (where linking applies) and back on release."],t.s)
-B.ak6=new A.I(528,B.Xj)
-B.Xh=s(['TYPING INTO THE LIVE BOX ON DESKTOP NOW WORKS: on Windows, going into dictate mode showed a blinking cursor that looked ready \u2014 but that caret was just a marker showing where dictated words land, NOT a live text field, so your typed keys went nowhere until you clicked the box. The composer now mounts the real, typable field the instant dictation starts, and HOLDS its focus against the window glitch that was stealing it a split-second later (the same "keeper" your saved items already use). Dictated words land at that same cursor. (Phone is unchanged \u2014 tap to type.)'],t.s)
-B.akL=new A.I(527,B.Xh)
-B.a0V=s(["THE CLAUDE FILTER COUNT MATCHES THE LIST AGAIN: you emptied the Claude view and the chip still read \u201c2\u201d, then \u201c13\u201d \u2014 it was counting deleted messages the list itself was already hiding (in-flight Claude messages that stick to the window on purpose were never being subtracted when you deleted them). Deleting a Claude message now drops it from the count too, so an empty view reads 0."],t.s)
-B.alM=new A.I(526,B.a0V)
-B.a_F=s(["EDITABLE TITLES IN THE LISTS: tap an item\u2019s title right in the Inbox or a folder and type \u2014 it saves on its own, without touching the body. A title you set by hand STICKS: editing the item\u2019s text afterward won\u2019t let the AI re-title over it.","DELETING NO LONGER JUMPS THE LIST TO THE TOP: removing an item used to scroll the whole Inbox back up (a reseed was re-labeling the surviving items as \u201cnew\u201d). The list now stays put where you were."],t.s)
-B.amD=new A.I(525,B.a_F)
-B.X2=s(['THE SILENCE-PAUSE NO LONGER EATS YOUR DICTATION: last night\u2019s trace showed it park the mic after a 90-second pause and then silently drop 669 things you said \u2014 that was the "dictation regressed." Now (your pick) when the mic parks on silence, the moment you start talking again it AUTO-RESUMES and your words land \u2014 it only ever skips a truly silent gap, never an ongoing dictation. Tapping Commands-only or "end dictation" still stays parked on purpose.'],t.s)
-B.aoC=new A.I(524,B.X2)
-B.Xd=s(['"NEW CLAUDE COMMAND" ACTUALLY FIRES NOW: tonight\u2019s trace showed the engine hearing it as "New clog command" and "New Claude quad command" \u2014 neither of which the matcher accepted, so your commands fell through as plain text and everything merged into one blob (the "structure is horrible"). Now it accepts "clog"/"clawed" and, crucially, handles the engine double-transcribing the name ("Claude quad") \u2014 the command fires through the garble.',"A Claude note\u2019s box now has a faint clay-tinted background, so it\u2019s distinct from a regular note at a glance \u2014 not just the border."],t.s)
-B.am2=new A.I(523,B.Xd)
-B.a0F=s(["THE CLAUDE SEND BUTTON MOVED to the bottom-right of the box \u2014 the exact spot the \u2713 Done button sits for regular notes. Same place, same finish-this-entry gesture.","SEND NO LONGER SHUTS OFF DICTATION: hitting Send ships your Claude message AND keeps the mic rolling with a fresh box, just like \u2713 Done does. (It used to end the session \u2014 that was a safety measure against a hot mic, which the silence-pause now handles instead.)"],t.s)
-B.amd=new A.I(522,B.a0F)
-B.Xw=s(["SILENCE NOW PAUSES CAPTURE (your pick): go quiet for ~90 seconds while dictating and the mic parks itself in Commands-only \u2014 the purple line on the box says so. Room conversation can no longer pile into your note behind your back (today\u2019s \u201cswallowed\u201d items were exactly that: minutes of room talk merging into the box). Say \u201cnew note\u201d or tap Dictate and you\u2019re rolling again; commands keep working the whole time, and the audio is always in the recording."],t.s)
-B.an2=new A.I(521,B.Xw)
-B.a22=s(["THE AUTO-MEETING FLIP STANDS DOWN WHILE YOU\u2019RE NOTE-TAKING: it exists for one case \u2014 a first dictation that runs long because it\u2019s secretly a meeting. It had been swallowing an afternoon of short notes into one giant \u201cmeeting\u201d item (that\u2019s where your \u201ceaten\u201d text went \u2014 check Meetings, it\u2019s all there). Once you\u2019ve closed even one note in a session, the flip never fires.","Windows: the drag card now says WHAT\u2019S ABOUT TO HAPPEN \u2014 \u201cMove to Kitchen\u201d, \u201cAdd to\u2026\u201d, \u201cLink into\u2026\u201d (live as you press Ctrl), \u201cNest under an item\u201d, \u201cMove to Trash\u201d \u2014 plus where it\u2019s coming from."],t.s)
-B.ame=new A.I(520,B.a22)
-B.VY=s(["ENTER RIGHT AFTER SPEAKING KEEPS EVERY WORD: \u2713 Done and Enter now flush the in-flight dictation first \u2014 the grey words you can see get up to ~1.5s to commit before the note posts, so nothing at the tail is lost to fast fingers. The grey draft counts as content too: Enter on a box with only grey words posts them instead of doing nothing.","The Done/Send/\u27a4 buttons are GRAYED OUT until there\u2019s something to post \u2014 no more buttons that look live on an empty box.","Fresh items can be deleted immediately, even mid-dictation: a just-created box no longer refuses the trash while its background save finishes \u2014 the delete wins, and the save honors it."],t.s)
-B.aod=new A.I(519,B.VY)
-B.XU=s(["JUST-CREATED ITEMS LOOK LIKE EVERY OTHER ITEM: a fresh item briefly rendered without its \u2261 handle on Windows, so its box spanned wider than the rest. The handle column is now always there \u2014 a dimmed placeholder holds the exact space until the real grip arrives a moment later. Boxes always look the same."],t.s)
-B.akk=new A.I(518,B.XU)
-B.a2Z=s(["REORDER THE INBOX ON WINDOWS: drag an item\u2019s \u2261 UP or DOWN and it moves in place \u2014 the same axis split as folders (sideways still lifts it to file into a folder, Ctrl links). Your order sticks; new arrivals still land on top. On the phone this already works: hold any box a beat and move it."],t.s)
-B.aot=new A.I(517,B.a2Z)
-B.Xz=s(["The on-device diagnostic logs now HEAL THEMSELVES: after an update or storage hiccup they could silently stop recording \u2014 which is why several of today\u2019s bug reports came back untraceable. Every app start now stamps the log, and a failed write re-opens the file and retries instead of going quiet. (This is the eyes for fixing everything else you report.)"],t.s)
-B.amU=new A.I(516,B.Xz)
-B.a_s=s(["ITEMS YOU CREATE ARE NEVER AUTO-DELETED AGAIN: the end-of-session cleanup used to destroy any item that was still empty when the mic turned off \u2014 including ones you\u2019d created on purpose (and ones that LOOKED filled but whose words had routed elsewhere). That rule is retired: a created item survives, empty or not, exactly like the click-out law says. Empty ones are one manual delete away, with Undo."],t.s)
-B.aor=new A.I(515,B.a_s)
-B.Zk=s(["ONE \u2713 DONE, EVERYWHERE AN ENTRY ENDS: every folder\u2019s entry box now carries the same \u2713 Done pill as the Inbox (posts the thought filed into that folder, blanks for the next) \u2014 and an item you\u2019re dictating INTO shows \u2713 Done too: it finishes that entry, the words merge into the item, and dictation keeps rolling with a fresh box. Toward the standing model: every place you can enter a thought has an always-open area and one obvious way to end the entry, typing or speaking."],t.s)
-B.ao8=new A.I(514,B.Zk)
-B.a2M=s(["THE \u2713 DONE BUTTON NOW DOES WHAT ITS LABEL SAYS: it posts the note and DICTATION KEEPS GOING \u2014 your next words open a fresh box. It had been silently switching the session into Commands-only, which is the mode that DROPS plain speech: that is exactly how dictated paragraphs were \u201ceaten\u201d on Android today. (The dropped words\u2019 audio was never lost \u2014 full recordings of each session land in Files.)","Whenever Commands-only IS on, the entry box now says so in purple \u2014 \u201cCommands only, speech isn\u2019t captured, tap Dictate or say new note\u201d \u2014 so words can never silently vanish again. The \u2922 and Claude Send keep their close-and-stop behavior."],t.s)
-B.aoV=new A.I(513,B.a2M)
-B.Ys=s(["THE DRAG CARD TELLS YOU THE ROUTE: while dragging an item, the floating card now reads \u201cfrom Inbox\u201d, and the moment you hover a folder it shows the full move \u2014 \u201cInbox \u2192 Kitchen\u201d, \u201cIdeas \u2192 Trash\u201d \u2014 alongside the Move/\u2303 Link chip. No more guessing where a drop will land.","Windows: the app now checks for a new build every 10 MINUTES (was 2 hours) \u2014 this morning a data-loss fix sat published for an hour while the old build kept running. Release builds on the main machine also install locally the moment they publish when the app is closed."],t.s)
-B.anJ=new A.I(512,B.Ys)
-B.Xb=s(["THE DONE BUTTON ALWAYS SAVES NOW: with the mic off, \u2713 Done / Enter / \u2922 on the entry box were doing nothing \u2014 typed text sat unsaved and could be wiped by the next mode switch. Now they post your note as an item and blank the box for the next one, mic or no mic. (With v510\u2019s guard, that\u2019s both halves of the typed-note data loss closed.)","Removing a Claude item from the Inbox no longer deletes it from the Claude messages folder \u2014 the trash on those boxes now just clears them off the Inbox (Undo included); the item stays in its folder.","Windows: drag an item\u2019s \u2261 SIDEWAYS and it lifts instantly to drop on any folder \u2014 no hold, no timer; up/down still reorders. This was why folder-to-folder drags felt broken.","Windows: the left pane now shows folders in YOUR order \u2014 the one you set by dragging on the Folders screen \u2014 instead of alphabetical."],t.s)
-B.amo=new A.I(511,B.Xb)
-B.ZC=s(["TYPED WORDS CAN NO LONGER BE LOST TO A MODE SWITCH: text typed into the entry box while the mic was off used to be silently destroyed the moment a session started (turning Commands or Dictate on). Now starting a session treats that typed note like a click-out \u2014 it posts as its own item first, always. This was the last remaining way the app could delete words you gave it."],t.s)
-B.ap5=new A.I(510,B.ZC)
-B.a_a=s(["DELETING FROM ONE FOLDER NO LONGER TOUCHES ITS OTHER HOMES, everywhere: the trash on rows in the Listening List now unlinks just that folder when the item also lives elsewhere (Trash only when it\u2019s the last home) \u2014 and both ways give you a 6-second Undo.","Drop items ONTO SUBFOLDERS inside a folder: the subfolder rows light up as drop targets, same as the left pane \u2014 drop moves the item in, Ctrl+drop links it.","Windows: the bar between the folder pane and the main window is now a real DIVIDER \u2014 grab it and drag to size the pane how you like; it remembers.","Windows: holding the \u2261 to lift an item free now takes a quick quarter-second instead of nearly half \u2014 dragging to a folder feels immediate."],t.s)
-B.akh=new A.I(509,B.a_a)
-B.Zv=s(["THE ALWAYS-OPEN ENTRY BOX: the Inbox\u2019s top box never disappears \u2014 speak into it or type into it any time, and ENTER (or \u2713/Send) posts the thought and blanks the box for the next one. Shift+Enter makes a new line; an empty Enter does nothing.","Every folder \u2014 including ones you create later \u2014 has its own entry box at the top: type a thought, Enter files it straight into that folder, ready for the next."],t.s)
-B.anK=new A.I(508,B.Zv)
-B.a2Q=s(["The Listening List\u2019s \u201cAll\u201d now means exactly what it says there: everything MARKED TO LISTEN \u2014 your tagged folders and loose tagged items as one playable entry, count matching the \u201citems will play\u201d total. (v506 briefly played the whole library; corrected.)"],t.s)
-B.amn=new A.I(507,B.a2Q)
-B.a_V=s(["ALL MOVED TO THE LISTENING AREA, done right: a pinned \u201cAll \u2014 your entire library\u201d entry at the top of the Listening List, always in sync with everything you have (it IS the library \u2014 folders in order, then loose items). Play now plays from it: your whole collection, no tags needed. Yesterday\u2019s All folder is retired from the folders area automatically. Tagged folders below keep their own play buttons."],t.s)
-B.akE=new A.I(506,B.a_V)
-B.a2t=s(["Collapsed rows: the \u25b8 arrow is back on the far left (tap it to open) and title editing is back in place \u2014 with the cleaner look kept (no headphones/trash on the line). Open boxes fold from their \u25be or anywhere on the top strip. Every folder and subfolder screen carries the fold-all/open-all toggle top right."],t.s)
-B.anz=new A.I(505,B.a2t)
-B.VF=s(["ONE-TAP OPEN AND CLOSE: collapsed items are now a clean title line \u2014 no chevron, no buttons \u2014 and tapping ANYWHERE on the line opens the box; tapping an open box\u2019s top strip (badge/date row) closes it. Folders get the fold-all/open-all toggle at the top right too, scoped to that folder. (Collapsed-title editing traded for the one-tap open \u2014 titles still edit in the open box.)"],t.s)
-B.anF=new A.I(504,B.VF)
-B.WN=s(["THE \u201cALL\u201d FOLDER: every new item and folder links itself into a folder named All, automatically, from any device \u2014 tap its headphones and your entire ongoing library is ONE entry in the listening program. Filing an item elsewhere never pulls it out of All (links, not moves). Going-forward from today; say the word if you want history backfilled too."],t.s)
-B.amK=new A.I(503,B.WN)
-B.YK=s(["OUTLINE ITEMS \u2014 items inside items: drop any item\u2019s \u2630 onto another item and it nests underneath (hold Ctrl to LINK it there instead, so the same item lives in several places \u2014 it wears a \u29c9 badge with its home count). A \u201cN sub-items\u201d line under a parent unfolds them, indented, to any depth, in the Inbox and in folders. The \u2296 removes a sub-item from that spot only; nothing is ever lost.","The full-size view always shows the item\u2019s DATE now \u2014 today\u2019s items were showing time only.","The Claude Send button tells you WHY when it can\u2019t send: signed out (fix in Settings) vs offline (it retries itself every 2 minutes)."],t.s)
-B.aoA=new A.I(502,B.YK)
-B.Ym=s(["DELETE AND EXPAND SWAPPED PLACES on every box: the trash now sits top-right, the \u2922 full-window button bottom-right \u2014 and on the live box the X moved left of the \u2922. Same actions, corners exchanged."],t.s)
-B.amw=new A.I(501,B.Ym)
-B.a2L=s(["RELEASE 500 \ud83c\udf89 \u2014 the \u2713 Done (\u201cnew note\u201d) pill moved to the bottom-right corner of the live box, where your thumb expects it. Same act: the note posts, the mic keeps rolling, your next words open a fresh box."],t.s)
-B.anT=new A.I(500,B.a2L)
-B.a13=s(["MOVE ITEMS BETWEEN FOLDERS RIGHT IN THE LISTENING LIST: drag an item\u2019s \u2630 onto any folder header there and it MOVES into that folder (the header highlights as you hover). Same move rules as everywhere \u2014 moved, never copied, never lost."],t.s)
-B.ap7=new A.I(499,B.a13)
-B.ZE=s(["A \u2713 ON THE BOX YOU\u2019RE DICTATING INTO: tap Done \u2014 \u201cnew note\u201d in the label is the spoken twin \u2014 and the note posts as a finished item while dictation keeps running; your next words open a fresh box. Every visible control teaching its voice command is the new pattern."],t.s)
-B.ap8=new A.I(498,B.ZE)
-B.a00=s(["HOME IS NOW INBOX: the main stack is where every thought arrives before you file it \u2014 so it\u2019s named what it is. Nothing else moved."],t.s)
-B.aok=new A.I(497,B.a00)
-B.a_N=s(["\u201cPLAY FOLDER\u201d WORKS MID-DICTATION: saying it (or tapping a folder\u2019s play) while the mic was live used to answer \u201cnothing to play\u201d \u2014 the mic guard was lying about a full folder. Now wanting to listen ends the dictation for you, everywhere: the mic stops, your last words finish transcribing in the background, and the folder starts reading."],t.s)
-B.anR=new A.I(496,B.a_N)
-B.a2I=s(["REORDER YOUR LISTENING PROGRAM: hold any folder in the Listening List and drag it up or down \u2014 your order is the PLAY order (Play-all follows it top to bottom instead of the alphabet). A newly tagged folder joins at the end until you place it."],t.s)
-B.akz=new A.I(495,B.a2I)
-B.a12=s(["CLAUDE MESSAGES CAN\u2019T GET STUCK ANYMORE: two holes closed. Sync\u2019s recording-pause could become permanent if its resume was ever missed (the Windows desktop booted paused and stayed that way \u2014 thousands of rows queued, messages never sent); a watchdog now heals any stale pause within 2 minutes while a real recording still keeps sync off. And the Claude sender now runs on its own clock, independent of sync entirely \u2014 a written message delivers within ~2 minutes of sitting still, from any device, no matter what sync is doing."],t.s)
-B.akS=new A.I(494,B.a12)
-B.X_=s(["CLOSE THE WINDOW YOU\u2019RE DICTATING INTO: the fold chevron now shows on the box that has your cursor while dictating \u2014 tap it and that box saves, folds to its title, and your words flow straight back into the live box at the top. The mic never stops."],t.s)
-B.akH=new A.I(493,B.X_)
-B.a0L=s(["CLEANER PHONE ROWS: the \u2261 handle is gone from items on the phone \u2014 hold the item itself to reorder (that shipped in v490/491), so the handle was just noise. Desktop keeps it: there it also drags items into folders. Folder rows keep their \u2261 everywhere."],t.s)
-B.ao2=new A.I(492,B.a0L)
-B.Zw=s(["HOLD TO REORDER ON THE HOME SCREEN TOO: press and hold any item on Home and move it up or down \u2014 your order sticks on this device. New dictations still land on top so the newest thing stays visible, and the live dictation box stays planted while it runs."],t.s)
-B.aoE=new A.I(491,B.Zw)
-B.Ws=s(["HOLD ANYWHERE TO REORDER: press and hold any item in a folder \u2014 collapsed or open \u2014 and it lifts to reorder right there. The \u2261 still moves it to a folder when held, and holding on the words still selects text."],t.s)
-B.aoJ=new A.I(490,B.Ws)
-B.VZ=s(["ONE HANDLE DOES BOTH: in a folder, the single left \u2261 now reorders when you drag it and MOVES TO A FOLDER when you hold it a beat first, then drag to the left pane (Ctrl at drop still links). The second grip inside the box is retired.","TYPE INTO A NEW ITEM IMMEDIATELY ON WINDOWS \u2014 the real fix, from the real trace: the \uff0b menu\u2019s closing animation was silently stealing the cursor a third of a second after the new box grabbed it, right after the old focus-keeper stopped watching. The keeper now outlasts the steal (and yields instantly if you click somewhere on purpose), and a brand-new empty note on desktop opens with its typing field live \u2014 first keystroke lands, no click needed."],t.s)
-B.akI=new A.I(489,B.VZ)
-B.W4=s(["THE OPENAI BILL GUARDS: multi-hour session audio no longer transcribes itself (tap Retry on the item when you actually want it \u2014 that\u2019s what turned into $21 today), failed uploads stop auto-retrying after 3 tries, a \u201cbudget reached\u201d verdict from OpenAI pauses background transcription for a day instead of hammering it, and automatic recovery now uses the half-price model. Dictation and live captions never depended on OpenAI \u2014 a tripped budget can\u2019t touch them.","Collapsed rows lose the color square \u2014 the border already tells you the type."],t.s)
-B.anZ=new A.I(488,B.W4)
-B.WP=s(["UNDO AFTER DELETE: deleting an item now shows \u201cMoved to Trash \xb7 Undo\u201d for 6 seconds \u2014 one tap brings it straight back. The Trash stays your 30-day net either way."],t.s)
-B.akW=new A.I(487,B.WP)
-B.a21=s(["Collapsed titles edit in place \u2014 tap the title on a folded item, type, done. Saves the title only; your words are never touched."],t.s)
-B.amm=new A.I(486,B.a21)
-B.a1G=s(["REORDER ITEMS IN FOLDERS ON WINDOWS TOO: the \u2261 handle now reorders on desktop just like the phone, and the box\u2019s grip still drags items into folders \u2014 both at once.","The \u201caudio isn\u2019t available\u201d message now tells you WHY: no cloud copy exists for that item (recorded on Windows or before audio sync), versus signed out or offline \u2014 different problems, different fixes."],t.s)
-B.anQ=new A.I(485,B.a1G)
-B.a2a=s(["COLLAPSE ALL / OPEN ALL: the toggle sits at the top right of the main screen, across from the menu \u2014 one tap folds every item to its title line, tap again opens them all.","Collapsed items carry their headphones and delete buttons in the usual spots \u2014 listen or trash without opening the box.","The folder headphones icon is back to full size (shrinking it was never the fix \u2014 the hidden button floor was)."],t.s)
-B.anr=new A.I(484,B.a2a)
-B.a2B=s(["FOLDER ROWS FINALLY MATCH HOME\u2019S HEIGHT: the headphones button on every folder row had a built-in minimum height that silently blocked all the tightening \u2014 replaced; folders in the pane now sit as short as the rows above them."],t.s)
-B.ao6=new A.I(483,B.a2B)
-B.a0_=s(["Collapsed items trade the type label for a small color square \u2014 more room for the title on one line."],t.s)
-B.aml=new A.I(482,B.a0_)
-B.a_c=s(["THE FOLDER SCREENS GOT THE DENSITY TOO: the Folders list and the folder rows inside folders were still at their old tall height while the left pane tightened \u2014 now they match (a third shorter). That was the \u201cfolders haven\u2019t changed at all\u201d miss.","Collapsed items wrap to two lines when the title needs it."],t.s)
-B.ann=new A.I(481,B.a_c)
-B.WH=s(["Folder rows sit at their tightest everywhere \u2014 zero gap between rows, uniform top to bottom."],t.s)
-B.ako=new A.I(480,B.WH)
-B.a3h=s(["COLLAPSE ANY ITEM TO ITS TITLE: every box now has a \u25b8 arrow at its top left \u2014 tap it and the item folds to one line (badge + title); tap again to reopen. Remembered per device. The live box you\u2019re dictating into never collapses."],t.s)
-B.alt=new A.I(479,B.a3h)
-B.Yq=s(["FOLDERS SIT CLOSER TOGETHER \u2014 on the phone too now, and desktop tightened one more notch. Noticeably more folders on one screen."],t.s)
-B.alx=new A.I(478,B.Yq)
-B.VU=s(["CLAUDE MESSAGES SHOW ALL THREE TIMES: the status line now stamps each stage as it happens \u2014 \u201cSent 2:41pm \xb7 Received 2:43pm \xb7 Done 2:50pm\u201d \u2014 on the full-size view, synced across devices. Messages from before today show their latest time only (the history starts now)."],t.s)
-B.akP=new A.I(477,B.VU)
-B.a1V=s(["SEND BUTTON ON EVERY UNSENT CLAUDE ITEM: any Claude message that hasn\u2019t gone out yet \u2014 typed in a folder, or stranded by a bad connection \u2014 now wears the Send pill right on its box. Tap it and the message goes immediately instead of waiting for the 2-minute auto-send."],t.s)
-B.ams=new A.I(476,B.a1V)
-B.YQ=s(["READ ALOUD WHILE DICTATING: the button isn\u2019t grayed out anymore \u2014 tapping it mid-dictation asks \u201cEnd dictation and read aloud?\u201d, ends the recording cleanly (transcription finishes in the background), and starts reading.","NEW ITEMS TAKE THE CURSOR FOR REAL: a created item (Claude included) kept losing its cursor a frame after grabbing it \u2014 you had to click in manually. The cursor is now held until it sticks; just start typing.","THE DRAG CARD SHOWS MOVE VS LINK: dragging an item out of a folder shows a \u201cMove\u201d chip on the floating card \u2014 press Ctrl mid-drag and it flips to \u201c\u2303 Link\u201d live, so you always know what the drop will do.","MORE FOLDERS ON SCREEN (Windows): the left-pane rows are ~30% tighter on desktop. Phone rows stay finger-sized.","Claude items show WHEN: the full-size status line stamps the current stage with its time \u2014 \u201cDone \xb7 12:19pm\u201d. (Per-stage history for all three comes with a small server migration.)"],t.s)
-B.amr=new A.I(475,B.YQ)
-B.a_6=s(["DRAGGING BETWEEN FOLDERS NOW MOVES: drag an item out of a folder onto another folder in the pane and it moves there \u2014 out of the old, into the new, exactly like Windows Explorer. Hold CTRL while dropping to LINK instead (the item lives in both). Drags from Home or lists still just file; if the item is in several folders, only the one you dragged from changes."],t.s)
-B.alI=new A.I(474,B.a_6)
-B.X3=s(["SEE \u2261, CAN DRAG \u2014 everywhere: the reorder handle moved to the LEFT of the folder icon (your call \u2014 the right side was crowded, and a left grab keeps the name visible while you drag), and it now shows on subfolder rows AND item boxes inside folders too. Those could always reorder \u2014 invisibly, by long-press; now the handle is the one drag surface and long-press is purely the options menu. In-folder order syncs across devices.","WINDOWS: hover over any left-pane row \u2014 folders included \u2014 and a tooltip shows the full name when it\u2019s cut off."],t.s)
-B.an5=new A.I(473,B.X3)
-B.XP=s(["The folder options box now shows a folder icon beside its title \u2014 at a glance you know the word at the top is the folder\u2019s name."],t.s)
-B.amM=new A.I(472,B.XP)
-B.a_W=s(["FOLDER REORDERING HAS DOORS NOW: tap the FOLDERS header in the left pane (or the new \u21c5 icon beside its +, or \u201cReorder Folders\u2026\u201d in any folder\u2019s \xb7\xb7\xb7 menu) to open the list where you drag folders into order. v469 built the room; v471 builds the doors.","NEW CLAUDE MESSAGE from any folder\u2019s \uff0b menu: type your message instead of speaking it \u2014 it files into that folder plus the Claude messages archive, and sends itself once you stop typing for 2 minutes (a half-typed message never sends early)."],t.s)
-B.amW=new A.I(471,B.a_W)
-B.VA=s(["SEND BUTTON ON CLAUDE MESSAGES: the box you're dictating a Claude message into now has an explicit Send pill at the top \u2014 tap it and the message posts right there, no need to click away. Same trip as before: Sending \u2192 received \u2192 done, reply in the box."],t.s)
-B.aky=new A.I(470,B.VA)
-B.a38=s(["DRAG FOLDERS INTO ORDER: grab the \u2261 handle on any folder row (Folders screen) and slide it up or down \u2014 finger on the phone, mouse on Windows. The left pane follows the new order instantly, and Move Up/Down stays in the \xb7\xb7\xb7 menu for one-handed use."],t.s)
-B.aoD=new A.I(469,B.a38)
-B.Zu=s(["CLAUDE MESSAGES CAN\u2019T DIE IN LIMBO ANYMORE: a message that never reached Claude (signed out, offline, server hiccup) now re-sends itself automatically once you\u2019re signed in \u2014 same rhythm the status checker already runs. Your words were always saved; now they always arrive too."],t.s)
-B.any=new A.I(468,B.Zu)
-B.VR=s(["THE MIC CHECKS IN: if a recording runs two hours without a single touch, Voicley asks \u201cStill dictating?\u201d \u2014 Keep recording or Turn Off, your call, never automatic. Born from the two overnight sessions that transcribed the TV till morning.","The Windows app now re-checks for updates every couple of hours while it sits open \u2014 no more running days-old builds because the window never closed."],t.s)
-B.am6=new A.I(467,B.VR)
-B.a_o=s(["EXPAND THE NOTE YOU\u2019RE CREATING: the live box now has the \u2922 button too \u2014 one tap closes the note and opens it full-size (capture pauses, exactly like opening any other item)."],t.s)
-B.alL=new A.I(466,B.a_o)
-B.a_Q=s(["DELETE THE NOTE YOU\u2019RE CREATING: the live box (Claude ones included) now has an \u2715 at the top \u2014 tap it to wipe the note and keep dictating fresh. The words go on your explicit tap; the session recording still keeps all audio.","FULL-SIZE SCROLL STAYS PUT: scrolling an item no longer snaps back on its own \u2014 background refreshes were resetting the view to the top."],t.s)
-B.alF=new A.I(465,B.a_Q)
-B.a1p=s(["The full-size header\u2019s time sits at the top right with proper breathing room from the edge \u2014 visible, compact (\u201c12:21am\u201d), box-style."],t.s)
-B.amp=new A.I(464,B.a1p)
-B.a1T=s(["The full-size header\u2019s date/time is back on the right \u2014 box-style, compact (\u201c12:21am\u201d)."],t.s)
-B.akK=new A.I(463,B.a1T)
-B.Zh=s(["MAXIMIZING A CLAUDE BOX OPENS THE RIGHT ITEM: filed-but-visible Claude messages were missing from the full-screen pager\u2019s list, so maximizing one jumped to a different item entirely. The list now matches what you see, and as a safety net a box that ever goes missing from it opens alone instead of opening the wrong thing."],t.s)
-B.amO=new A.I(462,B.Zh)
-B.a2U=s(["THE FULL-SIZE VIEW WEARS THE BOX\u2019S BORDER: the title + text card now has the same type-colored outline the main-window boxes wear (blue note, green task, amber meeting, clay Claude) \u2014 the full view reads as a giant version of the box."],t.s)
-B.ant=new A.I(461,B.a2U)
-B.a_u=s(["FULL-SIZE POLISH: the \u201cTranscript\u201d labels are gone (the text just leads), the time moved in from the far right to sit beside the headphones, and it\u2019s compact now \u2014 \u201c12:21am\u201d for today, \u201cJul 11 \xb7 5:32pm\u201d for older items."],t.s)
-B.am8=new A.I(460,B.a_u)
-B.Z_=s(["FULL-SIZE VIEW DECLUTTERED: Read aloud now sits to the right of the folder chips, and the duplicate date/time under the text is gone (the header owns it) \u2014 the meta line keeps just the destination."],t.s)
-B.anl=new A.I(459,B.Z_)
-B.ZS=s(["THE FULL-SIZE HEADER NOW MATCHES THE BOXES: type badge on the left, the listening headphones right beside it (tap to add/remove \u2014 same control as the boxes), and the date/time pinned top right. The separate \u201cAdd to listening list\u201d card below is retired \u2014 one header, one control."],t.s)
-B.alb=new A.I(458,B.ZS)
-B.Yi=s(["THE FULL-SIZE VIEW KNOWS WHAT IT IS: the top bar now shows the item\u2019s TYPE \u2014 the same colored badge the boxes wear (Note / Task / Meeting / Claude) \u2014 plus the date. And there\u2019s just ONE title now: big, bold, wrapping to two lines, and editable right in place \u2014 the little duplicate title field is gone."],t.s)
-B.and=new A.I(457,B.Yi)
-B.a0W=s(["CLAUDE REPLIES YOU CAN ACTUALLY READ: the reply and the Sent \xb7 Received \xb7 Done ladder now show in BOTH big views of a Claude item \u2014 the tap-open sheet AND the full window \u2014 at full reading size (the reply in body text, the ladder a step bigger), pinned right under the message so no scrolling is needed."],t.s)
-B.aoY=new A.I(456,B.a0W)
-B.W5=s(["CLAUDE ITEMS IN THE FULL WINDOW: opening a Claude message full-size now shows the whole round-trip \u2014 my reply right under your message and the Sent \xb7 Received \xb7 Done ladder beneath it, updating live as the desk works. The title bar says \u201cClaude\u201d for untitled ones too."],t.s)
-B.al7=new A.I(455,B.W5)
-B.Z3=s(["INLINE EDITS STICK NOW: editing an item\u2019s text and leaving the window no longer shows the old text when you come back \u2014 your edits were saving safely underneath, but the main window kept showing its own stale copy. Every save now updates the window at the same instant it writes the database.","Notes finished on the desktop app now show up properly in the main window on every device (they were saved with a blank type that the window\u2019s filter couldn\u2019t see)."],t.s)
-B.all=new A.I(454,B.Z3)
-B.Zc=s(["DELETING AN ITEM NO LONGER JUMPS THE WINDOW OR THE CURSOR: deleting a box you were typing or dictating into used to hand the cursor to the item below it \u2014 the list scrolled to follow it, and your dictation started landing in the wrong note. Now a delete cleanly lets go first: the cursor drops, the list stays put, and dictation falls back to its own live box."],t.s)
-B.alC=new A.I(453,B.Zc)
-B.ZY=s(["YOUR PHONE STOPS FILLING UP: while charging and idle, Voicley quietly swaps the bulky raw audio of already-transcribed, already-uploaded recordings for verified compact copies \u2014 about 90% smaller per file, playing identically. Nothing is ever touched unless the transcript is safe, the upload is confirmed, and the replacement passes a duration check; every swap is listed in Settings \u2192 Item changes."],t.s)
-B.am4=new A.I(452,B.ZY)
-B.a_E=s(["WINDOWS PLAYS AUDIO NOW: the play button in the full item view (and everywhere else on desktop) actually plays your recordings \u2014 Windows was missing its audio engine entirely, so the button did nothing. The reader also plays real recordings on Windows now instead of always reading with the robot voice."],t.s)
-B.amV=new A.I(451,B.a_E)
-B.a3i=s(["THE WHOLE TREE IN THE LEFT PANE: folders with subfolders now expand in place \u2014 tap the \u203a chevron to unfold a folder\u2019s subfolders right in the pane, nested to any depth, indented so you can see the shape of your library. The pane remembers what you left open. Rows keep everything: tap to open, long-press for actions, drag-to-file, counts, headphones."],t.s)
-B.alu=new A.I(450,B.a3i)
-B.YI=s(["SPEAK THE DESTINATION: \u201cnew note in cash flow\u201d opens a fresh note that FILES ITSELF into that folder when it closes \u2014 the live box shows \u201c\u2192 cash flow\u201d so you can see where it\u2019s headed. Fuzzy name matching forgives filler and truncation; a genuinely new name creates the folder.","READ ANY FOLDER BY VOICE: in Commands only, \u201cread the cash flow folder\u201d (or \u201cplay ideas\u201d) reads that folder top to bottom. \u201cPause/resume reading\u201d, \u201cskip\u201d, and \u201cprevious item\u201d control playback."],t.s)
-B.ane=new A.I(449,B.YI)
-B.a2D=s(["CLAUDE ANSWERS IN THE BOX: when the desk session finishes acting on your message, its one-line answer appears right in your clay box under the Done footer \u2014 \u201cClaude: Filed to brainstorm \u2713\u201d. Every message becomes a tiny completed conversation you can read from the phone."],t.s)
-B.akb=new A.I(448,B.a2D)
-B.a3m=s(["Sending a Claude message now turns dictation OFF automatically (unless you asked for a new note in the same breath) \u2014 no more open mic collecting the TV after your message ships.","The \u201cplay the listening folder\u201d command accepts your own phrases now \u2014 its row in Settings \u2192 Voice commands has the \uff0b phrase button like the rest."],t.s)
-B.anv=new A.I(447,B.a3m)
-B.YP=s(["Android now shows the real release number \u2014 \u201cv446\u201d \u2014 in App info and system dropdowns instead of the meaningless \u201c0.1.0\u201d. Settings footer matches."],t.s)
-B.ap_=new A.I(446,B.YP)
-B.Zl=s(["Typing into a Claude box works like every other box now \u2014 its status updates were quietly rebuilding the screen under your finger and stealing the cursor. The screen no longer repaints while your cursor is in any box.","Network log dates are readable now \u2014 brighter and a step bolder."],t.s)
-B.akl=new A.I(445,B.Zl)
-B.YJ=s(["\u201cNew Claude command\u201d now works too \u2014 message, note, or command, whichever word comes out.","The Network log now reads human-first: each incident leads with its plain-English story at full size, and the raw technical detail sits under its own \u201cTECHNICAL\u201d divider \u2014 collapsed until you tap it."],t.s)
-B.aoU=new A.I(444,B.YJ)
-B.Zg=s(["DICTATION RELIABILITY: the engine is now told to listen for \u201cClaude\u201d and \u201cVoicley\u201d by name (far fewer clod/quad mishearings at the source).","Words spoken while the connection is down are RECOVERED: when a dead network outlasts the live buffer, the missing stretch is re-transcribed from the kept audio when you stop, and the words join the session\u2019s recording. Tonight\u2019s 8-minute outage would have healed itself.","The live box stopped flashing: the grey draft now only grows as you speak \u2014 the polished rewrite lands once, when each passage finalizes, instead of repainting every half-second guess.","Fixed: starting a Claude message, saying nothing, and then \u201cnew note\u201d made the NEW note a Claude box \u2014 the leftover addressing now dies with the empty box it belonged to."],t.s)
-B.akm=new A.I(443,B.Zg)
-B.XZ=s(["\u201cNew Claude message\u201d \u2014 the pause-after-the-phrase case: saying the command and then pausing was splitting the word \u201cmessage\u201d off the end and the command never fired. A complete phrase now always wins. \u201cNewclaud\u201d as one squashed word counts too."],t.s)
-B.ak7=new A.I(442,B.XZ)
-B.YR=s(["\u201cNew Claude message\u201d now survives being split across transcription chunks \u2014 the exact failure from tonight\u2019s log (the engine heard \u201cNew clod\u201d \u2026 \u201cmessage\u201d as two pieces) is caught and reassembled, so the command fires even when the recognizer breathes mid-phrase."],t.s)
-B.alT=new A.I(441,B.YR)
-B.Yc=s(["Claude messages ACTUALLY appear on the main screen now \u2014 the screen\u2019s loader had a pre-v434 list of item types that silently dropped them (they lived in the folder but never on Home). Your existing messages all show up after this update.","The Android back button, for real this time: Android 13+ routes the button around the fix v438 used; that routing is now configured so back steps back everywhere. Third time\u2019s the proven one."],t.s)
-B.amj=new A.I(440,B.Yc)
-B.a_L=s(["\u201cNew Claude message\u201d now actually works: it fires mid-dictation like \u201cnew task\u201d (closing your current note and opening a fresh Claude box), and it forgives how the engine hears the name \u2014 \u201cnew clot message\u201d, \u201cnew quad message\u201d and friends all count."],t.s)
-B.ami=new A.I(439,B.a_L)
-B.a2N=s(["Claude messages now STAY on the main screen (and in the Claude chip) after they complete \u2014 they were vanishing into their folder seconds after sending because the desk session got fast. The \u201cClaude messages\u201d folder remains their permanent archive.","The Android back button truly behaves like the app\u2019s \u2039 back now \u2014 v436\u2019s fix registered at the wrong layer and Settings still minimized; this one intercepts the button itself. Dialogs still close first, and on Home the button still minimizes as Android expects."],t.s)
-B.aki=new A.I(438,B.a2N)
-B.Yp=s(["YOUR OWN WORDS for voice commands: in Settings \u2192 Voice commands, every command now has a \u201c\uff0b phrase\u201d \u2014 add the wording that comes naturally (\u201cthat\u2019s all\u201d for end note, \u201chey Claude\u201d for message for Claude\u2026). Your phrases ADD to the built-ins, they never replace them, and they\u2019re checked so no two commands can collide."],t.s)
-B.akq=new A.I(437,B.Yp)
-B.VK=s(["The Android back button now behaves like the app\u2019s \u2039 back everywhere: in Settings, Files, folders and the rest it steps back (or returns Home) instead of minimizing the app. On the Home screen it still minimizes, as Android convention expects."],t.s)
-B.alg=new A.I(436,B.VK)
-B.X0=s(["Create items INSIDE a folder: a new \uff0b at the top of every folder makes a note, task, or meeting that\u2019s born already filed there \u2014 and the cursor lands in its box so you can type (or tap its body and dictate) immediately.","\u201cNew Claude message\u201d now works as a spoken opener too (same as \u201cmessage for Claude\u201d) \u2014 it\u2019s the phrase that came naturally, so now it counts."],t.s)
-B.amf=new A.I(435,B.X0)
-B.a2r=s(["CLAUDE MESSAGES are now real items: \u201cmessage for Claude \u2026\u201d (or \uff0b \u2192 Message for Claude) makes its own clay-colored box beside your notes, tasks and meetings. Its footer shows the round trip live \u2014 Sending\u2026 \u2192 Sent \u2192 Received \u2192 Done \u2014 so you can see the moment the desk session picks it up.","A \u201cClaude messages\u201d folder appears in the left pane automatically and collects every message; while one is still in flight it also stays on the main window so you can watch its status.","New Claude view chip on the main window counts today\u2019s messages; edits you make inside any item now show up in its main-window box."],t.s)
-B.anm=new A.I(434,B.a2r)
-B.a2h=s(["NEW voice command for the road: start a dictation with \u201cmessage for Claude\u201d and everything you say goes to your Claude session when the note closes (\u201cend note\u201d or Off). The end-of-note \u201csend to Claude\u201d still works too. Both listed in Settings \u2192 Voice commands."],t.s)
-B.alj=new A.I(433,B.a2h)
-B.a36=s(["Full-screen items now use the same text size as the boxes on the main window (both follow your transcript size setting \u2014 Speakers blocks included).","Fixed: hitting Stop on the Android listening notification left Play dead. Play now restarts the list right where you stopped it."],t.s)
-B.ale=new A.I(432,B.a36)
-B.a25=s(["THE ITEM GUARD: nothing can destroy an item unless you told it to. Every delete now carries its reason; automatic cleanups may only remove items that are verifiably empty at the moment of deletion (the bug that killed real notes mid-save is impossible now); and any code that tries to destroy an item without permission is refused and flagged.","NEW in Settings \u2192 Diagnostics: \u201cItem changes\u201d \u2014 a plain-English history of every delete, restore, and cleanup on this device, with its reason. Anything BLOCKED shows in red with a count on the Settings row, so a misbehaving cleanup gets caught in the log instead of in your library."],t.s)
-B.am7=new A.I(431,B.a25)
-B.YW=s(["RECOVERY: the items that disappeared in the cleanup incident come back on their own \u2014 this build re-matches each restored item to its recording file (which never left your phone) and re-transcribes it. Leave the app open and idle for a couple of minutes, then check your folders.","\u201cEnd dictation\u201d / \u201cstop dictation\u201d now turns dictation fully Off \u2014 the same as tapping Off. For the middle state (pause but keep listening for commands), say \u201ccommands only\u201d.","Faster catch-up: interrupted transcriptions now keep draining while the app sits idle, instead of three per app-open."],t.s)
-B.aon=new A.I(430,B.YW)
-B.VN=s(["New voice command: say \u201ccommands only\u201d (at the end of a thought) to pause dictation without closing your note \u2014 the spoken twin of the middle button. \u201cResume dictation\u201d picks it back up. Also listed in Settings \u2192 Voice commands."],t.s)
-B.amE=new A.I(429,B.VN)
-B.a3f=s(["URGENT fix: yesterday\u2019s automatic cleanup could wrongly remove recordings that were still waiting to upload when the library was opened on a new device (they looked empty from there). The cleanup is removed entirely. Disappeared items are restorable and are being restored."],t.s)
-B.anB=new A.I(428,B.a3f)
-B.YM=s(["NEW: a Network log in Settings (under Advanced \u2192 Diagnostics). Every network hiccup \u2014 DNS failures, stalled captions, dropped connections, failed uploads, unreachable sync \u2014 is recorded with a plain-English explanation of what happened, and each issue type shows how many times it has occurred. Bursts group into one entry."],t.s)
-B.aoz=new A.I(427,B.YM)
-B.a_x=s(["Dictation and command accuracy restored: live speaker detection (added yesterday for the Speakers view) was quietly taxing the recognizer, so it\u2019s off the live stream. Who-said-what returns via a smarter after-the-fact pass soon."],t.s)
-B.alw=new A.I(426,B.a_x)
-B.Y7=s(["Web: your synced items can now actually appear \u2014 the web version was reading a separate empty database from the one sync fills; they\u2019re one and the same now, exactly like on your phones."],t.s)
-B.amB=new A.I(425,B.Y7)
-B.a_i=s(["The sync sign-in got a show-password eye \u2014 tap it to see what you typed before hitting Sign in. (The website\u2019s web-app login got the same.)"],t.s)
-B.an7=new A.I(424,B.a_i)
-B.ZJ=s(["The web version (preview) can now sign in to Library Sync \u2014 same account as your phones, in Settings."],t.s)
-B.ald=new A.I(423,B.ZJ)
-B.a_8=s(["The \u201c+\u201d create menu now works from Commands only \u2014 even with a task or meeting box open. Creating switches you into capture for the new item, same as the spoken command."],t.s)
-B.anu=new A.I(422,B.a_8)
-B.a2f=s(["The 0:00 items are explained and cleaned up: they were meeting/note placeholders orphaned when a session was killed mid-way. A launch sweep now purges day-old empty ones automatically \u2014 anything with words or audio is never touched.","Fixed a narrow loss window: typing into a blank note and hitting Off within a second could destroy the just-typed words. The blank-note cleanup now waits out the save and never touches a note your cursor is in."],t.s)
-B.akX=new A.I(421,B.a2f)
-B.a0U=s(["Fixed: a flowing note could wrap past 10 lines and scroll inside its box \u2014 wrapped length now counts toward the 10-line cap, so long notes become \u201cmore\u2026\u201d cards like they should.","This update dialog now shows each release number above its changes."],t.s)
-B.aoy=new A.I(420,B.a0U)
-B.Xm=s(["Items now cap at 10 lines everywhere (notes, tasks, and meetings alike) \u2014 long ones show their first 10 lines with \u201cmore\u2026\u201d and open full-screen. Steadier scrolling too."],t.s)
-B.amt=new A.I(419,B.Xm)
-B.a1a=s(["Creating items moved UP: a \u201c+\u201d now sits at the end of the top labels row \u2014 tap it to create a Note, Task, or Meeting. The dedicated buttons at the bottom are gone, so the bottom is just the Off/Commands/Dictate control and the list gets more room."],t.s)
-B.anI=new A.I(418,B.a1a)
-B.XX=s(["NEW: speakers. When a recording has more than one voice, its full-screen view shows the conversation broken out by speaker \u2014 \u201cSpeaker 1 / Speaker 2\u201d blocks with each person\u2019s words, and a play button on every block that plays exactly that stretch of audio.","Applies to NEW recordings made with the live (Deepgram) engine from this version on \u2014 older items don\u2019t have speaker data."],t.s)
-B.akr=new A.I(417,B.XX)
-B.a1L=s(["Fixed: long items scroll again on Android \u2014 dragging anywhere on the text now moves the page (the text area was swallowing the drag)."],t.s)
-B.ak8=new A.I(416,B.a1L)
-B.WT=s(["Settings now lists every voice command: tap \u201cVOICE COMMANDS\u201d to see the current phrases, what each does, and their alternate wordings."],t.s)
-B.anM=new A.I(415,B.WT)
-B.a2K=s(["Saying \u201cstop dictation\u201d now turns off dictation, same as \u201cend dictation\u201d (also: \u201cstop note\u201d, \u201cstop dictating\u201d)."],t.s)
-B.anx=new A.I(414,B.a2K)
-B.Yv=s(["Fixed: while dictating, tapping an item to move the cursor there now works on the FIRST tap. Putting the cursor in an item no longer snaps the list to the top (which was scrolling the item away and eating your first tap)."],t.s)
-B.anj=new A.I(413,B.Yv)
-B.ZZ=s(["Fixed: deleting an item no longer scrolls the main list. The list now holds its place when you remove a row instead of jumping down."],t.s)
-B.amz=new A.I(412,B.ZZ)
-B.Xl=s(["Fixed: only ONE item ever shows as selected. The focus ring now moves to the item you click instead of piling up on previous ones (was most visible on Windows).","Windows now tells you automatically when an update is ready \u2014 an \u201cUpdate available\u201d box pops up on launch (and when you click back into the window), just like the Android update notice. No more digging into Settings to find it."],t.s)
-B.anh=new A.I(411,B.Xl)
-B.XT=s(["Fixed: one tap puts the cursor in an item again (adding the focus ring was briefly stealing the first tap)."],t.s)
-B.al3=new A.I(410,B.XT)
-B.a1J=s(["The focused-item ring now shows on the MAIN list too (it was only wired into folder views)."],t.s)
-B.aoe=new A.I(409,B.a1J)
-B.Z0=s(["The item holding your cursor now wears the same colored ring the new-note box has \u2014 red and breathing while capturing, calm accent otherwise \u2014 so you can always SEE where dictation goes.","Editing or dictating into a note refreshes its AI title automatically."],t.s)
-B.anD=new A.I(408,B.Z0)
-B.a1B=s(["Fixed: typing into a new note and then tapping an existing item no longer conjures another empty note at the top \u2014 the typed note posts and that\u2019s it."],t.s)
-B.alP=new A.I(407,B.a1B)
-B.YH=s(["The new note box matches regular items exactly: same size (1-line, grows with content), the move handle beside it on desktop, and no microphone icon \u2014 the bottom control is the capture toggle."],t.s)
-B.alE=new A.I(406,B.YH)
-B.a1i=s(["The message inside a new note box is gone \u2014 a new note is just an empty box with a cursor.","Tapping \u201cNew note\u201d repeatedly creates multiple blank notes (each tap posts the previous blank and opens a fresh one).","Any note still blank when you turn the system Off is destroyed \u2014 including blanks that posted to the list. Type or dictate anything into one and it stays."],t.s)
-B.ao7=new A.I(405,B.a1i)
-B.a2q=s(["Clicking out of a new note now ALWAYS makes it a regular item \u2014 even a blank one posts (as an empty \u201cTap to add text\u201d item). Going back in works like any other item: tap it, get a cursor, dictate.","Fixed the dead tap on the live note box \u2014 tapping it now reliably opens the editor with a cursor."],t.s)
-B.aoT=new A.I(404,B.a2q)
-B.YX=s(["Clicking between items never changes the mode anymore: the cursor only picks WHERE words go \u2014 the Off / Commands only / Dictate control (and the voice commands) are the only things that turn dictation on or off."],t.s)
-B.anY=new A.I(403,B.YX)
-B.a_1=s(["A just-posted note is editable IMMEDIATELY \u2014 tapping back into it works the moment it appears (its database row now lands before the slow audio processing, not after).","Fixed words being EATEN right after you tapped from a new note into an existing item \u2014 the close was briefly flipping the session into commands-only and dropping what you said next. Dictation mode now stays on across that move."],t.s)
-B.aoM=new A.I(402,B.a_1)
-B.Yy=s(["Dictate truly creates nothing now: the note box can no longer summon itself \u2014 not on the button, and not from the live preview while you dictate into an existing item (that was the phantom \u201cnew note\u201d at the top). Only \u201cnew note\u201d creates a note.","Tapping back into the new-note box reliably takes the cursor and routes your words there.","Play in the Listening list now stops an active dictation for you and starts playing \u2014 no more \u201cstop any recording and try again.\u201d"],t.s)
-B.anC=new A.I(401,B.Yy)
-B.VW=s(["Fixed: the Android notification could claim \u201ccommands only\u201d while you were dictating \u2014 it now mirrors every mode change (including dictating by placing your cursor in an item), and a session that starts in Commands is labeled correctly from the first moment."],t.s)
-B.ao1=new A.I(400,B.VW)
-B.a3c=s(["Fixed: tapping Dictate no longer pops an empty note box \u2014 nothing appears until you actually have words (or say \u201cnew note\u201d). Rule 1 for real this time.","The middle segment now reads \u201cCommands only.\u201d"],t.s)
-B.amk=new A.I(399,B.a3c)
-B.a1r=s(["The purple \u201cListening for commands\u201d label is gone \u2014 the highlighted Commands segment on the bottom control already shows the mode."],t.s)
-B.aoh=new A.I(398,B.a1r)
-B.a2k=s(["New 3-way control at the bottom: Off \xb7 Commands \xb7 Dictate. Your current mode is always highlighted, and switching is one tap. Dictate turns dictation on (words land wherever your cursor is); Commands listens for voice commands only; Off is instant \u2014 the 3-second countdown is gone.","\u201cnew note\u201d is the only thing that creates a note \u2014 it opens at the top with the cursor in it. A blank note you click away from stays put; a blank note is discarded when you turn the system Off.","New voice command: dictate a message and say \u201csend to Claude\u201d \u2014 it\u2019s delivered to Roger\u2019s Claude inbox with a \u2713 confirmation.","Live captions never give up: on flaky network the app now keeps retrying for the whole session and captions come back by themselves (it used to quit after ~12 seconds and stay text-dead).","The screen stopped moving: no more shifting when the keyboard opens, no frame flicker toggling dictation (the desktop jump), and only the box holding the cursor looks \u201clive.\u201d","The \u201cVoicley updated\u201d notification now opens the app when you tap it."],t.s)
-B.anL=new A.I(397,B.a2k)
-B.a2T=s(["Diagnostics: the main list records exactly what scrolled it, to pin down the \u201clist moves when I delete\u201d report."],t.s)
-B.aoo=new A.I(396,B.a2T)
-B.Xt=s(["A blank new note is destroyed when you turn the system Off; the four dictation rules are locked into the spec."],t.s)
-B.anb=new A.I(395,B.Xt)
-B.a_t=s(["The Dictate button never creates a note \u2014 it just turns dictation on; words land wherever your cursor is."],t.s)
-B.alS=new A.I(394,B.a_t)
-B.a_n=s(["Switching to Commands no longer vanishes a just-opened blank note \u2014 it stays, paused, and Dictate resumes into it."],t.s)
-B.alD=new A.I(393,B.a_n)
-B.a_J=s(["The bottom control is a 3-way toggle now \u2014 Off \xb7 Commands \xb7 Dictate \u2014 replacing the single On/Off button."],t.s)
-B.aom=new A.I(392,B.a_J)
-B.Y8=s(["A new note takes the cursor at session start too \u2014 an item you\u2019d tapped earlier can no longer steal the first words."],t.s)
-B.aoi=new A.I(391,B.Y8)
-B.Z5=s(["Creating a new note puts the cursor in it, ready to dictate; a blank note you click away from stays at the top."],t.s)
-B.aoI=new A.I(390,B.Z5)
-B.a2y=s(["Off stops instantly \u2014 the 3-second \u201cOff in 3\u20262\u20261\u201d countdown is gone."],t.s)
-B.akD=new A.I(389,B.a2y)
-B.a16=s(["Moving the cursor into an item ends the live note cleanly: it posts as a regular item and your words follow the cursor."],t.s)
-B.alA=new A.I(388,B.a16)
-B.XL=s(["Live captions never give up on a bad network \u2014 retries continue for the whole session and captions return by themselves."],t.s)
-B.aln=new A.I(387,B.XL)
-B.a2Y=s(["Only the box holding the cursor looks \u201clive\u201d \u2014 the new-note box calms down when you dictate into another item."],t.s)
-B.aoW=new A.I(386,B.a2Y)
-B.Xr=s(["Diagnostics: every dictated phrase logs where it landed, so a \u201cmy words vanished\u201d report is answerable from the log."],t.s)
-B.amZ=new A.I(385,B.Xr)
-B.a1x=s(["Putting the cursor in an item while recording resumes dictation there (it used to stay paused)."],t.s)
-B.alQ=new A.I(384,B.a1x)
-B.WZ=s(["The window frame no longer appears/disappears when toggling dictation \u2014 the desktop screen stops jumping."],t.s)
-B.alG=new A.I(383,B.WZ)
-B.Yz=s(["A new note opens 2 lines tall, then grows with your words (the 15-line cap is unchanged)."],t.s)
-B.amJ=new A.I(382,B.Yz)
-B.Zi=s(["The \u201cVoicley updated\u201d notification opens the app when tapped; the screen no longer shifts entering edit mode; the mic meter and status moved below the On/Off button."],t.s)
-B.aof=new A.I(381,B.Zi)
-B.ZN=s(["New voice command: \u201csend to Claude\u201d \u2014 dictate a message and it\u2019s delivered to the Claude inbox, with a \u2713 confirmation."],t.s)
-B.ana=new A.I(380,B.ZN)
-B.a_K=s(["New \u201cAsk Claude\u201d in the nav: dictate or type a message and chat with Claude, right in Voicley (add your own Anthropic API key once \u2014 stored securely on device). First step of sending messages to Claude from the app."],t.s)
-B.aly=new A.I(379,B.a_K)
-B.VX=s(["Fixed the note box flickering on and off while \u201clistening for commands\u201d \u2014 the live preview no longer flashes a box as background speech comes and goes."],t.s)
-B.an3=new A.I(378,B.VX)
-B.a1I=s(["Fixed: turning On really shows no note now \u2014 the session opens directly in \u201clistening for commands\u201d from the first frame, instead of briefly popping a blank note."],t.s)
-B.aoc=new A.I(377,B.a1I)
-B.a_T=s(["Turning On no longer creates a blank note \u2014 it simply turns the system on and listens for commands. Say \u201cnew note\u201d (or tap a note) to start transcribing."],t.s)
-B.al_=new A.I(376,B.a_T)
-B.a1h=s(["Fixed a crash + vanishing dictation when you started recording while the listening reader was playing: the reader now fully stops (releasing its audio) the instant you turn dictation on, so the mic always has a clean path."],t.s)
-B.akV=new A.I(375,B.a1h)
-B.a1d=s(["The per-item microphone buttons are gone: the system is simply On/Off now, and dictation follows your cursor \u2014 tap any note while recording and your words land there."],t.s)
-B.aoO=new A.I(374,B.a1d)
-B.YT=s(["Dictation now follows your cursor: while recording, tap into any note and your words land there; tap back to the new-note box and they go there. No per-item mic needed \u2014 the cursor decides."],t.s)
-B.anA=new A.I(373,B.YT)
-B.Yj=s(["One cursor at a time: tapping into an existing note now hides the live box\u2019s blinking cursor, so there\u2019s only ever a single cursor \u2014 the first step toward \u201cdictation goes wherever the cursor is.\u201d"],t.s)
-B.anG=new A.I(372,B.Yj)
-B.XK=s(["Listening now has real system controls: a media notification + lock-screen transport (play/pause/next/previous), and it responds to Bluetooth media buttons \u2014 including a tap on your Ray-Ban Meta glasses to pause/resume. Works for both spoken (TTS) and recorded playback."],t.s)
-B.anw=new A.I(371,B.XK)
-B.WO=s(["Fixed: you can type into a fresh new note again \u2014 its tap target was too thin to focus. It\u2019s a comfortable size now (still not tall).","The Listening player is now two rows: the current item\u2019s overview on top, the play controls below. Tap the overview (\u25ce) to jump the list back to whatever\u2019s playing."],t.s)
-B.alO=new A.I(370,B.WO)
-B.a_I=s(["Settings is tidier: \u201cDictation destination\u201d and \u201cRecording segmentation\u201d moved into the collapsible Advanced section at the bottom, so the everyday controls lead."],t.s)
-B.aol=new A.I(369,B.a_I)
-B.a1y=s(["Play in the Listening list now stays ON THE LIST and follows the playing item down through folders and subfolders \u2014 it no longer jumps the first item into the full-screen player.","A fresh \u201cnew note\u201d box is the right height again \u2014 a blank note no longer opens very tall."],t.s)
-B.alK=new A.I(368,B.a1y)
-B.a3l=s(["The Listening list now shows ONLY what will play \u2014 an item you\u2019ve un-toggled inside a folder no longer lingers in the list.","Playback now traverses the list in the exact order you see it: a folder\u2019s own items first (top to bottom), then into its subfolders \u2014 so the view follows straight down the list as it plays."],t.s)
-B.alh=new A.I(367,B.a3l)
-B.a1z=s(["New voice command: while listening for commands (after \u201cend note\u201d), say \u201cplay the listening folder\u201d (or \u201cplay my list\u201d / \u201cstart listening\u201d) and Voicley ends the session and starts reading your listening list \u2014 hands-free."],t.s)
-B.an_=new A.I(366,B.a1z)
-B.a3b=s(["The Listening list now FOLLOWS playback through the whole hierarchy: as each item finishes, the view scrolls to the next one, and when playback moves into a subfolder that folder opens automatically \u2014 the playing item is always in view."],t.s)
-B.an1=new A.I(365,B.a3b)
-B.a_B=s(["A new note shows a BLINKING CURSOR from the moment it appears \u2014 always on, right where the next words will land (no keyboard pops up).","The mic label no longer claims \u201cnot available\u201d before you\u2019ve said anything: a quiet room now reads \u201cListening \u2014 waiting for sound\u201d; red is reserved for a mic that actually cut out."],t.s)
-B.ao5=new A.I(364,B.a_B)
-B.a_f=s(["Your cursor now SURVIVES the mic tap: tapping a note\u2019s mic (or the live box\u2019s) no longer hides the caret \u2014 you can see exactly where the dictation will land."],t.s)
-B.aoK=new A.I(363,B.a_f)
-B.a01=s(["Dictating with the cursor inside a word no longer splits it \u2014 the new words land right AFTER that word.","New notes are the right height: a closed note no longer keeps invisible trailing blank lines that made a 1\u20132 line note render very tall (existing tall items flatten too)."],t.s)
-B.ank=new A.I(362,B.a01)
-B.ZH=s(["Boxes show up to 15 LINES of text again \u2014 the original spec: a long note lists its first 15 lines with a \u201cmore\u2026\u201d button into the full window (the old rule collapsed anything past ~2 sentences to a 4-line preview)."],t.s)
-B.aop=new A.I(361,B.ZH)
-B.Yr=s(["Dictated words STAY where they land: a note growing past the \u201clarge\u201d threshold mid-dictation (or mid-typing) no longer swaps its box out from under your cursor \u2014 the transcribed text no longer appears and then vanishes."],t.s)
-B.alp=new A.I(360,B.Yr)
-B.Zz=s(["Dictating into an item now changes NOTHING on screen: the mic meter/chips stay hidden, the list doesn\u2019t shift, and your box, cursor and keyboard hold perfectly still."],t.s)
-B.akt=new A.I(359,B.Zz)
-B.a_k=s(["Fixed for real: tap an item\u2019s mic and the box holds perfectly still \u2014 your cursor stays exactly where you put it, and dictation lands there, not at the bottom."],t.s)
-B.aoQ=new A.I(358,B.a_k)
-B.a2E=s(["The mic on an item works the simple way again: for notes under ~15 lines, tapping it changes NOTHING \u2014 same box, same text, and your dictation lands right at your cursor, freely mixed with typing."],t.s)
-B.al8=new A.I(357,B.a2E)
-B.Zq=s(["Edit mode fixed for real: every note\u2019s text is now fully visible and reachable while editing \u2014 the field follows your cursor and scrolls when needed. Longer notes go to the full window automatically."],t.s)
-B.alk=new A.I(356,B.Zq)
-B.a2x=s(["Tapping an item\u2019s mic no longer shrinks the box \u2014 the note\u2019s text stays fully visible while you dictate into it (large notes keep their preview height).","This \u201cWhat\u2019s new\u201d popup is easier to read \u2014 bigger text."],t.s)
-B.alH=new A.I(355,B.a2x)
-B.a_g=s(["Long notes no longer fight the list: a big item shows as a compact preview (title + first lines + \u201ctap to open\u201d), and its reading/editing lives in the full window. Short notes still edit right in place."],t.s)
-B.akY=new A.I(354,B.a_g)
-B.a1M=s(["Dictation now lands WHERE YOUR CURSOR IS when you\u2019re typing \u2014 and the live grey preview flows inline with your words instead of flashing on a line below.","The reader now speaks each item\u2019s TITLE before its text."],t.s)
-B.an9=new A.I(353,B.a1M)
-B.a17=s(["Listening is now ONE simple switch per item: the headphones tag decides if it plays \u2014 uncheck any item (even inside a playing folder) and it\u2019s out of the playlist; a folder\u2019s headphones just flips everything under it. Playback follows your folder order."],t.s)
-B.al4=new A.I(352,B.a17)
-B.WS=s(["The listening list now shows how many items each folder will play (whole subtree) and a total under the play controls \u2014 the numbers always match what actually plays."],t.s)
-B.ali=new A.I(351,B.WS)
-B.Xy=s(["The listening list\u2019s controls moved to the TOP: Play-all sits there when idle, and while playing it becomes the full transport \u2014 previous \xb7 play/pause \xb7 next \xb7 stop, with the current title."],t.s)
-B.akp=new A.I(350,B.Xy)
-B.a_b=s(["Silent recordings no longer clutter Home as \u201cTranscribing\u2026\u201d \u2014 they stay in Files with their audio, and a manual retry can still transcribe one."],t.s)
-B.amg=new A.I(349,B.a_b)
-B.a1R=s(["Put your top-level folders in YOUR order: long-press a folder \u2192 Move Up / Move Down \u2014 the order sticks on this device. (Drag-to-reorder polish comes next.)"],t.s)
-B.al1=new A.I(348,B.a1R)
-B.a_w=s(["The Android notification now shows what\u2019s happening live: \u201cDictating\u201d while your words are captured, \u201cPaused \u2014 commands only\u201d while command-listening."],t.s)
-B.aku=new A.I(347,B.a_w)
-B.a34=s(["The full-sized item view now leads with the TEXT \u2014 the transcript sits right at the top, with date, folders, player and summary below it."],t.s)
-B.amy=new A.I(346,B.a34)
-B.a_O=s(["The folder pane no longer flashes when you toggle a note\u2019s listen switch (especially on Windows) \u2014 it holds steady through background syncs."],t.s)
-B.alr=new A.I(345,B.a_O)
-B.ZT=s(["Fixed the main home list jumping around / snapping to the top on every background sync \u2014 it now stays put so you can scroll and focus (especially on Windows)."],t.s)
-B.akn=new A.I(344,B.ZT)
-B.a2o=s(["Home screen scrolls again: a long note\u2019s box no longer grows past the screen and traps the scroll \u2014 it caps at 15 lines, with the full text one tap away (\u2922)."],t.s)
-B.akT=new A.I(343,B.a2o)
-B.Yw=s(["Voice/shortcut triggers (Hey Google, the launcher shortcuts) no longer switch you to Whisper \u2014 your engine stays put, and the default is always Deepgram (the live one)."],t.s)
-B.akR=new A.I(342,B.Yw)
-B.ZR=s(["When you dictate INTO a note, its box now glows red and pulses with your voice, and the mic turns red \u2014 just like the live box \u2014 so it\u2019s obvious that note is the one recording."],t.s)
-B.akc=new A.I(341,B.ZR)
-B.W3=s(["Settings \u2192 \u201cFill in missing titles\u201d now also RE-TRANSCRIBES items that have audio but no text yet \u2014 so text-less notes in your folders/recent get a transcript and a title."],t.s)
-B.amc=new A.I(340,B.W3)
-B.YO=s(["A dictation that hasn\u2019t finished transcribing (e.g. you were offline) now shows on Home as \u201cTranscribing\u2026\u201d instead of disappearing \u2014 its audio is always safe and it fills in when the transcript lands."],t.s)
-B.akB=new A.I(339,B.YO)
-B.a0I=s(["Open straight into command-listening: a new \u201cListen for commands\u201d shortcut (long-press the icon) / voicley://command link \u2014 point a \u201cHey Google\u201d Routine at it."],t.s)
-B.ake=new A.I(338,B.a0I)
-B.Xf=s(["A folder\u2019s headphones are now a master switch: one tap turns listening on (or off) for EVERYTHING under it \u2014 every subfolder and item."],t.s)
-B.aos=new A.I(337,B.Xf)
-B.X4=s(["Dictating into a note now lets you TYPE while the mic runs \u2014 talk and type at the same time, right in that box, exactly like the live one."],t.s)
-B.akv=new A.I(336,B.X4)
-B.XS=s(["Dictate into a note IN PLACE \u2014 tap a note\u2019s mic and your words now stream into THAT box (no separate \u201cnew\u201d box); \u201cend note\u201d saves them to it."],t.s)
-B.amC=new A.I(335,B.XS)
-B.a24=s(["Item box now keeps the date/time and drops the transcription length (the length shows in the full-window player)."],t.s)
-B.aog=new A.I(334,B.a24)
-B.a0G=s(["The dictation time moved off the item box into the full-sized view \u2014 the box is cleaner (just the length up top)."],t.s)
-B.am0=new A.I(333,B.a0G)
-B.a0S=s(["Toggling a note\u2019s listen switch no longer flashes the folder pane on Windows."],t.s)
-B.ang=new A.I(332,B.a0S)
-B.XA=s(["The note\u2019s mic now works exactly like the live box: tap to dictate into the note, then tap again to pause/resume (mic \u2194 mic-slash)."],t.s)
-B.alm=new A.I(331,B.XA)
-B.VP=s(["The note\u2019s mic \ud83c\udf99 now sits to the right of the text, in the same spot as the live dictation box."],t.s)
-B.akQ=new A.I(330,B.VP)
-B.a0Q=s(["Every note now has a mic \ud83c\udf99 \u2014 tap it and keep dictating into that note; your new words append to it. (Audio of the added part comes next.)"],t.s)
-B.am1=new A.I(329,B.a0Q)
-B.Wv=s(["When a listening playlist reaches the last item, the reader now says it\u2019s restarting from the beginning, then loops."],t.s)
-B.ao4=new A.I(328,B.Wv)
-B.VE=s(["Deleting an item from a folder now leaves it in its other folders \u2014 it only drops out of the one you deleted it from."],t.s)
-B.aoH=new A.I(327,B.VE)
-B.Z1=s(["Say \u201cresume dictation\u201d (or \u201cresume dictating\u201d) to pick your note back up \u2014 and the command chip now says so."],t.s)
-B.aoF=new A.I(326,B.Z1)
-B.Yl=s(["While dragging an item to file it, hover the top or bottom of the folder list to scroll \u2014 reach folders that were off-screen."],t.s)
-B.ap6=new A.I(325,B.Yl)
-B.a1W=s(["Tap an item in a folder or on the home screen to edit it right there \u2014 the \u2922 button opens the full window."],t.s)
-B.amX=new A.I(324,B.a1W)
-B.a1D=s(["After each update, a quick \u201cWhat\u2019s new\u201d note tells you what changed."],t.s)
-B.amI=new A.I(323,B.a1D)
-B.W1=s(["Edits you make in the full-window now show in your lists right away."],t.s)
-B.alX=new A.I(322,B.W1)
-B.XF=s(["Play a folder right in the list \u2014 the current note highlights and stays on top."],t.s)
-B.aks=new A.I(321,B.XF)
-B.WK=s(["Folders that hold audio-only notes now play their recordings."],t.s)
-B.amT=new A.I(320,B.WK)
-B.a_R=s(["\u201cDictation\u201d is now \u201cNote\u201d everywhere \u2014 say \u201cnew note\u201d (the old \u201cnew dictation\u201d still works)."],t.s)
-B.anN=new A.I(319,B.a_R)
-B.a0H=s(["Type into your task and meeting boxes while they\u2019re recording."],t.s)
-B.am9=new A.I(318,B.a0H)
-B.a_d=s(["Talk-or-type: type into the live note box, with a mic button to turn capture on and off."],t.s)
-B.anW=new A.I(317,B.a_d)
-B.XO=s(["The reader no longer traps you \u2014 move around the app while it plays."],t.s)
-B.amS=new A.I(316,B.XO)
-B.a_3=s(["\u201cTurn On / Turn Off\u201d buttons, a clearer drag handle, and a steadier folder pane."],t.s)
-B.anP=new A.I(315,B.a_3)
-B.a0C=s(["Note boxes can grow taller (up to 15 lines)."],t.s)
-B.an8=new A.I(314,B.a0C)
-B.XB=s([B.akj,B.al5,B.amF,B.akN,B.akd,B.anO,B.alz,B.akU,B.am5,B.ap2,B.aoZ,B.amY,B.aka,B.amx,B.amu,B.al6,B.amv,B.aou,B.alY,B.aoa,B.als,B.akC,B.aoS,B.ao9,B.amH,B.alv,B.anX,B.amQ,B.akM,B.aoP,B.akG,B.ap4,B.alo,B.alJ,B.aoG,B.aoN,B.akx,B.ala,B.ap0,B.ao_,B.amP,B.al0,B.anU,B.ao0,B.am3,B.anS,B.anc,B.akF,B.am_,B.anV,B.aoB,B.alq,B.akZ,B.ano,B.ao3,B.ans,B.aoX,B.ap9,B.anH,B.amb,B.aoL,B.aov,B.alc,B.akJ,B.alU,B.aox,B.anp,B.ama,B.ak9,B.amN,B.alZ,B.akf,B.al9,B.aoj,B.aoq,B.akg,B.akO,B.amq,B.an0,B.amh,B.ap3,B.aoR,B.akA,B.alN,B.an6,B.an4,B.amR,B.anq,B.alV,B.aob,B.aow,B.alW,B.amG,B.anE,B.al2,B.amL,B.alB,B.akw,B.amA,B.ap1,B.ani,B.alf,B.anf,B.alR,B.ak6,B.akL,B.alM,B.amD,B.aoC,B.am2,B.amd,B.an2,B.ame,B.aod,B.akk,B.aot,B.amU,B.aor,B.ao8,B.aoV,B.anJ,B.amo,B.ap5,B.akh,B.anK,B.amn,B.akE,B.anz,B.anF,B.amK,B.aoA,B.amw,B.anT,B.ap7,B.ap8,B.aok,B.anR,B.akz,B.akS,B.akH,B.ao2,B.aoE,B.aoJ,B.akI,B.anZ,B.akW,B.amm,B.anQ,B.anr,B.ao6,B.aml,B.ann,B.ako,B.alt,B.alx,B.akP,B.ams,B.amr,B.alI,B.an5,B.amM,B.amW,B.aky,B.aoD,B.any,B.am6,B.alL,B.alF,B.amp,B.akK,B.amO,B.ant,B.am8,B.anl,B.alb,B.and,B.aoY,B.al7,B.all,B.alC,B.am4,B.amV,B.alu,B.ane,B.akb,B.anv,B.ap_,B.akl,B.aoU,B.akm,B.ak7,B.alT,B.amj,B.ami,B.aki,B.akq,B.alg,B.amf,B.anm,B.alj,B.ale,B.am7,B.aon,B.amE,B.anB,B.aoz,B.alw,B.amB,B.an7,B.ald,B.anu,B.akX,B.aoy,B.amt,B.anI,B.akr,B.ak8,B.anM,B.anx,B.anj,B.amz,B.anh,B.al3,B.aoe,B.anD,B.alP,B.alE,B.ao7,B.aoT,B.anY,B.aoM,B.anC,B.ao1,B.amk,B.aoh,B.anL,B.aoo,B.anb,B.alS,B.alD,B.aom,B.aoi,B.aoI,B.akD,B.alA,B.aln,B.aoW,B.amZ,B.alQ,B.alG,B.amJ,B.aof,B.ana,B.aly,B.an3,B.aoc,B.al_,B.akV,B.aoO,B.anA,B.anG,B.anw,B.alO,B.aol,B.alK,B.alh,B.an_,B.an1,B.ao5,B.aoK,B.ank,B.aop,B.alp,B.akt,B.aoQ,B.al8,B.alk,B.alH,B.akY,B.an9,B.al4,B.ali,B.akp,B.amg,B.al1,B.aku,B.amy,B.alr,B.akn,B.akT,B.akR,B.akc,B.amc,B.akB,B.ake,B.aos,B.akv,B.amC,B.aog,B.am0,B.ang,B.alm,B.akQ,B.am1,B.ao4,B.aoH,B.aoF,B.ap6,B.amX,B.amI,B.alX,B.aks,B.amT,B.anN,B.am9,B.anW,B.amS,B.anP,B.an8],t.Zo)
-B.XD=s(["authorization","www-authenticate","cookie","cookie2"],t.s)
+B.XC=s(["authorization","www-authenticate","cookie","cookie2"],t.s)
 B.rM=new A.h9(0,"softBreak")
 B.rN=new A.h9(1,"dictationBoundary")
 B.rO=new A.h9(2,"dictationClose")
@@ -162573,60 +161941,60 @@ B.rS=new A.h9(8,"claudeSend")
 B.n0=new A.h9(9,"claudeMessageOpen")
 B.mZ=new A.h9(10,"commandsOnly")
 B.n_=new A.h9(11,"playListening")
-B.XE=s([B.rM,B.rN,B.rO,B.rP,B.rQ,B.KK,B.rR,B.KL,B.rS,B.n0,B.mZ,B.n_],A.ae("A<h9>"))
-B.XH=s([18,15,10,12,15,18,15,12,12],t.n)
-B.XM=s(["Claude","Voicley"],t.s)
+B.XD=s([B.rM,B.rN,B.rO,B.rP,B.rQ,B.KK,B.rR,B.KL,B.rS,B.n0,B.mZ,B.n_],A.ae("A<h9>"))
+B.XG=s([18,15,10,12,15,18,15,12,12],t.n)
+B.XL=s(["Claude","Voicley"],t.s)
 B.xh=s(["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],t.s)
 B.LS=new A.zK(0,"defaultPolicy")
 B.LT=new A.zK(1,"longFormAudio")
 B.LU=new A.zK(2,"longFormVideo")
 B.LV=new A.zK(3,"independent")
-B.Y2=s([B.LS,B.LT,B.LU,B.LV],A.ae("A<zK>"))
+B.Y1=s([B.LS,B.LT,B.LU,B.LV],A.ae("A<zK>"))
 B.m9=new A.lM(0,"idle")
 B.jg=new A.lM(1,"loading")
 B.Hf=new A.lM(2,"buffering")
 B.Hg=new A.lM(3,"ready")
 B.jh=new A.lM(4,"completed")
-B.Y4=s([B.m9,B.jg,B.Hf,B.Hg,B.jh],A.ae("A<lM>"))
+B.Y3=s([B.m9,B.jg,B.Hf,B.Hg,B.jh],A.ae("A<lM>"))
 B.Q3=new A.T(0.3333333333333333,0,0,0,B.l)
 B.Nk=new A.e1(0,B.br,B.Q3,B.m,8)
-B.Y6=s([B.Nk],t.sq)
+B.Y5=s([B.Nk],t.sq)
 B.TD=new A.OU(0,"database")
 B.TE=new A.OU(1,"journal")
 B.xi=s([B.TD,B.TE],A.ae("A<OU>"))
 B.NM=new A.Pa()
 B.lC=s([B.NM],t.xS)
-B.Ye=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
+B.Yd=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.lD=s([!1,!1,!1,!1,!1,!1,!1,!1,!1,!0,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!0,!1,!0,!1,!1,!1,!1,!1,!0,!0,!1,!1,!0,!1,!1,!0,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!0,!0,!0,!0,!0,!0,!0,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!0,!0,!0,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!0,!1,!0,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1],t.HZ)
-B.Yg=s(["RawSocketEvent.read","RawSocketEvent.write","RawSocketEvent.readClosed","RawSocketEvent.closed"],t.s)
+B.Yf=s(["RawSocketEvent.read","RawSocketEvent.write","RawSocketEvent.readClosed","RawSocketEvent.closed"],t.s)
 B.MC=new A.mf("",6,"userDeleted")
 B.xj=s([B.fy,B.hX,B.fz,B.fA,B.hY,B.tq,B.MC,B.tp],A.ae("A<mf>"))
-B.Yu=s(["Tap Browse to pick the exact OneNote page transcripts write to \u2014 guaranteed writable because we use your signed-in account.","Leave the name blank and we'll name the project after the page you pick. You can also create a fresh page from inside the picker."],t.s)
-B.Yx=s([B.bY,B.cc,B.fL],A.ae("A<qo>"))
+B.Yt=s(["Tap Browse to pick the exact OneNote page transcripts write to \u2014 guaranteed writable because we use your signed-in account.","Leave the name blank and we'll name the project after the page you pick. You can also create a fresh page from inside the picker."],t.s)
+B.Yw=s([B.bY,B.cc,B.fL],A.ae("A<qo>"))
 B.m0=new A.u(0,3)
 B.Nm=new A.e1(0,B.br,B.uz,B.m0,8)
 B.Nd=new A.e1(0,B.br,B.o7,B.m0,1)
 B.YB=s([B.Nm,B.Nd],t.sq)
-B.a9d=new A.kX(0,"pause")
+B.a9e=new A.kX(0,"pause")
 B.qt=new A.kX(1,"record")
 B.qu=new A.kX(2,"stop")
-B.YC=s([B.a9d,B.qt,B.qu],A.ae("A<kX>"))
+B.YC=s([B.a9e,B.qt,B.qu],A.ae("A<kX>"))
 B.Vh=new A.p4(6,"audioCompaction")
 B.Vi=new A.p4(7,"programmatic")
 B.YL=s([B.c6,B.wW,B.wX,B.wY,B.py,B.wZ,B.Vh,B.Vi],A.ae("A<p4>"))
-B.a3q=new A.Bm("en",null,"US")
-B.xk=s([B.a3q],t.ss)
+B.a3r=new A.Bm("en",null,"US")
+B.xk=s([B.a3r],t.ss)
 B.xl=s([0,41,61,101,131,181,251,301,360],t.n)
 B.qN=new A.T1(0,"none")
 B.qO=new A.T1(1,"all")
 B.YY=s([B.qN,B.qO],A.ae("A<T1>"))
-B.apN=new A.vq(0,0)
-B.apS=new A.vq(1,0.05)
-B.apQ=new A.vq(3,0.08)
-B.apR=new A.vq(6,0.11)
-B.apP=new A.vq(8,0.12)
-B.apO=new A.vq(12,0.14)
-B.xm=s([B.apN,B.apS,B.apQ,B.apR,B.apP,B.apO],A.ae("A<vq>"))
+B.apP=new A.vq(0,0)
+B.apU=new A.vq(1,0.05)
+B.apS=new A.vq(3,0.08)
+B.apT=new A.vq(6,0.11)
+B.apR=new A.vq(8,0.12)
+B.apQ=new A.vq(12,0.14)
+B.xm=s([B.apP,B.apU,B.apS,B.apT,B.apR,B.apQ],A.ae("A<vq>"))
 B.LJ=new A.nk(0,"defaultMode")
 B.LK=new A.nk(1,"gameChat")
 B.LL=new A.nk(2,"measurement")
@@ -162643,35 +162011,676 @@ B.ML=new A.a36(2,"outer")
 B.uo=new A.T(0.09803921568627451,0,0,0,B.l)
 B.Nf=new A.e1(0.2,B.ML,B.uo,B.m,11)
 B.Zr=s([B.Nf],t.sq)
-B.ZF=s([1,2,3,4,0],t.t)
-B.abV=new A.TL(0,"left")
-B.abW=new A.TL(1,"right")
-B.ZG=s([B.abV,B.abW],A.ae("A<TL>"))
+B.Yz=s(["CREATE BUTTONS NOW OWN YOUR WORDS: on web and Windows, pressing \u201cnew task\u201d or \u201cnew note\u201d while your cursor sat inside an existing item could send your dictation into THAT item \u2014 and then deliver the same words a second time when the unit closed. Pressing a create button now releases the old item\u2019s claim and pulls the cursor out, so the box you just created is always where your words land. Clicking into an item to dictate there still works exactly as before."],t.s)
+B.amq=new A.I(633,B.Yz)
+B.a_a=s(["ONE HANDLE EVERYWHERE \u2014 THE CIRCLES ARE GONE: Windows and web now work like mobile. Every item\u2019s colored bar shows the grip dots and is the handle: drag it to file or reorder, double-click to open. Boxes get the full width the circle column used to take.","CLICK A BAR TO SELECT: clicking an item\u2019s bar selects it (the whole box outlines in blue). Ctrl+click adds or removes one item; SHIFT+CLICK selects everything between your last click and this one, just like Windows Explorer; Ctrl+Shift+click adds that range. On the phone, taps on bars now toggle items in and out of the selection \u2014 multi-select is back on the main screen. Headphones, the fold arrow, and the other bar buttons keep doing their own jobs.","COLLAPSED ITEMS \u2014 CLICK TO SELECT, CLICK AGAIN TO RENAME: the first click on a collapsed item selects it; click the title of an already-selected item to edit it in place \u2014 the same rhythm as renaming a file in Explorer. Double-click still expands."],t.s)
+B.akk=new A.I(632,B.a_a)
+B.a2j=s(["AUTO-MEETING MOVED TO ADVANCED: the \u201cAuto-meeting after N minutes\u201d setting now lives in Settings \u2192 ADVANCED with its own card, next to segmentation \u2014 it\u2019s a set-once option, so the main settings stay lean. Behavior unchanged."],t.s)
+B.al6=new A.I(631,B.a2j)
+B.Yg=s(["PLAYING A FOLDER STARTS AT THE TOP: playback used an internal stored order instead of the order on your screen, so a folder you\u2019d never hand-reordered could start reading a couple of items down. Folder play now follows the screen exactly \u2014 newest-first by default, your dragged order once you\u2019ve reordered \u2014 subfolders first, then items, every folder by its own setting.","THE LISTENING PANEL\u2019S JUMP LANDS ON THE ITEM: tapping the panel to go to what\u2019s playing could drop you at the TOP of the main screen when the item sat far down the inbox. The list now travels to the item wherever it is and settles right on the glowing box."],t.s)
+B.amH=new A.I(630,B.Yg)
+B.VO=s(["PLAYING THE INBOX FOLLOWS ALONG: the main screen now tracks the reader the same way folders do \u2014 the item being read glows blue and the list scrolls to keep it in view as playback moves down your inbox. Works for any playback that lands on an inbox item, not just the \u25b6 button.","THE LISTENING AREA\u2019S TOP PANEL ALWAYS TAKES YOU TO WHAT\u2019S PLAYING: tapping the panel already jumped to the item when it was part of your listening list \u2014 now, when the reader is playing something that isn\u2019t in that list (the inbox, or a folder played directly), the tap takes you to where the item actually lives: its folder, or the main screen for an inbox item, landing right on the glowing box."],t.s)
+B.akO=new A.I(629,B.VO)
+B.X1=s(["DELETING WHAT\u2019S PLAYING NOW STOPS IT: listening to a folder and deleting that folder used to keep right on playing from a snapshot. The reader now watches the library \u2014 delete the folder you\u2019re listening to and playback stops; delete a single item mid-listen and it skips to the next one. Unrelated changes (titles, listen flags) never interrupt playback.","PLAY THE INBOX: a \u25b6 button at the top-right of the main screen reads your inbox top-down \u2014 the list exactly as you see it, newest first. Same rules as playing a folder: it ends a live dictation first, loops at the end, and plays each item\u2019s recording (or reads it aloud when there\u2019s no audio)."],t.s)
+B.ake=new A.I(628,B.X1)
+B.YA=s(["YOUR OLD UNFILED NOTES ARE IN ONE PLACE NOW: the flood of items that appeared after the visibility fix turned out to be weeks of real notes an old filter had been silently hiding. They\u2019ve all been filed into a new \u201cBacklog\u201d folder at the bottom of your folder list \u2014 nothing deleted, everything searchable, review them whenever you like. Your inbox is back to just current items.","EVERY NOTE HAS A PROPER TYPE AGAIN: nearly all of your items had been saved with a blank internal type (the hidden cause of this whole episode). All 3,800+ have been repaired to proper notes \u2014 so the Notes/Tasks/Meetings chips count them correctly \u2014 and new items are always typed from now on."],t.s)
+B.anQ=new A.I(627,B.YA)
+B.a21=s(["THE EMPTY \u201cTRANSCRIBING\u2026\u201d BOXES ARE GONE: yesterday\u2019s fix stopped real notes from being hidden, but it also surfaced some old empty shells \u2014 zero-length captures with nothing in them \u2014 showing a permanent \u201cTranscribing\u2026\u201d spinner. The inbox now decides what to show by CONTENT: anything with words shows, a recent capture still being transcribed shows, and a zero-length shell (nothing was ever spoken) doesn\u2019t appear. Nothing is deleted \u2014 real notes can never be hidden by this rule, because text always shows.","THE SPINNER STOPS LYING: a capture still waiting on its transcription after 10 minutes no longer shows a spinner as if work is happening \u2014 it says \u201cWaiting to transcribe \u2014 needs a connection\u201d with a clock. Honest, and your audio is safe the whole time; it transcribes when it gets a connection."],t.s)
+B.alA=new A.I(626,B.a21)
+B.a0N=s(["FIXED: NEW ITEMS DISAPPEARING FROM THE INBOX. A note would show up when you hit Done and then quietly vanish a moment later, and the item count never went up. The inbox was only willing to display items whose internal type was one of four exact values \u2014 and items were being saved with a blank type, so the next background refresh rebuilt the list without them. Your words were never lost (they were on the server the whole time), but they were invisible. The inbox no longer filters by type at all: anything you capture shows up, and an unfamiliar type is simply drawn as a plain note."],t.s)
+B.akV=new A.I(625,B.a0N)
+B.XB=s(["VOICLEY NOW SUGGESTS WHERE A NOTE BELONGS: when a new note clearly fits one of your folders, its box shows a small chip in the bottom-left \u2014 \u201cStrategy \u203a Q3 ?\u201d. Tap it and the note files itself there. Tap the \u2715 and the suggestion is gone for good on that item. Ignore it and nothing happens. NOTHING EVER MOVES ON ITS OWN \u2014 the suggestion just sits there until you say so. It only ever suggests folders you already have, stays quiet when it isn\u2019t sure, and costs nothing extra: it rides along with the AI title call that already runs. Turn it off any time in Settings \u2192 \u201cSuggest folders for new items\u201d."],t.s)
+B.am6=new A.I(624,B.XB)
+B.WG=s(["DRAG AN ITEM LEFT TO REACH YOUR FOLDERS: hold an item by its colored bar and push it toward the LEFT EDGE of the screen \u2014 pause for a moment and the folder menu slides open, still carrying the item, ready to drop on any folder. The whole edge is the target, so there\u2019s nothing to aim at and no need to travel up to the \u2630 (which still works too). Carry the item back toward the list and the menu closes again."],t.s)
+B.ap4=new A.I(623,B.WG)
+B.WQ=s(["SEARCH IS HERE: there\u2019s a Search row in the menu now. Type a word or two and every item carrying them appears \u2014 notes, tasks, meetings, anywhere in your library, including items you\u2019ve filed away in folders. Results show the matching sentence so you can see why each one turned up, and the type chips (All / Notes / Tasks / Meetings) narrow them down with counts. It searches on the device, so it\u2019s instant and works with no signal. Best match first, then newest \u2014 because with dictation, the recent one is usually the one you meant."],t.s)
+B.ap0=new A.I(622,B.WQ)
+B.a2B=s(["LONG ITEMS EDIT IN PLACE \u2014 NO MORE JUMP TO FULL SCREEN: tapping an item too long to fit used to fling you into the full-size view. Now it edits where it sits, like every other item: the box shows its ten lines and the text SCROLLS inside, so you can read and change anything past the cap without leaving the list. Adding text scrolls rather than growing the box. Full-size is still one double-tap of the item\u2019s colored bar away.","PAUSE ON A FOLDER WHILE DRAGGING AND IT OPENS: hold a dragged item \u2014 or another folder \u2014 over a folder in the left pane for half a second and its subfolders unfold, so you can drill in and drop into a child without ever putting the item down. Sweeping past a folder on the way somewhere else leaves it closed."],t.s)
+B.an_=new A.I(621,B.a2B)
+B.a3a=s(["CARRY AN ITEM BACK TO THE LIST AND THE MENU CLOSES ITSELF: the drag now runs the menu in both directions. Pause an item on the \u2630 and the folder menu opens; carry it back over the list and the menu slides shut so you can keep dragging where you were. Reach your folders, change your mind, come back \u2014 one motion, no taps. (Both directions need a brief pause, so the menu never flickers open and shut while you move.)"],t.s)
+B.akb=new A.I(620,B.a3a)
+B.Ww=s(["THE APP NO LONGER FREEZES ON A DRAG: v613\u2019s one-time ordering repair tried to renumber every item in your library in a single go \u2014 with 800+ items that locked the app up for as long as it took, with nothing on screen to say why. The repair now works in small batches: it fixes a slice per drag and finishes over a few drags, so nothing ever stalls. If you were stuck, force-closing and reopening was safe \u2014 nothing was lost."],t.s)
+B.amz=new A.I(619,B.Ww)
+B.Y2=s(["DRAG AN ITEM TO THE \u2630 MENU TO FILE IT IN A FOLDER (phones): hold an item by its colored bar, drag it up onto the \u2630 at the top-left, and pause \u2014 the menu slides open while you\u2019re still holding the item, and you can drop it straight onto any folder to move it there. This is the piece that was missing on phones: your folders live inside that menu, and the menu was shut for the whole drag, so there was nothing to drop onto. Hold for about half a second (a quick brush past won\u2019t open it), and dragging away closes it again with nothing moved."],t.s)
+B.amw=new A.I(618,B.Y2)
+B.a33=s(["HOLDING AN ITEM NEAR THE BOTTOM NO LONGER RUNS THE LIST AWAY: picking up an item close to the top or bottom edge started scrolling the list on its own, before you\u2019d moved a finger. Those edges are scroll zones for when you\u2019re dragging something toward off-screen items \u2014 but they switched on the moment you lifted, and if your finger was already sitting in one, it just took off. They now wait until you actually drag toward the edge."],t.s)
+B.al7=new A.I(617,B.a33)
+B.a1T=s(["THE \u201cIT GOES HERE\u201d LINE IS BACK \u2014 AND NOTHING FLASHES: v615 removed the drop bars along with the gaps that were shoving the list around, which left you dragging blind. A bright line now appears on the edge of the item you\u2019re hovering \u2014 along its top if the item will land above it, along its bottom if below \u2014 drawn inside the item, so still nothing shifts. The flash when dropping on Windows is gone too: hovering used to rebuild the row from scratch, and now it only changes colour."],t.s)
+B.amx=new A.I(616,B.a1T)
+B.WX=s(["THE LIST NO LONGER JUMPS WHEN YOU PICK AN ITEM UP: holding an item used to shove the whole screen down a couple of lines, because a drop-gap opened between EVERY pair of items at once the moment the drag armed. Those gaps are gone. Instead, while you drag, the item you hover over lights up \u2014 drop on its top half to go above it, its bottom half to go below. Nothing shifts, the spacing stays tight, and the target is a whole item instead of a thin line."],t.s)
+B.aow=new A.I(615,B.WX)
+B.a1k=s(["HOLDING AN ITEM NO LONGER JERKS THE LIST AROUND: press-and-hold on the phone was starting TWO drags at once \u2014 the list trying to lift the row for a reorder, and the item\u2019s colored bar trying to lift it to move \u2014 and the two fought over your finger the whole time. Now the bar is the only thing that lifts: hold it, drag, and drop on the line between two items to place it there, or sideways onto a folder to file it. Smooth, one motion."],t.s)
+B.alZ=new A.I(614,B.a1k)
+B.Xa=s(["ORDERING, PROPERLY FIXED THIS TIME: v612 made a drag write only the item you moved, but most items had never been given a place in the ordering at all \u2014 and a few older ones shared the exact same place. Items with no place always sort above the ones that have one, so a dropped item still jumped. Your first drag now quietly gives every item its own place, in the order they\u2019re already sitting on screen (so nothing visibly moves), and separates the duplicates. After that, drops stay put."],t.s)
+B.aoc=new A.I(613,B.Xa)
+B.W0=s(["ITEMS NOW STAY WHERE YOU DROP THEM: reordering could land an item somewhere other than the spot you dropped it on \u2014 sometimes right away, sometimes only after the list refreshed. Saving a new order used to renumber every item on screen, which quietly clashed with the items NOT on screen (anything hidden by a Notes/Tasks/Meetings filter, filed into a folder, or brand new). Now a drag writes only the item you moved, slotted between its two neighbours \u2014 so nothing else shifts and the order holds, on every device."],t.s)
+B.alt=new A.I(612,B.W0)
+B.a_Z=s(["\u201cNEW NOTE\u201d ACTUALLY WORKS NOW WHEN THE ENGINE MIS-HEARS YOU: saying \u201cnew note\u201d while driving often came back from the speech engine as \u201cnew notes\u201d, \u201cno note\u201d, or \u201cno notes\u201d \u2014 and every one of those was typed into your note as words instead of starting a fresh one. All of those now start a new note, as do \u201cnext notes\u201d and \u201cnew dictations\u201d. Talking ABOUT a note (\u201cI put a new note in the drawer\u201d) still doesn\u2019t trigger it."],t.s)
+B.akD=new A.I(611,B.a_Z)
+B.a1P=s(["WINDOWS: YOU CAN DRAG AN ITEM BY ITS COLORED BAR TOO: v609 gave every item a tinted bar with a grip on it, but on the PC only the little circle actually dragged \u2014 so the bar looked grabbable and did nothing. Now grab either one: drag the bar sideways (or the circle, unchanged) to file an item into a folder. Dragging straight up or down still reorders, and click-dragging inside the text still selects text."],t.s)
+B.aoU=new A.I(610,B.a1P)
+B.a38=s(["WINDOWS: NEW ITEMS SHOW UP AGAIN (and the cursor stops slipping): on the PC the app was re-connecting to sync every few seconds, and each reconnect rebuilt the screen \u2014 so items you just typed didn\u2019t appear (they WERE saved and synced the whole time) and you had to click twice to get the cursor into a box. Reconnects are now limited to at most one a minute, so the list stays put and the first click lands.","REORDERING BY BAR-DRAG IS EASIER TO HIT ON PHONES: while you hold-drag an item by its colored bar, the drop lines that open between the other items are now twice as tall on the phone \u2014 drop on one to place the item exactly there. (Sideways onto a folder still files it; same one drag, you choose by where you drop.)"],t.s)
+B.aob=new A.I(609,B.a38)
+B.a29=s(["NEW BOX DESIGN ON PHONES \u2014 THE COLORED TOP BAR IS THE HANDLE: every item box now has a lightly tinted top bar in its type\u2019s color (blue note, green task, amber meeting, clay Claude) holding the type, the date/time on the right, the headphones, and the collapse arrow. HOLD the bar and drag to move the item \u2014 into a folder, the Trash, or a new spot in the list. DOUBLE-TAP the bar to open the item full-size (the little \u2922 corner button is gone). A single tap on the bar does nothing, so no more accidental opens. The small circle handle is gone on phones; on Windows and the web it stays exactly as before."],t.s)
+B.amJ=new A.I(608,B.a29)
+B.a_Y=s(["OPENING THE APP NO LONGER STARTS RECORDING ON ITS OWN: the app used to begin capturing the moment you opened it. It now stays quiet on open \u2014 start dictation yourself with the mic when you\u2019re ready. (If you liked open-and-record, Settings still has a toggle to turn it back on.)","MOVING AN ITEM TO A FOLDER ALWAYS TAKES IT OFF THE INBOX NOW: the full-size item\u2019s \u201c\u2026\u201d menu had two look-alike options \u2014 \u201cMove to Folder\u2026\u201d and a leftover \u201cMove to Project\u2026.\u201d Only the first actually removed the item from the inbox; the second quietly left it on the main screen. That confusing legacy option is gone, so \u201cMove to Folder\u2026\u201d is the one move \u2014 and it always clears the item off the inbox into its folder."],t.s)
+B.alw=new A.I(607,B.a_Y)
+B.YD=s(["AUDIO PLAYS ON iPHONE AGAIN: opening an item\u2019s full view and pressing play on iPhone was failing with \u201ccould not load audio (-1002).\u201d The full-window player was handing iOS a file path the wrong way (iOS is stricter than Android about it); it now loads the file correctly. This also makes your Windows-recorded audio playable on the iPhone."],t.s)
+B.anZ=new A.I(606,B.YD)
+B.Y4=s(["TAP ONCE TO EDIT AN ITEM: tapping into an item\u2019s text used to need two taps \u2014 the first one got swallowed. The trace showed a background rebuild dropping the cursor a split-second after the first tap; now the cursor re-grabs itself and holds, so one tap lands you in the field ready to type.","DRAG A SUBFOLDER OUT TO A MAIN FOLDER: grab a subfolder in the left pane and drop it on the thin strip at the very bottom of the folder list to promote it back to a top-level folder. (Dropping onto another folder still nests it inside; this is the way back out.)"],t.s)
+B.amS=new A.I(605,B.Y4)
+B.XU=s(["NO MORE FLICKER WHEN REORDERING ITEMS IN A FOLDER: dragging an item (collapsed ones especially) to reorder it inside a folder used to flash and jump \u2014 because a background sync update was rebuilding the list under your finger mid-drag. The list now holds still for the whole drag and only settles once you drop. Smooth on iPhone and everywhere."],t.s)
+B.akN=new A.I(604,B.XU)
+B.VI=s(["WINDOWS RECORDINGS NOW PLAY ON YOUR OTHER DEVICES: audio recorded on the Windows app is finally uploaded to your account, so it plays on your iPhone and Android too. (Before, only the Windows machine that made the recording could play it \u2014 everywhere else said \u201cno cloud audio.\u201d The upload had a step that only worked on Android, so Windows recordings were silently skipped.) Existing Windows recordings upload themselves over the next little while of the app being open and signed in; recordings over 25 MB are the one exception for now."],t.s)
+B.aoR=new A.I(603,B.VI)
+B.Xc=s(["DRAGGING A FOLDER ONTO ITS OWN PARENT IS NOW HONEST: it used to say \u201cmoved into folder\u201d even though nothing changed (it was already there). Now it just says \u201cAlready in that folder\u201d and does nothing \u2014 no false move.","ONE VERSION NUMBER EVERYWHERE: the iPhone (TestFlight) build now shows the SAME build number as Windows, Android and the web \u2014 e.g. \u201c0.1.0 (602)\u201d \u2014 instead of its own separate count. (Takes effect on the next iPhone build.)"],t.s)
+B.akH=new A.I(602,B.Xc)
+B.YS=s(["MOVE SUBFOLDERS BY DRAG: you can now grab ANY folder in the left pane \u2014 including subfolders \u2014 and drop it onto another folder to move it inside, Explorer-style. (Before, only top-level folders could be dragged, so a subfolder was stuck.) On Windows, drag any folder with the mouse; on the phone, hold it. Dropping onto a folder\u2019s body moves it IN; dropping a top-level folder on the thin strip at another\u2019s top still just reorders them. It won\u2019t let you drop a folder into itself or its own subfolder."],t.s)
+B.ap6=new A.I(601,B.YS)
+B.Yn=s(["BACK TO THE HOME PAGE (web): using Voicley in your browser, the left pane now has a \u201cVoicley home\u201d link at the bottom that takes you back to the landing page. (On the installed Windows and phone apps there\u2019s no website to return to, so it doesn\u2019t appear there.)"],t.s)
+B.alp=new A.I(600,B.Yn)
+B.a2o=s(["A LIVE \u201cWHAT\u2019S HAPPENING\u201d LINE: when Voicley is working in the background \u2014 finishing transcriptions, uploading to your account, or downloading an app update \u2014 a small line at the top of the inbox now says exactly what it\u2019s doing and how many items, e.g. \u201cTranscribing 2 recordings\u2026\u201d, \u201cUploading 5 items\u2026\u201d, or \u201cDownloading update \u2014 part 4 of 9\u201d. It appears only when there\u2019s something in flight and disappears the moment everything\u2019s caught up. Nothing blocks \u2014 you can keep working while it shows."],t.s)
+B.alK=new A.I(599,B.a2o)
+B.Zf=s(["YOUR LAST WORDS STAY IN THE RIGHT NOTE: if you dictate a sentence and immediately tap \u2713 Done or New, the tail that\u2019s still coming back from transcription now lands in the note you SPOKE it in \u2014 not at the top of the fresh one. The box waits a beat (up to ~3 seconds, and only if something\u2019s actually still arriving) for that last bit to land before it closes, so nothing jumps to the next note. On a slow connection this is the difference-maker."],t.s)
+B.aoI=new A.I(598,B.Zf)
+B.Ym=s(["PHONE UPDATES NOW ACTUALLY DELIVER: v596\u2019s new \u201cCheck for updates\u201d button couldn\u2019t receive the app itself \u2014 the release shelf caps files at 50 MB and Voicley is 68 MB, so the very first publish bounced. Releases now ship in parts that the phone stitches back together and integrity-checks (size + fingerprint) before Android\u2019s installer opens. Same one-tap experience, now with something on the shelf."],t.s)
+B.aoP=new A.I(597,B.Ym)
+B.ZA=s(["UPDATE FROM THE PHONE ITSELF: Settings now has \u201cCheck for updates\u201d on Android, right by the version number \u2014 exactly like Windows. Tap it and Voicley checks your account\u2019s release shelf; if a newer build is there, it downloads and Android\u2019s installer opens (one tap \u2014 everything stays in place, no cable needed). First use, Android asks you to allow Voicley to install updates \u2014 a one-time toggle. Plugging into the PC still works too."],t.s)
+B.aky=new A.I(596,B.ZA)
+B.Zo=s(["NEW FOLDERS ARE BORN WHERE YOU ARE: with a folder open, the pane\u2019s + now creates the new folder INSIDE that folder, Explorer-style \u2014 the naming prompt says where it will land, the parent unfolds in the tree so the new row is visible immediately, and a confirmation names where it went. The folder view\u2019s \uff0b menu gains a \u201cNew folder\u201d option too. (Before, the + always created at the TOP level \u2014 a folder made while inside Tasks landed at root, out of sight, looking like it was never created. The stray \u201cTomorrow\u201d from that: one copy is now inside Tasks, the duplicate is in the Trash.)"],t.s)
+B.alb=new A.I(595,B.Zo)
+B.a0O=s(["FOLDER ARROWS MOVED TO THE LEFT: the expand/collapse chevron now sits before each folder\u2019s icon, Explorer-style \u2014 the arrows trace the tree down the left edge, and folders without subfolders keep the space so the icons stay aligned. The right edge keeps just the count and headphones.","NO MORE BLANK NOTES: an empty note box simply evaporates when it closes \u2014 leave the folder, end dictation, click out \u2014 nothing blank is ever saved. (Notes WITH content always post, exactly as before.)"],t.s)
+B.ap2=new A.I(594,B.a0O)
+B.VS=s(["FOLDER VIEWS SHOW ITEMS ONLY: subfolders no longer take up rows inside a folder \u2014 the left pane\u2019s expandable tree is the one place for navigating the hierarchy. A folder holding only subfolders shows the entry box, ready for its first item."],t.s)
+B.ao1=new A.I(593,B.VS)
+B.Xo=s(["THE \u2715 ON THE NOTE BOX ALWAYS CLEARS IT: whether dictation is on or off, tapping \u2715 wipes whatever text is in the box (it used to do nothing when the mic was off). A deliberate discard \u2014 the session audio still keeps everything when recording."],t.s)
+B.amR=new A.I(592,B.Xo)
+B.Zj=s(["THE FOLDER INPUT IS NOW EXACTLY THE INBOX BOX: every folder\u2019s entry area is the same live note box the inbox uses \u2014 same look, same anatomy, same rules (Done/\u201cnew note\u201d posts and re-arms, empty box reused, talk or type, click-out posts) \u2014 always there, idle or recording. The only differences: a green MIC inside the box (tap to dictate into the folder, tap the red stop to turn it off), everything you close files INTO that folder, and leaving the folder turns dictation off."],t.s)
+B.al1=new A.I(591,B.Zj)
+B.YF=s(["DICTATE STRAIGHT INTO A FOLDER: every folder\u2019s entry box now has a green MIC \u2014 tap it and the folder becomes your inbox: the same live note box takes over (same rules \u2014 Done/\u201cnew note\u201d posts and re-arms, empty box is reused, talk or type), and every note you close files into THAT folder automatically (the box\u2019s footer shows the folder name). LEAVING THE FOLDER TURNS DICTATION OFF \u2014 the last note still finishes transcribing in the background. No bottom control bar in folders: on/off lives in the box, so the list keeps the space."],t.s)
+B.anW=new A.I(590,B.YF)
+B.Xi=s(["\u201cNEW NOTE\u201d ON AN EMPTY NOTE JUST KEEPS IT: if the current note box is still empty and you say \u201cnew note\u201d (or hit the pill), the same empty box is reused \u2014 no more stack of blank notes. The cursor re-arms in it, ready to dictate. (Clicking OUT of a blank note still posts it as a regular item \u2014 that rule is unchanged.)"],t.s)
+B.ao2=new A.I(589,B.Xi)
+B.VJ=s(["HOLD A FOLDER ANYWHERE TO MOVE IT (phone): press and hold any folder in the left pane \u2014 it lifts with a buzz. Drag up or down and drop to reorder (the list scrolls at the edges, and the order syncs everywhere). Want the folder MENU instead? Hold and just let go without dragging \u2014 the options sheet opens like before. This is the standard Android pattern: hold = lift, drag = move, release = menu."],t.s)
+B.am4=new A.I(588,B.VJ)
+B.XZ=s(["FIX: MOVING A FOLDER NOW SCROLLS THE LIST TOO \u2014 while you\u2019re dragging a folder in the left pane, hold it near the top or bottom and the folder list scrolls under it, so you can drop it at a spot that was off-screen. (The scroll bands only reacted to ITEM drags before \u2014 folder drags were invisible to them on every platform. Verified working on the phone.)"],t.s)
+B.anU=new A.I(587,B.XZ)
+B.VT=s(["DRAG AN ITEM PAST THE EDGE AND THE LIST SCROLLS: while you\u2019re dragging an item in the inbox or a folder, hold it near the top or bottom of the list and the list scrolls under it \u2014 so you can drop it at a spot you couldn\u2019t see when you picked it up. Works on Android AND Windows/web (the item lists never had this anywhere \u2014 only the folder pane did)."],t.s)
+B.ane=new A.I(586,B.VT)
+B.ZB=s(["DRAG FOLDERS ON ANDROID: hold a folder\u2019s ICON in the left pane for a beat and it lifts \u2014 drag up or down and drop to reorder, right on the phone. Drop on a folder to slot in above it, or on the strip at the very bottom to send it last. Tap still opens the folder and holding the NAME still opens its options, unchanged. And since the order syncs now, the arrangement you make on the phone shows up on Windows and the web too."],t.s)
+B.akG=new A.I(585,B.ZB)
+B.a04=s(["YOUR ORDER NOW FOLLOWS YOU EVERYWHERE: the inbox order AND the left-pane folder order are now saved to your account instead of per-device \u2014 arrange them once, on any device, and the Fold, Windows, and the web all show the same arrangement. Reorder anywhere and the others follow. (One-time effect: until your first drag, folders show name-sorted and the inbox newest-first; your first re-drag sets the shared order for every device.) New items still always appear at the top of the inbox."],t.s)
+B.am0=new A.I(584,B.a04)
+B.a1D=s(["FIX: NEW ITEMS LANDED IN THE MIDDLE OF THE INBOX \u2014 found it. The inbox\u2019s saved manual order was keyed by temporary numbers that reshuffle every time the app starts, so after a restart the whole list could scramble, and a brand-new item\u2019s number could collide with an old saved slot and get seated mid-list (looking \u201ceaten\u201d \u2014 it was there all along, just buried). The order is now keyed by each item\u2019s permanent id: new items always appear at the TOP, and your arrangement survives restarts. One-time effect: the old scrambled order is cleared, so the inbox shows newest-first once \u2014 re-drag anything you want placed and it now sticks."],t.s)
+B.anX=new A.I(583,B.a1D)
+B.a2D=s(['FIX: ITEMS NO LONGER "DISAPPEAR" WHILE RECORDING. The list was blocked from refreshing the entire time the mic was on, so anything you saved during a session stayed hidden until you turned recording off \u2014 which looked like items being eaten. Now new and synced items appear on the dashboard live, even mid-recording, without ever disturbing the note you\u2019re dictating. (Nothing was ever lost \u2014 the words were saved; the screen just wasn\u2019t showing them.)'],t.s)
+B.aoD=new A.I(582,B.a2D)
+B.a2c=s(["EASIER TO CLICK THE CIRCLE: the dot beside each item is unchanged and stays put, but the clickable area around it is now much bigger (the whole strip, not just the 12-pixel dot) \u2014 so selecting an item, in the inbox, folders, and the canvas, takes far less aim."],t.s)
+B.alr=new A.I(581,B.a2c)
+B.a11=s(["SELECT TEXT WITH THE MOUSE (desktop): on Windows/Mac/Linux the left-swipe \u201cdelete\u201d gesture no longer fights you when you drag across text inside an item \u2014 swipe-to-delete is a touch gesture, so it\u2019s off on a mouse. Delete on desktop with the Delete key, right-click, the trash target, or the box\u2019s delete corner.","CLICK EMPTY SPACE TO SCROLL: clicking the white space around the boxes in the inbox or a folder now drops the cursor out of whatever box you were editing, so the wheel and Page keys scroll the list instead of the text field."],t.s)
+B.al_=new A.I(580,B.a11)
+B.Y0=s(["MOVING FOLDERS STAYS CALM (desktop): dragging a folder in the left pane no longer shoves every other row apart \u2014 the list holds still and a thin line shows exactly where the folder will land. Drop on a row to place it just above that row; drop on the strip at the very bottom to send it to the end.","EMPTY FOLDERS GET THE ENTRY BOX: open a brand-new or emptied folder and the same \u201ctype a thought\u201d box is right there at the top \u2014 start capturing immediately instead of staring at an empty screen."],t.s)
+B.anq=new A.I(579,B.Y0)
+B.a1I=s(["FIX: THE FOLDER PANE NOW AUTO-SCROLLS WHILE YOU DRAG (desktop) \u2014 when you drag an item out of a folder toward a target that\u2019s scrolled out of view, hold near the top or bottom edge of the folder list and it scrolls, just like everywhere else. Drags started from inside a folder weren\u2019t turning that on before, so a long pane couldn\u2019t be reached; now they do (and the folder rows light up as drop targets too)."],t.s)
+B.ao5=new A.I(578,B.a1I)
+B.YV=s(["CIRCLES STAY PUT: the circle handle is now pinned to the TOP of each item, so folding/unfolding never moves it \u2014 repeated double-clicks land in the same spot.","TAB MAKES A SUB-ITEM: select item(s) and press Tab \u2014 they nest under the item directly above. Shift+Tab un-nests. Never fires while you\u2019re typing.","TIGHTER LISTS: spacing between items reduced 65% across the Inbox, folders, and canvas groups.","FIX: rapidly deleting items could fold the survivors that slid under your cursor (phantom double-clicks) \u2014 the fold now stands down for a beat after any delete, same shield the chevron has had."],t.s)
+B.anu=new A.I(577,B.YV)
+B.YU=s(["CHANGE YOUR MIND MID-DRAG: while you\u2019re dragging an item, gaps now open between the rows of the Inbox and folder lists \u2014 drop on a gap and the item lands exactly there. So one drag does everything: sideways onto a folder files it; back into the list reorders it. No modes, no starting over. (Dropping between rows of a DIFFERENT folder files it into that folder at that exact spot.)"],t.s)
+B.aoZ=new A.I(576,B.YU)
+B.a1n=s(["DOUBLE-CLICK THE CIRCLE TO FOLD/UNFOLD: double-clicking an item\u2019s circle handle now collapses an open item and expands a collapsed one \u2014 everywhere the circles live (Inbox, folders, canvas). Single click still selects; right-click still opens the menu."],t.s)
+B.apb=new A.I(575,B.a1n)
+B.a0Y=s(["DELETE KEY DELETES THE SELECTION: select items with their circles (Ctrl+click for several) and press Delete \u2014 they all move to Trash in one stroke, restorable as always. The key never fires while you\u2019re typing in a text field."],t.s)
+B.anJ=new A.I(574,B.a0Y)
+B.a0S=s(["DOUBLE-CLICK A COLLAPSED ITEM TO OPEN IT: double-click anywhere on a collapsed row and it expands in place \u2014 no hunting for the \u2304. (Just the in-place expand, not the full-screen view; the chevron and title editing work exactly as before.)"],t.s)
+B.amc=new A.I(573,B.a0S)
+B.ZP=s(["DRAG FOLDERS TO REORDER, RIGHT IN THE PANE (desktop): grab any top-level folder row in the left pane and pull it up or down \u2014 gaps open between rows while you drag; drop and the order saves instantly. No buttons, no separate screen. (Same saved order the Folders screen uses, so they always match. Phones keep the Folders-screen reorder \u2014 press-and-hold there means folder options.)"],t.s)
+B.aoN=new A.I(572,B.ZP)
+B.a0E=s(["FIX: A DICTATION COULD POST TWICE \u2014 once as itself (with audio) and again as a text-only copy about 15 seconds later, if you clicked out of the box shortly after finishing. The finished text is intentionally kept in the box briefly for cloud processing; one exit path didn\u2019t know it was already saved and posted it again. It knows now \u2014 clicking out just blanks the box. If you EDIT the leftover text before clicking out, it still posts (your edit is new content)."],t.s)
+B.aox=new A.I(571,B.a0E)
+B.a2G=s(["FIX: EMPTY CANVAS ON A SECOND PC \u2014 a fresh device could race sync and create its own empty \u201cCanvas\u201d folder, leaving its canvas blank while your items sat in the original (this hit the office PC today; nothing was lost). Every device now agrees on the ORIGINAL Canvas folder, any accidental duplicates are automatically merged into it and removed, and the app no longer creates the folder just by drawing the sidebar \u2014 only when you actually use the canvas."],t.s)
+B.ald=new A.I(570,B.a2G)
+B.a30=s(["CLICK EMPTY CANVAS = NEW NOTE, instantly \u2014 no menu, cursor ready, exactly like OneNote\u2019s click-and-type. The \uff0b button keeps the full menu for tasks, meetings, Claude messages, and groups.","EVERY ITEM IS A CONTAINER NOW (OneNote-confirmed): single items wear the same anatomy as groups \u2014 a top bar that moves them, a bordered body. And dropping an item ON or NEAR another item or group joins them: near a single item \u2192 the two become a group; near a group \u2192 it joins that group. Dropping directly on an item\u2019s words still nests it as a sub-item \u2014 near = peer, on-the-text = child."],t.s)
+B.akK=new A.I(569,B.a30)
+B.a15=s(["GROUPS NOW WORK LIKE ONENOTE \u2014 NO NAMING: \u201cNew group\u201d creates instantly, no prompt. The region shows just a move bar (no title) until you deliberately rename it via right-click. And the fastest way to group: drop an item\u2019s circle onto another card\u2019s MOVE BAR \u2014 the two instantly become a group right there (drop on the box body still nests it as a sub-item).","REORDER INSIDE GROUPS: while you drag, slim gaps between a group\u2019s rows open up \u2014 drop on a gap and the item lands exactly there. Works for moving items within a group, between groups, or in from the loose canvas. Group order matches the folder\u2019s order everywhere."],t.s)
+B.alV=new A.I(568,B.a15)
+B.a1V=s(["GROUPS ON THE CANVAS \u2014 OneNote-style: pick \u201cNew group\u201d from the canvas menu (tap anywhere or \uff0b), name it, and a titled region appears. Drop items onto the region and they move into the group; drag an item\u2019s circle back out to empty canvas and it leaves the group. The header bar moves the whole group at once; right-click it to rename or delete.","GROUPS SYNC: a group is a real folder under Canvas, so its contents follow you to every device (the region\u2019s position stays per-device for now, like the cards)."],t.s)
+B.aoz=new A.I(567,B.a1V)
+B.a2X=s(["THE CANVAS USES THE WHOLE SPACE: the reading-width cap is gone on the canvas \u2014 it now stretches across everything right of the folder pane.","CIRCLES ON THE LEFT: canvas cards now carry their circle to the LEFT of the box, matching every other item in the app. The slim move bar sits across the top of the box \u2014 drag it to place the card.","TAP ANYWHERE TO CREATE: click any empty spot on the canvas and pick a type \u2014 note, task, meeting, or Claude message \u2014 and it\u2019s born right where you clicked (filed to the Canvas folder, cursor ready). The \uff0b button offers the same menu."],t.s)
+B.anr=new A.I(566,B.a2X)
+B.XQ=s(["THE CANVAS NOW WORKS LIKE A ONENOTE PAGE: drop one card\u2019s circle onto another card and it\u2019s ABSORBED \u2014 its floating card disappears and it renders inside the parent (\u201c\u25b8 N sub-items\u201d, expandable, any depth). Drag a nested item\u2019s circle onto empty canvas and it SPLITS back out as its own card right where you dropped it.","CREATE ON THE CANVAS: the \uff0b button (top right) births a typed note directly on the canvas \u2014 filed to the Canvas folder, cursor ready in its box. Canvas cards are also editable in place now, like folder boxes.","SNAP GRID: cards settle onto an invisible 20px grid when you release them, so layouts stay tidy \u2014 hold Alt while releasing for free placement (OneNote\u2019s exact modifier). Dropping a card\u2019s circle on empty canvas also repositions it there."],t.s)
+B.amb=new A.I(565,B.XQ)
+B.Y_=s(["THE \u2261 PANCAKE HANDLE IS GONE \u2014 EVERYWHERE: the last holdout (folder rows on the Folders screen, and the row handles inside folder views) now uses the same OneNote circle as every item. One glyph, one meaning, the whole app: see a circle, you can click to select and drag to move."],t.s)
+B.aka=new A.I(564,B.Y_)
+B.a2P=s(["SELECTION NOW HIGHLIGHTS THE WHOLE ITEM: a selected item wears a blue outline around its entire box (plus the blue circle), everywhere \u2014 Inbox, folders, lists, canvas cards.","FILING FROM THE INBOX NOW LEAVES THE INBOX \u2014 including Claude items: dragging items from the Inbox into a folder previously left Claude-type boxes still sitting in the Inbox (a deliberate carve-out so in-flight Claude messages stay visible), which read as \u201clinked, not moved\u201d and \u201cthe item is in there twice\u201d. A deliberate drag now always takes the item off the Inbox; it lives in its folder. New Claude replies still appear in the Inbox as before.","ONE COPY PER FOLDER \u2014 confirmed and test-pinned: adding an item to a folder it\u2019s already in is a no-op, and moving one in collapses into the existing copy. An item can exist in many folders, but only once in each."],t.s)
+B.amP=new A.I(563,B.a2P)
+B.a1m=s(["MULTI-SELECT WITH THE CIRCLES: click an item\u2019s circle handle to SELECT it (it turns blue), Ctrl+click to add more \u2014 then drag any selected circle and the WHOLE selection moves together: into a pane folder, a subfolder, onto another item to nest, onto the Canvas, or to Trash. The drag card reads \u201cN items\u201d and one drop files them all. On phones, plain taps on the circles multi-select (no Ctrl needed). A drop clears the selection.","Works everywhere the circles live \u2014 Inbox, folder views, lists, and canvas cards. (Canvas note: the card\u2019s circle now selects/files it; drag the little bar beside it to move the card around the canvas.) Clicking a circle no longer opens the item \u2014 the \u2922 button is the full-window door."],t.s)
+B.am_=new A.I(562,B.a1m)
+B.a_k=s(["RIGHT-CLICK FOLDER OPTIONS ON WINDOWS: right-clicking any folder \u2014 in the left pane, on the Folders screen, or a subfolder inside a folder \u2014 now opens the same options sheet as press-and-hold (rename, new subfolder, play list, delete\u2026). Items already had right-click; folders now match."],t.s)
+B.akg=new A.I(561,B.a_k)
+B.WY=s(["THE TEST CANVAS IS HERE: a new Canvas button in the left pane opens a free-form surface where your items are movable cards \u2014 drag a card by its circle to place it anywhere, pinch/scroll to zoom, and tap a card for all the normal item behaviors. It\u2019s the first cut of the OneNote-style move-things-around view.","LINKING ITEMS TO THE CANVAS: the canvas is backed by a real \u201cCanvas\u201d folder, so every filing flow works \u2014 drag an item onto the Canvas row in the pane (it LINKS; the item also stays where it was), or use Add to folder \u2192 Canvas. Test-phase note: card positions save per device for now."],t.s)
+B.ala=new A.I(560,B.WY)
+B.a2S=s(["YOU CAN ALWAYS SEE WHEN THE MIC IS ON: a slim red pill now floats at the bottom of EVERY screen while capture is live \u2014 a pulsing dot, the mode (\u201cdictating\u201d or \u201ccommands only\u201d), and \u201cN waiting to sync\u201d when a live recording is holding the upload queue. Tap it to jump to the live box. Born from tonight: the mic ran unnoticed for half an hour and quietly held 30 items back from syncing \u2014 that can\u2019t sneak by anymore."],t.s)
+B.aol=new A.I(559,B.a2S)
+B.a_z=s(["DELETING NO LONGER SHIFTS THE LIST: while you\u2019re actively deleting, background arrivals (synced items, recovered recordings) now wait \u2014 the list stays frozen under your fingers and everything lands the moment you pause for a couple of seconds. Nothing is lost; it just doesn\u2019t barge in mid-cleanup.","PULL DOWN TO SYNC: pull the Inbox down and release \u2014 it force-syncs right there (ending an idle recording first if one is holding the connection, same as Settings \u2192 Re-sync now). Handy after dictating a batch on one device: pull down on the other and it all arrives."],t.s)
+B.aos=new A.I(558,B.a_z)
+B.a1F=s(["THE HANDLE CIRCLES ARE NOW VISIBLE AND EVERYWHERE: v556 drew them at 8px \u2014 too small to see next to an open box, which read as \u201cno icons at all\u201d. They\u2019re 12px now, and the circle COLUMN is permanent: every item, open or collapsed, phone or desktop, Inbox or folders, carries the same circle in the same spot.","COLLAPSING NO LONGER SHIFTS THE GRID: with the handle column constant across states, folding a box changes only its height (animated) \u2014 nothing jumps sideways and the list stays put."],t.s)
+B.akh=new A.I(557,B.a1F)
+B.a_w=s(["THE ONENOTE CIRCLE IS THE HANDLE EVERYWHERE \u2014 open items too: every item, open or collapsed, in the Inbox, folders, and listening views, now wears the small circle as its move handle. The six-dot \u2261 is fully retired (the live New-note box and just-created items match too). Same drags: up/down reorders, sideways files into a folder, click opens."],t.s)
+B.akP=new A.I(556,B.a_w)
+B.Ze=s(["COLLAPSED ROWS, AS YOU ACTUALLY ASKED (my earlier misread \u2014 sorry): a collapsed item is just the circle handle, the title, and the \u2304. The delete / full-window / remove icons are GONE from collapsed rows \u2014 they live on the open box and in the right-click menu.","CIRCLE HANDLES EVERYWHERE: folder and listening views now swap the \u2261 for the small circle on collapsed items too (before, only the Inbox did)."],t.s)
+B.ams=new A.I(555,B.Ze)
+B.Yc=s(["THE ONENOTE ICON IS ON EVERY LINKED ITEM: open boxes now carry a small notebook icon next to the \u2922 \u2014 tap it to jump straight to the item\u2019s OneNote page (only shows when the project is linked). Collapsed rows keep your four-icon set; right-click still offers Open in OneNote there."],t.s)
+B.an2=new A.I(554,B.Yc)
+B.a2m=s(["COLLAPSED ROW ICON SET COMPLETE: exactly four controls and nothing else \u2014 \u2304 open, \u2296 remove-from-folder (nested items only), \u2922 full window, and Delete. The \u2296 was the missing one."],t.s)
+B.ami=new A.I(553,B.a2m)
+B.a_r=s(["COLLAPSED ROWS CARRY THE SAME BUTTONS AS OPEN BOXES: \u2922 full window and Delete now sit on the collapsed row too (left of the \u2304) \u2014 open or delete an item without unfolding it first. Same icons, same actions, both states."],t.s)
+B.ap5=new A.I(552,B.a_r)
+B.a10=s(["OPEN-BOX BUTTONS IN THEIR CORNERS (your layout): fold \u2303 at the top right (matching the collapsed row\u2019s \u2304 in the same corner), full-window \u2922 at the bottom left, Delete at the bottom right, and the \u201c\u2192 destination\u201d label is gone. The title row is unchanged.","THE FOLD-INSTEAD-OF-DELETE BUG IS DEAD FOR GOOD: folding now happens ONLY on the \u2303 chevron \u2014 the old click-anywhere-on-the-top-strip fold is retired, so a click that misses a button can never fold a box again. And folding now animates (the box visibly shrinks into its row), so a real fold no longer looks like \u201cdeleted then recreated collapsed\u201d."],t.s)
+B.aoT=new A.I(551,B.a10)
+B.ZQ=s(["PASTE FROM ONENOTE \u2192 ITEMS: copy paragraphs in OneNote (or anywhere), paste into the New-note box, and a pill appears: \u201cSplit into N items\u201d. One tap makes each paragraph its own item \u2014 same top-to-bottom order as the source, each with its AI title, with a one-tap Undo for the whole batch. Ignore the pill and it stays one normal note \u2014 splitting only ever happens on your tap."],t.s)
+B.akB=new A.I(550,B.ZQ)
+B.a_N=s(["RAPID-FIRE DELETING NO LONGER FOLDS BOXES: the trash button on an open box was a tiny target sitting inside the click-to-fold strip \u2014 deleting items in quick order, the list shifts after each delete and the next fast click hit the strip, folding a box instead of deleting it. The trash button now has a proper finger-sized target, and for a third of a second after any delete the fold-tap ignores clicks entirely (trash clicks still land instantly). Machine-gun cleanup is safe."],t.s)
+B.alO=new A.I(549,B.a_N)
+B.a_D=s(["COLLAPSED ITEMS GOT THE ONENOTE LOOK (your design): a collapsed item is now a clean borderless row \u2014 a small circle on the left (that circle IS the drag handle on desktop: drag it up/down to reorder, sideways to file into a folder), the title in the middle (still editable in place), and the expand chevron moved to the far right. Open items keep their full box exactly as before."],t.s)
+B.an8=new A.I(548,B.a_D)
+B.Xn=s(["DELETE BOUNCE-BACK \u2014 EVERY DELETE PATH NOW COVERED: v546\u2019s guard only protected swipe-deletes; deletes from the right-click menu, item boxes in folder/listening/files views, and drag-to-Trash skipped it, so those could still resurrect for a beat mid-cleanup. All delete surfaces now stamp the same short-lived marker the background refresh respects. Deleted means deleted, from anywhere."],t.s)
+B.an6=new A.I(547,B.Xn)
+B.a3f=s(["DELETED ITEMS NO LONGER BOUNCE BACK MID-CLEANUP: when you deleted several items in a row, a background refresh could land carrying a snapshot from just BEFORE a delete \u2014 and that item popped back into the list (in its shrunken default look, which read as \u201cit collapsed instead of deleting\u201d). Deletes now leave a short-lived marker the refresh respects, so a deleted box stays gone. If a delete ever genuinely fails, the item resurfaces within two minutes rather than being hidden forever \u2014 nothing can be lost silently."],t.s)
+B.amT=new A.I(546,B.a3f)
+B.Ya=s(["THE INBOX COUNT NOW SYNCS \u2014 RELIABLY THE SAME ON EVERY DEVICE: the one remaining per-device piece of the count was the \u201cdismissed from Inbox\u201d list, which lived in local settings \u2014 every cleanup on one device made the numbers drift (your 59 vs 46). Dismissals are now synced like everything else: dismiss anywhere, hidden everywhere, and each device\u2019s old local list merges in automatically on first run. Every count change also writes a diagnosis line (visible / total / filed / dismissed) so any future mismatch names its cause in one glance. NOTE: needs the one-time backend migration (011) + sync-rules re-deploy before installing."],t.s)
+B.ans=new A.I(545,B.Ya)
+B.Xk=s(["DUPLICATE BOXES CLEANED UP: notes and Claude items from the bug era could show TWICE \u2014 the un-linked box from a broken close plus its saved copy arriving via sync (v540 kept both on purpose: never lose words). Now, when a box\u2019s own save arrives, it simply replaces the un-linked box \u2014 one item, once. Nothing in your data was ever duplicated; it was two views of the same saved item. (Genuinely repeating the same words still gives each its own item.)"],t.s)
+B.alW=new A.I(544,B.Xk)
+B.a1u=s(["BAD NETWORK NO LONGER BURNS RECOVERY RETRIES: when your phone can\u2019t reach OpenAI at all (the cellular dead zones), each failed recovery attempt was still spending one of a recording\u2019s 3 auto-retries \u2014 permanently benching it even though nothing was ever billed or judged. Caught live in your 12:51 log. Network-unreachable failures are now free; only real OpenAI rejections count. This is what let the un-transcribed backlog build up over the outage days \u2014 combined with the new Recover button (below), it can\u2019t happen again."],t.s)
+B.aod=new A.I(543,B.a1u)
+B.Zt=s(["RECOVER UN-TRANSCRIBED AUDIO \u2014 new button in Settings (next to Re-sync): 582 recordings on the server kept their audio but never got words \u2014 mostly the bad-network days, when the automatic retries burned out their 3-attempt safety cap and gave up for good. The button resets those caps on this device and re-runs the recovery scan immediately: silence is skipped (never billed, never fake words), oversized sessions stay manual, and it steps aside instantly if you start dictating. Recovered text fills into the items as it lands. Costs nothing until you tap it."],t.s)
+B.aoy=new A.I(542,B.Zt)
+B.Z4=s(['THE \u2713 DONE EATING BUG \u2014 ROOT CAUSE FIXED: your 12:20 test caught it in the act. Every \u2713 Done (and Enter) close had an internal race: the close answered its own "where did the note save?" question twice, the second answer blew up mid-save, and the explosion skipped the steps that link the box to its saved words, give it its title, and cut its audio. The box was left an unlinked shell \u2014 title-less, headphone-less \u2014 and the next background refresh threw the shell away. That is why notes \u201cwent away\u201d right after Done. The race is gone: closes now finish every step, every time. (Spoken \u201cnew note\u201d closes were never affected \u2014 and none of your words were ever lost: every one of those notes is still in the library and OneNote.)'],t.s)
+B.alX=new A.I(541,B.Z4)
+B.Zn=s(["NOTES NO LONGER VANISH WHEN YOU HIT DONE (or say \u201cnew note\u201d): while sync was churning against its limit, the note\u2019s save could land a beat late \u2014 and a background list refresh in that gap rebuilt the Inbox WITHOUT the not-yet-saved note, so it blinked out and only a blank box remained. The refresh now carries every in-flight note over until its save lands. (The words were never lost \u2014 the audio and recovery path had them \u2014 but now the box itself stays put.)"],t.s)
+B.amI=new A.I(540,B.Zn)
+B.a3h=s(["RIGHT-CLICK MENU ON WINDOWS: right-click any item box \u2014 in the Inbox, folders, the listening area, Trash \u2014 and the \u22ef actions open right there: Open in OneNote (when linked), Add to folder\u2026, Move to folder\u2026, Delete (to Trash, with Undo). Same flows as the full view\u2019s three-dots button."],t.s)
+B.anG=new A.I(539,B.a3h)
+B.XP=s(["THE STRAY-TYPING BUG IS FIXED (Windows): your log caught it \u2014 my v527 focus-guard was over-fighting: when you clicked into an item, it misread the click as the focus thief it was built to fight and yanked typing back to the New box, while the item still showed its cursor. The guard now only acts at the moment dictation starts and ALWAYS yields to your click. Typing goes where the cursor is.","ITEMS OPENED FROM THE LISTENING AREA ARE NOW FULLY EDITABLE: the opened view already had the editable title (v533) \u2014 now the TEXT edits in place too (saves as you type, closes save too), and a trash button deletes (to Trash, with Undo). Same behaviors as everywhere else."],t.s)
+B.al3=new A.I(538,B.XP)
+B.XM=s(["LISTENING TOP BAR: tapping it now takes you to the playing item IN THE LIST (scrolls there, opens its subfolder) \u2014 it no longer pops the item open in full view on top. Your correction of yesterday\u2019s change."],t.s)
+B.amN=new A.I(537,B.XM)
+B.Wl=s(["NO MORE EMPTY WINDOW AFTER AN UPDATE: the Windows updater relaunches Voicley while the old copy is still shutting down and holding the database \u2014 the new copy opened data-less until you restarted it by hand. The app now waits out the old process (retrying the database open for a few seconds), so the first launch after an update comes up with all your data."],t.s)
+B.alC=new A.I(536,B.Wl)
+B.a2W=s(["\u201cOLD FORMAT\u201d ITEMS FIXED \u2014 no more title-less, headphone-less boxes: posting a note while dictation was ON could flip the session ownership mid-save, and the new box never got connected to its saved row \u2014 so it showed without a title, without the headphones toggle, and CLICKING IT OPENED THE BIG VIEW instead of editing in place (your two reports were the same bug). The connection now always completes; every posted box is a full regular item immediately. (No data was ever lost \u2014 the rows were saved correctly all along.)","CTRL WHILE DRAGGING NOW FLIPS THE LABEL EVERYWHERE: hold Ctrl mid-drag and the card switches live \u2014 \u201cMove\u201d becomes \u201cLink\u201d (from a folder) or \u201cAdd\u201d (from the Inbox), and the route line reads \u201cLink into \u2026\u201d / \u201cAdd to \u2026\u201d. Release Ctrl and it flips back."],t.s)
+B.akx=new A.I(535,B.a2W)
+B.a2t=s(["THE STRAY SCROLLBAR ON THE LEFT IS GONE: the live box\u2019s text area scrolls bottom-pinned (newest words stay in view), and that kind of scroller draws its bar on the LEFT \u2014 on Windows it showed as a odd little bar left of the boxes. It now stays on the right where scrollbars belong, and the duplicate one Windows auto-adds is silenced.","THE \u201cPHANTOM ENTER\u201d WHILE EDITING FULL-SIZE IS FIXED: after every auto-save (about a second after you pause typing), the little \u201cSaved\u201d tick was INSERTING a line above your text for two seconds and then removing it \u2014 the whole transcript hopped down and back up, which read exactly like an enter being added and removed. The tick now sits beside the title and only fades in and out \u2014 your text never moves. (Nothing in \u201cMoving racks and organizing space\u201d was ever altered \u2014 saves store exactly what you typed; the hop was purely visual.)"],t.s)
+B.amC=new A.I(534,B.a2t)
+B.Y8=s(["RENAME ITEMS FROM THE OPENED VIEW: opening a meeting (or note) from the listening area \u2014 or any list \u2014 showed no title at all, so there was nowhere to rename it. The opened view now carries an editable title right at the top: tap, type, done. Hand-set titles stick, same as everywhere else.","TAP THE TOP BAR TO GO TO WHAT\u2019S PLAYING: in the Listening area, tapping the bar that names the current item now takes you TO it \u2014 the list scrolls to its spot and the item opens full-view, exactly as if you\u2019d tapped its box.","PHONE CALLS PAUSE PLAYBACK: when a call comes in while recordings are playing, playback pauses \u2014 and picks back up on its own when the call ends. (Unplugging headphones also pauses, so audio never blasts from the speaker.)"],t.s)
+B.ap3=new A.I(533,B.Y8)
+B.ZJ=s(["OPENAI COSTS TRIMMED \u2014 the re-title throttle: while you edited an item, every ~1-second typing pause was quietly firing an AI call to refresh its title (and dictating into an item fired one per phrase). Now the title refreshes ONCE, when you leave the item. Same behavior you see \u2014 the title is up to date by the time you\u2019re looking at the list \u2014 at a fraction of the API calls. (Saving your words is untouched: edits still save as you type.)"],t.s)
+B.ank=new A.I(532,B.ZJ)
+B.Zd=s(["SYNC USES FAR LESS DATA (PowerSync limit fix, round 1): the AI titler was re-uploading an item\u2019s ENTIRE text every time it attached a title \u2014 on every closed note, every meeting (the longest texts), and up to 6 old meetings per app launch. Titles now sync as just the title. The cloud-audio backfill also wrote each recording twice where once works. Same features, a fraction of the sync traffic \u2014 this stretches the free tier and keeps the paid tier cheap as the library grows."],t.s)
+B.alg=new A.I(531,B.Zd)
+B.a_s=s(["THE DRAG CARD NO LONGER HIDES BEHIND THE FOLDER PANE: on Windows, the \u201cMove to \u2026\u201d card that follows your cursor was disappearing in the gap between the item boxes and the left folder pane \u2014 it was rendering in a layer clipped to the main window, so it slid *underneath* the pane. It now rides in the top-most layer over the whole window, so you can see it the entire way to the folder you\u2019re dropping on."],t.s)
+B.anh=new A.I(530,B.a_s)
+B.a_q=s(["THE INBOX NO LONGER JUMPS AROUND WHILE YOU DELETE: your phone\u2019s log showed the cause \u2014 while you were deleting a bunch of items, a burst of items syncing in from another device kept yanking the list back to the top, one jump per arrival. Now a background sync download never scrolls your inbox; only YOUR own new dictations and notes bring the list to the top. Deleting stays put where you are. (Nothing was ever lost \u2014 deletes go to Trash with Undo.)"],t.s)
+B.alS=new A.I(529,B.a_q)
+B.Xj=s(["THE DRAG CARD NOW SAYS \u201cMOVE\u201d OR \u201cLINK\u201d THE WHOLE TIME: while you drag an item, the card under the cursor shows a clear pill \u2014 \u201cMove\u201d, \u201cLink\u201d, or \u201cNest\u201d \u2014 so you always know what a drop will do. It used to show that only when dragging an item that was already inside a folder; dragging from the Inbox just said the vague \u201cAdd to\u2026\u201d. Now every drag states the action, and it flips live to \u201cLink\u201d when you hold Ctrl (where linking applies) and back on release."],t.s)
+B.ak7=new A.I(528,B.Xj)
+B.Xh=s(['TYPING INTO THE LIVE BOX ON DESKTOP NOW WORKS: on Windows, going into dictate mode showed a blinking cursor that looked ready \u2014 but that caret was just a marker showing where dictated words land, NOT a live text field, so your typed keys went nowhere until you clicked the box. The composer now mounts the real, typable field the instant dictation starts, and HOLDS its focus against the window glitch that was stealing it a split-second later (the same "keeper" your saved items already use). Dictated words land at that same cursor. (Phone is unchanged \u2014 tap to type.)'],t.s)
+B.akM=new A.I(527,B.Xh)
+B.a0W=s(["THE CLAUDE FILTER COUNT MATCHES THE LIST AGAIN: you emptied the Claude view and the chip still read \u201c2\u201d, then \u201c13\u201d \u2014 it was counting deleted messages the list itself was already hiding (in-flight Claude messages that stick to the window on purpose were never being subtracted when you deleted them). Deleting a Claude message now drops it from the count too, so an empty view reads 0."],t.s)
+B.alN=new A.I(526,B.a0W)
+B.a_G=s(["EDITABLE TITLES IN THE LISTS: tap an item\u2019s title right in the Inbox or a folder and type \u2014 it saves on its own, without touching the body. A title you set by hand STICKS: editing the item\u2019s text afterward won\u2019t let the AI re-title over it.","DELETING NO LONGER JUMPS THE LIST TO THE TOP: removing an item used to scroll the whole Inbox back up (a reseed was re-labeling the surviving items as \u201cnew\u201d). The list now stays put where you were."],t.s)
+B.amF=new A.I(525,B.a_G)
+B.X2=s(['THE SILENCE-PAUSE NO LONGER EATS YOUR DICTATION: last night\u2019s trace showed it park the mic after a 90-second pause and then silently drop 669 things you said \u2014 that was the "dictation regressed." Now (your pick) when the mic parks on silence, the moment you start talking again it AUTO-RESUMES and your words land \u2014 it only ever skips a truly silent gap, never an ongoing dictation. Tapping Commands-only or "end dictation" still stays parked on purpose.'],t.s)
+B.aoE=new A.I(524,B.X2)
+B.Xd=s(['"NEW CLAUDE COMMAND" ACTUALLY FIRES NOW: tonight\u2019s trace showed the engine hearing it as "New clog command" and "New Claude quad command" \u2014 neither of which the matcher accepted, so your commands fell through as plain text and everything merged into one blob (the "structure is horrible"). Now it accepts "clog"/"clawed" and, crucially, handles the engine double-transcribing the name ("Claude quad") \u2014 the command fires through the garble.',"A Claude note\u2019s box now has a faint clay-tinted background, so it\u2019s distinct from a regular note at a glance \u2014 not just the border."],t.s)
+B.am3=new A.I(523,B.Xd)
+B.a0G=s(["THE CLAUDE SEND BUTTON MOVED to the bottom-right of the box \u2014 the exact spot the \u2713 Done button sits for regular notes. Same place, same finish-this-entry gesture.","SEND NO LONGER SHUTS OFF DICTATION: hitting Send ships your Claude message AND keeps the mic rolling with a fresh box, just like \u2713 Done does. (It used to end the session \u2014 that was a safety measure against a hot mic, which the silence-pause now handles instead.)"],t.s)
+B.ame=new A.I(522,B.a0G)
+B.Xw=s(["SILENCE NOW PAUSES CAPTURE (your pick): go quiet for ~90 seconds while dictating and the mic parks itself in Commands-only \u2014 the purple line on the box says so. Room conversation can no longer pile into your note behind your back (today\u2019s \u201cswallowed\u201d items were exactly that: minutes of room talk merging into the box). Say \u201cnew note\u201d or tap Dictate and you\u2019re rolling again; commands keep working the whole time, and the audio is always in the recording."],t.s)
+B.an4=new A.I(521,B.Xw)
+B.a23=s(["THE AUTO-MEETING FLIP STANDS DOWN WHILE YOU\u2019RE NOTE-TAKING: it exists for one case \u2014 a first dictation that runs long because it\u2019s secretly a meeting. It had been swallowing an afternoon of short notes into one giant \u201cmeeting\u201d item (that\u2019s where your \u201ceaten\u201d text went \u2014 check Meetings, it\u2019s all there). Once you\u2019ve closed even one note in a session, the flip never fires.","Windows: the drag card now says WHAT\u2019S ABOUT TO HAPPEN \u2014 \u201cMove to Kitchen\u201d, \u201cAdd to\u2026\u201d, \u201cLink into\u2026\u201d (live as you press Ctrl), \u201cNest under an item\u201d, \u201cMove to Trash\u201d \u2014 plus where it\u2019s coming from."],t.s)
+B.amf=new A.I(520,B.a23)
+B.VY=s(["ENTER RIGHT AFTER SPEAKING KEEPS EVERY WORD: \u2713 Done and Enter now flush the in-flight dictation first \u2014 the grey words you can see get up to ~1.5s to commit before the note posts, so nothing at the tail is lost to fast fingers. The grey draft counts as content too: Enter on a box with only grey words posts them instead of doing nothing.","The Done/Send/\u27a4 buttons are GRAYED OUT until there\u2019s something to post \u2014 no more buttons that look live on an empty box.","Fresh items can be deleted immediately, even mid-dictation: a just-created box no longer refuses the trash while its background save finishes \u2014 the delete wins, and the save honors it."],t.s)
+B.aof=new A.I(519,B.VY)
+B.XT=s(["JUST-CREATED ITEMS LOOK LIKE EVERY OTHER ITEM: a fresh item briefly rendered without its \u2261 handle on Windows, so its box spanned wider than the rest. The handle column is now always there \u2014 a dimmed placeholder holds the exact space until the real grip arrives a moment later. Boxes always look the same."],t.s)
+B.akl=new A.I(518,B.XT)
+B.a3_=s(["REORDER THE INBOX ON WINDOWS: drag an item\u2019s \u2261 UP or DOWN and it moves in place \u2014 the same axis split as folders (sideways still lifts it to file into a folder, Ctrl links). Your order sticks; new arrivals still land on top. On the phone this already works: hold any box a beat and move it."],t.s)
+B.aov=new A.I(517,B.a3_)
+B.Xz=s(["The on-device diagnostic logs now HEAL THEMSELVES: after an update or storage hiccup they could silently stop recording \u2014 which is why several of today\u2019s bug reports came back untraceable. Every app start now stamps the log, and a failed write re-opens the file and retries instead of going quiet. (This is the eyes for fixing everything else you report.)"],t.s)
+B.amW=new A.I(516,B.Xz)
+B.a_t=s(["ITEMS YOU CREATE ARE NEVER AUTO-DELETED AGAIN: the end-of-session cleanup used to destroy any item that was still empty when the mic turned off \u2014 including ones you\u2019d created on purpose (and ones that LOOKED filled but whose words had routed elsewhere). That rule is retired: a created item survives, empty or not, exactly like the click-out law says. Empty ones are one manual delete away, with Undo."],t.s)
+B.aot=new A.I(515,B.a_t)
+B.Zk=s(["ONE \u2713 DONE, EVERYWHERE AN ENTRY ENDS: every folder\u2019s entry box now carries the same \u2713 Done pill as the Inbox (posts the thought filed into that folder, blanks for the next) \u2014 and an item you\u2019re dictating INTO shows \u2713 Done too: it finishes that entry, the words merge into the item, and dictation keeps rolling with a fresh box. Toward the standing model: every place you can enter a thought has an always-open area and one obvious way to end the entry, typing or speaking."],t.s)
+B.aoa=new A.I(514,B.Zk)
+B.a2N=s(["THE \u2713 DONE BUTTON NOW DOES WHAT ITS LABEL SAYS: it posts the note and DICTATION KEEPS GOING \u2014 your next words open a fresh box. It had been silently switching the session into Commands-only, which is the mode that DROPS plain speech: that is exactly how dictated paragraphs were \u201ceaten\u201d on Android today. (The dropped words\u2019 audio was never lost \u2014 full recordings of each session land in Files.)","Whenever Commands-only IS on, the entry box now says so in purple \u2014 \u201cCommands only, speech isn\u2019t captured, tap Dictate or say new note\u201d \u2014 so words can never silently vanish again. The \u2922 and Claude Send keep their close-and-stop behavior."],t.s)
+B.aoX=new A.I(513,B.a2N)
+B.Yr=s(["THE DRAG CARD TELLS YOU THE ROUTE: while dragging an item, the floating card now reads \u201cfrom Inbox\u201d, and the moment you hover a folder it shows the full move \u2014 \u201cInbox \u2192 Kitchen\u201d, \u201cIdeas \u2192 Trash\u201d \u2014 alongside the Move/\u2303 Link chip. No more guessing where a drop will land.","Windows: the app now checks for a new build every 10 MINUTES (was 2 hours) \u2014 this morning a data-loss fix sat published for an hour while the old build kept running. Release builds on the main machine also install locally the moment they publish when the app is closed."],t.s)
+B.anL=new A.I(512,B.Yr)
+B.Xb=s(["THE DONE BUTTON ALWAYS SAVES NOW: with the mic off, \u2713 Done / Enter / \u2922 on the entry box were doing nothing \u2014 typed text sat unsaved and could be wiped by the next mode switch. Now they post your note as an item and blank the box for the next one, mic or no mic. (With v510\u2019s guard, that\u2019s both halves of the typed-note data loss closed.)","Removing a Claude item from the Inbox no longer deletes it from the Claude messages folder \u2014 the trash on those boxes now just clears them off the Inbox (Undo included); the item stays in its folder.","Windows: drag an item\u2019s \u2261 SIDEWAYS and it lifts instantly to drop on any folder \u2014 no hold, no timer; up/down still reorders. This was why folder-to-folder drags felt broken.","Windows: the left pane now shows folders in YOUR order \u2014 the one you set by dragging on the Folders screen \u2014 instead of alphabetical."],t.s)
+B.amp=new A.I(511,B.Xb)
+B.ZC=s(["TYPED WORDS CAN NO LONGER BE LOST TO A MODE SWITCH: text typed into the entry box while the mic was off used to be silently destroyed the moment a session started (turning Commands or Dictate on). Now starting a session treats that typed note like a click-out \u2014 it posts as its own item first, always. This was the last remaining way the app could delete words you gave it."],t.s)
+B.ap7=new A.I(510,B.ZC)
+B.a_b=s(["DELETING FROM ONE FOLDER NO LONGER TOUCHES ITS OTHER HOMES, everywhere: the trash on rows in the Listening List now unlinks just that folder when the item also lives elsewhere (Trash only when it\u2019s the last home) \u2014 and both ways give you a 6-second Undo.","Drop items ONTO SUBFOLDERS inside a folder: the subfolder rows light up as drop targets, same as the left pane \u2014 drop moves the item in, Ctrl+drop links it.","Windows: the bar between the folder pane and the main window is now a real DIVIDER \u2014 grab it and drag to size the pane how you like; it remembers.","Windows: holding the \u2261 to lift an item free now takes a quick quarter-second instead of nearly half \u2014 dragging to a folder feels immediate."],t.s)
+B.aki=new A.I(509,B.a_b)
+B.Zv=s(["THE ALWAYS-OPEN ENTRY BOX: the Inbox\u2019s top box never disappears \u2014 speak into it or type into it any time, and ENTER (or \u2713/Send) posts the thought and blanks the box for the next one. Shift+Enter makes a new line; an empty Enter does nothing.","Every folder \u2014 including ones you create later \u2014 has its own entry box at the top: type a thought, Enter files it straight into that folder, ready for the next."],t.s)
+B.anM=new A.I(508,B.Zv)
+B.a2R=s(["The Listening List\u2019s \u201cAll\u201d now means exactly what it says there: everything MARKED TO LISTEN \u2014 your tagged folders and loose tagged items as one playable entry, count matching the \u201citems will play\u201d total. (v506 briefly played the whole library; corrected.)"],t.s)
+B.amo=new A.I(507,B.a2R)
+B.a_W=s(["ALL MOVED TO THE LISTENING AREA, done right: a pinned \u201cAll \u2014 your entire library\u201d entry at the top of the Listening List, always in sync with everything you have (it IS the library \u2014 folders in order, then loose items). Play now plays from it: your whole collection, no tags needed. Yesterday\u2019s All folder is retired from the folders area automatically. Tagged folders below keep their own play buttons."],t.s)
+B.akF=new A.I(506,B.a_W)
+B.a2u=s(["Collapsed rows: the \u25b8 arrow is back on the far left (tap it to open) and title editing is back in place \u2014 with the cleaner look kept (no headphones/trash on the line). Open boxes fold from their \u25be or anywhere on the top strip. Every folder and subfolder screen carries the fold-all/open-all toggle top right."],t.s)
+B.anB=new A.I(505,B.a2u)
+B.VF=s(["ONE-TAP OPEN AND CLOSE: collapsed items are now a clean title line \u2014 no chevron, no buttons \u2014 and tapping ANYWHERE on the line opens the box; tapping an open box\u2019s top strip (badge/date row) closes it. Folders get the fold-all/open-all toggle at the top right too, scoped to that folder. (Collapsed-title editing traded for the one-tap open \u2014 titles still edit in the open box.)"],t.s)
+B.anH=new A.I(504,B.VF)
+B.WN=s(["THE \u201cALL\u201d FOLDER: every new item and folder links itself into a folder named All, automatically, from any device \u2014 tap its headphones and your entire ongoing library is ONE entry in the listening program. Filing an item elsewhere never pulls it out of All (links, not moves). Going-forward from today; say the word if you want history backfilled too."],t.s)
+B.amM=new A.I(503,B.WN)
+B.YK=s(["OUTLINE ITEMS \u2014 items inside items: drop any item\u2019s \u2630 onto another item and it nests underneath (hold Ctrl to LINK it there instead, so the same item lives in several places \u2014 it wears a \u29c9 badge with its home count). A \u201cN sub-items\u201d line under a parent unfolds them, indented, to any depth, in the Inbox and in folders. The \u2296 removes a sub-item from that spot only; nothing is ever lost.","The full-size view always shows the item\u2019s DATE now \u2014 today\u2019s items were showing time only.","The Claude Send button tells you WHY when it can\u2019t send: signed out (fix in Settings) vs offline (it retries itself every 2 minutes)."],t.s)
+B.aoC=new A.I(502,B.YK)
+B.Yl=s(["DELETE AND EXPAND SWAPPED PLACES on every box: the trash now sits top-right, the \u2922 full-window button bottom-right \u2014 and on the live box the X moved left of the \u2922. Same actions, corners exchanged."],t.s)
+B.amy=new A.I(501,B.Yl)
+B.a2M=s(["RELEASE 500 \ud83c\udf89 \u2014 the \u2713 Done (\u201cnew note\u201d) pill moved to the bottom-right corner of the live box, where your thumb expects it. Same act: the note posts, the mic keeps rolling, your next words open a fresh box."],t.s)
+B.anV=new A.I(500,B.a2M)
+B.a14=s(["MOVE ITEMS BETWEEN FOLDERS RIGHT IN THE LISTENING LIST: drag an item\u2019s \u2630 onto any folder header there and it MOVES into that folder (the header highlights as you hover). Same move rules as everywhere \u2014 moved, never copied, never lost."],t.s)
+B.ap9=new A.I(499,B.a14)
+B.ZE=s(["A \u2713 ON THE BOX YOU\u2019RE DICTATING INTO: tap Done \u2014 \u201cnew note\u201d in the label is the spoken twin \u2014 and the note posts as a finished item while dictation keeps running; your next words open a fresh box. Every visible control teaching its voice command is the new pattern."],t.s)
+B.apa=new A.I(498,B.ZE)
+B.a01=s(["HOME IS NOW INBOX: the main stack is where every thought arrives before you file it \u2014 so it\u2019s named what it is. Nothing else moved."],t.s)
+B.aom=new A.I(497,B.a01)
+B.a_O=s(["\u201cPLAY FOLDER\u201d WORKS MID-DICTATION: saying it (or tapping a folder\u2019s play) while the mic was live used to answer \u201cnothing to play\u201d \u2014 the mic guard was lying about a full folder. Now wanting to listen ends the dictation for you, everywhere: the mic stops, your last words finish transcribing in the background, and the folder starts reading."],t.s)
+B.anT=new A.I(496,B.a_O)
+B.a2J=s(["REORDER YOUR LISTENING PROGRAM: hold any folder in the Listening List and drag it up or down \u2014 your order is the PLAY order (Play-all follows it top to bottom instead of the alphabet). A newly tagged folder joins at the end until you place it."],t.s)
+B.akA=new A.I(495,B.a2J)
+B.a13=s(["CLAUDE MESSAGES CAN\u2019T GET STUCK ANYMORE: two holes closed. Sync\u2019s recording-pause could become permanent if its resume was ever missed (the Windows desktop booted paused and stayed that way \u2014 thousands of rows queued, messages never sent); a watchdog now heals any stale pause within 2 minutes while a real recording still keeps sync off. And the Claude sender now runs on its own clock, independent of sync entirely \u2014 a written message delivers within ~2 minutes of sitting still, from any device, no matter what sync is doing."],t.s)
+B.akT=new A.I(494,B.a13)
+B.X_=s(["CLOSE THE WINDOW YOU\u2019RE DICTATING INTO: the fold chevron now shows on the box that has your cursor while dictating \u2014 tap it and that box saves, folds to its title, and your words flow straight back into the live box at the top. The mic never stops."],t.s)
+B.akI=new A.I(493,B.X_)
+B.a0M=s(["CLEANER PHONE ROWS: the \u2261 handle is gone from items on the phone \u2014 hold the item itself to reorder (that shipped in v490/491), so the handle was just noise. Desktop keeps it: there it also drags items into folders. Folder rows keep their \u2261 everywhere."],t.s)
+B.ao4=new A.I(492,B.a0M)
+B.Zw=s(["HOLD TO REORDER ON THE HOME SCREEN TOO: press and hold any item on Home and move it up or down \u2014 your order sticks on this device. New dictations still land on top so the newest thing stays visible, and the live dictation box stays planted while it runs."],t.s)
+B.aoG=new A.I(491,B.Zw)
+B.Ws=s(["HOLD ANYWHERE TO REORDER: press and hold any item in a folder \u2014 collapsed or open \u2014 and it lifts to reorder right there. The \u2261 still moves it to a folder when held, and holding on the words still selects text."],t.s)
+B.aoL=new A.I(490,B.Ws)
+B.VZ=s(["ONE HANDLE DOES BOTH: in a folder, the single left \u2261 now reorders when you drag it and MOVES TO A FOLDER when you hold it a beat first, then drag to the left pane (Ctrl at drop still links). The second grip inside the box is retired.","TYPE INTO A NEW ITEM IMMEDIATELY ON WINDOWS \u2014 the real fix, from the real trace: the \uff0b menu\u2019s closing animation was silently stealing the cursor a third of a second after the new box grabbed it, right after the old focus-keeper stopped watching. The keeper now outlasts the steal (and yields instantly if you click somewhere on purpose), and a brand-new empty note on desktop opens with its typing field live \u2014 first keystroke lands, no click needed."],t.s)
+B.akJ=new A.I(489,B.VZ)
+B.W4=s(["THE OPENAI BILL GUARDS: multi-hour session audio no longer transcribes itself (tap Retry on the item when you actually want it \u2014 that\u2019s what turned into $21 today), failed uploads stop auto-retrying after 3 tries, a \u201cbudget reached\u201d verdict from OpenAI pauses background transcription for a day instead of hammering it, and automatic recovery now uses the half-price model. Dictation and live captions never depended on OpenAI \u2014 a tripped budget can\u2019t touch them.","Collapsed rows lose the color square \u2014 the border already tells you the type."],t.s)
+B.ao0=new A.I(488,B.W4)
+B.WP=s(["UNDO AFTER DELETE: deleting an item now shows \u201cMoved to Trash \xb7 Undo\u201d for 6 seconds \u2014 one tap brings it straight back. The Trash stays your 30-day net either way."],t.s)
+B.akX=new A.I(487,B.WP)
+B.a22=s(["Collapsed titles edit in place \u2014 tap the title on a folded item, type, done. Saves the title only; your words are never touched."],t.s)
+B.amn=new A.I(486,B.a22)
+B.a1H=s(["REORDER ITEMS IN FOLDERS ON WINDOWS TOO: the \u2261 handle now reorders on desktop just like the phone, and the box\u2019s grip still drags items into folders \u2014 both at once.","The \u201caudio isn\u2019t available\u201d message now tells you WHY: no cloud copy exists for that item (recorded on Windows or before audio sync), versus signed out or offline \u2014 different problems, different fixes."],t.s)
+B.anS=new A.I(485,B.a1H)
+B.a2b=s(["COLLAPSE ALL / OPEN ALL: the toggle sits at the top right of the main screen, across from the menu \u2014 one tap folds every item to its title line, tap again opens them all.","Collapsed items carry their headphones and delete buttons in the usual spots \u2014 listen or trash without opening the box.","The folder headphones icon is back to full size (shrinking it was never the fix \u2014 the hidden button floor was)."],t.s)
+B.ant=new A.I(484,B.a2b)
+B.a2C=s(["FOLDER ROWS FINALLY MATCH HOME\u2019S HEIGHT: the headphones button on every folder row had a built-in minimum height that silently blocked all the tightening \u2014 replaced; folders in the pane now sit as short as the rows above them."],t.s)
+B.ao8=new A.I(483,B.a2C)
+B.a00=s(["Collapsed items trade the type label for a small color square \u2014 more room for the title on one line."],t.s)
+B.amm=new A.I(482,B.a00)
+B.a_d=s(["THE FOLDER SCREENS GOT THE DENSITY TOO: the Folders list and the folder rows inside folders were still at their old tall height while the left pane tightened \u2014 now they match (a third shorter). That was the \u201cfolders haven\u2019t changed at all\u201d miss.","Collapsed items wrap to two lines when the title needs it."],t.s)
+B.anp=new A.I(481,B.a_d)
+B.WH=s(["Folder rows sit at their tightest everywhere \u2014 zero gap between rows, uniform top to bottom."],t.s)
+B.akp=new A.I(480,B.WH)
+B.a3i=s(["COLLAPSE ANY ITEM TO ITS TITLE: every box now has a \u25b8 arrow at its top left \u2014 tap it and the item folds to one line (badge + title); tap again to reopen. Remembered per device. The live box you\u2019re dictating into never collapses."],t.s)
+B.alu=new A.I(479,B.a3i)
+B.Yp=s(["FOLDERS SIT CLOSER TOGETHER \u2014 on the phone too now, and desktop tightened one more notch. Noticeably more folders on one screen."],t.s)
+B.aly=new A.I(478,B.Yp)
+B.VU=s(["CLAUDE MESSAGES SHOW ALL THREE TIMES: the status line now stamps each stage as it happens \u2014 \u201cSent 2:41pm \xb7 Received 2:43pm \xb7 Done 2:50pm\u201d \u2014 on the full-size view, synced across devices. Messages from before today show their latest time only (the history starts now)."],t.s)
+B.akQ=new A.I(477,B.VU)
+B.a1W=s(["SEND BUTTON ON EVERY UNSENT CLAUDE ITEM: any Claude message that hasn\u2019t gone out yet \u2014 typed in a folder, or stranded by a bad connection \u2014 now wears the Send pill right on its box. Tap it and the message goes immediately instead of waiting for the 2-minute auto-send."],t.s)
+B.amu=new A.I(476,B.a1W)
+B.YQ=s(["READ ALOUD WHILE DICTATING: the button isn\u2019t grayed out anymore \u2014 tapping it mid-dictation asks \u201cEnd dictation and read aloud?\u201d, ends the recording cleanly (transcription finishes in the background), and starts reading.","NEW ITEMS TAKE THE CURSOR FOR REAL: a created item (Claude included) kept losing its cursor a frame after grabbing it \u2014 you had to click in manually. The cursor is now held until it sticks; just start typing.","THE DRAG CARD SHOWS MOVE VS LINK: dragging an item out of a folder shows a \u201cMove\u201d chip on the floating card \u2014 press Ctrl mid-drag and it flips to \u201c\u2303 Link\u201d live, so you always know what the drop will do.","MORE FOLDERS ON SCREEN (Windows): the left-pane rows are ~30% tighter on desktop. Phone rows stay finger-sized.","Claude items show WHEN: the full-size status line stamps the current stage with its time \u2014 \u201cDone \xb7 12:19pm\u201d. (Per-stage history for all three comes with a small server migration.)"],t.s)
+B.amt=new A.I(475,B.YQ)
+B.a_7=s(["DRAGGING BETWEEN FOLDERS NOW MOVES: drag an item out of a folder onto another folder in the pane and it moves there \u2014 out of the old, into the new, exactly like Windows Explorer. Hold CTRL while dropping to LINK instead (the item lives in both). Drags from Home or lists still just file; if the item is in several folders, only the one you dragged from changes."],t.s)
+B.alJ=new A.I(474,B.a_7)
+B.X3=s(["SEE \u2261, CAN DRAG \u2014 everywhere: the reorder handle moved to the LEFT of the folder icon (your call \u2014 the right side was crowded, and a left grab keeps the name visible while you drag), and it now shows on subfolder rows AND item boxes inside folders too. Those could always reorder \u2014 invisibly, by long-press; now the handle is the one drag surface and long-press is purely the options menu. In-folder order syncs across devices.","WINDOWS: hover over any left-pane row \u2014 folders included \u2014 and a tooltip shows the full name when it\u2019s cut off."],t.s)
+B.an7=new A.I(473,B.X3)
+B.XO=s(["The folder options box now shows a folder icon beside its title \u2014 at a glance you know the word at the top is the folder\u2019s name."],t.s)
+B.amO=new A.I(472,B.XO)
+B.a_X=s(["FOLDER REORDERING HAS DOORS NOW: tap the FOLDERS header in the left pane (or the new \u21c5 icon beside its +, or \u201cReorder Folders\u2026\u201d in any folder\u2019s \xb7\xb7\xb7 menu) to open the list where you drag folders into order. v469 built the room; v471 builds the doors.","NEW CLAUDE MESSAGE from any folder\u2019s \uff0b menu: type your message instead of speaking it \u2014 it files into that folder plus the Claude messages archive, and sends itself once you stop typing for 2 minutes (a half-typed message never sends early)."],t.s)
+B.amY=new A.I(471,B.a_X)
+B.VA=s(["SEND BUTTON ON CLAUDE MESSAGES: the box you're dictating a Claude message into now has an explicit Send pill at the top \u2014 tap it and the message posts right there, no need to click away. Same trip as before: Sending \u2192 received \u2192 done, reply in the box."],t.s)
+B.akz=new A.I(470,B.VA)
+B.a39=s(["DRAG FOLDERS INTO ORDER: grab the \u2261 handle on any folder row (Folders screen) and slide it up or down \u2014 finger on the phone, mouse on Windows. The left pane follows the new order instantly, and Move Up/Down stays in the \xb7\xb7\xb7 menu for one-handed use."],t.s)
+B.aoF=new A.I(469,B.a39)
+B.Zu=s(["CLAUDE MESSAGES CAN\u2019T DIE IN LIMBO ANYMORE: a message that never reached Claude (signed out, offline, server hiccup) now re-sends itself automatically once you\u2019re signed in \u2014 same rhythm the status checker already runs. Your words were always saved; now they always arrive too."],t.s)
+B.anA=new A.I(468,B.Zu)
+B.VR=s(["THE MIC CHECKS IN: if a recording runs two hours without a single touch, Voicley asks \u201cStill dictating?\u201d \u2014 Keep recording or Turn Off, your call, never automatic. Born from the two overnight sessions that transcribed the TV till morning.","The Windows app now re-checks for updates every couple of hours while it sits open \u2014 no more running days-old builds because the window never closed."],t.s)
+B.am7=new A.I(467,B.VR)
+B.a_p=s(["EXPAND THE NOTE YOU\u2019RE CREATING: the live box now has the \u2922 button too \u2014 one tap closes the note and opens it full-size (capture pauses, exactly like opening any other item)."],t.s)
+B.alM=new A.I(466,B.a_p)
+B.a_R=s(["DELETE THE NOTE YOU\u2019RE CREATING: the live box (Claude ones included) now has an \u2715 at the top \u2014 tap it to wipe the note and keep dictating fresh. The words go on your explicit tap; the session recording still keeps all audio.","FULL-SIZE SCROLL STAYS PUT: scrolling an item no longer snaps back on its own \u2014 background refreshes were resetting the view to the top."],t.s)
+B.alG=new A.I(465,B.a_R)
+B.a1q=s(["The full-size header\u2019s time sits at the top right with proper breathing room from the edge \u2014 visible, compact (\u201c12:21am\u201d), box-style."],t.s)
+B.amr=new A.I(464,B.a1q)
+B.a1U=s(["The full-size header\u2019s date/time is back on the right \u2014 box-style, compact (\u201c12:21am\u201d)."],t.s)
+B.akL=new A.I(463,B.a1U)
+B.Zh=s(["MAXIMIZING A CLAUDE BOX OPENS THE RIGHT ITEM: filed-but-visible Claude messages were missing from the full-screen pager\u2019s list, so maximizing one jumped to a different item entirely. The list now matches what you see, and as a safety net a box that ever goes missing from it opens alone instead of opening the wrong thing."],t.s)
+B.amQ=new A.I(462,B.Zh)
+B.a2V=s(["THE FULL-SIZE VIEW WEARS THE BOX\u2019S BORDER: the title + text card now has the same type-colored outline the main-window boxes wear (blue note, green task, amber meeting, clay Claude) \u2014 the full view reads as a giant version of the box."],t.s)
+B.anv=new A.I(461,B.a2V)
+B.a_v=s(["FULL-SIZE POLISH: the \u201cTranscript\u201d labels are gone (the text just leads), the time moved in from the far right to sit beside the headphones, and it\u2019s compact now \u2014 \u201c12:21am\u201d for today, \u201cJul 11 \xb7 5:32pm\u201d for older items."],t.s)
+B.am9=new A.I(460,B.a_v)
+B.Z_=s(["FULL-SIZE VIEW DECLUTTERED: Read aloud now sits to the right of the folder chips, and the duplicate date/time under the text is gone (the header owns it) \u2014 the meta line keeps just the destination."],t.s)
+B.ann=new A.I(459,B.Z_)
+B.ZT=s(["THE FULL-SIZE HEADER NOW MATCHES THE BOXES: type badge on the left, the listening headphones right beside it (tap to add/remove \u2014 same control as the boxes), and the date/time pinned top right. The separate \u201cAdd to listening list\u201d card below is retired \u2014 one header, one control."],t.s)
+B.alc=new A.I(458,B.ZT)
+B.Yh=s(["THE FULL-SIZE VIEW KNOWS WHAT IT IS: the top bar now shows the item\u2019s TYPE \u2014 the same colored badge the boxes wear (Note / Task / Meeting / Claude) \u2014 plus the date. And there\u2019s just ONE title now: big, bold, wrapping to two lines, and editable right in place \u2014 the little duplicate title field is gone."],t.s)
+B.anf=new A.I(457,B.Yh)
+B.a0X=s(["CLAUDE REPLIES YOU CAN ACTUALLY READ: the reply and the Sent \xb7 Received \xb7 Done ladder now show in BOTH big views of a Claude item \u2014 the tap-open sheet AND the full window \u2014 at full reading size (the reply in body text, the ladder a step bigger), pinned right under the message so no scrolling is needed."],t.s)
+B.ap_=new A.I(456,B.a0X)
+B.W5=s(["CLAUDE ITEMS IN THE FULL WINDOW: opening a Claude message full-size now shows the whole round-trip \u2014 my reply right under your message and the Sent \xb7 Received \xb7 Done ladder beneath it, updating live as the desk works. The title bar says \u201cClaude\u201d for untitled ones too."],t.s)
+B.al8=new A.I(455,B.W5)
+B.Z3=s(["INLINE EDITS STICK NOW: editing an item\u2019s text and leaving the window no longer shows the old text when you come back \u2014 your edits were saving safely underneath, but the main window kept showing its own stale copy. Every save now updates the window at the same instant it writes the database.","Notes finished on the desktop app now show up properly in the main window on every device (they were saved with a blank type that the window\u2019s filter couldn\u2019t see)."],t.s)
+B.alm=new A.I(454,B.Z3)
+B.Zc=s(["DELETING AN ITEM NO LONGER JUMPS THE WINDOW OR THE CURSOR: deleting a box you were typing or dictating into used to hand the cursor to the item below it \u2014 the list scrolled to follow it, and your dictation started landing in the wrong note. Now a delete cleanly lets go first: the cursor drops, the list stays put, and dictation falls back to its own live box."],t.s)
+B.alD=new A.I(453,B.Zc)
+B.ZZ=s(["YOUR PHONE STOPS FILLING UP: while charging and idle, Voicley quietly swaps the bulky raw audio of already-transcribed, already-uploaded recordings for verified compact copies \u2014 about 90% smaller per file, playing identically. Nothing is ever touched unless the transcript is safe, the upload is confirmed, and the replacement passes a duration check; every swap is listed in Settings \u2192 Item changes."],t.s)
+B.am5=new A.I(452,B.ZZ)
+B.a_F=s(["WINDOWS PLAYS AUDIO NOW: the play button in the full item view (and everywhere else on desktop) actually plays your recordings \u2014 Windows was missing its audio engine entirely, so the button did nothing. The reader also plays real recordings on Windows now instead of always reading with the robot voice."],t.s)
+B.amX=new A.I(451,B.a_F)
+B.a3j=s(["THE WHOLE TREE IN THE LEFT PANE: folders with subfolders now expand in place \u2014 tap the \u203a chevron to unfold a folder\u2019s subfolders right in the pane, nested to any depth, indented so you can see the shape of your library. The pane remembers what you left open. Rows keep everything: tap to open, long-press for actions, drag-to-file, counts, headphones."],t.s)
+B.alv=new A.I(450,B.a3j)
+B.YI=s(["SPEAK THE DESTINATION: \u201cnew note in cash flow\u201d opens a fresh note that FILES ITSELF into that folder when it closes \u2014 the live box shows \u201c\u2192 cash flow\u201d so you can see where it\u2019s headed. Fuzzy name matching forgives filler and truncation; a genuinely new name creates the folder.","READ ANY FOLDER BY VOICE: in Commands only, \u201cread the cash flow folder\u201d (or \u201cplay ideas\u201d) reads that folder top to bottom. \u201cPause/resume reading\u201d, \u201cskip\u201d, and \u201cprevious item\u201d control playback."],t.s)
+B.ang=new A.I(449,B.YI)
+B.a2E=s(["CLAUDE ANSWERS IN THE BOX: when the desk session finishes acting on your message, its one-line answer appears right in your clay box under the Done footer \u2014 \u201cClaude: Filed to brainstorm \u2713\u201d. Every message becomes a tiny completed conversation you can read from the phone."],t.s)
+B.akc=new A.I(448,B.a2E)
+B.a3n=s(["Sending a Claude message now turns dictation OFF automatically (unless you asked for a new note in the same breath) \u2014 no more open mic collecting the TV after your message ships.","The \u201cplay the listening folder\u201d command accepts your own phrases now \u2014 its row in Settings \u2192 Voice commands has the \uff0b phrase button like the rest."],t.s)
+B.anx=new A.I(447,B.a3n)
+B.YP=s(["Android now shows the real release number \u2014 \u201cv446\u201d \u2014 in App info and system dropdowns instead of the meaningless \u201c0.1.0\u201d. Settings footer matches."],t.s)
+B.ap1=new A.I(446,B.YP)
+B.Zl=s(["Typing into a Claude box works like every other box now \u2014 its status updates were quietly rebuilding the screen under your finger and stealing the cursor. The screen no longer repaints while your cursor is in any box.","Network log dates are readable now \u2014 brighter and a step bolder."],t.s)
+B.akm=new A.I(445,B.Zl)
+B.YJ=s(["\u201cNew Claude command\u201d now works too \u2014 message, note, or command, whichever word comes out.","The Network log now reads human-first: each incident leads with its plain-English story at full size, and the raw technical detail sits under its own \u201cTECHNICAL\u201d divider \u2014 collapsed until you tap it."],t.s)
+B.aoW=new A.I(444,B.YJ)
+B.Zg=s(["DICTATION RELIABILITY: the engine is now told to listen for \u201cClaude\u201d and \u201cVoicley\u201d by name (far fewer clod/quad mishearings at the source).","Words spoken while the connection is down are RECOVERED: when a dead network outlasts the live buffer, the missing stretch is re-transcribed from the kept audio when you stop, and the words join the session\u2019s recording. Tonight\u2019s 8-minute outage would have healed itself.","The live box stopped flashing: the grey draft now only grows as you speak \u2014 the polished rewrite lands once, when each passage finalizes, instead of repainting every half-second guess.","Fixed: starting a Claude message, saying nothing, and then \u201cnew note\u201d made the NEW note a Claude box \u2014 the leftover addressing now dies with the empty box it belonged to."],t.s)
+B.akn=new A.I(443,B.Zg)
+B.XY=s(["\u201cNew Claude message\u201d \u2014 the pause-after-the-phrase case: saying the command and then pausing was splitting the word \u201cmessage\u201d off the end and the command never fired. A complete phrase now always wins. \u201cNewclaud\u201d as one squashed word counts too."],t.s)
+B.ak8=new A.I(442,B.XY)
+B.YR=s(["\u201cNew Claude message\u201d now survives being split across transcription chunks \u2014 the exact failure from tonight\u2019s log (the engine heard \u201cNew clod\u201d \u2026 \u201cmessage\u201d as two pieces) is caught and reassembled, so the command fires even when the recognizer breathes mid-phrase."],t.s)
+B.alU=new A.I(441,B.YR)
+B.Yb=s(["Claude messages ACTUALLY appear on the main screen now \u2014 the screen\u2019s loader had a pre-v434 list of item types that silently dropped them (they lived in the folder but never on Home). Your existing messages all show up after this update.","The Android back button, for real this time: Android 13+ routes the button around the fix v438 used; that routing is now configured so back steps back everywhere. Third time\u2019s the proven one."],t.s)
+B.amk=new A.I(440,B.Yb)
+B.a_M=s(["\u201cNew Claude message\u201d now actually works: it fires mid-dictation like \u201cnew task\u201d (closing your current note and opening a fresh Claude box), and it forgives how the engine hears the name \u2014 \u201cnew clot message\u201d, \u201cnew quad message\u201d and friends all count."],t.s)
+B.amj=new A.I(439,B.a_M)
+B.a2O=s(["Claude messages now STAY on the main screen (and in the Claude chip) after they complete \u2014 they were vanishing into their folder seconds after sending because the desk session got fast. The \u201cClaude messages\u201d folder remains their permanent archive.","The Android back button truly behaves like the app\u2019s \u2039 back now \u2014 v436\u2019s fix registered at the wrong layer and Settings still minimized; this one intercepts the button itself. Dialogs still close first, and on Home the button still minimizes as Android expects."],t.s)
+B.akj=new A.I(438,B.a2O)
+B.Yo=s(["YOUR OWN WORDS for voice commands: in Settings \u2192 Voice commands, every command now has a \u201c\uff0b phrase\u201d \u2014 add the wording that comes naturally (\u201cthat\u2019s all\u201d for end note, \u201chey Claude\u201d for message for Claude\u2026). Your phrases ADD to the built-ins, they never replace them, and they\u2019re checked so no two commands can collide."],t.s)
+B.akr=new A.I(437,B.Yo)
+B.VK=s(["The Android back button now behaves like the app\u2019s \u2039 back everywhere: in Settings, Files, folders and the rest it steps back (or returns Home) instead of minimizing the app. On the Home screen it still minimizes, as Android convention expects."],t.s)
+B.alh=new A.I(436,B.VK)
+B.X0=s(["Create items INSIDE a folder: a new \uff0b at the top of every folder makes a note, task, or meeting that\u2019s born already filed there \u2014 and the cursor lands in its box so you can type (or tap its body and dictate) immediately.","\u201cNew Claude message\u201d now works as a spoken opener too (same as \u201cmessage for Claude\u201d) \u2014 it\u2019s the phrase that came naturally, so now it counts."],t.s)
+B.amg=new A.I(435,B.X0)
+B.a2s=s(["CLAUDE MESSAGES are now real items: \u201cmessage for Claude \u2026\u201d (or \uff0b \u2192 Message for Claude) makes its own clay-colored box beside your notes, tasks and meetings. Its footer shows the round trip live \u2014 Sending\u2026 \u2192 Sent \u2192 Received \u2192 Done \u2014 so you can see the moment the desk session picks it up.","A \u201cClaude messages\u201d folder appears in the left pane automatically and collects every message; while one is still in flight it also stays on the main window so you can watch its status.","New Claude view chip on the main window counts today\u2019s messages; edits you make inside any item now show up in its main-window box."],t.s)
+B.ano=new A.I(434,B.a2s)
+B.a2i=s(["NEW voice command for the road: start a dictation with \u201cmessage for Claude\u201d and everything you say goes to your Claude session when the note closes (\u201cend note\u201d or Off). The end-of-note \u201csend to Claude\u201d still works too. Both listed in Settings \u2192 Voice commands."],t.s)
+B.alk=new A.I(433,B.a2i)
+B.a37=s(["Full-screen items now use the same text size as the boxes on the main window (both follow your transcript size setting \u2014 Speakers blocks included).","Fixed: hitting Stop on the Android listening notification left Play dead. Play now restarts the list right where you stopped it."],t.s)
+B.alf=new A.I(432,B.a37)
+B.a26=s(["THE ITEM GUARD: nothing can destroy an item unless you told it to. Every delete now carries its reason; automatic cleanups may only remove items that are verifiably empty at the moment of deletion (the bug that killed real notes mid-save is impossible now); and any code that tries to destroy an item without permission is refused and flagged.","NEW in Settings \u2192 Diagnostics: \u201cItem changes\u201d \u2014 a plain-English history of every delete, restore, and cleanup on this device, with its reason. Anything BLOCKED shows in red with a count on the Settings row, so a misbehaving cleanup gets caught in the log instead of in your library."],t.s)
+B.am8=new A.I(431,B.a26)
+B.YW=s(["RECOVERY: the items that disappeared in the cleanup incident come back on their own \u2014 this build re-matches each restored item to its recording file (which never left your phone) and re-transcribes it. Leave the app open and idle for a couple of minutes, then check your folders.","\u201cEnd dictation\u201d / \u201cstop dictation\u201d now turns dictation fully Off \u2014 the same as tapping Off. For the middle state (pause but keep listening for commands), say \u201ccommands only\u201d.","Faster catch-up: interrupted transcriptions now keep draining while the app sits idle, instead of three per app-open."],t.s)
+B.aop=new A.I(430,B.YW)
+B.VN=s(["New voice command: say \u201ccommands only\u201d (at the end of a thought) to pause dictation without closing your note \u2014 the spoken twin of the middle button. \u201cResume dictation\u201d picks it back up. Also listed in Settings \u2192 Voice commands."],t.s)
+B.amG=new A.I(429,B.VN)
+B.a3g=s(["URGENT fix: yesterday\u2019s automatic cleanup could wrongly remove recordings that were still waiting to upload when the library was opened on a new device (they looked empty from there). The cleanup is removed entirely. Disappeared items are restorable and are being restored."],t.s)
+B.anD=new A.I(428,B.a3g)
+B.YM=s(["NEW: a Network log in Settings (under Advanced \u2192 Diagnostics). Every network hiccup \u2014 DNS failures, stalled captions, dropped connections, failed uploads, unreachable sync \u2014 is recorded with a plain-English explanation of what happened, and each issue type shows how many times it has occurred. Bursts group into one entry."],t.s)
+B.aoB=new A.I(427,B.YM)
+B.a_y=s(["Dictation and command accuracy restored: live speaker detection (added yesterday for the Speakers view) was quietly taxing the recognizer, so it\u2019s off the live stream. Who-said-what returns via a smarter after-the-fact pass soon."],t.s)
+B.alx=new A.I(426,B.a_y)
+B.Y6=s(["Web: your synced items can now actually appear \u2014 the web version was reading a separate empty database from the one sync fills; they\u2019re one and the same now, exactly like on your phones."],t.s)
+B.amD=new A.I(425,B.Y6)
+B.a_j=s(["The sync sign-in got a show-password eye \u2014 tap it to see what you typed before hitting Sign in. (The website\u2019s web-app login got the same.)"],t.s)
+B.an9=new A.I(424,B.a_j)
+B.ZK=s(["The web version (preview) can now sign in to Library Sync \u2014 same account as your phones, in Settings."],t.s)
+B.ale=new A.I(423,B.ZK)
+B.a_9=s(["The \u201c+\u201d create menu now works from Commands only \u2014 even with a task or meeting box open. Creating switches you into capture for the new item, same as the spoken command."],t.s)
+B.anw=new A.I(422,B.a_9)
+B.a2g=s(["The 0:00 items are explained and cleaned up: they were meeting/note placeholders orphaned when a session was killed mid-way. A launch sweep now purges day-old empty ones automatically \u2014 anything with words or audio is never touched.","Fixed a narrow loss window: typing into a blank note and hitting Off within a second could destroy the just-typed words. The blank-note cleanup now waits out the save and never touches a note your cursor is in."],t.s)
+B.akY=new A.I(421,B.a2g)
+B.a0V=s(["Fixed: a flowing note could wrap past 10 lines and scroll inside its box \u2014 wrapped length now counts toward the 10-line cap, so long notes become \u201cmore\u2026\u201d cards like they should.","This update dialog now shows each release number above its changes."],t.s)
+B.aoA=new A.I(420,B.a0V)
+B.Xm=s(["Items now cap at 10 lines everywhere (notes, tasks, and meetings alike) \u2014 long ones show their first 10 lines with \u201cmore\u2026\u201d and open full-screen. Steadier scrolling too."],t.s)
+B.amv=new A.I(419,B.Xm)
+B.a1b=s(["Creating items moved UP: a \u201c+\u201d now sits at the end of the top labels row \u2014 tap it to create a Note, Task, or Meeting. The dedicated buttons at the bottom are gone, so the bottom is just the Off/Commands/Dictate control and the list gets more room."],t.s)
+B.anK=new A.I(418,B.a1b)
+B.XW=s(["NEW: speakers. When a recording has more than one voice, its full-screen view shows the conversation broken out by speaker \u2014 \u201cSpeaker 1 / Speaker 2\u201d blocks with each person\u2019s words, and a play button on every block that plays exactly that stretch of audio.","Applies to NEW recordings made with the live (Deepgram) engine from this version on \u2014 older items don\u2019t have speaker data."],t.s)
+B.aks=new A.I(417,B.XW)
+B.a1M=s(["Fixed: long items scroll again on Android \u2014 dragging anywhere on the text now moves the page (the text area was swallowing the drag)."],t.s)
+B.ak9=new A.I(416,B.a1M)
+B.WT=s(["Settings now lists every voice command: tap \u201cVOICE COMMANDS\u201d to see the current phrases, what each does, and their alternate wordings."],t.s)
+B.anO=new A.I(415,B.WT)
+B.a2L=s(["Saying \u201cstop dictation\u201d now turns off dictation, same as \u201cend dictation\u201d (also: \u201cstop note\u201d, \u201cstop dictating\u201d)."],t.s)
+B.anz=new A.I(414,B.a2L)
+B.Yu=s(["Fixed: while dictating, tapping an item to move the cursor there now works on the FIRST tap. Putting the cursor in an item no longer snaps the list to the top (which was scrolling the item away and eating your first tap)."],t.s)
+B.anl=new A.I(413,B.Yu)
+B.a__=s(["Fixed: deleting an item no longer scrolls the main list. The list now holds its place when you remove a row instead of jumping down."],t.s)
+B.amB=new A.I(412,B.a__)
+B.Xl=s(["Fixed: only ONE item ever shows as selected. The focus ring now moves to the item you click instead of piling up on previous ones (was most visible on Windows).","Windows now tells you automatically when an update is ready \u2014 an \u201cUpdate available\u201d box pops up on launch (and when you click back into the window), just like the Android update notice. No more digging into Settings to find it."],t.s)
+B.anj=new A.I(411,B.Xl)
+B.XS=s(["Fixed: one tap puts the cursor in an item again (adding the focus ring was briefly stealing the first tap)."],t.s)
+B.al4=new A.I(410,B.XS)
+B.a1K=s(["The focused-item ring now shows on the MAIN list too (it was only wired into folder views)."],t.s)
+B.aog=new A.I(409,B.a1K)
+B.Z0=s(["The item holding your cursor now wears the same colored ring the new-note box has \u2014 red and breathing while capturing, calm accent otherwise \u2014 so you can always SEE where dictation goes.","Editing or dictating into a note refreshes its AI title automatically."],t.s)
+B.anF=new A.I(408,B.Z0)
+B.a1C=s(["Fixed: typing into a new note and then tapping an existing item no longer conjures another empty note at the top \u2014 the typed note posts and that\u2019s it."],t.s)
+B.alQ=new A.I(407,B.a1C)
+B.YH=s(["The new note box matches regular items exactly: same size (1-line, grows with content), the move handle beside it on desktop, and no microphone icon \u2014 the bottom control is the capture toggle."],t.s)
+B.alF=new A.I(406,B.YH)
+B.a1j=s(["The message inside a new note box is gone \u2014 a new note is just an empty box with a cursor.","Tapping \u201cNew note\u201d repeatedly creates multiple blank notes (each tap posts the previous blank and opens a fresh one).","Any note still blank when you turn the system Off is destroyed \u2014 including blanks that posted to the list. Type or dictate anything into one and it stays."],t.s)
+B.ao9=new A.I(405,B.a1j)
+B.a2r=s(["Clicking out of a new note now ALWAYS makes it a regular item \u2014 even a blank one posts (as an empty \u201cTap to add text\u201d item). Going back in works like any other item: tap it, get a cursor, dictate.","Fixed the dead tap on the live note box \u2014 tapping it now reliably opens the editor with a cursor."],t.s)
+B.aoV=new A.I(404,B.a2r)
+B.YX=s(["Clicking between items never changes the mode anymore: the cursor only picks WHERE words go \u2014 the Off / Commands only / Dictate control (and the voice commands) are the only things that turn dictation on or off."],t.s)
+B.ao_=new A.I(403,B.YX)
+B.a_2=s(["A just-posted note is editable IMMEDIATELY \u2014 tapping back into it works the moment it appears (its database row now lands before the slow audio processing, not after).","Fixed words being EATEN right after you tapped from a new note into an existing item \u2014 the close was briefly flipping the session into commands-only and dropping what you said next. Dictation mode now stays on across that move."],t.s)
+B.aoO=new A.I(402,B.a_2)
+B.Yx=s(["Dictate truly creates nothing now: the note box can no longer summon itself \u2014 not on the button, and not from the live preview while you dictate into an existing item (that was the phantom \u201cnew note\u201d at the top). Only \u201cnew note\u201d creates a note.","Tapping back into the new-note box reliably takes the cursor and routes your words there.","Play in the Listening list now stops an active dictation for you and starts playing \u2014 no more \u201cstop any recording and try again.\u201d"],t.s)
+B.anE=new A.I(401,B.Yx)
+B.VW=s(["Fixed: the Android notification could claim \u201ccommands only\u201d while you were dictating \u2014 it now mirrors every mode change (including dictating by placing your cursor in an item), and a session that starts in Commands is labeled correctly from the first moment."],t.s)
+B.ao3=new A.I(400,B.VW)
+B.a3d=s(["Fixed: tapping Dictate no longer pops an empty note box \u2014 nothing appears until you actually have words (or say \u201cnew note\u201d). Rule 1 for real this time.","The middle segment now reads \u201cCommands only.\u201d"],t.s)
+B.aml=new A.I(399,B.a3d)
+B.a1s=s(["The purple \u201cListening for commands\u201d label is gone \u2014 the highlighted Commands segment on the bottom control already shows the mode."],t.s)
+B.aoj=new A.I(398,B.a1s)
+B.a2l=s(["New 3-way control at the bottom: Off \xb7 Commands \xb7 Dictate. Your current mode is always highlighted, and switching is one tap. Dictate turns dictation on (words land wherever your cursor is); Commands listens for voice commands only; Off is instant \u2014 the 3-second countdown is gone.","\u201cnew note\u201d is the only thing that creates a note \u2014 it opens at the top with the cursor in it. A blank note you click away from stays put; a blank note is discarded when you turn the system Off.","New voice command: dictate a message and say \u201csend to Claude\u201d \u2014 it\u2019s delivered to Roger\u2019s Claude inbox with a \u2713 confirmation.","Live captions never give up: on flaky network the app now keeps retrying for the whole session and captions come back by themselves (it used to quit after ~12 seconds and stay text-dead).","The screen stopped moving: no more shifting when the keyboard opens, no frame flicker toggling dictation (the desktop jump), and only the box holding the cursor looks \u201clive.\u201d","The \u201cVoicley updated\u201d notification now opens the app when you tap it."],t.s)
+B.anN=new A.I(397,B.a2l)
+B.a2U=s(["Diagnostics: the main list records exactly what scrolled it, to pin down the \u201clist moves when I delete\u201d report."],t.s)
+B.aoq=new A.I(396,B.a2U)
+B.Xt=s(["A blank new note is destroyed when you turn the system Off; the four dictation rules are locked into the spec."],t.s)
+B.and=new A.I(395,B.Xt)
+B.a_u=s(["The Dictate button never creates a note \u2014 it just turns dictation on; words land wherever your cursor is."],t.s)
+B.alT=new A.I(394,B.a_u)
+B.a_o=s(["Switching to Commands no longer vanishes a just-opened blank note \u2014 it stays, paused, and Dictate resumes into it."],t.s)
+B.alE=new A.I(393,B.a_o)
+B.a_K=s(["The bottom control is a 3-way toggle now \u2014 Off \xb7 Commands \xb7 Dictate \u2014 replacing the single On/Off button."],t.s)
+B.aoo=new A.I(392,B.a_K)
+B.Y7=s(["A new note takes the cursor at session start too \u2014 an item you\u2019d tapped earlier can no longer steal the first words."],t.s)
+B.aok=new A.I(391,B.Y7)
+B.Z5=s(["Creating a new note puts the cursor in it, ready to dictate; a blank note you click away from stays at the top."],t.s)
+B.aoK=new A.I(390,B.Z5)
+B.a2z=s(["Off stops instantly \u2014 the 3-second \u201cOff in 3\u20262\u20261\u201d countdown is gone."],t.s)
+B.akE=new A.I(389,B.a2z)
+B.a17=s(["Moving the cursor into an item ends the live note cleanly: it posts as a regular item and your words follow the cursor."],t.s)
+B.alB=new A.I(388,B.a17)
+B.XK=s(["Live captions never give up on a bad network \u2014 retries continue for the whole session and captions return by themselves."],t.s)
+B.alo=new A.I(387,B.XK)
+B.a2Z=s(["Only the box holding the cursor looks \u201clive\u201d \u2014 the new-note box calms down when you dictate into another item."],t.s)
+B.aoY=new A.I(386,B.a2Z)
+B.Xr=s(["Diagnostics: every dictated phrase logs where it landed, so a \u201cmy words vanished\u201d report is answerable from the log."],t.s)
+B.an0=new A.I(385,B.Xr)
+B.a1y=s(["Putting the cursor in an item while recording resumes dictation there (it used to stay paused)."],t.s)
+B.alR=new A.I(384,B.a1y)
+B.WZ=s(["The window frame no longer appears/disappears when toggling dictation \u2014 the desktop screen stops jumping."],t.s)
+B.alH=new A.I(383,B.WZ)
+B.Yy=s(["A new note opens 2 lines tall, then grows with your words (the 15-line cap is unchanged)."],t.s)
+B.amL=new A.I(382,B.Yy)
+B.Zi=s(["The \u201cVoicley updated\u201d notification opens the app when tapped; the screen no longer shifts entering edit mode; the mic meter and status moved below the On/Off button."],t.s)
+B.aoh=new A.I(381,B.Zi)
+B.ZO=s(["New voice command: \u201csend to Claude\u201d \u2014 dictate a message and it\u2019s delivered to the Claude inbox, with a \u2713 confirmation."],t.s)
+B.anc=new A.I(380,B.ZO)
+B.a_L=s(["New \u201cAsk Claude\u201d in the nav: dictate or type a message and chat with Claude, right in Voicley (add your own Anthropic API key once \u2014 stored securely on device). First step of sending messages to Claude from the app."],t.s)
+B.alz=new A.I(379,B.a_L)
+B.VX=s(["Fixed the note box flickering on and off while \u201clistening for commands\u201d \u2014 the live preview no longer flashes a box as background speech comes and goes."],t.s)
+B.an5=new A.I(378,B.VX)
+B.a1J=s(["Fixed: turning On really shows no note now \u2014 the session opens directly in \u201clistening for commands\u201d from the first frame, instead of briefly popping a blank note."],t.s)
+B.aoe=new A.I(377,B.a1J)
+B.a_U=s(["Turning On no longer creates a blank note \u2014 it simply turns the system on and listens for commands. Say \u201cnew note\u201d (or tap a note) to start transcribing."],t.s)
+B.al0=new A.I(376,B.a_U)
+B.a1i=s(["Fixed a crash + vanishing dictation when you started recording while the listening reader was playing: the reader now fully stops (releasing its audio) the instant you turn dictation on, so the mic always has a clean path."],t.s)
+B.akW=new A.I(375,B.a1i)
+B.a1e=s(["The per-item microphone buttons are gone: the system is simply On/Off now, and dictation follows your cursor \u2014 tap any note while recording and your words land there."],t.s)
+B.aoQ=new A.I(374,B.a1e)
+B.YT=s(["Dictation now follows your cursor: while recording, tap into any note and your words land there; tap back to the new-note box and they go there. No per-item mic needed \u2014 the cursor decides."],t.s)
+B.anC=new A.I(373,B.YT)
+B.Yi=s(["One cursor at a time: tapping into an existing note now hides the live box\u2019s blinking cursor, so there\u2019s only ever a single cursor \u2014 the first step toward \u201cdictation goes wherever the cursor is.\u201d"],t.s)
+B.anI=new A.I(372,B.Yi)
+B.XJ=s(["Listening now has real system controls: a media notification + lock-screen transport (play/pause/next/previous), and it responds to Bluetooth media buttons \u2014 including a tap on your Ray-Ban Meta glasses to pause/resume. Works for both spoken (TTS) and recorded playback."],t.s)
+B.any=new A.I(371,B.XJ)
+B.WO=s(["Fixed: you can type into a fresh new note again \u2014 its tap target was too thin to focus. It\u2019s a comfortable size now (still not tall).","The Listening player is now two rows: the current item\u2019s overview on top, the play controls below. Tap the overview (\u25ce) to jump the list back to whatever\u2019s playing."],t.s)
+B.alP=new A.I(370,B.WO)
+B.a_J=s(["Settings is tidier: \u201cDictation destination\u201d and \u201cRecording segmentation\u201d moved into the collapsible Advanced section at the bottom, so the everyday controls lead."],t.s)
+B.aon=new A.I(369,B.a_J)
+B.a1z=s(["Play in the Listening list now stays ON THE LIST and follows the playing item down through folders and subfolders \u2014 it no longer jumps the first item into the full-screen player.","A fresh \u201cnew note\u201d box is the right height again \u2014 a blank note no longer opens very tall."],t.s)
+B.alL=new A.I(368,B.a1z)
+B.a3m=s(["The Listening list now shows ONLY what will play \u2014 an item you\u2019ve un-toggled inside a folder no longer lingers in the list.","Playback now traverses the list in the exact order you see it: a folder\u2019s own items first (top to bottom), then into its subfolders \u2014 so the view follows straight down the list as it plays."],t.s)
+B.ali=new A.I(367,B.a3m)
+B.a1A=s(["New voice command: while listening for commands (after \u201cend note\u201d), say \u201cplay the listening folder\u201d (or \u201cplay my list\u201d / \u201cstart listening\u201d) and Voicley ends the session and starts reading your listening list \u2014 hands-free."],t.s)
+B.an1=new A.I(366,B.a1A)
+B.a3c=s(["The Listening list now FOLLOWS playback through the whole hierarchy: as each item finishes, the view scrolls to the next one, and when playback moves into a subfolder that folder opens automatically \u2014 the playing item is always in view."],t.s)
+B.an3=new A.I(365,B.a3c)
+B.a_C=s(["A new note shows a BLINKING CURSOR from the moment it appears \u2014 always on, right where the next words will land (no keyboard pops up).","The mic label no longer claims \u201cnot available\u201d before you\u2019ve said anything: a quiet room now reads \u201cListening \u2014 waiting for sound\u201d; red is reserved for a mic that actually cut out."],t.s)
+B.ao7=new A.I(364,B.a_C)
+B.a_g=s(["Your cursor now SURVIVES the mic tap: tapping a note\u2019s mic (or the live box\u2019s) no longer hides the caret \u2014 you can see exactly where the dictation will land."],t.s)
+B.aoM=new A.I(363,B.a_g)
+B.a02=s(["Dictating with the cursor inside a word no longer splits it \u2014 the new words land right AFTER that word.","New notes are the right height: a closed note no longer keeps invisible trailing blank lines that made a 1\u20132 line note render very tall (existing tall items flatten too)."],t.s)
+B.anm=new A.I(362,B.a02)
+B.ZI=s(["Boxes show up to 15 LINES of text again \u2014 the original spec: a long note lists its first 15 lines with a \u201cmore\u2026\u201d button into the full window (the old rule collapsed anything past ~2 sentences to a 4-line preview)."],t.s)
+B.aor=new A.I(361,B.ZI)
+B.Yq=s(["Dictated words STAY where they land: a note growing past the \u201clarge\u201d threshold mid-dictation (or mid-typing) no longer swaps its box out from under your cursor \u2014 the transcribed text no longer appears and then vanishes."],t.s)
+B.alq=new A.I(360,B.Yq)
+B.Zz=s(["Dictating into an item now changes NOTHING on screen: the mic meter/chips stay hidden, the list doesn\u2019t shift, and your box, cursor and keyboard hold perfectly still."],t.s)
+B.aku=new A.I(359,B.Zz)
+B.a_l=s(["Fixed for real: tap an item\u2019s mic and the box holds perfectly still \u2014 your cursor stays exactly where you put it, and dictation lands there, not at the bottom."],t.s)
+B.aoS=new A.I(358,B.a_l)
+B.a2F=s(["The mic on an item works the simple way again: for notes under ~15 lines, tapping it changes NOTHING \u2014 same box, same text, and your dictation lands right at your cursor, freely mixed with typing."],t.s)
+B.al9=new A.I(357,B.a2F)
+B.Zq=s(["Edit mode fixed for real: every note\u2019s text is now fully visible and reachable while editing \u2014 the field follows your cursor and scrolls when needed. Longer notes go to the full window automatically."],t.s)
+B.all=new A.I(356,B.Zq)
+B.a2y=s(["Tapping an item\u2019s mic no longer shrinks the box \u2014 the note\u2019s text stays fully visible while you dictate into it (large notes keep their preview height).","This \u201cWhat\u2019s new\u201d popup is easier to read \u2014 bigger text."],t.s)
+B.alI=new A.I(355,B.a2y)
+B.a_h=s(["Long notes no longer fight the list: a big item shows as a compact preview (title + first lines + \u201ctap to open\u201d), and its reading/editing lives in the full window. Short notes still edit right in place."],t.s)
+B.akZ=new A.I(354,B.a_h)
+B.a1N=s(["Dictation now lands WHERE YOUR CURSOR IS when you\u2019re typing \u2014 and the live grey preview flows inline with your words instead of flashing on a line below.","The reader now speaks each item\u2019s TITLE before its text."],t.s)
+B.anb=new A.I(353,B.a1N)
+B.a18=s(["Listening is now ONE simple switch per item: the headphones tag decides if it plays \u2014 uncheck any item (even inside a playing folder) and it\u2019s out of the playlist; a folder\u2019s headphones just flips everything under it. Playback follows your folder order."],t.s)
+B.al5=new A.I(352,B.a18)
+B.WS=s(["The listening list now shows how many items each folder will play (whole subtree) and a total under the play controls \u2014 the numbers always match what actually plays."],t.s)
+B.alj=new A.I(351,B.WS)
+B.Xy=s(["The listening list\u2019s controls moved to the TOP: Play-all sits there when idle, and while playing it becomes the full transport \u2014 previous \xb7 play/pause \xb7 next \xb7 stop, with the current title."],t.s)
+B.akq=new A.I(350,B.Xy)
+B.a_c=s(["Silent recordings no longer clutter Home as \u201cTranscribing\u2026\u201d \u2014 they stay in Files with their audio, and a manual retry can still transcribe one."],t.s)
+B.amh=new A.I(349,B.a_c)
+B.a1S=s(["Put your top-level folders in YOUR order: long-press a folder \u2192 Move Up / Move Down \u2014 the order sticks on this device. (Drag-to-reorder polish comes next.)"],t.s)
+B.al2=new A.I(348,B.a1S)
+B.a_x=s(["The Android notification now shows what\u2019s happening live: \u201cDictating\u201d while your words are captured, \u201cPaused \u2014 commands only\u201d while command-listening."],t.s)
+B.akv=new A.I(347,B.a_x)
+B.a35=s(["The full-sized item view now leads with the TEXT \u2014 the transcript sits right at the top, with date, folders, player and summary below it."],t.s)
+B.amA=new A.I(346,B.a35)
+B.a_P=s(["The folder pane no longer flashes when you toggle a note\u2019s listen switch (especially on Windows) \u2014 it holds steady through background syncs."],t.s)
+B.als=new A.I(345,B.a_P)
+B.ZU=s(["Fixed the main home list jumping around / snapping to the top on every background sync \u2014 it now stays put so you can scroll and focus (especially on Windows)."],t.s)
+B.ako=new A.I(344,B.ZU)
+B.a2p=s(["Home screen scrolls again: a long note\u2019s box no longer grows past the screen and traps the scroll \u2014 it caps at 15 lines, with the full text one tap away (\u2922)."],t.s)
+B.akU=new A.I(343,B.a2p)
+B.Yv=s(["Voice/shortcut triggers (Hey Google, the launcher shortcuts) no longer switch you to Whisper \u2014 your engine stays put, and the default is always Deepgram (the live one)."],t.s)
+B.akS=new A.I(342,B.Yv)
+B.ZS=s(["When you dictate INTO a note, its box now glows red and pulses with your voice, and the mic turns red \u2014 just like the live box \u2014 so it\u2019s obvious that note is the one recording."],t.s)
+B.akd=new A.I(341,B.ZS)
+B.W3=s(["Settings \u2192 \u201cFill in missing titles\u201d now also RE-TRANSCRIBES items that have audio but no text yet \u2014 so text-less notes in your folders/recent get a transcript and a title."],t.s)
+B.amd=new A.I(340,B.W3)
+B.YO=s(["A dictation that hasn\u2019t finished transcribing (e.g. you were offline) now shows on Home as \u201cTranscribing\u2026\u201d instead of disappearing \u2014 its audio is always safe and it fills in when the transcript lands."],t.s)
+B.akC=new A.I(339,B.YO)
+B.a0J=s(["Open straight into command-listening: a new \u201cListen for commands\u201d shortcut (long-press the icon) / voicley://command link \u2014 point a \u201cHey Google\u201d Routine at it."],t.s)
+B.akf=new A.I(338,B.a0J)
+B.Xf=s(["A folder\u2019s headphones are now a master switch: one tap turns listening on (or off) for EVERYTHING under it \u2014 every subfolder and item."],t.s)
+B.aou=new A.I(337,B.Xf)
+B.X4=s(["Dictating into a note now lets you TYPE while the mic runs \u2014 talk and type at the same time, right in that box, exactly like the live one."],t.s)
+B.akw=new A.I(336,B.X4)
+B.XR=s(["Dictate into a note IN PLACE \u2014 tap a note\u2019s mic and your words now stream into THAT box (no separate \u201cnew\u201d box); \u201cend note\u201d saves them to it."],t.s)
+B.amE=new A.I(335,B.XR)
+B.a25=s(["Item box now keeps the date/time and drops the transcription length (the length shows in the full-window player)."],t.s)
+B.aoi=new A.I(334,B.a25)
+B.a0H=s(["The dictation time moved off the item box into the full-sized view \u2014 the box is cleaner (just the length up top)."],t.s)
+B.am1=new A.I(333,B.a0H)
+B.a0T=s(["Toggling a note\u2019s listen switch no longer flashes the folder pane on Windows."],t.s)
+B.ani=new A.I(332,B.a0T)
+B.XA=s(["The note\u2019s mic now works exactly like the live box: tap to dictate into the note, then tap again to pause/resume (mic \u2194 mic-slash)."],t.s)
+B.aln=new A.I(331,B.XA)
+B.VP=s(["The note\u2019s mic \ud83c\udf99 now sits to the right of the text, in the same spot as the live dictation box."],t.s)
+B.akR=new A.I(330,B.VP)
+B.a0R=s(["Every note now has a mic \ud83c\udf99 \u2014 tap it and keep dictating into that note; your new words append to it. (Audio of the added part comes next.)"],t.s)
+B.am2=new A.I(329,B.a0R)
+B.Wv=s(["When a listening playlist reaches the last item, the reader now says it\u2019s restarting from the beginning, then loops."],t.s)
+B.ao6=new A.I(328,B.Wv)
+B.VE=s(["Deleting an item from a folder now leaves it in its other folders \u2014 it only drops out of the one you deleted it from."],t.s)
+B.aoJ=new A.I(327,B.VE)
+B.Z1=s(["Say \u201cresume dictation\u201d (or \u201cresume dictating\u201d) to pick your note back up \u2014 and the command chip now says so."],t.s)
+B.aoH=new A.I(326,B.Z1)
+B.Yk=s(["While dragging an item to file it, hover the top or bottom of the folder list to scroll \u2014 reach folders that were off-screen."],t.s)
+B.ap8=new A.I(325,B.Yk)
+B.a1X=s(["Tap an item in a folder or on the home screen to edit it right there \u2014 the \u2922 button opens the full window."],t.s)
+B.amZ=new A.I(324,B.a1X)
+B.a1E=s(["After each update, a quick \u201cWhat\u2019s new\u201d note tells you what changed."],t.s)
+B.amK=new A.I(323,B.a1E)
+B.W1=s(["Edits you make in the full-window now show in your lists right away."],t.s)
+B.alY=new A.I(322,B.W1)
+B.XE=s(["Play a folder right in the list \u2014 the current note highlights and stays on top."],t.s)
+B.akt=new A.I(321,B.XE)
+B.WK=s(["Folders that hold audio-only notes now play their recordings."],t.s)
+B.amV=new A.I(320,B.WK)
+B.a_S=s(["\u201cDictation\u201d is now \u201cNote\u201d everywhere \u2014 say \u201cnew note\u201d (the old \u201cnew dictation\u201d still works)."],t.s)
+B.anP=new A.I(319,B.a_S)
+B.a0I=s(["Type into your task and meeting boxes while they\u2019re recording."],t.s)
+B.ama=new A.I(318,B.a0I)
+B.a_e=s(["Talk-or-type: type into the live note box, with a mic button to turn capture on and off."],t.s)
+B.anY=new A.I(317,B.a_e)
+B.XN=s(["The reader no longer traps you \u2014 move around the app while it plays."],t.s)
+B.amU=new A.I(316,B.XN)
+B.a_4=s(["\u201cTurn On / Turn Off\u201d buttons, a clearer drag handle, and a steadier folder pane."],t.s)
+B.anR=new A.I(315,B.a_4)
+B.a0D=s(["Note boxes can grow taller (up to 15 lines)."],t.s)
+B.ana=new A.I(314,B.a0D)
+B.ZF=s([B.amq,B.akk,B.al6,B.amH,B.akO,B.ake,B.anQ,B.alA,B.akV,B.am6,B.ap4,B.ap0,B.an_,B.akb,B.amz,B.amw,B.al7,B.amx,B.aow,B.alZ,B.aoc,B.alt,B.akD,B.aoU,B.aob,B.amJ,B.alw,B.anZ,B.amS,B.akN,B.aoR,B.akH,B.ap6,B.alp,B.alK,B.aoI,B.aoP,B.aky,B.alb,B.ap2,B.ao1,B.amR,B.al1,B.anW,B.ao2,B.am4,B.anU,B.ane,B.akG,B.am0,B.anX,B.aoD,B.alr,B.al_,B.anq,B.ao5,B.anu,B.aoZ,B.apb,B.anJ,B.amc,B.aoN,B.aox,B.ald,B.akK,B.alV,B.aoz,B.anr,B.amb,B.aka,B.amP,B.am_,B.akg,B.ala,B.aol,B.aos,B.akh,B.akP,B.ams,B.an2,B.ami,B.ap5,B.aoT,B.akB,B.alO,B.an8,B.an6,B.amT,B.ans,B.alW,B.aod,B.aoy,B.alX,B.amI,B.anG,B.al3,B.amN,B.alC,B.akx,B.amC,B.ap3,B.ank,B.alg,B.anh,B.alS,B.ak7,B.akM,B.alN,B.amF,B.aoE,B.am3,B.ame,B.an4,B.amf,B.aof,B.akl,B.aov,B.amW,B.aot,B.aoa,B.aoX,B.anL,B.amp,B.ap7,B.aki,B.anM,B.amo,B.akF,B.anB,B.anH,B.amM,B.aoC,B.amy,B.anV,B.ap9,B.apa,B.aom,B.anT,B.akA,B.akT,B.akI,B.ao4,B.aoG,B.aoL,B.akJ,B.ao0,B.akX,B.amn,B.anS,B.ant,B.ao8,B.amm,B.anp,B.akp,B.alu,B.aly,B.akQ,B.amu,B.amt,B.alJ,B.an7,B.amO,B.amY,B.akz,B.aoF,B.anA,B.am7,B.alM,B.alG,B.amr,B.akL,B.amQ,B.anv,B.am9,B.ann,B.alc,B.anf,B.ap_,B.al8,B.alm,B.alD,B.am5,B.amX,B.alv,B.ang,B.akc,B.anx,B.ap1,B.akm,B.aoW,B.akn,B.ak8,B.alU,B.amk,B.amj,B.akj,B.akr,B.alh,B.amg,B.ano,B.alk,B.alf,B.am8,B.aop,B.amG,B.anD,B.aoB,B.alx,B.amD,B.an9,B.ale,B.anw,B.akY,B.aoA,B.amv,B.anK,B.aks,B.ak9,B.anO,B.anz,B.anl,B.amB,B.anj,B.al4,B.aog,B.anF,B.alQ,B.alF,B.ao9,B.aoV,B.ao_,B.aoO,B.anE,B.ao3,B.aml,B.aoj,B.anN,B.aoq,B.and,B.alT,B.alE,B.aoo,B.aok,B.aoK,B.akE,B.alB,B.alo,B.aoY,B.an0,B.alR,B.alH,B.amL,B.aoh,B.anc,B.alz,B.an5,B.aoe,B.al0,B.akW,B.aoQ,B.anC,B.anI,B.any,B.alP,B.aon,B.alL,B.ali,B.an1,B.an3,B.ao7,B.aoM,B.anm,B.aor,B.alq,B.aku,B.aoS,B.al9,B.all,B.alI,B.akZ,B.anb,B.al5,B.alj,B.akq,B.amh,B.al2,B.akv,B.amA,B.als,B.ako,B.akU,B.akS,B.akd,B.amd,B.akC,B.akf,B.aou,B.akw,B.amE,B.aoi,B.am1,B.ani,B.aln,B.akR,B.am2,B.ao6,B.aoJ,B.aoH,B.ap8,B.amZ,B.amK,B.alY,B.akt,B.amV,B.anP,B.ama,B.anY,B.amU,B.anR,B.ana],t.Zo)
+B.ZG=s([1,2,3,4,0],t.t)
+B.abW=new A.TL(0,"left")
+B.abX=new A.TL(1,"right")
+B.ZH=s([B.abW,B.abX],A.ae("A<TL>"))
 B.aY=new A.U1(0,"upstream")
-B.ZL=s([B.aY,B.t],A.ae("A<U1>"))
+B.ZM=s([B.aY,B.t],A.ae("A<U1>"))
 B.bv=new A.U5(0,"rtl")
 B.aa=new A.U5(1,"ltr")
 B.pF=s([B.bv,B.aa],A.ae("A<U5>"))
 B.Tw=new A.qE(0,"verified")
 B.Tx=new A.qE(1,"unverified")
-B.ZM=s([B.Tw,B.Tx,B.w8],A.ae("A<qE>"))
-B.a__=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.s)
+B.ZN=s([B.Tw,B.Tx,B.w8],A.ae("A<qE>"))
+B.a_0=s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],t.s)
 B.OX=new A.A7(0,"auto")
 B.OY=new A.A7(1,"full")
 B.OZ=new A.A7(2,"chromium")
-B.a_7=s([B.OX,B.OY,B.OZ,B.ef],A.ae("A<A7>"))
+B.a_8=s([B.OX,B.OY,B.OZ,B.ef],A.ae("A<A7>"))
 B.ID=new A.Ik(0,"insert")
 B.IE=new A.Ik(1,"update")
 B.IF=new A.Ik(2,"delete")
-B.a_e=s([B.ID,B.IE,B.IF],A.ae("A<Ik>"))
-B.a_h=s([48,49,50,51,52,53,54,55,56,57,65,66,67,68,69,70],t.t)
+B.a_f=s([B.ID,B.IE,B.IF],A.ae("A<Ik>"))
+B.a_i=s([48,49,50,51,52,53,54,55,56,57,65,66,67,68,69,70],t.t)
 B.Cw=new A.GI(0,"off")
 B.Cx=new A.GI(1,"one")
 B.Cy=new A.GI(2,"all")
 B.xo=s([B.Cw,B.Cx,B.Cy],A.ae("A<GI>"))
 B.di=new A.kl(1,"fuchsia")
-B.a_l=s([B.an,B.di,B.a4,B.bu,B.aX,B.bl],A.ae("A<kl>"))
-B.a_A=s([35,30,20,25,30,35,30,25,25],t.n)
+B.a_m=s([B.an,B.di,B.a4,B.bu,B.aX,B.bl],A.ae("A<kl>"))
+B.a_B=s([35,30,20,25,30,35,30,25,25],t.n)
 B.r7=new A.iq(0,"ping")
 B.IS=new A.iq(1,"startSynchronization")
 B.IV=new A.iq(2,"updateSubscriptions")
@@ -162684,67 +162693,67 @@ B.r9=new A.iq(8,"notifySyncStatus")
 B.J_=new A.iq(9,"logEvent")
 B.IT=new A.iq(10,"okResponse")
 B.IU=new A.iq(11,"errorResponse")
-B.a_G=s([B.r7,B.IS,B.IV,B.r8,B.IW,B.IX,B.IY,B.IZ,B.r9,B.J_,B.IT,B.IU],A.ae("A<iq>"))
-B.a_P=s(["click","scroll"],t.s)
+B.a_H=s([B.r7,B.IS,B.IV,B.r8,B.IW,B.IX,B.IY,B.IZ,B.r9,B.J_,B.IT,B.IU],A.ae("A<iq>"))
+B.a_Q=s(["click","scroll"],t.s)
 B.Ns=new A.F_()
 B.mq=new A.aaU(1,"page")
 B.mr=new A.je(B.c4,B.mq)
-B.a_S=s([B.Ns,B.mr],A.ae("A<c6>"))
-B.a0c=s([],A.ae("A<c_u>"))
-B.a0u=s([],t.QP)
+B.a_T=s([B.Ns,B.mr],A.ae("A<c6>"))
+B.a0d=s([],A.ae("A<c_u>"))
+B.a0v=s([],t.QP)
 B.xt=s([],t.sq)
 B.xu=s([],A.ae("A<ckr>"))
-B.a0d=s([],A.ae("A<c0P>"))
-B.a0h=s([],A.ae("A<ckL>"))
-B.a0o=s([],t._)
+B.a0e=s([],A.ae("A<c0P>"))
+B.a0i=s([],A.ae("A<ckL>"))
+B.a0p=s([],t._)
 B.bE=s([],t.sj)
 B.bT=s([],t.Lh)
 B.xr=s([],A.ae("A<bFq>"))
-B.a0B=s([],t.fJ)
+B.a0C=s([],t.fJ)
 B.xs=s([],t.Wb)
 B.hf=s([],t.dF)
-B.a0n=s([],t.ER)
-B.arP=s([],t.ss)
-B.a0q=s([],t.tc)
+B.a0o=s([],t.ER)
+B.arR=s([],t.ss)
+B.a0r=s([],t.tc)
 B.lF=s([],t.jl)
-B.a0j=s([],A.ae("A<nR>"))
-B.a0r=s([],t.wi)
-B.arQ=s([],t.AT)
-B.a0p=s([],A.ae("A<ij<@>>"))
+B.a0k=s([],A.ae("A<nR>"))
+B.a0s=s([],t.wi)
+B.arS=s([],t.AT)
+B.a0q=s([],A.ae("A<ij<@>>"))
 B.dY=s([],A.ae("A<fp>"))
-B.a0g=s([],A.ae("A<cmN>"))
+B.a0h=s([],A.ae("A<cmN>"))
 B.xq=s([],t.zK)
 B.c_=s([],t.An)
 B.pH=s([],t.AO)
-B.a0w=s([],t._t)
-B.a07=s([],t.F8)
+B.a0x=s([],t._t)
+B.a08=s([],t.F8)
 B.bD=s([],t.yo)
 B.lE=s([],t.i3)
 B.pG=s([],t.K1)
-B.a0k=s([],t.ki)
-B.a0t=s([],t.D1)
+B.a0l=s([],t.ki)
+B.a0u=s([],t.D1)
 B.pK=s([],t.QF)
-B.a0a=s([],t.g)
-B.a08=s([],A.ae("A<aY<mq<v>>>"))
-B.a09=s([],t.d6)
-B.a0z=s([],t.Lx)
-B.a05=s([],t.fm)
+B.a0b=s([],t.g)
+B.a09=s([],A.ae("A<aY<mq<v>>>"))
+B.a0a=s([],t.d6)
+B.a0A=s([],t.Lx)
+B.a06=s([],t.fm)
 B.pI=s([],t.p)
-B.a0x=s([],t.Ql)
-B.a0e=s([],A.ae("A<le>"))
+B.a0y=s([],t.Ql)
+B.a0f=s([],A.ae("A<le>"))
 B.pJ=s([],t.n)
 B.xp=s([],t.t)
-B.a0i=s([],A.ae("A<0&>"))
+B.a0j=s([],A.ae("A<0&>"))
 B.d8=s([],t.ee)
 B.c0=s([],t.ef)
-B.a0A=s([],t._m)
-B.a0m=s([],t.CG)
-B.a06=s([],t.vD)
-B.a0l=s([],t.oV)
-B.a0b=s([],t.HN)
-B.a0f=s([],t.rr)
+B.a0B=s([],t._m)
+B.a0n=s([],t.CG)
+B.a07=s([],t.vD)
+B.a0m=s([],t.oV)
+B.a0c=s([],t.HN)
+B.a0g=s([],t.rr)
 B.lG=s([],t.ps)
-B.a0E=s([B.wd,B.pk,B.pl,B.wb,B.wc],A.ae("A<wE>"))
+B.a0F=s([B.wd,B.pk,B.pl,B.wb,B.wc],A.ae("A<wE>"))
 B.aI=new A.NG("TEXT",0,"text")
 B.fP=new A.cS("user_id",B.aI)
 B.uU=new A.cS("name",B.aI)
@@ -162758,7 +162767,7 @@ B.fQ=new A.cS("created_at",B.c5)
 B.fR=new A.cS("updated_at",B.c5)
 B.fS=new A.cS("deleted_at",B.c5)
 B.YN=s([B.fP,B.uU,B.R_,B.QG,B.QS,B.QZ,B.Qy,B.fQ,B.fR,B.fS],t.gk)
-B.acc=new A.v2("projects",B.YN)
+B.acd=new A.v2("projects",B.YN)
 B.QV=new A.cS("project_id",B.aI)
 B.Qw=new A.cS("title",B.aI)
 B.Qz=new A.cS("audio_path",B.aI)
@@ -162782,7 +162791,7 @@ B.QM=new A.cS("claude_done_at",B.c5)
 B.uS=new A.NG("REAL",2,"real")
 B.QR=new A.cS("home_position",B.uS)
 B.ZD=s([B.fP,B.QV,B.Qw,B.Qz,B.R0,B.QI,B.QW,B.fQ,B.QQ,B.Qt,B.R1,B.QK,B.QT,B.uT,B.QN,B.QF,B.QY,B.QE,B.QL,B.QH,B.QO,B.QM,B.QR,B.fR,B.fS],t.gk)
-B.ac8=new A.v2("recordings",B.ZD)
+B.ac9=new A.v2("recordings",B.ZD)
 B.QD=new A.cS("sort_mode",B.aI)
 B.uV=new A.cS("position",B.uS)
 B.QC=new A.cS("auto_listen",B.c5)
@@ -162792,20 +162801,20 @@ B.QA=new A.cS("project_status",B.aI)
 B.QX=new A.cS("next_action",B.aI)
 B.Qx=new A.cS("next_action_owner",B.aI)
 B.QU=new A.cS("last_progress_at",B.c5)
-B.a2c=s([B.fP,B.uU,B.QD,B.uV,B.QC,B.QB,B.QP,B.QA,B.QX,B.Qx,B.QU,B.fQ,B.fR,B.fS],t.gk)
-B.ac9=new A.v2("folders",B.a2c)
+B.a2d=s([B.fP,B.uU,B.QD,B.uV,B.QC,B.QB,B.QP,B.QA,B.QX,B.Qx,B.QU,B.fQ,B.fR,B.fS],t.gk)
+B.aca=new A.v2("folders",B.a2d)
 B.R3=new A.cS("folder_id",B.aI)
 B.QJ=new A.cS("member_id",B.aI)
 B.Qv=new A.cS("member_is_folder",B.c5)
-B.a2w=s([B.fP,B.R3,B.QJ,B.Qv,B.uV,B.fQ,B.fR,B.fS],t.gk)
-B.acb=new A.v2("folder_memberships",B.a2w)
+B.a2x=s([B.fP,B.R3,B.QJ,B.Qv,B.uV,B.fQ,B.fR,B.fS],t.gk)
+B.acc=new A.v2("folder_memberships",B.a2x)
 B.Qu=new A.cS("from_id",B.aI)
 B.R4=new A.cS("to_id",B.aI)
-B.a30=s([B.fP,B.Qu,B.R4,B.uT,B.fQ,B.fR,B.fS],t.gk)
-B.acd=new A.v2("item_links",B.a30)
-B.a2P=s([B.fP,B.fQ,B.fR,B.fS],t.gk)
-B.aca=new A.v2("inbox_dismissals",B.a2P)
-B.lH=s([B.acc,B.ac8,B.ac9,B.acb,B.acd,B.aca],t.la)
+B.a31=s([B.fP,B.Qu,B.R4,B.uT,B.fQ,B.fR,B.fS],t.gk)
+B.ace=new A.v2("item_links",B.a31)
+B.a2Q=s([B.fP,B.fQ,B.fR,B.fS],t.gk)
+B.acb=new A.v2("inbox_dismissals",B.a2Q)
+B.lH=s([B.acd,B.ac9,B.aca,B.acc,B.ace,B.acb],t.la)
 B.TF=new A.G5("/database",0,"database")
 B.TG=new A.G5("/database-journal",1,"journal")
 B.xv=s([B.TF,B.TG],A.ae("A<G5>"))
@@ -162816,28 +162825,28 @@ B.M5=new A.w1(1,"speech")
 B.M6=new A.w1(2,"music")
 B.M7=new A.w1(3,"movie")
 B.M8=new A.w1(4,"sonification")
-B.a0Z=s([B.te,B.M5,B.M6,B.M7,B.M8],A.ae("A<w1>"))
-B.a15=s(["https://graph.microsoft.com/Notes.ReadWrite","https://graph.microsoft.com/User.Read","https://graph.microsoft.com/Files.Read","offline_access"],t.s)
-B.a6r=new A.u(0,2)
-B.Ne=new A.e1(0.75,B.br,B.uo,B.a6r,1.5)
-B.a1b=s([B.Ne],t.sq)
-B.ajS=new A.lc("new note","Ends the note you\u2019re in and starts a fresh one at the top. From Commands only, resumes dictation.","\u201cnext note\u201d, \u201cnew/next dictation\u201d, \u201cresume dictation\u201d, \u201cresume dictating\u201d",B.rN)
-B.ajY=new A.lc("end note","Ends the note and turns dictation fully Off \u2014 same as tapping Off. Say \u201ccommands only\u201d instead to pause without turning off.","\u201cstop note\u201d, \u201cend/stop dictation\u201d, \u201cstop dictating\u201d",B.rO)
-B.ajW=new A.lc("new paragraph","Inserts a paragraph break (a blank line).","\u201cnext paragraph\u201d, \u201cpress enter\u201d",B.rP)
-B.ajX=new A.lc("new line","Inserts a line break (no blank line).","\u201cnext line\u201d, \u201cpress shift enter\u201d",B.rM)
-B.ak0=new A.lc("new task","Everything until \u201cend task\u201d becomes a task on your tasks page.","\u201cnext task\u201d, \u201ccreate task\u201d, \u201ccreate a task\u201d",B.rQ)
-B.ajZ=new A.lc("new meeting","Everything until \u201cend meeting\u201d is captured as a meeting.","\u201cnext meeting\u201d",B.rR)
-B.ak_=new A.lc("commands only","Pauses dictation and listens for commands \u2014 your note stays open right where it is (say \u201cresume dictation\u201d to continue it).","\u201ccommand mode\u201d",B.mZ)
-B.ajT=new A.lc("send to Claude","Sends the current note to your Claude session.","\u201csend this/that/it to Claude\u201d, \u201csend the message to Claude\u201d",B.rS)
-B.ajV=new A.lc("new Claude message","Anytime, even mid-note: closes what you\u2019re in and opens a fresh box addressed to Claude \u2014 it sends when the box closes.","\u201cnew Claude note\u201d, \u201cnew Claude command\u201d; or declare it first with \u201cmessage for/to Claude\u201d",B.n0)
-B.ak2=new A.lc("play the listening folder","Plays your listening list out loud. Works in Commands only.","\u201cplay the listening list\u201d, \u201cplay my list\u201d, \u201cstart listening\u201d",B.n_)
-B.ajU=new A.lc("new note in cash flow","Says where the note goes: \u201cnew note in <folder>\u201d starts a fresh note and files it to that folder when it closes \u2014 the folder is created if it doesn\u2019t exist yet.","\u201cnew note into <folder>\u201d, \u201cnew dictation in <folder>\u201d",null)
-B.ak1=new A.lc("read the cash flow folder","In Commands only: \u201cread/play <folder name>\u201d reads that folder out loud, top to bottom.","\u201cpause/resume reading\u201d, \u201cskip\u201d, \u201cprevious item\u201d control playback",null)
-B.a1c=s([B.ajS,B.ajY,B.ajW,B.ajX,B.ak0,B.ajZ,B.ak_,B.ajT,B.ajV,B.ak2,B.ajU,B.ak1],A.ae("A<lc>"))
-B.a1e=s(["1. Open OneNote and create / pick the page.","2. Share \u2192 'People with existing access' or 'Anyone with the link \u2192 Can edit' \u2192 Copy.","3. Paste the link above.","Note: works only if the share is owned by your signed-in Microsoft account."],t.s)
-B.a1k=s([72,84,84,80,47,49,46],t.t)
-B.a1u=s([B.fi,B.jE,B.mL],A.ae("A<y4>"))
-B.a1v=s([47,47,47,47,72,97,122,147],t.t)
+B.a1_=s([B.te,B.M5,B.M6,B.M7,B.M8],A.ae("A<w1>"))
+B.a16=s(["https://graph.microsoft.com/Notes.ReadWrite","https://graph.microsoft.com/User.Read","https://graph.microsoft.com/Files.Read","offline_access"],t.s)
+B.a6s=new A.u(0,2)
+B.Ne=new A.e1(0.75,B.br,B.uo,B.a6s,1.5)
+B.a1c=s([B.Ne],t.sq)
+B.ajT=new A.lc("new note","Ends the note you\u2019re in and starts a fresh one at the top. From Commands only, resumes dictation.","\u201cnext note\u201d, \u201cnew/next dictation\u201d, \u201cresume dictation\u201d, \u201cresume dictating\u201d",B.rN)
+B.ajZ=new A.lc("end note","Ends the note and turns dictation fully Off \u2014 same as tapping Off. Say \u201ccommands only\u201d instead to pause without turning off.","\u201cstop note\u201d, \u201cend/stop dictation\u201d, \u201cstop dictating\u201d",B.rO)
+B.ajX=new A.lc("new paragraph","Inserts a paragraph break (a blank line).","\u201cnext paragraph\u201d, \u201cpress enter\u201d",B.rP)
+B.ajY=new A.lc("new line","Inserts a line break (no blank line).","\u201cnext line\u201d, \u201cpress shift enter\u201d",B.rM)
+B.ak1=new A.lc("new task","Everything until \u201cend task\u201d becomes a task on your tasks page.","\u201cnext task\u201d, \u201ccreate task\u201d, \u201ccreate a task\u201d",B.rQ)
+B.ak_=new A.lc("new meeting","Everything until \u201cend meeting\u201d is captured as a meeting.","\u201cnext meeting\u201d",B.rR)
+B.ak0=new A.lc("commands only","Pauses dictation and listens for commands \u2014 your note stays open right where it is (say \u201cresume dictation\u201d to continue it).","\u201ccommand mode\u201d",B.mZ)
+B.ajU=new A.lc("send to Claude","Sends the current note to your Claude session.","\u201csend this/that/it to Claude\u201d, \u201csend the message to Claude\u201d",B.rS)
+B.ajW=new A.lc("new Claude message","Anytime, even mid-note: closes what you\u2019re in and opens a fresh box addressed to Claude \u2014 it sends when the box closes.","\u201cnew Claude note\u201d, \u201cnew Claude command\u201d; or declare it first with \u201cmessage for/to Claude\u201d",B.n0)
+B.ak3=new A.lc("play the listening folder","Plays your listening list out loud. Works in Commands only.","\u201cplay the listening list\u201d, \u201cplay my list\u201d, \u201cstart listening\u201d",B.n_)
+B.ajV=new A.lc("new note in cash flow","Says where the note goes: \u201cnew note in <folder>\u201d starts a fresh note and files it to that folder when it closes \u2014 the folder is created if it doesn\u2019t exist yet.","\u201cnew note into <folder>\u201d, \u201cnew dictation in <folder>\u201d",null)
+B.ak2=new A.lc("read the cash flow folder","In Commands only: \u201cread/play <folder name>\u201d reads that folder out loud, top to bottom.","\u201cpause/resume reading\u201d, \u201cskip\u201d, \u201cprevious item\u201d control playback",null)
+B.a1d=s([B.ajT,B.ajZ,B.ajX,B.ajY,B.ak1,B.ak_,B.ak0,B.ajU,B.ajW,B.ak3,B.ajV,B.ak2],A.ae("A<lc>"))
+B.a1f=s(["1. Open OneNote and create / pick the page.","2. Share \u2192 'People with existing access' or 'Anyone with the link \u2192 Can edit' \u2192 Copy.","3. Paste the link above.","Note: works only if the share is owned by your signed-in Microsoft account."],t.s)
+B.a1l=s([72,84,84,80,47,49,46],t.t)
+B.a1v=s([B.fi,B.jE,B.mL],A.ae("A<y4>"))
+B.a1w=s([47,47,47,47,72,97,122,147],t.t)
 B.RC=new A.ws(1,"getAutoCommit")
 B.RD=new A.ws(2,"executeBatchInTransaction")
 B.xy=s([B.v4,B.RC,B.RD,B.on,B.oo],A.ae("A<ws>"))
@@ -162854,7 +162863,7 @@ B.KY=new A.hY(A.oA(),A.vW(),9,"xTruncate",t.PR)
 B.KS=new A.hY(A.oA(),A.vW(),10,"xLock",t.PR)
 B.KT=new A.hY(A.oA(),A.vW(),11,"xUnlock",t.PR)
 B.KR=new A.hY(A.vW(),A.vW(),12,"stopServer",A.ae("hY<nE,nE>"))
-B.a1F=s([B.KP,B.KQ,B.L0,B.KZ,B.KU,B.KV,B.KW,B.L_,B.KX,B.KY,B.KS,B.KT,B.KR],A.ae("A<hY<ud,ud>>"))
+B.a1G=s([B.KP,B.KQ,B.L0,B.KZ,B.KU,B.KV,B.KW,B.L_,B.KX,B.KY,B.KS,B.KT,B.KR],A.ae("A<hY<ud,ud>>"))
 B.xz=s([72,84,84,80,47,49,46,49],t.t)
 B.iL=s([B.ey,B.cp,B.k7,B.k8,B.nv],t.QP)
 B.fe=new A.xw(0,"idle")
@@ -162862,53 +162871,53 @@ B.Hd=new A.xw(1,"loading")
 B.m8=new A.xw(2,"buffering")
 B.qo=new A.xw(3,"ready")
 B.He=new A.xw(4,"completed")
-B.a1K=s([B.fe,B.Hd,B.m8,B.qo,B.He],A.ae("A<xw>"))
-B.a1N=s([13,10,48,13,10,13,10],t.t)
+B.a1L=s([B.fe,B.Hd,B.m8,B.qo,B.He],A.ae("A<xw>"))
+B.a1O=s([13,10,48,13,10,13,10],t.t)
 B.L5=new A.lY(0,"Unknown")
-B.app=new A.lY(1,"Basic")
-B.apq=new A.lY(2,"Bearer")
-B.apr=new A.lY(3,"Digest")
-B.a1P=s([B.L5,B.app,B.apq,B.apr],A.ae("A<lY>"))
+B.apr=new A.lY(1,"Basic")
+B.aps=new A.lY(2,"Bearer")
+B.apt=new A.lY(3,"Digest")
+B.a1Q=s([B.L5,B.apr,B.aps,B.apt],A.ae("A<lY>"))
 B.pY=new A.ua(0,"off")
 B.Cz=new A.ua(1,"one")
-B.a4S=new A.ua(2,"all")
-B.a1Q=s([B.pY,B.Cz,B.a4S],A.ae("A<ua>"))
+B.a4T=new A.ua(2,"all")
+B.a1R=s([B.pY,B.Cz,B.a4T],A.ae("A<ua>"))
 B.OR=new A.aj4()
-B.a1X=s([B.OR,B.u2,B.u5],t.aQ)
+B.a1Y=s([B.OR,B.u2,B.u5],t.aQ)
 B.Nj=new A.e1(0,B.br,B.eI,B.m,12)
-B.a1Y=s([B.Nj],t.sq)
-B.a23=s([B.cf,B.E,B.vd,B.eh,B.Y,B.ve,B.ei,B.vf],A.ae("A<hk<v>>"))
+B.a1Z=s([B.Nj],t.sq)
+B.a24=s([B.cf,B.E,B.vd,B.eh,B.Y,B.ve,B.ei,B.vf],A.ae("A<hk<v>>"))
 B.lJ=new A.kQ("custom",0,"custom")
 B.xE=new A.kQ("none",1,"none")
 B.xA=s([B.lJ,B.xE],A.ae("A<kQ>"))
 B.X5=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
-B.a_U=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
-B.XG=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
-B.a29=s([B.X5,B.a_U,B.XG],t.zg)
-B.a2d=s([45,95,45,20,45,90,45,45,45],t.n)
-B.a2g=s([120,120,20,45,20,15,20,120,120],t.n)
-B.a2j=s([B.np,B.nq,B.k5],A.ae("A<EZ>"))
+B.a_V=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
+B.XF=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
+B.a2a=s([B.X5,B.a_V,B.XF],t.zg)
+B.a2e=s([45,95,45,20,45,90,45,45,45],t.n)
+B.a2h=s([120,120,20,45,20,15,20,120,120],t.n)
+B.a2k=s([B.np,B.nq,B.k5],A.ae("A<EZ>"))
 B.Ub=new A.bh(63178,"CupertinoIcons","cupertino_icons",!1)
-B.a5S=new A.nQ("Inbox","/",B.wF,B.Ub)
+B.a5T=new A.nQ("Inbox","/",B.wF,B.Ub)
 B.Uc=new A.bh(63296,"CupertinoIcons","cupertino_icons",!1)
 B.U8=new A.bh(63297,"CupertinoIcons","cupertino_icons",!1)
-B.a5U=new A.nQ("Meetings","/meetings",B.Uc,B.U8)
+B.a5V=new A.nQ("Meetings","/meetings",B.Uc,B.U8)
 B.Un=new A.bh(63571,"CupertinoIcons","cupertino_icons",!1)
 B.UB=new A.bh(63572,"CupertinoIcons","cupertino_icons",!1)
-B.a5R=new A.nQ("Notes","/dictation",B.Un,B.UB)
-B.a5V=new A.nQ("Search","/search",B.ps,B.ps)
-B.a5Q=new A.nQ("Listening","/listening",B.ep,B.ep)
-B.a5T=new A.nQ("Ask Claude","/claude",B.ha,B.ha)
+B.a5S=new A.nQ("Notes","/dictation",B.Un,B.UB)
+B.a5W=new A.nQ("Search","/search",B.ps,B.ps)
+B.a5R=new A.nQ("Listening","/listening",B.ep,B.ep)
+B.a5U=new A.nQ("Ask Claude","/claude",B.ha,B.ha)
 B.UD=new A.bh(62525,"CupertinoIcons","cupertino_icons",!1)
-B.a5W=new A.nQ("Settings","/settings",B.wx,B.UD)
-B.hg=s([B.a5S,B.a5U,B.a5R,B.a5V,B.a5Q,B.a5T,B.a5W],A.ae("A<nQ>"))
+B.a5X=new A.nQ("Settings","/settings",B.wx,B.UD)
+B.hg=s([B.a5T,B.a5V,B.a5S,B.a5W,B.a5R,B.a5U,B.a5X],A.ae("A<nQ>"))
 B.aV=new A.lL(0,"touch")
 B.c3=new A.lL(1,"mouse")
 B.bN=new A.lL(2,"stylus")
 B.cS=new A.lL(3,"invertedStylus")
 B.bV=new A.lL(4,"trackpad")
 B.cl=new A.lL(5,"unknown")
-B.a2m=s([B.aV,B.c3,B.bN,B.cS,B.bV,B.cl],A.ae("A<lL>"))
+B.a2n=s([B.aV,B.c3,B.bN,B.cS,B.bV,B.cl],A.ae("A<lL>"))
 B.hi=new A.mB(0,"controlModifier")
 B.hj=new A.mB(1,"shiftModifier")
 B.hk=new A.mB(2,"altModifier")
@@ -162919,14 +162928,14 @@ B.qa=new A.mB(6,"scrollLockModifier")
 B.qb=new A.mB(7,"functionModifier")
 B.Dd=new A.mB(8,"symbolModifier")
 B.xB=s([B.hi,B.hj,B.hk,B.hl,B.q8,B.q9,B.qa,B.qb,B.Dd],A.ae("A<mB>"))
-B.a2u=s(["1st quarter","2nd quarter","3rd quarter","4th quarter"],t.s)
-B.a2v=s(["text","item","description"],t.s)
+B.a2v=s(["1st quarter","2nd quarter","3rd quarter","4th quarter"],t.s)
+B.a2w=s(["text","item","description"],t.s)
 B.pL=s([!0,!1],t.HZ)
 B.PD=new A.T(0.14901960784313725,0,0,0,B.l)
 B.Nh=new A.e1(0,B.br,B.PD,B.m0,8)
 B.Qq=new A.T(0.058823529411764705,0,0,0,B.l)
 B.Nl=new A.e1(0,B.br,B.Qq,B.m0,1)
-B.a2G=s([B.Nh,B.Nl],t.sq)
+B.a2H=s([B.Nh,B.Nl],t.sq)
 B.lW=new A.cX(A.bUF(),0,"dedicatedCompatibilityCheck",t.s2)
 B.j1=new A.cX(A.cif(),1,"sharedCompatibilityCheck",t.s2)
 B.q2=new A.cX(A.bUF(),2,"dedicatedInSharedCompatibilityCheck",t.s2)
@@ -162953,46 +162962,46 @@ B.CU=new A.cX(A.cip(),22,"notifyUpdate",A.ae("cX<vb>"))
 B.lU=new A.cX(A.cid(),23,"notifyRollback",t.B8)
 B.lX=new A.cX(A.cic(),24,"notifyCommit",t.B8)
 B.CW=new A.cX(A.ci2(),25,"abort",A.ae("cX<rY>"))
-B.a2H=s([B.lW,B.j1,B.q2,B.CX,B.CY,B.CZ,B.D3,B.CR,B.D4,B.D_,B.D1,B.j2,B.lT,B.lV,B.ct,B.q4,B.D2,B.q3,B.CV,B.CT,B.CS,B.D0,B.CU,B.lU,B.lX,B.CW],A.ae("A<cX<er>>"))
+B.a2I=s([B.lW,B.j1,B.q2,B.CX,B.CY,B.CZ,B.D3,B.CR,B.D4,B.D_,B.D1,B.j2,B.lT,B.lV,B.ct,B.q4,B.D2,B.q3,B.CV,B.CT,B.CS,B.D0,B.CU,B.lU,B.lX,B.CW],A.ae("A<cX<er>>"))
 B.Ty=new A.oX(0,"totp")
 B.Tz=new A.oX(1,"phone")
 B.TA=new A.oX(2,"webauthn")
-B.a2S=s([B.Ty,B.Tz,B.TA,B.w9],A.ae("A<oX>"))
-B.a2X=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
-B.a31=s([122,25,196,82,232,59,159,6,209,110,163,76,245,40,128,187,19,103,206,149,42,223,65,120,182,13,226,89,140,55,240,169],t.t)
-B.a35=s(["Before Christ","Anno Domini"],t.s)
+B.a2T=s([B.Ty,B.Tz,B.TA,B.w9],A.ae("A<oX>"))
+B.a2Y=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
+B.a32=s([122,25,196,82,232,59,159,6,209,110,163,76,245,40,128,187,19,103,206,149,42,223,65,120,182,13,226,89,140,55,240,169],t.t)
+B.a36=s(["Before Christ","Anno Domini"],t.s)
 B.po=new A.lB(100)
 B.TP=new A.lB(200)
 B.TQ=new A.lB(300)
 B.TR=new A.lB(800)
 B.TS=new A.lB(900)
-B.a3a=s([B.po,B.TP,B.TQ,B.n,B.at,B.H,B.aS,B.TR,B.TS],A.ae("A<lB>"))
-B.a3d=s(["https://www.googleapis.com/auth/documents","https://www.googleapis.com/auth/userinfo.email","openid"],t.s)
-B.a3j=s([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623444424209313,0.13658714259697685,0.16693984095186062,0.19729253930674434,0.2276452376616281,0.2579979360165119,0.28835063437139563,0.3188300904430532,0.350925934958123,0.3848314933096426,0.42057480301049466,0.458183274052838,0.4976837250274023,0.5391024159806381,0.5824650784040898,0.6277969426914107,0.6751227633498623,0.7244668422128921,0.775853049866786,0.829304845476233,0.8848452951698498,0.942497089126609,1.0022825574869039,1.0642236851973577,1.1283421258858297,1.1946592148522128,1.2631959812511864,1.3339731595349034,1.407011200216447,1.4823302800086415,1.5599503113873272,1.6398909516233677,1.7221716113234105,1.8068114625156377,1.8938294463134073,1.9832442801866852,2.075074464868551,2.1693382909216234,2.2660538449872063,2.36523901573795,2.4669114995532007,2.5710888059345764,2.6777882626779785,2.7870270208169257,2.898822059350997,3.0131901897720907,3.1301480604002863,3.2497121605402226,3.3718988244681087,3.4967242352587946,3.624204428461639,3.754355295633311,3.887192587735158,4.022731918402185,4.160988767090289,4.301978482107941,4.445716283538092,4.592217266055746,4.741496401646282,4.893568542229298,5.048448422192488,5.20615066083972,5.3666897647573375,5.5300801301023865,5.696336044816294,5.865471690767354,6.037501145825082,6.212438385869475,6.390297286737924,6.571091626112461,6.7548350853498045,6.941541251256611,7.131223617812143,7.323895587840543,7.5195704746346665,7.7182615035334345,7.919981813454504,8.124744458384042,8.332562408825165,8.543448553206703,8.757415699253682,8.974476575321063,9.194643831691977,9.417930041841839,9.644347703669503,9.873909240696694,10.106627003236781,10.342513269534024,10.58158024687427,10.8238400726681,11.069304815507364,11.317986476196008,11.569896988756009,11.825048221409341,12.083451977536606,12.345119996613247,12.610063955123938,12.878295467455942,13.149826086772048,13.42466730586372,13.702830557985108,13.984327217668513,14.269168601521828,14.55736596900856,14.848930523210871,15.143873411576273,15.44220572664832,15.743938506781891,16.04908273684337,16.35764934889634,16.66964922287304,16.985093187232053,17.30399201960269,17.62635644741625,17.95219714852476,18.281524751807332,18.614349837764564,18.95068293910138,19.290534541298456,19.633915083172692,19.98083495742689,20.331304511189067,20.685334046541502,21.042933821039977,21.404114048223256,21.76888489811322,22.137256497705877,22.50923893145328,22.884842241736916,23.264076429332462,23.6469514538663,24.033477234264016,24.42366364919083,24.817520537484558,25.21505769858089,25.61628489293138,26.021211842414342,26.429848230738664,26.842203703840827,27.258287870275353,27.678110301598522,28.10168053274597,28.529008062403893,28.96010235337422,29.39497283293396,29.83362889318845,30.276079891419332,30.722335150426627,31.172403958865512,31.62629557157785,32.08401920991837,32.54558406207592,33.010999283389665,33.4802739966603,33.953417292456834,34.430438229418264,34.911345834551085,35.39614910352207,35.88485700094671,36.37747846067349,36.87402238606382,37.37449765026789,37.87891309649659,38.38727753828926,38.89959975977785,39.41588851594697,39.93615253289054,40.460400508064545,40.98864111053629,41.520882981230194,42.05713473317016,42.597404951718396,43.141702194811224,43.6900349931913,44.24241185063697,44.798841244188324,45.35933162437017,45.92389141541209,46.49252901546552,47.065252796817916,47.64207110610409,48.22299226451468,48.808024568002054,49.3971762874833,49.9904556690408,50.587870934119984,51.189430279724725,51.79514187861014,52.40501387947288,53.0190544071392,53.637271562750364,54.259673423945976,54.88626804504493,55.517063457223934,56.15206766869424,56.79128866487574,57.43473440856916,58.08241284012621,58.734331877617365,59.39049941699807,60.05092333227251,60.715611475655585,61.38457167773311,62.057811747619894,62.7353394731159,63.417162620860914,64.10328893648692,64.79372614476921,65.48848194977529,66.18756403501224,66.89098006357258,67.59873767827808,68.31084450182222,69.02730813691093,69.74813616640164,70.47333615344107,71.20291564160104,71.93688215501312,72.67524319850172,73.41800625771542,74.16517879925733,74.9167682708136,75.67278210128072,76.43322770089146,77.1981124613393,77.96744375590167,78.74122893956174,79.51947534912904,80.30219030335869,81.08938110306934,81.88105503125999,82.67721935322541,83.4778813166706,84.28304815182372,85.09272707154808,85.90692527145302,86.72564993000343,87.54890820862819,88.3767072518277,89.2090541872801,90.04595612594655,90.88742016217518,91.73345337380438,92.58406282226491,93.43925555268066,94.29903859396902,95.16341895893969,96.03240364439274,96.9059996312159,97.78421388448044,98.6670533535366,99.55452497210776],t.n)
-B.a8X=new A.ay(0.7078,8.3194)
-B.a8K=new A.ay(0.7895,2.4523)
-B.a98=new A.ay(0.8379,1.8528)
-B.a8G=new A.ay(0.8701,1.6891)
-B.a8O=new A.ay(0.8932,1.5806)
-B.a8H=new A.ay(0.9107,1.5043)
-B.a8J=new A.ay(0.9244,1.447)
-B.a8I=new A.ay(0.9355,1.4037)
-B.a8P=new A.ay(0.9448,1.3701)
-B.a8D=new A.ay(0.9526,1.3431)
-B.a8N=new A.ay(0.9594,1.3212)
-B.a8Q=new A.ay(0.9653,1.3032)
-B.a93=new A.ay(0.9705,1.288)
-B.xC=s([B.a8X,B.a8K,B.a98,B.a8G,B.a8O,B.a8H,B.a8J,B.a8I,B.a8P,B.a8D,B.a8N,B.a8Q,B.a93],A.ae("A<+(aa,aa)>"))
-B.abS=new A.o8("phone_online",0,"phoneOnline")
+B.a3b=s([B.po,B.TP,B.TQ,B.n,B.at,B.H,B.aS,B.TR,B.TS],A.ae("A<lB>"))
+B.a3e=s(["https://www.googleapis.com/auth/documents","https://www.googleapis.com/auth/userinfo.email","openid"],t.s)
+B.a3k=s([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623444424209313,0.13658714259697685,0.16693984095186062,0.19729253930674434,0.2276452376616281,0.2579979360165119,0.28835063437139563,0.3188300904430532,0.350925934958123,0.3848314933096426,0.42057480301049466,0.458183274052838,0.4976837250274023,0.5391024159806381,0.5824650784040898,0.6277969426914107,0.6751227633498623,0.7244668422128921,0.775853049866786,0.829304845476233,0.8848452951698498,0.942497089126609,1.0022825574869039,1.0642236851973577,1.1283421258858297,1.1946592148522128,1.2631959812511864,1.3339731595349034,1.407011200216447,1.4823302800086415,1.5599503113873272,1.6398909516233677,1.7221716113234105,1.8068114625156377,1.8938294463134073,1.9832442801866852,2.075074464868551,2.1693382909216234,2.2660538449872063,2.36523901573795,2.4669114995532007,2.5710888059345764,2.6777882626779785,2.7870270208169257,2.898822059350997,3.0131901897720907,3.1301480604002863,3.2497121605402226,3.3718988244681087,3.4967242352587946,3.624204428461639,3.754355295633311,3.887192587735158,4.022731918402185,4.160988767090289,4.301978482107941,4.445716283538092,4.592217266055746,4.741496401646282,4.893568542229298,5.048448422192488,5.20615066083972,5.3666897647573375,5.5300801301023865,5.696336044816294,5.865471690767354,6.037501145825082,6.212438385869475,6.390297286737924,6.571091626112461,6.7548350853498045,6.941541251256611,7.131223617812143,7.323895587840543,7.5195704746346665,7.7182615035334345,7.919981813454504,8.124744458384042,8.332562408825165,8.543448553206703,8.757415699253682,8.974476575321063,9.194643831691977,9.417930041841839,9.644347703669503,9.873909240696694,10.106627003236781,10.342513269534024,10.58158024687427,10.8238400726681,11.069304815507364,11.317986476196008,11.569896988756009,11.825048221409341,12.083451977536606,12.345119996613247,12.610063955123938,12.878295467455942,13.149826086772048,13.42466730586372,13.702830557985108,13.984327217668513,14.269168601521828,14.55736596900856,14.848930523210871,15.143873411576273,15.44220572664832,15.743938506781891,16.04908273684337,16.35764934889634,16.66964922287304,16.985093187232053,17.30399201960269,17.62635644741625,17.95219714852476,18.281524751807332,18.614349837764564,18.95068293910138,19.290534541298456,19.633915083172692,19.98083495742689,20.331304511189067,20.685334046541502,21.042933821039977,21.404114048223256,21.76888489811322,22.137256497705877,22.50923893145328,22.884842241736916,23.264076429332462,23.6469514538663,24.033477234264016,24.42366364919083,24.817520537484558,25.21505769858089,25.61628489293138,26.021211842414342,26.429848230738664,26.842203703840827,27.258287870275353,27.678110301598522,28.10168053274597,28.529008062403893,28.96010235337422,29.39497283293396,29.83362889318845,30.276079891419332,30.722335150426627,31.172403958865512,31.62629557157785,32.08401920991837,32.54558406207592,33.010999283389665,33.4802739966603,33.953417292456834,34.430438229418264,34.911345834551085,35.39614910352207,35.88485700094671,36.37747846067349,36.87402238606382,37.37449765026789,37.87891309649659,38.38727753828926,38.89959975977785,39.41588851594697,39.93615253289054,40.460400508064545,40.98864111053629,41.520882981230194,42.05713473317016,42.597404951718396,43.141702194811224,43.6900349931913,44.24241185063697,44.798841244188324,45.35933162437017,45.92389141541209,46.49252901546552,47.065252796817916,47.64207110610409,48.22299226451468,48.808024568002054,49.3971762874833,49.9904556690408,50.587870934119984,51.189430279724725,51.79514187861014,52.40501387947288,53.0190544071392,53.637271562750364,54.259673423945976,54.88626804504493,55.517063457223934,56.15206766869424,56.79128866487574,57.43473440856916,58.08241284012621,58.734331877617365,59.39049941699807,60.05092333227251,60.715611475655585,61.38457167773311,62.057811747619894,62.7353394731159,63.417162620860914,64.10328893648692,64.79372614476921,65.48848194977529,66.18756403501224,66.89098006357258,67.59873767827808,68.31084450182222,69.02730813691093,69.74813616640164,70.47333615344107,71.20291564160104,71.93688215501312,72.67524319850172,73.41800625771542,74.16517879925733,74.9167682708136,75.67278210128072,76.43322770089146,77.1981124613393,77.96744375590167,78.74122893956174,79.51947534912904,80.30219030335869,81.08938110306934,81.88105503125999,82.67721935322541,83.4778813166706,84.28304815182372,85.09272707154808,85.90692527145302,86.72564993000343,87.54890820862819,88.3767072518277,89.2090541872801,90.04595612594655,90.88742016217518,91.73345337380438,92.58406282226491,93.43925555268066,94.29903859396902,95.16341895893969,96.03240364439274,96.9059996312159,97.78421388448044,98.6670533535366,99.55452497210776],t.n)
+B.a8Y=new A.ay(0.7078,8.3194)
+B.a8L=new A.ay(0.7895,2.4523)
+B.a99=new A.ay(0.8379,1.8528)
+B.a8H=new A.ay(0.8701,1.6891)
+B.a8P=new A.ay(0.8932,1.5806)
+B.a8I=new A.ay(0.9107,1.5043)
+B.a8K=new A.ay(0.9244,1.447)
+B.a8J=new A.ay(0.9355,1.4037)
+B.a8Q=new A.ay(0.9448,1.3701)
+B.a8E=new A.ay(0.9526,1.3431)
+B.a8O=new A.ay(0.9594,1.3212)
+B.a8R=new A.ay(0.9653,1.3032)
+B.a94=new A.ay(0.9705,1.288)
+B.xC=s([B.a8Y,B.a8L,B.a99,B.a8H,B.a8P,B.a8I,B.a8K,B.a8J,B.a8Q,B.a8E,B.a8O,B.a8R,B.a94],A.ae("A<+(aa,aa)>"))
+B.abT=new A.o8("phone_online",0,"phoneOnline")
 B.IL=new A.o8("phone_offline",1,"phoneOffline")
 B.jG=new A.o8("whisper",2,"whisper")
 B.jF=new A.o8("realtime",3,"realtime")
 B.e6=new A.o8("deepgram",4,"deepgram")
-B.xD=s([B.abS,B.IL,B.jG,B.jF,B.e6],A.ae("A<o8>"))
-B.a3n=new A.a7A(1,"dictation")
-B.arR=new A.a7A(3,"confirmation")
-B.a3o=new A.Qa(null)
-B.a3p=new A.mx("http://192.168.1.50:11434","llama3.1:8b")
+B.xD=s([B.abT,B.IL,B.jG,B.jF,B.e6],A.ae("A<o8>"))
+B.a3o=new A.a7A(1,"dictation")
+B.arT=new A.a7A(3,"confirmation")
+B.a3p=new A.Qa(null)
+B.a3q=new A.mx("http://192.168.1.50:11434","llama3.1:8b")
 B.J=new A.Qd(0,"ignored")
 B.aT=new A.Qe(0,"info")
 B.C=new A.Qe(1,"warn")
@@ -163016,23 +163025,23 @@ B.pR=new A.y(8589935090)
 B.pS=new A.y(8589935092)
 B.pT=new A.y(8589935094)
 B.lO=new A.y(8589935117)
-B.a4R=new A.aJG("longPress")
+B.a4S=new A.aJG("longPress")
 B.mn=new A.fG(B.aH,B.G)
-B.arT=new A.GK(1,null,B.mn)
+B.arV=new A.GK(1,null,B.mn)
 B.al=new A.Q(0,0,0,0)
-B.a4T=new A.nL(B.m,B.al,B.al,B.al)
+B.a4U=new A.nL(B.m,B.al,B.al,B.al)
 B.CA=new A.x6(1,"end")
 B.bM=new A.x6(2,"center")
 B.CB=new A.x6(3,"spaceBetween")
-B.a4U=new A.x6(4,"spaceAround")
+B.a4V=new A.x6(4,"spaceAround")
 B.pZ=new A.x6(5,"spaceEvenly")
 B.j=new A.a7K(1,"max")
-B.a4V=new A.lG(B.ca,B.ca,A.ae("lG<k,k>"))
+B.a4W=new A.lG(B.ca,B.ca,A.ae("lG<k,k>"))
 B.CD=new A.lG(B.ca,B.ca,A.ae("lG<k,@>"))
 B.CE=new A.lG(B.ca,B.ca,t.Dx)
 B.CC=new A.lG(B.ca,B.ca,A.ae("lG<v?,v?>"))
-B.a6c={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
-B.dd=new A.cm(B.a6c,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.li)
+B.a6d={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
+B.dd=new A.cm(B.a6d,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.li)
 B.dy=new A.y(4294968065)
 B.qS=new A.b3(B.dy,!1,!1,!0,!1,B.J)
 B.d9=new A.y(4294968066)
@@ -163062,19 +163071,19 @@ B.V0=new A.p2(2,"insertOrReplace")
 B.V1=new A.p2(3,"insertOrRollback")
 B.V2=new A.p2(4,"insertOrAbort")
 B.V3=new A.p2(5,"insertOrFail")
-B.a4X=new A.ef([B.lv,"INSERT",B.V_,"REPLACE",B.V0,"INSERT OR REPLACE",B.V1,"INSERT OR ROLLBACK",B.V2,"INSERT OR ABORT",B.V3,"INSERT OR FAIL",B.wP,"INSERT OR IGNORE"],A.ae("ef<p2,k>"))
-B.a3K=new A.y(33)
-B.a3L=new A.y(34)
-B.a3M=new A.y(35)
-B.a3N=new A.y(36)
-B.a3O=new A.y(37)
-B.a3P=new A.y(38)
-B.a3Q=new A.y(39)
-B.a3R=new A.y(40)
-B.a3S=new A.y(41)
+B.a4Y=new A.ef([B.lv,"INSERT",B.V_,"REPLACE",B.V0,"INSERT OR REPLACE",B.V1,"INSERT OR ROLLBACK",B.V2,"INSERT OR ABORT",B.V3,"INSERT OR FAIL",B.wP,"INSERT OR IGNORE"],A.ae("ef<p2,k>"))
+B.a3L=new A.y(33)
+B.a3M=new A.y(34)
+B.a3N=new A.y(35)
+B.a3O=new A.y(36)
+B.a3P=new A.y(37)
+B.a3Q=new A.y(38)
+B.a3R=new A.y(39)
+B.a3S=new A.y(40)
+B.a3T=new A.y(41)
 B.xL=new A.y(42)
 B.Cd=new A.y(43)
-B.a3T=new A.y(44)
+B.a3U=new A.y(44)
 B.Ce=new A.y(45)
 B.Cf=new A.y(46)
 B.Cg=new A.y(47)
@@ -163088,49 +163097,49 @@ B.Cn=new A.y(54)
 B.Co=new A.y(55)
 B.Cp=new A.y(56)
 B.Cq=new A.y(57)
-B.a3U=new A.y(58)
-B.a3V=new A.y(59)
-B.a3W=new A.y(60)
-B.a3X=new A.y(61)
-B.a3Y=new A.y(62)
-B.a3Z=new A.y(63)
-B.a4_=new A.y(64)
-B.a4L=new A.y(91)
-B.a4M=new A.y(92)
-B.a4N=new A.y(93)
-B.a4O=new A.y(94)
-B.a4P=new A.y(95)
-B.a4Q=new A.y(96)
+B.a3V=new A.y(58)
+B.a3W=new A.y(59)
+B.a3X=new A.y(60)
+B.a3Y=new A.y(61)
+B.a3Z=new A.y(62)
+B.a4_=new A.y(63)
+B.a40=new A.y(64)
+B.a4M=new A.y(91)
+B.a4N=new A.y(92)
+B.a4O=new A.y(93)
+B.a4P=new A.y(94)
+B.a4Q=new A.y(95)
+B.a4R=new A.y(96)
 B.pW=new A.y(97)
 B.Cv=new A.y(98)
 B.pX=new A.y(99)
-B.a3r=new A.y(100)
+B.a3s=new A.y(100)
 B.xF=new A.y(101)
 B.xG=new A.y(102)
-B.a3s=new A.y(103)
-B.a3t=new A.y(104)
-B.a3u=new A.y(105)
-B.a3v=new A.y(106)
-B.a3w=new A.y(107)
-B.a3x=new A.y(108)
-B.a3y=new A.y(109)
+B.a3t=new A.y(103)
+B.a3u=new A.y(104)
+B.a3v=new A.y(105)
+B.a3w=new A.y(106)
+B.a3x=new A.y(107)
+B.a3y=new A.y(108)
+B.a3z=new A.y(109)
 B.xH=new A.y(110)
-B.a3z=new A.y(111)
+B.a3A=new A.y(111)
 B.xI=new A.y(112)
-B.a3A=new A.y(113)
-B.a3B=new A.y(114)
-B.a3C=new A.y(115)
+B.a3B=new A.y(113)
+B.a3C=new A.y(114)
+B.a3D=new A.y(115)
 B.xJ=new A.y(116)
-B.a3D=new A.y(117)
+B.a3E=new A.y(117)
 B.pM=new A.y(118)
-B.a3E=new A.y(119)
+B.a3F=new A.y(119)
 B.pN=new A.y(120)
-B.a3F=new A.y(121)
+B.a3G=new A.y(121)
 B.iM=new A.y(122)
-B.a3G=new A.y(123)
-B.a3H=new A.y(124)
-B.a3I=new A.y(125)
-B.a3J=new A.y(126)
+B.a3H=new A.y(123)
+B.a3I=new A.y(124)
+B.a3J=new A.y(125)
+B.a3K=new A.y(126)
 B.xM=new A.y(4294967297)
 B.xN=new A.y(4294967553)
 B.lK=new A.y(4294967555)
@@ -163418,23 +163427,23 @@ B.C9=new A.y(4294971674)
 B.Ca=new A.y(4294971675)
 B.Cb=new A.y(4294971905)
 B.Cc=new A.y(4294971906)
-B.a40=new A.y(8589934592)
-B.a41=new A.y(8589934593)
-B.a42=new A.y(8589934594)
-B.a43=new A.y(8589934595)
-B.a44=new A.y(8589934608)
-B.a45=new A.y(8589934609)
-B.a46=new A.y(8589934610)
-B.a47=new A.y(8589934611)
-B.a48=new A.y(8589934612)
-B.a49=new A.y(8589934624)
-B.a4a=new A.y(8589934625)
-B.a4b=new A.y(8589934626)
-B.a4c=new A.y(8589935144)
-B.a4d=new A.y(8589935145)
+B.a41=new A.y(8589934592)
+B.a42=new A.y(8589934593)
+B.a43=new A.y(8589934594)
+B.a44=new A.y(8589934595)
+B.a45=new A.y(8589934608)
+B.a46=new A.y(8589934609)
+B.a47=new A.y(8589934610)
+B.a48=new A.y(8589934611)
+B.a49=new A.y(8589934612)
+B.a4a=new A.y(8589934624)
+B.a4b=new A.y(8589934625)
+B.a4c=new A.y(8589934626)
+B.a4d=new A.y(8589935144)
+B.a4e=new A.y(8589935145)
 B.Cr=new A.y(8589935146)
 B.Cs=new A.y(8589935147)
-B.a4e=new A.y(8589935148)
+B.a4f=new A.y(8589935148)
 B.Ct=new A.y(8589935149)
 B.f3=new A.y(8589935150)
 B.Cu=new A.y(8589935151)
@@ -163448,39 +163457,39 @@ B.f6=new A.y(8589935158)
 B.iY=new A.y(8589935159)
 B.f7=new A.y(8589935160)
 B.iZ=new A.y(8589935161)
-B.a4f=new A.y(8589935165)
-B.a4g=new A.y(8589935361)
-B.a4h=new A.y(8589935362)
-B.a4i=new A.y(8589935363)
-B.a4j=new A.y(8589935364)
-B.a4k=new A.y(8589935365)
-B.a4l=new A.y(8589935366)
-B.a4m=new A.y(8589935367)
-B.a4n=new A.y(8589935368)
-B.a4o=new A.y(8589935369)
-B.a4p=new A.y(8589935370)
-B.a4q=new A.y(8589935371)
-B.a4r=new A.y(8589935372)
-B.a4s=new A.y(8589935373)
-B.a4t=new A.y(8589935374)
-B.a4u=new A.y(8589935375)
-B.a4v=new A.y(8589935376)
-B.a4w=new A.y(8589935377)
-B.a4x=new A.y(8589935378)
-B.a4y=new A.y(8589935379)
-B.a4z=new A.y(8589935380)
-B.a4A=new A.y(8589935381)
-B.a4B=new A.y(8589935382)
-B.a4C=new A.y(8589935383)
-B.a4D=new A.y(8589935384)
-B.a4E=new A.y(8589935385)
-B.a4F=new A.y(8589935386)
-B.a4G=new A.y(8589935387)
-B.a4H=new A.y(8589935388)
-B.a4I=new A.y(8589935389)
-B.a4J=new A.y(8589935390)
-B.a4K=new A.y(8589935391)
-B.a4Y=new A.ef([32,B.xK,33,B.a3K,34,B.a3L,35,B.a3M,36,B.a3N,37,B.a3O,38,B.a3P,39,B.a3Q,40,B.a3R,41,B.a3S,42,B.xL,43,B.Cd,44,B.a3T,45,B.Ce,46,B.Cf,47,B.Cg,48,B.Ch,49,B.Ci,50,B.Cj,51,B.Ck,52,B.Cl,53,B.Cm,54,B.Cn,55,B.Co,56,B.Cp,57,B.Cq,58,B.a3U,59,B.a3V,60,B.a3W,61,B.a3X,62,B.a3Y,63,B.a3Z,64,B.a4_,91,B.a4L,92,B.a4M,93,B.a4N,94,B.a4O,95,B.a4P,96,B.a4Q,97,B.pW,98,B.Cv,99,B.pX,100,B.a3r,101,B.xF,102,B.xG,103,B.a3s,104,B.a3t,105,B.a3u,106,B.a3v,107,B.a3w,108,B.a3x,109,B.a3y,110,B.xH,111,B.a3z,112,B.xI,113,B.a3A,114,B.a3B,115,B.a3C,116,B.xJ,117,B.a3D,118,B.pM,119,B.a3E,120,B.pN,121,B.a3F,122,B.iM,123,B.a3G,124,B.a3H,125,B.a3I,126,B.a3J,4294967297,B.xM,4294967304,B.c1,4294967305,B.iN,4294967309,B.iO,4294967323,B.iP,4294967423,B.bU,4294967553,B.xN,4294967555,B.lK,4294967556,B.iQ,4294967558,B.pO,4294967559,B.xO,4294967560,B.xP,4294967562,B.lL,4294967564,B.lM,4294967566,B.xQ,4294967567,B.xR,4294967568,B.xS,4294967569,B.xT,4294968065,B.dy,4294968066,B.d9,4294968067,B.da,4294968068,B.dz,4294968069,B.f1,4294968070,B.f2,4294968071,B.iR,4294968072,B.iS,4294968321,B.pP,4294968322,B.xU,4294968323,B.xV,4294968324,B.xW,4294968325,B.xX,4294968326,B.xY,4294968327,B.iT,4294968328,B.xZ,4294968329,B.y_,4294968330,B.y0,4294968577,B.y1,4294968578,B.y2,4294968579,B.y3,4294968580,B.y4,4294968581,B.y5,4294968582,B.y6,4294968583,B.y7,4294968584,B.y8,4294968585,B.y9,4294968586,B.ya,4294968587,B.yb,4294968588,B.yc,4294968589,B.yd,4294968590,B.ye,4294968833,B.yf,4294968834,B.yg,4294968835,B.yh,4294968836,B.yi,4294968837,B.yj,4294968838,B.yk,4294968839,B.yl,4294968840,B.ym,4294968841,B.yn,4294968842,B.yo,4294968843,B.yp,4294969089,B.yq,4294969090,B.yr,4294969091,B.ys,4294969092,B.yt,4294969093,B.yu,4294969094,B.yv,4294969095,B.yw,4294969096,B.yx,4294969097,B.yy,4294969098,B.yz,4294969099,B.yA,4294969100,B.yB,4294969101,B.yC,4294969102,B.yD,4294969103,B.yE,4294969104,B.yF,4294969105,B.yG,4294969106,B.yH,4294969107,B.yI,4294969108,B.yJ,4294969109,B.yK,4294969110,B.yL,4294969111,B.yM,4294969112,B.yN,4294969113,B.yO,4294969114,B.yP,4294969115,B.yQ,4294969116,B.yR,4294969117,B.yS,4294969345,B.yT,4294969346,B.yU,4294969347,B.yV,4294969348,B.yW,4294969349,B.yX,4294969350,B.yY,4294969351,B.yZ,4294969352,B.z_,4294969353,B.z0,4294969354,B.z1,4294969355,B.z2,4294969356,B.z3,4294969357,B.z4,4294969358,B.z5,4294969359,B.z6,4294969360,B.z7,4294969361,B.z8,4294969362,B.z9,4294969363,B.za,4294969364,B.zb,4294969365,B.zc,4294969366,B.zd,4294969367,B.ze,4294969368,B.zf,4294969601,B.zg,4294969602,B.zh,4294969603,B.zi,4294969604,B.zj,4294969605,B.zk,4294969606,B.zl,4294969607,B.zm,4294969608,B.zn,4294969857,B.zo,4294969858,B.zp,4294969859,B.zq,4294969860,B.zr,4294969861,B.zs,4294969863,B.zt,4294969864,B.zu,4294969865,B.zv,4294969866,B.zw,4294969867,B.zx,4294969868,B.zy,4294969869,B.zz,4294969870,B.zA,4294969871,B.zB,4294969872,B.zC,4294969873,B.zD,4294970113,B.zE,4294970114,B.zF,4294970115,B.zG,4294970116,B.zH,4294970117,B.zI,4294970118,B.zJ,4294970119,B.zK,4294970120,B.zL,4294970121,B.zM,4294970122,B.zN,4294970123,B.zO,4294970124,B.zP,4294970125,B.zQ,4294970126,B.zR,4294970127,B.zS,4294970369,B.zT,4294970370,B.zU,4294970371,B.zV,4294970372,B.zW,4294970373,B.zX,4294970374,B.zY,4294970375,B.zZ,4294970625,B.A_,4294970626,B.A0,4294970627,B.A1,4294970628,B.A2,4294970629,B.A3,4294970630,B.A4,4294970631,B.A5,4294970632,B.A6,4294970633,B.A7,4294970634,B.A8,4294970635,B.A9,4294970636,B.Aa,4294970637,B.Ab,4294970638,B.Ac,4294970639,B.Ad,4294970640,B.Ae,4294970641,B.Af,4294970642,B.Ag,4294970643,B.Ah,4294970644,B.Ai,4294970645,B.Aj,4294970646,B.Ak,4294970647,B.Al,4294970648,B.Am,4294970649,B.An,4294970650,B.Ao,4294970651,B.Ap,4294970652,B.Aq,4294970653,B.Ar,4294970654,B.As,4294970655,B.At,4294970656,B.Au,4294970657,B.Av,4294970658,B.Aw,4294970659,B.Ax,4294970660,B.Ay,4294970661,B.Az,4294970662,B.AA,4294970663,B.AB,4294970664,B.AC,4294970665,B.AD,4294970666,B.AE,4294970667,B.AF,4294970668,B.AG,4294970669,B.AH,4294970670,B.AI,4294970671,B.AJ,4294970672,B.AK,4294970673,B.AL,4294970674,B.AM,4294970675,B.AN,4294970676,B.AO,4294970677,B.AP,4294970678,B.AQ,4294970679,B.AR,4294970680,B.AS,4294970681,B.AT,4294970682,B.AU,4294970683,B.AV,4294970684,B.AW,4294970685,B.AX,4294970686,B.AY,4294970687,B.AZ,4294970688,B.B_,4294970689,B.B0,4294970690,B.B1,4294970691,B.B2,4294970692,B.B3,4294970693,B.B4,4294970694,B.B5,4294970695,B.B6,4294970696,B.B7,4294970697,B.B8,4294970698,B.B9,4294970699,B.Ba,4294970700,B.Bb,4294970701,B.Bc,4294970702,B.Bd,4294970703,B.Be,4294970704,B.Bf,4294970705,B.Bg,4294970706,B.Bh,4294970707,B.Bi,4294970708,B.Bj,4294970709,B.Bk,4294970710,B.Bl,4294970711,B.Bm,4294970712,B.Bn,4294970713,B.Bo,4294970714,B.Bp,4294970715,B.Bq,4294970882,B.Br,4294970884,B.Bs,4294970885,B.Bt,4294970886,B.Bu,4294970887,B.Bv,4294970888,B.Bw,4294970889,B.Bx,4294971137,B.By,4294971138,B.Bz,4294971393,B.BA,4294971394,B.BB,4294971395,B.BC,4294971396,B.BD,4294971397,B.BE,4294971398,B.BF,4294971399,B.BG,4294971400,B.BH,4294971401,B.BI,4294971402,B.BJ,4294971403,B.BK,4294971649,B.BL,4294971650,B.BM,4294971651,B.BN,4294971652,B.BO,4294971653,B.BP,4294971654,B.BQ,4294971655,B.BR,4294971656,B.BS,4294971657,B.BT,4294971658,B.BU,4294971659,B.BV,4294971660,B.BW,4294971661,B.BX,4294971662,B.BY,4294971663,B.BZ,4294971664,B.C_,4294971665,B.C0,4294971666,B.C1,4294971667,B.C2,4294971668,B.C3,4294971669,B.C4,4294971670,B.C5,4294971671,B.C6,4294971672,B.C7,4294971673,B.C8,4294971674,B.C9,4294971675,B.Ca,4294971905,B.Cb,4294971906,B.Cc,8589934592,B.a40,8589934593,B.a41,8589934594,B.a42,8589934595,B.a43,8589934608,B.a44,8589934609,B.a45,8589934610,B.a46,8589934611,B.a47,8589934612,B.a48,8589934624,B.a49,8589934625,B.a4a,8589934626,B.a4b,8589934848,B.cQ,8589934849,B.db,8589934850,B.cR,8589934851,B.dc,8589934852,B.hh,8589934853,B.iU,8589934854,B.iV,8589934855,B.lN,8589935088,B.pQ,8589935090,B.pR,8589935092,B.pS,8589935094,B.pT,8589935117,B.lO,8589935144,B.a4c,8589935145,B.a4d,8589935146,B.Cr,8589935147,B.Cs,8589935148,B.a4e,8589935149,B.Ct,8589935150,B.f3,8589935151,B.Cu,8589935152,B.pU,8589935153,B.iW,8589935154,B.f4,8589935155,B.iX,8589935156,B.f5,8589935157,B.pV,8589935158,B.f6,8589935159,B.iY,8589935160,B.f7,8589935161,B.iZ,8589935165,B.a4f,8589935361,B.a4g,8589935362,B.a4h,8589935363,B.a4i,8589935364,B.a4j,8589935365,B.a4k,8589935366,B.a4l,8589935367,B.a4m,8589935368,B.a4n,8589935369,B.a4o,8589935370,B.a4p,8589935371,B.a4q,8589935372,B.a4r,8589935373,B.a4s,8589935374,B.a4t,8589935375,B.a4u,8589935376,B.a4v,8589935377,B.a4w,8589935378,B.a4x,8589935379,B.a4y,8589935380,B.a4z,8589935381,B.a4A,8589935382,B.a4B,8589935383,B.a4C,8589935384,B.a4D,8589935385,B.a4E,8589935386,B.a4F,8589935387,B.a4G,8589935388,B.a4H,8589935389,B.a4I,8589935390,B.a4J,8589935391,B.a4K],A.ae("ef<o,y>"))
+B.a4g=new A.y(8589935165)
+B.a4h=new A.y(8589935361)
+B.a4i=new A.y(8589935362)
+B.a4j=new A.y(8589935363)
+B.a4k=new A.y(8589935364)
+B.a4l=new A.y(8589935365)
+B.a4m=new A.y(8589935366)
+B.a4n=new A.y(8589935367)
+B.a4o=new A.y(8589935368)
+B.a4p=new A.y(8589935369)
+B.a4q=new A.y(8589935370)
+B.a4r=new A.y(8589935371)
+B.a4s=new A.y(8589935372)
+B.a4t=new A.y(8589935373)
+B.a4u=new A.y(8589935374)
+B.a4v=new A.y(8589935375)
+B.a4w=new A.y(8589935376)
+B.a4x=new A.y(8589935377)
+B.a4y=new A.y(8589935378)
+B.a4z=new A.y(8589935379)
+B.a4A=new A.y(8589935380)
+B.a4B=new A.y(8589935381)
+B.a4C=new A.y(8589935382)
+B.a4D=new A.y(8589935383)
+B.a4E=new A.y(8589935384)
+B.a4F=new A.y(8589935385)
+B.a4G=new A.y(8589935386)
+B.a4H=new A.y(8589935387)
+B.a4I=new A.y(8589935388)
+B.a4J=new A.y(8589935389)
+B.a4K=new A.y(8589935390)
+B.a4L=new A.y(8589935391)
+B.a4Z=new A.ef([32,B.xK,33,B.a3L,34,B.a3M,35,B.a3N,36,B.a3O,37,B.a3P,38,B.a3Q,39,B.a3R,40,B.a3S,41,B.a3T,42,B.xL,43,B.Cd,44,B.a3U,45,B.Ce,46,B.Cf,47,B.Cg,48,B.Ch,49,B.Ci,50,B.Cj,51,B.Ck,52,B.Cl,53,B.Cm,54,B.Cn,55,B.Co,56,B.Cp,57,B.Cq,58,B.a3V,59,B.a3W,60,B.a3X,61,B.a3Y,62,B.a3Z,63,B.a4_,64,B.a40,91,B.a4M,92,B.a4N,93,B.a4O,94,B.a4P,95,B.a4Q,96,B.a4R,97,B.pW,98,B.Cv,99,B.pX,100,B.a3s,101,B.xF,102,B.xG,103,B.a3t,104,B.a3u,105,B.a3v,106,B.a3w,107,B.a3x,108,B.a3y,109,B.a3z,110,B.xH,111,B.a3A,112,B.xI,113,B.a3B,114,B.a3C,115,B.a3D,116,B.xJ,117,B.a3E,118,B.pM,119,B.a3F,120,B.pN,121,B.a3G,122,B.iM,123,B.a3H,124,B.a3I,125,B.a3J,126,B.a3K,4294967297,B.xM,4294967304,B.c1,4294967305,B.iN,4294967309,B.iO,4294967323,B.iP,4294967423,B.bU,4294967553,B.xN,4294967555,B.lK,4294967556,B.iQ,4294967558,B.pO,4294967559,B.xO,4294967560,B.xP,4294967562,B.lL,4294967564,B.lM,4294967566,B.xQ,4294967567,B.xR,4294967568,B.xS,4294967569,B.xT,4294968065,B.dy,4294968066,B.d9,4294968067,B.da,4294968068,B.dz,4294968069,B.f1,4294968070,B.f2,4294968071,B.iR,4294968072,B.iS,4294968321,B.pP,4294968322,B.xU,4294968323,B.xV,4294968324,B.xW,4294968325,B.xX,4294968326,B.xY,4294968327,B.iT,4294968328,B.xZ,4294968329,B.y_,4294968330,B.y0,4294968577,B.y1,4294968578,B.y2,4294968579,B.y3,4294968580,B.y4,4294968581,B.y5,4294968582,B.y6,4294968583,B.y7,4294968584,B.y8,4294968585,B.y9,4294968586,B.ya,4294968587,B.yb,4294968588,B.yc,4294968589,B.yd,4294968590,B.ye,4294968833,B.yf,4294968834,B.yg,4294968835,B.yh,4294968836,B.yi,4294968837,B.yj,4294968838,B.yk,4294968839,B.yl,4294968840,B.ym,4294968841,B.yn,4294968842,B.yo,4294968843,B.yp,4294969089,B.yq,4294969090,B.yr,4294969091,B.ys,4294969092,B.yt,4294969093,B.yu,4294969094,B.yv,4294969095,B.yw,4294969096,B.yx,4294969097,B.yy,4294969098,B.yz,4294969099,B.yA,4294969100,B.yB,4294969101,B.yC,4294969102,B.yD,4294969103,B.yE,4294969104,B.yF,4294969105,B.yG,4294969106,B.yH,4294969107,B.yI,4294969108,B.yJ,4294969109,B.yK,4294969110,B.yL,4294969111,B.yM,4294969112,B.yN,4294969113,B.yO,4294969114,B.yP,4294969115,B.yQ,4294969116,B.yR,4294969117,B.yS,4294969345,B.yT,4294969346,B.yU,4294969347,B.yV,4294969348,B.yW,4294969349,B.yX,4294969350,B.yY,4294969351,B.yZ,4294969352,B.z_,4294969353,B.z0,4294969354,B.z1,4294969355,B.z2,4294969356,B.z3,4294969357,B.z4,4294969358,B.z5,4294969359,B.z6,4294969360,B.z7,4294969361,B.z8,4294969362,B.z9,4294969363,B.za,4294969364,B.zb,4294969365,B.zc,4294969366,B.zd,4294969367,B.ze,4294969368,B.zf,4294969601,B.zg,4294969602,B.zh,4294969603,B.zi,4294969604,B.zj,4294969605,B.zk,4294969606,B.zl,4294969607,B.zm,4294969608,B.zn,4294969857,B.zo,4294969858,B.zp,4294969859,B.zq,4294969860,B.zr,4294969861,B.zs,4294969863,B.zt,4294969864,B.zu,4294969865,B.zv,4294969866,B.zw,4294969867,B.zx,4294969868,B.zy,4294969869,B.zz,4294969870,B.zA,4294969871,B.zB,4294969872,B.zC,4294969873,B.zD,4294970113,B.zE,4294970114,B.zF,4294970115,B.zG,4294970116,B.zH,4294970117,B.zI,4294970118,B.zJ,4294970119,B.zK,4294970120,B.zL,4294970121,B.zM,4294970122,B.zN,4294970123,B.zO,4294970124,B.zP,4294970125,B.zQ,4294970126,B.zR,4294970127,B.zS,4294970369,B.zT,4294970370,B.zU,4294970371,B.zV,4294970372,B.zW,4294970373,B.zX,4294970374,B.zY,4294970375,B.zZ,4294970625,B.A_,4294970626,B.A0,4294970627,B.A1,4294970628,B.A2,4294970629,B.A3,4294970630,B.A4,4294970631,B.A5,4294970632,B.A6,4294970633,B.A7,4294970634,B.A8,4294970635,B.A9,4294970636,B.Aa,4294970637,B.Ab,4294970638,B.Ac,4294970639,B.Ad,4294970640,B.Ae,4294970641,B.Af,4294970642,B.Ag,4294970643,B.Ah,4294970644,B.Ai,4294970645,B.Aj,4294970646,B.Ak,4294970647,B.Al,4294970648,B.Am,4294970649,B.An,4294970650,B.Ao,4294970651,B.Ap,4294970652,B.Aq,4294970653,B.Ar,4294970654,B.As,4294970655,B.At,4294970656,B.Au,4294970657,B.Av,4294970658,B.Aw,4294970659,B.Ax,4294970660,B.Ay,4294970661,B.Az,4294970662,B.AA,4294970663,B.AB,4294970664,B.AC,4294970665,B.AD,4294970666,B.AE,4294970667,B.AF,4294970668,B.AG,4294970669,B.AH,4294970670,B.AI,4294970671,B.AJ,4294970672,B.AK,4294970673,B.AL,4294970674,B.AM,4294970675,B.AN,4294970676,B.AO,4294970677,B.AP,4294970678,B.AQ,4294970679,B.AR,4294970680,B.AS,4294970681,B.AT,4294970682,B.AU,4294970683,B.AV,4294970684,B.AW,4294970685,B.AX,4294970686,B.AY,4294970687,B.AZ,4294970688,B.B_,4294970689,B.B0,4294970690,B.B1,4294970691,B.B2,4294970692,B.B3,4294970693,B.B4,4294970694,B.B5,4294970695,B.B6,4294970696,B.B7,4294970697,B.B8,4294970698,B.B9,4294970699,B.Ba,4294970700,B.Bb,4294970701,B.Bc,4294970702,B.Bd,4294970703,B.Be,4294970704,B.Bf,4294970705,B.Bg,4294970706,B.Bh,4294970707,B.Bi,4294970708,B.Bj,4294970709,B.Bk,4294970710,B.Bl,4294970711,B.Bm,4294970712,B.Bn,4294970713,B.Bo,4294970714,B.Bp,4294970715,B.Bq,4294970882,B.Br,4294970884,B.Bs,4294970885,B.Bt,4294970886,B.Bu,4294970887,B.Bv,4294970888,B.Bw,4294970889,B.Bx,4294971137,B.By,4294971138,B.Bz,4294971393,B.BA,4294971394,B.BB,4294971395,B.BC,4294971396,B.BD,4294971397,B.BE,4294971398,B.BF,4294971399,B.BG,4294971400,B.BH,4294971401,B.BI,4294971402,B.BJ,4294971403,B.BK,4294971649,B.BL,4294971650,B.BM,4294971651,B.BN,4294971652,B.BO,4294971653,B.BP,4294971654,B.BQ,4294971655,B.BR,4294971656,B.BS,4294971657,B.BT,4294971658,B.BU,4294971659,B.BV,4294971660,B.BW,4294971661,B.BX,4294971662,B.BY,4294971663,B.BZ,4294971664,B.C_,4294971665,B.C0,4294971666,B.C1,4294971667,B.C2,4294971668,B.C3,4294971669,B.C4,4294971670,B.C5,4294971671,B.C6,4294971672,B.C7,4294971673,B.C8,4294971674,B.C9,4294971675,B.Ca,4294971905,B.Cb,4294971906,B.Cc,8589934592,B.a41,8589934593,B.a42,8589934594,B.a43,8589934595,B.a44,8589934608,B.a45,8589934609,B.a46,8589934610,B.a47,8589934611,B.a48,8589934612,B.a49,8589934624,B.a4a,8589934625,B.a4b,8589934626,B.a4c,8589934848,B.cQ,8589934849,B.db,8589934850,B.cR,8589934851,B.dc,8589934852,B.hh,8589934853,B.iU,8589934854,B.iV,8589934855,B.lN,8589935088,B.pQ,8589935090,B.pR,8589935092,B.pS,8589935094,B.pT,8589935117,B.lO,8589935144,B.a4d,8589935145,B.a4e,8589935146,B.Cr,8589935147,B.Cs,8589935148,B.a4f,8589935149,B.Ct,8589935150,B.f3,8589935151,B.Cu,8589935152,B.pU,8589935153,B.iW,8589935154,B.f4,8589935155,B.iX,8589935156,B.f5,8589935157,B.pV,8589935158,B.f6,8589935159,B.iY,8589935160,B.f7,8589935161,B.iZ,8589935165,B.a4g,8589935361,B.a4h,8589935362,B.a4i,8589935363,B.a4j,8589935364,B.a4k,8589935365,B.a4l,8589935366,B.a4m,8589935367,B.a4n,8589935368,B.a4o,8589935369,B.a4p,8589935370,B.a4q,8589935371,B.a4r,8589935372,B.a4s,8589935373,B.a4t,8589935374,B.a4u,8589935375,B.a4v,8589935376,B.a4w,8589935377,B.a4x,8589935378,B.a4y,8589935379,B.a4z,8589935380,B.a4A,8589935381,B.a4B,8589935382,B.a4C,8589935383,B.a4D,8589935384,B.a4E,8589935385,B.a4F,8589935386,B.a4G,8589935387,B.a4H,8589935388,B.a4I,8589935389,B.a4J,8589935390,B.a4K,8589935391,B.a4L],A.ae("ef<o,y>"))
 B.Mf=new A.ib(1)
 B.Mm=new A.ib(2)
 B.Mn=new A.ib(3)
@@ -163496,25 +163505,25 @@ B.Mi=new A.ib(12)
 B.Mj=new A.ib(13)
 B.Mk=new A.ib(14)
 B.Ml=new A.ib(16)
-B.a4Z=new A.ef([0,B.tf,1,B.Mf,2,B.Mm,3,B.Mn,4,B.Mo,5,B.Mp,6,B.Mq,7,B.Mr,8,B.Ms,9,B.Mt,10,B.Mg,11,B.Mh,12,B.Mi,13,B.Mj,14,B.Mk,16,B.Ml],A.ae("ef<o,ib>"))
+B.a5_=new A.ef([0,B.tf,1,B.Mf,2,B.Mm,3,B.Mn,4,B.Mo,5,B.Mp,6,B.Mq,7,B.Mr,8,B.Ms,9,B.Mt,10,B.Mg,11,B.Mh,12,B.Mi,13,B.Mj,14,B.Mk,16,B.Ml],A.ae("ef<o,ib>"))
 B.ew=new A.K5(0,"inner")
 B.Li=new A.K5(1,"leftOuter")
 B.Lj=new A.K5(2,"cross")
-B.a5_=new A.ef([B.ew,"INNER",B.Li,"LEFT OUTER",B.Lj,"CROSS"],A.ae("ef<K5,k>"))
-B.a1f=s(["new line","next line","shift enter"],t.s)
-B.a_2=s(["new note","next note","new dictation","resume dictation","resume dictating"],t.s)
-B.a1g=s(["end note","stop note","end dictation","stop dictation","end dictating","stop dictating"],t.s)
-B.ZQ=s(["new paragraph","next paragraph","press enter"],t.s)
-B.a0K=s(["new task","next task","create task"],t.s)
-B.a1A=s(["end task"],t.s)
-B.Yf=s(["new meeting","next meeting"],t.s)
-B.a2_=s(["end meeting"],t.s)
-B.a1q=s(["send to claude","send this to claude"],t.s)
-B.a19=s(["message for claude","message to claude","note for claude","note to claude","new claude message","new claude note","new claude command"],t.s)
-B.a0P=s(["commands only","command mode"],t.s)
-B.a0J=s(["play the listening folder","play the listening list","play my list","start listening","play listening"],t.s)
-B.CG=new A.ef([B.rM,B.a1f,B.rN,B.a_2,B.rO,B.a1g,B.rP,B.ZQ,B.rQ,B.a0K,B.KK,B.a1A,B.rR,B.Yf,B.KL,B.a2_,B.rS,B.a1q,B.n0,B.a19,B.mZ,B.a0P,B.n_,B.a0J],A.ae("ef<h9,q<k>>"))
-B.ab0=new A.b3(B.lO,!1,!1,!1,!1,B.J)
+B.a50=new A.ef([B.ew,"INNER",B.Li,"LEFT OUTER",B.Lj,"CROSS"],A.ae("ef<K5,k>"))
+B.a1g=s(["new line","next line","shift enter"],t.s)
+B.a_3=s(["new note","next note","new dictation","resume dictation","resume dictating"],t.s)
+B.a1h=s(["end note","stop note","end dictation","stop dictation","end dictating","stop dictating"],t.s)
+B.ZR=s(["new paragraph","next paragraph","press enter"],t.s)
+B.a0L=s(["new task","next task","create task"],t.s)
+B.a1B=s(["end task"],t.s)
+B.Ye=s(["new meeting","next meeting"],t.s)
+B.a20=s(["end meeting"],t.s)
+B.a1r=s(["send to claude","send this to claude"],t.s)
+B.a1a=s(["message for claude","message to claude","note for claude","note to claude","new claude message","new claude note","new claude command"],t.s)
+B.a0Q=s(["commands only","command mode"],t.s)
+B.a0K=s(["play the listening folder","play the listening list","play my list","start listening","play listening"],t.s)
+B.CG=new A.ef([B.rM,B.a1g,B.rN,B.a_3,B.rO,B.a1h,B.rP,B.ZR,B.rQ,B.a0L,B.KK,B.a1B,B.rR,B.Ye,B.KL,B.a20,B.rS,B.a1r,B.n0,B.a1a,B.mZ,B.a0Q,B.n_,B.a0K],A.ae("ef<h9,q<k>>"))
+B.ab1=new A.b3(B.lO,!1,!1,!1,!1,B.J)
 B.Il=new A.b3(B.iP,!1,!1,!1,!1,B.J)
 B.Im=new A.b3(B.iN,!1,!1,!1,!1,B.J)
 B.Ia=new A.b3(B.iN,!1,!0,!1,!1,B.J)
@@ -163526,70 +163535,70 @@ B.tK=new A.nC()
 B.tR=new A.BG()
 B.tT=new A.C7()
 B.mp=new A.aaU(0,"line")
-B.a9y=new A.je(B.cG,B.mp)
-B.a9x=new A.je(B.c4,B.mp)
-B.a9A=new A.je(B.c9,B.mp)
-B.a9z=new A.je(B.dm,B.mp)
+B.a9z=new A.je(B.cG,B.mp)
+B.a9y=new A.je(B.c4,B.mp)
+B.a9B=new A.je(B.c9,B.mp)
+B.a9A=new A.je(B.dm,B.mp)
 B.qE=new A.je(B.cG,B.mq)
-B.a50=new A.ef([B.jq,B.Or,B.mD,B.tI,B.ab0,B.tI,B.Il,B.tK,B.Im,B.tR,B.Ia,B.tT,B.jx,B.a9y,B.jw,B.a9x,B.ju,B.a9A,B.jv,B.a9z,B.jr,B.qE,B.jy,B.mr],t.Fp)
-B.a6b={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
-B.a51=new A.cm(B.a6b,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.eL)
-B.a6f={AVAudioSessionCategoryAmbient:0,AVAudioSessionCategorySoloAmbient:1,AVAudioSessionCategoryPlayback:2,AVAudioSessionCategoryRecord:3,AVAudioSessionCategoryPlayAndRecord:4,AVAudioSessionCategoryMultiRoute:5}
+B.a51=new A.ef([B.jq,B.Or,B.mD,B.tI,B.ab1,B.tI,B.Il,B.tK,B.Im,B.tR,B.Ia,B.tT,B.jx,B.a9z,B.jw,B.a9y,B.ju,B.a9B,B.jv,B.a9A,B.jr,B.qE,B.jy,B.mr],t.Fp)
+B.a6c={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
+B.a52=new A.cm(B.a6c,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.eL)
+B.a6g={AVAudioSessionCategoryAmbient:0,AVAudioSessionCategorySoloAmbient:1,AVAudioSessionCategoryPlayback:2,AVAudioSessionCategoryRecord:3,AVAudioSessionCategoryPlayAndRecord:4,AVAudioSessionCategoryMultiRoute:5}
 B.LF=new A.rX("AVAudioSessionCategoryAmbient",0,"ambient")
 B.LD=new A.rX("AVAudioSessionCategorySoloAmbient",1,"soloAmbient")
 B.LH=new A.rX("AVAudioSessionCategoryPlayback",2,"playback")
 B.LI=new A.rX("AVAudioSessionCategoryRecord",3,"record")
 B.LG=new A.rX("AVAudioSessionCategoryPlayAndRecord",4,"playAndRecord")
 B.LE=new A.rX("AVAudioSessionCategoryMultiRoute",5,"multiRoute")
-B.a52=new A.cm(B.a6f,[B.LF,B.LD,B.LH,B.LI,B.LG,B.LE],A.ae("cm<k,rX>"))
+B.a53=new A.cm(B.a6g,[B.LF,B.LD,B.LH,B.LI,B.LG,B.LE],A.ae("cm<k,rX>"))
 B.M9=new A.zO(1)
 B.Ma=new A.zO(2)
 B.Mb=new A.zO(3)
 B.Mc=new A.zO(4)
-B.a53=new A.ef([1,B.M9,2,B.Ma,3,B.Mb,4,B.Mc],A.ae("ef<o,zO>"))
-B.a54=new A.ef([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.ae("ef<o,k>"))
+B.a54=new A.ef([1,B.M9,2,B.Ma,3,B.Mb,4,B.Mc],A.ae("ef<o,zO>"))
+B.a55=new A.ef([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.ae("ef<o,k>"))
 B.Dp={AVRInput:0,AVRPower:1,Accel:2,Accept:3,Again:4,AllCandidates:5,Alphanumeric:6,AltGraph:7,AppSwitch:8,ArrowDown:9,ArrowLeft:10,ArrowRight:11,ArrowUp:12,Attn:13,AudioBalanceLeft:14,AudioBalanceRight:15,AudioBassBoostDown:16,AudioBassBoostToggle:17,AudioBassBoostUp:18,AudioFaderFront:19,AudioFaderRear:20,AudioSurroundModeNext:21,AudioTrebleDown:22,AudioTrebleUp:23,AudioVolumeDown:24,AudioVolumeMute:25,AudioVolumeUp:26,Backspace:27,BrightnessDown:28,BrightnessUp:29,BrowserBack:30,BrowserFavorites:31,BrowserForward:32,BrowserHome:33,BrowserRefresh:34,BrowserSearch:35,BrowserStop:36,Call:37,Camera:38,CameraFocus:39,Cancel:40,CapsLock:41,ChannelDown:42,ChannelUp:43,Clear:44,Close:45,ClosedCaptionToggle:46,CodeInput:47,ColorF0Red:48,ColorF1Green:49,ColorF2Yellow:50,ColorF3Blue:51,ColorF4Grey:52,ColorF5Brown:53,Compose:54,ContextMenu:55,Convert:56,Copy:57,CrSel:58,Cut:59,DVR:60,Delete:61,Dimmer:62,DisplaySwap:63,Eisu:64,Eject:65,End:66,EndCall:67,Enter:68,EraseEof:69,Esc:70,Escape:71,ExSel:72,Execute:73,Exit:74,F1:75,F10:76,F11:77,F12:78,F13:79,F14:80,F15:81,F16:82,F17:83,F18:84,F19:85,F2:86,F20:87,F21:88,F22:89,F23:90,F24:91,F3:92,F4:93,F5:94,F6:95,F7:96,F8:97,F9:98,FavoriteClear0:99,FavoriteClear1:100,FavoriteClear2:101,FavoriteClear3:102,FavoriteRecall0:103,FavoriteRecall1:104,FavoriteRecall2:105,FavoriteRecall3:106,FavoriteStore0:107,FavoriteStore1:108,FavoriteStore2:109,FavoriteStore3:110,FinalMode:111,Find:112,Fn:113,FnLock:114,GoBack:115,GoHome:116,GroupFirst:117,GroupLast:118,GroupNext:119,GroupPrevious:120,Guide:121,GuideNextDay:122,GuidePreviousDay:123,HangulMode:124,HanjaMode:125,Hankaku:126,HeadsetHook:127,Help:128,Hibernate:129,Hiragana:130,HiraganaKatakana:131,Home:132,Hyper:133,Info:134,Insert:135,InstantReplay:136,JunjaMode:137,KanaMode:138,KanjiMode:139,Katakana:140,Key11:141,Key12:142,LastNumberRedial:143,LaunchApplication1:144,LaunchApplication2:145,LaunchAssistant:146,LaunchCalendar:147,LaunchContacts:148,LaunchControlPanel:149,LaunchMail:150,LaunchMediaPlayer:151,LaunchMusicPlayer:152,LaunchPhone:153,LaunchScreenSaver:154,LaunchSpreadsheet:155,LaunchWebBrowser:156,LaunchWebCam:157,LaunchWordProcessor:158,Link:159,ListProgram:160,LiveContent:161,Lock:162,LogOff:163,MailForward:164,MailReply:165,MailSend:166,MannerMode:167,MediaApps:168,MediaAudioTrack:169,MediaClose:170,MediaFastForward:171,MediaLast:172,MediaPause:173,MediaPlay:174,MediaPlayPause:175,MediaRecord:176,MediaRewind:177,MediaSkip:178,MediaSkipBackward:179,MediaSkipForward:180,MediaStepBackward:181,MediaStepForward:182,MediaStop:183,MediaTopMenu:184,MediaTrackNext:185,MediaTrackPrevious:186,MicrophoneToggle:187,MicrophoneVolumeDown:188,MicrophoneVolumeMute:189,MicrophoneVolumeUp:190,ModeChange:191,NavigateIn:192,NavigateNext:193,NavigateOut:194,NavigatePrevious:195,New:196,NextCandidate:197,NextFavoriteChannel:198,NextUserProfile:199,NonConvert:200,Notification:201,NumLock:202,OnDemand:203,Open:204,PageDown:205,PageUp:206,Pairing:207,Paste:208,Pause:209,PinPDown:210,PinPMove:211,PinPToggle:212,PinPUp:213,Play:214,PlaySpeedDown:215,PlaySpeedReset:216,PlaySpeedUp:217,Power:218,PowerOff:219,PreviousCandidate:220,Print:221,PrintScreen:222,Process:223,Props:224,RandomToggle:225,RcLowBattery:226,RecordSpeedNext:227,Redo:228,RfBypass:229,Romaji:230,STBInput:231,STBPower:232,Save:233,ScanChannelsToggle:234,ScreenModeNext:235,ScrollLock:236,Select:237,Settings:238,ShiftLevel5:239,SingleCandidate:240,Soft1:241,Soft2:242,Soft3:243,Soft4:244,Soft5:245,Soft6:246,Soft7:247,Soft8:248,SpeechCorrectionList:249,SpeechInputToggle:250,SpellCheck:251,SplitScreenToggle:252,Standby:253,Subtitle:254,Super:255,Symbol:256,SymbolLock:257,TV:258,TV3DMode:259,TVAntennaCable:260,TVAudioDescription:261,TVAudioDescriptionMixDown:262,TVAudioDescriptionMixUp:263,TVContentsMenu:264,TVDataService:265,TVInput:266,TVInputComponent1:267,TVInputComponent2:268,TVInputComposite1:269,TVInputComposite2:270,TVInputHDMI1:271,TVInputHDMI2:272,TVInputHDMI3:273,TVInputHDMI4:274,TVInputVGA1:275,TVMediaContext:276,TVNetwork:277,TVNumberEntry:278,TVPower:279,TVRadioService:280,TVSatellite:281,TVSatelliteBS:282,TVSatelliteCS:283,TVSatelliteToggle:284,TVTerrestrialAnalog:285,TVTerrestrialDigital:286,TVTimer:287,Tab:288,Teletext:289,Undo:290,Unidentified:291,VideoModeNext:292,VoiceDial:293,WakeUp:294,Wink:295,Zenkaku:296,ZenkakuHankaku:297,ZoomIn:298,ZoomOut:299,ZoomToggle:300}
-B.a55=new A.cm(B.Dp,[B.A6,B.A7,B.xN,B.y1,B.y2,B.yq,B.yr,B.lK,B.BA,B.dy,B.d9,B.da,B.dz,B.y3,B.A_,B.A0,B.A1,B.Br,B.A2,B.A3,B.A4,B.A5,B.Bs,B.Bt,B.zB,B.zD,B.zC,B.c1,B.yf,B.yg,B.zT,B.zU,B.zV,B.zW,B.zX,B.zY,B.zZ,B.BB,B.yh,B.BC,B.y4,B.iQ,B.A8,B.A9,B.pP,B.zo,B.Ag,B.ys,B.Aa,B.Ab,B.Ac,B.Ad,B.Ae,B.Af,B.yt,B.y5,B.yu,B.xU,B.xV,B.xW,B.Be,B.bU,B.Ah,B.Ai,B.yJ,B.yi,B.f1,B.BD,B.iO,B.xX,B.iP,B.iP,B.xY,B.y6,B.Aj,B.yT,B.z1,B.z2,B.z3,B.z4,B.z5,B.z6,B.z7,B.z8,B.z9,B.za,B.yU,B.zb,B.zc,B.zd,B.ze,B.zf,B.yV,B.yW,B.yX,B.yY,B.yZ,B.z_,B.z0,B.Ak,B.Al,B.Am,B.An,B.Ao,B.Ap,B.Aq,B.Ar,B.As,B.At,B.Au,B.Av,B.yv,B.y7,B.pO,B.xO,B.BE,B.BF,B.yw,B.yx,B.yy,B.yz,B.Aw,B.Ax,B.Ay,B.yG,B.yH,B.yK,B.BG,B.y8,B.yn,B.yL,B.yM,B.f2,B.xP,B.Az,B.iT,B.AA,B.yI,B.yN,B.yO,B.yP,B.Cb,B.Cc,B.BH,B.zJ,B.zE,B.zR,B.zF,B.zP,B.zS,B.zG,B.zH,B.zI,B.zQ,B.zK,B.zL,B.zM,B.zN,B.zO,B.AB,B.AC,B.AD,B.AE,B.yj,B.zp,B.zq,B.zr,B.BJ,B.AF,B.Bf,B.Bq,B.AG,B.AH,B.AI,B.AJ,B.zs,B.AK,B.AL,B.AM,B.Bg,B.Bh,B.Bi,B.Bj,B.zt,B.Bk,B.zu,B.zv,B.Bu,B.Bv,B.Bx,B.Bw,B.yA,B.Bl,B.Bm,B.Bn,B.Bo,B.zw,B.yB,B.AN,B.AO,B.yC,B.BI,B.lL,B.AP,B.zx,B.iR,B.iS,B.Bp,B.xZ,B.y9,B.AQ,B.AR,B.AS,B.AT,B.ya,B.AU,B.AV,B.AW,B.yk,B.yl,B.yD,B.zy,B.ym,B.yE,B.yb,B.AX,B.AY,B.AZ,B.y_,B.B_,B.yQ,B.B4,B.B5,B.zz,B.B0,B.B1,B.lM,B.yc,B.B2,B.xT,B.yF,B.zg,B.zh,B.zi,B.zj,B.zk,B.zl,B.zm,B.zn,B.By,B.Bz,B.zA,B.B3,B.yo,B.B6,B.xQ,B.xR,B.xS,B.B8,B.BL,B.BM,B.BN,B.BO,B.BP,B.BQ,B.BR,B.B9,B.BS,B.BT,B.BU,B.BV,B.BW,B.BX,B.BY,B.BZ,B.C_,B.C0,B.C1,B.C2,B.Ba,B.C3,B.C4,B.C5,B.C6,B.C7,B.C8,B.C9,B.Ca,B.iN,B.B7,B.y0,B.xM,B.Bb,B.BK,B.yp,B.Bc,B.yR,B.yS,B.yd,B.ye,B.Bd],A.ae("cm<k,y>"))
-B.a56=new A.cm(B.Dp,[4294970632,4294970633,4294967553,4294968577,4294968578,4294969089,4294969090,4294967555,4294971393,4294968065,4294968066,4294968067,4294968068,4294968579,4294970625,4294970626,4294970627,4294970882,4294970628,4294970629,4294970630,4294970631,4294970884,4294970885,4294969871,4294969873,4294969872,4294967304,4294968833,4294968834,4294970369,4294970370,4294970371,4294970372,4294970373,4294970374,4294970375,4294971394,4294968835,4294971395,4294968580,4294967556,4294970634,4294970635,4294968321,4294969857,4294970642,4294969091,4294970636,4294970637,4294970638,4294970639,4294970640,4294970641,4294969092,4294968581,4294969093,4294968322,4294968323,4294968324,4294970703,4294967423,4294970643,4294970644,4294969108,4294968836,4294968069,4294971396,4294967309,4294968325,4294967323,4294967323,4294968326,4294968582,4294970645,4294969345,4294969354,4294969355,4294969356,4294969357,4294969358,4294969359,4294969360,4294969361,4294969362,4294969363,4294969346,4294969364,4294969365,4294969366,4294969367,4294969368,4294969347,4294969348,4294969349,4294969350,4294969351,4294969352,4294969353,4294970646,4294970647,4294970648,4294970649,4294970650,4294970651,4294970652,4294970653,4294970654,4294970655,4294970656,4294970657,4294969094,4294968583,4294967558,4294967559,4294971397,4294971398,4294969095,4294969096,4294969097,4294969098,4294970658,4294970659,4294970660,4294969105,4294969106,4294969109,4294971399,4294968584,4294968841,4294969110,4294969111,4294968070,4294967560,4294970661,4294968327,4294970662,4294969107,4294969112,4294969113,4294969114,4294971905,4294971906,4294971400,4294970118,4294970113,4294970126,4294970114,4294970124,4294970127,4294970115,4294970116,4294970117,4294970125,4294970119,4294970120,4294970121,4294970122,4294970123,4294970663,4294970664,4294970665,4294970666,4294968837,4294969858,4294969859,4294969860,4294971402,4294970667,4294970704,4294970715,4294970668,4294970669,4294970670,4294970671,4294969861,4294970672,4294970673,4294970674,4294970705,4294970706,4294970707,4294970708,4294969863,4294970709,4294969864,4294969865,4294970886,4294970887,4294970889,4294970888,4294969099,4294970710,4294970711,4294970712,4294970713,4294969866,4294969100,4294970675,4294970676,4294969101,4294971401,4294967562,4294970677,4294969867,4294968071,4294968072,4294970714,4294968328,4294968585,4294970678,4294970679,4294970680,4294970681,4294968586,4294970682,4294970683,4294970684,4294968838,4294968839,4294969102,4294969868,4294968840,4294969103,4294968587,4294970685,4294970686,4294970687,4294968329,4294970688,4294969115,4294970693,4294970694,4294969869,4294970689,4294970690,4294967564,4294968588,4294970691,4294967569,4294969104,4294969601,4294969602,4294969603,4294969604,4294969605,4294969606,4294969607,4294969608,4294971137,4294971138,4294969870,4294970692,4294968842,4294970695,4294967566,4294967567,4294967568,4294970697,4294971649,4294971650,4294971651,4294971652,4294971653,4294971654,4294971655,4294970698,4294971656,4294971657,4294971658,4294971659,4294971660,4294971661,4294971662,4294971663,4294971664,4294971665,4294971666,4294971667,4294970699,4294971668,4294971669,4294971670,4294971671,4294971672,4294971673,4294971674,4294971675,4294967305,4294970696,4294968330,4294967297,4294970700,4294971403,4294968843,4294970701,4294969116,4294969117,4294968589,4294968590,4294970702],t.eL)
-B.a6k={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
-B.a57=new A.cm(B.a6k,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.li)
-B.a6g={access_type:0,prompt:1}
-B.a58=new A.cm(B.a6g,["offline","consent"],t.li)
-B.abf=new A.b3(B.c1,!1,!1,!1,!1,B.J)
-B.aaM=new A.b3(B.c1,!1,!0,!1,!1,B.J)
+B.a56=new A.cm(B.Dp,[B.A6,B.A7,B.xN,B.y1,B.y2,B.yq,B.yr,B.lK,B.BA,B.dy,B.d9,B.da,B.dz,B.y3,B.A_,B.A0,B.A1,B.Br,B.A2,B.A3,B.A4,B.A5,B.Bs,B.Bt,B.zB,B.zD,B.zC,B.c1,B.yf,B.yg,B.zT,B.zU,B.zV,B.zW,B.zX,B.zY,B.zZ,B.BB,B.yh,B.BC,B.y4,B.iQ,B.A8,B.A9,B.pP,B.zo,B.Ag,B.ys,B.Aa,B.Ab,B.Ac,B.Ad,B.Ae,B.Af,B.yt,B.y5,B.yu,B.xU,B.xV,B.xW,B.Be,B.bU,B.Ah,B.Ai,B.yJ,B.yi,B.f1,B.BD,B.iO,B.xX,B.iP,B.iP,B.xY,B.y6,B.Aj,B.yT,B.z1,B.z2,B.z3,B.z4,B.z5,B.z6,B.z7,B.z8,B.z9,B.za,B.yU,B.zb,B.zc,B.zd,B.ze,B.zf,B.yV,B.yW,B.yX,B.yY,B.yZ,B.z_,B.z0,B.Ak,B.Al,B.Am,B.An,B.Ao,B.Ap,B.Aq,B.Ar,B.As,B.At,B.Au,B.Av,B.yv,B.y7,B.pO,B.xO,B.BE,B.BF,B.yw,B.yx,B.yy,B.yz,B.Aw,B.Ax,B.Ay,B.yG,B.yH,B.yK,B.BG,B.y8,B.yn,B.yL,B.yM,B.f2,B.xP,B.Az,B.iT,B.AA,B.yI,B.yN,B.yO,B.yP,B.Cb,B.Cc,B.BH,B.zJ,B.zE,B.zR,B.zF,B.zP,B.zS,B.zG,B.zH,B.zI,B.zQ,B.zK,B.zL,B.zM,B.zN,B.zO,B.AB,B.AC,B.AD,B.AE,B.yj,B.zp,B.zq,B.zr,B.BJ,B.AF,B.Bf,B.Bq,B.AG,B.AH,B.AI,B.AJ,B.zs,B.AK,B.AL,B.AM,B.Bg,B.Bh,B.Bi,B.Bj,B.zt,B.Bk,B.zu,B.zv,B.Bu,B.Bv,B.Bx,B.Bw,B.yA,B.Bl,B.Bm,B.Bn,B.Bo,B.zw,B.yB,B.AN,B.AO,B.yC,B.BI,B.lL,B.AP,B.zx,B.iR,B.iS,B.Bp,B.xZ,B.y9,B.AQ,B.AR,B.AS,B.AT,B.ya,B.AU,B.AV,B.AW,B.yk,B.yl,B.yD,B.zy,B.ym,B.yE,B.yb,B.AX,B.AY,B.AZ,B.y_,B.B_,B.yQ,B.B4,B.B5,B.zz,B.B0,B.B1,B.lM,B.yc,B.B2,B.xT,B.yF,B.zg,B.zh,B.zi,B.zj,B.zk,B.zl,B.zm,B.zn,B.By,B.Bz,B.zA,B.B3,B.yo,B.B6,B.xQ,B.xR,B.xS,B.B8,B.BL,B.BM,B.BN,B.BO,B.BP,B.BQ,B.BR,B.B9,B.BS,B.BT,B.BU,B.BV,B.BW,B.BX,B.BY,B.BZ,B.C_,B.C0,B.C1,B.C2,B.Ba,B.C3,B.C4,B.C5,B.C6,B.C7,B.C8,B.C9,B.Ca,B.iN,B.B7,B.y0,B.xM,B.Bb,B.BK,B.yp,B.Bc,B.yR,B.yS,B.yd,B.ye,B.Bd],A.ae("cm<k,y>"))
+B.a57=new A.cm(B.Dp,[4294970632,4294970633,4294967553,4294968577,4294968578,4294969089,4294969090,4294967555,4294971393,4294968065,4294968066,4294968067,4294968068,4294968579,4294970625,4294970626,4294970627,4294970882,4294970628,4294970629,4294970630,4294970631,4294970884,4294970885,4294969871,4294969873,4294969872,4294967304,4294968833,4294968834,4294970369,4294970370,4294970371,4294970372,4294970373,4294970374,4294970375,4294971394,4294968835,4294971395,4294968580,4294967556,4294970634,4294970635,4294968321,4294969857,4294970642,4294969091,4294970636,4294970637,4294970638,4294970639,4294970640,4294970641,4294969092,4294968581,4294969093,4294968322,4294968323,4294968324,4294970703,4294967423,4294970643,4294970644,4294969108,4294968836,4294968069,4294971396,4294967309,4294968325,4294967323,4294967323,4294968326,4294968582,4294970645,4294969345,4294969354,4294969355,4294969356,4294969357,4294969358,4294969359,4294969360,4294969361,4294969362,4294969363,4294969346,4294969364,4294969365,4294969366,4294969367,4294969368,4294969347,4294969348,4294969349,4294969350,4294969351,4294969352,4294969353,4294970646,4294970647,4294970648,4294970649,4294970650,4294970651,4294970652,4294970653,4294970654,4294970655,4294970656,4294970657,4294969094,4294968583,4294967558,4294967559,4294971397,4294971398,4294969095,4294969096,4294969097,4294969098,4294970658,4294970659,4294970660,4294969105,4294969106,4294969109,4294971399,4294968584,4294968841,4294969110,4294969111,4294968070,4294967560,4294970661,4294968327,4294970662,4294969107,4294969112,4294969113,4294969114,4294971905,4294971906,4294971400,4294970118,4294970113,4294970126,4294970114,4294970124,4294970127,4294970115,4294970116,4294970117,4294970125,4294970119,4294970120,4294970121,4294970122,4294970123,4294970663,4294970664,4294970665,4294970666,4294968837,4294969858,4294969859,4294969860,4294971402,4294970667,4294970704,4294970715,4294970668,4294970669,4294970670,4294970671,4294969861,4294970672,4294970673,4294970674,4294970705,4294970706,4294970707,4294970708,4294969863,4294970709,4294969864,4294969865,4294970886,4294970887,4294970889,4294970888,4294969099,4294970710,4294970711,4294970712,4294970713,4294969866,4294969100,4294970675,4294970676,4294969101,4294971401,4294967562,4294970677,4294969867,4294968071,4294968072,4294970714,4294968328,4294968585,4294970678,4294970679,4294970680,4294970681,4294968586,4294970682,4294970683,4294970684,4294968838,4294968839,4294969102,4294969868,4294968840,4294969103,4294968587,4294970685,4294970686,4294970687,4294968329,4294970688,4294969115,4294970693,4294970694,4294969869,4294970689,4294970690,4294967564,4294968588,4294970691,4294967569,4294969104,4294969601,4294969602,4294969603,4294969604,4294969605,4294969606,4294969607,4294969608,4294971137,4294971138,4294969870,4294970692,4294968842,4294970695,4294967566,4294967567,4294967568,4294970697,4294971649,4294971650,4294971651,4294971652,4294971653,4294971654,4294971655,4294970698,4294971656,4294971657,4294971658,4294971659,4294971660,4294971661,4294971662,4294971663,4294971664,4294971665,4294971666,4294971667,4294970699,4294971668,4294971669,4294971670,4294971671,4294971672,4294971673,4294971674,4294971675,4294967305,4294970696,4294968330,4294967297,4294970700,4294971403,4294968843,4294970701,4294969116,4294969117,4294968589,4294968590,4294970702],t.eL)
+B.a6l={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
+B.a58=new A.cm(B.a6l,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.li)
+B.a6h={access_type:0,prompt:1}
+B.a59=new A.cm(B.a6h,["offline","consent"],t.li)
+B.abg=new A.b3(B.c1,!1,!1,!1,!1,B.J)
+B.aaN=new A.b3(B.c1,!1,!0,!1,!1,B.J)
 B.I9=new A.b3(B.bU,!1,!1,!1,!1,B.J)
 B.I6=new A.b3(B.bU,!1,!0,!1,!1,B.J)
-B.ab6=new A.b3(B.c1,!1,!0,!0,!1,B.J)
-B.aaY=new A.b3(B.c1,!1,!1,!0,!1,B.J)
-B.abk=new A.b3(B.bU,!1,!0,!0,!1,B.J)
-B.aba=new A.b3(B.bU,!1,!1,!0,!1,B.J)
-B.CH=new A.ef([B.abf,B.O,B.aaM,B.O,B.I9,B.O,B.I6,B.O,B.ab6,B.O,B.aaY,B.O,B.abk,B.O,B.aba,B.O],t.Fp)
+B.ab7=new A.b3(B.c1,!1,!0,!0,!1,B.J)
+B.aaZ=new A.b3(B.c1,!1,!1,!0,!1,B.J)
+B.abl=new A.b3(B.bU,!1,!0,!0,!1,B.J)
+B.abb=new A.b3(B.bU,!1,!1,!0,!1,B.J)
+B.CH=new A.ef([B.abg,B.O,B.aaN,B.O,B.I9,B.O,B.I6,B.O,B.ab7,B.O,B.aaZ,B.O,B.abl,B.O,B.abb,B.O],t.Fp)
 B.j6={"X-Client-Info":0}
-B.a59=new A.cm(B.j6,["realtime-dart/2.11.0"],t.li)
-B.a5a=new A.cm(B.j6,["postgrest-dart/2.8.0"],t.li)
-B.a5b=new A.cm(B.j6,["gotrue-dart/2.26.0"],t.li)
-B.a5c=new A.cm(B.j6,["functions-dart/2.6.4"],t.li)
-B.a5d=new A.cm(B.j6,["storage-dart/2.6.0"],t.li)
-B.a67={d:0,E:1,EEEE:2,LLL:3,LLLL:4,M:5,Md:6,MEd:7,MMM:8,MMMd:9,MMMEd:10,MMMM:11,MMMMd:12,MMMMEEEEd:13,QQQ:14,QQQQ:15,y:16,yM:17,yMd:18,yMEd:19,yMMM:20,yMMMd:21,yMMMEd:22,yMMMM:23,yMMMMd:24,yMMMMEEEEd:25,yQQQ:26,yQQQQ:27,H:28,Hm:29,Hms:30,j:31,jm:32,jms:33,jmv:34,jmz:35,jz:36,m:37,ms:38,s:39,v:40,z:41,zzzz:42,ZZZZ:43}
-B.a5e=new A.cm(B.a67,["d","ccc","cccc","LLL","LLLL","L","M/d","EEE, M/d","LLL","MMM d","EEE, MMM d","LLLL","MMMM d","EEEE, MMMM d","QQQ","QQQQ","y","M/y","M/d/y","EEE, M/d/y","MMM y","MMM d, y","EEE, MMM d, y","MMMM y","MMMM d, y","EEEE, MMMM d, y","QQQ y","QQQQ y","HH","HH:mm","HH:mm:ss","h\u202fa","h:mm\u202fa","h:mm:ss\u202fa","h:mm\u202fa v","h:mm\u202fa z","h\u202fa z","m","mm:ss","s","v","z","zzzz","ZZZZ"],t.li)
-B.a6l={"iso_8859-1:1987":0,"iso-ir-100":1,"iso_8859-1":2,"iso-8859-1":3,latin1:4,l1:5,ibm819:6,cp819:7,csisolatin1:8,"iso-ir-6":9,"ansi_x3.4-1968":10,"ansi_x3.4-1986":11,"iso_646.irv:1991":12,"iso646-us":13,"us-ascii":14,us:15,ibm367:16,cp367:17,csascii:18,ascii:19,csutf8:20,"utf-8":21}
-B.a5f=new A.cm(B.a6l,[B.cI,B.cI,B.cI,B.cI,B.cI,B.cI,B.cI,B.cI,B.cI,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.a2,B.a2],A.ae("cm<k,qz>"))
-B.a6o={type:0}
-B.a5g=new A.cm(B.a6o,["line"],t.li)
+B.a5a=new A.cm(B.j6,["realtime-dart/2.11.0"],t.li)
+B.a5b=new A.cm(B.j6,["postgrest-dart/2.8.0"],t.li)
+B.a5c=new A.cm(B.j6,["gotrue-dart/2.26.0"],t.li)
+B.a5d=new A.cm(B.j6,["functions-dart/2.6.4"],t.li)
+B.a5e=new A.cm(B.j6,["storage-dart/2.6.0"],t.li)
+B.a68={d:0,E:1,EEEE:2,LLL:3,LLLL:4,M:5,Md:6,MEd:7,MMM:8,MMMd:9,MMMEd:10,MMMM:11,MMMMd:12,MMMMEEEEd:13,QQQ:14,QQQQ:15,y:16,yM:17,yMd:18,yMEd:19,yMMM:20,yMMMd:21,yMMMEd:22,yMMMM:23,yMMMMd:24,yMMMMEEEEd:25,yQQQ:26,yQQQQ:27,H:28,Hm:29,Hms:30,j:31,jm:32,jms:33,jmv:34,jmz:35,jz:36,m:37,ms:38,s:39,v:40,z:41,zzzz:42,ZZZZ:43}
+B.a5f=new A.cm(B.a68,["d","ccc","cccc","LLL","LLLL","L","M/d","EEE, M/d","LLL","MMM d","EEE, MMM d","LLLL","MMMM d","EEEE, MMMM d","QQQ","QQQQ","y","M/y","M/d/y","EEE, M/d/y","MMM y","MMM d, y","EEE, MMM d, y","MMMM y","MMMM d, y","EEEE, MMMM d, y","QQQ y","QQQQ y","HH","HH:mm","HH:mm:ss","h\u202fa","h:mm\u202fa","h:mm:ss\u202fa","h:mm\u202fa v","h:mm\u202fa z","h\u202fa z","m","mm:ss","s","v","z","zzzz","ZZZZ"],t.li)
+B.a6m={"iso_8859-1:1987":0,"iso-ir-100":1,"iso_8859-1":2,"iso-8859-1":3,latin1:4,l1:5,ibm819:6,cp819:7,csisolatin1:8,"iso-ir-6":9,"ansi_x3.4-1968":10,"ansi_x3.4-1986":11,"iso_646.irv:1991":12,"iso646-us":13,"us-ascii":14,us:15,ibm367:16,cp367:17,csascii:18,ascii:19,csutf8:20,"utf-8":21}
+B.a5g=new A.cm(B.a6m,[B.cI,B.cI,B.cI,B.cI,B.cI,B.cI,B.cI,B.cI,B.cI,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.cH,B.a2,B.a2],A.ae("cm<k,qz>"))
+B.a6p={type:0}
+B.a5h=new A.cm(B.a6p,["line"],t.li)
 B.CM=new A.cm(B.bc,[],A.ae("cm<v,JV>"))
 B.lQ=new A.cm(B.bc,[],A.ae("cm<I6,c6>"))
-B.arU=new A.cm(B.bc,[],A.ae("cm<k,cq>"))
+B.arW=new A.cm(B.bc,[],A.ae("cm<k,cq>"))
 B.CI=new A.cm(B.bc,[],A.ae("cm<k,q<k>>"))
-B.a5l=new A.cm(B.bc,[],A.ae("cm<k,u>"))
-B.a5h=new A.cm(B.bc,[],t.eL)
+B.a5m=new A.cm(B.bc,[],A.ae("cm<k,u>"))
+B.a5i=new A.cm(B.bc,[],t.eL)
 B.f8=new A.cm(B.bc,[],A.ae("cm<k,@>"))
 B.j_=new A.cm(B.bc,[],A.ae("cm<k,v?>"))
 B.CL=new A.cm(B.bc,[],A.ae("cm<k,+folders,items(o,o)>"))
 B.CK=new A.cm(B.bc,[],A.ae("cm<TN,@>"))
-B.a5i=new A.cm(B.bc,[],A.ae("cm<jL,e8>"))
+B.a5j=new A.cm(B.bc,[],A.ae("cm<jL,e8>"))
 B.CJ=new A.cm(B.bc,[],A.ae("cm<jL,B0<e8>>"))
-B.a5j=new A.cm(B.bc,[],A.ae("cm<cn,n3>"))
-B.a5k=new A.cm(B.bc,[],A.ae("cm<h9,q<k>>"))
+B.a5k=new A.cm(B.bc,[],A.ae("cm<cn,n3>"))
+B.a5l=new A.cm(B.bc,[],A.ae("cm<h9,q<k>>"))
 B.lP=new A.cm(B.bc,[],A.ae("cm<ep<k7>?,q<jG>>"))
 B.Wj=s([42,null,null,8589935146],t.Z)
 B.Wk=s([43,null,null,8589935147],t.Z)
@@ -163606,62 +163615,62 @@ B.WB=s([54,null,null,8589935158],t.Z)
 B.WC=s([55,null,null,8589935159],t.Z)
 B.WD=s([56,null,null,8589935160],t.Z)
 B.WF=s([57,null,null,8589935161],t.Z)
-B.ZU=s([8589934852,8589934852,8589934853,null],t.Z)
+B.ZV=s([8589934852,8589934852,8589934853,null],t.Z)
 B.W8=s([4294967555,null,4294967555,null],t.Z)
 B.W9=s([4294968065,null,null,8589935154],t.Z)
 B.Wa=s([4294968066,null,null,8589935156],t.Z)
 B.Wb=s([4294968067,null,null,8589935158],t.Z)
 B.Wc=s([4294968068,null,null,8589935160],t.Z)
 B.Wh=s([4294968321,null,null,8589935157],t.Z)
-B.ZV=s([8589934848,8589934848,8589934849,null],t.Z)
+B.ZW=s([8589934848,8589934848,8589934849,null],t.Z)
 B.W7=s([4294967423,null,null,8589935150],t.Z)
 B.Wd=s([4294968069,null,null,8589935153],t.Z)
 B.W6=s([4294967309,null,null,8589935117],t.Z)
 B.We=s([4294968070,null,null,8589935159],t.Z)
 B.Wi=s([4294968327,null,null,8589935152],t.Z)
-B.ZW=s([8589934854,8589934854,8589934855,null],t.Z)
+B.ZX=s([8589934854,8589934854,8589934855,null],t.Z)
 B.Wf=s([4294968071,null,null,8589935155],t.Z)
 B.Wg=s([4294968072,null,null,8589935161],t.Z)
-B.ZX=s([8589934850,8589934850,8589934851,null],t.Z)
-B.CN=new A.ef(["*",B.Wj,"+",B.Wk,"-",B.Wm,".",B.Wn,"/",B.Wo,"0",B.Wp,"1",B.Wq,"2",B.Wx,"3",B.Wy,"4",B.Wz,"5",B.WA,"6",B.WB,"7",B.WC,"8",B.WD,"9",B.WF,"Alt",B.ZU,"AltGraph",B.W8,"ArrowDown",B.W9,"ArrowLeft",B.Wa,"ArrowRight",B.Wb,"ArrowUp",B.Wc,"Clear",B.Wh,"Control",B.ZV,"Delete",B.W7,"End",B.Wd,"Enter",B.W6,"Home",B.We,"Insert",B.Wi,"Meta",B.ZW,"PageDown",B.Wf,"PageUp",B.Wg,"Shift",B.ZX],A.ae("ef<k,q<o?>>"))
+B.ZY=s([8589934850,8589934850,8589934851,null],t.Z)
+B.CN=new A.ef(["*",B.Wj,"+",B.Wk,"-",B.Wm,".",B.Wn,"/",B.Wo,"0",B.Wp,"1",B.Wq,"2",B.Wx,"3",B.Wy,"4",B.Wz,"5",B.WA,"6",B.WB,"7",B.WC,"8",B.WD,"9",B.WF,"Alt",B.ZV,"AltGraph",B.W8,"ArrowDown",B.W9,"ArrowLeft",B.Wa,"ArrowRight",B.Wb,"ArrowUp",B.Wc,"Clear",B.Wh,"Control",B.ZW,"Delete",B.W7,"End",B.Wd,"Enter",B.W6,"Home",B.We,"Insert",B.Wi,"Meta",B.ZX,"PageDown",B.Wf,"PageUp",B.Wg,"Shift",B.ZY],A.ae("ef<k,q<o?>>"))
 B.WE=s([B.xL,null,null,B.Cr],t.J)
-B.a0O=s([B.Cd,null,null,B.Cs],t.J)
-B.Yk=s([B.Ce,null,null,B.Ct],t.J)
-B.a_0=s([B.Cf,null,null,B.f3],t.J)
+B.a0P=s([B.Cd,null,null,B.Cs],t.J)
+B.Yj=s([B.Ce,null,null,B.Ct],t.J)
+B.a_1=s([B.Cf,null,null,B.f3],t.J)
 B.Vz=s([B.Cg,null,null,B.Cu],t.J)
-B.a26=s([B.Ch,null,null,B.pU],t.J)
-B.a1w=s([B.Ci,null,null,B.iW],t.J)
+B.a27=s([B.Ch,null,null,B.pU],t.J)
+B.a1x=s([B.Ci,null,null,B.iW],t.J)
 B.WV=s([B.Cj,null,null,B.f4],t.J)
-B.a2z=s([B.Ck,null,null,B.iX],t.J)
-B.a1s=s([B.Cl,null,null,B.f5],t.J)
+B.a2A=s([B.Ck,null,null,B.iX],t.J)
+B.a1t=s([B.Cl,null,null,B.f5],t.J)
 B.WR=s([B.Cm,null,null,B.pV],t.J)
 B.VQ=s([B.Cn,null,null,B.f6],t.J)
 B.Xq=s([B.Co,null,null,B.iY],t.J)
-B.a0T=s([B.Cp,null,null,B.f7],t.J)
-B.a11=s([B.Cq,null,null,B.iZ],t.J)
+B.a0U=s([B.Cp,null,null,B.f7],t.J)
+B.a12=s([B.Cq,null,null,B.iZ],t.J)
 B.X6=s([B.hh,B.hh,B.iU,null],t.J)
-B.a27=s([B.lK,null,B.lK,null],t.J)
+B.a28=s([B.lK,null,B.lK,null],t.J)
 B.Z6=s([B.dy,null,null,B.f4],t.J)
 B.Z7=s([B.d9,null,null,B.f5],t.J)
 B.Z8=s([B.da,null,null,B.f6],t.J)
-B.a2p=s([B.dz,null,null,B.f7],t.J)
-B.a1n=s([B.pP,null,null,B.pV],t.J)
+B.a2q=s([B.dz,null,null,B.f7],t.J)
+B.a1o=s([B.pP,null,null,B.pV],t.J)
 B.X7=s([B.cQ,B.cQ,B.db,null],t.J)
-B.a_D=s([B.bU,null,null,B.f3],t.J)
+B.a_E=s([B.bU,null,null,B.f3],t.J)
 B.Z9=s([B.f1,null,null,B.iW],t.J)
 B.WM=s([B.iO,null,null,B.lO],t.J)
 B.Za=s([B.f2,null,null,B.iY],t.J)
-B.a1o=s([B.iT,null,null,B.pU],t.J)
+B.a1p=s([B.iT,null,null,B.pU],t.J)
 B.X8=s([B.iV,B.iV,B.lN,null],t.J)
 B.Zb=s([B.iR,null,null,B.iX],t.J)
-B.a04=s([B.iS,null,null,B.iZ],t.J)
+B.a05=s([B.iS,null,null,B.iZ],t.J)
 B.X9=s([B.cR,B.cR,B.dc,null],t.J)
-B.a5m=new A.ef(["*",B.WE,"+",B.a0O,"-",B.Yk,".",B.a_0,"/",B.Vz,"0",B.a26,"1",B.a1w,"2",B.WV,"3",B.a2z,"4",B.a1s,"5",B.WR,"6",B.VQ,"7",B.Xq,"8",B.a0T,"9",B.a11,"Alt",B.X6,"AltGraph",B.a27,"ArrowDown",B.Z6,"ArrowLeft",B.Z7,"ArrowRight",B.Z8,"ArrowUp",B.a2p,"Clear",B.a1n,"Control",B.X7,"Delete",B.a_D,"End",B.Z9,"Enter",B.WM,"Home",B.Za,"Insert",B.a1o,"Meta",B.X8,"PageDown",B.Zb,"PageUp",B.a04,"Shift",B.X9],A.ae("ef<k,q<y?>>"))
-B.a69={".aac":0,".mp3":1,".ogg":2,".opus":3,".wav":4,".weba":5,".mp4":6,".m4a":7,".aif":8,".aifc":9,".aiff":10,".m3u":11}
-B.a5n=new A.cm(B.a69,["audio/aac","audio/mpeg","audio/ogg","audio/opus","audio/wav","audio/webm","audio/mp4","audio/mp4","audio/x-aiff","audio/x-aiff","audio/x-aiff","audio/x-mpegurl"],t.li)
-B.a6e={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
-B.q_=new A.cm(B.a6e,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
-B.a6a={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
+B.a5n=new A.ef(["*",B.WE,"+",B.a0P,"-",B.Yj,".",B.a_1,"/",B.Vz,"0",B.a27,"1",B.a1x,"2",B.WV,"3",B.a2A,"4",B.a1t,"5",B.WR,"6",B.VQ,"7",B.Xq,"8",B.a0U,"9",B.a12,"Alt",B.X6,"AltGraph",B.a28,"ArrowDown",B.Z6,"ArrowLeft",B.Z7,"ArrowRight",B.Z8,"ArrowUp",B.a2q,"Clear",B.a1o,"Control",B.X7,"Delete",B.a_E,"End",B.Z9,"Enter",B.WM,"Home",B.Za,"Insert",B.a1p,"Meta",B.X8,"PageDown",B.Zb,"PageUp",B.a05,"Shift",B.X9],A.ae("ef<k,q<y?>>"))
+B.a6a={".aac":0,".mp3":1,".ogg":2,".opus":3,".wav":4,".weba":5,".mp4":6,".m4a":7,".aif":8,".aifc":9,".aiff":10,".m3u":11}
+B.a5o=new A.cm(B.a6a,["audio/aac","audio/mpeg","audio/ogg","audio/opus","audio/wav","audio/webm","audio/mp4","audio/mp4","audio/x-aiff","audio/x-aiff","audio/x-aiff","audio/x-mpegurl"],t.li)
+B.a6f={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
+B.q_=new A.cm(B.a6f,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
+B.a6b={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.Gg=new A.O(458907)
 B.FX=new A.O(458873)
 B.hp=new A.O(458978)
@@ -163892,170 +163901,170 @@ B.DF=new A.O(22)
 B.FY=new A.O(458874)
 B.Gt=new A.O(65667)
 B.GW=new A.O(786994)
-B.CO=new A.cm(B.a6a,[B.Gg,B.FX,B.hp,B.hr,B.Fm,B.Fl,B.Fk,B.Fn,B.G4,B.G2,B.G3,B.EX,B.EU,B.EN,B.ES,B.ET,B.Gw,B.Gv,B.GR,B.GV,B.GS,B.GQ,B.GU,B.GP,B.GT,B.fc,B.EY,B.FF,B.hn,B.jb,B.G9,B.G_,B.FZ,B.Fh,B.EL,B.EC,B.ED,B.EE,B.EF,B.EG,B.EH,B.EI,B.EJ,B.EK,B.Gu,B.GF,B.Fi,B.EM,B.ER,B.qk,B.qk,B.F0,B.F9,B.Fa,B.Fb,B.FI,B.FJ,B.FK,B.FL,B.FM,B.FN,B.FO,B.F1,B.FP,B.FQ,B.FR,B.FS,B.FT,B.F2,B.F3,B.F4,B.F5,B.F6,B.F7,B.F8,B.G1,B.ja,B.DC,B.DI,B.DR,B.DS,B.DT,B.DU,B.DV,B.DW,B.DX,B.DJ,B.DK,B.DL,B.DM,B.DN,B.DO,B.DP,B.DQ,B.DY,B.DZ,B.E_,B.E0,B.E1,B.E2,B.E3,B.E4,B.E5,B.E6,B.E7,B.E8,B.E9,B.Ea,B.Eb,B.FV,B.Ff,B.DA,B.Fe,B.FE,B.G6,B.G8,B.G7,B.Ec,B.Ed,B.Ee,B.Ef,B.Eg,B.Eh,B.Ei,B.Ej,B.Ek,B.El,B.Em,B.En,B.Eo,B.Ep,B.Eq,B.Er,B.Es,B.Et,B.Eu,B.Ev,B.Ew,B.Ex,B.Ey,B.Ez,B.EA,B.EB,B.H_,B.Gb,B.Gc,B.Gd,B.Ge,B.Gf,B.GK,B.GJ,B.GO,B.GL,B.GI,B.GN,B.GY,B.GX,B.GZ,B.GA,B.Gy,B.Gx,B.GG,B.Gz,B.GB,B.GH,B.GE,B.GC,B.GD,B.hq,B.jd,B.DH,B.EQ,B.Ga,B.m5,B.FC,B.Ft,B.Fu,B.Fv,B.Fw,B.Fx,B.Fy,B.Fz,B.FA,B.FB,B.Fr,B.Gk,B.Gq,B.Gr,B.G5,B.FD,B.Fo,B.Fs,B.FH,B.Go,B.Gn,B.Gm,B.Gl,B.Gp,B.Fp,B.Gi,B.Gj,B.Fq,B.FU,B.Fj,B.Fg,B.G0,B.Fd,B.EZ,B.FG,B.Fc,B.DG,B.Gh,B.EW,B.DE,B.m4,B.FW,B.GM,B.EV,B.ho,B.jc,B.H0,B.F_,B.Gs,B.EP,B.DB,B.DD,B.EO,B.DF,B.FY,B.Gt,B.GW],A.ae("cm<k,O>"))
-B.agZ=new A.bq("OneNote",null,null,null,null,null,null,null)
-B.a7j=new A.ac(B.iE,B.agZ,null)
-B.ahS=new A.bq("Google Docs",null,null,null,null,null,null,null)
-B.a7l=new A.ac(B.iE,B.ahS,null)
-B.a5p=new A.ef([B.cc,B.a7j,B.fL,B.a7l],A.ae("ef<qo,m>"))
-B.a6q={"deleteBackward:":0,"deleteWordBackward:":1,"deleteToBeginningOfLine:":2,"deleteForward:":3,"deleteWordForward:":4,"deleteToEndOfLine:":5,"moveLeft:":6,"moveRight:":7,"moveForward:":8,"moveBackward:":9,"moveUp:":10,"moveDown:":11,"moveLeftAndModifySelection:":12,"moveRightAndModifySelection:":13,"moveUpAndModifySelection:":14,"moveDownAndModifySelection:":15,"moveWordLeft:":16,"moveWordRight:":17,"moveToBeginningOfParagraph:":18,"moveToEndOfParagraph:":19,"moveWordLeftAndModifySelection:":20,"moveWordRightAndModifySelection:":21,"moveParagraphBackwardAndModifySelection:":22,"moveParagraphForwardAndModifySelection:":23,"moveToLeftEndOfLine:":24,"moveToRightEndOfLine:":25,"moveToBeginningOfDocument:":26,"moveToEndOfDocument:":27,"moveToLeftEndOfLineAndModifySelection:":28,"moveToRightEndOfLineAndModifySelection:":29,"moveToBeginningOfDocumentAndModifySelection:":30,"moveToEndOfDocumentAndModifySelection:":31,"transpose:":32,"scrollToBeginningOfDocument:":33,"scrollToEndOfDocument:":34,"scrollPageUp:":35,"scrollPageDown:":36,"pageUpAndModifySelection:":37,"pageDownAndModifySelection:":38,"cancelOperation:":39,"insertTab:":40,"insertBacktab:":41}
+B.CO=new A.cm(B.a6b,[B.Gg,B.FX,B.hp,B.hr,B.Fm,B.Fl,B.Fk,B.Fn,B.G4,B.G2,B.G3,B.EX,B.EU,B.EN,B.ES,B.ET,B.Gw,B.Gv,B.GR,B.GV,B.GS,B.GQ,B.GU,B.GP,B.GT,B.fc,B.EY,B.FF,B.hn,B.jb,B.G9,B.G_,B.FZ,B.Fh,B.EL,B.EC,B.ED,B.EE,B.EF,B.EG,B.EH,B.EI,B.EJ,B.EK,B.Gu,B.GF,B.Fi,B.EM,B.ER,B.qk,B.qk,B.F0,B.F9,B.Fa,B.Fb,B.FI,B.FJ,B.FK,B.FL,B.FM,B.FN,B.FO,B.F1,B.FP,B.FQ,B.FR,B.FS,B.FT,B.F2,B.F3,B.F4,B.F5,B.F6,B.F7,B.F8,B.G1,B.ja,B.DC,B.DI,B.DR,B.DS,B.DT,B.DU,B.DV,B.DW,B.DX,B.DJ,B.DK,B.DL,B.DM,B.DN,B.DO,B.DP,B.DQ,B.DY,B.DZ,B.E_,B.E0,B.E1,B.E2,B.E3,B.E4,B.E5,B.E6,B.E7,B.E8,B.E9,B.Ea,B.Eb,B.FV,B.Ff,B.DA,B.Fe,B.FE,B.G6,B.G8,B.G7,B.Ec,B.Ed,B.Ee,B.Ef,B.Eg,B.Eh,B.Ei,B.Ej,B.Ek,B.El,B.Em,B.En,B.Eo,B.Ep,B.Eq,B.Er,B.Es,B.Et,B.Eu,B.Ev,B.Ew,B.Ex,B.Ey,B.Ez,B.EA,B.EB,B.H_,B.Gb,B.Gc,B.Gd,B.Ge,B.Gf,B.GK,B.GJ,B.GO,B.GL,B.GI,B.GN,B.GY,B.GX,B.GZ,B.GA,B.Gy,B.Gx,B.GG,B.Gz,B.GB,B.GH,B.GE,B.GC,B.GD,B.hq,B.jd,B.DH,B.EQ,B.Ga,B.m5,B.FC,B.Ft,B.Fu,B.Fv,B.Fw,B.Fx,B.Fy,B.Fz,B.FA,B.FB,B.Fr,B.Gk,B.Gq,B.Gr,B.G5,B.FD,B.Fo,B.Fs,B.FH,B.Go,B.Gn,B.Gm,B.Gl,B.Gp,B.Fp,B.Gi,B.Gj,B.Fq,B.FU,B.Fj,B.Fg,B.G0,B.Fd,B.EZ,B.FG,B.Fc,B.DG,B.Gh,B.EW,B.DE,B.m4,B.FW,B.GM,B.EV,B.ho,B.jc,B.H0,B.F_,B.Gs,B.EP,B.DB,B.DD,B.EO,B.DF,B.FY,B.Gt,B.GW],A.ae("cm<k,O>"))
+B.ah_=new A.bq("OneNote",null,null,null,null,null,null,null)
+B.a7k=new A.ac(B.iE,B.ah_,null)
+B.ahT=new A.bq("Google Docs",null,null,null,null,null,null,null)
+B.a7m=new A.ac(B.iE,B.ahT,null)
+B.a5q=new A.ef([B.cc,B.a7k,B.fL,B.a7m],A.ae("ef<qo,m>"))
+B.a6r={"deleteBackward:":0,"deleteWordBackward:":1,"deleteToBeginningOfLine:":2,"deleteForward:":3,"deleteWordForward:":4,"deleteToEndOfLine:":5,"moveLeft:":6,"moveRight:":7,"moveForward:":8,"moveBackward:":9,"moveUp:":10,"moveDown:":11,"moveLeftAndModifySelection:":12,"moveRightAndModifySelection:":13,"moveUpAndModifySelection:":14,"moveDownAndModifySelection:":15,"moveWordLeft:":16,"moveWordRight:":17,"moveToBeginningOfParagraph:":18,"moveToEndOfParagraph:":19,"moveWordLeftAndModifySelection:":20,"moveWordRightAndModifySelection:":21,"moveParagraphBackwardAndModifySelection:":22,"moveParagraphForwardAndModifySelection:":23,"moveToLeftEndOfLine:":24,"moveToRightEndOfLine:":25,"moveToBeginningOfDocument:":26,"moveToEndOfDocument:":27,"moveToLeftEndOfLineAndModifySelection:":28,"moveToRightEndOfLineAndModifySelection:":29,"moveToBeginningOfDocumentAndModifySelection:":30,"moveToEndOfDocumentAndModifySelection:":31,"transpose:":32,"scrollToBeginningOfDocument:":33,"scrollToEndOfDocument:":34,"scrollPageUp:":35,"scrollPageDown:":36,"pageUpAndModifySelection:":37,"pageDownAndModifySelection:":38,"cancelOperation:":39,"insertTab:":40,"insertBacktab:":41}
 B.HA=new A.uQ(!1)
 B.HB=new A.uQ(!0)
-B.a5q=new A.cm(B.a6q,[B.oq,B.ot,B.or,B.iv,B.iw,B.os,B.h1,B.h2,B.h2,B.h1,B.h5,B.h6,B.l8,B.l9,B.iG,B.iH,B.lc,B.ld,B.eS,B.eT,B.w6,B.w7,B.w2,B.w3,B.eS,B.eT,B.h3,B.h4,B.vT,B.vU,B.pg,B.ph,B.tZ,B.HA,B.HB,B.qE,B.mr,B.le,B.lf,B.tK,B.tR,B.tT],A.ae("cm<k,c6>"))
+B.a5r=new A.cm(B.a6r,[B.oq,B.ot,B.or,B.iv,B.iw,B.os,B.h1,B.h2,B.h2,B.h1,B.h5,B.h6,B.l8,B.l9,B.iG,B.iH,B.lc,B.ld,B.eS,B.eT,B.w6,B.w7,B.w2,B.w3,B.eS,B.eT,B.h3,B.h4,B.vT,B.vU,B.pg,B.ph,B.tZ,B.HA,B.HB,B.qE,B.mr,B.le,B.lf,B.tK,B.tR,B.tT],A.ae("cm<k,c6>"))
 B.Mx=new A.nn(1,"aacEld")
 B.My=new A.nn(2,"aacHe")
 B.Mz=new A.nn(3,"amrNb")
 B.MA=new A.nn(4,"amrWb")
 B.MB=new A.nn(6,"flac")
-B.Yt=s(["audio/mp4;codecs=mp4a","audio/mp4;codecs=mp4a.40.2","audio/aac"],t.s)
+B.Ys=s(["audio/mp4;codecs=mp4a","audio/mp4;codecs=mp4a.40.2","audio/aac"],t.s)
 B.Zx=s(["audio/mp4;codecs=mp4a","audio/mp4;codecs=mp4a.40.23","audio/mp4;codecs=mp4a.40.39","audio/aac"],t.s)
-B.a_5=s(["audio/mp4;codecs=mp4a","audio/mp4;codecs=mp4a.40.29","audio/aac"],t.s)
-B.a_m=s(["audio/AMR"],t.s)
-B.a02=s(["audio/AMR-WB"],t.s)
+B.a_6=s(["audio/mp4;codecs=mp4a","audio/mp4;codecs=mp4a.40.29","audio/aac"],t.s)
+B.a_n=s(["audio/AMR"],t.s)
+B.a03=s(["audio/AMR-WB"],t.s)
 B.Wr=s(["audio/webm; codecs=opus","audio/opus; codecs=opus","audio/opus"],t.s)
 B.VM=s(["audio/flac","audio/x-flac"],t.s)
-B.a2e=s(["audio/wav","audio/wav; codecs=1","audio/vnd.wave; codec=1"],t.s)
+B.a2f=s(["audio/wav","audio/wav; codecs=1","audio/vnd.wave; codec=1"],t.s)
 B.Zy=s(["audio/pcm","audio/webm; codecs=pcm"],t.s)
-B.a5r=new A.ef([B.tm,B.Yt,B.Mx,B.Zx,B.My,B.a_5,B.Mz,B.a_m,B.MA,B.a02,B.tn,B.Wr,B.MB,B.VM,B.to,B.a2e,B.ny,B.Zy],A.ae("ef<nn,q<k>>"))
-B.a6h={BU:0,DD:1,FX:2,TP:3,YD:4,ZR:5}
-B.e0=new A.cm(B.a6h,["MM","DE","FR","TL","YE","CD"],t.li)
-B.a7r=new A.O(458752)
-B.a7s=new A.O(458753)
-B.a7t=new A.O(458754)
-B.a7u=new A.O(458755)
-B.a7v=new A.O(458967)
-B.a7w=new A.O(786528)
-B.a7x=new A.O(786529)
-B.a7y=new A.O(786546)
-B.a7z=new A.O(786547)
-B.a7A=new A.O(786548)
-B.a7B=new A.O(786549)
-B.a7C=new A.O(786553)
-B.a7D=new A.O(786554)
-B.a7E=new A.O(786563)
-B.a7F=new A.O(786572)
-B.a7G=new A.O(786573)
-B.a7H=new A.O(786580)
-B.a7I=new A.O(786588)
-B.a7J=new A.O(786589)
-B.a7K=new A.O(786639)
-B.a7L=new A.O(786661)
-B.a7M=new A.O(786820)
-B.a7N=new A.O(786822)
-B.a7O=new A.O(786829)
-B.a7P=new A.O(786830)
-B.a7Q=new A.O(786838)
-B.a7R=new A.O(786844)
-B.a7S=new A.O(786846)
-B.a7T=new A.O(786855)
-B.a7U=new A.O(786859)
-B.a7V=new A.O(786862)
-B.a7W=new A.O(786871)
-B.a7X=new A.O(786945)
-B.a7Y=new A.O(786947)
-B.a7Z=new A.O(786951)
-B.a8_=new A.O(786952)
-B.a80=new A.O(786989)
-B.a81=new A.O(786990)
-B.a82=new A.O(787065)
-B.a5s=new A.ef([16,B.DA,17,B.DB,18,B.ja,19,B.DC,20,B.DD,21,B.DE,22,B.DF,23,B.DG,24,B.DH,65666,B.Gs,65667,B.Gt,65717,B.Gu,392961,B.DI,392962,B.DJ,392963,B.DK,392964,B.DL,392965,B.DM,392966,B.DN,392967,B.DO,392968,B.DP,392969,B.DQ,392970,B.DR,392971,B.DS,392972,B.DT,392973,B.DU,392974,B.DV,392975,B.DW,392976,B.DX,392977,B.DY,392978,B.DZ,392979,B.E_,392980,B.E0,392981,B.E1,392982,B.E2,392983,B.E3,392984,B.E4,392985,B.E5,392986,B.E6,392987,B.E7,392988,B.E8,392989,B.E9,392990,B.Ea,392991,B.Eb,458752,B.a7r,458753,B.a7s,458754,B.a7t,458755,B.a7u,458756,B.Ec,458757,B.Ed,458758,B.Ee,458759,B.Ef,458760,B.Eg,458761,B.Eh,458762,B.Ei,458763,B.Ej,458764,B.Ek,458765,B.El,458766,B.Em,458767,B.En,458768,B.Eo,458769,B.Ep,458770,B.Eq,458771,B.Er,458772,B.Es,458773,B.Et,458774,B.Eu,458775,B.Ev,458776,B.Ew,458777,B.Ex,458778,B.Ey,458779,B.Ez,458780,B.EA,458781,B.EB,458782,B.EC,458783,B.ED,458784,B.EE,458785,B.EF,458786,B.EG,458787,B.EH,458788,B.EI,458789,B.EJ,458790,B.EK,458791,B.EL,458792,B.EM,458793,B.qk,458794,B.EN,458795,B.EO,458796,B.EP,458797,B.EQ,458798,B.ER,458799,B.ES,458800,B.ET,458801,B.EU,458803,B.EV,458804,B.EW,458805,B.EX,458806,B.EY,458807,B.EZ,458808,B.F_,458809,B.fc,458810,B.F0,458811,B.F1,458812,B.F2,458813,B.F3,458814,B.F4,458815,B.F5,458816,B.F6,458817,B.F7,458818,B.F8,458819,B.F9,458820,B.Fa,458821,B.Fb,458822,B.Fc,458823,B.m4,458824,B.Fd,458825,B.Fe,458826,B.Ff,458827,B.Fg,458828,B.Fh,458829,B.Fi,458830,B.Fj,458831,B.Fk,458832,B.Fl,458833,B.Fm,458834,B.Fn,458835,B.m5,458836,B.Fo,458837,B.Fp,458838,B.Fq,458839,B.Fr,458840,B.Fs,458841,B.Ft,458842,B.Fu,458843,B.Fv,458844,B.Fw,458845,B.Fx,458846,B.Fy,458847,B.Fz,458848,B.FA,458849,B.FB,458850,B.FC,458851,B.FD,458852,B.FE,458853,B.FF,458854,B.FG,458855,B.FH,458856,B.FI,458857,B.FJ,458858,B.FK,458859,B.FL,458860,B.FM,458861,B.FN,458862,B.FO,458863,B.FP,458864,B.FQ,458865,B.FR,458866,B.FS,458867,B.FT,458868,B.FU,458869,B.FV,458871,B.FW,458873,B.FX,458874,B.FY,458875,B.FZ,458876,B.G_,458877,B.G0,458878,B.G1,458879,B.G2,458880,B.G3,458881,B.G4,458885,B.G5,458887,B.G6,458888,B.G7,458889,B.G8,458890,B.G9,458891,B.Ga,458896,B.Gb,458897,B.Gc,458898,B.Gd,458899,B.Ge,458900,B.Gf,458907,B.Gg,458915,B.Gh,458934,B.Gi,458935,B.Gj,458939,B.Gk,458960,B.Gl,458961,B.Gm,458962,B.Gn,458963,B.Go,458964,B.Gp,458967,B.a7v,458968,B.Gq,458969,B.Gr,458976,B.hn,458977,B.ho,458978,B.hp,458979,B.hq,458980,B.jb,458981,B.jc,458982,B.hr,458983,B.jd,786528,B.a7w,786529,B.a7x,786543,B.Gv,786544,B.Gw,786546,B.a7y,786547,B.a7z,786548,B.a7A,786549,B.a7B,786553,B.a7C,786554,B.a7D,786563,B.a7E,786572,B.a7F,786573,B.a7G,786580,B.a7H,786588,B.a7I,786589,B.a7J,786608,B.Gx,786609,B.Gy,786610,B.Gz,786611,B.GA,786612,B.GB,786613,B.GC,786614,B.GD,786615,B.GE,786616,B.GF,786637,B.GG,786639,B.a7K,786661,B.a7L,786819,B.GH,786820,B.a7M,786822,B.a7N,786826,B.GI,786829,B.a7O,786830,B.a7P,786834,B.GJ,786836,B.GK,786838,B.a7Q,786844,B.a7R,786846,B.a7S,786847,B.GL,786850,B.GM,786855,B.a7T,786859,B.a7U,786862,B.a7V,786865,B.GN,786871,B.a7W,786891,B.GO,786945,B.a7X,786947,B.a7Y,786951,B.a7Z,786952,B.a8_,786977,B.GP,786979,B.GQ,786980,B.GR,786981,B.GS,786982,B.GT,786983,B.GU,786986,B.GV,786989,B.a80,786990,B.a81,786994,B.GW,787065,B.a82,787081,B.GX,787083,B.GY,787084,B.GZ,787101,B.H_,787103,B.H0],A.ae("ef<o,O>"))
-B.a5t=new A.Qk(null,null,null,null,null,null,null,null)
+B.a5s=new A.ef([B.tm,B.Ys,B.Mx,B.Zx,B.My,B.a_6,B.Mz,B.a_n,B.MA,B.a03,B.tn,B.Wr,B.MB,B.VM,B.to,B.a2f,B.ny,B.Zy],A.ae("ef<nn,q<k>>"))
+B.a6i={BU:0,DD:1,FX:2,TP:3,YD:4,ZR:5}
+B.e0=new A.cm(B.a6i,["MM","DE","FR","TL","YE","CD"],t.li)
+B.a7s=new A.O(458752)
+B.a7t=new A.O(458753)
+B.a7u=new A.O(458754)
+B.a7v=new A.O(458755)
+B.a7w=new A.O(458967)
+B.a7x=new A.O(786528)
+B.a7y=new A.O(786529)
+B.a7z=new A.O(786546)
+B.a7A=new A.O(786547)
+B.a7B=new A.O(786548)
+B.a7C=new A.O(786549)
+B.a7D=new A.O(786553)
+B.a7E=new A.O(786554)
+B.a7F=new A.O(786563)
+B.a7G=new A.O(786572)
+B.a7H=new A.O(786573)
+B.a7I=new A.O(786580)
+B.a7J=new A.O(786588)
+B.a7K=new A.O(786589)
+B.a7L=new A.O(786639)
+B.a7M=new A.O(786661)
+B.a7N=new A.O(786820)
+B.a7O=new A.O(786822)
+B.a7P=new A.O(786829)
+B.a7Q=new A.O(786830)
+B.a7R=new A.O(786838)
+B.a7S=new A.O(786844)
+B.a7T=new A.O(786846)
+B.a7U=new A.O(786855)
+B.a7V=new A.O(786859)
+B.a7W=new A.O(786862)
+B.a7X=new A.O(786871)
+B.a7Y=new A.O(786945)
+B.a7Z=new A.O(786947)
+B.a8_=new A.O(786951)
+B.a80=new A.O(786952)
+B.a81=new A.O(786989)
+B.a82=new A.O(786990)
+B.a83=new A.O(787065)
+B.a5t=new A.ef([16,B.DA,17,B.DB,18,B.ja,19,B.DC,20,B.DD,21,B.DE,22,B.DF,23,B.DG,24,B.DH,65666,B.Gs,65667,B.Gt,65717,B.Gu,392961,B.DI,392962,B.DJ,392963,B.DK,392964,B.DL,392965,B.DM,392966,B.DN,392967,B.DO,392968,B.DP,392969,B.DQ,392970,B.DR,392971,B.DS,392972,B.DT,392973,B.DU,392974,B.DV,392975,B.DW,392976,B.DX,392977,B.DY,392978,B.DZ,392979,B.E_,392980,B.E0,392981,B.E1,392982,B.E2,392983,B.E3,392984,B.E4,392985,B.E5,392986,B.E6,392987,B.E7,392988,B.E8,392989,B.E9,392990,B.Ea,392991,B.Eb,458752,B.a7s,458753,B.a7t,458754,B.a7u,458755,B.a7v,458756,B.Ec,458757,B.Ed,458758,B.Ee,458759,B.Ef,458760,B.Eg,458761,B.Eh,458762,B.Ei,458763,B.Ej,458764,B.Ek,458765,B.El,458766,B.Em,458767,B.En,458768,B.Eo,458769,B.Ep,458770,B.Eq,458771,B.Er,458772,B.Es,458773,B.Et,458774,B.Eu,458775,B.Ev,458776,B.Ew,458777,B.Ex,458778,B.Ey,458779,B.Ez,458780,B.EA,458781,B.EB,458782,B.EC,458783,B.ED,458784,B.EE,458785,B.EF,458786,B.EG,458787,B.EH,458788,B.EI,458789,B.EJ,458790,B.EK,458791,B.EL,458792,B.EM,458793,B.qk,458794,B.EN,458795,B.EO,458796,B.EP,458797,B.EQ,458798,B.ER,458799,B.ES,458800,B.ET,458801,B.EU,458803,B.EV,458804,B.EW,458805,B.EX,458806,B.EY,458807,B.EZ,458808,B.F_,458809,B.fc,458810,B.F0,458811,B.F1,458812,B.F2,458813,B.F3,458814,B.F4,458815,B.F5,458816,B.F6,458817,B.F7,458818,B.F8,458819,B.F9,458820,B.Fa,458821,B.Fb,458822,B.Fc,458823,B.m4,458824,B.Fd,458825,B.Fe,458826,B.Ff,458827,B.Fg,458828,B.Fh,458829,B.Fi,458830,B.Fj,458831,B.Fk,458832,B.Fl,458833,B.Fm,458834,B.Fn,458835,B.m5,458836,B.Fo,458837,B.Fp,458838,B.Fq,458839,B.Fr,458840,B.Fs,458841,B.Ft,458842,B.Fu,458843,B.Fv,458844,B.Fw,458845,B.Fx,458846,B.Fy,458847,B.Fz,458848,B.FA,458849,B.FB,458850,B.FC,458851,B.FD,458852,B.FE,458853,B.FF,458854,B.FG,458855,B.FH,458856,B.FI,458857,B.FJ,458858,B.FK,458859,B.FL,458860,B.FM,458861,B.FN,458862,B.FO,458863,B.FP,458864,B.FQ,458865,B.FR,458866,B.FS,458867,B.FT,458868,B.FU,458869,B.FV,458871,B.FW,458873,B.FX,458874,B.FY,458875,B.FZ,458876,B.G_,458877,B.G0,458878,B.G1,458879,B.G2,458880,B.G3,458881,B.G4,458885,B.G5,458887,B.G6,458888,B.G7,458889,B.G8,458890,B.G9,458891,B.Ga,458896,B.Gb,458897,B.Gc,458898,B.Gd,458899,B.Ge,458900,B.Gf,458907,B.Gg,458915,B.Gh,458934,B.Gi,458935,B.Gj,458939,B.Gk,458960,B.Gl,458961,B.Gm,458962,B.Gn,458963,B.Go,458964,B.Gp,458967,B.a7w,458968,B.Gq,458969,B.Gr,458976,B.hn,458977,B.ho,458978,B.hp,458979,B.hq,458980,B.jb,458981,B.jc,458982,B.hr,458983,B.jd,786528,B.a7x,786529,B.a7y,786543,B.Gv,786544,B.Gw,786546,B.a7z,786547,B.a7A,786548,B.a7B,786549,B.a7C,786553,B.a7D,786554,B.a7E,786563,B.a7F,786572,B.a7G,786573,B.a7H,786580,B.a7I,786588,B.a7J,786589,B.a7K,786608,B.Gx,786609,B.Gy,786610,B.Gz,786611,B.GA,786612,B.GB,786613,B.GC,786614,B.GD,786615,B.GE,786616,B.GF,786637,B.GG,786639,B.a7L,786661,B.a7M,786819,B.GH,786820,B.a7N,786822,B.a7O,786826,B.GI,786829,B.a7P,786830,B.a7Q,786834,B.GJ,786836,B.GK,786838,B.a7R,786844,B.a7S,786846,B.a7T,786847,B.GL,786850,B.GM,786855,B.a7U,786859,B.a7V,786862,B.a7W,786865,B.GN,786871,B.a7X,786891,B.GO,786945,B.a7Y,786947,B.a7Z,786951,B.a8_,786952,B.a80,786977,B.GP,786979,B.GQ,786980,B.GR,786981,B.GS,786982,B.GT,786983,B.GU,786986,B.GV,786989,B.a81,786990,B.a82,786994,B.GW,787065,B.a83,787081,B.GX,787083,B.GY,787084,B.GZ,787101,B.H_,787103,B.H0],A.ae("ef<o,O>"))
+B.a5u=new A.Qk(null,null,null,null,null,null,null,null)
 B.PM=new A.T(1,0.39215686274509803,0.7098039215686275,0.9647058823529412,B.l)
 B.PV=new A.T(1,0.25882352941176473,0.6470588235294118,0.9607843137254902,B.l)
 B.Qm=new A.T(1,0.08235294117647059,0.396078431372549,0.7529411764705882,B.l)
 B.Q2=new A.T(1,0.050980392156862744,0.2784313725490196,0.6313725490196078,B.l)
-B.a5o=new A.ef([50,B.ug,100,B.uF,200,B.ur,300,B.PM,400,B.PV,500,B.nZ,600,B.ux,700,B.uL,800,B.Qm,900,B.Q2],A.ae("ef<o,T>"))
-B.q0=new A.a7N(B.a5o,1,0.12941176470588237,0.5882352941176471,0.9529411764705882,B.l)
-B.a5u=new A.Bs(0,"padded")
+B.a5p=new A.ef([50,B.ug,100,B.uF,200,B.ur,300,B.PM,400,B.PV,500,B.nZ,600,B.ux,700,B.uL,800,B.Qm,900,B.Q2],A.ae("ef<o,T>"))
+B.q0=new A.a7N(B.a5p,1,0.12941176470588237,0.5882352941176471,0.9529411764705882,B.l)
+B.a5v=new A.Bs(0,"padded")
 B.CP=new A.Bs(1,"shrinkWrap")
 B.lR=new A.Bt(0,"canvas")
 B.j0=new A.Bt(1,"card")
 B.CQ=new A.Bt(2,"circle")
 B.q1=new A.Bt(3,"button")
 B.lS=new A.Bt(4,"transparency")
-B.a5v=new A.aM1(2,"truncateAfterCompositionEnds")
-B.a5w=new A.a7V(null,null)
-B.a5x=new A.Qp(null)
-B.a5y=new A.GM(null,null)
-B.a5z=new A.mz("popRoute",null)
-B.a5A=new A.fD("com.llfbandit.record/messages",B.aG,null)
+B.a5w=new A.aM1(2,"truncateAfterCompositionEnds")
+B.a5x=new A.a7V(null,null)
+B.a5y=new A.Qp(null)
+B.a5z=new A.GM(null,null)
+B.a5A=new A.mz("popRoute",null)
+B.a5B=new A.fD("com.llfbandit.record/messages",B.aG,null)
 B.f9=new A.fD("flutter_tts",B.aG,null)
 B.q5=new A.fD("plugins.flutter.io/shared_preferences",B.aG,null)
 B.D5=new A.fD("plugins.flutter.io/path_provider",B.aG,null)
-B.a5B=new A.fD("com.llfbandit.app_links/messages",B.aG,null)
+B.a5C=new A.fD("com.llfbandit.app_links/messages",B.aG,null)
 B.j3=new A.fD("plugin.csdcorp.com/speech_to_text",B.aG,null)
-B.a5C=new A.fD("plugins.flutter.io/url_launcher",B.aG,null)
+B.a5D=new A.fD("plugins.flutter.io/url_launcher",B.aG,null)
 B.D6=new A.fD("com.ryanheise.audio_session",B.aG,null)
 B.D7=new A.fD("flutter_web_auth_2",B.aG,null)
 B.q6=new A.fD("plugins.it_nomads.com/flutter_secure_storage",B.aG,null)
 B.D8=new A.fD("flutter/platform_views",B.aG,null)
-B.a5D=new A.fD("dev.fluttercommunity.plus/package_info",B.aG,null)
+B.a5E=new A.fD("dev.fluttercommunity.plus/package_info",B.aG,null)
 B.q7=new A.fD("com.ryanheise.just_audio.methods",B.aG,null)
 B.j4=new A.fD("flutter_foreground_task/methods",B.aG,null)
-B.a5E=new A.fD("flutter/service_worker",B.aG,null)
-B.a5F=new A.fD("dev.fluttercommunity.plus/network_info",B.aG,null)
+B.a5F=new A.fD("flutter/service_worker",B.aG,null)
+B.a5G=new A.fD("dev.fluttercommunity.plus/network_info",B.aG,null)
 B.D9=new A.pf(0,"sharedWorkers")
 B.Da=new A.pf(1,"dedicatedWorkers")
-B.a5H=new A.pf(2,"dedicatedWorkersInSharedWorkers")
-B.a5I=new A.pf(3,"dedicatedWorkersCanNest")
+B.a5I=new A.pf(2,"dedicatedWorkersInSharedWorkers")
+B.a5J=new A.pf(3,"dedicatedWorkersCanNest")
 B.Db=new A.pf(4,"fileSystemAccess")
-B.a5J=new A.pf(5,"createSyncAccessHandleReadWriteUnsafe")
+B.a5K=new A.pf(5,"createSyncAccessHandleReadWriteUnsafe")
 B.Dc=new A.pf(6,"indexedDb")
-B.a5K=new A.pf(7,"sharedArrayBuffers")
+B.a5L=new A.pf(7,"sharedArrayBuffers")
 B.fa=new A.a88(0,"latestPointer")
 B.lY=new A.a88(1,"averageBoundaryPointers")
 B.De=new A.BC(0,"clipRect")
 B.Df=new A.BC(1,"clipRRect")
 B.Dg=new A.BC(2,"clipPath")
-B.a5L=new A.BC(3,"transform")
-B.a5M=new A.BC(4,"opacity")
-B.a5X=new A.a8c(0,"push")
+B.a5M=new A.BC(3,"transform")
+B.a5N=new A.BC(4,"opacity")
+B.a5Y=new A.a8c(0,"push")
 B.qd=new A.a8c(3,"go")
 B.Dj=new A.a8d(0,"automatic")
 B.qe=new A.a8d(1,"always")
-B.a5Y=new A.QE(null,null,null,null,null,null,null,null,null,null,null,null)
-B.a5Z=new A.QF(null,null,null,null,null,null,null,null,null,null)
+B.a5Z=new A.QE(null,null,null,null,null,null,null,null,null,null,null,null)
+B.a6_=new A.QF(null,null,null,null,null,null,null,null,null,null)
 B.j5=new A.a8e(0,"traditional")
 B.m_=new A.a8e(1,"directional")
-B.a6_=new A.xe(!0)
-B.a60=new A.QG(null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a61=new A.QI(null)
+B.a60=new A.xe(!0)
+B.a61=new A.QG(null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a62=new A.QI(null)
 B.qf=new A.a8h(null)
 B.Dq=new A.iH(B.m,B.m)
 B.fb=new A.u(0,1)
-B.a6s=new A.u(0,20)
-B.a6t=new A.u(0,26)
-B.a6v=new A.u(0,6)
+B.a6t=new A.u(0,20)
+B.a6u=new A.u(0,26)
+B.a6w=new A.u(0,6)
 B.Dr=new A.u(0,8)
-B.a6w=new A.u(0,-1)
-B.a6x=new A.u(11,-4)
+B.a6x=new A.u(0,-1)
+B.a6y=new A.u(11,-4)
 B.j7=new A.u(1,0)
-B.a6y=new A.u(1,3)
-B.a6z=new A.u(22,0)
-B.a6A=new A.u(3,0)
-B.a6B=new A.u(3,-3)
-B.a6C=new A.u(6,6)
-B.a6D=new A.u(80,80)
-B.a6E=new A.u(0,1.2)
-B.a6H=new A.u(-0.3333333333333333,0)
-B.a6J=new A.u(5,10.5)
-B.a6K=new A.u(1/0,0)
-B.a6M=new A.u(17976931348623157e292,0)
-B.a6P=new A.u(-1,0)
-B.a6Q=new A.u(-3,0)
-B.a6R=new A.u(-3,3)
-B.a6S=new A.u(-3,-3)
+B.a6z=new A.u(1,3)
+B.a6A=new A.u(22,0)
+B.a6B=new A.u(3,0)
+B.a6C=new A.u(3,-3)
+B.a6D=new A.u(6,6)
+B.a6E=new A.u(80,80)
+B.a6F=new A.u(0,1.2)
+B.a6I=new A.u(-0.3333333333333333,0)
+B.a6K=new A.u(5,10.5)
+B.a6L=new A.u(1/0,0)
+B.a6N=new A.u(17976931348623157e292,0)
+B.a6Q=new A.u(-1,0)
+B.a6R=new A.u(-3,0)
+B.a6S=new A.u(-3,3)
+B.a6T=new A.u(-3,-3)
 B.x=new A.u(0,-0.005)
-B.a6X=new A.u(1/0,1/0)
-B.a6Z=new A.a8w(1,"notFound")
-B.a6Y=new A.GZ(B.a6Z)
+B.a6Y=new A.u(1/0,1/0)
+B.a7_=new A.a8w(1,"notFound")
+B.a6Z=new A.GZ(B.a7_)
 B.qg=new A.a8w(0,"connected")
-B.a7_=new A.BN(null)
-B.a70=new A.H3(0,"clear")
-B.a71=new A.H3(1,"move")
-B.a72=new A.H3(2,"put")
-B.a73=new A.H3(3,"remove")
-B.arV=new A.aOb(2,"readWriteCreate")
+B.a70=new A.BN(null)
+B.a71=new A.H3(0,"clear")
+B.a72=new A.H3(1,"move")
+B.a73=new A.H3(2,"put")
+B.a74=new A.H3(3,"remove")
+B.arX=new A.aOb(2,"readWriteCreate")
 B.c2=new A.uj(0,"iOs")
 B.j8=new A.uj(1,"android")
 B.m1=new A.uj(2,"linux")
@@ -164063,201 +164072,201 @@ B.qh=new A.uj(3,"windows")
 B.dA=new A.uj(4,"macOs")
 B.Ds=new A.uj(5,"unknown")
 B.fE=new A.aIv()
-B.a74=new A.lK("flutter/undomanager",B.fE,null)
+B.a75=new A.lK("flutter/undomanager",B.fE,null)
 B.bG=new A.lK("flutter/platform",B.fE,null)
 B.m2=new A.lK("flutter/navigation",B.fE,null)
-B.a75=new A.lK("flutter/backgesture",B.aG,null)
+B.a76=new A.lK("flutter/backgesture",B.aG,null)
 B.Dt=new A.lK("flutter/menu",B.aG,null)
 B.qi=new A.lK("flutter/restoration",B.aG,null)
-B.a76=new A.lK("flutter/status_bar",B.fE,null)
+B.a77=new A.lK("flutter/status_bar",B.fE,null)
 B.qj=new A.lK("flutter/textinput",B.fE,null)
-B.a77=new A.lK("flutter/mousecursor",B.aG,null)
-B.a78=new A.lK("flutter/processtext",B.aG,null)
+B.a78=new A.lK("flutter/mousecursor",B.aG,null)
+B.a79=new A.lK("flutter/processtext",B.aG,null)
 B.Du=new A.lK("flutter/scribe",B.fE,null)
-B.a79=new A.lK("flutter/keyboard",B.aG,null)
+B.a7a=new A.lK("flutter/keyboard",B.aG,null)
 B.cv=new A.a8C("ASC",0,"asc")
 B.hm=new A.a8C("DESC",1,"desc")
-B.a7a=new A.BP(0,null)
-B.a7b=new A.BP(1,null)
+B.a7b=new A.BP(0,null)
+B.a7c=new A.BP(1,null)
 B.Dv=new A.a8D(0,"portrait")
 B.Dw=new A.a8D(1,"landscape")
-B.a7c=new A.QR(null)
+B.a7d=new A.QR(null)
 B.Dx=new A.aOg(0,"max")
 B.Dy=new A.a8H(0,"nearestOverlay")
-B.a7d=new A.a8H(1,"rootOverlay")
-B.a7e=new A.QT(0,"never")
-B.a7f=new A.QT(1,"editing")
+B.a7e=new A.a8H(1,"rootOverlay")
+B.a7f=new A.QT(0,"never")
+B.a7g=new A.QT(1,"editing")
 B.aK=new A.QT(3,"always")
-B.ahK=new A.bq("Voicley has been recording for a couple of hours without a touch. Everything is being captured \u2014 just checking in.",null,null,null,null,null,null,null)
-B.a7g=new A.ac(B.em,B.ahK,null)
+B.ahL=new A.bq("Voicley has been recording for a couple of hours without a touch. Everything is being captured \u2014 just checking in.",null,null,null,null,null,null,null)
+B.a7h=new A.ac(B.em,B.ahL,null)
 B.Dz=new A.a8R(null)
-B.a7h=new A.ac(B.l1,B.Dz,null)
+B.a7i=new A.ac(B.l1,B.Dz,null)
 B.j9=new A.ac(B.cr,B.fW,null)
 B.Su=new A.hl(6,0,0,0)
-B.a7k=new A.ac(B.Su,null,null)
+B.a7l=new A.ac(B.Su,null,null)
 B.Sx=new A.hl(8,0,0,0)
-B.a7m=new A.ac(B.Sx,null,null)
-B.a7n=new A.QX(null)
+B.a7n=new A.ac(B.Sx,null,null)
+B.a7o=new A.QX(null)
 B.cw=new A.a8O(0,"fill")
 B.cx=new A.a8O(1,"stroke")
-B.arW=new A.aOH(3,"free")
-B.a7o=new A.xq(1/0)
+B.arY=new A.aOH(3,"free")
+B.a7p=new A.xq(1/0)
 B.m3=new A.a8P(0,"nonZero")
-B.a7p=new A.a8P(1,"evenOdd")
-B.a7q=new A.R5(null)
+B.a7q=new A.a8P(1,"evenOdd")
+B.a7r=new A.R5(null)
 B.H1=new A.xs(0,"baseline")
 B.H2=new A.xs(1,"aboveBaseline")
 B.H3=new A.xs(2,"belowBaseline")
 B.H4=new A.xs(3,"top")
 B.hs=new A.xs(4,"bottom")
 B.ql=new A.xs(5,"middle")
-B.a83=new A.Hd(B.av,B.hs,null,null)
+B.a84=new A.Hd(B.av,B.hs,null,null)
 B.H6=new A.a9_(0,"opaque")
 B.H7=new A.a9_(2,"transparent")
 B.H8=new A.ur(0,"cancel")
 B.qm=new A.ur(1,"add")
-B.a85=new A.ur(2,"remove")
+B.a86=new A.ur(2,"remove")
 B.fd=new A.ur(3,"hover")
-B.a86=new A.ur(4,"down")
+B.a87=new A.ur(4,"down")
 B.m6=new A.ur(5,"move")
 B.H9=new A.ur(6,"up")
 B.m7=new A.Hf(0,"none")
-B.a87=new A.Hf(1,"scroll")
-B.a88=new A.Hf(3,"scale")
-B.a89=new A.Hf(4,"unknown")
-B.a8a=new A.Rf(null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a88=new A.Hf(1,"scroll")
+B.a89=new A.Hf(3,"scale")
+B.a8a=new A.Hf(4,"unknown")
+B.a8b=new A.Rf(null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.TX=new A.a6j(null)
-B.a8b=new A.nV(0,0,0,0,null,null,B.TX,null)
-B.a8c=new A.nV(null,8,10,null,null,null,B.Dz,null)
+B.a8c=new A.nV(0,0,0,0,null,null,B.TX,null)
+B.a8d=new A.nV(null,8,10,null,null,null,B.Dz,null)
 B.je=new A.pm(100,11,"primary")
 B.jf=new A.pm(10,1,"or")
 B.T=new A.pm(11,2,"and")
 B.a5=new A.pm(12,3,"comparisonEq")
-B.a8d=new A.pm(13,4,"comparison")
-B.a8e=new A.pm(20,9,"unary")
-B.a8f=new A.pm(-1,0,"unknown")
+B.a8e=new A.pm(13,4,"comparison")
+B.a8f=new A.pm(20,9,"unary")
+B.a8g=new A.pm(-1,0,"unknown")
 B.qn=new A.C6(0,"platformDefault")
 B.Ha=new A.C6(1,"inAppWebView")
 B.Hb=new A.C6(2,"inAppBrowserView")
-B.a8g=new A.C6(3,"externalApplication")
+B.a8h=new A.C6(3,"externalApplication")
 B.Hc=new A.C6(4,"externalNonBrowserApplication")
-B.arX=new A.a9h(0)
-B.a8h=new A.a9h(2)
-B.a8i=new A.Rl(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a8j=new A.Hm(0,"rename")
-B.a8k=new A.Hm(1,"editCloudLink")
-B.a8l=new A.Hm(2,"delete")
-B.a8m=new A.Rm(null)
-B.a8n=new A.Rv(null,null,null,null,null,null,null,null,null)
+B.arZ=new A.a9h(0)
+B.a8i=new A.a9h(2)
+B.a8j=new A.Rl(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a8k=new A.Hm(0,"rename")
+B.a8l=new A.Hm(1,"editCloudLink")
+B.a8m=new A.Hm(2,"delete")
+B.a8n=new A.Rm(null)
+B.a8o=new A.Rv(null,null,null,null,null,null,null,null,null)
 B.Hh=new A.bo(1,1)
 B.au=new A.bo(2,2)
 B.md=new A.bo(3,3)
-B.a8o=new A.bo(15.5,15.5)
-B.a8p=new A.bo(1.5,1.5)
-B.a8q=new A.mL(0)
-B.a8r=new A.mL(1)
+B.a8p=new A.bo(15.5,15.5)
+B.a8q=new A.bo(1.5,1.5)
+B.a8r=new A.mL(0)
+B.a8s=new A.mL(1)
 B.Hi=new A.mL(2)
-B.a8s=new A.RC(null)
+B.a8t=new A.RC(null)
 B.de=new A.o1(0,"idle")
 B.qr=new A.ho(B.xq,0,B.de)
 B.c8=new A.o1(1,"playing")
 B.Hk=new A.o1(2,"paused")
-B.a8t=new A.Hw(0,"delta")
-B.a8u=new A.Hw(1,"completed")
-B.a8v=new A.Hw(2,"error")
+B.a8u=new A.Hw(0,"delta")
+B.a8v=new A.Hw(1,"completed")
+B.a8w=new A.Hw(2,"error")
 B.Hl=new A.Hw(3,"other")
 B.Hm=new A.Cf(B.Hl,"")
-B.a8w=new A.Cg(0,"sent")
-B.a8x=new A.Cg(1,"ok")
-B.a8y=new A.Cg(2,"error")
-B.a8z=new A.Cg(3,"timeout")
-B.a8A=new A.aSo("2.0.0",1,"v2")
-B.a8B=new A.ay(0,0)
-B.a8C=new A.ay(0,!0)
-B.a8E=new A.yZ("pause","")
+B.a8x=new A.Cg(0,"sent")
+B.a8y=new A.Cg(1,"ok")
+B.a8z=new A.Cg(2,"error")
+B.a8A=new A.Cg(3,"timeout")
+B.a8B=new A.aSo("2.0.0",1,"v2")
+B.a8C=new A.ay(0,0)
+B.a8D=new A.ay(0,!0)
+B.a8F=new A.yZ("pause","")
 B.dk=new A.Ud(2,"collapsed")
-B.a8F=new A.ay(B.dk,B.dk)
-B.a8L=new A.yZ("previous","")
-B.a8M=new A.yZ("skip","")
-B.a8R=new A.KE(!1,!1)
-B.a8S=new A.KE(!1,!0)
+B.a8G=new A.ay(B.dk,B.dk)
+B.a8M=new A.yZ("previous","")
+B.a8N=new A.yZ("skip","")
+B.a8S=new A.KE(!1,!1)
+B.a8T=new A.KE(!1,!0)
 B.Hn=new A.KE(!0,!1)
-B.a8T=new A.z_(0,1)
-B.a8U=new A.z_(1,0)
+B.a8U=new A.z_(0,1)
+B.a8V=new A.z_(1,0)
 B.jJ=new A.Ud(0,"left")
 B.jK=new A.Ud(1,"right")
-B.a8V=new A.ay(B.jJ,B.jK)
+B.a8W=new A.ay(B.jJ,B.jK)
 B.mv=new A.eS(4,"scrollLeft")
 B.mw=new A.eS(8,"scrollRight")
-B.a8W=new A.ay(B.mv,B.mw)
-B.a8Y=new A.ay(B.mw,B.mv)
-B.a8Z=new A.ay(!1,!1)
-B.a9_=new A.ay(!1,null)
-B.a90=new A.ay(!1,!0)
+B.a8X=new A.ay(B.mv,B.mw)
+B.a8Z=new A.ay(B.mw,B.mv)
+B.a9_=new A.ay(!1,!1)
+B.a90=new A.ay(!1,null)
+B.a91=new A.ay(!1,!0)
 B.Ho=new A.KH(0,0)
 B.ms=new A.eS(16,"scrollUp")
 B.mt=new A.eS(32,"scrollDown")
-B.a91=new A.ay(B.ms,B.mt)
-B.a92=new A.yZ("resume","")
+B.a92=new A.ay(B.ms,B.mt)
+B.a93=new A.yZ("resume","")
 B.qs=new A.Yk(!1,!1)
-B.a94=new A.ay(B.mt,B.ms)
-B.a95=new A.ay(!0,!1)
-B.a96=new A.ay(!0,!0)
-B.a97=new A.ay(B.jK,B.jJ)
-B.a99=new A.hx(0,4,11)
-B.a9a=new A.hx(1,0,0)
-B.a9b=new A.hx("BEGIN IMMEDIATE","COMMIT","ROLLBACK")
-B.a9c=new A.a9E(null)
-B.a9e=new A.Hx(0,"openInOneNote")
-B.a9f=new A.Hx(1,"moveTo")
-B.a9g=new A.Hx(2,"delete")
+B.a95=new A.ay(B.mt,B.ms)
+B.a96=new A.ay(!0,!1)
+B.a97=new A.ay(!0,!0)
+B.a98=new A.ay(B.jK,B.jJ)
+B.a9a=new A.hx(0,4,11)
+B.a9b=new A.hx(1,0,0)
+B.a9c=new A.hx("BEGIN IMMEDIATE","COMMIT","ROLLBACK")
+B.a9d=new A.a9E(null)
+B.a9f=new A.Hx(0,"openInOneNote")
+B.a9g=new A.Hx(1,"moveTo")
+B.a9h=new A.Hx(2,"delete")
 B.mk=new A.Ci(0,"idle")
 B.jj=new A.Ci(1,"requestingPermission")
 B.Z=new A.Ci(2,"recording")
-B.a9h=new A.Ci(3,"transcribing")
-B.a9i=new A.Ci(4,"saving")
-B.a9j=new A.jF(B.mk,B.I,"",null,null,!1)
+B.a9i=new A.Ci(3,"transcribing")
+B.a9j=new A.Ci(4,"saving")
+B.a9k=new A.jF(B.mk,B.I,"",null,null,!1)
 B.qv=new A.a9I(0,"meetings")
-B.a9l=new A.Hz(B.qv,null)
-B.a9k=new A.a9I(1,"dictation")
-B.a9m=new A.Hz(B.a9k,null)
-B.a9n=new A.Q(-1/0,-1/0,1/0,1/0)
+B.a9m=new A.Hz(B.qv,null)
+B.a9l=new A.a9I(1,"dictation")
+B.a9n=new A.Hz(B.a9l,null)
+B.a9o=new A.Q(-1/0,-1/0,1/0,1/0)
 B.hv=new A.Q(-1e9,-1e9,1e9,1e9)
 B.ml=new A.uK(0,"inactive")
 B.Hp=new A.uK(1,"drag")
 B.qw=new A.uK(2,"armed")
 B.Hq=new A.uK(3,"refresh")
 B.Hr=new A.uK(4,"done")
-B.a9o=new A.kY(0,0,0,0)
+B.a9p=new A.kY(0,0,0,0)
 B.Hs=new A.HD(0,"start")
 B.qx=new A.HD(1,"stable")
-B.a9p=new A.HD(2,"changed")
-B.a9q=new A.HD(3,"unstable")
+B.a9q=new A.HD(2,"changed")
+B.a9r=new A.HD(3,"unstable")
 B.e1=new A.RQ(0,"identical")
-B.a9r=new A.RQ(2,"paint")
+B.a9s=new A.RQ(2,"paint")
 B.cm=new A.RQ(3,"layout")
 B.Ht=new A.aap(0,"get")
 B.mm=new A.aap(1,"post")
 B.MR=new A.dt(B.au,B.au,B.au,B.au)
 B.Hu=new A.fG(B.MR,B.G)
-B.a9t=new A.pt(B.tv,B.G)
+B.a9u=new A.pt(B.tv,B.G)
 B.Hv=new A.aWd(0,"none")
 B.mo=new A.HK(0,"pop")
 B.hw=new A.HK(1,"doNotPop")
 B.Hw=new A.HK(2,"bubble")
 B.qy=new A.mQ(null,null)
-B.a84=new A.a94(null)
+B.a85=new A.a94(null)
 B.Po=new A.ND(null,null)
-B.VC=s([B.a84,B.Po],t.p)
-B.a9u=new A.uP(B.ag,B.f,B.D,B.k,null,B.dI,null,0,B.VC,null)
+B.VC=s([B.a85,B.Po],t.p)
+B.a9v=new A.uP(B.ag,B.f,B.D,B.k,null,B.dI,null,0,B.VC,null)
 B.er=new A.Cv(0,"idle")
 B.qz=new A.Cv(1,"transientCallbacks")
 B.Hx=new A.Cv(2,"midFrameMicrotasks")
 B.hx=new A.Cv(3,"persistentCallbacks")
 B.qA=new A.Cv(4,"postFrameCallbacks")
-B.a0y=s([],t.la)
-B.a9v=new A.aaG(B.a0y)
-B.a9w=new A.aaG(B.lH)
+B.a0z=s([],t.la)
+B.a9w=new A.aaG(B.a0z)
+B.a9x=new A.aaG(B.lH)
 B.Hy=new A.aWM(0,"englishLike")
 B.jk=new A.Sv(0,"idle")
 B.qC=new A.Sv(1,"forward")
@@ -164269,15 +164278,15 @@ B.HC=new A.aaY(0,"manual")
 B.HD=new A.aaY(1,"onDrag")
 B.HE=new A.HQ(0,"left")
 B.HF=new A.HQ(1,"right")
-B.a9B=new A.HQ(2,"top")
+B.a9C=new A.HQ(2,"top")
 B.HG=new A.HQ(3,"bottom")
-B.a9C=new A.Sy(null,null,null,null,null,null,null,null,null,null,null)
-B.a9D=new A.Sz(null,null,null,null,null,null,null,null,null,null,null,null)
-B.a9E=new A.SA(null)
-B.a9F=new A.SB(null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a9G=new A.SC(null,null)
-B.a9K=new A.rj(3,"selectAll")
-B.a9H=new A.ab0(B.a9K)
+B.a9D=new A.Sy(null,null,null,null,null,null,null,null,null,null,null)
+B.a9E=new A.Sz(null,null,null,null,null,null,null,null,null,null,null,null)
+B.a9F=new A.SA(null)
+B.a9G=new A.SB(null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a9H=new A.SC(null,null)
+B.a9L=new A.rj(3,"selectAll")
+B.a9I=new A.ab0(B.a9L)
 B.aO=new A.ab2(0,"changing")
 B.HH=new A.ab2(1,"finalized")
 B.bH=new A.o5(0,"tap")
@@ -164287,11 +164296,11 @@ B.jl=new A.o5(3,"forcePress")
 B.aW=new A.o5(5,"toolbar")
 B.be=new A.o5(6,"drag")
 B.jm=new A.o5(7,"stylusHandwriting")
-B.a9I=new A.rj(0,"startEdgeUpdate")
+B.a9J=new A.rj(0,"startEdgeUpdate")
 B.es=new A.rj(1,"endEdgeUpdate")
 B.qG=new A.rj(4,"selectWord")
 B.jn=new A.rj(5,"selectParagraph")
-B.a9L=new A.rj(6,"granularlyExtendSelection")
+B.a9M=new A.rj(6,"granularlyExtendSelection")
 B.HJ=new A.rj(7,"directionallyExtendSelection")
 B.HK=new A.HW(0,"previousLine")
 B.qH=new A.HW(1,"nextLine")
@@ -164307,27 +164316,27 @@ B.jo=new A.xT(3,"pending")
 B.hy=new A.xT(4,"none")
 B.jp=new A.SK(0,"uncollapsed")
 B.HN=new A.SK(1,"collapsed")
-B.a9M=new A.eS(1048576,"moveCursorBackwardByWord")
+B.a9N=new A.eS(1048576,"moveCursorBackwardByWord")
 B.HO=new A.eS(128,"decrease")
-B.a9N=new A.eS(131072,"customAction")
-B.a9O=new A.eS(16384,"paste")
-B.a9P=new A.eS(16777216,"expand")
+B.a9O=new A.eS(131072,"customAction")
+B.a9P=new A.eS(16384,"paste")
+B.a9Q=new A.eS(16777216,"expand")
 B.qK=new A.eS(1,"tap")
-B.a9Q=new A.eS(1024,"moveCursorBackwardByCharacter")
-B.a9R=new A.eS(2048,"setSelection")
-B.a9S=new A.eS(2097152,"setText")
-B.a9T=new A.eS(256,"showOnScreen")
-B.a9U=new A.eS(262144,"dismiss")
+B.a9R=new A.eS(1024,"moveCursorBackwardByCharacter")
+B.a9S=new A.eS(2048,"setSelection")
+B.a9T=new A.eS(2097152,"setText")
+B.a9U=new A.eS(256,"showOnScreen")
+B.a9V=new A.eS(262144,"dismiss")
 B.HP=new A.eS(2,"longPress")
-B.a9V=new A.eS(32768,"didGainAccessibilityFocus")
-B.a9W=new A.eS(33554432,"collapse")
-B.a9X=new A.eS(4096,"copy")
+B.a9W=new A.eS(32768,"didGainAccessibilityFocus")
+B.a9X=new A.eS(33554432,"collapse")
+B.a9Y=new A.eS(4096,"copy")
 B.mu=new A.eS(4194304,"focus")
-B.a9Y=new A.eS(512,"moveCursorForwardByCharacter")
-B.a9Z=new A.eS(524288,"moveCursorForwardByWord")
+B.a9Z=new A.eS(512,"moveCursorForwardByCharacter")
+B.aa_=new A.eS(524288,"moveCursorForwardByWord")
 B.HQ=new A.eS(64,"increase")
-B.aa_=new A.eS(65536,"didLoseAccessibilityFocus")
-B.aa0=new A.eS(8192,"cut")
+B.aa0=new A.eS(65536,"didLoseAccessibilityFocus")
+B.aa1=new A.eS(8192,"cut")
 B.HR=new A.eS(8388608,"scrollToOffset")
 B.ad=new A.UA(0,"none")
 B.mx=new A.SP(B.fI,B.ad,B.ad,B.ad,B.ad,B.ad,B.ad,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1,!1)
@@ -164335,16 +164344,16 @@ B.e4=new A.abh(0,"defer")
 B.my=new A.abh(2,"transparent")
 B.qL=new A.CG(0,"none")
 B.HS=new A.CG(1,"text")
-B.aa1=new A.CG(2,"url")
-B.aa2=new A.CG(3,"phone")
-B.aa3=new A.CG(5,"email")
+B.aa2=new A.CG(2,"url")
+B.aa3=new A.CG(3,"phone")
+B.aa4=new A.CG(5,"email")
 B.mz=new A.o6(0,"none")
 B.HT=new A.o6(15,"menuItem")
 B.HU=new A.o6(16,"menuItemCheckbox")
 B.HV=new A.o6(17,"menuItemRadio")
-B.aa5=new A.o6(25,"radioGroup")
-B.aa6=new A.o6(4,"dialog")
-B.aa7=new A.o6(5,"alertDialog")
+B.aa6=new A.o6(25,"radioGroup")
+B.aa7=new A.o6(4,"dialog")
+B.aa8=new A.o6(5,"alertDialog")
 B.HW=new A.iQ("RenderViewport.twoPane")
 B.HX=new A.iQ("RenderViewport.excludeFromScrolling")
 B.hz=new A.SS(0,"none")
@@ -164354,116 +164363,116 @@ B.dB=new A.lP(0,"dictation")
 B.e5=new A.lP(1,"task")
 B.et=new A.lP(2,"meeting")
 B.dC=new A.lP(3,"claude")
-B.aa9=new A.xX(B.ca,A.ae("xX<k>"))
-B.a6d={mailto:0,tel:1,sms:2}
-B.aaa=new A.fg(B.a6d,3,t.fF)
+B.aaa=new A.xX(B.ca,A.ae("xX<k>"))
+B.a6e={mailto:0,tel:1,sms:2}
+B.aab=new A.fg(B.a6e,3,t.fF)
 B.qM=new A.hR([B.dA,B.m1,B.qh],A.ae("hR<uj>"))
-B.a6p={error_no_match:0,error_speech_timeout:1,error_no_speech:2,error_client:3,error_busy:4}
-B.aab=new A.fg(B.a6p,5,t.fF)
-B.aac=new A.hR([10,11,12,13,133,8232,8233],t.mt)
-B.a66={serif:0,"sans-serif":1,monospace:2,cursive:3,fantasy:4,"system-ui":5,math:6,emoji:7,fangsong:8}
-B.aad=new A.fg(B.a66,9,t.fF)
-B.a6n={code:0,access_token:1,expires_in:2,expires_at:3,refresh_token:4,token_type:5,provider_token:6,provider_refresh_token:7,error:8,error_code:9,error_description:10,type:11}
-B.I_=new A.fg(B.a6n,12,t.fF)
-B.aae=new A.hR([B.an,B.di,B.a4],t.MA)
-B.a65={"canvaskit.js":0}
-B.aaf=new A.fg(B.a65,1,t.fF)
+B.a6q={error_no_match:0,error_speech_timeout:1,error_no_speech:2,error_client:3,error_busy:4}
+B.aac=new A.fg(B.a6q,5,t.fF)
+B.aad=new A.hR([10,11,12,13,133,8232,8233],t.mt)
+B.a67={serif:0,"sans-serif":1,monospace:2,cursive:3,fantasy:4,"system-ui":5,math:6,emoji:7,fangsong:8}
+B.aae=new A.fg(B.a67,9,t.fF)
+B.a6o={code:0,access_token:1,expires_in:2,expires_at:3,refresh_token:4,token_type:5,provider_token:6,provider_refresh_token:7,error:8,error_code:9,error_description:10,type:11}
+B.I_=new A.fg(B.a6o,12,t.fF)
+B.aaf=new A.hR([B.an,B.di,B.a4],t.MA)
+B.a66={"canvaskit.js":0}
+B.aag=new A.fg(B.a66,1,t.fF)
 B.I0=new A.hR([B.cS,B.bN,B.aV,B.cl,B.bV],t.Lu)
-B.a6i={javascript:0}
-B.aag=new A.fg(B.a6i,1,t.fF)
-B.aah=new A.hR([B.aV,B.bN,B.cS],t.Lu)
-B.a6m={click:0,keyup:1,keydown:2,mouseup:3,mousedown:4,pointerdown:5,pointerup:6}
-B.aai=new A.fg(B.a6m,7,t.fF)
-B.a6j={the:0,an:1,and:2,but:3,or:4,nor:5,so:6,yet:7,for:8,it:9,its:10,he:11,his:12,she:13,her:14,they:15,their:16,them:17,we:18,our:19,us:20,you:21,your:22,this:23,that:24,these:25,those:26,there:27,then:28,here:29,thus:30,which:31,who:32,whom:33,whose:34,when:35,where:36,while:37,because:38,if:39,as:40,though:41,although:42,since:43,unless:44,until:45,before:46,after:47,whether:48,to:49,of:50,in:51,on:52,at:53,by:54,with:55,from:56,into:57,about:58,over:59,under:60,through:61,within:62,upon:63,however:64,therefore:65,moreover:66,meanwhile:67,otherwise:68,nevertheless:69,instead:70,also:71,still:72,just:73,now:74}
-B.aaj=new A.fg(B.a6j,75,t.fF)
-B.aak=new A.hR([B.an,B.a4,B.di],t.MA)
-B.aan=new A.fg(B.bc,0,A.ae("fg<aCF<es>>"))
-B.aam=new A.fg(B.bc,0,A.ae("fg<mq<v>>"))
-B.aao=new A.fg(B.bc,0,A.ae("fg<iQ>"))
+B.a6j={javascript:0}
+B.aah=new A.fg(B.a6j,1,t.fF)
+B.aai=new A.hR([B.aV,B.bN,B.cS],t.Lu)
+B.a6n={click:0,keyup:1,keydown:2,mouseup:3,mousedown:4,pointerdown:5,pointerup:6}
+B.aaj=new A.fg(B.a6n,7,t.fF)
+B.a6k={the:0,an:1,and:2,but:3,or:4,nor:5,so:6,yet:7,for:8,it:9,its:10,he:11,his:12,she:13,her:14,they:15,their:16,them:17,we:18,our:19,us:20,you:21,your:22,this:23,that:24,these:25,those:26,there:27,then:28,here:29,thus:30,which:31,who:32,whom:33,whose:34,when:35,where:36,while:37,because:38,if:39,as:40,though:41,although:42,since:43,unless:44,until:45,before:46,after:47,whether:48,to:49,of:50,in:51,on:52,at:53,by:54,with:55,from:56,into:57,about:58,over:59,under:60,through:61,within:62,upon:63,however:64,therefore:65,moreover:66,meanwhile:67,otherwise:68,nevertheless:69,instead:70,also:71,still:72,just:73,now:74}
+B.aak=new A.fg(B.a6k,75,t.fF)
+B.aal=new A.hR([B.an,B.a4,B.di],t.MA)
+B.aao=new A.fg(B.bc,0,A.ae("fg<aCF<es>>"))
+B.aan=new A.fg(B.bc,0,A.ae("fg<mq<v>>"))
+B.aap=new A.fg(B.bc,0,A.ae("fg<iQ>"))
 B.ah=new A.fg(B.bc,0,t.fF)
-B.aal=new A.fg(B.bc,0,A.ae("fg<kl>"))
+B.aam=new A.fg(B.bc,0,A.ae("fg<kl>"))
 B.I1=new A.fg(B.bc,0,A.ae("fg<ft>"))
 B.cy=new A.fg(B.bc,0,A.ae("fg<0&>"))
-B.aap=new A.hR([503,520],t.mt)
-B.aaq=new A.hR([32,8203],t.mt)
+B.aaq=new A.hR([503,520],t.mt)
+B.aar=new A.hR([32,8203],t.mt)
 B.b8=new A.ft(1,"focused")
 B.bi=new A.ft(0,"hovered")
 B.aP=new A.ft(2,"pressed")
-B.aar=new A.hR([B.b8,B.bi,B.aP],A.ae("hR<ft>"))
-B.a68={click:0,touchstart:1,touchend:2,pointerdown:3,pointermove:4,pointerup:5}
-B.aas=new A.fg(B.a68,6,t.fF)
-B.aa8=new A.o6(8,"row")
-B.aa4=new A.o6(1,"tab")
-B.aat=new A.hR([B.aa8,B.aa4],A.ae("hR<o6>"))
+B.aas=new A.hR([B.b8,B.bi,B.aP],A.ae("hR<ft>"))
+B.a69={click:0,touchstart:1,touchend:2,pointerdown:3,pointermove:4,pointerup:5}
+B.aat=new A.fg(B.a69,6,t.fF)
+B.aa9=new A.o6(8,"row")
+B.aa5=new A.o6(1,"tab")
+B.aau=new A.hR([B.aa9,B.aa5],A.ae("hR<o6>"))
 B.I2=new A.hR([B.aV,B.bN,B.cS,B.bV,B.cl],t.Lu)
 B.Qb=new A.T(0.23529411764705882,0,0,0,B.l)
-B.a6u=new A.u(0,4)
-B.Nn=new A.e1(0.5,B.br,B.Qb,B.a6u,10)
-B.a_H=s([B.Nn],t.sq)
-B.a9s=new A.pt(B.tw,B.G)
-B.aau=new A.lQ(null,null,null,B.a_H,B.a9s)
-B.aav=new A.T2(0,"userInitiated")
+B.a6v=new A.u(0,4)
+B.Nn=new A.e1(0.5,B.br,B.Qb,B.a6v,10)
+B.a_I=s([B.Nn],t.sq)
+B.a9t=new A.pt(B.tw,B.G)
+B.aav=new A.lQ(null,null,null,B.a_I,B.a9t)
+B.aaw=new A.T2(0,"userInitiated")
 B.I3=new A.T2(1,"sessionExpired")
 B.I4=new A.T2(2,"sessionMissing")
-B.arY=new A.T3(0,"global")
+B.as_=new A.T3(0,"global")
 B.mA=new A.T3(1,"local")
-B.aaw=new A.T3(2,"others")
-B.aax=new A.b3(B.iT,!1,!0,!1,!1,B.J)
+B.aax=new A.T3(2,"others")
+B.aay=new A.b3(B.iT,!1,!0,!1,!1,B.J)
 B.I5=new A.b3(B.pN,!1,!1,!1,!0,B.J)
-B.aay=new A.b3(B.xG,!0,!1,!1,!1,B.J)
+B.aaz=new A.b3(B.xG,!0,!1,!1,!1,B.J)
 B.cj=new A.Qd(1,"locked")
-B.aaz=new A.b3(B.f7,!1,!0,!1,!1,B.cj)
-B.aaA=new A.b3(B.iZ,!1,!0,!1,!1,B.cj)
+B.aaA=new A.b3(B.f7,!1,!0,!1,!1,B.cj)
+B.aaB=new A.b3(B.iZ,!1,!0,!1,!1,B.cj)
 B.I7=new A.b3(B.pM,!1,!1,!1,!0,B.J)
-B.aaB=new A.b3(B.Cv,!0,!1,!1,!1,B.J)
-B.aaC=new A.b3(B.pX,!0,!1,!1,!1,B.J)
-B.aaD=new A.b3(B.pN,!0,!1,!1,!1,B.J)
-B.aaE=new A.b3(B.f3,!0,!0,!1,!1,B.cj)
+B.aaC=new A.b3(B.Cv,!0,!1,!1,!1,B.J)
+B.aaD=new A.b3(B.pX,!0,!1,!1,!1,B.J)
+B.aaE=new A.b3(B.pN,!0,!1,!1,!1,B.J)
+B.aaF=new A.b3(B.f3,!0,!0,!1,!1,B.cj)
 B.I8=new A.b3(B.pX,!1,!1,!1,!0,B.J)
-B.aaF=new A.b3(B.iT,!0,!1,!1,!1,B.J)
+B.aaG=new A.b3(B.iT,!0,!1,!1,!1,B.J)
 B.ck=new A.Qd(2,"unlocked")
-B.aaL=new A.b3(B.iW,!1,!1,!1,!1,B.ck)
-B.aaI=new A.b3(B.f4,!1,!1,!1,!1,B.ck)
-B.aaJ=new A.b3(B.iX,!1,!1,!1,!1,B.ck)
-B.aaH=new A.b3(B.f5,!1,!1,!1,!1,B.ck)
-B.aaG=new A.b3(B.f6,!1,!1,!1,!1,B.ck)
-B.aaK=new A.b3(B.iY,!1,!1,!1,!1,B.ck)
-B.aaN=new A.b3(B.pM,!0,!1,!1,!1,B.J)
-B.aaT=new A.b3(B.iW,!1,!0,!1,!1,B.cj)
-B.aaQ=new A.b3(B.f4,!1,!0,!1,!1,B.cj)
-B.aaR=new A.b3(B.iX,!1,!0,!1,!1,B.cj)
-B.aaP=new A.b3(B.f5,!1,!0,!1,!1,B.cj)
-B.aaO=new A.b3(B.f6,!1,!0,!1,!1,B.cj)
-B.aaS=new A.b3(B.iY,!1,!0,!1,!1,B.cj)
-B.aaU=new A.b3(B.f3,!1,!1,!1,!1,B.ck)
-B.aaX=new A.b3(B.f4,!0,!1,!1,!1,B.ck)
-B.aaW=new A.b3(B.f5,!0,!1,!1,!1,B.ck)
-B.aaV=new A.b3(B.f6,!0,!1,!1,!1,B.ck)
-B.aaZ=new A.b3(B.xH,!0,!1,!1,!1,B.J)
-B.ab_=new A.b3(B.xJ,!0,!1,!1,!1,B.J)
+B.aaM=new A.b3(B.iW,!1,!1,!1,!1,B.ck)
+B.aaJ=new A.b3(B.f4,!1,!1,!1,!1,B.ck)
+B.aaK=new A.b3(B.iX,!1,!1,!1,!1,B.ck)
+B.aaI=new A.b3(B.f5,!1,!1,!1,!1,B.ck)
+B.aaH=new A.b3(B.f6,!1,!1,!1,!1,B.ck)
+B.aaL=new A.b3(B.iY,!1,!1,!1,!1,B.ck)
+B.aaO=new A.b3(B.pM,!0,!1,!1,!1,B.J)
+B.aaU=new A.b3(B.iW,!1,!0,!1,!1,B.cj)
+B.aaR=new A.b3(B.f4,!1,!0,!1,!1,B.cj)
+B.aaS=new A.b3(B.iX,!1,!0,!1,!1,B.cj)
+B.aaQ=new A.b3(B.f5,!1,!0,!1,!1,B.cj)
+B.aaP=new A.b3(B.f6,!1,!0,!1,!1,B.cj)
+B.aaT=new A.b3(B.iY,!1,!0,!1,!1,B.cj)
+B.aaV=new A.b3(B.f3,!1,!1,!1,!1,B.ck)
+B.aaY=new A.b3(B.f4,!0,!1,!1,!1,B.ck)
+B.aaX=new A.b3(B.f5,!0,!1,!1,!1,B.ck)
+B.aaW=new A.b3(B.f6,!0,!1,!1,!1,B.ck)
+B.ab_=new A.b3(B.xH,!0,!1,!1,!1,B.J)
+B.ab0=new A.b3(B.xJ,!0,!1,!1,!1,B.J)
 B.mC=new A.b3(B.f1,!0,!1,!1,!1,B.J)
 B.mB=new A.b3(B.f2,!0,!1,!1,!1,B.J)
-B.ab1=new A.b3(B.iM,!0,!1,!1,!1,B.J)
-B.ab2=new A.b3(B.iM,!1,!0,!1,!0,B.J)
-B.ab4=new A.b3(B.dy,!1,!0,!1,!0,B.J)
+B.ab2=new A.b3(B.iM,!0,!1,!1,!1,B.J)
+B.ab3=new A.b3(B.iM,!1,!0,!1,!0,B.J)
+B.ab5=new A.b3(B.dy,!1,!0,!1,!0,B.J)
 B.Ih=new A.b3(B.d9,!1,!0,!1,!0,B.J)
 B.Ii=new A.b3(B.da,!1,!0,!1,!0,B.J)
-B.ab3=new A.b3(B.dz,!1,!0,!1,!0,B.J)
-B.ab5=new A.b3(B.f7,!0,!1,!1,!1,B.ck)
-B.ab7=new A.b3(B.f7,!1,!1,!1,!1,B.ck)
-B.ab8=new A.b3(B.iZ,!1,!1,!1,!1,B.ck)
-B.ab9=new A.b3(B.xI,!0,!1,!1,!1,B.J)
-B.abb=new A.b3(B.f3,!1,!0,!1,!1,B.cj)
-B.abc=new A.b3(B.iM,!0,!0,!1,!1,B.J)
-B.abe=new A.b3(B.dy,!0,!0,!1,!1,B.J)
-B.abd=new A.b3(B.dz,!0,!0,!1,!1,B.J)
+B.ab4=new A.b3(B.dz,!1,!0,!1,!0,B.J)
+B.ab6=new A.b3(B.f7,!0,!1,!1,!1,B.ck)
+B.ab8=new A.b3(B.f7,!1,!1,!1,!1,B.ck)
+B.ab9=new A.b3(B.iZ,!1,!1,!1,!1,B.ck)
+B.aba=new A.b3(B.xI,!0,!1,!1,!1,B.J)
+B.abc=new A.b3(B.f3,!1,!0,!1,!1,B.cj)
+B.abd=new A.b3(B.iM,!0,!0,!1,!1,B.J)
+B.abf=new A.b3(B.dy,!0,!0,!1,!1,B.J)
+B.abe=new A.b3(B.dz,!0,!0,!1,!1,B.J)
 B.qU=new A.b3(B.f1,!0,!0,!1,!1,B.J)
 B.qT=new A.b3(B.f2,!0,!0,!1,!1,B.J)
 B.qV=new A.b3(B.pW,!0,!1,!1,!1,B.J)
-B.abg=new A.b3(B.xF,!0,!1,!1,!1,B.J)
-B.abj=new A.b3(B.f4,!0,!0,!1,!1,B.cj)
-B.abi=new A.b3(B.f5,!0,!0,!1,!1,B.cj)
-B.abh=new A.b3(B.f6,!0,!0,!1,!1,B.cj)
+B.abh=new A.b3(B.xF,!0,!1,!1,!1,B.J)
+B.abk=new A.b3(B.f4,!0,!0,!1,!1,B.cj)
+B.abj=new A.b3(B.f5,!0,!0,!1,!1,B.cj)
+B.abi=new A.b3(B.f6,!0,!0,!1,!1,B.cj)
 B.Io=new A.b3(B.dy,!1,!0,!1,!1,B.J)
 B.qW=new A.b3(B.d9,!1,!0,!1,!1,B.J)
 B.qX=new A.b3(B.da,!1,!0,!1,!1,B.J)
@@ -164479,31 +164488,31 @@ B.qZ=new A.b3(B.d9,!1,!0,!0,!1,B.J)
 B.r_=new A.b3(B.da,!1,!0,!0,!1,B.J)
 B.r0=new A.b3(B.dz,!1,!0,!0,!1,B.J)
 B.r2=new A.b3(B.iS,!1,!0,!1,!1,B.J)
-B.abl=new A.b3(B.f7,!0,!0,!1,!1,B.cj)
-B.abm=new A.b3(B.iM,!1,!1,!1,!0,B.J)
-B.abn=new A.b3(B.f3,!0,!1,!1,!1,B.ck)
+B.abm=new A.b3(B.f7,!0,!0,!1,!1,B.cj)
+B.abn=new A.b3(B.iM,!1,!1,!1,!0,B.J)
+B.abo=new A.b3(B.f3,!0,!1,!1,!1,B.ck)
 B.Iq=new A.a1(0,32)
-B.abo=new A.a1(1e5,1e5)
+B.abp=new A.a1(1e5,1e5)
 B.Ir=new A.a1(10,10)
 B.mE=new A.a1(1,1)
 B.Is=new A.a1(1,-1)
-B.abq=new A.a1(22,22)
-B.abr=new A.a1(30,30)
-B.abs=new A.a1(32,32)
+B.abr=new A.a1(22,22)
+B.abs=new A.a1(30,30)
+B.abt=new A.a1(32,32)
 B.mF=new A.a1(44,44)
-B.abu=new A.a1(48,36)
+B.abv=new A.a1(48,36)
 B.r3=new A.a1(48,48)
-B.abv=new A.a1(59,39)
-B.abx=new A.a1(80,47.5)
+B.abw=new A.a1(59,39)
+B.aby=new A.a1(80,47.5)
 B.It=new A.a1(-1,1)
 B.Iu=new A.a1(-1,-1)
-B.aby=new A.a1(77.37,37.9)
+B.abz=new A.a1(77.37,37.9)
 B.U=new A.bm(0,0,null,null)
 B.ff=new A.bm(10,null,null,null)
 B.dg=new A.bm(12,null,null,null)
 B.Iv=new A.bm(16,null,null,null)
-B.abA=new A.bm(1,null,null,null)
-B.abB=new A.bm(24,null,null,null)
+B.abB=new A.bm(1,null,null,null)
+B.abC=new A.bm(24,null,null,null)
 B.r4=new A.bm(2,null,null,null)
 B.jB=new A.bm(3,null,null,null)
 B.cz=new A.bm(4,null,null,null)
@@ -164512,7 +164521,7 @@ B.Iw=new A.bm(64,null,null,null)
 B.aN=new A.bm(6,null,null,null)
 B.X=new A.bm(8,null,null,null)
 B.eu=new A.bm(null,10,null,null)
-B.abD=new A.bm(null,14,null,null)
+B.abE=new A.bm(null,14,null,null)
 B.bf=new A.bm(null,24,null,null)
 B.bO=new A.bm(null,2,null,null)
 B.mG=new A.bm(null,3,null,null)
@@ -164520,7 +164529,7 @@ B.b5=new A.bm(null,4,null,null)
 B.mH=new A.bm(null,5,null,null)
 B.aE=new A.bm(null,6,null,null)
 B.R=new A.bm(null,8,null,null)
-B.abE=new A.Tg(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.abF=new A.Tg(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.mI=new A.abO(0,0,0,0,0,0,0,!1,!1,null,0)
 B.jC=new A.b_2(0,"firstIsTop")
 B.P5=new A.jZ(B.y,null,null,B.j9,null)
@@ -164529,7 +164538,7 @@ B.Ix=new A.abU(0,"disabled")
 B.Iy=new A.abU(1,"enabled")
 B.Iz=new A.abV(0,"disabled")
 B.IA=new A.abV(1,"enabled")
-B.abF=new A.Tl(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.abG=new A.Tl(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.jD=new A.CP(0,"connecting")
 B.hC=new A.CP(1,"open")
 B.r5=new A.CP(2,"disconnecting")
@@ -164537,73 +164546,73 @@ B.mJ=new A.CP(3,"closed")
 B.r6=new A.CP(4,"disconnected")
 B.cA=new A.ac2(null)
 B.mK=new A.To(null,null,null,null,!1)
-B.abH=new A.Tq(1,503.551,44.8799)
+B.abI=new A.Tq(1,503.551,44.8799)
 B.IC=new A.Tq(1,522.35,45.7099552)
-B.abI=new A.Tr(0,"criticallyDamped")
-B.abJ=new A.Tr(1,"underDamped")
-B.abK=new A.Tr(2,"overDamped")
+B.abJ=new A.Tr(0,"criticallyDamped")
+B.abK=new A.Tr(1,"underDamped")
+B.abL=new A.Tr(2,"overDamped")
 B.hD=new A.ac8("boolean","text","bigint","float8","bytea",'"',2,"postgres")
-B.as_=new A.b_u(0,"wal")
-B.as0=new A.b_D(0,"normal")
-B.ak5=new A.b4S("powersync_db.worker.js")
-B.abL=new A.b_w(B.ak5)
+B.as1=new A.b_u(0,"wal")
+B.as2=new A.b_D(0,"normal")
+B.ak6=new A.b4S("powersync_db.worker.js")
+B.abM=new A.b_w(B.ak6)
 B.bt=new A.ace(0,"loose")
 B.IG=new A.ace(2,"passthrough")
-B.abM=new A.pB("<asynchronous suspension>",-1,"","","",-1,-1,"","asynchronous suspension")
-B.abN=new A.pB("...",-1,"","","",-1,-1,"","...")
+B.abN=new A.pB("<asynchronous suspension>",-1,"","","",-1,-1,"","asynchronous suspension")
+B.abO=new A.pB("...",-1,"","","",-1,-1,"","...")
 B.IH=new A.l6(B.G)
 B.II=new A.Tw(0,"backButton")
-B.abO=new A.Tw(2,"moreButton")
+B.abP=new A.Tw(2,"moreButton")
 B.jR=new A.UK(2,"delete")
 B.IB=new A.CQ(B.jR,"projects")
-B.ac7=new A.fW(B.jR,"recordings")
-B.a33=s([B.ac7],t.tn)
-B.apm=new A.Jd(B.IB,B.a33)
-B.abG=new A.CQ(B.jR,"recordings")
-B.ac6=new A.fW(B.jR,"cloud_sync_jobs")
-B.xg=s([B.ac6],t.tn)
-B.apn=new A.Jd(B.abG,B.xg)
-B.apl=new A.Jd(B.IB,B.xg)
-B.a_Z=s([B.apm,B.apn,B.apl],A.ae("A<UL>"))
-B.abQ=new A.b01(B.a_Z)
+B.ac8=new A.fW(B.jR,"recordings")
+B.a34=s([B.ac8],t.tn)
+B.apo=new A.Jd(B.IB,B.a34)
+B.abH=new A.CQ(B.jR,"recordings")
+B.ac7=new A.fW(B.jR,"cloud_sync_jobs")
+B.xg=s([B.ac7],t.tn)
+B.app=new A.Jd(B.abH,B.xg)
+B.apn=new A.Jd(B.IB,B.xg)
+B.a0_=s([B.apo,B.app,B.apn],A.ae("A<UL>"))
+B.abR=new A.b01(B.a0_)
 B.dh=new A.io("")
 B.fj=new A.act(0,"butt")
 B.IJ=new A.act(1,"round")
 B.fk=new A.acu(0,"miter")
 B.IK=new A.acu(1,"round")
-B.abR=new A.Iq(null,null,null,null,0,null,null,null,0,null,null)
-B.abT=new A.Ir(0,"background")
+B.abS=new A.Iq(null,null,null,null,0,null,null,null,0,null,null)
+B.abU=new A.Ir(0,"background")
 B.IM=new A.Ir(1,"shadows")
 B.IN=new A.Ir(2,"decorations")
-B.abU=new A.Ir(3,"text")
-B.abX=new A.TM(null,null,null,null,null,null,null,null,null,null)
+B.abV=new A.Ir(3,"text")
+B.abY=new A.TM(null,null,null,null,null,null,null,null,null,null)
 B.IO=new A.o9("DatabaseConnectionUser")
-B.abY=new A.o9("_clientToken")
+B.abZ=new A.o9("_clientToken")
 B.IP=new A.o9("drift.runtime.cancellation")
-B.abZ=new A.o9("Intl.locale")
-B.ac_=new A.b1j(1,"rust")
+B.ac_=new A.o9("Intl.locale")
+B.ac0=new A.b1j(1,"rust")
 B.IQ=new A.Iw(0,"pending")
-B.ac0=new A.Iw(1,"syncing")
-B.ac1=new A.Iw(2,"synced")
-B.ac2=new A.Iw(3,"failedPermanent")
+B.ac1=new A.Iw(1,"syncing")
+B.ac2=new A.Iw(2,"synced")
+B.ac3=new A.Iw(3,"failedPermanent")
 B.IR=new A.lS(!1,!1,!1,null,!1,null,null,null,null,B.lG,null)
 B.hE=new A.pD("basic")
 B.fl=new A.pD("click")
 B.ra=new A.pD("grab")
 B.J0=new A.pD("move")
-B.ac3=new A.pD("resizeLeftRight")
+B.ac4=new A.pD("resizeLeftRight")
 B.J1=new A.pD("text")
 B.J2=new A.acy(0,"click")
-B.ac4=new A.acy(2,"alert")
+B.ac5=new A.acy(2,"alert")
 B.J3=new A.v1(B.F,null,B.aF,null,null,B.aF,B.b1,null)
 B.J4=new A.v1(B.F,null,B.aF,null,null,B.b1,B.aF,null)
-B.ac5=new A.TT(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.ac6=new A.TT(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.mM=new A.b1Y("tap")
-B.ace=new A.acD(0)
-B.acf=new A.acD(-1)
+B.acf=new A.acD(0)
+B.acg=new A.acD(-1)
 B.M=new A.yc(0,"alphabetic")
 B.aw=new A.yc(1,"ideographic")
-B.acg=new A.U2(null)
+B.ach=new A.U2(null)
 B.rb=new A.IC(3,"none")
 B.J5=new A.U3(B.rb)
 B.J6=new A.IC(0,"words")
@@ -164611,14 +164620,14 @@ B.J7=new A.IC(1,"sentences")
 B.mO=new A.acF(1,"sentences")
 B.J8=new A.IC(2,"characters")
 B.b6=new A.acF(3,"none")
-B.ach=new A.b27(2,"dotted")
+B.aci=new A.b27(2,"dotted")
 B.o=new A.D5(0)
 B.J9=new A.D5(1)
-B.aci=new A.D5(2)
-B.acj=new A.D5(4)
+B.acj=new A.D5(2)
+B.ack=new A.D5(4)
 B.rj=new A.jJ(0,0,B.t,!1,0,0)
 B.hF=new A.cU("",B.rj,B.ao)
-B.ack=new A.cU("_",B.cB,B.ao)
+B.acl=new A.cU("_",B.cB,B.ao)
 B.rc=new A.D6(0,"character")
 B.hG=new A.D6(1,"word")
 B.rd=new A.D6(2,"paragraph")
@@ -164626,427 +164635,427 @@ B.Ja=new A.D6(3,"line")
 B.Jb=new A.D6(4,"document")
 B.ri=new A.acM(0,"proportional")
 B.Jc=new A.U7(B.ri)
-B.acl=new A.l9(0,"none")
-B.acm=new A.l9(1,"unspecified")
-B.acn=new A.l9(10,"route")
-B.aco=new A.l9(11,"emergencyCall")
+B.acm=new A.l9(0,"none")
+B.acn=new A.l9(1,"unspecified")
+B.aco=new A.l9(10,"route")
+B.acp=new A.l9(11,"emergencyCall")
 B.re=new A.l9(12,"newline")
 B.dE=new A.l9(2,"done")
-B.acp=new A.l9(3,"go")
+B.acq=new A.l9(3,"go")
 B.Jd=new A.l9(4,"search")
-B.acq=new A.l9(5,"send")
+B.acr=new A.l9(5,"send")
 B.Je=new A.l9(6,"next")
-B.acr=new A.l9(7,"previous")
-B.acs=new A.l9(8,"continueAction")
-B.act=new A.l9(9,"join")
+B.acs=new A.l9(7,"previous")
+B.act=new A.l9(8,"continueAction")
+B.acu=new A.l9(9,"join")
 B.rf=new A.rs(0,null,null)
-B.acu=new A.rs(10,null,null)
+B.acv=new A.rs(10,null,null)
 B.fm=new A.rs(1,null,null)
 B.Jf=new A.rs(2,!1,!0)
-B.acv=new A.rs(3,null,null)
+B.acw=new A.rs(3,null,null)
 B.rg=new A.rs(5,null,null)
 B.rh=new A.rs(6,null,null)
 B.a_=new A.acM(1,"even")
-B.as2=new A.acO(null,!0)
+B.as4=new A.acO(null,!0)
 B.N=new A.Ua(2,"ellipsis")
-B.acw=new A.Ua(3,"visible")
+B.acx=new A.Ua(3,"visible")
 B.jI=new A.b5(0,B.t)
-B.acx=new A.cH(0,0)
-B.acy=new A.Ue(null,null,null)
-B.acz=new A.IH(B.m,null)
-B.acA=new A.jJ(1,1,B.t,!1,1,1)
-B.acB=new A.jJ(0,1,B.t,!1,0,1)
-B.acC=new A.h7("\u2192 Claude \xb7 ",null,null,B.aR,null,null,null,null,null,null,null)
-B.acD=new A.h7("",null,null,B.aR,null,null,null,null,null,null,null)
-B.acE=new A.h7(" \xb7 ",null,null,B.aR,null,null,null,null,null,null,null)
+B.acy=new A.cH(0,0)
+B.acz=new A.Ue(null,null,null)
+B.acA=new A.IH(B.m,null)
+B.acB=new A.jJ(1,1,B.t,!1,1,1)
+B.acC=new A.jJ(0,1,B.t,!1,0,1)
+B.acD=new A.h7("\u2192 Claude \xb7 ",null,null,B.aR,null,null,null,null,null,null,null)
+B.acE=new A.h7("",null,null,B.aR,null,null,null,null,null,null,null)
+B.acF=new A.h7(" \xb7 ",null,null,B.aR,null,null,null,null,null,null,null)
 B.mP=new A.J(!0,null,null,null,null,null,null,B.aS,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Jg=new A.J(!1,B.kT,null,"CupertinoSystemText",null,null,17,null,null,-0.41,null,null,null,null,null,null,null,B.o,null,null,null,null,null,null,null,null)
-B.ado=new A.J(!0,null,null,null,null,null,13,B.H,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.adp=new A.J(!0,null,null,null,null,null,13,B.H,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Jh=new A.J(!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.J9,null,null,null,null,null,null,null,null)
-B.adR=new A.J(!1,null,null,null,null,null,15,B.n,null,-0.15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.adS=new A.J(!1,null,null,null,null,null,15,B.n,null,-0.15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Ru=new A.cb(B.fO,"placeholderText",null,B.fO,B.ko,B.kF,B.kv,B.fO,B.ko,B.kF,B.kv)
 B.b_=new A.J(!0,B.Ru,null,null,null,null,null,B.n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aee=new A.J(!1,null,null,"CupertinoSystemText",null,null,17,B.H,null,-0.5,null,B.M,1.3,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.aef=new A.J(!1,null,null,"CupertinoSystemText",null,null,17,B.H,null,-0.5,null,B.M,1.3,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Jj=new A.J(!1,B.du,null,"CupertinoSystemDisplay",null,null,34,B.aS,null,0.38,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Jk=new A.J(!1,B.du,null,"CupertinoSystemText",null,null,17,null,null,-0.41,null,null,null,null,null,null,null,B.o,null,null,null,null,null,null,null,null)
-B.afe=new A.J(!1,null,null,"CupertinoSystemText",null,null,13,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.aff=new A.J(!1,null,null,"CupertinoSystemText",null,null,13,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Jl=new A.J(!1,B.du,null,"CupertinoSystemText",null,null,17,B.H,null,-0.41,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.afB=new A.J(!0,null,null,null,null,null,null,B.n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.afC=new A.J(!0,null,null,null,null,null,null,B.n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Jm=new A.J(!1,null,null,null,null,null,14,B.n,null,-0.15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ag9=new A.J(!1,null,null,"CupertinoSystemText",null,null,13,B.n,null,-0.2,null,B.M,1.35,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.agi=new A.J(!1,null,null,"CupertinoSystemDisplay",null,null,17,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.agr=new A.J(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ags=new A.J(!1,null,null,"CupertinoSystemText",null,null,16.8,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.afH=new A.J(!1,null,null,null,null,null,57,B.n,null,-0.25,null,B.M,1.12,B.a_,null,null,null,null,null,null,null,"englishLike displayLarge 2021",null,null,null,null)
-B.adY=new A.J(!1,null,null,null,null,null,45,B.n,null,0,null,B.M,1.16,B.a_,null,null,null,null,null,null,null,"englishLike displayMedium 2021",null,null,null,null)
-B.agB=new A.J(!1,null,null,null,null,null,36,B.n,null,0,null,B.M,1.22,B.a_,null,null,null,null,null,null,null,"englishLike displaySmall 2021",null,null,null,null)
-B.afh=new A.J(!1,null,null,null,null,null,32,B.n,null,0,null,B.M,1.25,B.a_,null,null,null,null,null,null,null,"englishLike headlineLarge 2021",null,null,null,null)
-B.afv=new A.J(!1,null,null,null,null,null,28,B.n,null,0,null,B.M,1.29,B.a_,null,null,null,null,null,null,null,"englishLike headlineMedium 2021",null,null,null,null)
-B.adX=new A.J(!1,null,null,null,null,null,24,B.n,null,0,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"englishLike headlineSmall 2021",null,null,null,null)
-B.ad2=new A.J(!1,null,null,null,null,null,22,B.n,null,0,null,B.M,1.27,B.a_,null,null,null,null,null,null,null,"englishLike titleLarge 2021",null,null,null,null)
-B.add=new A.J(!1,null,null,null,null,null,16,B.at,null,0.15,null,B.M,1.5,B.a_,null,null,null,null,null,null,null,"englishLike titleMedium 2021",null,null,null,null)
-B.ade=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"englishLike titleSmall 2021",null,null,null,null)
-B.aem=new A.J(!1,null,null,null,null,null,16,B.n,null,0.5,null,B.M,1.5,B.a_,null,null,null,null,null,null,null,"englishLike bodyLarge 2021",null,null,null,null)
-B.acR=new A.J(!1,null,null,null,null,null,14,B.n,null,0.25,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"englishLike bodyMedium 2021",null,null,null,null)
-B.aer=new A.J(!1,null,null,null,null,null,12,B.n,null,0.4,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"englishLike bodySmall 2021",null,null,null,null)
-B.ae7=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"englishLike labelLarge 2021",null,null,null,null)
-B.aev=new A.J(!1,null,null,null,null,null,12,B.at,null,0.5,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"englishLike labelMedium 2021",null,null,null,null)
-B.aex=new A.J(!1,null,null,null,null,null,11,B.at,null,0.5,null,B.M,1.45,B.a_,null,null,null,null,null,null,null,"englishLike labelSmall 2021",null,null,null,null)
-B.agD=new A.hX(B.afH,B.adY,B.agB,B.afh,B.afv,B.adX,B.ad2,B.add,B.ade,B.aem,B.acR,B.aer,B.ae7,B.aev,B.aex)
-B.acU=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino displayLarge",null,null,null,null)
-B.aeI=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino displayMedium",null,null,null,null)
-B.af2=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino displaySmall",null,null,null,null)
-B.adS=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino headlineLarge",null,null,null,null)
-B.acW=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino headlineMedium",null,null,null,null)
-B.afq=new A.J(!0,B.ar,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino headlineSmall",null,null,null,null)
-B.acV=new A.J(!0,B.ar,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino titleLarge",null,null,null,null)
-B.afN=new A.J(!0,B.ar,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino titleMedium",null,null,null,null)
-B.aeA=new A.J(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino titleSmall",null,null,null,null)
-B.agA=new A.J(!0,B.ar,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino bodyLarge",null,null,null,null)
-B.acL=new A.J(!0,B.ar,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino bodyMedium",null,null,null,null)
-B.aeG=new A.J(!0,B.ax,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino bodySmall",null,null,null,null)
-B.aes=new A.J(!0,B.ar,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino labelLarge",null,null,null,null)
-B.aeC=new A.J(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino labelMedium",null,null,null,null)
-B.acH=new A.J(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino labelSmall",null,null,null,null)
-B.agE=new A.hX(B.acU,B.aeI,B.af2,B.adS,B.acW,B.afq,B.acV,B.afN,B.aeA,B.agA,B.acL,B.aeG,B.aes,B.aeC,B.acH)
+B.aga=new A.J(!1,null,null,"CupertinoSystemText",null,null,13,B.n,null,-0.2,null,B.M,1.35,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.agj=new A.J(!1,null,null,"CupertinoSystemDisplay",null,null,17,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.ags=new A.J(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.agt=new A.J(!1,null,null,"CupertinoSystemText",null,null,16.8,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.afI=new A.J(!1,null,null,null,null,null,57,B.n,null,-0.25,null,B.M,1.12,B.a_,null,null,null,null,null,null,null,"englishLike displayLarge 2021",null,null,null,null)
+B.adZ=new A.J(!1,null,null,null,null,null,45,B.n,null,0,null,B.M,1.16,B.a_,null,null,null,null,null,null,null,"englishLike displayMedium 2021",null,null,null,null)
+B.agC=new A.J(!1,null,null,null,null,null,36,B.n,null,0,null,B.M,1.22,B.a_,null,null,null,null,null,null,null,"englishLike displaySmall 2021",null,null,null,null)
+B.afi=new A.J(!1,null,null,null,null,null,32,B.n,null,0,null,B.M,1.25,B.a_,null,null,null,null,null,null,null,"englishLike headlineLarge 2021",null,null,null,null)
+B.afw=new A.J(!1,null,null,null,null,null,28,B.n,null,0,null,B.M,1.29,B.a_,null,null,null,null,null,null,null,"englishLike headlineMedium 2021",null,null,null,null)
+B.adY=new A.J(!1,null,null,null,null,null,24,B.n,null,0,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"englishLike headlineSmall 2021",null,null,null,null)
+B.ad3=new A.J(!1,null,null,null,null,null,22,B.n,null,0,null,B.M,1.27,B.a_,null,null,null,null,null,null,null,"englishLike titleLarge 2021",null,null,null,null)
+B.ade=new A.J(!1,null,null,null,null,null,16,B.at,null,0.15,null,B.M,1.5,B.a_,null,null,null,null,null,null,null,"englishLike titleMedium 2021",null,null,null,null)
+B.adf=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"englishLike titleSmall 2021",null,null,null,null)
+B.aen=new A.J(!1,null,null,null,null,null,16,B.n,null,0.5,null,B.M,1.5,B.a_,null,null,null,null,null,null,null,"englishLike bodyLarge 2021",null,null,null,null)
+B.acS=new A.J(!1,null,null,null,null,null,14,B.n,null,0.25,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"englishLike bodyMedium 2021",null,null,null,null)
+B.aes=new A.J(!1,null,null,null,null,null,12,B.n,null,0.4,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"englishLike bodySmall 2021",null,null,null,null)
+B.ae8=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"englishLike labelLarge 2021",null,null,null,null)
+B.aew=new A.J(!1,null,null,null,null,null,12,B.at,null,0.5,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"englishLike labelMedium 2021",null,null,null,null)
+B.aey=new A.J(!1,null,null,null,null,null,11,B.at,null,0.5,null,B.M,1.45,B.a_,null,null,null,null,null,null,null,"englishLike labelSmall 2021",null,null,null,null)
+B.agE=new A.hX(B.afI,B.adZ,B.agC,B.afi,B.afw,B.adY,B.ad3,B.ade,B.adf,B.aen,B.acS,B.aes,B.ae8,B.aew,B.aey)
+B.acV=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino displayLarge",null,null,null,null)
+B.aeJ=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino displayMedium",null,null,null,null)
+B.af3=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino displaySmall",null,null,null,null)
+B.adT=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino headlineLarge",null,null,null,null)
+B.acX=new A.J(!0,B.ax,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino headlineMedium",null,null,null,null)
+B.afr=new A.J(!0,B.ar,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino headlineSmall",null,null,null,null)
+B.acW=new A.J(!0,B.ar,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino titleLarge",null,null,null,null)
+B.afO=new A.J(!0,B.ar,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino titleMedium",null,null,null,null)
+B.aeB=new A.J(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino titleSmall",null,null,null,null)
+B.agB=new A.J(!0,B.ar,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino bodyLarge",null,null,null,null)
+B.acM=new A.J(!0,B.ar,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino bodyMedium",null,null,null,null)
+B.aeH=new A.J(!0,B.ax,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino bodySmall",null,null,null,null)
+B.aet=new A.J(!0,B.ar,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino labelLarge",null,null,null,null)
+B.aeD=new A.J(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino labelMedium",null,null,null,null)
+B.acI=new A.J(!0,B.F,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackCupertino labelSmall",null,null,null,null)
+B.agF=new A.hX(B.acV,B.aeJ,B.af3,B.adT,B.acX,B.afr,B.acW,B.afO,B.aeB,B.agB,B.acM,B.aeH,B.aet,B.aeD,B.acI)
 B.aD=s(["Ubuntu","Adwaita Sans","Cantarell","DejaVu Sans","Liberation Sans","Arial"],t.s)
-B.afT=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki displayLarge",null,null,null,null)
-B.aeO=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki displayMedium",null,null,null,null)
-B.afE=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki displaySmall",null,null,null,null)
-B.aff=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki headlineLarge",null,null,null,null)
-B.adP=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki headlineMedium",null,null,null,null)
-B.acZ=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki headlineSmall",null,null,null,null)
-B.ad8=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki titleLarge",null,null,null,null)
-B.aeV=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki titleMedium",null,null,null,null)
-B.afK=new A.J(!0,B.F,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki titleSmall",null,null,null,null)
-B.afU=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki bodyLarge",null,null,null,null)
-B.adE=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki bodyMedium",null,null,null,null)
-B.afu=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki bodySmall",null,null,null,null)
-B.adZ=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki labelLarge",null,null,null,null)
-B.aei=new A.J(!0,B.F,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki labelMedium",null,null,null,null)
-B.agf=new A.J(!0,B.F,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki labelSmall",null,null,null,null)
-B.agF=new A.hX(B.afT,B.aeO,B.afE,B.aff,B.adP,B.acZ,B.ad8,B.aeV,B.afK,B.afU,B.adE,B.afu,B.adZ,B.aei,B.agf)
-B.afW=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity displayLarge",null,null,null,null)
-B.ada=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity displayMedium",null,null,null,null)
-B.afX=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity displaySmall",null,null,null,null)
-B.agd=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity headlineLarge",null,null,null,null)
-B.adf=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity headlineMedium",null,null,null,null)
-B.aea=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity headlineSmall",null,null,null,null)
-B.ads=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity titleLarge",null,null,null,null)
-B.af5=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity titleMedium",null,null,null,null)
-B.af8=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity titleSmall",null,null,null,null)
-B.afl=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity bodyLarge",null,null,null,null)
-B.aeR=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity bodyMedium",null,null,null,null)
-B.aeN=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity bodySmall",null,null,null,null)
-B.adL=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity labelLarge",null,null,null,null)
-B.aeP=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity labelMedium",null,null,null,null)
-B.adm=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity labelSmall",null,null,null,null)
-B.agG=new A.hX(B.afW,B.ada,B.afX,B.agd,B.adf,B.aea,B.ads,B.af5,B.af8,B.afl,B.aeR,B.aeN,B.adL,B.aeP,B.adm)
-B.agp=new A.J(!1,null,null,null,null,null,112,B.po,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense displayLarge 2014",null,null,null,null)
-B.agk=new A.J(!1,null,null,null,null,null,56,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense displayMedium 2014",null,null,null,null)
-B.afb=new A.J(!1,null,null,null,null,null,45,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense displaySmall 2014",null,null,null,null)
-B.adv=new A.J(!1,null,null,null,null,null,40,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense headlineLarge 2014",null,null,null,null)
-B.afs=new A.J(!1,null,null,null,null,null,34,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense headlineMedium 2014",null,null,null,null)
-B.acX=new A.J(!1,null,null,null,null,null,24,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense headlineSmall 2014",null,null,null,null)
-B.afP=new A.J(!1,null,null,null,null,null,21,B.at,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense titleLarge 2014",null,null,null,null)
-B.aeY=new A.J(!1,null,null,null,null,null,17,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense titleMedium 2014",null,null,null,null)
-B.aeT=new A.J(!1,null,null,null,null,null,15,B.at,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense titleSmall 2014",null,null,null,null)
-B.acY=new A.J(!1,null,null,null,null,null,15,B.at,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense bodyLarge 2014",null,null,null,null)
-B.af9=new A.J(!1,null,null,null,null,null,15,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense bodyMedium 2014",null,null,null,null)
-B.aeg=new A.J(!1,null,null,null,null,null,13,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense bodySmall 2014",null,null,null,null)
-B.afL=new A.J(!1,null,null,null,null,null,15,B.at,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense labelLarge 2014",null,null,null,null)
-B.afx=new A.J(!1,null,null,null,null,null,12,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense labelMedium 2014",null,null,null,null)
-B.afY=new A.J(!1,null,null,null,null,null,11,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense labelSmall 2014",null,null,null,null)
-B.agH=new A.hX(B.agp,B.agk,B.afb,B.adv,B.afs,B.acX,B.afP,B.aeY,B.aeT,B.acY,B.af9,B.aeg,B.afL,B.afx,B.afY)
-B.aey=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond displayLarge",null,null,null,null)
-B.acS=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond displayMedium",null,null,null,null)
-B.ag3=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond displaySmall",null,null,null,null)
-B.ad6=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond headlineLarge",null,null,null,null)
-B.afm=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond headlineMedium",null,null,null,null)
-B.aeK=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond headlineSmall",null,null,null,null)
-B.ag0=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond titleLarge",null,null,null,null)
-B.adu=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond titleMedium",null,null,null,null)
-B.adk=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond titleSmall",null,null,null,null)
-B.agh=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond bodyLarge",null,null,null,null)
-B.afC=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond bodyMedium",null,null,null,null)
-B.af7=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond bodySmall",null,null,null,null)
-B.ad7=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond labelLarge",null,null,null,null)
-B.ae3=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond labelMedium",null,null,null,null)
-B.acF=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond labelSmall",null,null,null,null)
-B.agI=new A.hX(B.aey,B.acS,B.ag3,B.ad6,B.afm,B.aeK,B.ag0,B.adu,B.adk,B.agh,B.afC,B.af7,B.ad7,B.ae3,B.acF)
-B.aec=new A.J(!1,null,null,null,null,null,112,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall displayLarge 2014",null,null,null,null)
-B.afM=new A.J(!1,null,null,null,null,null,56,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall displayMedium 2014",null,null,null,null)
-B.aeu=new A.J(!1,null,null,null,null,null,45,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall displaySmall 2014",null,null,null,null)
-B.aet=new A.J(!1,null,null,null,null,null,40,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall headlineLarge 2014",null,null,null,null)
-B.afA=new A.J(!1,null,null,null,null,null,34,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall headlineMedium 2014",null,null,null,null)
-B.af1=new A.J(!1,null,null,null,null,null,24,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall headlineSmall 2014",null,null,null,null)
-B.ae9=new A.J(!1,null,null,null,null,null,21,B.aS,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall titleLarge 2014",null,null,null,null)
-B.ad_=new A.J(!1,null,null,null,null,null,17,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall titleMedium 2014",null,null,null,null)
-B.afV=new A.J(!1,null,null,null,null,null,15,B.at,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall titleSmall 2014",null,null,null,null)
-B.ad9=new A.J(!1,null,null,null,null,null,15,B.aS,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall bodyLarge 2014",null,null,null,null)
-B.ae0=new A.J(!1,null,null,null,null,null,15,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall bodyMedium 2014",null,null,null,null)
-B.aez=new A.J(!1,null,null,null,null,null,13,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall bodySmall 2014",null,null,null,null)
-B.adl=new A.J(!1,null,null,null,null,null,15,B.aS,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall labelLarge 2014",null,null,null,null)
-B.adI=new A.J(!1,null,null,null,null,null,12,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall labelMedium 2014",null,null,null,null)
-B.ag1=new A.J(!1,null,null,null,null,null,11,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall labelSmall 2014",null,null,null,null)
-B.agJ=new A.hX(B.aec,B.afM,B.aeu,B.aet,B.afA,B.af1,B.ae9,B.ad_,B.afV,B.ad9,B.ae0,B.aez,B.adl,B.adI,B.ag1)
-B.adH=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView displayLarge",null,null,null,null)
-B.adO=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView displayMedium",null,null,null,null)
-B.adj=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView displaySmall",null,null,null,null)
-B.acG=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView headlineLarge",null,null,null,null)
-B.aej=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView headlineMedium",null,null,null,null)
-B.agg=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView headlineSmall",null,null,null,null)
-B.adh=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView titleLarge",null,null,null,null)
-B.ady=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView titleMedium",null,null,null,null)
-B.af6=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView titleSmall",null,null,null,null)
-B.ael=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView bodyLarge",null,null,null,null)
-B.agn=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView bodyMedium",null,null,null,null)
-B.agm=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView bodySmall",null,null,null,null)
-B.adN=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView labelLarge",null,null,null,null)
-B.afc=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
-B.ag6=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
-B.agK=new A.hX(B.adH,B.adO,B.adj,B.acG,B.aej,B.agg,B.adh,B.ady,B.af6,B.ael,B.agn,B.agm,B.adN,B.afc,B.ag6)
-B.aft=new A.J(!1,null,null,null,null,null,57,B.n,null,-0.25,null,B.aw,1.12,B.a_,null,null,null,null,null,null,null,"dense displayLarge 2021",null,null,null,null)
-B.afa=new A.J(!1,null,null,null,null,null,45,B.n,null,0,null,B.aw,1.16,B.a_,null,null,null,null,null,null,null,"dense displayMedium 2021",null,null,null,null)
-B.afi=new A.J(!1,null,null,null,null,null,36,B.n,null,0,null,B.aw,1.22,B.a_,null,null,null,null,null,null,null,"dense displaySmall 2021",null,null,null,null)
-B.adz=new A.J(!1,null,null,null,null,null,32,B.n,null,0,null,B.aw,1.25,B.a_,null,null,null,null,null,null,null,"dense headlineLarge 2021",null,null,null,null)
-B.aef=new A.J(!1,null,null,null,null,null,28,B.n,null,0,null,B.aw,1.29,B.a_,null,null,null,null,null,null,null,"dense headlineMedium 2021",null,null,null,null)
-B.agw=new A.J(!1,null,null,null,null,null,24,B.n,null,0,null,B.aw,1.33,B.a_,null,null,null,null,null,null,null,"dense headlineSmall 2021",null,null,null,null)
-B.aeJ=new A.J(!1,null,null,null,null,null,22,B.n,null,0,null,B.aw,1.27,B.a_,null,null,null,null,null,null,null,"dense titleLarge 2021",null,null,null,null)
-B.adF=new A.J(!1,null,null,null,null,null,16,B.at,null,0.15,null,B.aw,1.5,B.a_,null,null,null,null,null,null,null,"dense titleMedium 2021",null,null,null,null)
-B.afD=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.aw,1.43,B.a_,null,null,null,null,null,null,null,"dense titleSmall 2021",null,null,null,null)
-B.afS=new A.J(!1,null,null,null,null,null,16,B.n,null,0.5,null,B.aw,1.5,B.a_,null,null,null,null,null,null,null,"dense bodyLarge 2021",null,null,null,null)
-B.adD=new A.J(!1,null,null,null,null,null,14,B.n,null,0.25,null,B.aw,1.43,B.a_,null,null,null,null,null,null,null,"dense bodyMedium 2021",null,null,null,null)
-B.ad0=new A.J(!1,null,null,null,null,null,12,B.n,null,0.4,null,B.aw,1.33,B.a_,null,null,null,null,null,null,null,"dense bodySmall 2021",null,null,null,null)
-B.aeB=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.aw,1.43,B.a_,null,null,null,null,null,null,null,"dense labelLarge 2021",null,null,null,null)
-B.afI=new A.J(!1,null,null,null,null,null,12,B.at,null,0.5,null,B.aw,1.33,B.a_,null,null,null,null,null,null,null,"dense labelMedium 2021",null,null,null,null)
-B.agz=new A.J(!1,null,null,null,null,null,11,B.at,null,0.5,null,B.aw,1.45,B.a_,null,null,null,null,null,null,null,"dense labelSmall 2021",null,null,null,null)
-B.agL=new A.hX(B.aft,B.afa,B.afi,B.adz,B.aef,B.agw,B.aeJ,B.adF,B.afD,B.afS,B.adD,B.ad0,B.aeB,B.afI,B.agz)
-B.agx=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino displayLarge",null,null,null,null)
-B.ag2=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino displayMedium",null,null,null,null)
-B.afg=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino displaySmall",null,null,null,null)
-B.aeb=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino headlineLarge",null,null,null,null)
-B.afF=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino headlineMedium",null,null,null,null)
-B.ae4=new A.J(!0,B.q,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino headlineSmall",null,null,null,null)
-B.af3=new A.J(!0,B.q,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino titleLarge",null,null,null,null)
-B.afy=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino titleMedium",null,null,null,null)
-B.af0=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino titleSmall",null,null,null,null)
-B.ag8=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino bodyLarge",null,null,null,null)
-B.adW=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino bodyMedium",null,null,null,null)
-B.aew=new A.J(!0,B.ay,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino bodySmall",null,null,null,null)
-B.ae6=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino labelLarge",null,null,null,null)
-B.acQ=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino labelMedium",null,null,null,null)
-B.acP=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino labelSmall",null,null,null,null)
-B.agM=new A.hX(B.agx,B.ag2,B.afg,B.aeb,B.afF,B.ae4,B.af3,B.afy,B.af0,B.ag8,B.adW,B.aew,B.ae6,B.acQ,B.acP)
-B.agC=new A.J(!1,null,null,null,null,null,57,B.n,null,-0.25,null,B.M,1.12,B.a_,null,null,null,null,null,null,null,"tall displayLarge 2021",null,null,null,null)
-B.adM=new A.J(!1,null,null,null,null,null,45,B.n,null,0,null,B.M,1.16,B.a_,null,null,null,null,null,null,null,"tall displayMedium 2021",null,null,null,null)
-B.ae8=new A.J(!1,null,null,null,null,null,36,B.n,null,0,null,B.M,1.22,B.a_,null,null,null,null,null,null,null,"tall displaySmall 2021",null,null,null,null)
-B.adx=new A.J(!1,null,null,null,null,null,32,B.n,null,0,null,B.M,1.25,B.a_,null,null,null,null,null,null,null,"tall headlineLarge 2021",null,null,null,null)
-B.adT=new A.J(!1,null,null,null,null,null,28,B.n,null,0,null,B.M,1.29,B.a_,null,null,null,null,null,null,null,"tall headlineMedium 2021",null,null,null,null)
-B.adi=new A.J(!1,null,null,null,null,null,24,B.n,null,0,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"tall headlineSmall 2021",null,null,null,null)
-B.aeL=new A.J(!1,null,null,null,null,null,22,B.n,null,0,null,B.M,1.27,B.a_,null,null,null,null,null,null,null,"tall titleLarge 2021",null,null,null,null)
-B.aeo=new A.J(!1,null,null,null,null,null,16,B.at,null,0.15,null,B.M,1.5,B.a_,null,null,null,null,null,null,null,"tall titleMedium 2021",null,null,null,null)
-B.agl=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"tall titleSmall 2021",null,null,null,null)
-B.afR=new A.J(!1,null,null,null,null,null,16,B.n,null,0.5,null,B.M,1.5,B.a_,null,null,null,null,null,null,null,"tall bodyLarge 2021",null,null,null,null)
-B.ag5=new A.J(!1,null,null,null,null,null,14,B.n,null,0.25,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"tall bodyMedium 2021",null,null,null,null)
-B.agc=new A.J(!1,null,null,null,null,null,12,B.n,null,0.4,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"tall bodySmall 2021",null,null,null,null)
-B.afO=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"tall labelLarge 2021",null,null,null,null)
-B.agq=new A.J(!1,null,null,null,null,null,12,B.at,null,0.5,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"tall labelMedium 2021",null,null,null,null)
-B.afn=new A.J(!1,null,null,null,null,null,11,B.at,null,0.5,null,B.M,1.45,B.a_,null,null,null,null,null,null,null,"tall labelSmall 2021",null,null,null,null)
-B.agN=new A.hX(B.agC,B.adM,B.ae8,B.adx,B.adT,B.adi,B.aeL,B.aeo,B.agl,B.afR,B.ag5,B.agc,B.afO,B.agq,B.afn)
-B.agb=new A.J(!1,null,null,null,null,null,112,B.po,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike displayLarge 2014",null,null,null,null)
-B.aeZ=new A.J(!1,null,null,null,null,null,56,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike displayMedium 2014",null,null,null,null)
-B.afQ=new A.J(!1,null,null,null,null,null,45,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike displaySmall 2014",null,null,null,null)
-B.aep=new A.J(!1,null,null,null,null,null,40,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike headlineLarge 2014",null,null,null,null)
-B.afd=new A.J(!1,null,null,null,null,null,34,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike headlineMedium 2014",null,null,null,null)
-B.adb=new A.J(!1,null,null,null,null,null,24,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike headlineSmall 2014",null,null,null,null)
-B.aeD=new A.J(!1,null,null,null,null,null,20,B.at,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike titleLarge 2014",null,null,null,null)
-B.adV=new A.J(!1,null,null,null,null,null,16,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike titleMedium 2014",null,null,null,null)
-B.ad4=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike titleSmall 2014",null,null,null,null)
-B.adB=new A.J(!1,null,null,null,null,null,14,B.at,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike bodyLarge 2014",null,null,null,null)
-B.ag_=new A.J(!1,null,null,null,null,null,14,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike bodyMedium 2014",null,null,null,null)
-B.acK=new A.J(!1,null,null,null,null,null,12,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike bodySmall 2014",null,null,null,null)
-B.aga=new A.J(!1,null,null,null,null,null,14,B.at,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike labelLarge 2014",null,null,null,null)
-B.adw=new A.J(!1,null,null,null,null,null,12,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike labelMedium 2014",null,null,null,null)
-B.aeQ=new A.J(!1,null,null,null,null,null,10,B.n,null,1.5,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike labelSmall 2014",null,null,null,null)
-B.agO=new A.hX(B.agb,B.aeZ,B.afQ,B.aep,B.afd,B.adb,B.aeD,B.adV,B.ad4,B.adB,B.ag_,B.acK,B.aga,B.adw,B.aeQ)
-B.adq=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond displayLarge",null,null,null,null)
-B.aeh=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond displayMedium",null,null,null,null)
-B.agu=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond displaySmall",null,null,null,null)
-B.ae_=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond headlineLarge",null,null,null,null)
-B.aen=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond headlineMedium",null,null,null,null)
-B.afG=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond headlineSmall",null,null,null,null)
-B.aeH=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond titleLarge",null,null,null,null)
-B.afj=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond titleMedium",null,null,null,null)
-B.ag7=new A.J(!0,B.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond titleSmall",null,null,null,null)
-B.ae2=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond bodyLarge",null,null,null,null)
-B.adG=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond bodyMedium",null,null,null,null)
-B.acJ=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond bodySmall",null,null,null,null)
-B.adt=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond labelLarge",null,null,null,null)
-B.agv=new A.J(!0,B.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond labelMedium",null,null,null,null)
-B.ago=new A.J(!0,B.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond labelSmall",null,null,null,null)
-B.agP=new A.hX(B.adq,B.aeh,B.agu,B.ae_,B.aen,B.afG,B.aeH,B.afj,B.ag7,B.ae2,B.adG,B.acJ,B.adt,B.agv,B.ago)
-B.adn=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki displayLarge",null,null,null,null)
-B.afw=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki displayMedium",null,null,null,null)
-B.ae1=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki displaySmall",null,null,null,null)
-B.agj=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki headlineLarge",null,null,null,null)
-B.aeq=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki headlineMedium",null,null,null,null)
-B.ad5=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki headlineSmall",null,null,null,null)
-B.acI=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki titleLarge",null,null,null,null)
-B.ag4=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki titleMedium",null,null,null,null)
-B.adQ=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki titleSmall",null,null,null,null)
-B.age=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki bodyLarge",null,null,null,null)
-B.aeW=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki bodyMedium",null,null,null,null)
-B.agt=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki bodySmall",null,null,null,null)
-B.aeU=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki labelLarge",null,null,null,null)
-B.afZ=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki labelMedium",null,null,null,null)
-B.adc=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki labelSmall",null,null,null,null)
-B.agQ=new A.hX(B.adn,B.afw,B.ae1,B.agj,B.aeq,B.ad5,B.acI,B.ag4,B.adQ,B.age,B.aeW,B.agt,B.aeU,B.afZ,B.adc)
-B.afp=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView displayLarge",null,null,null,null)
-B.acN=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView displayMedium",null,null,null,null)
-B.aeS=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView displaySmall",null,null,null,null)
-B.aeM=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView headlineLarge",null,null,null,null)
-B.adJ=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView headlineMedium",null,null,null,null)
-B.afk=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView headlineSmall",null,null,null,null)
-B.acO=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView titleLarge",null,null,null,null)
-B.afz=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView titleMedium",null,null,null,null)
-B.aed=new A.J(!0,B.F,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView titleSmall",null,null,null,null)
-B.ad1=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView bodyLarge",null,null,null,null)
-B.adC=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView bodyMedium",null,null,null,null)
-B.agy=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView bodySmall",null,null,null,null)
-B.aeX=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView labelLarge",null,null,null,null)
-B.aek=new A.J(!0,B.F,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView labelMedium",null,null,null,null)
-B.adr=new A.J(!0,B.F,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView labelSmall",null,null,null,null)
-B.agR=new A.hX(B.afp,B.acN,B.aeS,B.aeM,B.adJ,B.afk,B.acO,B.afz,B.aed,B.ad1,B.adC,B.agy,B.aeX,B.aek,B.adr)
-B.aeE=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity displayLarge",null,null,null,null)
-B.adA=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity displayMedium",null,null,null,null)
-B.aeF=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity displaySmall",null,null,null,null)
-B.af4=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity headlineLarge",null,null,null,null)
-B.adg=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity headlineMedium",null,null,null,null)
-B.adp=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity headlineSmall",null,null,null,null)
-B.adU=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity titleLarge",null,null,null,null)
-B.af_=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity titleMedium",null,null,null,null)
-B.ae5=new A.J(!0,B.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity titleSmall",null,null,null,null)
-B.afr=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity bodyLarge",null,null,null,null)
-B.acM=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity bodyMedium",null,null,null,null)
-B.ad3=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity bodySmall",null,null,null,null)
-B.afo=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity labelLarge",null,null,null,null)
-B.afJ=new A.J(!0,B.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
-B.acT=new A.J(!0,B.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
-B.agS=new A.hX(B.aeE,B.adA,B.aeF,B.af4,B.adg,B.adp,B.adU,B.af_,B.ae5,B.afr,B.acM,B.ad3,B.afo,B.afJ,B.acT)
-B.agT=new A.bq("Delete Permanently",null,null,null,null,null,null,null)
-B.agU=new A.bq("New folder",null,null,null,null,null,null,null)
-B.agV=new A.bq("Could not create page",null,null,null,null,null,null,null)
-B.agW=new A.bq("Move Up",null,null,null,null,null,null,null)
-B.agX=new A.bq("Recover un-transcribed audio?",null,null,null,null,null,null,null)
-B.agY=new A.bq("Folders",null,null,null,null,null,null,null)
-B.ah_=new A.bq("Restore",null,null,null,null,null,null,null)
-B.ah0=new A.bq("What\u2019s new",null,null,null,null,null,null,null)
-B.ah1=new A.bq("Save & start chatting",null,null,null,null,null,null,null)
-B.ah2=new A.bq("Keep recording",null,null,null,null,null,null,null)
-B.ah3=new A.bq("This recording is in several folders \u2014 move it out of which one?",null,null,null,null,null,null,null)
-B.ah4=new A.bq("End & Read",null,null,null,null,null,null,null)
+B.afU=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki displayLarge",null,null,null,null)
+B.aeP=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki displayMedium",null,null,null,null)
+B.afF=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki displaySmall",null,null,null,null)
+B.afg=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki headlineLarge",null,null,null,null)
+B.adQ=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki headlineMedium",null,null,null,null)
+B.ad_=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki headlineSmall",null,null,null,null)
+B.ad9=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki titleLarge",null,null,null,null)
+B.aeW=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki titleMedium",null,null,null,null)
+B.afL=new A.J(!0,B.F,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki titleSmall",null,null,null,null)
+B.afV=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki bodyLarge",null,null,null,null)
+B.adF=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki bodyMedium",null,null,null,null)
+B.afv=new A.J(!0,B.ax,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki bodySmall",null,null,null,null)
+B.ae_=new A.J(!0,B.ar,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki labelLarge",null,null,null,null)
+B.aej=new A.J(!0,B.F,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki labelMedium",null,null,null,null)
+B.agg=new A.J(!0,B.F,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackHelsinki labelSmall",null,null,null,null)
+B.agG=new A.hX(B.afU,B.aeP,B.afF,B.afg,B.adQ,B.ad_,B.ad9,B.aeW,B.afL,B.afV,B.adF,B.afv,B.ae_,B.aej,B.agg)
+B.afX=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity displayLarge",null,null,null,null)
+B.adb=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity displayMedium",null,null,null,null)
+B.afY=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity displaySmall",null,null,null,null)
+B.age=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity headlineLarge",null,null,null,null)
+B.adg=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity headlineMedium",null,null,null,null)
+B.aeb=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity headlineSmall",null,null,null,null)
+B.adt=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity titleLarge",null,null,null,null)
+B.af6=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity titleMedium",null,null,null,null)
+B.af9=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity titleSmall",null,null,null,null)
+B.afm=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity bodyLarge",null,null,null,null)
+B.aeS=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity bodyMedium",null,null,null,null)
+B.aeO=new A.J(!0,B.ay,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity bodySmall",null,null,null,null)
+B.adM=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity labelLarge",null,null,null,null)
+B.aeQ=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity labelMedium",null,null,null,null)
+B.adn=new A.J(!0,B.q,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedwoodCity labelSmall",null,null,null,null)
+B.agH=new A.hX(B.afX,B.adb,B.afY,B.age,B.adg,B.aeb,B.adt,B.af6,B.af9,B.afm,B.aeS,B.aeO,B.adM,B.aeQ,B.adn)
+B.agq=new A.J(!1,null,null,null,null,null,112,B.po,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense displayLarge 2014",null,null,null,null)
+B.agl=new A.J(!1,null,null,null,null,null,56,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense displayMedium 2014",null,null,null,null)
+B.afc=new A.J(!1,null,null,null,null,null,45,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense displaySmall 2014",null,null,null,null)
+B.adw=new A.J(!1,null,null,null,null,null,40,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense headlineLarge 2014",null,null,null,null)
+B.aft=new A.J(!1,null,null,null,null,null,34,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense headlineMedium 2014",null,null,null,null)
+B.acY=new A.J(!1,null,null,null,null,null,24,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense headlineSmall 2014",null,null,null,null)
+B.afQ=new A.J(!1,null,null,null,null,null,21,B.at,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense titleLarge 2014",null,null,null,null)
+B.aeZ=new A.J(!1,null,null,null,null,null,17,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense titleMedium 2014",null,null,null,null)
+B.aeU=new A.J(!1,null,null,null,null,null,15,B.at,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense titleSmall 2014",null,null,null,null)
+B.acZ=new A.J(!1,null,null,null,null,null,15,B.at,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense bodyLarge 2014",null,null,null,null)
+B.afa=new A.J(!1,null,null,null,null,null,15,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense bodyMedium 2014",null,null,null,null)
+B.aeh=new A.J(!1,null,null,null,null,null,13,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense bodySmall 2014",null,null,null,null)
+B.afM=new A.J(!1,null,null,null,null,null,15,B.at,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense labelLarge 2014",null,null,null,null)
+B.afy=new A.J(!1,null,null,null,null,null,12,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense labelMedium 2014",null,null,null,null)
+B.afZ=new A.J(!1,null,null,null,null,null,11,B.n,null,null,null,B.aw,null,null,null,null,null,null,null,null,null,"dense labelSmall 2014",null,null,null,null)
+B.agI=new A.hX(B.agq,B.agl,B.afc,B.adw,B.aft,B.acY,B.afQ,B.aeZ,B.aeU,B.acZ,B.afa,B.aeh,B.afM,B.afy,B.afZ)
+B.aez=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond displayLarge",null,null,null,null)
+B.acT=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond displayMedium",null,null,null,null)
+B.ag4=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond displaySmall",null,null,null,null)
+B.ad7=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond headlineLarge",null,null,null,null)
+B.afn=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond headlineMedium",null,null,null,null)
+B.aeL=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond headlineSmall",null,null,null,null)
+B.ag1=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond titleLarge",null,null,null,null)
+B.adv=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond titleMedium",null,null,null,null)
+B.adl=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond titleSmall",null,null,null,null)
+B.agi=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond bodyLarge",null,null,null,null)
+B.afD=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond bodyMedium",null,null,null,null)
+B.af8=new A.J(!0,B.ay,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond bodySmall",null,null,null,null)
+B.ad8=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond labelLarge",null,null,null,null)
+B.ae4=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond labelMedium",null,null,null,null)
+B.acG=new A.J(!0,B.q,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteRedmond labelSmall",null,null,null,null)
+B.agJ=new A.hX(B.aez,B.acT,B.ag4,B.ad7,B.afn,B.aeL,B.ag1,B.adv,B.adl,B.agi,B.afD,B.af8,B.ad8,B.ae4,B.acG)
+B.aed=new A.J(!1,null,null,null,null,null,112,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall displayLarge 2014",null,null,null,null)
+B.afN=new A.J(!1,null,null,null,null,null,56,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall displayMedium 2014",null,null,null,null)
+B.aev=new A.J(!1,null,null,null,null,null,45,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall displaySmall 2014",null,null,null,null)
+B.aeu=new A.J(!1,null,null,null,null,null,40,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall headlineLarge 2014",null,null,null,null)
+B.afB=new A.J(!1,null,null,null,null,null,34,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall headlineMedium 2014",null,null,null,null)
+B.af2=new A.J(!1,null,null,null,null,null,24,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall headlineSmall 2014",null,null,null,null)
+B.aea=new A.J(!1,null,null,null,null,null,21,B.aS,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall titleLarge 2014",null,null,null,null)
+B.ad0=new A.J(!1,null,null,null,null,null,17,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall titleMedium 2014",null,null,null,null)
+B.afW=new A.J(!1,null,null,null,null,null,15,B.at,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall titleSmall 2014",null,null,null,null)
+B.ada=new A.J(!1,null,null,null,null,null,15,B.aS,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall bodyLarge 2014",null,null,null,null)
+B.ae1=new A.J(!1,null,null,null,null,null,15,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall bodyMedium 2014",null,null,null,null)
+B.aeA=new A.J(!1,null,null,null,null,null,13,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall bodySmall 2014",null,null,null,null)
+B.adm=new A.J(!1,null,null,null,null,null,15,B.aS,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall labelLarge 2014",null,null,null,null)
+B.adJ=new A.J(!1,null,null,null,null,null,12,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall labelMedium 2014",null,null,null,null)
+B.ag2=new A.J(!1,null,null,null,null,null,11,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"tall labelSmall 2014",null,null,null,null)
+B.agK=new A.hX(B.aed,B.afN,B.aev,B.aeu,B.afB,B.af2,B.aea,B.ad0,B.afW,B.ada,B.ae1,B.aeA,B.adm,B.adJ,B.ag2)
+B.adI=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView displayLarge",null,null,null,null)
+B.adP=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView displayMedium",null,null,null,null)
+B.adk=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView displaySmall",null,null,null,null)
+B.acH=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView headlineLarge",null,null,null,null)
+B.aek=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView headlineMedium",null,null,null,null)
+B.agh=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView headlineSmall",null,null,null,null)
+B.adi=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView titleLarge",null,null,null,null)
+B.adz=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView titleMedium",null,null,null,null)
+B.af7=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView titleSmall",null,null,null,null)
+B.aem=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView bodyLarge",null,null,null,null)
+B.ago=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView bodyMedium",null,null,null,null)
+B.agn=new A.J(!0,B.ay,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView bodySmall",null,null,null,null)
+B.adO=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView labelLarge",null,null,null,null)
+B.afd=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
+B.ag7=new A.J(!0,B.q,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
+B.agL=new A.hX(B.adI,B.adP,B.adk,B.acH,B.aek,B.agh,B.adi,B.adz,B.af7,B.aem,B.ago,B.agn,B.adO,B.afd,B.ag7)
+B.afu=new A.J(!1,null,null,null,null,null,57,B.n,null,-0.25,null,B.aw,1.12,B.a_,null,null,null,null,null,null,null,"dense displayLarge 2021",null,null,null,null)
+B.afb=new A.J(!1,null,null,null,null,null,45,B.n,null,0,null,B.aw,1.16,B.a_,null,null,null,null,null,null,null,"dense displayMedium 2021",null,null,null,null)
+B.afj=new A.J(!1,null,null,null,null,null,36,B.n,null,0,null,B.aw,1.22,B.a_,null,null,null,null,null,null,null,"dense displaySmall 2021",null,null,null,null)
+B.adA=new A.J(!1,null,null,null,null,null,32,B.n,null,0,null,B.aw,1.25,B.a_,null,null,null,null,null,null,null,"dense headlineLarge 2021",null,null,null,null)
+B.aeg=new A.J(!1,null,null,null,null,null,28,B.n,null,0,null,B.aw,1.29,B.a_,null,null,null,null,null,null,null,"dense headlineMedium 2021",null,null,null,null)
+B.agx=new A.J(!1,null,null,null,null,null,24,B.n,null,0,null,B.aw,1.33,B.a_,null,null,null,null,null,null,null,"dense headlineSmall 2021",null,null,null,null)
+B.aeK=new A.J(!1,null,null,null,null,null,22,B.n,null,0,null,B.aw,1.27,B.a_,null,null,null,null,null,null,null,"dense titleLarge 2021",null,null,null,null)
+B.adG=new A.J(!1,null,null,null,null,null,16,B.at,null,0.15,null,B.aw,1.5,B.a_,null,null,null,null,null,null,null,"dense titleMedium 2021",null,null,null,null)
+B.afE=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.aw,1.43,B.a_,null,null,null,null,null,null,null,"dense titleSmall 2021",null,null,null,null)
+B.afT=new A.J(!1,null,null,null,null,null,16,B.n,null,0.5,null,B.aw,1.5,B.a_,null,null,null,null,null,null,null,"dense bodyLarge 2021",null,null,null,null)
+B.adE=new A.J(!1,null,null,null,null,null,14,B.n,null,0.25,null,B.aw,1.43,B.a_,null,null,null,null,null,null,null,"dense bodyMedium 2021",null,null,null,null)
+B.ad1=new A.J(!1,null,null,null,null,null,12,B.n,null,0.4,null,B.aw,1.33,B.a_,null,null,null,null,null,null,null,"dense bodySmall 2021",null,null,null,null)
+B.aeC=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.aw,1.43,B.a_,null,null,null,null,null,null,null,"dense labelLarge 2021",null,null,null,null)
+B.afJ=new A.J(!1,null,null,null,null,null,12,B.at,null,0.5,null,B.aw,1.33,B.a_,null,null,null,null,null,null,null,"dense labelMedium 2021",null,null,null,null)
+B.agA=new A.J(!1,null,null,null,null,null,11,B.at,null,0.5,null,B.aw,1.45,B.a_,null,null,null,null,null,null,null,"dense labelSmall 2021",null,null,null,null)
+B.agM=new A.hX(B.afu,B.afb,B.afj,B.adA,B.aeg,B.agx,B.aeK,B.adG,B.afE,B.afT,B.adE,B.ad1,B.aeC,B.afJ,B.agA)
+B.agy=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino displayLarge",null,null,null,null)
+B.ag3=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino displayMedium",null,null,null,null)
+B.afh=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino displaySmall",null,null,null,null)
+B.aec=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino headlineLarge",null,null,null,null)
+B.afG=new A.J(!0,B.ay,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino headlineMedium",null,null,null,null)
+B.ae5=new A.J(!0,B.q,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino headlineSmall",null,null,null,null)
+B.af4=new A.J(!0,B.q,null,"CupertinoSystemDisplay",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino titleLarge",null,null,null,null)
+B.afz=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino titleMedium",null,null,null,null)
+B.af1=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino titleSmall",null,null,null,null)
+B.ag9=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino bodyLarge",null,null,null,null)
+B.adX=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino bodyMedium",null,null,null,null)
+B.aex=new A.J(!0,B.ay,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino bodySmall",null,null,null,null)
+B.ae7=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino labelLarge",null,null,null,null)
+B.acR=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino labelMedium",null,null,null,null)
+B.acQ=new A.J(!0,B.q,null,"CupertinoSystemText",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteCupertino labelSmall",null,null,null,null)
+B.agN=new A.hX(B.agy,B.ag3,B.afh,B.aec,B.afG,B.ae5,B.af4,B.afz,B.af1,B.ag9,B.adX,B.aex,B.ae7,B.acR,B.acQ)
+B.agD=new A.J(!1,null,null,null,null,null,57,B.n,null,-0.25,null,B.M,1.12,B.a_,null,null,null,null,null,null,null,"tall displayLarge 2021",null,null,null,null)
+B.adN=new A.J(!1,null,null,null,null,null,45,B.n,null,0,null,B.M,1.16,B.a_,null,null,null,null,null,null,null,"tall displayMedium 2021",null,null,null,null)
+B.ae9=new A.J(!1,null,null,null,null,null,36,B.n,null,0,null,B.M,1.22,B.a_,null,null,null,null,null,null,null,"tall displaySmall 2021",null,null,null,null)
+B.ady=new A.J(!1,null,null,null,null,null,32,B.n,null,0,null,B.M,1.25,B.a_,null,null,null,null,null,null,null,"tall headlineLarge 2021",null,null,null,null)
+B.adU=new A.J(!1,null,null,null,null,null,28,B.n,null,0,null,B.M,1.29,B.a_,null,null,null,null,null,null,null,"tall headlineMedium 2021",null,null,null,null)
+B.adj=new A.J(!1,null,null,null,null,null,24,B.n,null,0,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"tall headlineSmall 2021",null,null,null,null)
+B.aeM=new A.J(!1,null,null,null,null,null,22,B.n,null,0,null,B.M,1.27,B.a_,null,null,null,null,null,null,null,"tall titleLarge 2021",null,null,null,null)
+B.aep=new A.J(!1,null,null,null,null,null,16,B.at,null,0.15,null,B.M,1.5,B.a_,null,null,null,null,null,null,null,"tall titleMedium 2021",null,null,null,null)
+B.agm=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"tall titleSmall 2021",null,null,null,null)
+B.afS=new A.J(!1,null,null,null,null,null,16,B.n,null,0.5,null,B.M,1.5,B.a_,null,null,null,null,null,null,null,"tall bodyLarge 2021",null,null,null,null)
+B.ag6=new A.J(!1,null,null,null,null,null,14,B.n,null,0.25,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"tall bodyMedium 2021",null,null,null,null)
+B.agd=new A.J(!1,null,null,null,null,null,12,B.n,null,0.4,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"tall bodySmall 2021",null,null,null,null)
+B.afP=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,1.43,B.a_,null,null,null,null,null,null,null,"tall labelLarge 2021",null,null,null,null)
+B.agr=new A.J(!1,null,null,null,null,null,12,B.at,null,0.5,null,B.M,1.33,B.a_,null,null,null,null,null,null,null,"tall labelMedium 2021",null,null,null,null)
+B.afo=new A.J(!1,null,null,null,null,null,11,B.at,null,0.5,null,B.M,1.45,B.a_,null,null,null,null,null,null,null,"tall labelSmall 2021",null,null,null,null)
+B.agO=new A.hX(B.agD,B.adN,B.ae9,B.ady,B.adU,B.adj,B.aeM,B.aep,B.agm,B.afS,B.ag6,B.agd,B.afP,B.agr,B.afo)
+B.agc=new A.J(!1,null,null,null,null,null,112,B.po,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike displayLarge 2014",null,null,null,null)
+B.af_=new A.J(!1,null,null,null,null,null,56,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike displayMedium 2014",null,null,null,null)
+B.afR=new A.J(!1,null,null,null,null,null,45,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike displaySmall 2014",null,null,null,null)
+B.aeq=new A.J(!1,null,null,null,null,null,40,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike headlineLarge 2014",null,null,null,null)
+B.afe=new A.J(!1,null,null,null,null,null,34,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike headlineMedium 2014",null,null,null,null)
+B.adc=new A.J(!1,null,null,null,null,null,24,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike headlineSmall 2014",null,null,null,null)
+B.aeE=new A.J(!1,null,null,null,null,null,20,B.at,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike titleLarge 2014",null,null,null,null)
+B.adW=new A.J(!1,null,null,null,null,null,16,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike titleMedium 2014",null,null,null,null)
+B.ad5=new A.J(!1,null,null,null,null,null,14,B.at,null,0.1,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike titleSmall 2014",null,null,null,null)
+B.adC=new A.J(!1,null,null,null,null,null,14,B.at,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike bodyLarge 2014",null,null,null,null)
+B.ag0=new A.J(!1,null,null,null,null,null,14,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike bodyMedium 2014",null,null,null,null)
+B.acL=new A.J(!1,null,null,null,null,null,12,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike bodySmall 2014",null,null,null,null)
+B.agb=new A.J(!1,null,null,null,null,null,14,B.at,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike labelLarge 2014",null,null,null,null)
+B.adx=new A.J(!1,null,null,null,null,null,12,B.n,null,null,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike labelMedium 2014",null,null,null,null)
+B.aeR=new A.J(!1,null,null,null,null,null,10,B.n,null,1.5,null,B.M,null,null,null,null,null,null,null,null,null,"englishLike labelSmall 2014",null,null,null,null)
+B.agP=new A.hX(B.agc,B.af_,B.afR,B.aeq,B.afe,B.adc,B.aeE,B.adW,B.ad5,B.adC,B.ag0,B.acL,B.agb,B.adx,B.aeR)
+B.adr=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond displayLarge",null,null,null,null)
+B.aei=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond displayMedium",null,null,null,null)
+B.agv=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond displaySmall",null,null,null,null)
+B.ae0=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond headlineLarge",null,null,null,null)
+B.aeo=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond headlineMedium",null,null,null,null)
+B.afH=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond headlineSmall",null,null,null,null)
+B.aeI=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond titleLarge",null,null,null,null)
+B.afk=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond titleMedium",null,null,null,null)
+B.ag8=new A.J(!0,B.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond titleSmall",null,null,null,null)
+B.ae3=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond bodyLarge",null,null,null,null)
+B.adH=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond bodyMedium",null,null,null,null)
+B.acK=new A.J(!0,B.ax,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond bodySmall",null,null,null,null)
+B.adu=new A.J(!0,B.ar,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond labelLarge",null,null,null,null)
+B.agw=new A.J(!0,B.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond labelMedium",null,null,null,null)
+B.agp=new A.J(!0,B.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedmond labelSmall",null,null,null,null)
+B.agQ=new A.hX(B.adr,B.aei,B.agv,B.ae0,B.aeo,B.afH,B.aeI,B.afk,B.ag8,B.ae3,B.adH,B.acK,B.adu,B.agw,B.agp)
+B.ado=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki displayLarge",null,null,null,null)
+B.afx=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki displayMedium",null,null,null,null)
+B.ae2=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki displaySmall",null,null,null,null)
+B.agk=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki headlineLarge",null,null,null,null)
+B.aer=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki headlineMedium",null,null,null,null)
+B.ad6=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki headlineSmall",null,null,null,null)
+B.acJ=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki titleLarge",null,null,null,null)
+B.ag5=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki titleMedium",null,null,null,null)
+B.adR=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki titleSmall",null,null,null,null)
+B.agf=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki bodyLarge",null,null,null,null)
+B.aeX=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki bodyMedium",null,null,null,null)
+B.agu=new A.J(!0,B.ay,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki bodySmall",null,null,null,null)
+B.aeV=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki labelLarge",null,null,null,null)
+B.ag_=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki labelMedium",null,null,null,null)
+B.add=new A.J(!0,B.q,null,"Roboto",B.aD,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"whiteHelsinki labelSmall",null,null,null,null)
+B.agR=new A.hX(B.ado,B.afx,B.ae2,B.agk,B.aer,B.ad6,B.acJ,B.ag5,B.adR,B.agf,B.aeX,B.agu,B.aeV,B.ag_,B.add)
+B.afq=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView displayLarge",null,null,null,null)
+B.acO=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView displayMedium",null,null,null,null)
+B.aeT=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView displaySmall",null,null,null,null)
+B.aeN=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView headlineLarge",null,null,null,null)
+B.adK=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView headlineMedium",null,null,null,null)
+B.afl=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView headlineSmall",null,null,null,null)
+B.acP=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView titleLarge",null,null,null,null)
+B.afA=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView titleMedium",null,null,null,null)
+B.aee=new A.J(!0,B.F,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView titleSmall",null,null,null,null)
+B.ad2=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView bodyLarge",null,null,null,null)
+B.adD=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView bodyMedium",null,null,null,null)
+B.agz=new A.J(!0,B.ax,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView bodySmall",null,null,null,null)
+B.aeY=new A.J(!0,B.ar,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView labelLarge",null,null,null,null)
+B.ael=new A.J(!0,B.F,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView labelMedium",null,null,null,null)
+B.ads=new A.J(!0,B.F,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackMountainView labelSmall",null,null,null,null)
+B.agS=new A.hX(B.afq,B.acO,B.aeT,B.aeN,B.adK,B.afl,B.acP,B.afA,B.aee,B.ad2,B.adD,B.agz,B.aeY,B.ael,B.ads)
+B.aeF=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity displayLarge",null,null,null,null)
+B.adB=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity displayMedium",null,null,null,null)
+B.aeG=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity displaySmall",null,null,null,null)
+B.af5=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity headlineLarge",null,null,null,null)
+B.adh=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity headlineMedium",null,null,null,null)
+B.adq=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity headlineSmall",null,null,null,null)
+B.adV=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity titleLarge",null,null,null,null)
+B.af0=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity titleMedium",null,null,null,null)
+B.ae6=new A.J(!0,B.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity titleSmall",null,null,null,null)
+B.afs=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity bodyLarge",null,null,null,null)
+B.acN=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity bodyMedium",null,null,null,null)
+B.ad4=new A.J(!0,B.ax,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity bodySmall",null,null,null,null)
+B.afp=new A.J(!0,B.ar,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity labelLarge",null,null,null,null)
+B.afK=new A.J(!0,B.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
+B.acU=new A.J(!0,B.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.o,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
+B.agT=new A.hX(B.aeF,B.adB,B.aeG,B.af5,B.adh,B.adq,B.adV,B.af0,B.ae6,B.afs,B.acN,B.ad4,B.afp,B.afK,B.acU)
+B.agU=new A.bq("Delete Permanently",null,null,null,null,null,null,null)
+B.agV=new A.bq("New folder",null,null,null,null,null,null,null)
+B.agW=new A.bq("Could not create page",null,null,null,null,null,null,null)
+B.agX=new A.bq("Move Up",null,null,null,null,null,null,null)
+B.agY=new A.bq("Recover un-transcribed audio?",null,null,null,null,null,null,null)
+B.agZ=new A.bq("Folders",null,null,null,null,null,null,null)
+B.ah0=new A.bq("Restore",null,null,null,null,null,null,null)
+B.ah1=new A.bq("What\u2019s new",null,null,null,null,null,null,null)
+B.ah2=new A.bq("Save & start chatting",null,null,null,null,null,null,null)
+B.ah3=new A.bq("Keep recording",null,null,null,null,null,null,null)
+B.ah4=new A.bq("This recording is in several folders \u2014 move it out of which one?",null,null,null,null,null,null,null)
+B.ah5=new A.bq("End & Read",null,null,null,null,null,null,null)
 B.Jn=new A.bq("Rename",null,null,null,null,null,null,null)
-B.ah5=new A.bq("Clear log?",null,null,null,null,null,null,null)
+B.ah6=new A.bq("Clear log?",null,null,null,null,null,null,null)
 B.rk=new A.bq("Open in OneNote",null,null,null,null,null,null,null)
-B.ah6=new A.bq("Projects",null,null,null,null,null,null,null)
+B.ah7=new A.bq("Projects",null,null,null,null,null,null,null)
 B.Jo=new A.bq("Save",null,null,null,null,null,null,null)
-B.ah7=new A.bq("Your dictation ends and saves as usual, then reading starts.",null,null,null,null,null,null,null)
-B.ah8=new A.bq("Move Down",null,null,null,null,null,null,null)
-B.ah9=new A.bq("New page title",null,null,null,null,null,null,null)
-B.adK=new A.J(!0,B.q,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aha=new A.bq("Go to home page",null,B.adK,null,null,null,null,null)
-B.ahb=new A.bq("Update available",null,null,null,null,null,null,null)
-B.ahd=new A.bq("Reorder Folders\u2026",null,null,null,null,null,null,null)
-B.ahe=new A.bq("Ask Claude",null,null,null,null,null,null,null)
-B.ahf=new A.bq("",null,null,null,null,null,null,null)
-B.ahg=new A.bq("Copied",null,null,null,null,null,null,null)
+B.ah8=new A.bq("Your dictation ends and saves as usual, then reading starts.",null,null,null,null,null,null,null)
+B.ah9=new A.bq("Move Down",null,null,null,null,null,null,null)
+B.aha=new A.bq("New page title",null,null,null,null,null,null,null)
+B.adL=new A.J(!0,B.q,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.ahb=new A.bq("Go to home page",null,B.adL,null,null,null,null,null)
+B.ahc=new A.bq("Update available",null,null,null,null,null,null,null)
+B.ahe=new A.bq("Reorder Folders\u2026",null,null,null,null,null,null,null)
+B.ahf=new A.bq("Ask Claude",null,null,null,null,null,null,null)
+B.ahg=new A.bq("",null,null,null,null,null,null,null)
+B.ahh=new A.bq("Copied",null,null,null,null,null,null,null)
 B.mQ=new A.bq("OK",null,null,null,null,null,null,null)
-B.ahh=new A.bq("Add",null,null,null,null,null,null,null)
-B.ahi=new A.bq("New Subfolder",null,null,null,null,null,null,null)
-B.ahj=new A.bq("Folder",null,null,null,null,null,null,null)
-B.ahk=new A.bq("Page Not Found",null,B.mP,null,null,null,null,null)
-B.ahl=new A.bq("Set up phone",null,null,null,null,null,null,null)
+B.ahi=new A.bq("Add",null,null,null,null,null,null,null)
+B.ahj=new A.bq("New Subfolder",null,null,null,null,null,null,null)
+B.ahk=new A.bq("Folder",null,null,null,null,null,null,null)
+B.ahl=new A.bq("Page Not Found",null,B.mP,null,null,null,null,null)
+B.ahm=new A.bq("Set up phone",null,null,null,null,null,null,null)
 B.Jp=new A.bq("Move to Folder\u2026",null,null,null,null,null,null,null)
-B.ahm=new A.bq("Sort Newest First",null,null,null,null,null,null,null)
-B.ahn=new A.bq("Delete Folder",null,null,null,null,null,null,null)
-B.aho=new A.bq("Start now",null,null,null,null,null,null,null)
-B.ahp=new A.bq("Got it",null,null,null,null,null,null,null)
+B.ahn=new A.bq("Sort Newest First",null,null,null,null,null,null,null)
+B.aho=new A.bq("Delete Folder",null,null,null,null,null,null,null)
+B.ahp=new A.bq("Start now",null,null,null,null,null,null,null)
+B.ahq=new A.bq("Got it",null,null,null,null,null,null,null)
 B.rl=new A.bq("Clear",null,null,null,null,null,null,null)
-B.ahr=new A.bq("Add to Folder\u2026",null,null,null,null,null,null,null)
-B.ahq=new A.bq("Add to folder\u2026",null,null,null,null,null,null,null)
-B.aht=new A.bq("Network log",null,null,null,null,null,null,null)
-B.ahu=new A.bq("Listening List",null,null,null,null,null,null,null)
-B.ahw=new A.bq("It moves to the Trash \u2014 restorable for 30 days. The text already sent to its destination stays there.",null,null,null,null,null,null,null)
-B.ahx=new A.bq("Move to folder\u2026",null,null,null,null,null,null,null)
-B.ahy=new A.bq("Name this project",null,null,null,null,null,null,null)
+B.ahs=new A.bq("Add to Folder\u2026",null,null,null,null,null,null,null)
+B.ahr=new A.bq("Add to folder\u2026",null,null,null,null,null,null,null)
+B.ahu=new A.bq("Network log",null,null,null,null,null,null,null)
+B.ahv=new A.bq("Listening List",null,null,null,null,null,null,null)
+B.ahx=new A.bq("It moves to the Trash \u2014 restorable for 30 days. The text already sent to its destination stays there.",null,null,null,null,null,null,null)
+B.ahy=new A.bq("Move to folder\u2026",null,null,null,null,null,null,null)
+B.ahz=new A.bq("Name this project",null,null,null,null,null,null,null)
 B.Jq=new A.bq("Install",null,null,null,null,null,null,null)
 B.Jr=new A.bq("Later",null,null,null,null,null,null,null)
-B.ahz=new A.bq("Fill in missing titles",null,null,null,null,null,null,null)
-B.ahA=new A.bq("Trash",null,null,null,null,null,null,null)
-B.ahB=new A.bq("Settings",null,null,null,null,null,null,null)
-B.ahC=new A.bq("Stop",null,null,null,null,null,null,null)
-B.ahD=new A.bq("Move to\u2026",null,null,null,null,null,null,null)
-B.ahE=new A.bq("Create",null,null,null,null,null,null,null)
-B.ahG=new A.bq("Recover",null,null,null,null,null,null,null)
+B.ahA=new A.bq("Fill in missing titles",null,null,null,null,null,null,null)
+B.ahB=new A.bq("Trash",null,null,null,null,null,null,null)
+B.ahC=new A.bq("Settings",null,null,null,null,null,null,null)
+B.ahD=new A.bq("Stop",null,null,null,null,null,null,null)
+B.ahE=new A.bq("Move to\u2026",null,null,null,null,null,null,null)
+B.ahF=new A.bq("Create",null,null,null,null,null,null,null)
+B.ahH=new A.bq("Recover",null,null,null,null,null,null,null)
 B.Js=new A.bq("Sign in",null,null,null,null,null,null,null)
-B.ahH=new A.bq("File into Folder\u2026",null,null,null,null,null,null,null)
-B.ahI=new A.bq("Files",null,null,null,null,null,null,null)
-B.ahJ=new A.bq("Local project (not linked to a cloud file)",null,null,null,null,null,null,null)
-B.ahL=new A.bq("All recorded diagnostic events will be discarded. This cannot be undone.",null,null,null,null,null,null,null)
-B.ahM=new A.bq("Link OneNote page\u2026",null,null,null,null,null,null,null)
-B.ahN=new A.bq("Turn Off",null,null,null,null,null,null,null)
-B.ahO=new A.bq("End dictation and read aloud?",null,null,null,null,null,null,null)
-B.ahP=new A.bq("Home",null,null,null,null,null,null,null)
-B.ahQ=new A.bq("Still dictating?",null,null,null,null,null,null,null)
-B.ahR=new A.bq("New on the Canvas",null,null,null,null,null,null,null)
-B.ahT=new A.bq("Create new project",null,null,null,null,null,null,null)
-B.ahU=new A.bq("New",null,null,null,null,null,null,null)
-B.ahV=new A.bq("Now Playing",null,null,null,null,null,null,null)
+B.ahI=new A.bq("File into Folder\u2026",null,null,null,null,null,null,null)
+B.ahJ=new A.bq("Files",null,null,null,null,null,null,null)
+B.ahK=new A.bq("Local project (not linked to a cloud file)",null,null,null,null,null,null,null)
+B.ahM=new A.bq("All recorded diagnostic events will be discarded. This cannot be undone.",null,null,null,null,null,null,null)
+B.ahN=new A.bq("Link OneNote page\u2026",null,null,null,null,null,null,null)
+B.ahO=new A.bq("Turn Off",null,null,null,null,null,null,null)
+B.ahP=new A.bq("End dictation and read aloud?",null,null,null,null,null,null,null)
+B.ahQ=new A.bq("Home",null,null,null,null,null,null,null)
+B.ahR=new A.bq("Still dictating?",null,null,null,null,null,null,null)
+B.ahS=new A.bq("New on the Canvas",null,null,null,null,null,null,null)
+B.ahU=new A.bq("Create new project",null,null,null,null,null,null,null)
+B.ahV=new A.bq("New",null,null,null,null,null,null,null)
+B.ahW=new A.bq("Now Playing",null,null,null,null,null,null,null)
 B.jL=new A.bq("Delete",null,null,null,null,null,null,null)
-B.ahW=new A.bq("Item changes",null,null,null,null,null,null,null)
-B.ahX=new A.bq("Re-tries every kept recording on this device that never got its words. Silent segments are skipped automatically \u2014 only real speech is uploaded, using your OpenAI key. Recovered text fills into the items as it lands.",null,null,null,null,null,null,null)
+B.ahX=new A.bq("Item changes",null,null,null,null,null,null,null)
+B.ahY=new A.bq("Re-tries every kept recording on this device that never got its words. Silent segments are skipped automatically \u2014 only real speech is uploaded, using your OpenAI key. Recovered text fills into the items as it lands.",null,null,null,null,null,null,null)
 B.bm=new A.bq("Cancel",null,null,null,null,null,null,null)
-B.a6I=new A.u(0.056,0.024)
-B.a6W=new A.u(0.108,0.3085)
-B.a6F=new A.u(0.198,0.541)
-B.a6O=new A.u(0.3655,1)
-B.a6V=new A.u(0.5465,0.989)
-B.e7=new A.Uf(B.a6I,B.a6W,B.a6F,B.a6O,B.a6V)
-B.a6L=new A.u(0.05,0)
-B.a6N=new A.u(0.133333,0.06)
-B.a6T=new A.u(0.166666,0.4)
-B.a6G=new A.u(0.208333,0.82)
-B.a6U=new A.u(0.25,1)
-B.ahY=new A.Uf(B.a6L,B.a6N,B.a6T,B.a6G,B.a6U)
-B.ahZ=new A.Ug(null)
+B.a6J=new A.u(0.056,0.024)
+B.a6X=new A.u(0.108,0.3085)
+B.a6G=new A.u(0.198,0.541)
+B.a6P=new A.u(0.3655,1)
+B.a6W=new A.u(0.5465,0.989)
+B.e7=new A.Uf(B.a6J,B.a6X,B.a6G,B.a6P,B.a6W)
+B.a6M=new A.u(0.05,0)
+B.a6O=new A.u(0.133333,0.06)
+B.a6U=new A.u(0.166666,0.4)
+B.a6H=new A.u(0.208333,0.82)
+B.a6V=new A.u(0.25,1)
+B.ahZ=new A.Uf(B.a6M,B.a6O,B.a6U,B.a6H,B.a6V)
+B.ai_=new A.Ug(null)
 B.hH=new A.Uj(0,"clamp")
 B.Ju=new A.Uj(2,"mirror")
 B.rm=new A.Uj(3,"decal")
-B.ai_=new A.Uk(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ai0=new A.Um(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.ai0=new A.Uk(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.ai1=new A.Um(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.dF=new A.Uo(0.001,0.001)
 B.Jv=new A.Uo(0.001,0.03)
-B.ai1=new A.Up(0,"darker")
+B.ai2=new A.Up(0,"darker")
 B.fn=new A.Up(1,"lighter")
 B.e8=new A.Up(2,"nearer")
 B.rn=new A.IN(!1,!1,!1,!1)
-B.ai2=new A.IN(!1,!1,!0,!0)
-B.ai3=new A.IN(!0,!1,!1,!0)
-B.ai4=new A.IN(!0,!0,!0,!0)
-B.ai5=new A.Ut(null,null,null,null,null,null,null,null,null,null)
-B.ai6=new A.b35(1,"longPress")
+B.ai3=new A.IN(!1,!1,!0,!0)
+B.ai4=new A.IN(!0,!1,!1,!0)
+B.ai5=new A.IN(!0,!0,!0,!0)
+B.ai6=new A.Ut(null,null,null,null,null,null,null,null,null,null)
+B.ai7=new A.b35(1,"longPress")
 B.Jw=new A.Uy(0,"identity")
 B.Jx=new A.Uy(1,"transform2d")
 B.Jy=new A.Uy(2,"complex")
-B.ai7=new A.Uz(null)
+B.ai8=new A.Uz(null)
 B.e9=new A.yj(0,"up")
 B.ea=new A.yj(1,"right")
 B.eb=new A.yj(2,"down")
 B.ec=new A.yj(3,"left")
-B.ai8=new A.IQ(0,"closedLoop")
-B.ai9=new A.IQ(1,"leaveFlutterView")
-B.aia=new A.IQ(2,"parentScope")
+B.ai9=new A.IQ(0,"closedLoop")
+B.aia=new A.IQ(1,"leaveFlutterView")
+B.aib=new A.IQ(2,"parentScope")
 B.Jz=new A.IQ(3,"stop")
 B.bn=new A.UA(1,"isTrue")
 B.jM=new A.UA(2,"isFalse")
@@ -165054,126 +165063,126 @@ B.ro=new A.IR(0,"playing")
 B.jN=new A.IR(1,"stopped")
 B.rp=new A.IR(2,"paused")
 B.JA=new A.IR(3,"continued")
-B.aib=new A.UB(0,"idle")
-B.jO=new A.n0(B.aib,null)
+B.aic=new A.UB(0,"idle")
+B.jO=new A.n0(B.aic,null)
 B.jP=new A.UB(1,"playing")
 B.rq=new A.UB(2,"paused")
-B.aic=A.bp("c1p")
-B.aid=A.bp("qy")
+B.aid=A.bp("c1p")
+B.aie=A.bp("qy")
 B.JI=A.bp("wB")
 B.JJ=A.bp("wA")
-B.aie=A.bp("Os")
+B.aif=A.bp("Os")
 B.mR=A.bp("F_")
-B.aif=A.bp("e0")
-B.aig=A.bp("Fe")
-B.aih=A.bp("tc")
-B.aii=A.bp("eY")
-B.aij=A.bp("hh")
-B.aik=A.bp("tn")
+B.aig=A.bp("e0")
+B.aih=A.bp("Fe")
+B.aii=A.bp("tc")
+B.aij=A.bp("eY")
+B.aik=A.bp("hh")
+B.ail=A.bp("tn")
 B.JK=A.bp("lv")
 B.fo=A.bp("NS")
-B.ail=A.bp("Az")
-B.aim=A.bp("AA")
+B.aim=A.bp("Az")
+B.ain=A.bp("AA")
 B.JL=A.bp("bEM")
 B.JM=A.bp("nC")
-B.ain=A.bp("c1q")
-B.aio=A.bp("oT")
-B.aip=A.bp("ww")
-B.aiq=A.bp("qx")
+B.aio=A.bp("c1q")
+B.aip=A.bp("oT")
+B.aiq=A.bp("ww")
+B.air=A.bp("qx")
 B.hJ=A.bp("tB")
-B.air=A.bp("aCX")
-B.ais=A.bp("aCY")
-B.ait=A.bp("p_")
-B.aiu=A.bp("aI9")
-B.aiv=A.bp("aIa")
-B.aiw=A.bp("c3o")
-B.aix=A.bp("aIb")
+B.ais=A.bp("aCX")
+B.ait=A.bp("aCY")
+B.aiu=A.bp("p_")
+B.aiv=A.bp("aI9")
+B.aiw=A.bp("aIa")
+B.aix=A.bp("c3o")
+B.aiy=A.bp("aIb")
 B.JN=A.bp("qB")
-B.aiy=A.bp("V")
-B.aiz=A.bp("bY<a9<N>>")
-B.aiA=A.bp("q<a8<k,@>>")
-B.aiB=A.bp("GD")
+B.aiz=A.bp("V")
+B.aiA=A.bp("bY<a9<N>>")
+B.aiB=A.bp("q<a8<k,@>>")
+B.aiC=A.bp("GD")
 B.mS=A.bp("pd")
-B.aiC=A.bp("GH")
-B.aiD=A.bp("a8<k,@>")
+B.aiD=A.bp("GH")
+B.aiE=A.bp("a8<k,@>")
 B.rr=A.bp("Ql")
-B.aiE=A.bp("BG")
-B.aiF=A.bp("v")
-B.aiG=A.bp("H5")
+B.aiF=A.bp("BG")
+B.aiG=A.bp("v")
+B.aiH=A.bp("H5")
 B.mT=A.bp("ph")
-B.aiH=A.bp("un")
-B.aiI=A.bp("C7")
-B.aiJ=A.bp("uA")
-B.aiK=A.bp("AK")
-B.aiL=A.bp("xE")
-B.aiM=A.bp("pr")
-B.aiN=A.bp("bFX")
-B.aiO=A.bp("pw")
+B.aiI=A.bp("un")
+B.aiJ=A.bp("C7")
+B.aiK=A.bp("uA")
+B.aiL=A.bp("AK")
+B.aiM=A.bp("xE")
+B.aiN=A.bp("pr")
+B.aiO=A.bp("bFX")
+B.aiP=A.bp("pw")
 B.rs=A.bp("je")
 B.JO=A.bp("mS")
 B.mU=A.bp("HU")
-B.aiP=A.bp("xZ")
+B.aiQ=A.bp("xZ")
 B.JP=A.bp("CK")
-B.aiQ=A.bp("k")
+B.aiR=A.bp("k")
 B.JQ=A.bp("rq")
 B.jQ=A.bp("lT")
 B.JR=A.bp("h7")
-B.aiR=A.bp("yi")
+B.aiS=A.bp("yi")
 B.JS=A.bp("tJ")
-B.aiS=A.bp("tK")
-B.aiT=A.bp("b3t")
-B.aiU=A.bp("IV")
-B.aiV=A.bp("b3u")
-B.aiW=A.bp("df")
-B.aiX=A.bp("yk")
-B.aiY=A.bp("od")
-B.aiZ=A.bp("zg")
+B.aiT=A.bp("tK")
+B.aiU=A.bp("b3t")
+B.aiV=A.bp("IV")
+B.aiW=A.bp("b3u")
+B.aiX=A.bp("df")
+B.aiY=A.bp("yk")
+B.aiZ=A.bp("od")
+B.aj_=A.bp("zg")
 B.rt=A.bp("pK")
 B.ru=A.bp("V4")
-B.aj_=A.bp("Jg")
-B.aj0=A.bp("pS<@>")
-B.aj1=A.bp("rK")
-B.aj2=A.bp("AB")
+B.aj0=A.bp("Jg")
+B.aj1=A.bp("pS<@>")
+B.aj2=A.bp("rK")
+B.aj3=A.bp("AB")
 B.JU=A.bp("qC")
 B.JT=A.bp("qD")
 B.rv=A.bp("mt")
 B.JV=A.bp("aa")
-B.aj3=A.bp("up")
-B.aj4=A.bp("uQ")
+B.aj4=A.bp("up")
+B.aj5=A.bp("uQ")
 B.rw=A.bp("o")
-B.aj5=A.bp("a8<k,@>?")
-B.aj6=A.bp("yP")
+B.aj6=A.bp("a8<k,@>?")
+B.aj7=A.bp("yP")
 B.JW=A.bp("wC")
 B.JX=A.bp("lz")
-B.aj7=A.bp("pX")
-B.aj8=A.bp("tI")
+B.aj8=A.bp("pX")
+B.aj9=A.bp("tI")
 B.JY=A.bp("rp")
 B.rx=A.bp("lV")
-B.aj9=new A.ad2(0,"undo")
-B.aja=new A.ad2(1,"redo")
-B.ajb=new A.IZ(!1,!1)
-B.ajc=new A.ad4(0,"scope")
+B.aja=new A.ad2(0,"undo")
+B.ajb=new A.ad2(1,"redo")
+B.ajc=new A.IZ(!1,!1)
+B.ajd=new A.ad4(0,"scope")
 B.ry=new A.ad4(1,"previouslyFocusedChild")
-B.ajd=new A.Dh(0,"newDictation")
-B.aje=new A.Dh(1,"newTask")
-B.ajf=new A.Dh(2,"newMeeting")
-B.ajg=new A.Dh(3,"newClaude")
-B.ajh=new A.va("Meeting",B.dN,null)
-B.aji=new A.va("Task",B.cd,null)
+B.aje=new A.Dh(0,"newDictation")
+B.ajf=new A.Dh(1,"newTask")
+B.ajg=new A.Dh(2,"newMeeting")
+B.ajh=new A.Dh(3,"newClaude")
+B.aji=new A.va("Meeting",B.dN,null)
+B.ajj=new A.va("Task",B.cd,null)
 B.JZ=new A.Di(0,"appendSplit")
 B.K_=new A.Di(1,"pendingRow")
-B.ajj=new A.Di(2,"previewCard")
+B.ajk=new A.Di(2,"previewCard")
 B.K0=new A.Di(3,"inlineEditor")
-B.ajk=new A.Di(4,"plain")
-B.ajl=new A.ad7(null)
-B.ajm=new A.UK(0,"insert")
-B.ajn=new A.UK(1,"update")
-B.ajo=new A.Dl("DELETE",2,"delete")
+B.ajl=new A.Di(4,"plain")
+B.ajm=new A.ad7(null)
+B.ajn=new A.UK(0,"insert")
+B.ajo=new A.UK(1,"update")
+B.ajp=new A.Dl("DELETE",2,"delete")
 B.K1=new A.Dl("PATCH",1,"patch")
-B.ajp=new A.Dl("PUT",0,"put")
+B.ajq=new A.Dl("PUT",0,"put")
 B.mV=new A.UN(!1)
-B.ajq=new A.UN(!0)
-B.ajr=new A.dg("topLevel",t.kK)
+B.ajr=new A.UN(!0)
+B.ajs=new A.dg("topLevel",t.kK)
 B.cC=new A.aA(!1,null,t.vV)
 B.i=new A.aA(!1,null,t.R)
 B.hK=new A.aA(!1,null,t.xh)
@@ -165183,27 +165192,27 @@ B.u=new A.aA(!1,null,t.V)
 B.S=new A.aA(!1,null,t.CY)
 B.a6=new A.aA(!1,null,t.OW)
 B.b0=new A.aA(!1,null,t.aM)
-B.ajs=new A.aA(!0,"child",t.R)
-B.ajt=new A.aA(!0,!1,t.OW)
+B.ajt=new A.aA(!0,"child",t.R)
+B.aju=new A.aA(!0,!1,t.OW)
 B.K3=new A.aA(!0,"manual",t.R)
-B.aju=new A.aA(!0,null,t.V)
-B.ajv=new A.aA(!0,"sent",t.CY)
-B.ajw=new A.aA(!0,!0,t.xh)
-B.ajx=new A.aA(!0,!0,t.OW)
+B.ajv=new A.aA(!0,null,t.V)
+B.ajw=new A.aA(!0,"sent",t.CY)
+B.ajx=new A.aA(!0,!0,t.xh)
+B.ajy=new A.aA(!0,!0,t.OW)
 B.rA=new A.aA(!0,"",t.R)
 B.b7=new A.pJ(0,"monochrome")
-B.ajy=new A.pJ(1,"neutral")
-B.ajz=new A.pJ(2,"tonalSpot")
-B.ajA=new A.pJ(3,"vibrant")
-B.ajB=new A.pJ(4,"expressive")
+B.ajz=new A.pJ(1,"neutral")
+B.ajA=new A.pJ(2,"tonalSpot")
+B.ajB=new A.pJ(3,"vibrant")
+B.ajC=new A.pJ(4,"expressive")
 B.fp=new A.pJ(5,"content")
 B.fq=new A.pJ(6,"fidelity")
-B.ajC=new A.pJ(7,"rainbow")
-B.ajD=new A.pJ(8,"fruitSalad")
+B.ajD=new A.pJ(7,"rainbow")
+B.ajE=new A.pJ(8,"fruitSalad")
 B.K4=new A.yn(B.m,0,B.I,B.m)
 B.rB=new A.yn(B.m,1,B.I,B.m)
 B.dl=new A.it(B.m)
-B.ajE=new A.vf(B.a5j)
+B.ajF=new A.vf(B.a5k)
 B.K5=new A.cn("attempts")
 B.K6=new A.cn("audioKey")
 B.rC=new A.cn("audioPath")
@@ -165259,95 +165268,95 @@ B.KF=new A.cn("transcript")
 B.rK=new A.cn("transcriptSnapshot")
 B.dH=new A.cn("updatedAt")
 B.cD=new A.n3(!1,"This value was required, but isn't present")
-B.ajF=new A.n3(!1,"This column is not nullable and doesn't have a default value. Null fields thus can't be inserted.")
+B.ajG=new A.n3(!1,"This column is not nullable and doesn't have a default value. Null fields thus can't be inserted.")
 B.mY=new A.n3(!0,null)
-B.ajG=new A.lW(10)
-B.ajH=new A.lW(12)
+B.ajH=new A.lW(10)
+B.ajI=new A.lW(12)
 B.KG=new A.lW(14)
-B.ajI=new A.lW(2570)
-B.ajJ=new A.lW(3850)
-B.ajK=new A.lW(522)
+B.ajJ=new A.lW(2570)
+B.ajK=new A.lW(3850)
+B.ajL=new A.lW(522)
 B.KH=new A.lW(778)
-B.ajL=new A.lW(8)
-B.ajM=new A.UR(0,"undefined")
+B.ajM=new A.lW(8)
+B.ajN=new A.UR(0,"undefined")
 B.KI=new A.UR(1,"forward")
-B.ajN=new A.UR(2,"backward")
-B.ajO=new A.adz(0,"unfocused")
+B.ajO=new A.UR(2,"backward")
+B.ajP=new A.adz(0,"unfocused")
 B.rL=new A.adz(1,"focused")
 B.jS=new A.vi(0,0)
-B.ajP=new A.vi(-2,-2)
+B.ajQ=new A.vi(-2,-2)
 B.KJ=new A.UT(0,"floating")
-B.ajQ=new A.UT(1,"start")
-B.ajR=new A.UT(2,"end")
+B.ajR=new A.UT(1,"start")
+B.ajS=new A.UT(2,"end")
 B.KM=new A.UU(0,"none")
-B.ak3=new A.UU(1,"record")
-B.ak4=new A.UU(2,"commandListen")
-B.apa=new A.V3(null)
+B.ak4=new A.UU(1,"record")
+B.ak5=new A.UU(2,"commandListen")
+B.apc=new A.V3(null)
 B.hO=new A.di(0,t.XR)
 B.KN=new A.di(18,t.XR)
 B.n1=new A.di(24,t.XR)
 B.cn=new A.di(B.ae,t.De)
-B.apb=new A.di(B.ae,t.rc)
-B.abz=new A.a1(1/0,1/0)
-B.hP=new A.di(B.abz,t.W7)
+B.apd=new A.di(B.ae,t.rc)
+B.abA=new A.a1(1/0,1/0)
+B.hP=new A.di(B.abA,t.W7)
 B.n2=new A.di(B.l6,t.mD)
-B.abt=new A.a1(40,40)
-B.n3=new A.di(B.abt,t.W7)
-B.abw=new A.a1(64,40)
-B.KO=new A.di(B.abw,t.W7)
+B.abu=new A.a1(40,40)
+B.n3=new A.di(B.abu,t.W7)
+B.abx=new A.a1(64,40)
+B.KO=new A.di(B.abx,t.W7)
 B.hQ=new A.di(B.IH,t.dy)
 B.bw=new A.ft(4,"selected")
 B.b9=new A.ft(6,"disabled")
-B.apc=new A.V6(0,"everyEvent")
+B.ape=new A.V6(0,"everyEvent")
 B.rT=new A.V6(1,"eventAfterLastWindow")
-B.apd=new A.V6(2,"firstEventOnly")
-B.ape=new A.V7(null)
+B.apf=new A.V6(2,"firstEventOnly")
+B.apg=new A.V7(null)
 B.fr=new A.yx(0,"start")
-B.apf=new A.yx(1,"end")
-B.apg=new A.yx(2,"center")
-B.aph=new A.yx(3,"spaceBetween")
-B.api=new A.yx(4,"spaceAround")
-B.apj=new A.yx(5,"spaceEvenly")
+B.aph=new A.yx(1,"end")
+B.api=new A.yx(2,"center")
+B.apj=new A.yx(3,"spaceBetween")
+B.apk=new A.yx(4,"spaceAround")
+B.apl=new A.yx(5,"spaceEvenly")
 B.L1=new A.V9(0,"start")
-B.apk=new A.V9(1,"end")
+B.apm=new A.V9(1,"end")
 B.L2=new A.V9(2,"center")
 B.L3=new A.Vg(0,"createNew")
 B.L4=new A.Vg(1,"linkOneNotePage")
-B.apo=new A.Vj(null)
+B.apq=new A.Vj(null)
 B.bo=new A.Jf(0,"forward")
 B.fs=new A.Jf(1,"reverse")
-B.aps=new A.aeO(null)
-B.apt=new A.aeP(null)
-B.apu=new A.af4(null)
-B.apv=new A.VG(0,"checkbox")
-B.apw=new A.VG(1,"radio")
-B.apx=new A.VG(2,"toggle")
-B.apy=new A.VJ(B.i0)
-B.apz=new A.VJ(B.u3)
-B.apA=new A.VJ(B.u4)
+B.apu=new A.aeO(null)
+B.apv=new A.aeP(null)
+B.apw=new A.af4(null)
+B.apx=new A.VG(0,"checkbox")
+B.apy=new A.VG(1,"radio")
+B.apz=new A.VG(2,"toggle")
+B.apA=new A.VJ(B.i0)
+B.apB=new A.VJ(B.u3)
+B.apC=new A.VJ(B.u4)
 B.z=new A.Dt("=",2,"equal")
 B.L6=new A.Dt("<",0,"less")
-B.apB=new A.Dt(">",4,"more")
-B.apC=new A.Dt("<=",1,"lessOrEqual")
-B.apD=new A.Dt(">=",3,"moreOrEqual")
-B.apE=new A.afQ(null)
+B.apD=new A.Dt(">",4,"more")
+B.apE=new A.Dt("<=",1,"lessOrEqual")
+B.apF=new A.Dt(">=",3,"moreOrEqual")
+B.apG=new A.afQ(null)
 B.L7=new A.W0(0,"plain")
-B.apF=new A.W0(1,"tinted")
+B.apH=new A.W0(1,"tinted")
 B.L8=new A.W0(2,"filled")
 B.Qo=new A.T(0.01568627450980392,0,0,0,B.l)
 B.VD=s([B.Qo,B.ae],t.t_)
-B.apG=new A.pM(B.VD)
-B.apH=new A.pM(null)
+B.apI=new A.pM(B.VD)
+B.apJ=new A.pM(null)
 B.rU=new A.Dx(0,"backButton")
 B.rV=new A.Dx(1,"nextButton")
 B.L9=new A.le("  ",3,"none")
-B.apJ=new A.le("\u251c\u2500",1,"branch")
-B.apK=new A.le("\u2514\u2500",2,"leaf")
+B.apL=new A.le("\u251c\u2500",1,"branch")
+B.apM=new A.le("\u2514\u2500",2,"leaf")
 B.La=new A.le("\u2502 ",0,"parentBranch")
 B.hR=new A.agJ(0,"horizontal")
 B.hS=new A.agJ(1,"vertical")
 B.Lb=new A.agN(0,"dropped")
-B.apL=new A.agN(1,"canceled")
+B.apN=new A.agN(1,"canceled")
 B.dJ=new A.Wv(0,"ready")
 B.jT=new A.Ww(0,"ready")
 B.Lc=new A.Wv(1,"possible")
@@ -165357,44 +165366,44 @@ B.hT=new A.Ww(2,"accepted")
 B.aA=new A.DG(0,"initial")
 B.jV=new A.DG(1,"active")
 B.Ld=new A.DG(2,"inactive")
-B.apM=new A.DG(3,"failed")
+B.apO=new A.DG(3,"failed")
 B.Le=new A.DG(4,"defunct")
 B.rX=new A.DJ(0,"ready")
 B.n5=new A.DJ(1,"possible")
 B.Lf=new A.DJ(2,"accepted")
 B.n6=new A.DJ(3,"started")
-B.apT=new A.DJ(4,"peaked")
+B.apV=new A.DJ(4,"peaked")
 B.jW=new A.WW(0,"pan")
 B.n7=new A.WW(1,"scale")
-B.apU=new A.WW(2,"rotate")
+B.apW=new A.WW(2,"rotate")
 B.n8=new A.JT(0,"idle")
-B.apV=new A.JT(1,"absorb")
+B.apX=new A.JT(1,"absorb")
 B.n9=new A.JT(2,"pull")
 B.Lg=new A.JT(3,"recede")
 B.fu=new A.yO(0,"pressed")
 B.hU=new A.yO(1,"hover")
 B.Lh=new A.yO(2,"focus")
-B.apW=new A.ahV(0,"changeCloudDestination")
-B.apX=new A.bha(0,"standard")
+B.apY=new A.ahV(0,"changeCloudDestination")
+B.apZ=new A.bha(0,"standard")
 B.bp=new A.K3(1,"maxWidth")
 B.bj=new A.K3(2,"minHeight")
 B.bg=new A.K3(3,"maxHeight")
-B.apY=new A.DO(0,"openOneNote")
-B.apZ=new A.DO(1,"addToFolder")
-B.aq_=new A.DO(2,"moveToFolder")
-B.aq0=new A.DO(3,"delete")
+B.aq_=new A.DO(0,"openOneNote")
+B.aq0=new A.DO(1,"addToFolder")
+B.aq1=new A.DO(2,"moveToFolder")
+B.aq2=new A.DO(3,"delete")
 B.Lk=new A.aiE(null)
 B.aQ=new A.jP(1)
 B.dK=new A.hb(0,"size")
 B.Ll=new A.hb(1,"width")
-B.aqc=new A.hb(11,"viewPadding")
-B.aqd=new A.hb(15,"highContrast")
-B.aqe=new A.hb(16,"onOffSwitchLabels")
+B.aqe=new A.hb(11,"viewPadding")
+B.aqf=new A.hb(15,"highContrast")
+B.aqg=new A.hb(16,"onOffSwitchLabels")
 B.rY=new A.hb(18,"boldText")
-B.aqf=new A.hb(2,"height")
+B.aqh=new A.hb(2,"height")
 B.na=new A.hb(20,"navigationMode")
 B.jY=new A.hb(21,"gestureSettings")
-B.aqg=new A.hb(23,"supportsShowingSystemContextMenu")
+B.aqi=new A.hb(23,"supportsShowingSystemContextMenu")
 B.nb=new A.hb(24,"lineHeightScaleFactorOverride")
 B.nc=new A.hb(25,"letterSpacingOverride")
 B.nd=new A.hb(26,"wordSpacingOverride")
@@ -165404,45 +165413,45 @@ B.bx=new A.hb(6,"textScaler")
 B.ex=new A.hb(7,"platformBrightness")
 B.cE=new A.hb(8,"padding")
 B.k0=new A.hb(9,"viewInsets")
-B.aqi=new A.DS(null)
-B.aqk=new A.bjH(0,"value")
+B.aqk=new A.DS(null)
+B.aqm=new A.bjH(0,"value")
 B.Lm=new A.yU(1/0,1/0,1/0,1/0,1/0,1/0)
-B.aql=new A.DT(0,"isCurrent")
+B.aqn=new A.DT(0,"isCurrent")
 B.Ln=new A.XD(0,"off")
 B.Lo=new A.XD(1,"commands")
 B.rZ=new A.XD(2,"dictate")
-B.aqm=new A.fJ(B.hi,B.he)
+B.aqo=new A.fJ(B.hi,B.he)
 B.ly=new A.Bh(1,"left")
-B.aqn=new A.fJ(B.hi,B.ly)
+B.aqp=new A.fJ(B.hi,B.ly)
 B.lz=new A.Bh(2,"right")
-B.aqo=new A.fJ(B.hi,B.lz)
-B.aqp=new A.fJ(B.hi,B.dX)
-B.aqq=new A.fJ(B.hj,B.he)
-B.aqr=new A.fJ(B.hj,B.ly)
-B.aqs=new A.fJ(B.hj,B.lz)
-B.aqt=new A.fJ(B.hj,B.dX)
-B.aqu=new A.fJ(B.hk,B.he)
-B.aqv=new A.fJ(B.hk,B.ly)
-B.aqw=new A.fJ(B.hk,B.lz)
-B.aqx=new A.fJ(B.hk,B.dX)
-B.aqy=new A.fJ(B.hl,B.he)
-B.aqz=new A.fJ(B.hl,B.ly)
-B.aqA=new A.fJ(B.hl,B.lz)
-B.aqB=new A.fJ(B.hl,B.dX)
-B.aqC=new A.fJ(B.q8,B.dX)
-B.aqD=new A.fJ(B.q9,B.dX)
-B.aqE=new A.fJ(B.qa,B.dX)
-B.aqF=new A.fJ(B.qb,B.dX)
+B.aqq=new A.fJ(B.hi,B.lz)
+B.aqr=new A.fJ(B.hi,B.dX)
+B.aqs=new A.fJ(B.hj,B.he)
+B.aqt=new A.fJ(B.hj,B.ly)
+B.aqu=new A.fJ(B.hj,B.lz)
+B.aqv=new A.fJ(B.hj,B.dX)
+B.aqw=new A.fJ(B.hk,B.he)
+B.aqx=new A.fJ(B.hk,B.ly)
+B.aqy=new A.fJ(B.hk,B.lz)
+B.aqz=new A.fJ(B.hk,B.dX)
+B.aqA=new A.fJ(B.hl,B.he)
+B.aqB=new A.fJ(B.hl,B.ly)
+B.aqC=new A.fJ(B.hl,B.lz)
+B.aqD=new A.fJ(B.hl,B.dX)
+B.aqE=new A.fJ(B.q8,B.dX)
+B.aqF=new A.fJ(B.q9,B.dX)
+B.aqG=new A.fJ(B.qa,B.dX)
+B.aqH=new A.fJ(B.qb,B.dX)
 B.Lp=new A.yV(0,"openOneNote")
 B.Lq=new A.yV(1,"addToFolder")
 B.Lr=new A.yV(2,"moveToFolder")
-B.aqG=new A.yV(3,"move")
+B.aqI=new A.yV(3,"move")
 B.Ls=new A.yV(4,"delete")
-B.aqH=new A.ajF(null)
-B.aqI=new A.DX(null)
-B.aqK=new A.ajL(null)
-B.aqJ=new A.ajN(null)
-B.aqN=new A.Ks("reaches root")
+B.aqJ=new A.ajF(null)
+B.aqK=new A.DX(null)
+B.aqM=new A.ajL(null)
+B.aqL=new A.ajN(null)
+B.aqP=new A.Ks("reaches root")
 B.t_=new A.Ks("below root")
 B.t0=new A.Ks("at root")
 B.t1=new A.Ks("above root")
@@ -165450,69 +165459,69 @@ B.ed=new A.Kt("different")
 B.t2=new A.Kt("equal")
 B.fv=new A.Kt("inconclusive")
 B.t3=new A.Kt("within")
-B.aqO=new A.Kv(250)
-B.aqP=new A.Kx(null)
-B.aqQ=new A.Ky(null,null,null,null,!0)
-B.Xu=s([B.aqQ],t.Rm)
+B.aqQ=new A.Kv(250)
+B.aqR=new A.Kx(null)
+B.aqS=new A.Ky(null,null,null,null,!0)
+B.Xu=s([B.aqS],t.Rm)
 B.Lt=new A.akZ(B.Xu)
-B.aqR=new A.Yc(null)
+B.aqT=new A.Yc(null)
 B.Lu=new A.jl(0,"staging")
 B.ne=new A.jl(1,"add")
-B.aqS=new A.jl(10,"remove")
-B.aqT=new A.jl(11,"popping")
-B.aqU=new A.jl(12,"removing")
+B.aqU=new A.jl(10,"remove")
+B.aqV=new A.jl(11,"popping")
+B.aqW=new A.jl(12,"removing")
 B.nf=new A.jl(13,"dispose")
-B.aqV=new A.jl(14,"disposing")
+B.aqX=new A.jl(14,"disposing")
 B.ng=new A.jl(15,"disposed")
-B.aqW=new A.jl(2,"adding")
+B.aqY=new A.jl(2,"adding")
 B.t4=new A.jl(3,"push")
 B.Lv=new A.jl(4,"pushReplace")
 B.Lw=new A.jl(5,"pushing")
-B.aqX=new A.jl(6,"replace")
+B.aqZ=new A.jl(6,"replace")
 B.k1=new A.jl(7,"idle")
 B.t5=new A.jl(8,"pop")
-B.aqY=new A.jl(9,"complete")
+B.ar_=new A.jl(9,"complete")
 B.k2=new A.KS(0,"ready")
 B.k3=new A.KS(1,"possible")
 B.Ly=new A.KS(2,"accepted")
 B.nh=new A.KS(3,"started")
-B.abp=new A.a1(100,0)
-B.aqZ=new A.Ef(B.abp,B.U,B.hs,null,null)
-B.ar_=new A.Ef(B.av,B.U,B.hs,null,null)
-B.ar0=new A.KT("App",4,null)
-B.ar1=new A.KT("Folders",0,null)
-B.ar2=new A.KT("Library",4,null)
+B.abq=new A.a1(100,0)
+B.ar0=new A.Ef(B.abq,B.U,B.hs,null,null)
+B.ar1=new A.Ef(B.av,B.U,B.hs,null,null)
+B.ar2=new A.KT("App",4,null)
+B.ar3=new A.KT("Folders",0,null)
+B.ar4=new A.KT("Library",4,null)
 B.t7=new A.Zr(0,"leftmost")
 B.t8=new A.Zr(1,"rightmost")
 B.Lz=new A.Zr(2,"inbetween")
 B.fw=new A.pW("")
-B.ar3=new A.Li(null)
+B.ar5=new A.Li(null)
 B.LA=new A.Ll(0,"first")
-B.ar4=new A.Ll(1,"middle")
+B.ar6=new A.Ll(1,"middle")
 B.LB=new A.Ll(2,"last")
 B.t9=new A.Ll(3,"only")
 B.LC=new A.a_z(B.du,B.it)
 B.ni=new A.a_D(0,"leading")
 B.nj=new A.a_D(1,"middle")
 B.nk=new A.a_D(2,"trailing")
-B.ar5=new A.ap_(0,"minimize")
-B.ar6=new A.ap_(1,"maximize")
-B.ar7=new A.ap1(null)
-B.ar8=new A.a0f(null)
-B.ar9=new A.jS(B.a7,A.cfj())
-B.ara=new A.jS(B.a7,A.cff())
-B.arb=new A.jS(B.a7,A.cfn())
-B.arc=new A.jS(B.a7,A.cfg())
-B.ard=new A.jS(B.a7,A.cfh())
-B.are=new A.jS(B.a7,A.cfi())
-B.arf=new A.jS(B.a7,A.cfk())
-B.arg=new A.jS(B.a7,A.cfm())
-B.arh=new A.jS(B.a7,A.cfo())
-B.ari=new A.jS(B.a7,A.cfp())
-B.arj=new A.jS(B.a7,A.cfq())
-B.ark=new A.jS(B.a7,A.cfr())
-B.arl=new A.jS(B.a7,A.cfl())
-B.arm=new A.Ly(null,null,null,null,null,null,null,null,null,null,null,null,null)})();(function staticFields(){$.bHo=null
+B.ar7=new A.ap_(0,"minimize")
+B.ar8=new A.ap_(1,"maximize")
+B.ar9=new A.ap1(null)
+B.ara=new A.a0f(null)
+B.arb=new A.jS(B.a7,A.cfj())
+B.arc=new A.jS(B.a7,A.cff())
+B.ard=new A.jS(B.a7,A.cfn())
+B.are=new A.jS(B.a7,A.cfg())
+B.arf=new A.jS(B.a7,A.cfh())
+B.arg=new A.jS(B.a7,A.cfi())
+B.arh=new A.jS(B.a7,A.cfk())
+B.ari=new A.jS(B.a7,A.cfm())
+B.arj=new A.jS(B.a7,A.cfo())
+B.ark=new A.jS(B.a7,A.cfp())
+B.arl=new A.jS(B.a7,A.cfq())
+B.arm=new A.jS(B.a7,A.cfr())
+B.arn=new A.jS(B.a7,A.cfl())
+B.aro=new A.Ly(null,null,null,null,null,null,null,null,null,null,null,null,null)})();(function staticFields(){$.bHo=null
 $.bvQ=null
 $.cQ=A.m_("canvasKit")
 $.bLm=A.m_("_instance")
@@ -165588,8 +165597,8 @@ $.bT7=A.t(t.C_,t.lT)
 $.mY=null
 $.avt=null
 $.bOW=!1
-$.bSs=B.a0x
-$.bSt=B.a0w
+$.bSs=B.a0y
+$.bSt=B.a0x
 $.as_=null
 $.bHH=null
 $.bSS=null
@@ -165763,7 +165772,7 @@ return new A.alF(A.bFy(20,q,p),n,o)})
 s($,"cpm","bY5",()=>A.B([B.wQ,A.bTR("grapheme"),B.wR,A.bTR("word")],A.ae("PJ"),t.m))
 s($,"cqH","bZ3",()=>{var q="v8BreakIterator"
 if(A.a6(A.a6(A.q5(),"Intl"),q)==null)A.Z(A.e3("v8BreakIterator is not supported."))
-return A.ccC(A.bHB(A.bHB(A.q5(),"Intl"),q),A.bNy([]),A.bO8(B.a5g))})
+return A.ccC(A.bHB(A.bHB(A.q5(),"Intl"),q),A.bNy([]),A.bO8(B.a5h))})
 s($,"cqB","bYZ",()=>A.bFE(4))
 s($,"cqz","bJL",()=>A.bFE(16))
 s($,"cqA","bYY",()=>A.c49($.bJL()))
@@ -165833,7 +165842,7 @@ s($,"coj","bXl",()=>typeof FinalizationRegistry=="function"?FinalizationRegistry
 s($,"coO","bXI",()=>A.af("^[\\-\\.0-9A-Z_a-z~]*$",!0,!1,!1))
 s($,"coP","bXJ",()=>typeof URLSearchParams=="function")
 s($,"ckw","bVr",()=>A.af("^([+-]?\\d{4,6})-?(\\d\\d)-?(\\d\\d)(?:[ T](\\d\\d)(?::?(\\d\\d)(?::?(\\d\\d)(?:[.,](\\d+))?)?)?( ?[zZ]| ?([-+])(\\d\\d)(?::?(\\d\\d))?)?)?$",!0,!1,!1))
-s($,"cph","iy",()=>A.rO(B.aiF))
+s($,"cph","iy",()=>A.rO(B.aiG))
 s($,"cn9","rT",()=>{A.c5I()
 return $.aQf})
 r($,"cpZ","asJ",()=>new A.bxe().$0())
@@ -165863,7 +165872,7 @@ s($,"cpo","bY7",()=>Symbol("jsBoxedDartObjectProperty"))
 s($,"cmI","bJe",()=>{var q=new A.bii(A.c4z(8))
 q.ayR()
 return q})
-s($,"ckR","hO",()=>J.a1R(B.a5O.gbm(A.c4F(A.fY(A.b([1],t.t)))),0,null).getInt8(0)===1?B.bJ:B.tO)
+s($,"ckR","hO",()=>J.a1R(B.a5P.gbm(A.c4F(A.fY(A.b([1],t.t)))),0,null).getInt8(0)===1?B.bJ:B.tO)
 s($,"cr2","a1D",()=>new A.ax0(A.t(t.N,A.ae("vo"))))
 s($,"coM","bXG",()=>new A.bsM())
 s($,"coE","bXB",()=>new A.bmh(50,A.t(A.ae("Ye"),t.ke)))
@@ -166046,12 +166055,12 @@ s($,"cri","bJQ",()=>new A.afY())
 s($,"cov","bXw",()=>A.Df(1,0,t.i))
 s($,"cou","bXv",()=>A.Df(0,1,t.i))
 s($,"cpN","bYp",()=>A.Df(B.j7,B.m,t.F))
-s($,"cpG","bDE",()=>A.Df(B.m,B.a6H,t.F))
+s($,"cpG","bDE",()=>A.Df(B.m,B.a6I,t.F))
 s($,"cpr","bYa",()=>A.Df(B.fb,B.m,t.F))
-r($,"coe","bXj",()=>A.c11(B.apH,B.apG))
+r($,"coe","bXj",()=>A.c11(B.apJ,B.apI))
 s($,"ckp","bVn",()=>A.Df(B.fb,B.m,t.F))
 s($,"cko","bVm",()=>A.Df(1.3,1,t.i))
-s($,"cpO","asG",()=>A.c7H(B.abH,0,1,0,!1,B.dF))
+s($,"cpO","asG",()=>A.c7H(B.abI,0,1,0,!1,B.dF))
 s($,"ckq","bVo",()=>A.bQ7(new A.ayQ(),!0))
 s($,"crj","bJR",()=>new A.a47())
 r($,"crP","Md",()=>$.bZi().u(0,"windowing"))
@@ -166098,7 +166107,7 @@ return A.B([B.pR,A.cO([B.cR,B.dc],q),B.pT,A.cO([B.iV,B.lN],q),B.pS,A.cO([B.hh,B.
 s($,"csC","bZs",()=>new A.aPl())
 s($,"cmM","bJg",()=>new A.aRw(A.b([],A.ae("A<~(uD)>")),A.t(t.v3,t.bd)))
 s($,"cmL","bWu",()=>{var q=t.v3
-return A.B([B.aqv,A.cO([B.hp],q),B.aqw,A.cO([B.hr],q),B.aqx,A.cO([B.hp,B.hr],q),B.aqu,A.cO([B.hp],q),B.aqr,A.cO([B.ho],q),B.aqs,A.cO([B.jc],q),B.aqt,A.cO([B.ho,B.jc],q),B.aqq,A.cO([B.ho],q),B.aqn,A.cO([B.hn],q),B.aqo,A.cO([B.jb],q),B.aqp,A.cO([B.hn,B.jb],q),B.aqm,A.cO([B.hn],q),B.aqz,A.cO([B.hq],q),B.aqA,A.cO([B.jd],q),B.aqB,A.cO([B.hq,B.jd],q),B.aqy,A.cO([B.hq],q),B.aqC,A.cO([B.fc],q),B.aqD,A.cO([B.m5],q),B.aqE,A.cO([B.m4],q),B.aqF,A.cO([B.ja],q)],A.ae("fJ"),A.ae("aY<O>"))})
+return A.B([B.aqx,A.cO([B.hp],q),B.aqy,A.cO([B.hr],q),B.aqz,A.cO([B.hp,B.hr],q),B.aqw,A.cO([B.hp],q),B.aqt,A.cO([B.ho],q),B.aqu,A.cO([B.jc],q),B.aqv,A.cO([B.ho,B.jc],q),B.aqs,A.cO([B.ho],q),B.aqp,A.cO([B.hn],q),B.aqq,A.cO([B.jb],q),B.aqr,A.cO([B.hn,B.jb],q),B.aqo,A.cO([B.hn],q),B.aqB,A.cO([B.hq],q),B.aqC,A.cO([B.jd],q),B.aqD,A.cO([B.hq,B.jd],q),B.aqA,A.cO([B.hq],q),B.aqE,A.cO([B.fc],q),B.aqF,A.cO([B.m5],q),B.aqG,A.cO([B.m4],q),B.aqH,A.cO([B.ja],q)],A.ae("fJ"),A.ae("aY<O>"))})
 s($,"cmK","bJf",()=>A.B([B.hp,B.hh,B.hr,B.iU,B.ho,B.cR,B.jc,B.dc,B.hn,B.cQ,B.jb,B.db,B.hq,B.iV,B.jd,B.lN,B.fc,B.iQ,B.m5,B.lL,B.m4,B.lM],t.v3,t.bd))
 s($,"cmJ","bWt",()=>{var q=A.t(t.v3,t.bd)
 q.l(0,B.ja,B.pO)
@@ -166112,11 +166121,11 @@ q.gaBc().jK(q.gaMa())
 return q})
 s($,"coB","bDB",()=>new A.akb())
 s($,"cnD","asD",()=>{var q=new A.ad3()
-q.a=B.a74
+q.a=B.a75
 q.gaWz().jK(q.gaKu())
 return q})
 r($,"cnT","bXa",()=>{var q=A.ae("~(bV<c6>)")
-return A.B([B.ain,A.bMj(!0),B.aic,A.bMj(!1),B.aiN,new A.aao(A.a8q(q)),B.aiE,new A.a8i(A.a8q(q)),B.aiI,new A.a9d(A.a8q(q)),B.JL,new A.Ok(!1,A.a8q(q)),B.rs,A.c6W(),B.aiJ,new A.a9g(A.a8q(q)),B.rt,A.c9i()],t.Q,t.od)})
+return A.B([B.aio,A.bMj(!0),B.aid,A.bMj(!1),B.aiO,new A.aao(A.a8q(q)),B.aiF,new A.a8i(A.a8q(q)),B.aiJ,new A.a9d(A.a8q(q)),B.JL,new A.Ok(!1,A.a8q(q)),B.rs,A.c6W(),B.aiK,new A.a9g(A.a8q(q)),B.rt,A.c9i()],t.Q,t.od)})
 s($,"ckB","bDr",()=>{var q,p,o,n=t.vz,m=A.t(t.Vz,n)
 for(q=A.ae("b3"),p=0;p<2;++p){o=B.pL[p]
 m.L(0,A.B([A.jg(B.c1,!1,!1,!1,o),B.oq,A.jg(B.c1,!1,!0,!1,o),B.ot,A.jg(B.c1,!0,!1,!1,o),B.or,A.jg(B.bU,!1,!0,!1,o),B.iw,A.jg(B.bU,!0,!1,!1,o),B.os],q,n))}m.l(0,B.I9,B.iv)
@@ -166140,14 +166149,14 @@ m.l(0,B.If,B.lc)
 m.l(0,B.Ig,B.ld)
 m.l(0,B.Ij,B.w4)
 m.l(0,B.Ik,B.w5)
-m.l(0,B.abd,B.w0)
-m.l(0,B.abe,B.w1)
+m.l(0,B.abe,B.w0)
+m.l(0,B.abf,B.w1)
 m.l(0,B.jr,B.pi)
 m.l(0,B.jy,B.pj)
 m.l(0,B.r2,B.le)
 m.l(0,B.qY,B.lf)
 return m})
-s($,"ckA","asu",()=>A.B([B.aaD,B.oj,B.aaC,B.oi,B.aaN,B.nG,B.I6,B.oj,B.aaF,B.oi,B.aax,B.nG,B.qV,B.tV,B.ab1,B.u_,B.abc,B.tU,B.jq,B.O,B.mD,B.O],t.Vz,t.vz))
+s($,"ckA","asu",()=>A.B([B.aaE,B.oj,B.aaD,B.oi,B.aaO,B.nG,B.I6,B.oj,B.aaG,B.oi,B.aay,B.nG,B.qV,B.tV,B.ab2,B.u_,B.abd,B.tU,B.jq,B.O,B.mD,B.O],t.Vz,t.vz))
 s($,"ckz","bIW",()=>{var q=A.dD($.bDr(),t.Vz,t.vz)
 q.L(0,$.asu())
 q.l(0,B.jz,B.vZ)
@@ -166160,7 +166169,7 @@ q.l(0,B.qT,B.la)
 q.l(0,B.qU,B.lb)
 return q})
 s($,"ckC","bVs",()=>$.bIW())
-s($,"ckE","bIX",()=>A.B([B.aaO,B.l9,B.aaP,B.l8,B.aaz,B.iG,B.aaQ,B.iH,B.abh,B.w5,B.abi,B.w4,B.abl,B.w0,B.abj,B.w1,B.aaA,B.le,B.aaR,B.lf,B.aaS,B.iG,B.aaT,B.iH,B.abb,B.iv,B.aaE,B.iw,B.aaG,B.h2,B.aaH,B.h1,B.ab7,B.h5,B.aaI,B.h6,B.aaV,B.ld,B.aaW,B.lc,B.ab5,B.Tu,B.aaX,B.Tv,B.ab8,B.pi,B.aaJ,B.pj,B.aaK,B.h5,B.aaL,B.h6,B.aaU,B.iv,B.abn,B.iw],t.Vz,t.vz))
+s($,"ckE","bIX",()=>A.B([B.aaP,B.l9,B.aaQ,B.l8,B.aaA,B.iG,B.aaR,B.iH,B.abi,B.w5,B.abj,B.w4,B.abm,B.w0,B.abk,B.w1,B.aaB,B.le,B.aaS,B.lf,B.aaT,B.iG,B.aaU,B.iH,B.abc,B.iv,B.aaF,B.iw,B.aaH,B.h2,B.aaI,B.h1,B.ab8,B.h5,B.aaJ,B.h6,B.aaW,B.ld,B.aaX,B.lc,B.ab6,B.Tu,B.aaY,B.Tv,B.ab9,B.pi,B.aaK,B.pj,B.aaL,B.h5,B.aaM,B.h6,B.aaV,B.iv,B.abo,B.iw],t.Vz,t.vz))
 s($,"ckF","bVu",()=>{var q=A.dD($.bDr(),t.Vz,t.vz)
 q.L(0,$.asu())
 q.L(0,$.bIX())
@@ -166197,9 +166206,9 @@ m.l(0,B.Id,B.h3)
 m.l(0,B.Ie,B.h4)
 m.l(0,B.Ih,B.vT)
 m.l(0,B.Ii,B.vU)
-m.l(0,B.ab3,B.pg)
-m.l(0,B.ab4,B.ph)
-m.l(0,B.ab_,B.tZ)
+m.l(0,B.ab4,B.pg)
+m.l(0,B.ab5,B.ph)
+m.l(0,B.ab0,B.tZ)
 m.l(0,B.jz,B.HA)
 m.l(0,B.jA,B.HB)
 m.l(0,B.js,B.pg)
@@ -166212,14 +166221,14 @@ m.l(0,B.I5,B.oj)
 m.l(0,B.I8,B.oi)
 m.l(0,B.I7,B.nG)
 m.l(0,B.Ip,B.tV)
-m.l(0,B.abm,B.u_)
-m.l(0,B.ab2,B.tU)
-m.l(0,B.abg,B.eT)
+m.l(0,B.abn,B.u_)
+m.l(0,B.ab3,B.tU)
+m.l(0,B.abh,B.eT)
 m.l(0,B.qV,B.eS)
-m.l(0,B.aay,B.h2)
-m.l(0,B.aaB,B.h1)
-m.l(0,B.aaZ,B.h6)
-m.l(0,B.ab9,B.h5)
+m.l(0,B.aaz,B.h2)
+m.l(0,B.aaC,B.h1)
+m.l(0,B.ab_,B.h6)
+m.l(0,B.aba,B.h5)
 m.l(0,B.jq,B.O)
 m.l(0,B.mD,B.O)
 return m})
@@ -166271,7 +166280,7 @@ q.l(0,B.js,B.O)
 q.l(0,B.mC,B.O)
 q.l(0,B.mB,B.O)
 return q})
-r($,"coy","bJw",()=>new A.ajK(B.aqJ,B.aA))
+r($,"coy","bJw",()=>new A.ajK(B.aqL,B.aA))
 s($,"col","bXn",()=>A.Df(1,0,t.i))
 s($,"cmj","q7",()=>A.bEZ())
 s($,"cok","bXm",()=>A.bZ(16667,0,0))
@@ -166311,9 +166320,9 @@ s($,"cq1","bYy",()=>A.af('"(?:[^"\\x00-\\x1F\\x7F\\\\]|\\\\.)*"',!0,!1,!1))
 s($,"cq0","bYx",()=>A.af("\\\\(.)",!0,!1,!1))
 s($,"csp","bZp",()=>A.af('[()<>@,;:"\\\\/\\[\\]?={} \\t\\x00-\\x1F\\x7F]',!0,!1,!1))
 s($,"ctw","bZD",()=>A.af("(?:"+$.bYu().a+")*",!0,!1,!1))
-s($,"cru","bZk",()=>new A.azG("en_US",B.Xx,B.a35,B.xx,B.xx,B.xa,B.xa,B.f_,B.f_,B.xf,B.xf,B.xh,B.xh,B.xw,B.xw,B.Zm,B.a2u,B.Xp))
+s($,"cru","bZk",()=>new A.azG("en_US",B.Xx,B.a36,B.xx,B.xx,B.xa,B.xa,B.f_,B.f_,B.xf,B.xf,B.xh,B.xh,B.xw,B.xw,B.Zm,B.a2v,B.Xp))
 r($,"cp3","bDC",()=>A.bQw("initializeDateFormatting(<locale>)",$.bZk()))
-r($,"crl","bJT",()=>A.bQw("initializeDateFormatting(<locale>)",B.a5e))
+r($,"crl","bJT",()=>A.bQw("initializeDateFormatting(<locale>)",B.a5f))
 s($,"cqR","bZa",()=>48)
 s($,"ckv","bVq",()=>A.b([A.af("^'(?:[^']|'')*'",!0,!1,!1),A.af("^(?:G+|y+|M+|k+|S+|E+|a+|h+|K+|H+|c+|L+|Q+|d+|D+|m+|s+|v+|z+|Z+)",!0,!1,!1),A.af("^[^'GyMkSEahKHcLQdDmsvzZ]+",!0,!1,!1)],t._t))
 s($,"cof","bXk",()=>A.af("''",!0,!1,!1))
@@ -166441,7 +166450,7 @@ s($,"cmO","bJh",()=>new A.abl(B.aj))
 s($,"cqb","M7",()=>new A.aYW(A.pa(null,t.a_)))
 s($,"cnI","bX3",()=>A.aRq())
 s($,"cmQ","bJi",()=>new A.v())
-r($,"c6a","vX",()=>{var q=new A.aSV(B.a5A)
+r($,"c6a","vX",()=>{var q=new A.aSV(B.a5B)
 q.jQ($.bJi())
 return q})
 s($,"cq2","bYz",()=>A.bON(null))
@@ -166468,7 +166477,7 @@ s($,"cku","bIV",()=>A.bEZ())
 s($,"cq3","bYA",()=>A.bON(null))
 r($,"cnP","bDA",()=>{var q="navigator"
 return A.c3E(A.c3F(A.a6(A.q5(),q),A.bGi("locks")))?new A.b4K(A.a6(A.a6(A.q5(),q),"locks")):null})
-s($,"cmf","bWj",()=>A.c25(B.a2H,A.ae("cX<er>")))
+s($,"cmf","bWj",()=>A.c25(B.a2I,A.ae("cX<er>")))
 s($,"cqD","bJM",()=>new A.b3G(A.t(t.N,A.ae("l7<dQ>"))))
 s($,"cqw","bYV",()=>new A.v())
 s($,"cqL","bZ7",()=>A.af("^#\\d+\\s+(\\S.*) \\((.+?)((?::\\d+){0,2})\\)$",!0,!1,!1))
