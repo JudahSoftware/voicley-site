@@ -60,6 +60,17 @@
   section{padding:72px 0}
   h2{font-size:clamp(26px,4vw,38px);letter-spacing:-.015em;text-align:center;margin-bottom:14px}
   .lead{color:var(--dim);text-align:center;max-width:640px;margin:0 auto 42px;font-size:17px}
+  /* THE ONE-BOX PROMISE — the simplified inbox, stated plainly for a
+     first-time visitor: a box you talk into, and everything you've said. */
+  .sub.simple{margin-top:-14px;font-size:17px;color:var(--text);opacity:.92}
+  .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:900px;margin:0 auto}
+  .s3{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px 20px}
+  .s3 .n{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;
+    border-radius:99px;background:linear-gradient(135deg,rgba(94,139,255,.22),rgba(155,107,255,.22));
+    color:#cddafe;font-weight:700;font-size:13px;margin-bottom:10px}
+  .s3 h3{font-size:17px;margin-bottom:6px}
+  .s3 p{color:var(--dim);font-size:14.5px;line-height:1.5}
+  @media(max-width:760px){.steps3{grid-template-columns:1fr}}
   /* CONTRAST */
   .contrast{max-width:820px;margin:0 auto;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel)}
   .crow{display:grid;grid-template-columns:1fr 1fr}
@@ -126,7 +137,8 @@
 <header class="wrap">
   <span class="eyebrow"><b>Not a dictation app.</b>&nbsp; It's your thinking, captured.</span>
   <h1>Think out loud.<br><span class="grad">Every idea, its own place.</span></h1>
-  <p class="sub">Speak your mind — one thought after another. Voicley keeps each idea separate, files them into your goals and strategies, and reads them back to you. The ideas you used to lose are now a library you can revisit.</p>
+  <p class="sub">Say your thoughts, ideas, plans and strategies out loud — one after another. Voicley keeps each one as its own note, files them where they belong, and reads them back to you. The thinking you used to lose is now a library you can revisit.</p>
+  <p class="sub simple"><b>One box to talk into, and everything you’ve said underneath it.</b> That’s the whole screen. Nothing to set up, nothing to learn.</p>
   <div class="cta-row">
     <a class="btn big" href="#download">Start capturing — free</a>
     <a class="btn big ghost" href="app/">Open your library</a>
@@ -135,8 +147,8 @@
 
   <div class="mock" aria-hidden="true">
     <div class="mock-head">
-      <span class="t">📁 Q3 Strategy</span>
-      <span class="f">▶ Listen to this folder</span>
+      <span class="t">Say or type your text here</span>
+      <span class="f">✓ Done</span>
     </div>
     <div class="mitem live">
       <span class="dot"></span>
@@ -167,6 +179,16 @@
     </div>
   </div>
 </header>
+
+<section id="simple" class="wrap">
+  <h2>One box. That’s the app.</h2>
+  <p class="lead">Open Voicley and there are two things: a box you talk into, and everything you’ve said before it. No projects to create, no templates to pick, no blank page staring back. You press Dictate and start talking about whatever is actually on your mind.</p>
+  <div class="steps3">
+    <div class="s3"><span class="n">1</span><h3>Press Dictate</h3><p>The box starts listening. Your words appear as you say them.</p></div>
+    <div class="s3"><span class="n">2</span><h3>Say “new note” between thoughts</h3><p>That’s the only thing to learn. Each thought becomes its own note instead of one endless block.</p></div>
+    <div class="s3"><span class="n">3</span><h3>Your thinking stacks up</h3><p>Every note lands in the list below, titled for you, ready to file, search or hear read back.</p></div>
+  </div>
+</section>
 
 <section id="why" class="wrap">
   <h2>Other apps give you a wall of text.</h2>
