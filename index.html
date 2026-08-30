@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Voicley — think out loud. Every idea, its own place.</title>
-<meta name="description" content="Voicley captures your thoughts by voice — one idea after another, each its own note — then organizes them and reads them back to you. Not dictation. Your thinking, captured.">
+<meta name="description" content="Voicley captures your thoughts by voice — one idea after another, each its own note — then files them, reads them back, and listens for your next idea while it reads. Not dictation. Your thinking, captured.">
 <meta property="og:title" content="Voicley — think out loud. Every idea, its own place.">
-<meta property="og:description" content="Speak your mind, one thought at a time. Voicley keeps each idea separate, files them into your goals and strategies, and plays them back to you — hands-free.">
+<meta property="og:description" content="Speak your mind, one thought at a time. Voicley keeps each idea separate, files it into your goals and strategies, and plays your thinking back — pausing to listen, so you can talk back. Hands-free.">
 <style>
   :root{
     --bg:#f5f6f8; --panel:#ffffff; --panel2:#f0f1f4; --line:#e2e3e9;
@@ -47,7 +47,7 @@
   .mitem{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:11px 14px;margin-bottom:8px;display:flex;gap:11px;align-items:flex-start}
   .mitem.live{border-color:var(--red);box-shadow:0 0 0 1px rgba(255,91,91,.35),0 0 18px rgba(255,91,91,.16)}
   .dot{width:11px;height:11px;border-radius:999px;margin-top:4px;flex:0 0 auto;background:var(--accent2)}
-  .dot.task{background:var(--green)} .dot.meet{background:var(--amber)} .dot.idea{background:var(--violet)}
+  .dot.playing{background:var(--green)}
   .mtag{font-size:10.5px;letter-spacing:.5px;color:var(--faint);text-transform:uppercase;font-weight:700}
   .mtitle{font-weight:600;font-size:14.5px;margin-top:1px}
   .mbody{color:var(--dim);font-size:13.5px;margin-top:2px}
@@ -157,20 +157,20 @@
       </div>
     </div>
     <div class="mitem">
-      <span class="dot idea"></span>
-      <div><span class="mtag">Idea</span>
+      <span class="dot playing"></span>
+      <div><span class="mtag">▶ Now playing · Q3 Strategy</span>
         <div class="mtitle">Bundle the reader as its own paid tier</div>
       </div>
     </div>
     <div class="mitem">
-      <span class="dot task"></span>
-      <div><span class="mtag">Task</span>
+      <span class="dot"></span>
+      <div><span class="mtag">Q3 Strategy</span>
         <div class="mtitle">Ask legal about the EU data question</div>
       </div>
     </div>
     <div class="mitem">
-      <span class="dot meet"></span>
-      <div><span class="mtag">Meeting</span>
+      <span class="dot"></span>
+      <div><span class="mtag">Follow-ups</span>
         <div class="mtitle">Pricing sync with Dana — 14 min</div>
       </div>
     </div>
@@ -214,12 +214,12 @@
     <div class="verb">
       <span class="vn">🗂</span>
       <h3>Organize</h3>
-      <p>Later, your ideas are all there — separate, titled, waiting. Drag them into folders for a project, a goal, a strategy. Organize your thinking like a mind, not a filing cabinet.</p>
+      <p>Later, your ideas are all there — separate, titled, waiting. Drag them into folders for a project, a goal, a strategy — or let AI propose where each one belongs and file the pile in a few taps. Organize your thinking like a mind, not a filing cabinet.</p>
     </div>
     <div class="verb">
       <span class="vn">🎧</span>
       <h3>Listen</h3>
-      <p>Then hit play and hear your ideas back — a whole folder, in order, in your own words. Review your strategy on a drive. Relive last week’s thinking on a walk. Hands-free.</p>
+      <p>Then hit play and hear your ideas back — a playlist of your thinking, in the voice and speed you choose. And when a new idea lands mid-playback, just start talking: it stops for you, captures it, and carries on. Hands-free, both directions.</p>
     </div>
   </div>
 </section>
@@ -228,7 +228,7 @@
   <div class="band">
     <span class="k">The part no one else does</span>
     <h2>Listen to your own mind, strategically.</h2>
-    <p>Every app can record you. <span class="em">Voicley plays you back.</span> Queue a folder of goals and strategies into a listening program, set the order, and press play — your best thinking becomes a private podcast of your own ideas, ready whenever you need to get back into it.</p>
+    <p>Every app can record you. <span class="em">Voicley plays you back — and listens while it does.</span> Build a playlist of your goals and strategies, press play, and your best thinking becomes a private podcast of your own ideas. Between sentences it is listening: speak, and it stops for you, captures the new idea, and resumes. Thinking in both directions, hands-free.</p>
   </div>
 </section>
 
@@ -238,7 +238,7 @@
   <div class="story">
     <div class="sline"><div class="when">Tue · 8:10a</div><div class="what"><b>Driving in.</b> Ideas start coming — a product angle, a worry, a plan for the quarter. You just talk. “New note.” Talk. “New note.” Talk. Each becomes its own card. Nothing gets lost.</div></div>
     <div class="sline"><div class="when">Tue · 9:00a</div><div class="what"><b>At your desk.</b> They’re all there, separate. You drag three of them into <b>Q3 Strategy</b> and turn one into a task — “ask legal about the EU data question.”</div></div>
-    <div class="sline"><div class="when">Wed · 8:05a</div><div class="what"><b>Same drive.</b> You hit play on <b>Q3 Strategy</b> and listen to your whole plan, in your own voice, back to you — and three new ideas land before you reach the office.</div></div>
+    <div class="sline"><div class="when">Wed · 8:05a</div><div class="what"><b>Same drive.</b> You hit play on <b>Q3 Strategy</b> and listen to your whole plan back. Halfway through, a better idea lands — you just start talking. The reader stops, captures it, and picks back up where it left off. Three new ideas before you reach the office.</div></div>
   </div>
 </section>
 
@@ -247,13 +247,13 @@
   <p class="lead">Built around one law: <b>capture first.</b> Your words hit disk from the first syllable — the network, the engine, even the app can hiccup and you still lose nothing.</p>
   <div class="grid">
     <div class="card"><div class="ic">⚡</div><h3>Live as you talk</h3><p>Words appear in well under a second, punctuated and clean — a streaming engine built for real time, so your thoughts keep pace with your mouth.</p></div>
-    <div class="card"><div class="ic">🗣</div><h3>Your voice runs it</h3><p>“New note.” “New task… end task.” “New paragraph.” “Stop dictation.” The whole app answers to your voice — the buttons are just backup.</p></div>
-    <div class="card"><div class="ic">🎧</div><h3>Read back to you</h3><p>Every note reads itself aloud; every recording replays. Line up folders into a listening program and relive your thinking, hands-free.</p></div>
-    <div class="card"><div class="ic">📋</div><h3>Notes, tasks &amp; meetings</h3><p>Say “new task” mid-thought and it files itself to your task list. Long recordings become meetings, broken out by speaker.<span class="new">NEW</span></p></div>
-    <div class="card"><div class="ic">📁</div><h3>Organize &amp; sync</h3><p>Drag ideas into folders and sub-folders; everything — text and audio — syncs across your phone and PC, in the order you set.</p></div>
+    <div class="card"><div class="ic">🎧</div><h3>Listen while you dictate<span class="new">NEW</span></h3><p>Press play and the mic stays open. It reads a sentence, pauses to listen — and the moment you speak it stops for you, captures the idea, then carries on. A conversation with your own notes, built for the car.</p></div>
+    <div class="card"><div class="ic">📻</div><h3>Playlists &amp; Now Playing<span class="new">NEW</span></h3><p>Line up folders and items into playlists, set the order, pick the reading voice and speed. Now Playing follows the reading word by word — tap any word to jump there — and Resume drops you right where you left off.</p></div>
+    <div class="card"><div class="ic">🪄</div><h3>It files itself<span class="new">NEW</span></h3><p>Every note is titled for you as you speak. When the inbox piles up, AI proposes the right folder for each idea — even brand-new folders — and one tap files it. You approve every move.</p></div>
+    <div class="card"><div class="ic">🗣</div><h3>Your voice runs it</h3><p>“New note.” “New paragraph.” “Stop dictation.” The whole app answers to your voice — the buttons are just backup.</p></div>
+    <div class="card"><div class="ic">🗂</div><h3>Organize &amp; sync</h3><p>Folders and sub-folders — and one idea can live in several at once. Drag to file from any screen, and everything, text and audio, syncs across your phone and PC in the order you set.</p></div>
     <div class="card"><div class="ic">📓</div><h3>OneNote, live</h3><p>Dictation can stream straight into your OneNote pages as you speak — titles, sections and all — so your archive fills itself.</p></div>
-    <div class="card"><div class="ic">🔒</div><h3>Local-first</h3><p>Works fully offline. Your recordings and text live on your device first — the cloud is a convenience, not a requirement.</p></div>
-    <div class="card"><div class="ic">🛟</div><h3>Never loses a word</h3><p>Audio is saved from the first frame. Dead network, a crash, a phone call mid-sentence — it recovers and re-transcribes. If you said it, it’s saved.</p></div>
+    <div class="card"><div class="ic">🛟</div><h3>Never loses a word</h3><p>Local-first and fully offline-capable: audio is saved from the first frame. Dead network, a crash, a call mid-sentence — it recovers and re-transcribes. And if the connection drops mid-thought, an optional offline engine keeps live captions rolling until it returns.<span class="new">NEW</span></p></div>
   </div>
 </section>
 
@@ -272,7 +272,7 @@
       <a class="btn big ghost" href="app/">💻&nbsp; Open in your browser</a>
       <a class="btn big ghost" href="#signup">📱&nbsp; Android — join the list</a>
     </div>
-    <small>Windows 10/11 · ~15 MB · installs per-user, no admin needed. Live capture works out of the box; optional AI extras (smart titles, cleanup) activate with your own key in Settings.</small>
+    <small>Windows 10/11 · ~15 MB · installs per-user, no admin needed. Live capture works out of the box; optional AI extras (smart titles, AI filing) activate with your own key in Settings.</small>
 
     <div id="signup" style="margin-top:40px">
       <h3 style="margin-bottom:6px">Early access list</h3>
