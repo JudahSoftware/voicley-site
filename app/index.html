@@ -41,6 +41,61 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <!-- THE WEB VERSION UPDATES ITSELF (Roger, 2026-09-22: "refreshed web and
+       not seeing the latest updates?"). A browser keeps its own copy of a web
+       app, so a plain refresh can hand back the copy it already has. Every
+       build writes its stamp into build-stamp.txt beside this page and into
+       the line below (scripts/build-web-public.ps1). On load - and again on
+       returning to the tab - the page asks the site for the stamp, without
+       using any stored copy. A different stamp means a newer build is up:
+       throw away the stored copies and reload, once per stamp per tab (the
+       sessionStorage guard, so a stale index can never loop).
+
+       There is no service worker any more (the build passes
+       --pwa-strategy=none; Flutter's own is deprecated). The unregister below
+       clears the ones earlier builds left on his machines, which would go on
+       serving the old app for ever. The cost, stated plainly: the web version
+       no longer opens without internet - it needs the network for dictation
+       regardless. -->
+  <script>
+    window.voicleyWebBuild = "d553580d 4:35 PM";
+    (function () {
+      var mine = window.voicleyWebBuild || '';
+      function forget() {
+        var jobs = [];
+        if (navigator.serviceWorker && navigator.serviceWorker.getRegistrations) {
+          jobs.push(navigator.serviceWorker.getRegistrations().then(function (rs) {
+            return Promise.all(rs.map(function (r) { return r.unregister(); }));
+          }));
+        }
+        if (window.caches && caches.keys) {
+          jobs.push(caches.keys().then(function (ks) {
+            return Promise.all(ks.map(function (k) { return caches.delete(k); }));
+          }));
+        }
+        return Promise.all(jobs).catch(function () {});
+      }
+      forget();
+      function check() {
+        if (!mine || mine.indexOf('__') === 0) return;
+        fetch('build-stamp.txt?t=' + Date.now(), { cache: 'no-store' })
+          .then(function (r) { return r.ok ? r.text() : null; })
+          .then(function (t) {
+            var latest = (t || '').trim();
+            if (!latest || latest === mine) return;
+            var done = null;
+            try { done = sessionStorage.getItem('voicley-web-build'); } catch (e) {}
+            if (done === latest) return;
+            try { sessionStorage.setItem('voicley-web-build', latest); } catch (e) {}
+            forget().then(function () { location.reload(); });
+          })
+          .catch(function () {});
+      }
+      check();
+      setInterval(check, 5 * 60 * 1000);
+      window.addEventListener('focus', check);
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
