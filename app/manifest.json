@@ -1,11 +1,11 @@
 {
-    "name": "dictate",
-    "short_name": "dictate",
+    "name": "Voicley",
+    "short_name": "Voicley",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Dictate it. A new note for every thought.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
