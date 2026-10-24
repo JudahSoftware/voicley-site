@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voicley — Reset your password</title>
+<meta name="description" content="Choose a new password for your Voicley account.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+  /* Matches the landing page and the privacy page: Broadcast look, Brass. */
+  :root{
+    --bg:#F3F2EE; --panel:#ffffff; --line:#121417;
+    --text:#121417; --dim:#50545C; --brass:#7D631F; --red:#B3261E;
+    --display:"Archivo","Arial Narrow",Arial,sans-serif; --body:"Source Serif 4",Georgia,serif; --mono:"JetBrains Mono",Consolas,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font:17px/1.65 var(--body)}
+  a{color:var(--brass)}
+  .wrap{max-width:520px;margin:0 auto;padding:48px 16px 80px}
+  h1{font-family:var(--display);font-weight:800;font-stretch:125%;text-transform:uppercase;letter-spacing:-.01em;line-height:1.05;font-size:32px;margin-bottom:18px}
+  p{color:var(--dim);margin-bottom:14px}
+  .card{background:var(--panel);border:2px solid var(--line);border-radius:2px;padding:22px 22px}
+  label{display:block;font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;color:var(--text);margin:6px 0 6px}
+  input{width:100%;font:17px var(--body);padding:11px 12px;border:2px solid var(--line);border-radius:2px;background:#fff;color:var(--text)}
+  button{margin-top:16px;width:100%;font-family:var(--mono);font-weight:600;font-size:14px;letter-spacing:.04em;padding:12px;border:2px solid var(--line);border-radius:2px;background:var(--text);color:#fff;cursor:pointer}
+  button:disabled{opacity:.5;cursor:default}
+  .msg{margin-top:14px;font-size:15px}
+  .err{color:var(--red)}
+  .home{display:inline-block;margin-bottom:26px;font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--text);text-decoration:none}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="home" href="/">&larr; Voicley</a>
+  <h1>Reset your password</h1>
+
+  <!-- Step 1: ask for the email. The link it sends comes back to this page. -->
+  <div class="card" id="ask">
+    <p>Type the email address of your Voicley account. We'll send a link to choose a new password.</p>
+    <form id="askForm">
+      <label for="email">Email</label>
+      <input id="email" type="email" autocomplete="email" required>
+      <button id="askBtn" type="submit">Send the link</button>
+    </form>
+    <div class="msg" id="askMsg"></div>
+  </div>
+
+  <!-- Step 2: back from the email link - choose the new password. -->
+  <div class="card" id="choose" hidden>
+    <p>Choose a new password for your Voicley account.</p>
+    <form id="chooseForm">
+      <label for="pw">New password (at least 8 characters)</label>
+      <input id="pw" type="password" autocomplete="new-password" minlength="8" required>
+      <button id="chooseBtn" type="submit">Save the new password</button>
+    </form>
+    <div class="msg" id="chooseMsg"></div>
+  </div>
+
+  <div class="card" id="done" hidden>
+    <p><b>Your new password is saved.</b> Go back to Voicley and sign in with it (Settings, Account &amp; sync).</p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script>
+  // The Voicley project's PUBLIC client key (the same one every app build and
+  // the web app carry; row level security guards the data). The implicit flow
+  // lets the link this page asks for be finished on this page, in whatever
+  // browser opens the email - the app's own PKCE flow cannot do that.
+  const sb = supabase.createClient(
+    'https://bhjakjyoezusqzzzanvu.supabase.co',
+    'sb_publishable_d6o4aJWS72oO9iw9Lz-mvQ_EwE8HZlA',
+    { auth: { flowType: 'implicit', detectSessionInUrl: true, persistSession: false } }
+  );
+  const $ = (id) => document.getElementById(id);
+  const say = (el, text, bad) => { el.textContent = text; el.className = 'msg' + (bad ? ' err' : ''); };
+  const here = 'https://www.voicley.com/reset.html';
+
+  // Back from the email: the link carries a recovery session.
+  sb.auth.onAuthStateChange((event) => {
+    if (event === 'PASSWORD_RECOVERY') { $('ask').hidden = true; $('choose').hidden = false; }
+  });
+  if (location.hash.includes('type=recovery')) { $('ask').hidden = true; $('choose').hidden = false; }
+  if (location.hash.includes('error=')) {
+    say($('askMsg'), 'That link has expired or was already used. Send a new one.', true);
+  }
+
+  $('askForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    $('askBtn').disabled = true;
+    const { error } = await sb.auth.resetPasswordForEmail($('email').value.trim(), { redirectTo: here });
+    $('askBtn').disabled = false;
+    // Same answer for an address with no account, so the page never says who has one.
+    if (error) say($('askMsg'), 'Could not send the email: ' + error.message, true);
+    else say($('askMsg'), 'If that address has a Voicley account, the link is on its way. Open it on any device.');
+  });
+
+  $('chooseForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const pw = $('pw').value;
+    if (pw.length < 8) { say($('chooseMsg'), 'Use at least 8 characters.', true); return; }
+    $('chooseBtn').disabled = true;
+    const { error } = await sb.auth.updateUser({ password: pw });
+    $('chooseBtn').disabled = false;
+    if (error) { say($('chooseMsg'), 'Could not save it: ' + error.message, true); return; }
+    $('choose').hidden = true; $('done').hidden = false;
+    await sb.auth.signOut();
+  });
+</script>
+</body>
+</html>

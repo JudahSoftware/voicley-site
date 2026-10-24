@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voicley — Email confirmed</title>
+<meta name="description" content="Your Voicley account's email is confirmed.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+  /* Matches the landing page and the privacy page: Broadcast look, Brass. */
+  :root{
+    --bg:#F3F2EE; --panel:#ffffff; --line:#121417;
+    --text:#121417; --dim:#50545C; --brass:#7D631F; --red:#B3261E;
+    --display:"Archivo","Arial Narrow",Arial,sans-serif; --body:"Source Serif 4",Georgia,serif; --mono:"JetBrains Mono",Consolas,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font:17px/1.65 var(--body)}
+  a{color:var(--brass)}
+  .wrap{max-width:520px;margin:0 auto;padding:48px 16px 80px}
+  h1{font-family:var(--display);font-weight:800;font-stretch:125%;text-transform:uppercase;letter-spacing:-.01em;line-height:1.05;font-size:32px;margin-bottom:18px}
+  p{color:var(--dim);margin-bottom:14px}
+  .card{background:var(--panel);border:2px solid var(--line);border-radius:2px;padding:22px 22px}
+  .err{color:var(--red)}
+  .home{display:inline-block;margin-bottom:26px;font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--text);text-decoration:none}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="home" href="/">&larr; Voicley</a>
+  <h1 id="title">Email confirmed</h1>
+  <div class="card" id="ok">
+    <p><b>Your Voicley account is ready.</b> Go back to Voicley and sign in (Settings, Account &amp; sync) with the email and password you chose.</p>
+    <p>Your library syncs to every device you sign in on, and cloud transcription is on.</p>
+  </div>
+  <div class="card" id="bad" hidden>
+    <p class="err"><b>That link has expired or was already used.</b></p>
+    <p>If you already confirmed, just sign in in Voicley. Otherwise create the account again in the app and open the newest email.</p>
+  </div>
+</div>
+<script>
+  // Supabase has already confirmed the address before it sends people here;
+  // the page only has to say so. A failed link arrives with error= in it.
+  const q = location.search + location.hash;
+  if (q.includes('error=')) {
+    document.getElementById('ok').hidden = true;
+    document.getElementById('bad').hidden = false;
+    document.getElementById('title').textContent = 'Link not valid';
+  }
+</script>
+</body>
+</html>
