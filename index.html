@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Voicley — Dictate it. A new note for every thought.</title>
-<meta name="description" content="Unleash your mind, one thought at a time. Dictate it: a new note for every thought. Capture the free flow of your ideas, one after another: Voicley turns each one into its own note, cleaned up and titled for you.">
-<meta property="og:title" content="Voicley — Dictate it. A new note for every thought.">
-<meta property="og:description" content="Unleash your mind, one thought at a time. Recorders give you one long file; Voicley gives every thought its own note, cleaned up and titled for you.">
+<title>Voicley — One thought. One dictation.</title>
+<meta name="description" content="Unleash your mind, one thought at a time. Voicley is dictation that keeps every thought separate: say “new dictation” between ideas and each one becomes its own dictation, cleaned up and titled for you.">
+<meta property="og:title" content="Voicley — One thought. One dictation.">
+<meta property="og:description" content="Unleash your mind, one thought at a time. Recorders give you one long file; Voicley gives every thought its own dictation, cleaned up and titled for you. Try it on the page.">
+<link rel="stylesheet" href="demo/voice-demo.css">
+<script src="demo/voice-demo.js" defer></script>
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="theme-color" content="#FFFFFF">
@@ -159,11 +161,14 @@
   </span>
 </div></nav>
 
-<header><div class="wrap hero">
+<header>
+<div class="wrap vfullhead">
+  <div class="eyebrow label">Unleash your mind, one thought at a time</div>
+  <h1>One thought. <em>One dictation.</em></h1>
+</div>
+<div class="wrap hero">
   <div>
-    <div class="eyebrow label">Unleash your mind, one thought at a time</div>
-    <h1>Dictate it. <em>A new note for every thought.</em></h1>
-    <p class="sub"><b>Capture the free flow of your ideas, one after another.</b> There are plenty of dictation and recording apps, and every one of them does the same thing: one session, one long file. None of them makes a new note for each thought. Voicley does. It’s dictation for the ideas you’d lose by lunchtime. Say them out loud the moment they arrive, one after another, and each one becomes its own note, cleaned up and titled for you. One of them might be worth a million dollars. Voicley costs less than lunch.</p>
+    <p class="sub"><b>Capture the free flow of your ideas, one after another.</b> There are plenty of dictation and recording apps, and every one of them does the same thing: one session, one long file. None of them keeps each thought separate. Voicley does. It’s dictation for the ideas you’d lose by lunchtime. Say them out loud the moment they arrive, with “new dictation” between them, and each one becomes its own dictation, cleaned up and titled for you. One of them might be worth a million dollars. Voicley costs less than lunch.</p>
     <p class="sub simple"><b>One box to talk into, and everything you’ve said underneath it.</b> That’s the whole screen. Nothing to set up, nothing to learn.</p>
     <div class="cta-row">
       <a class="btn big" href="#download">Download for Windows</a>
@@ -171,14 +176,7 @@
     </div>
     <p class="fine">Free in early access · Windows · Android by invite · voicley.com/app</p>
   </div>
-  <div class="mock" aria-hidden="true">
-    <div class="mhead"><b>Inbox</b><span>Dictating · 0:42</span></div>
-    <div class="box">Move the launch to mid-August so the pricing page ships first, and get Dana on the webinar<span class="cursor"></span></div>
-    <div class="mrow"><span class="pill">Off</span><span class="pill">Commands only</span><span class="pill on">Dictate</span></div>
-    <div class="count">39 notes have a place ›</div>
-    <div class="item playing"><div class="bar">Bundle the reader as its own paid tier<span>▶ Reading</span></div><div class="body">If the reader is the part nobody else has, it can carry its own price…</div><div class="foot">Suggested folder · Q3 Strategy</div></div>
-    <div class="item"><div class="bar">Ask legal about the EU data question<span>★</span></div><div class="body">Before the pricing page goes up, check what the EU change means for stored audio.</div><div class="foot">Follow-ups</div></div>
-  </div>
+  <div id="vdemo" aria-label="Try Voicley: a live dictation demo"></div>
 </div></header>
 
 <section id="simple"><div class="wrap">
