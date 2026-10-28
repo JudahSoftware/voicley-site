@@ -3,9 +3,9 @@
     "short_name": "Voicley",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Dictate it. A new note for every thought.",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "description": "Dictate your ideas, thoughts and aspirations as they come to you.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
